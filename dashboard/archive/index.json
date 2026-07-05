@@ -1,0 +1,33 @@
+{
+  "days": [
+    {
+      "date": "2026-07-06",
+      "world_headline": "Iran begins burying Khamenei with his successor still in hiding, a Category-5 typhoon slams America's Pacific islands, and Mumbai shuts down under torrential rain \u2014 as diplomats converge on Ankara to talk about ending the Ukraine war."
+    },
+    {
+      "date": "2026-07-05",
+      "world_headline": "The world's oil arteries are the story of the day \u2014 the Strait of Hormuz reopens as a wounded Iran buries Khamenei, while Ukraine sets a Russian oil terminal ablaze and Trump phones Putin to talk peace.",
+      "market_headline": "A quiet Sunday with the tape still frozen at last week's closes \u2014 but the big change is relief: the Strait of Hormuz is reopening, India has stood down its gas emergency, and the week ahead turns on Indian Q1 earnings, not an oil shock."
+    },
+    {
+      "date": "2026-07-04",
+      "world_headline": "America turns 250 under a deadly heat dome while Iran's threat to charge tolls in the Strait of Hormuz turns oil into the world's biggest wildcard.",
+      "market_headline": "A holiday-weekend lull with the tape frozen at last week's closes \u2014 but Iran's Strait of Hormuz toll threat leaves oil (and India) the thing to watch, while Bitcoin quietly firms."
+    },
+    {
+      "date": "2026-07-03",
+      "world_headline": "Russia unleashes its biggest strike yet on Kyiv as Iran buries its assassinated Supreme Leader \u2014 while a weak US jobs report quietly flips the world's most important interest-rate question.",
+      "market_headline": "A weak US jobs report kills the rate-hike fear \u2014 Dow hits a record and gold jumps, Apple rockets ~5%, while India grinds higher against a soft rupee and record foreign outflows."
+    },
+    {
+      "date": "2026-07-02",
+      "world_headline": "The Fed's new chair strikes a calmer tone as inflation expectations ease \u2014 cooling yesterday's rate-hike panic, even as the AI trade wobbles and India's tech stocks roar back.",
+      "market_headline": "Fed's Warsh calms the rate-hike fear as inflation expectations ease \u2014 US tech wobbles on AI doubts while India's IT stocks lead a rebound."
+    },
+    {
+      "date": "2026-07-01",
+      "world_headline": "A Middle East energy shock and a fresh inflation scare push the Fed toward rate HIKES \u2014 and it reaches all the way to India's pump prices and the rupee.",
+      "market_headline": "Risk-on tape shrugs off a hot core PCE print as AI names lead \u2014 but Bitcoin sits deeply oversold near 52-week lows."
+    }
+  ]
+}

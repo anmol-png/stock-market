@@ -1,0 +1,337 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T14:30:00+05:30",
+  "headline": "Fed's Warsh calms the rate-hike fear as inflation expectations ease \u2014 US tech wobbles on AI doubts while India's IT stocks lead a rebound.",
+  "market_story": "The mood shifted from yesterday's inflation panic to cautious relief. Federal Reserve Chair **Kevin Warsh said inflation expectations have eased**, which softens the fear of aggressive rate HIKES that had hung over markets \u2014 good news for stocks, gold and crypto, which all suffer when rates rise. But US tech had a wobble: investors questioned the durability of the AI rally, so the tech-heavy **Nasdaq fell 0.66%** and **Nvidia slipped 1.25%**, even as the broad S&P 500 barely moved. The day's real standout was **India**: money rotated out of US tech and into Indian software, sending **IT stocks sharply higher** (Infosys +5.5%, TCS +3.8%) and lifting the Nifty and Sensex ~0.5%. Bitcoin stayed weak near $60k on crypto-specific outflows, gold firmed, and crude slipped. Net: the panic dial eased, but leadership rotated from US AI names toward India.",
+  "board": [
+    {
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "currency": "",
+      "value": "7,483",
+      "change_pct": -0.22,
+      "read": "The main US large-cap gauge dipped slightly \u2014 a broad market holding roughly flat while tech did the falling."
+    },
+    {
+      "name": "Nasdaq",
+      "ticker": "^IXIC",
+      "currency": "",
+      "value": "26,040",
+      "change_pct": -0.66,
+      "read": "The tech-heavy index led the decline as investors reassessed the AI rally \u2014 the day's weak spot."
+    },
+    {
+      "name": "Dow Jones",
+      "ticker": "^DJI",
+      "currency": "",
+      "value": "52,305",
+      "change_pct": -0.03,
+      "read": "The old-economy blue-chips were basically flat \u2014 steadier than tech, a mildly defensive tilt."
+    },
+    {
+      "name": "Nifty 50",
+      "ticker": "^NSEI",
+      "currency": "",
+      "value": "24,126",
+      "change_pct": 0.5,
+      "read": "India's benchmark rose, powered by a sharp rebound in IT stocks \u2014 India out-performed the US today."
+    },
+    {
+      "name": "Sensex",
+      "ticker": "^BSESN",
+      "currency": "",
+      "value": "77,304",
+      "change_pct": 0.5,
+      "read": "India's 30-stock index tracked the Nifty higher on the IT-led rally."
+    },
+    {
+      "name": "Bank Nifty",
+      "ticker": "^NSEBANK",
+      "currency": "",
+      "value": "58,144",
+      "change_pct": 0.19,
+      "read": "Banks rose only mildly \u2014 today the leadership was IT, not financials."
+    },
+    {
+      "name": "Bitcoin",
+      "ticker": "BTC-USD",
+      "currency": "$",
+      "value": "60,165",
+      "change_pct": 0.27,
+      "read": "Barely moved and still weak; crypto is being pressured by its own outflows and liquidations, not by the broader market."
+    },
+    {
+      "name": "Gold",
+      "ticker": "GC=F",
+      "currency": "$",
+      "value": "4,089",
+      "change_pct": 0.5,
+      "read": "Firmed as the Fed's calmer tone and easing rate fears made the no-yield metal more attractive."
+    },
+    {
+      "name": "Crude Oil (WTI)",
+      "ticker": "CL=F",
+      "currency": "$",
+      "value": "67.55",
+      "change_pct": -1.5,
+      "read": "Slipped, easing the inflation pressure \u2014 though Russia/Hormuz supply risks keep a floor under it."
+    },
+    {
+      "name": "USD / INR",
+      "ticker": "INR=X",
+      "currency": "\u20b9",
+      "value": "95.28",
+      "change_pct": 0.38,
+      "read": "The rupee stayed soft near 95 per dollar; a calmer Fed helps, but oil imports and outflows weigh."
+    }
+  ],
+  "themes": [
+    {
+      "theme": "Indian IT",
+      "direction": "up",
+      "note": "Nifty IT +3.4% \u2014 Infosys +5.5%, TCS +3.8%; a sharp reversal from yesterday's drag, and the day's clear leader."
+    },
+    {
+      "theme": "US Big Tech / AI",
+      "direction": "down",
+      "note": "Nasdaq -0.66% and Nvidia -1.25% as investors questioned how durable the AI rally is."
+    },
+    {
+      "theme": "Rates / the Fed",
+      "direction": "mixed",
+      "note": "Warsh says inflation expectations eased \u2014 a calmer tone that took some heat out of the rate-hike fear."
+    },
+    {
+      "theme": "Crypto",
+      "direction": "down",
+      "note": "Bitcoin stuck near $60k, held back by crypto-specific outflows rather than the macro picture."
+    },
+    {
+      "theme": "Commodities",
+      "direction": "mixed",
+      "note": "Gold firmed on the softer Fed tone; crude slipped, easing near-term inflation pressure."
+    }
+  ],
+  "what_to_watch": [
+    {
+      "rank": 1,
+      "title": "Fed's Warsh eases the rate-hike fear",
+      "gist": "Federal Reserve Chair Kevin Warsh said 'inflation expectations' \u2014 how much price rise people expect ahead \u2014 have eased over the past month, while still promising to get inflation down. After a week of markets bracing for rate HIKES, it's a calmer, less hawkish note.",
+      "why_it_matters": "Expectations are self-fulfilling: if people expect high inflation they raise prices and wages, causing more of it \u2014 so the Fed watches them closely. Easing expectations means less need for the Fed to slam on the brakes with hikes, which is a relief for stocks, gold and crypto (all of which fall when rates rise).",
+      "what_it_means": "The worst-case 'three hikes this year' fear from yesterday looks a little less likely today. It's a supportive backdrop \u2014 but 'still committed to price stability' means it's conditional, not an all-clear.",
+      "watch": "The next official inflation reading and Fed meeting \u2014 whether 'expectations easing' becomes an actual pause on hikes.",
+      "key_terms": [
+        {
+          "term": "Inflation expectations",
+          "definition": "How much future price rise people expect; if they expect a lot, they act in ways that actually cause more inflation, so central banks watch it closely."
+        },
+        {
+          "term": "Hawkish vs dovish",
+          "definition": "'Hawkish' means leaning toward higher rates to fight inflation; 'dovish' means leaning toward lower rates to support growth. Warsh sounded a bit less hawkish."
+        }
+      ],
+      "tickers": [],
+      "market": "MACRO",
+      "sources": [
+        {
+          "name": "Charles Schwab",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "The AI rally wobbles \u2014 Nasdaq and Nvidia slip",
+      "gist": "US tech pulled back as investors 'reassessed the durability' of the AI-driven rally: the tech-heavy Nasdaq fell 0.66% and Nvidia dropped 1.25%, even though the broad S&P 500 barely moved (-0.22%). It's a pause and a question mark, not a crash.",
+      "why_it_matters": "So much of the US market's gains rest on a few AI names that when they wobble, it matters for everyone. A 'reassessment' means investors are asking whether AI spending will keep growing fast enough to justify very high stock prices.",
+      "what_it_means": "If you hold Nvidia or big tech, expect more two-way volatility while the market debates the AI thesis. Notably, the money leaving US tech today rotated toward India's IT stocks.",
+      "watch": "Nvidia's next earnings and AI-spending guidance from big cloud companies \u2014 the real test of the thesis.",
+      "key_terms": [
+        {
+          "term": "Valuation",
+          "definition": "How expensive a stock is versus its profits; 'high valuations' mean you're paying a lot today for expected future growth."
+        },
+        {
+          "term": "Rotation",
+          "definition": "Investors moving money from one area (US tech) into another (Indian IT), which changes market leadership."
+        }
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "market": "US",
+      "sources": [
+        {
+          "name": "Charles Schwab",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "India's IT stocks roar back and lead the market",
+      "gist": "India's 'Nifty IT' index \u2014 a basket of its top software-services firms \u2014 jumped 3.37%, with Infosys up ~4.4% (and up 5.5% in our data) and TCS ~3.8%. That powered the Sensex up 398 points (+0.52%) to ~77,321 and the Nifty to ~24,130. It's a full reversal from yesterday, when IT was the weak spot.",
+      "why_it_matters": "IT is one of India's biggest export earners; when it rallies it lifts the whole market and sentiment. The one-day swing from worst to best also shows how sentiment- and headline-driven the sector is.",
+      "what_it_means": "For an Indian investor, today's leadership flipped to IT. If you hold TCS or Infosys it was a strong day \u2014 but given how fast it reversed, treat one day as a mood swing, not a confirmed trend.",
+      "watch": "Whether the rally holds through upcoming US tech earnings and the India\u2013US trade talks (deadline July 24).",
+      "key_terms": [
+        {
+          "term": "Nifty IT",
+          "definition": "A sub-index tracking India's largest listed tech-services firms (Infosys, TCS, HCLTech), a gauge of the sector's health."
+        },
+        {
+          "term": "Services exports",
+          "definition": "Selling services like software and IT support to overseas clients \u2014 a huge dollar earner for India."
+        }
+      ],
+      "tickers": [
+        "INFY.NS",
+        "TCS.NS"
+      ],
+      "market": "IN",
+      "sources": [
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/markets/capital-market-news/sensex-jumps-524-pts-nifty-trades-above-24-000-level-vix-slides-1-58-126070100577_1.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Bitcoin stuck near $60k on crypto-specific outflows",
+      "gist": "Bitcoin is roughly flat near $60k but remains weak, and our indicators still read it as a downtrend with an oversold RSI. Analysts pin the softness on crypto-specific factors \u2014 institutional outflows and forced 'liquidations' \u2014 rather than the broader economy, since stocks steadied today.",
+      "why_it_matters": "Bitcoin is the purest gauge of speculative risk appetite. Its refusal to rally even as the Fed's tone calmed suggests crypto has its own problems right now, and it's diverging from steadier stocks \u2014 a caution sign for risk appetite.",
+      "what_it_means": "The beginner lesson holds: oversold does NOT mean automatic buy. With outflows and liquidations in play, wait for price to reclaim key levels before assuming a bottom.",
+      "watch": "Whether Bitcoin holds the ~$58\u201360k zone or breaks lower on continued outflows.",
+      "key_terms": [
+        {
+          "term": "Liquidation",
+          "definition": "When a trader who borrowed to bet on crypto is forced to sell as the price falls, which pushes the price down further \u2014 a self-reinforcing drop."
+        },
+        {
+          "term": "Institutional outflows",
+          "definition": "Big funds pulling money OUT of an asset (e.g. via crypto funds), a drag on its price regardless of the wider economy."
+        }
+      ],
+      "tickers": [
+        "BTC-USD"
+      ],
+      "market": "CRYPTO",
+      "sources": [
+        {
+          "name": "Trading Economics",
+          "url": "https://tradingeconomics.com/united-states/stock-market"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Crude slips, but the energy risk hasn't gone away",
+      "gist": "Oil (WTI crude) fell about 1.5% to ~$67.6 a barrel, easing near-term inflation pressure. But the supply risks behind recent briefs \u2014 Ukrainian strikes on Russian refineries and Strait of Hormuz tensions \u2014 are still live, keeping a floor under prices.",
+      "why_it_matters": "Oil feeds into the cost of almost everything, so a lower price helps inflation \u2014 and helps oil-importer India directly. But because the supply threats remain, today's dip could reverse quickly on any escalation.",
+      "what_it_means": "A small relief for inflation and for India's import bill today, but energy stays the biggest wildcard hanging over the whole 'will the Fed hike?' question.",
+      "watch": "Whether crude holds the ~$65\u201370 range, and any Russia/Middle East supply shock.",
+      "key_terms": [
+        {
+          "term": "WTI crude",
+          "definition": "West Texas Intermediate \u2014 a benchmark grade of oil, priced per barrel, used as a global reference point."
+        },
+        {
+          "term": "Price floor",
+          "definition": "A level a price struggles to fall below because buyers (or supply fears) keep stepping in."
+        }
+      ],
+      "tickers": [],
+      "market": "MACRO",
+      "sources": [
+        {
+          "name": "Trading Economics",
+          "url": "https://tradingeconomics.com/united-states/stock-market"
+        }
+      ]
+    }
+  ],
+  "global_summary": {
+    "us": "Slightly lower and led down by tech: S&P 500 -0.22% (7,483), Nasdaq -0.66% (26,040), Dow -0.03%. Nvidia -1.25% as the AI rally was questioned, but the Fed chair's calmer tone and a sliding VIX limited the damage.",
+    "india": "Outperformed: Nifty +0.5% (24,126) and Sensex +0.5% (77,304), driven by a sharp IT rebound (Nifty IT +3.4%, Infosys +5.5%, TCS +3.8%). Banks lagged. USD/INR stayed soft near 95.3.",
+    "crypto": "Bitcoin ~$60.2k and Ether ~$1,616 \u2014 still weak and, per analysts, held back by crypto-specific outflows and liquidations rather than the macro backdrop; diverging from steadier equities.",
+    "macro": "Fed Chair Warsh said inflation expectations have eased (a calmer tone); crude -1.5% (~$67.6) eased inflation pressure; gold +0.5% (~$4,089) on the softer Fed; rupee ~95.3."
+  },
+  "catalysts_today": [
+    {
+      "when": "Comments",
+      "event": "Fed Chair Kevin Warsh: inflation expectations have eased, but commitment to price stability reaffirmed",
+      "ticker": null,
+      "importance": "high"
+    },
+    {
+      "when": "Ongoing",
+      "event": "India\u2013US interim trade deal talks (deadline July 24)",
+      "ticker": null,
+      "importance": "medium"
+    },
+    {
+      "when": "Note",
+      "event": "Earnings/economic calendar not pulled (add a free Finnhub key to populate this)",
+      "ticker": null,
+      "importance": "low"
+    }
+  ],
+  "favorites": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "price": 294.38,
+      "change_pct": 1.73,
+      "whats_new": "Up 1.7% and now back above its 50-day average (~$292) \u2014 the near-term picture improves as it holds the broader uptrend while other big tech wobbled.",
+      "fundamentals": "Mega-cap tech, ~$4.3T market cap, trailing P/E ~35 / forward ~30, margins ~27%. Premium valuation, priced for durable execution.",
+      "technicals": "RSI firming into the 50s. Reclaiming the 50-DMA (~$292) is a positive near-term signal; it remains well above the 200-DMA (~$270), so the long-term uptrend is intact.",
+      "catalysts": "Next earnings the key event; watch AI/services commentary.",
+      "risks": "Rich valuation leaves little room for a miss; a broader AI-tech pullback could still drag it.",
+      "stance": "constructive"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "price": 197.58,
+      "change_pct": -1.25,
+      "whats_new": "Down 1.25% as investors questioned the AI rally's durability; slipped back below the 50-day average \u2014 the swing factor everyone is watching.",
+      "fundamentals": "~$4.8T market cap, margins ~63% (exceptional), forward P/E ~15.7 vs trailing ~30.7 \u2014 growth expectations doing the heavy lifting.",
+      "technicals": "RSI cooling. Back under the 50-DMA (~$210) but above the 200-DMA (~$191) \u2014 a pullback within a longer uptrend; $191 is the line to hold.",
+      "catalysts": "Next earnings and cloud-AI capex guidance; the whole 'AI durability' debate hinges here.",
+      "risks": "Momentum name \u2014 sharp drawdowns if AI-spending expectations wobble further.",
+      "stance": "neutral"
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "name": "Reliance Industries",
+      "price": 1303.6,
+      "change_pct": -0.34,
+      "whats_new": "Slipped 0.3% and lagged the IT-led rally; still below both key moving averages \u2014 no trend change yet.",
+      "fundamentals": "~\u20b917.6T market cap, trailing P/E ~22 / forward ~18, margins ~7.6% (energy-heavy mix). Reasonable valuation for a diversified large-cap.",
+      "technicals": "RSI mid-range. Price (\u20b91,304) sits below the 50-DMA (~\u20b91,344) and 200-DMA (~\u20b91,420) \u2014 still a downtrend; needs to clear \u20b91,344 to shift the near-term picture.",
+      "catalysts": "Retail/Jio and energy-margin commentary; the routine's web search fills in India-specific news.",
+      "risks": "Below both moving averages; energy margins and a soft rupee are headwinds.",
+      "stance": "neutral"
+    },
+    {
+      "ticker": "BTC-USD",
+      "name": "Bitcoin",
+      "price": 60165.0,
+      "change_pct": 0.27,
+      "whats_new": "Roughly flat near $60k but still weak \u2014 held back by crypto-specific outflows and liquidations even as stocks steadied; the downtrend and oversold RSI remain intact.",
+      "fundamentals": "~$1.19T market cap; still near the lower end of its 52-week range.",
+      "technicals": "RSI oversold. Below both the 50-DMA (~$68k) and 200-DMA (~$75k) \u2014 a firm downtrend; oversold can persist, so wait for a reclaim before assuming a floor.",
+      "catalysts": "Fund flows and risk appetite; a softer Fed helps risk assets, but crypto-specific selling is the immediate drag.",
+      "risks": "Downtrend intact and diverging from equities; a break below ~$58k would be bearish confirmation.",
+      "stance": "cautious"
+    }
+  ],
+  "risks": [
+    "AI-rally reassessment: if doubts about US tech deepen, the Nasdaq and chip suppliers globally could come under more pressure.",
+    "Crypto weakness: Bitcoin is oversold and pressured by outflows \u2014 a break below ~$58k would dent risk sentiment.",
+    "Energy/geopolitics: Russia refinery damage and Hormuz tensions keep oil (and inflation) a live risk despite today's dip.",
+    "The Fed's calmer tone is conditional \u2014 a hot inflation print could quickly revive the rate-hike fear; the rupee near 95 keeps India's import costs elevated."
+  ],
+  "disclaimer": "For information only. Not financial advice. Prices are from free, possibly-delayed sources (yfinance/CoinGecko) and can be inaccurate \u2014 verify before acting."
+}

@@ -1,0 +1,428 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T14:25:00+05:30",
+  "headline": "A weak US jobs report kills the rate-hike fear \u2014 Dow hits a record and gold jumps, Apple rockets ~5%, while India grinds higher against a soft rupee and record foreign outflows.",
+  "market_story": "The big shift this week is about interest rates. For months the worry was that the US Federal Reserve might RAISE rates to fight oil-driven inflation \u2014 unusual, and a weight on stocks. Thursday's June jobs report changed the conversation: the US added just 57,000 jobs (about half of what was expected), so a cooling labour market takes the pressure off the Fed to hike. 'Cheaper money for longer' is good for stocks, gold and crypto, so the blue-chip **Dow Jones jumped 1.14% to a record ~52,900** and **gold leapt 2% to ~$4,197** an ounce. But leadership split: money 'rotated' OUT of expensive AI-chip names and INTO old-economy value \u2014 the tech-heavy **Nasdaq slipped 0.8%**, with chipmakers hit hard (AMD -6.9%, Nvidia -1.4%). The standout single name was **Apple, up ~4.8% to $308**, on reports it's ramping foldable-iPhone production and sourcing cheaper memory chips. US markets are shut today (Fri, Jul 3) for the Independence Day holiday, so today's live action was **India**: the Sensex (+0.37%) and Nifty (+0.5%) edged up on domestic buying even as foreign investors keep selling and the **rupee sits near a record-low ~95.3 per dollar**. Crude stayed calm and technically oversold near $68 as Middle East tensions cooled.",
+  "board": [
+    {
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "currency": "",
+      "value": "7,483",
+      "change_pct": 0.0,
+      "read": "The broad US large-cap gauge finished Thursday flat \u2014 the market's engine was split, with old-economy value up and tech down. US markets are closed Friday for July 4."
+    },
+    {
+      "name": "Nasdaq",
+      "ticker": "^IXIC",
+      "currency": "",
+      "value": "25,833",
+      "change_pct": -0.8,
+      "read": "The tech-heavy index fell as money rotated out of pricey AI-chip stocks \u2014 the day's clear laggard."
+    },
+    {
+      "name": "Dow Jones",
+      "ticker": "^DJI",
+      "currency": "",
+      "value": "52,900",
+      "change_pct": 1.14,
+      "read": "The old-economy blue-chips hit a record high as fading rate-hike fears favoured value stocks. RSI ~70 flags it as short-term 'overbought' (stretched after a fast run)."
+    },
+    {
+      "name": "Nifty 50",
+      "ticker": "^NSEI",
+      "currency": "",
+      "value": "24,297",
+      "change_pct": 0.5,
+      "read": "India's benchmark rose on domestic buying, shrugging off heavy foreign selling \u2014 locals out-bought foreigners today."
+    },
+    {
+      "name": "Sensex",
+      "ticker": "^BSESN",
+      "currency": "",
+      "value": "77,786",
+      "change_pct": 0.37,
+      "read": "India's 30-stock index tracked the Nifty higher; the up-move is modest and headline-driven."
+    },
+    {
+      "name": "Bank Nifty",
+      "ticker": "^NSEBANK",
+      "currency": "",
+      "value": "57,890",
+      "change_pct": -0.24,
+      "read": "Banks dipped slightly and lagged the broader market \u2014 financials weren't today's leaders."
+    },
+    {
+      "name": "Bitcoin",
+      "ticker": "BTC-USD",
+      "currency": "$",
+      "value": "61,651",
+      "change_pct": 0.27,
+      "read": "Nudged up but still weak and in a downtrend near the low end of its 52-week range \u2014 crypto isn't yet joining the risk-on mood."
+    },
+    {
+      "name": "Gold",
+      "ticker": "GC=F",
+      "currency": "$",
+      "value": "4,197",
+      "change_pct": 2.06,
+      "read": "Jumped as fading rate-hike fears make the no-yield metal more attractive; rebounding from an eight-month low."
+    },
+    {
+      "name": "Crude Oil (WTI)",
+      "ticker": "CL=F",
+      "currency": "$",
+      "value": "68.67",
+      "change_pct": -0.03,
+      "read": "Flat and technically oversold (RSI ~29) as Middle East tensions cooled \u2014 a relief for oil-importer India's fuel bill."
+    },
+    {
+      "name": "USD / INR",
+      "ticker": "INR=X",
+      "currency": "\u20b9",
+      "value": "95.27",
+      "change_pct": -0.15,
+      "read": "The rupee is stuck near a record-low ~95.3 per dollar, pressured by foreign outflows and importer dollar demand; a softer Fed could eventually help."
+    }
+  ],
+  "themes": [
+    {
+      "theme": "Rates / the Fed",
+      "direction": "up",
+      "note": "Weak June jobs (57k) collapsed the odds of a July rate hike to ~22% \u2014 the single biggest driver, and a tailwind for stocks and gold."
+    },
+    {
+      "theme": "Old-economy value (Dow)",
+      "direction": "up",
+      "note": "Dow to a record +1.14% as rate-sensitive value stocks led \u2014 the winners of the 'no-hike' relief."
+    },
+    {
+      "theme": "AI chips / US tech",
+      "direction": "down",
+      "note": "Nasdaq -0.8% with a sharp chip pullback (AMD -6.9%, Nvidia -1.4%) as money rotated out of stretched AI valuations."
+    },
+    {
+      "theme": "Gold",
+      "direction": "up",
+      "note": "+2% to ~$4,197 \u2014 the classic beneficiary when rate-hike fears fade and the dollar softens."
+    },
+    {
+      "theme": "India / rupee",
+      "direction": "mixed",
+      "note": "Indices up on domestic buying, but record FPI outflows and a rupee near 95.3 keep the currency and import bill under strain."
+    }
+  ],
+  "what_to_watch": [
+    {
+      "rank": 1,
+      "title": "Weak US jobs report kills the rate-hike fear",
+      "gist": "The US added just 57,000 jobs in June \u2014 roughly half the ~115,000 expected \u2014 and earlier months were revised down by 74,000. The jobless rate fell to 4.2%, but mainly because people stopped looking for work (labour-force participation hit a 50-year low outside Covid). A cooling job market means the Fed has far less reason to raise rates.",
+      "why_it_matters": "For months markets feared rate HIKES because of oil-driven inflation. Weak jobs flip that: the odds of a July hike collapsed to ~22%. Since stocks, gold and crypto all suffer when rates rise, removing that threat is a broad tailwind \u2014 the Dow hit a record and gold jumped 2%.",
+      "what_it_means": "The immediate worry \u2014 higher borrowing costs \u2014 has eased, which supports your equity and gold exposure. But softer jobs also hint the economy is slowing, so it's relief with a caveat, not an all-clear.",
+      "watch": "The next US inflation (CPI) print and the July 29 Fed meeting \u2014 whether 'no hike' turns into talk of cuts.",
+      "key_terms": [
+        {
+          "term": "Nonfarm payrolls",
+          "definition": "The monthly count of US jobs added (outside farms) \u2014 the most-watched gauge of how healthy the job market is."
+        },
+        {
+          "term": "Labour-force participation",
+          "definition": "The share of adults working or actively job-hunting; if it falls, a lower unemployment rate can be misleading because people simply gave up looking."
+        }
+      ],
+      "the_lesson": "Markets trade the future, not the present \u2014 'bad' news for the economy can be 'good' news for stocks when it removes the threat of higher interest rates.",
+      "concepts": [
+        "interest_rates",
+        "central_bank",
+        "gold_asset"
+      ],
+      "tickers": [],
+      "market": "MACRO",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/jul/02/us-job-growth-slowed-june"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "The market 'rotates' out of AI chips into old-economy value",
+      "gist": "Instead of everything rising together, leadership split. The blue-chip Dow hit a record (+1.14%) while the tech-heavy Nasdaq fell 0.8%. Chipmakers were hit hardest \u2014 AMD dropped 6.9% and Nvidia slipped 1.4% \u2014 as investors questioned whether pricey AI valuations can keep climbing.",
+      "why_it_matters": "So much of the US market's gains have rested on a handful of expensive AI names. When rate fears fade, cheaper 'value' stocks (banks, industrials in the Dow) suddenly look more attractive than richly-priced growth \u2014 so money rotates. It's a change in WHO leads, not a market-wide crash.",
+      "what_it_means": "If you own AI-chip names like Nvidia, expect choppier, two-way action while this rotation plays out. A record in the Dow alongside a falling Nasdaq is a sign of narrowing, selective leadership.",
+      "watch": "Whether the chip pullback deepens or stabilises, and Nvidia's next earnings/AI-capex guidance as the real test of the AI thesis.",
+      "key_terms": [
+        {
+          "term": "Rotation",
+          "definition": "Investors moving money from one part of the market (e.g. AI tech) into another (e.g. value/old-economy) \u2014 it shifts which stocks lead."
+        },
+        {
+          "term": "Value vs growth",
+          "definition": "'Value' stocks are cheaper relative to profits (banks, industrials); 'growth' stocks are priced for fast future expansion (AI/tech). They take turns leading depending on the rate backdrop."
+        }
+      ],
+      "the_lesson": "A record in one index while another falls is normal \u2014 'the market' is really many markets, and leadership rotates with the macro backdrop.",
+      "concepts": [
+        "index",
+        "interest_rates",
+        "bull_bear_market"
+      ],
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ],
+      "market": "US",
+      "sources": [
+        {
+          "name": "Guardian (business live)",
+          "url": "https://www.theguardian.com/business/live/2026/jul/03/oil-price-fall-strait-of-hormuz-traffic-jumps-food-price-inflation-services-sector-live-news-updates"
+        },
+        {
+          "name": "Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-nebius-amp-coreweave-stocks-tumbled-after-metas-ai-cloud-plans/slideshow/132154769.cms"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Apple rockets ~5% on foldable-iPhone and cheaper-chip news",
+      "gist": "Apple jumped about 4.8% to ~$308 \u2014 its best day in a while \u2014 after reports it told suppliers to build MORE of its coming foldable 'iPhone Ultra' (raising the forecast from ~7\u20138 million toward ~10 million units), and that it's seeking cheaper memory chips from Chinese suppliers. Both point to stronger demand and lower costs.",
+      "why_it_matters": "Apple is one of the market's largest stocks, so a 5% move matters for the whole index. Higher foldable orders signal Apple expects strong demand for a genuinely new product, and cheaper memory would fatten margins \u2014 a rare combination of better growth AND better profitability.",
+      "what_it_means": "The move pushed Apple back near its 52-week high (~$315) and re-confirmed its uptrend. For holders it's a strong day, but a stock this close to its highs on optimistic reports leaves little room for disappointment.",
+      "watch": "Whether the foldable-iPhone order reports are confirmed, and the ~$314\u2013315 resistance zone (the recent high) that Apple must clear.",
+      "key_terms": [
+        {
+          "term": "Foldable iPhone / iPhone Ultra",
+          "definition": "A rumoured new Apple phone with a folding screen; higher production orders suggest Apple expects strong demand."
+        },
+        {
+          "term": "Margins",
+          "definition": "The share of each sales dollar a company keeps as profit; cheaper components (like memory chips) widen margins."
+        }
+      ],
+      "the_lesson": "Two things move a stock: how fast it can grow, and how much profit it keeps. News that improves BOTH at once (more units + lower costs) is why a mega-cap can jump 5% in a day.",
+      "concepts": [
+        "pe",
+        "market_cap",
+        "range_52w"
+      ],
+      "tickers": [
+        "AAPL"
+      ],
+      "market": "US",
+      "sources": [
+        {
+          "name": "The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/07/02/why-apple-stock-is-up-today/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/07/02/apples-stock-recovers-after-hit-from-unprecedented-price-hikes-on-products/"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "India rises on local buying \u2014 but foreigners keep fleeing and the rupee is near a record low",
+      "gist": "The Sensex (+0.37% to ~77,786) and Nifty (+0.5% to ~24,297) edged up on domestic buying, even as foreign investors (FPIs) pulled ~\u20b949,340 crore out of Indian stocks in June \u2014 taking 2026 outflows to ~\u20b92.7 lakh crore, already more than all of 2025. The rupee is stuck near a record-low ~95.3 per dollar.",
+      "why_it_matters": "It's a tug-of-war between local buyers and foreign sellers, and locals are winning the index for now. But heavy foreign selling caps how far the market can run and, by converting rupees to dollars, keeps the currency weak \u2014 which makes imported oil dearer and can feed inflation.",
+      "what_it_means": "For an Indian investor, the index strength is real but fragile \u2014 it rests on domestic flows while foreigners exit. A weak rupee helps dollar-earning IT exporters but hurts import-heavy firms and anyone with dollar costs.",
+      "watch": "Whether fading US rate-hike fears lure FPIs back to India, and if the RBI defends the rupee near 95.5.",
+      "key_terms": [
+        {
+          "term": "FPI / FII outflows",
+          "definition": "Foreign funds selling Indian shares and taking the money out; it pressures both the market and the rupee."
+        },
+        {
+          "term": "Domestic institutional buying",
+          "definition": "Indian mutual funds, insurers and retail investors buying shares \u2014 the force currently offsetting foreign selling."
+        }
+      ],
+      "the_lesson": "A rising index and a falling currency can coexist: the index reflects who's buying stocks at home, the currency reflects the net flow of dollars in and out. Read both together.",
+      "concepts": [
+        "fii_flows",
+        "usdinr",
+        "currency_strength"
+      ],
+      "tickers": [
+        "RELIANCE.NS"
+      ],
+      "market": "IN",
+      "sources": [
+        {
+          "name": "The Hindu (FPI)",
+          "url": "https://www.thehindu.com/business/Economy/fpi-selling-spree-continues-pull-out-49340-crore-in-june/article71174039.ece"
+        },
+        {
+          "name": "The Hindu (markets)",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-surge-in-early-trade-sensex-jumps-546-points/article71177436.ece"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Gold surges, crude stays calm and oversold",
+      "gist": "Gold jumped ~2% to ~$4,197 an ounce, rebounding from an eight-month low, as fading rate-hike bets and a softer dollar boosted the metal. Oil (WTI crude) was flat near $68.67 and is technically 'oversold' (RSI ~29), having fallen back as Middle East tensions cooled and the Strait of Hormuz stayed open.",
+      "why_it_matters": "Gold pays no interest, so it shines when rates aren't rising \u2014 its jump is a direct read of the 'no-hike' relief. Calm, cheaper oil eases inflation pressure worldwide and directly helps oil-importer India, though India's fuel prices will only fall once cheaper crude actually reaches refiners.",
+      "what_it_means": "Gold is doing its job as a hedge in a lower-rate-fear world. For India, steady sub-$70 oil is a quiet positive for inflation and the import bill \u2014 but the relief reverses fast on any Middle East or Russia supply shock.",
+      "watch": "Whether gold holds above $4,100, and whether crude stays in the ~$65\u201370 range or spikes on any geopolitical flare-up.",
+      "key_terms": [
+        {
+          "term": "Oversold (RSI)",
+          "definition": "A momentum reading (RSI below ~30) suggesting an asset has fallen fast and may be due a bounce \u2014 but oversold can persist, so it's not an automatic buy signal."
+        },
+        {
+          "term": "Safe-haven asset",
+          "definition": "An asset like gold that investors buy for protection when they're nervous about rates, currencies or risk."
+        }
+      ],
+      "the_lesson": "Gold and interest-rate expectations move in opposite directions: when the fear of higher rates fades, the metal that pays no yield becomes more attractive.",
+      "concepts": [
+        "gold_asset",
+        "crude_asset",
+        "overbought_oversold",
+        "crude_geopolitics"
+      ],
+      "tickers": [],
+      "market": "MACRO",
+      "sources": [
+        {
+          "name": "Kitco News",
+          "url": "https://www.kitco.com/news/article/2026-07-02/gold-price-jumps-above-4100-us-economy-created-57k-jobs-june"
+        },
+        {
+          "name": "The Hindu (fuel)",
+          "url": "https://www.thehindu.com/business/Industry/petrol-diesel-prices-to-fall-only-after-cheaper-crude-oil-reaches-indian-refiners-hardeep-puri/article71175419.ece"
+        }
+      ]
+    }
+  ],
+  "global_summary": {
+    "us": "US markets are closed Friday (Jul 3) for the Independence Day holiday, so the latest levels reflect Thursday's session: S&P 500 flat (~7,483), Dow +1.14% to a record ~52,900, Nasdaq -0.8% (~25,833). The weak June jobs report drove a rotation out of AI chips (AMD -6.9%, Nvidia -1.4%) into value, while Apple surged ~4.8% on foldable-iPhone news.",
+    "india": "Indices rose on domestic buying: Nifty +0.5% (~24,297), Sensex +0.37% (~77,786); Bank Nifty lagged (-0.24%). Foreign investors kept selling (\u20b949,340 cr out in June; \u20b92.7 lakh cr in 2026) and the rupee held near a record-low ~95.3/$.",
+    "crypto": "Bitcoin ~$61.7k (+0.27%) and Ether ~$1,716 (+1%) \u2014 firmer but still technically weak and near the low end of their ranges; crypto hasn't yet joined the equity/gold risk-on move.",
+    "macro": "Fading US rate-hike bets (July hike odds ~22%) lifted gold +2% (~$4,197) and softened the dollar. Crude flat and oversold near $68.7 as Middle East tensions cooled; VIX fell to ~15.9, signalling calm."
+  },
+  "catalysts_today": [
+    {
+      "when": "All day",
+      "event": "US stock and bond markets CLOSED for Independence Day (observed Fri Jul 3; Jul 4 falls on Saturday)",
+      "ticker": null,
+      "importance": "high"
+    },
+    {
+      "when": "From Jul 4",
+      "event": "Iran begins a seven-day state funeral for the late Supreme Leader \u2014 a Middle East / oil risk to monitor",
+      "ticker": null,
+      "importance": "medium"
+    },
+    {
+      "when": "Jul 24 (deadline)",
+      "event": "India\u2013US interim trade deal talks",
+      "ticker": null,
+      "importance": "medium"
+    },
+    {
+      "when": "Jul 29",
+      "event": "US Federal Reserve rate decision \u2014 first read on whether 'no hike' hardens",
+      "ticker": null,
+      "importance": "high"
+    },
+    {
+      "when": "Note",
+      "event": "Earnings/economic calendar not pulled (add a free Finnhub key to populate this)",
+      "ticker": null,
+      "importance": "low"
+    }
+  ],
+  "favorites": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "price": 308.63,
+      "change_pct": 4.84,
+      "whats_new": "Jumped ~4.8% (from ~$294 to ~$308) on reports it's ramping foldable 'iPhone Ultra' production toward ~10m units and seeking cheaper memory chips \u2014 better growth AND better margins. Now back near its 52-week high (~$315) and firmly in an uptrend.",
+      "news": [
+        {
+          "headline": "Why Apple Stock Rallied Today",
+          "url": "https://www.fool.com/investing/2026/07/02/why-apple-stock-is-up-today/",
+          "source": "The Motley Fool"
+        },
+        {
+          "headline": "Apple's stock recovers after hit from unprecedented price hikes on products",
+          "url": "https://9to5mac.com/2026/07/02/apples-stock-recovers-after-hit-from-unprecedented-price-hikes-on-products/",
+          "source": "9to5Mac"
+        }
+      ],
+      "fundamentals": "Mega-cap tech, ~$4.53T market cap. Trailing P/E ~37 (expensive \u2014 you're paying up for growth), forward P/E ~32 (profits expected to grow). Revenue growing ~17% a year, keeping ~27\u00a2 of every sales dollar as profit. Beta ~1.09 (about as jumpy as the market).",
+      "technicals": "Strong Buy. Price ($308.63) sits above both its 50-day (~$294) and 200-day (~$271) averages \u2014 the classic shape of a healthy uptrend \u2014 and all 10 moving averages are bullish. RSI ~60 is neutral (not yet stretched), but Stochastic/Williams %R flag short-term 'overbought', so a pause or dip near the ~$314\u2013315 highs wouldn't surprise. Support to hold: ~$298; a close below the 50-DMA (~$294) would warn the trend is stalling.",
+      "catalysts": "Confirmation of foldable-iPhone orders and memory-chip deals; next quarterly earnings and AI/services commentary.",
+      "risks": "Rich valuation leaves little room for a miss; trading near record highs on optimistic reports means any disappointment could sting, and a broader AI-tech pullback could still drag it.",
+      "stance": "constructive"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "price": 194.83,
+      "change_pct": -1.39,
+      "whats_new": "Slipped another 1.4% to ~$195 as money rotated out of AI chips (AMD fell 6.9% the same day). It's now caught between its averages \u2014 below the 50-day but still above the 200-day \u2014 the swing factor everyone is watching.",
+      "news": [
+        {
+          "headline": "Why Nebius & CoreWeave stocks tumbled after Meta's AI cloud plans",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-nebius-amp-coreweave-stocks-tumbled-after-metas-ai-cloud-plans/slideshow/132154769.cms",
+          "source": "Economic Times"
+        }
+      ],
+      "fundamentals": "~$4.72T market cap with exceptional ~63\u00a2-per-dollar profit margins. Trailing P/E ~30, but forward P/E just ~15 \u2014 meaning the market expects profits to keep growing very fast (revenue ~85% a year). Beta ~2.20, so it swings roughly twice as hard as the market.",
+      "technicals": "Strong Sell (short-term). Price ($194.83) is below its 50-day average (~$210) but above its 200-day (~$191), so the trend is transitional \u2014 it could break either way. MACD momentum is negative and 8 of 10 moving averages are bearish. Line in the sand: ~$191 support must hold; a close back above ~$210 would be the first sign the pullback is turning up.",
+      "catalysts": "Next earnings and cloud-AI capex guidance \u2014 the real test of whether the AI-spending boom continues.",
+      "risks": "A high-beta momentum name: sharp drawdowns if AI-valuation doubts deepen or the chip rotation continues.",
+      "stance": "neutral"
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "name": "Reliance Industries",
+      "price": 1305.0,
+      "change_pct": 0.12,
+      "whats_new": "Essentially flat (\u20b91,305) and treading water while the broader Indian market edged up. Still below both key moving averages, so no trend change yet \u2014 but it's holding just above its immediate support.",
+      "news": [
+        {
+          "headline": "Petrol, diesel prices to fall only after cheaper crude oil reaches Indian refiners: Hardeep Puri",
+          "url": "https://www.thehindu.com/business/Industry/petrol-diesel-prices-to-fall-only-after-cheaper-crude-oil-reaches-indian-refiners-hardeep-puri/article71175419.ece",
+          "source": "The Hindu"
+        }
+      ],
+      "fundamentals": "~\u20b917.66T market cap, energy-heavy conglomerate. Trailing P/E ~22 / forward ~18 (moderate valuation), revenue growing ~12% a year, keeping ~8\u00a2 of every sales dollar as profit. Beta ~0.18 \u2014 much steadier than the market.",
+      "technicals": "Strong Sell. Price (\u20b91,305) sits below both its 50-day (~\u20b91,343) and 200-day (~\u20b91,419) averages \u2014 a textbook downtrend \u2014 with 9 of 10 moving averages bearish. But trend strength is weak (ADX ~16), so it's more of a drift than a plunge, and it's near the low end of its 52-week range (14th percentile), where value hunters watch. Needs to reclaim ~\u20b91,343 to shift the near-term picture; support ~\u20b91,301.",
+      "catalysts": "Energy-refining margins (steady cheap crude helps its oil-to-chemicals business), plus Jio/Retail updates.",
+      "risks": "Below both moving averages; a soft rupee and the fate of energy margins are the key swing factors.",
+      "stance": "neutral"
+    },
+    {
+      "ticker": "BTC-USD",
+      "name": "Bitcoin",
+      "price": 61650.82,
+      "change_pct": 0.27,
+      "whats_new": "Nudged up ~0.3% to ~$61.7k \u2014 firmer than the sub-$60k lows of recent days, but still stuck in a downtrend near the bottom of its 52-week range. Notably, it did NOT rally with stocks and gold on the softer-Fed news, a sign crypto has its own headwinds.",
+      "news": [],
+      "fundamentals": "~$1.24T total value; sitting near the low end (6th percentile) of its 52-week range after a long slide.",
+      "technicals": "Sell. Price (~$61,651) is below both its 50-day (~$67,347) and 200-day (~$74,946) averages \u2014 a confirmed downtrend \u2014 and trend strength is strong (ADX ~35), meaning down-moves here tend to persist. One bright spot: MACD momentum has ticked positive, hinting the fall is losing steam. First hurdle to clear: ~$61,881; support to hold: ~$61,307. A close back above the 50-DMA (~$67k) is what would signal a real turn.",
+      "catalysts": "Fund flows and risk appetite; a calmer Fed helps risk assets generally, but crypto-specific selling remains the immediate drag.",
+      "risks": "Downtrend intact and diverging from equities; failure to hold ~$61.3k support could open the door to fresh lows.",
+      "stance": "cautious"
+    }
+  ],
+  "risks": [
+    "The 'no-hike' relief is conditional: a hot US inflation print before the July 29 Fed meeting could quickly revive rate-hike fears and unwind the Dow's record and gold's jump.",
+    "AI-chip rotation: if doubts about stretched AI valuations deepen, chip names (Nvidia, AMD) and the wider Nasdaq could stay under pressure.",
+    "India's twin drag: record foreign outflows and a rupee near 95.3 keep a lid on gains and raise the imported-inflation risk, especially if oil rebounds.",
+    "Geopolitics/energy: Russia's escalating strikes on Ukraine's energy sites and Iran's tense post-war transition keep crude a live wildcard despite today's calm.",
+    "Crypto weakness: Bitcoin is diverging from stocks and gold; a break below ~$61.3k support would signal fresh downside and dent risk sentiment."
+  ],
+  "disclaimer": "For information only. Not financial advice. Prices are from free, possibly-delayed sources (yfinance/CoinGecko) and can be inaccurate \u2014 verify before acting."
+}

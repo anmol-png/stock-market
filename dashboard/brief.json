@@ -1,0 +1,481 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T14:40:00+05:30",
+  "headline": "A quiet Sunday with the tape still frozen at last week's closes \u2014 but the big change is relief: the Strait of Hormuz is reopening, India has stood down its gas emergency, and the week ahead turns on Indian Q1 earnings, not an oil shock.",
+  "market_story": "Markets are shut this weekend \u2014 US exchanges were closed Friday for the July 4th holiday and India's are closed Saturday\u2013Sunday \u2014 so every number below is frozen at last week's close, not a fresh move; trading resumes Monday. What HAS changed is the mood. A week ago the scariest wildcard was oil: a wounded Iran threatening to choke the Strait of Hormuz (the sea gate for a fifth of the world's crude). That risk is now cooling \u2014 the ceasefire is holding, tankers are returning, and this weekend India formally lifted the emergency gas-rationing it had imposed, saying supplies have normalised. Iran still wants to charge transit 'fees,' so the risk isn't gone, but crude sits quiet and oversold near $68.78, and steady sub-$70 oil is a quiet positive for oil-importer India. The week's other anchor is the US: June hiring was weak (just 57,000 jobs added, about half the ~115,000 expected), which buries the fear of a Fed rate HIKE \u2014 but with inflation still sticky near 4.2%, the Fed is stuck 'higher for longer,' so it's relief, not an all-clear. That backdrop split the US tape: old-economy blue-chips (Dow) hit a record while pricey AI-chip names (Nasdaq, Nvidia) lagged as money rotated to value \u2014 and Tesla fell ~7.5% even after RECORD deliveries, a textbook 'sell-the-news.' For India specifically, the setup into Monday is more constructive than a week ago: the US is moving to drop its bribery case against Gautam Adani, the India\u2013UK free-trade pact goes live July 15, India's fear gauge is near multi-month lows, and Q1 (April\u2013June) company results start this week (TCS on the 9th) \u2014 the real test of whether firm indices are backed by real profits.",
+  "board": [
+    {
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "currency": "",
+      "value": "7,483",
+      "change_pct": 0.0,
+      "read": "The broad US large-cap gauge finished last week flat \u2014 its engine split between rising value stocks and falling tech. Frozen here: US markets are shut for the holiday weekend and reopen Monday."
+    },
+    {
+      "name": "Nasdaq",
+      "ticker": "^IXIC",
+      "currency": "",
+      "value": "25,833",
+      "change_pct": -0.8,
+      "read": "The tech-heavy index was last week's laggard, hit by money rotating out of pricey AI-chip stocks into cheaper value names."
+    },
+    {
+      "name": "Dow Jones",
+      "ticker": "^DJI",
+      "currency": "",
+      "value": "52,900",
+      "change_pct": 1.14,
+      "read": "Old-economy blue-chips at a record \u2014 the winners of fading rate-hike fears. RSI ~70 flags it as short-term 'overbought' (stretched after a fast run)."
+    },
+    {
+      "name": "VIX (volatility)",
+      "ticker": "^VIX",
+      "currency": "",
+      "value": "16.15",
+      "change_pct": -2.65,
+      "read": "Wall Street's 'fear gauge' is low and easing \u2014 a reading in the mid-teens signals calm, complacent markets with little hedging demand into the weekend."
+    },
+    {
+      "name": "Nifty 50",
+      "ticker": "^NSEI",
+      "currency": "",
+      "value": "24,271",
+      "change_pct": 0.39,
+      "read": "India's benchmark edged up on domestic buying at Friday's close, extending a winning streak; local buyers are still offsetting foreign selling. Shut for the weekend, reopens Monday."
+    },
+    {
+      "name": "Sensex",
+      "ticker": "^BSESN",
+      "currency": "",
+      "value": "77,764",
+      "change_pct": 0.34,
+      "read": "India's 30-stock index tracked the Nifty higher \u2014 a modest, steady up-move ahead of Q1 earnings season."
+    },
+    {
+      "name": "Bank Nifty",
+      "ticker": "^NSEBANK",
+      "currency": "",
+      "value": "57,939",
+      "change_pct": -0.16,
+      "read": "Banks dipped slightly and lagged the broader market \u2014 financials weren't the week's leaders, though the index sits above its key averages (RSI ~62)."
+    },
+    {
+      "name": "Bitcoin",
+      "ticker": "BTC-USD",
+      "currency": "$",
+      "value": "62,868",
+      "change_pct": 0.51,
+      "read": "The only market open this weekend firmed a touch more (~$62,868), holding above its short-term averages \u2014 an early stabilization sign, but still below its 50- and 200-day averages (a downtrend)."
+    },
+    {
+      "name": "Ether",
+      "ticker": "ETH-USD",
+      "currency": "$",
+      "value": "1,766",
+      "change_pct": 0.54,
+      "read": "Ethereum firmed alongside Bitcoin but remains technically weak, below both key moving averages."
+    },
+    {
+      "name": "Gold",
+      "ticker": "GC=F",
+      "currency": "$",
+      "value": "4,187",
+      "change_pct": 1.81,
+      "read": "Firm near recent levels: fading rate-hike fears make the no-yield metal more attractive, a classic beneficiary of a softer-Fed backdrop."
+    },
+    {
+      "name": "Crude Oil (WTI)",
+      "ticker": "CL=F",
+      "currency": "$",
+      "value": "68.78",
+      "change_pct": 0.13,
+      "read": "Quiet and technically oversold (RSI ~29). The Hormuz risk is now COOLING \u2014 a relief for oil-importer India \u2014 but Iran's 'fees' plan keeps a small premium alive. Steady sub-$70 oil is a quiet India positive."
+    },
+    {
+      "name": "USD / INR",
+      "ticker": "INR=X",
+      "currency": "\u20b9",
+      "value": "95.20",
+      "change_pct": -0.23,
+      "read": "The rupee firmed a touch to ~95.2 per dollar as oil fears eased, but sits near a record low, pinned by foreign outflows and importer dollar demand. Calmer oil helps; a stuck-hawkish Fed caps the relief."
+    }
+  ],
+  "themes": [
+    {
+      "theme": "Oil / energy security",
+      "direction": "down",
+      "note": "The week's biggest shift: the Hormuz risk is de-escalating. The ceasefire is holding, tankers are returning, and India lifted its emergency gas curbs \u2014 a relief for oil-importers. Crude is oversold near $68.78; Iran's 'fees' plan is the only residual risk."
+    },
+    {
+      "theme": "Rates / the Fed",
+      "direction": "flat",
+      "note": "Weak June jobs (57k) buried the July rate-HIKE fear, but sticky ~4.2% inflation keeps the Fed on hold 'higher for longer' \u2014 no hike, but no cuts either. A tailwind that put the Dow at a record and firmed gold, with a slowing-economy caveat."
+    },
+    {
+      "theme": "AI chips / US tech",
+      "direction": "down",
+      "note": "Nasdaq lagged as money rotated out of stretched AI valuations. Fresh cracks: Meta's 8,000 layoffs and 'AI progress slower than expected' admission, plus Goldman's 15M-jobs estimate and Yann LeCun calling today's AI 'not smart' \u2014 an expectations reset for high-priced growth."
+    },
+    {
+      "theme": "India",
+      "direction": "up",
+      "note": "A more constructive setup: US moving to drop the Adani case, the India\u2013UK trade pact live July 15, India VIX near multi-month lows, and Q1 earnings season starting (TCS Jul 9). The offsets remain foreign outflows, a ~95.2 rupee and monsoon swings."
+    },
+    {
+      "theme": "Crypto",
+      "direction": "up",
+      "note": "Bitcoin held its weekend gains above its short-term averages (~$62,868) \u2014 early stabilization \u2014 but is still below the 50- and 200-day averages that define the bigger downtrend."
+    }
+  ],
+  "what_to_watch": [
+    {
+      "rank": 1,
+      "title": "The oil wildcard is cooling \u2014 Hormuz reopens, India stands down its gas emergency",
+      "gist": "A week ago the scariest thing for markets was oil: a post-war Iran threatening to block or toll the Strait of Hormuz, the channel that carries about a fifth of the world's crude. That threat is now easing \u2014 the ceasefire is holding, tankers are returning, and this weekend India formally withdrew the emergency curbs on gas use it had imposed, saying supplies have normalised. Iran still says it will charge transit 'fees' (not 'tolls'), so a small risk premium lingers. Crude (WTI) sits quiet and oversold near $68.78.",
+      "why_it_matters": "Oil feeds straight into petrol, transport and food prices \u2014 and into inflation. A calmer Hormuz removes the single biggest thing that could have spiked energy costs and reignited the inflation the Fed is fighting. For India \u2014 which imports ~85% of its crude with a record-weak rupee \u2014 steady sub-$70 oil is a direct relief for fuel bills, the currency and inflation.",
+      "what_it_means": "The biggest overhang into Monday's reopen has shrunk, not vanished. It reduces the tail-risk to oil-sensitive Indian names and the rupee; the residual risk is any clash over Iran's 'fees.' Oil producers lose the upside spike; importers and consumers are the relative winners.",
+      "watch": "Whether Iran actually enforces its transit 'fees' \u2014 and where crude opens when US and India resume trading Monday.",
+      "key_terms": [
+        {
+          "term": "Strait of Hormuz",
+          "definition": "A narrow sea lane between Iran and Oman through which roughly a fifth of the world's oil passes; there is no easy alternative route."
+        },
+        {
+          "term": "Oversold (RSI)",
+          "definition": "A momentum reading (RSI below ~30) suggesting a price has fallen fast and may be primed for a bounce \u2014 though 'oversold' can persist."
+        }
+      ],
+      "the_lesson": "A fading risk is a market event in its own right \u2014 when a feared shock (like an oil blockade) is defused, the 'risk premium' baked into prices unwinds, helping the assets that had been most exposed.",
+      "concepts": [
+        "crude_geopolitics",
+        "crude_asset",
+        "supply_chain",
+        "usdinr"
+      ],
+      "tickers": [
+        "CL=F",
+        "RELIANCE.NS"
+      ],
+      "market": "MACRO",
+      "sources": [
+        {
+          "name": "The Hindu (India gas curbs lifted)",
+          "url": "https://www.thehindu.com/news/national/government-withdraws-emergency-gas-curbs-imposed-during-hormuz-disruption-as-lng-supplies-normalise/article71185227.ece"
+        },
+        {
+          "name": "Al Jazeera (Iran 'fees')",
+          "url": "https://www.aljazeera.com/news/2026/7/5/irans-china-envoy-vows-special-hormuz-treatment-for-friendly-countries"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "India's week: Q1 earnings begin, with trade-pact and Adani tailwinds",
+      "gist": "Indian indices closed last week firm (Nifty ~24,271, +0.39%) and the week ahead is the real test: the April\u2013June (Q1 FY27) corporate results season starts, with IT bellwether TCS reporting around July 9\u201310. Two policy tailwinds add to the mood \u2014 the US is moving to permanently drop its bribery case against Gautam Adani, and the India\u2013UK free-trade pact (99% of Indian exports go duty-free) comes into force July 15. India's volatility gauge sits near a multi-month low, a sign of calm.",
+      "why_it_matters": "Indices have been propped up by domestic buying while foreigners sell; earnings are what decide whether those prices are justified. Strong Q1 profits and upbeat management commentary could extend the rally (some analysts eye Nifty ~25,000); weak numbers would expose stretched valuations. The Adani and trade-pact news lift sentiment and, at the margin, foreign-investor confidence.",
+      "what_it_means": "For an Indian investor this is a stock-picker's fortnight: watch the IT majors' commentary (TCS, Infosys) for the AI and US-demand read, and export-linked sectors (textiles, gems, auto components, engineering) that benefit from the UK deal. Adani Group names could re-rate on the case being dropped.",
+      "watch": "TCS Q1 results (~July 9) and management commentary; the judge's July 13 decision on the Adani dismissal; and July 15, when the India\u2013UK pact goes live.",
+      "key_terms": [
+        {
+          "term": "Q1 FY27 earnings",
+          "definition": "Company profit results for April\u2013June 2026, India's first quarter of its financial year \u2014 the season that tests whether share prices are backed by real profit."
+        },
+        {
+          "term": "Rules of origin",
+          "definition": "The criteria deciding which country a product genuinely comes from, so it qualifies for a trade deal's lower tariffs."
+        },
+        {
+          "term": "Re-rating",
+          "definition": "A change in the price investors will pay per rupee of a company's earnings \u2014 up on good news, down on bad."
+        }
+      ],
+      "the_lesson": "Indices can run on sentiment and flows, but earnings are the reality check \u2014 a results season is where a market finds out whether its prices were hope or substance.",
+      "concepts": [
+        "index",
+        "fii_flows",
+        "tariffs",
+        "pe"
+      ],
+      "tickers": [
+        "^NSEI",
+        "TCS.NS",
+        "RELIANCE.NS"
+      ],
+      "market": "IN",
+      "sources": [
+        {
+          "name": "Economic Times (week ahead)",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/will-sensex-nifty-continue-to-rally-on-monday-q1-earnings-among-6-factors-to-drive-dalal-street-this-week/articleshow/132191088.cms"
+        },
+        {
+          "name": "The Hindu (Adani case)",
+          "url": "https://www.thehindu.com/business/Industry/us-doj-says-adani-case-should-never-have-been-brought-urges-judge-to-drop-charges-permanently/article71183562.ece"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Weak US jobs leave the Fed stuck 'higher for longer'",
+      "gist": "The US added just 57,000 jobs in June, roughly half the ~115,000 expected. The jobless rate fell to 4.2%, but mostly because people stopped looking for work \u2014 labour-force participation hit a 50-year low outside Covid. Markets now put the odds of a July rate HIKE at only ~10% (a 'no change' at ~90%). But with inflation still sticky near 4.2%, they don't expect cuts either.",
+      "why_it_matters": "For months the fear was rate HIKES on oil-driven inflation. Weak jobs kill that \u2014 which is why the Dow hit a record and gold firmed. But 'no hike' is not 'cuts': sticky inflation keeps the Fed on hold, and a firm dollar keeps pressure on the rupee and foreign flows into India. It's relief with a slowing-economy caveat.",
+      "what_it_means": "The immediate worry \u2014 higher borrowing costs \u2014 has eased, supporting stocks and gold. But don't expect the Fed to rescue markets with cuts soon, and a cooling US consumer is a slow headwind for Indian IT and exporters that sell into America.",
+      "watch": "The next US inflation (CPI) print and the July 29 Fed decision \u2014 whether 'no hike' softens toward talk of cuts, or a hot CPI revives hike fears.",
+      "key_terms": [
+        {
+          "term": "Nonfarm payrolls",
+          "definition": "The monthly count of US jobs added outside farming \u2014 the most-watched gauge of hiring health."
+        },
+        {
+          "term": "Higher for longer",
+          "definition": "A central bank keeping rates elevated for an extended period rather than cutting, usually because inflation stays stubborn."
+        }
+      ],
+      "the_lesson": "Markets trade the future, not the present \u2014 'bad' economic news can be 'good' for stocks when it removes the threat of higher rates, but only up to the point where a slowing economy becomes the new worry.",
+      "concepts": [
+        "interest_rates",
+        "central_bank",
+        "inflation",
+        "gold_asset"
+      ],
+      "tickers": [],
+      "market": "MACRO",
+      "sources": [
+        {
+          "name": "CNBC (jobs report)",
+          "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+        },
+        {
+          "name": "CNBC (participation rate)",
+          "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "The AI-chip rotation and Tesla's 'sell-the-news'",
+      "gist": "Last week money rotated OUT of expensive AI-chip names into cheaper value stocks: the Nasdaq fell 0.8% while the Dow hit a record. Nvidia is caught between its 50-day (~$210) and 200-day (~$191) averages, rated a short-term Strong Sell. And in a telling episode, Tesla fell ~7.5% \u2014 its worst day in nearly a year \u2014 even though it reported RECORD Q2 deliveries of ~480,000 (beating estimates by ~74,000). The stock had run up ~13% into the report, and investors worried about profit margins (production ran below deliveries, meaning inventory was drawn down).",
+      "why_it_matters": "So much of the US market's gains rested on a handful of pricey growth names. When rate fears fade AND the AI narrative wobbles (Meta's layoffs, Goldman's job-loss estimate, LeCun calling AI 'not smart'), cheaper value stocks look more attractive and leadership rotates. Tesla shows the deeper lesson: when a stock is priced for perfection, even great news can trigger selling if it was already expected.",
+      "what_it_means": "If you own high-beta growth like Nvidia or Tesla, expect choppier, two-way action while this rotation and AI-expectations reset play out. It's a change in WHO leads, not necessarily a crash \u2014 but stretched valuations leave little room for disappointment.",
+      "watch": "Nvidia's ~$191 200-day-average support and its next earnings/AI-capex guidance; Tesla's July 22 earnings for the margin picture.",
+      "key_terms": [
+        {
+          "term": "Sell-the-news",
+          "definition": "When a stock falls on good news because the good outcome was already expected and 'priced in,' so buyers who bet ahead take profits."
+        },
+        {
+          "term": "Rotation",
+          "definition": "Investors moving money from one part of the market (e.g. AI tech) into another (e.g. value), which shifts what leads."
+        }
+      ],
+      "the_lesson": "For a richly-priced stock, what matters isn't whether the news is good \u2014 it's whether it beats what was already expected. Priced for perfection, even a record can disappoint.",
+      "concepts": [
+        "risk_on_off",
+        "moving_average",
+        "pe",
+        "beta"
+      ],
+      "tickers": [
+        "NVDA",
+        "TSLA"
+      ],
+      "market": "US",
+      "sources": [
+        {
+          "name": "CNBC (Tesla)",
+          "url": "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html"
+        },
+        {
+          "name": "BBC (LeCun on AI)",
+          "url": "https://www.bbc.co.uk/news/articles/cj6gr0xkyr3o"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Bitcoin's fragile weekend stabilization",
+      "gist": "Crypto is the only market open on a holiday weekend, and Bitcoin used it to firm a little more, to ~$62,868, holding above its short-term (10-, 20-, 30-day) averages. But it is still well below its 50-day (~$67,040) and 200-day (~$74,825) averages and sits near the low end of its 52-week range (after sliding from ~$114k). Ether is similar at ~$1,766.",
+      "why_it_matters": "Reclaiming and holding the short-term averages is the first thing that has to happen before any real turn \u2014 it shows sellers easing. But a downtrend isn't broken until price reclaims the longer 50- and 200-day averages, and Bitcoin's trend is still down, so this could be a pause rather than a bottom.",
+      "what_it_means": "For a Bitcoin holder this is an encouraging wobble, not an all-clear. Treat the ~$67k 50-day average as the level that would signal a genuine trend change; a slip back below ~$62.4k support would say the bounce has failed.",
+      "watch": "Whether Bitcoin holds ~$62.4k support and then challenges its 50-day average near ~$67,000.",
+      "key_terms": [
+        {
+          "term": "Moving average",
+          "definition": "The average closing price over a set number of days; price above it is bullish for that time frame, below it bearish."
+        },
+        {
+          "term": "Support",
+          "definition": "A price level where buyers have tended to step in; a decisive break below it often signals more downside."
+        }
+      ],
+      "the_lesson": "Crypto trades 24/7, so its story often moves on the weekend while stocks sleep \u2014 and a downtrend isn't over until the LONGER moving averages are reclaimed, not just the short ones.",
+      "concepts": [
+        "bitcoin_asset",
+        "moving_average",
+        "support_resistance",
+        "overbought_oversold"
+      ],
+      "tickers": [
+        "BTC-USD"
+      ],
+      "market": "CRYPTO",
+      "sources": [
+        {
+          "name": "Dashboard technicals (BTC-USD.json)",
+          "url": "https://www.coingecko.com/en/coins/bitcoin"
+        }
+      ]
+    }
+  ],
+  "global_summary": {
+    "us": "US markets are shut for the July 4th holiday weekend, so levels reflect last week's close: S&P 500 ~7,483 (flat), Dow +1.14% to a record ~52,900, Nasdaq -0.8% (~25,833), VIX low at ~16. The driver was a weak June jobs report (57k) that killed rate-hike fears, sparking a rotation out of AI chips into value; Tesla fell ~7.5% despite record deliveries, and Meta's 8,000 layoffs plus an AI 'slower than expected' admission added to the tech wobble.",
+    "india": "Indian exchanges are shut for the weekend; Friday closed firm on domestic buying \u2014 Nifty +0.39% (~24,271), Sensex +0.34% (~77,764), Bank Nifty -0.16% (~57,939). The setup into Monday is constructive: the US moving to drop the Adani case, the India\u2013UK trade pact live July 15, India VIX near multi-month lows, and Q1 earnings season starting (TCS ~July 9). Offsets: foreign outflows, a rupee near 95.2 and monsoon swings (Mumbai under a red alert).",
+    "crypto": "The only market open this weekend firmed slightly: Bitcoin ~$62,868 (+0.51%), Ether ~$1,766 (+0.54%), both holding above their short-term averages but still in downtrends below their 50- and 200-day averages.",
+    "macro": "The big macro shift is oil relief: the Strait of Hormuz is reopening, India lifted its emergency gas curbs, and crude sits oversold and quiet near $68.78. Fading US rate-hike bets keep gold firm (~$4,187); the rupee steadied to ~95.2 as oil fears eased. Next big date: the July 29 Fed decision."
+  },
+  "catalysts_today": [
+    {
+      "when": "All day",
+      "event": "US stock & bond markets and Indian exchanges CLOSED (holiday weekend); trading resumes Monday",
+      "ticker": null,
+      "importance": "medium"
+    },
+    {
+      "when": "Through this week",
+      "event": "Iran's dayslong state funeral for the late Supreme Leader Khamenei \u2014 a Middle East / oil-risk backdrop",
+      "ticker": null,
+      "importance": "medium"
+    },
+    {
+      "when": "Monday (reopen)",
+      "event": "First market reaction to Hormuz reopening / India lifting gas curbs / the Adani filing as US and India resume trading",
+      "ticker": "CL=F",
+      "importance": "high"
+    },
+    {
+      "when": "Jul 9 (approx)",
+      "event": "TCS Q1 FY27 results \u2014 kicks off India's earnings season",
+      "ticker": "TCS.NS",
+      "importance": "high"
+    },
+    {
+      "when": "Jul 13",
+      "event": "US judge's deadline for the DoJ on permanently dismissing the Adani case",
+      "ticker": null,
+      "importance": "medium"
+    },
+    {
+      "when": "Jul 15",
+      "event": "India\u2013UK free-trade pact (CETA) comes into force \u2014 99% of Indian exports duty-free",
+      "ticker": null,
+      "importance": "high"
+    },
+    {
+      "when": "Jul 22",
+      "event": "Tesla Q2 earnings \u2014 the margin test after record deliveries",
+      "ticker": "TSLA",
+      "importance": "medium"
+    },
+    {
+      "when": "Jul 29",
+      "event": "US Federal Reserve rate decision \u2014 the read on whether 'no hike' hardens or softens",
+      "ticker": null,
+      "importance": "high"
+    }
+  ],
+  "favorites": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "price": 308.63,
+      "change_pct": 4.84,
+      "whats_new": "Still frozen at Thursday's ~$308.63 close \u2014 US markets have not traded since (shut Friday for July 4 and through the weekend), so nothing new priced in. Apple sits just below its ~$315-317 record after Thursday's ~4.8% jump on foldable-iPhone and cheaper-memory-chip reports, firmly in an uptrend. It's the standout in a favorites book that's otherwise mixed.",
+      "news": [
+        {
+          "headline": "Why Apple Stock Rallied",
+          "url": "https://www.fool.com/investing/2026/07/02/why-apple-stock-is-up-today/",
+          "source": "The Motley Fool"
+        },
+        {
+          "headline": "Apple's stock recovers after hit from unprecedented price hikes on products",
+          "url": "https://9to5mac.com/2026/07/02/apples-stock-recovers-after-hit-from-unprecedented-price-hikes-on-products/",
+          "source": "9to5Mac"
+        }
+      ],
+      "fundamentals": "Mega-cap tech, ~$4.53T market cap. Trailing P/E ~37 (expensive \u2014 you're paying up for growth), forward P/E ~32 (profits expected to grow). Revenue growing ~17% a year, keeping ~27\u00a2 of every sales dollar as profit. Beta ~1.10 (about as jumpy as the market).",
+      "technicals": "Strong Buy. Price ($308.63) sits above both its 50-day (~$294) and 200-day (~$271) averages \u2014 the classic shape of a healthy uptrend \u2014 near the top (~94th percentile) of its 52-week range. RSI ~58-60 is neutral (not yet stretched), but shorter-term gauges flag 'overbought,' so a pause or dip near the $314-317 highs wouldn't surprise. Support to hold: ~$298; a close below the 50-day (~$294) would warn the trend is stalling.",
+      "catalysts": "Confirmation of foldable-iPhone orders and memory-chip deals; next quarterly earnings and AI/services commentary.",
+      "risks": "Rich valuation leaves little room for a miss; trading near record highs on optimistic reports means any disappointment could sting, and a broader AI-tech pullback could still drag it.",
+      "stance": "constructive"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "price": 194.83,
+      "change_pct": -1.39,
+      "whats_new": "Unchanged over the weekend at ~$194.83 with US markets shut \u2014 still in the AI-chip penalty box after last week's rotation out of expensive tech. The weekend's AI-reset drumbeat is an added overhang: Goldman's 15M-jobs estimate, Yann LeCun calling today's AI 'not smart,' and Meta's 8,000 layoffs and 'progress slower than expected' admission all feed doubts about the pace of the AI build-out. It remains caught between its 50-day (~$210) and 200-day (~$191) averages.",
+      "news": [
+        {
+          "headline": "AI is 'not smart' \u2014 what's next in artificial intelligence?",
+          "url": "https://www.bbc.co.uk/news/articles/cj6gr0xkyr3o",
+          "source": "BBC"
+        },
+        {
+          "headline": "Goldman Sachs economist: millions of jobs to AI, but won't be permanently wiped out",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/goldman-sachs-top-economist-agrees-that-millions-of-americans-will-lose-jobs-to-ai-but-rejects-the-idea-that-these-will-be-permanently-wiped-out-says-these-ceos-are-ignoring-that-/articleshow/132192389.cms",
+          "source": "Times of India"
+        }
+      ],
+      "fundamentals": "~$4.72T market cap with exceptional ~63\u00a2-per-dollar profit margins. Trailing P/E ~30, but forward P/E just ~15 \u2014 meaning the market expects profits to keep growing very fast (revenue ~85% a year). Beta ~2.21, so it swings roughly twice as hard as the market.",
+      "technicals": "Strong Sell (short-term). Price ($194.83) is below its 50-day average (~$210) but above its 200-day (~$191), so the trend is transitional \u2014 it could break either way. RSI ~40 is weak but not oversold, and MACD momentum is negative. Line in the sand: the ~$191 200-day-average support must hold; a close back above ~$210 would be the first sign the pullback is turning up.",
+      "catalysts": "Next earnings and cloud-AI capex guidance \u2014 the real test of whether the AI-spending boom continues.",
+      "risks": "A high-beta momentum name: sharp drawdowns if AI-valuation doubts deepen or the chip rotation continues; the weekend's AI-expectations reset adds to the overhang.",
+      "stance": "neutral"
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "name": "Reliance Industries",
+      "price": 1304.0,
+      "change_pct": 0.04,
+      "whats_new": "Essentially flat at \u20b91,304 with Indian markets shut for the weekend. The weekend backdrop turned a shade more supportive for its core energy business: the Strait of Hormuz is reopening, India lifted its emergency gas curbs, and steady sub-$70 crude keeps feedstock costs contained for its oil-to-chemicals arm \u2014 while removing the tail-risk of an oil-spike squeeze. But the stock is still below both key moving averages, so no trend change yet. Q1 earnings season is the next real catalyst.",
+      "news": [
+        {
+          "headline": "Government withdraws emergency gas curbs as LNG supplies normalise",
+          "url": "https://www.thehindu.com/news/national/government-withdraws-emergency-gas-curbs-imposed-during-hormuz-disruption-as-lng-supplies-normalise/article71185227.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "Will Sensex, Nifty continue to rally on Monday? Q1 earnings among 6 factors to drive Dalal Street",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/will-sensex-nifty-continue-to-rally-on-monday-q1-earnings-among-6-factors-to-drive-dalal-street-this-week/articleshow/132191088.cms",
+          "source": "Economic Times"
+        }
+      ],
+      "fundamentals": "~\u20b917.65T market cap, energy-heavy conglomerate. Trailing P/E ~22 / forward ~18 (moderate valuation), revenue growing ~12% a year, keeping ~8\u00a2 of every sales dollar as profit. Beta ~0.18 \u2014 much steadier than the market.",
+      "technicals": "Strong Sell. Price (\u20b91,304) sits below both its 50-day (~\u20b91,343) and 200-day (~\u20b91,419) averages \u2014 a textbook downtrend \u2014 with most moving averages bearish. But trend strength is weak, so it's more of a drift than a plunge, and it's near the low end of its 52-week range (~14th percentile), where value hunters watch. Needs to reclaim ~\u20b91,343 to shift the near-term picture; support ~\u20b91,300 (near its 52-week low of ~\u20b91,259).",
+      "catalysts": "Q1 FY27 results; energy/refining margins (a reopening Hormuz and steady cheap crude help its oil-to-chemicals business), plus Jio/Retail updates.",
+      "risks": "Below both moving averages; a soft rupee and the fate of refining margins are the key swing factors \u2014 and any renewed Hormuz clash that spiked crude would raise its feedstock costs.",
+      "stance": "neutral"
+    },
+    {
+      "ticker": "BTC-USD",
+      "name": "Bitcoin",
+      "price": 62867.06,
+      "change_pct": 0.51,
+      "whats_new": "The one favorite that actually trades on weekends, and it firmed a touch more to ~$62,868 (from ~$62,795 a day earlier), holding above its 10-, 20- and 30-day averages \u2014 its best footing in weeks and an early stabilization sign. But it is still below its 50-day (~$67,040) and 200-day (~$74,825) averages and sits near the low end (~8th percentile) of its 52-week range, so the downtrend isn't broken yet.",
+      "news": [],
+      "fundamentals": "~$1.26T total value; near the low end of its 52-week range after a long slide from ~$114k.",
+      "technicals": "Neutral (improving from Sell). Price (~$62,868) is below both its 50-day (~$67,040) and 200-day (~$74,825) averages \u2014 a confirmed downtrend \u2014 and trend strength is still firm, so down-moves here can persist. The bright spots: it's holding above its short-term averages and RSI (~45) has stabilized. First support: ~$62,400; a close back above the 50-day (~$67k) is what would signal a real turn.",
+      "catalysts": "Risk appetite and fund flows; a calmer Fed and easing oil-risk help risk assets generally, but crypto needs to reclaim its longer averages to confirm a turn.",
+      "risks": "Downtrend still intact despite the bounce; a slip back below ~$62.4k support could reopen the door toward fresh lows.",
+      "stance": "cautious"
+    }
+  ],
+  "risks": [
+    "The oil relief is not absolute: Iran still insists on charging Hormuz transit 'fees,' so any enforcement clash could re-spike oversold crude and hit oil-importer India's fuel bill, rupee and inflation.",
+    "The Fed is stuck, not friendly: sticky ~4.2% US inflation means no rate cuts, and a hot CPI print before the July 29 meeting could quickly revive hike fears and unwind the Dow's record and gold's gains.",
+    "AI-expectations reset: Meta's layoffs, Goldman's job-loss estimate and LeCun's 'AI is not smart' \u2014 plus Tesla's 'sell-the-news' drop \u2014 show high-priced growth is vulnerable; Nvidia and the chip complex could stay choppy.",
+    "India's swing factors into earnings: firm indices rest on domestic buying while foreigners sell and the rupee sits near 95.2; a weak Q1 results season would expose stretched valuations, and the monsoon (Mumbai red alert) is a food-inflation wildcard.",
+    "Crypto is still in a downtrend despite the weekend bounce; a break below ~$62.4k support would signal the stabilization has failed and dent broader risk sentiment."
+  ],
+  "disclaimer": "For information only. Not financial advice. Prices are from free, possibly-delayed sources (yfinance/CoinGecko) and can be inaccurate; markets were closed for the holiday weekend, so equity levels reflect last week's close. Verify before acting."
+}

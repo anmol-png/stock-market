@@ -1,0 +1,316 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T14:30:00+05:30",
+  "headline": "Risk-on tape shrugs off a hot core PCE print as AI names lead \u2014 but Bitcoin sits deeply oversold near 52-week lows.",
+  "market_story": "Markets are caught between two forces today. On one side, **inflation is running hot again** \u2014 the Fed's preferred gauge, core PCE (which strips out food and energy to show the underlying trend), hit 3.8% in May, the highest since late 2023, pushed up partly by a Middle East energy squeeze. Hot inflation usually means interest rates stay **higher for longer**, and higher rates pressure expensive, fast-growing stocks (and gold and crypto, which pay no interest). On the other side, investors are piling back into **artificial-intelligence winners**: the tech-heavy Nasdaq jumped 1.5% and Nvidia rose 2.6%, while the market's 'fear gauge' (the VIX, ~17) shows little anxiety. The result is a **split tape** \u2014 US and Indian stocks up, but Bitcoin pinned at 52-week lows and India's IT exporters lagging. The tension to watch: if the Fed signals rate hikes to fight inflation, today's AI-led calm could break.",
+  "board": [
+    {
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "currency": "",
+      "value": "7,499",
+      "change_pct": 0.79,
+      "read": "The main gauge of large US companies rose \u2014 the market is leaning into AI strength and shrugging off the hot inflation print."
+    },
+    {
+      "name": "Nasdaq",
+      "ticker": "^IXIC",
+      "currency": "",
+      "value": "26,214",
+      "change_pct": 1.52,
+      "read": "The tech-heavy index led the day as AI names rebounded \u2014 the classic sign of a 'risk-on' mood."
+    },
+    {
+      "name": "Dow Jones",
+      "ticker": "^DJI",
+      "currency": "",
+      "value": "52,319",
+      "change_pct": 0.26,
+      "read": "The 30 big 'old-economy' names lagged tech \u2014 leadership is narrow, concentrated in AI."
+    },
+    {
+      "name": "Nifty 50",
+      "ticker": "^NSEI",
+      "currency": "",
+      "value": "24,006",
+      "change_pct": 0.59,
+      "read": "India's benchmark edged up, held together by banks and Reliance even as IT stocks dragged."
+    },
+    {
+      "name": "Sensex",
+      "ticker": "^BSESN",
+      "currency": "",
+      "value": "76,923",
+      "change_pct": 0.58,
+      "read": "India's 30-stock index tracked the Nifty higher \u2014 broad but uneven strength."
+    },
+    {
+      "name": "Bank Nifty",
+      "ticker": "^NSEBANK",
+      "currency": "",
+      "value": "58,033",
+      "change_pct": 0.85,
+      "read": "Indian banks outperformed the market \u2014 a healthy sign for the domestic economy."
+    },
+    {
+      "name": "Bitcoin",
+      "ticker": "BTC-USD",
+      "currency": "$",
+      "value": "58,570",
+      "change_pct": 0.02,
+      "read": "Barely moved and stuck near its 52-week low; crypto is NOT confirming the stock-market optimism (RSI deeply oversold)."
+    },
+    {
+      "name": "Gold",
+      "ticker": "GC=F",
+      "currency": "$",
+      "value": "4,010",
+      "change_pct": -0.32,
+      "read": "Slipped as a firmer dollar and higher-rate expectations weigh on gold, which pays no interest to hold."
+    },
+    {
+      "name": "Crude Oil (WTI)",
+      "ticker": "CL=F",
+      "currency": "$",
+      "value": "68.82",
+      "change_pct": -0.98,
+      "read": "Eased as Middle East shipping fears calmed for now \u2014 but oil is the key swing factor for inflation from here."
+    },
+    {
+      "name": "USD / INR",
+      "ticker": "INR=X",
+      "currency": "\u20b9",
+      "value": "95.25",
+      "change_pct": 0.48,
+      "read": "The rupee weakened past 95 per dollar \u2014 higher US rates pull money toward the dollar, pressuring the rupee (and making imports costlier for India)."
+    }
+  ],
+  "themes": [
+    {
+      "theme": "AI & Big Tech",
+      "direction": "up",
+      "note": "Nvidia +2.6% and the Nasdaq's jump show money rotating back into AI leaders \u2014 the day's dominant driver."
+    },
+    {
+      "theme": "Indian banks",
+      "direction": "up",
+      "note": "Bank Nifty +0.85% \u2014 domestic financials are leading India's advance while exporters lag."
+    },
+    {
+      "theme": "Indian IT",
+      "direction": "down",
+      "note": "TCS -1.9%, Infosys -1.1% \u2014 a weak rupee helps exporters' earnings but fears of soft global tech spending weigh more."
+    },
+    {
+      "theme": "Crypto",
+      "direction": "down",
+      "note": "Bitcoin pinned at 52-week lows, diverging from stocks \u2014 risk appetite in crypto is fragile right now."
+    },
+    {
+      "theme": "Gold & commodities",
+      "direction": "mixed",
+      "note": "Gold and crude both slipped as the dollar firmed and Hormuz fears eased \u2014 but energy stays the inflation wildcard."
+    }
+  ],
+  "what_to_watch": [
+    {
+      "rank": 1,
+      "title": "Hot core PCE vs. a calm tape",
+      "gist": "'Core PCE' \u2014 the inflation measure the US Federal Reserve watches most (it strips out food and fuel to reveal the underlying trend) \u2014 rose 3.8% over the past year, its hottest reading since October 2023. Normally a scare like that rattles markets, yet the 'VIX' (Wall Street's fear gauge) is sitting calm near 17 and stocks still rose.",
+      "why_it_matters": "Hot inflation pushes the Fed toward RAISING interest rates rather than cutting them. Higher rates make borrowing costlier and usually drag down expensive, fast-growing stocks, plus gold and crypto. A calm market sitting on top of a hot inflation print is an uneasy combination \u2014 the calm may not last.",
+      "what_it_means": "Don't be lulled by the quiet tape. If the Fed signals hikes, the most exposed things you hold are growth tech (like Nvidia), gold and Bitcoin. Treat today as 'watch closely', not an all-clear.",
+      "watch": "The Fed's next meeting and the following core-PCE release \u2014 and whether the VIX starts climbing.",
+      "key_terms": [
+        {
+          "term": "Core PCE",
+          "definition": "The Fed's favourite inflation gauge \u2014 prices excluding volatile food and energy, to show the real underlying trend."
+        },
+        {
+          "term": "VIX",
+          "definition": "The market's 'fear gauge' \u2014 how much turbulence investors expect; low means calm, high means fear."
+        }
+      ],
+      "tickers": [],
+      "market": "MACRO",
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/markets/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "AI leadership back in front",
+      "gist": "The tech-heavy Nasdaq index jumped 1.52% and Nvidia rose 2.6%, leading the market. A quirk worth understanding: Nvidia's 'forward P/E' (price versus NEXT year's expected profit) is ~15.7 \u2014 roughly half its 'trailing P/E' (~30.7, versus the PAST year). When the forward number is much lower, the market is betting profits will grow fast.",
+      "why_it_matters": "Money is re-concentrating into a handful of AI winners rather than spreading across the whole market. That makes the indexes look strong but leadership 'narrow' \u2014 if AI sentiment wobbles, the entire market feels it, because these few names are so large.",
+      "what_it_means": "The AI trade is back in charge today \u2014 a tailwind if you hold Nvidia or Apple. But 'narrow leadership' is a fragility to keep in mind: a lot rides on just a few stocks.",
+      "watch": "Whether the rally broadens beyond mega-cap tech, and Nvidia's next earnings report.",
+      "key_terms": [
+        {
+          "term": "P/E ratio",
+          "definition": "Price \u00f7 earnings \u2014 how many dollars you pay for each $1 of a company's yearly profit; higher usually means pricier or higher growth expected."
+        },
+        {
+          "term": "Forward vs trailing P/E",
+          "definition": "Trailing uses last year's profit; forward uses next year's expected profit. A much lower forward P/E implies profits are expected to grow strongly."
+        }
+      ],
+      "tickers": [
+        "NVDA",
+        "AAPL"
+      ],
+      "market": "US"
+    },
+    {
+      "rank": 3,
+      "title": "Bitcoin oversold at the lows",
+      "gist": "Bitcoin is roughly flat near $58.6k but sitting right on its lowest price of the past year ($58,046). Its 'RSI' \u2014 a 0\u2013100 momentum meter \u2014 is about 26, and anything under 30 is considered 'oversold' (it has fallen far and fast). It's also ~22% below its 200-day average price, confirming a downtrend.",
+      "why_it_matters": "Bitcoin is the purest gauge of speculative risk appetite, and it's diverging sharply from stocks (which rose today) \u2014 a warning that the crowd is more nervous under the surface. 'Oversold' can precede a bounce, but in a firm downtrend price can stay oversold and keep falling.",
+      "what_it_means": "This is an inflection point \u2014 either capitulation (a final flush lower) or a bounce. The beginner lesson: oversold does NOT mean automatic buy; wait for price to reclaim key levels before assuming a floor.",
+      "watch": "Whether $58,046 (the 52-week low) holds \u2014 a decisive break below it would be bearish confirmation.",
+      "key_terms": [
+        {
+          "term": "RSI",
+          "definition": "Relative Strength Index \u2014 a 0\u2013100 momentum meter; under 30 is 'oversold' (fallen fast), over 70 is 'overbought' (risen fast)."
+        },
+        {
+          "term": "200-day average",
+          "definition": "The average price over the last 200 days; price sitting far below it signals a long-term downtrend."
+        }
+      ],
+      "tickers": [
+        "BTC-USD"
+      ],
+      "market": "CRYPTO"
+    },
+    {
+      "rank": 4,
+      "title": "India IT drags while the index rises",
+      "gist": "India's main indexes edged up (Nifty +0.59%, Sensex +0.58%), but the gains were uneven: big IT exporters fell \u2014 TCS -1.9%, Infosys -1.1% \u2014 while banks (Bank Nifty +0.85%) and Reliance (+1.3%) carried the market. The rupee near 95 per dollar adds pressure.",
+      "why_it_matters": "When the headline index rises but a major sector like IT falls, the strength is 'narrow'. India's IT firms earn heavily from US clients, so fears of softer US tech spending \u2014 and now higher-for-longer US interest rates \u2014 weigh on them, even though a weak rupee normally flatters their dollar earnings.",
+      "what_it_means": "For an Indian investor, today's green index hides a soft spot. IT is the sector to watch: a stronger US outlook or a trade deal would help it, while a slowing US or a strengthening rupee would hurt.",
+      "watch": "The India\u2013US trade talks (deadline July 24) and any US tech-spending signals; the rupee holding or breaking 95.",
+      "key_terms": [
+        {
+          "term": "Nifty / Sensex",
+          "definition": "India's two headline stock indexes \u2014 baskets of its biggest companies that track how the overall market did."
+        },
+        {
+          "term": "IT exporters",
+          "definition": "Indian tech-services firms (TCS, Infosys) that earn mostly from overseas clients, so global demand and the rupee drive them."
+        }
+      ],
+      "tickers": [
+        "TCS.NS",
+        "INFY.NS"
+      ],
+      "market": "IN"
+    },
+    {
+      "rank": 5,
+      "title": "China widens Japan export curbs",
+      "gist": "China is extending 'export controls' \u2014 rules restricting what can be sold abroad \u2014 to Japanese drone makers, nuclear firms and defense institutions. It's the latest move in an ongoing tit-for-tat over strategic technology and materials between major powers.",
+      "why_it_matters": "Export curbs can choke off the parts and materials companies rely on, snarling supply chains for industrials, defense and tech. Escalation between China and Japan \u2014 two of the world's largest economies \u2014 adds geopolitical risk, which markets dislike.",
+      "what_it_means": "A slow-burn risk rather than a today problem, but worth tracking: it can hit specific industrial and defense supply chains and feeds the broader 'de-risking' trend of countries cutting dependence on rivals.",
+      "watch": "Any Japanese retaliation, or a widening of China's restricted list.",
+      "key_terms": [
+        {
+          "term": "Export controls",
+          "definition": "Government rules restricting the sale of certain goods or technology to other countries, usually for security or strategic reasons."
+        }
+      ],
+      "tickers": [],
+      "market": "MACRO",
+      "sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/markets/"
+        }
+      ]
+    }
+  ],
+  "global_summary": {
+    "us": "Risk-on and tech-led: Nasdaq +1.52% (26,214), S&P 500 +0.79% (7,499), Dow +0.26%. The VIX ticked up to ~17 but stayed low despite a hot inflation print \u2014 the tape is leaning into AI strength.",
+    "india": "Nifty +0.59% (24,006) and Sensex +0.58% (76,923), broad but uneven \u2014 banks and Reliance (+1.3%) lead while IT lags (TCS -1.9%, Infosys -1.1%). USD/INR ~95.25 keeps the rupee on the back foot.",
+    "crypto": "Bitcoin ~$58.6k (flat) and Ether ~$1,571 are barely moving, but BTC is deeply oversold (RSI ~26) and sitting on its 52-week low \u2014 crypto is not confirming the equity risk-on.",
+    "macro": "Core PCE at 3.8% (hottest since Oct 2023) pressures the rate path toward hikes; crude -1.0% (~$68.8) as Strait of Hormuz shipping fears ease; gold -0.3% (~$4,010) on a firmer dollar."
+  },
+  "catalysts_today": [
+    {
+      "when": "Released",
+      "event": "US Core PCE (May) 3.8% \u2014 Fed's preferred inflation gauge, highest since Oct 2023",
+      "ticker": null,
+      "importance": "high"
+    },
+    {
+      "when": "Ongoing",
+      "event": "Middle East energy risk; Strait of Hormuz shipping tensions vs. new US\u2013Oman corridor",
+      "ticker": null,
+      "importance": "medium"
+    },
+    {
+      "when": "Note",
+      "event": "Earnings/economic calendar not pulled (add a free Finnhub key to populate this)",
+      "ticker": null,
+      "importance": "low"
+    }
+  ],
+  "favorites": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "price": 289.36,
+      "change_pct": 2.7,
+      "whats_new": "Up 2.7% with the AI-led tape; reclaiming ground but still just under its 50-day (~292).",
+      "fundamentals": "Mega-cap tech, ~$4.25T market cap, trailing P/E ~35 / forward ~30, profit margins ~27%. Premium valuation \u2014 priced for durable execution.",
+      "technicals": "RSI ~47 (neutral, no extreme). Trades just below the 50-DMA ($292) and well above the 200-DMA ($270) \u2014 the long-term uptrend is intact but it's consolidating near term. The 50-DMA is the level to reclaim to turn momentum back up.",
+      "catalysts": "Next earnings the key event; watch AI/services commentary. (Add a Finnhub key to auto-pull the exact date.)",
+      "risks": "Valuation leaves little room for a miss; hardware demand and regulatory/China exposure are the swing factors.",
+      "stance": "constructive"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "price": 200.09,
+      "change_pct": 2.63,
+      "whats_new": "Up 2.6%, leading the AI rebound; forward P/E (~15.7) now well below trailing (~30.7), implying the market expects strong earnings growth.",
+      "fundamentals": "~$4.85T market cap, profit margins ~63% (exceptional), forward P/E ~15.7 vs trailing ~30.7. Growth expectations are doing the heavy lifting.",
+      "technicals": "RSI ~43. Below the 50-DMA ($210) but above the 200-DMA ($191) \u2014 a pullback within a longer uptrend. Reclaiming $210 would confirm the bounce; a close below $191 would be the warning sign.",
+      "catalysts": "AI data-center demand narrative and next earnings; Nikkei's AI-led rally is a supportive read-through.",
+      "risks": "Momentum name \u2014 sharp drawdowns if AI-capex expectations wobble or supply/competition headlines hit.",
+      "stance": "constructive"
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "name": "Reliance Industries",
+      "price": 1310.1,
+      "change_pct": 1.25,
+      "whats_new": "Bounced 1.3% with the broader Indian market, but still trades below both key moving averages \u2014 a relief move, not a trend change yet.",
+      "fundamentals": "~\u20b917.7T market cap, trailing P/E ~22 / forward ~18, profit margins ~7.6% (energy-heavy mix). Reasonable valuation for a diversified large-cap.",
+      "technicals": "RSI ~63 (firming). Price (\u20b91,310) is below both the 50-DMA (\u20b91,344) and 200-DMA (\u20b91,420) \u2014 still a downtrend; it needs to clear \u20b91,344 to change the near-term picture.",
+      "catalysts": "Watch retail/Jio and energy-margin commentary; India news has no cheap API, so the routine's web search fills this in.",
+      "risks": "Below both moving averages; energy-margin pressure and rupee weakness (USD/INR ~95) are headwinds.",
+      "stance": "neutral"
+    },
+    {
+      "ticker": "BTC-USD",
+      "name": "Bitcoin",
+      "price": 58570.0,
+      "change_pct": 0.02,
+      "whats_new": "Barely moved but sitting right on its 52-week low ($58,046) with RSI ~26 \u2014 textbook oversold; the key question is capitulation vs. a bounce.",
+      "fundamentals": "~$1.16T market cap; 52-week range $58,046\u2013$126,198. Currently near the very bottom of that range.",
+      "technicals": "RSI ~26 (deeply oversold). ~14% below the 50-DMA ($68k) and ~22% below the 200-DMA ($75.2k) \u2014 a firm downtrend; oversold can persist, so wait for a reclaim before assuming a floor.",
+      "catalysts": "Macro/rate path and risk appetite drive it; a hot PCE print and rate-hike fears are near-term headwinds for long-duration risk assets.",
+      "risks": "Downtrend intact and diverging from equities; a break below the 52-week low would be a bearish confirmation.",
+      "stance": "cautious"
+    }
+  ],
+  "risks": [
+    "Sticky inflation: core PCE at 3.8% could force a higher-for-longer (or rate-hike) repricing that the low VIX isn't yet reflecting.",
+    "Crypto downtrend: Bitcoin at 52-week lows and far below its moving averages \u2014 a break lower would pressure risk sentiment broadly.",
+    "India IT weakness and a soft rupee (USD/INR ~95) weigh on the index's internals despite the headline gain.",
+    "Geopolitics/energy: Middle East supply risk and a China\u2013Japan export-curb escalation keep supply-chain and inflation tail risks live."
+  ],
+  "disclaimer": "For information only. Not financial advice. Prices are from free, possibly-delayed sources (yfinance/CoinGecko) and can be inaccurate \u2014 verify before acting."
+}

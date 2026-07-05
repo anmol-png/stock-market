@@ -1,0 +1,1002 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-06T00:06:15+05:30",
+  "day_label": "Sunday · 5 July 2026",
+  "dashboard_url": "../",
+  "cards": [
+    {
+      "type": "cover",
+      "id": "cover",
+      "headline": "The world's oil arteries are the story of the day — the Strait of Hormuz reopens as a wounded Iran buries Khamenei, while Ukraine sets a Russian oil terminal ablaze and Trump phones Putin to talk peace.",
+      "big_picture": "Two of the planet's great energy chokepoints are moving at once. In the Gulf, a post-war Iran is grudgingly reopening the Strait of Hormuz — the sea gate for a fifth of the world's oil — even as it insists on charging ships 'fees' and buries a Supreme Leader killed in the spring's US–Israel air war; India, which imports most of its oil, has already lifted the emergency gas rationing it imposed during the disruption. In the north, Ukraine has shown it can now burn oil terminals deep inside Russia while Donald Trump works the phones with both Kyiv and Moscow. Underneath the geopolitics runs a quieter economic current: the US economy is visibly cooling (just 57,000 jobs added in June), a record heatwave is straining power grids across the Northern Hemisphere, and at home India is having a busy news day — the US dropping its bribery case against Gautam Adani, a free-trade pact with Britain about to take effect, a crackdown on Meta, and a monsoon that has put Mumbai under a red alert. The mood: relief that the worst oil-shock fears are fading, shadowed by the sense that both war and weather remain unpredictable.",
+      "market_headline": "A quiet Sunday with the tape still frozen at last week's closes — but the big change is relief: the Strait of Hormuz is reopening, India has stood down its gas emergency, and the week ahead turns on Indian Q1 earnings, not an oil shock.",
+      "counts": {
+        "stories": 10,
+        "markets": 5,
+        "learn": 2
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-1",
+      "rank": 1,
+      "category": "geopolitics",
+      "importance": "critical",
+      "regions": [
+        "Middle East",
+        "India",
+        "Global"
+      ],
+      "title": "The Strait of Hormuz reopens — but Iran wants to charge a fee, and India has just stood down its gas emergency",
+      "what_happened": "Maritime traffic through Hormuz is now resuming under the ceasefire, and India — which had imposed emergency curbs on gas use during the disruption — formally withdrew those curbs this weekend, saying LNG supplies have normalised. But Iran is not simply standing aside: its ambassador to China said Tehran will still charge transit 'fees' (which it is careful not to call 'tolls'), promising 'special' treatment for 'friendly' countries, despite US objections. Reports say Iran has already been charging as much as $2 million per ship since the war began.",
+      "moot": "The price of oil is set as much by the safety of the ROUTE as by how much oil exists — a threat (or a new fee) at one narrow strait can raise energy costs worldwide before a single barrel is lost.",
+      "concepts": [
+        "crude_geopolitics",
+        "supply_chain",
+        "crude_asset",
+        "usdinr"
+      ],
+      "depth": {
+        "background": "The Strait of Hormuz is a narrow sea lane between Iran and Oman through which roughly a fifth of the world's seaborne oil and much of its liquefied natural gas (LNG) must pass — there is no easy alternative route. Since 28 February 2026, when the United States and Israel launched an air war against Iran (a war in which Iran's Supreme Leader Ayatollah Ali Khamenei was killed), Iran's Revolutionary Guard had choked the strait — warning ships off, boarding some, and reportedly laying mines. A ceasefire in June began to calm things, and a US-run naval information centre widened a safe route near Oman in late June.",
+        "why_it_matters": "Oil is the master input of the modern economy — it moves goods, powers factories and feeds into the price of almost everything. When the route that carries a fifth of it is in question, the whole world's energy bill is on the line. The reopening is a big relief; but a country charging for passage through an international strait is a new and contested precedent that keeps a permanent risk premium in the oil price.",
+        "ripple_effects": "For oil importers like India (which buys ~85% of its crude abroad), a smooth Hormuz means cheaper, steadier fuel, less pressure on the rupee, and lower imported inflation — which is why New Delhi felt safe lifting its gas curbs. For shippers, 'fees' plus war-risk insurance raise the cost of every cargo, a cost that ends up in petrol pumps worldwide. And Iran's offer of discounts to 'friendly' China and higher charges to others quietly redraws energy alliances.",
+        "why_now": "The ceasefire has held long enough for tankers to return and for India to judge the emergency over — but Iran, economically battered and burying its leader, is using its one remaining piece of leverage (control of the strait) to extract revenue before the window closes.",
+        "watch_next": "Whether Iran actually enforces the 'fees' and how shippers and the US Navy respond — and where crude oil opens when Western and Indian markets reopen Monday.",
+        "market_link": "Crude oil (WTI ~$68.78, technically oversold) is the swing asset; a smooth reopening caps it, any enforcement fight could spike it. Oil-importers and India's rupee benefit from calm; global oil & gas producers gain from any premium.",
+        "key_terms": [
+          {
+            "term": "Strait of Hormuz",
+            "definition": "A narrow shipping channel between Iran and Oman through which about a fifth of the world's oil passes; there is no easy way around it."
+          },
+          {
+            "term": "LNG (liquefied natural gas)",
+            "definition": "Natural gas cooled to liquid form so it can be shipped by sea; India imports a lot of it to run power plants and industry."
+          },
+          {
+            "term": "Risk premium",
+            "definition": "The extra amount a price carries simply because of the danger of disruption, even before any actual shortage happens."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/5/irans-china-envoy-vows-special-hormuz-treatment-for-friendly-countries"
+          },
+          {
+            "name": "The Hindu (India gas curbs lifted)",
+            "url": "https://www.thehindu.com/news/national/government-withdraws-emergency-gas-curbs-imposed-during-hormuz-disruption-as-lng-supplies-normalise/article71185227.ece"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org/2026/07/03/nx-s1-5879278/irans-control-of-the-strait-of-hormuz-remains-a-powerful-bargaining-chip"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-2",
+      "rank": 2,
+      "category": "geopolitics",
+      "importance": "high",
+      "regions": [
+        "Russia",
+        "Ukraine",
+        "US"
+      ],
+      "title": "Ukraine burns a major oil terminal deep inside Russia as Trump phones Putin to talk peace",
+      "what_happened": "In the early hours of 4 July, Ukraine struck the St Petersburg Oil Terminal — one of the largest petroleum-transhipment hubs in the Baltic, with a design capacity of 12.5 million tonnes a year — and the nearby Kronstadt base, home to Russia's Baltic Fleet, setting fires at both. President Zelensky said the target was infrastructure 'that generates revenue for Russia's war.' The same weekend, Trump held a nearly 90-minute call with Vladimir Putin, offering to help find a solution, and separately spoke with Zelensky; a NATO summit in Turkey is expected next week.",
+      "moot": "In modern war, energy infrastructure is a front line of its own — hitting the pipes and terminals that fund an enemy can matter as much as taking territory, and it ripples straight into global prices.",
+      "concepts": [
+        "crude_geopolitics",
+        "sanctions",
+        "crude_asset",
+        "supply_chain"
+      ],
+      "depth": {
+        "background": "Russia invaded Ukraine in February 2022, and for most of the war Ukraine could strike only near the front lines. Over the past year, home-built long-range drones have changed that, letting Kyiv reach targets hundreds of kilometres inside Russia — especially the oil refineries and export terminals that fund Moscow's war. The US, under Trump, has been pushing both sides toward talks.",
+        "why_it_matters": "St Petersburg is Putin's home city and far from the front — hitting an oil terminal there shows the war has entered a phase where Russia's economic heartland is no longer safe, raising the cost of the war for Moscow. At the same time, active US diplomacy signals the fighting could be nearing a negotiation, not just an escalation.",
+        "ripple_effects": "Every strike on Russian oil infrastructure nudges global fuel supply and prices — coming on the same weekend as the Hormuz story, it keeps two of the world's oil systems under pressure at once. A credible peace push, by contrast, could eventually ease the 'war premium' in energy and grain prices that has strained household budgets from Europe to India since 2022.",
+        "why_now": "Ukraine is pressing its new long-range advantage to strengthen its hand before any talks, while Trump — heading into a NATO summit — is trying to convert battlefield pressure into a diplomatic opening.",
+        "watch_next": "Whether the Trump–Putin contact produces an actual meeting or ceasefire framework at or around next week's NATO summit in Turkey.",
+        "market_link": "Strikes on Russian oil terminals and any peace progress both move crude and European natural-gas prices, and shift risk appetite in equities and the euro.",
+        "key_terms": [
+          {
+            "term": "Transhipment terminal",
+            "definition": "A hub where oil is transferred between pipelines, storage and ships for export — a bottleneck whose loss disrupts a country's oil sales."
+          },
+          {
+            "term": "War premium",
+            "definition": "The extra amount added to commodity prices (oil, gas, grain) because conflict threatens supply."
+          }
+        ],
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro"
+          },
+          {
+            "name": "Al Jazeera (Trump–Putin call)",
+            "url": "https://www.aljazeera.com/news/2026/7/5/trump-offers-to-help-end-ukraine-war-in-long-call-with-putin-kremlin-says"
+          },
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/st-petersburg-oil-terminal-july-4/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-3",
+      "rank": 3,
+      "category": "economy",
+      "importance": "high",
+      "regions": [
+        "US",
+        "Global"
+      ],
+      "title": "America turns 250 as its jobs engine sputters — and the Fed stays stuck",
+      "what_happened": "The US added just 57,000 jobs in June — roughly half the ~115,000 expected. The unemployment rate actually fell to 4.2%, but for the 'wrong' reason: people stopped looking for work, pushing labour-force participation to its lowest in 50 years outside the Covid era. With inflation still sticky (around 4.2% a year), markets now put the odds of a July rate HIKE at only ~10% (a 'no change' at ~90%) — but they don't expect cuts either.",
+      "moot": "A falling unemployment rate can hide a weakening job market — if it drops because people quit looking rather than because they found work, it's a warning sign, not good news.",
+      "concepts": [
+        "interest_rates",
+        "central_bank",
+        "inflation",
+        "usdinr"
+      ],
+      "depth": {
+        "background": "The United States marked its 250th birthday this July 4th with fireworks, flyovers and a Trump speech — against a backdrop of record heat and a slowing economy. The key monthly gauge of that economy is 'nonfarm payrolls,' the count of jobs added outside farming; it tells markets how healthy hiring is and shapes what the Federal Reserve (the US central bank, which sets interest rates) does next.",
+        "why_it_matters": "The US is the world's largest economy and the dollar its anchor currency, so US hiring and US interest rates ripple into every market on earth. A cooling jobs market removes the fear of higher rates — good for stocks, gold and emerging markets like India — but sticky inflation means the Fed is stuck on hold: no relief from cuts, and a slowing economy underneath.",
+        "ripple_effects": "'Higher for longer' US rates keep the dollar firm, which pressures the Indian rupee (near a record-low ~95 per dollar) and pulls foreign money out of emerging markets. A weakening US consumer also matters for Indian IT firms and exporters that sell into America. But the removal of hike fears is why the blue-chip Dow closed at a record.",
+        "why_now": "The June payrolls print landed just before the holiday and crystallised a trend — the labour market that powered the post-Covid boom is finally losing steam, forcing a rethink of the rate path into the Fed's late-July meeting.",
+        "watch_next": "The next US inflation (CPI) reading and the Federal Reserve's rate decision on 29 July — whether 'no hike' hardens into talk of cuts.",
+        "market_link": "US rate expectations drive the dollar, gold (~$4,187), the rupee and foreign flows into Indian equities; a stuck Fed is a mild headwind for rate-sensitive tech and emerging markets.",
+        "key_terms": [
+          {
+            "term": "Nonfarm payrolls",
+            "definition": "The monthly count of US jobs added outside farming — the single most-watched gauge of hiring health."
+          },
+          {
+            "term": "Labour-force participation",
+            "definition": "The share of adults working or actively job-hunting; when it falls, a lower jobless rate can be misleading because people simply gave up looking."
+          },
+          {
+            "term": "Higher for longer",
+            "definition": "The idea that a central bank keeps interest rates elevated for an extended period rather than cutting them, usually because inflation stays stubborn."
+          }
+        ],
+        "sources": [
+          {
+            "name": "CNBC (jobs report)",
+            "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+          },
+          {
+            "name": "CNBC (participation rate)",
+            "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
+          },
+          {
+            "name": "BBC (250th anniversary)",
+            "url": "https://www.bbc.co.uk/news/articles/cp9lppvkmz5o"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-4",
+      "rank": 4,
+      "category": "india",
+      "importance": "high",
+      "regions": [
+        "India",
+        "US"
+      ],
+      "title": "US prosecutors move to drop the Adani bribery case — 'should never have been brought'",
+      "what_happened": "The US Department of Justice has asked a federal judge to permanently dismiss the case, saying in a sharply worded 10-page filing that it 'should have been dropped a year ago — or never brought in the first place.' It cited six reasons: the conduct was overwhelmingly centred in India, Indian authorities found no actionable misconduct, investors suffered no losses, key evidence and witnesses are abroad, the defendants would never appear in a US court, and the case faced steep evidentiary hurdles. The judge has asked for more detail by 13 July before ruling, and the DoJ argued that US actions as the world's 'police' can cause diplomatic strife.",
+      "moot": "Legal and political risk is a real part of a stock's price — when a long-feared overhang lifts, shares can re-rate on relief alone, before any change in the underlying business.",
+      "concepts": [
+        "fii_flows",
+        "index"
+      ],
+      "depth": {
+        "background": "In November 2024, US prosecutors indicted Gautam Adani — one of India's richest men, whose ports-to-power Adani Group is central to India's infrastructure — along with his nephew Sagar and others, alleging a scheme to bribe Indian officials for solar-power contracts, wrapped in charges of securities and wire fraud. The case hammered Adani's share prices and became a diplomatic irritant between Washington and New Delhi.",
+        "why_it_matters": "The Adani Group underpins a huge slice of Indian infrastructure — ports, airports, power, green energy — so a cloud over its founder is a cloud over financing costs and investor confidence across that footprint. Dropping the case removes a major overhang and signals warmer US–India ties under Trump.",
+        "ripple_effects": "If charges are dismissed, Adani Group stocks and bonds could re-rate higher and the group's access to global capital improves, feeding into its infrastructure build-out. More broadly, it reassures foreign investors nervous about legal risk in Indian conglomerates — a modest positive for sentiment toward Indian equities.",
+        "why_now": "The Trump DoJ is re-examining Biden-era foreign-bribery prosecutions, and this filing is its formal justification to the court for walking away from one of the highest-profile ones.",
+        "watch_next": "The judge's decision after the 13 July deadline — whether the dismissal is granted 'with prejudice' (meaning it can never be refiled).",
+        "market_link": "Positive for Adani Group listed companies and, at the margin, for foreign-investor sentiment toward Indian large-caps.",
+        "key_terms": [
+          {
+            "term": "Indictment",
+            "definition": "A formal criminal charge brought by prosecutors; it is an accusation, not a conviction."
+          },
+          {
+            "term": "Dismissal with prejudice",
+            "definition": "Ending a case permanently so the same charges cannot be brought again."
+          },
+          {
+            "term": "Foreign Corrupt Practices Act (FCPA)",
+            "definition": "A US law that lets American prosecutors charge bribery of foreign officials if there is a US link, such as US-listed securities."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/business/Industry/us-doj-says-adani-case-should-never-have-been-brought-urges-judge-to-drop-charges-permanently/article71183562.ece"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/world-news/us-doj-says-adani-case-should-never-have-been-filed-seeks-dismissal-126070400732_1.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-5",
+      "rank": 5,
+      "category": "india",
+      "importance": "high",
+      "regions": [
+        "India",
+        "UK"
+      ],
+      "title": "India–UK free-trade pact takes effect July 15 — 99% of Indian exports go duty-free",
+      "what_happened": "India's Finance Ministry has notified the 'rules of origin' — the technical rulebook that decides which goods count as genuinely 'made in India' or 'made in UK' and so qualify for zero tariffs — clearing the last hurdle for the pact to come into force on 15 July. CETA gives duty-free access to 99% of India's exports to Britain, covering nearly the entire trade basket.",
+      "moot": "Free-trade deals reward the details — the tariff headline grabs attention, but it's the 'rules of origin' paperwork that decides who actually captures the benefit.",
+      "concepts": [
+        "tariffs",
+        "gdp",
+        "currency_strength"
+      ],
+      "depth": {
+        "background": "For years India was cautious about free-trade agreements, worried cheap imports would swamp local industry. That has shifted: New Delhi now sees trade deals as a way to lock in export markets and diversify away from over-reliance on China and the US. The India–UK Comprehensive Economic and Trade Agreement (CETA) is the flagship of that new approach, signed earlier and now being switched on.",
+        "why_it_matters": "A tariff is a tax at the border; removing it makes Indian goods instantly cheaper and more competitive in a wealthy market. The biggest winners are labour-intensive sectors — textiles, leather, footwear, marine products, gems and jewellery — plus engineering goods and auto components, exactly the industries that employ millions and that India wants to grow.",
+        "ripple_effects": "Cheaper access to the UK can lift export orders, factory jobs and foreign-exchange earnings, easing pressure on the rupee over time. It also sets a template: India is negotiating similar deals with the EU and others, so CETA is a proof-of-concept for a more trade-open India. Exporters must now master the paperwork — certificates of origin and multi-year record-keeping — to actually claim the benefits.",
+        "why_now": "The rules-of-origin notification on 3 July was the final administrative step; the 15 July start date makes the tariff cuts real for shippers within days.",
+        "watch_next": "How quickly export orders in textiles, gems and engineering pick up after 15 July — and progress on the parallel India–EU trade talks.",
+        "market_link": "Positive for Indian export-heavy sectors — textiles, leather, footwear, gems & jewellery, auto components and engineering goods listed on Indian exchanges.",
+        "key_terms": [
+          {
+            "term": "Tariff",
+            "definition": "A tax charged on goods when they cross a border; lower tariffs make imports/exports cheaper and more competitive."
+          },
+          {
+            "term": "Rules of origin",
+            "definition": "The criteria that decide which country a product genuinely comes from, so authorities know whether it qualifies for a trade deal's lower tariffs."
+          },
+          {
+            "term": "CETA",
+            "definition": "The India–UK Comprehensive Economic and Trade Agreement — a free-trade pact cutting tariffs on almost all goods traded between the two countries."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/business/finance-ministry-notifies-rules-for-determination-of-origin-of-goods-under-india-uk-trade-pact/article71183697.ece"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/economy/news/india-uk-trade-pact-origin-rules-notified-ahead-of-july-15-rollout-126070400796_1.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-6",
+      "rank": 6,
+      "category": "technology",
+      "importance": "notable",
+      "regions": [
+        "EU",
+        "US"
+      ],
+      "title": "Google loses its last appeal — Europe's €4.1bn Android fine is now final",
+      "what_happened": "On 2 July, the European Court of Justice — the EU's highest court — dismissed Google's final appeal and upheld the fine at €4.1 billion (about $4.67 billion). There is no further right of appeal, ending a legal battle that ran from 2018 (the fine was trimmed from €4.34bn to €4.1bn by a lower court in 2022).",
+      "moot": "For a giant, the fine is rarely the point — the lasting cost of an antitrust loss is the precedent that constrains how it's allowed to run its business.",
+      "concepts": [
+        "index"
+      ],
+      "depth": {
+        "background": "Android, Google's mobile operating system, runs on most of the world's smartphones. In 2018 the European Commission — the EU's competition regulator — fined Google a record amount, saying it abused Android's dominance by forcing phone-makers to pre-install Google's own apps (like Search and Chrome) in return for access to the app store. Google has been fighting the fine in court ever since.",
+        "why_it_matters": "This is the definitive word in one of the biggest antitrust cases against Big Tech, and it hardens Europe's reputation as the world's toughest tech regulator. It reinforces the principle that controlling a dominant platform (like an operating system) and using it to favour your own products can be illegal — a warning shot for every gatekeeper company.",
+        "ripple_effects": "The cash fine is small for a company Alphabet's size, but the precedent is not: it strengthens the EU's newer Digital Markets Act rules and emboldens regulators (and rivals) worldwide, including in India, where the Competition Commission has pursued similar Android complaints. Expect continued pressure on how app stores and default apps work.",
+        "why_now": "The case simply reached the end of the road — the ECJ is the final court, so its ruling closes an eight-year fight.",
+        "watch_next": "How aggressively the EU now enforces its Digital Markets Act against Google, Apple and other 'gatekeepers,' and whether India's regulator leans on this precedent.",
+        "market_link": "Marginal for Alphabet's ~$2T+ valuation, but a sentiment and regulatory-risk factor for Big Tech (Google, Apple, Meta) and their app-store economics.",
+        "key_terms": [
+          {
+            "term": "Antitrust / competition law",
+            "definition": "Rules meant to stop companies from abusing a dominant market position or blocking rivals unfairly."
+          },
+          {
+            "term": "Gatekeeper",
+            "definition": "A company that controls a key digital doorway (an app store, operating system or search engine) that others must go through to reach customers."
+          }
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/cvgj0pp5p62o"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-7",
+      "rank": 7,
+      "category": "technology",
+      "importance": "notable",
+      "regions": [
+        "US",
+        "Global",
+        "India"
+      ],
+      "title": "AI's job reckoning gets real numbers — even as a top scientist says today's AI 'is not smart'",
+      "what_happened": "A Goldman Sachs economist estimated AI could displace about 9% of the US workforce — roughly 15 million jobs — concentrated in tech and consulting, but argued (citing history) that technology tends to create more new roles than it destroys, so the losses aren't 'permanently wiped out.' Separately, leading AI researcher Yann LeCun said current AI systems are 'not smart' and pitched a start-up building a more flexible kind of AI — a notable admission from inside the field. This lands the same week Meta's CEO conceded AI-agent progress had been slower than expected after ~8,000 layoffs.",
+      "moot": "Markets pay a premium for a story's SPEED as much as its truth — even a real revolution can disappoint prices if it arrives more slowly than the hype assumed.",
+      "concepts": [
+        "risk_on_off",
+        "index"
+      ],
+      "depth": {
+        "background": "For two years, companies have poured money into artificial intelligence (AI) — software that can write, code and reason — betting it will transform work. Two debates now run in parallel: how many jobs AI will actually displace, and whether today's AI is genuinely 'intelligent' or just a very good pattern-matcher.",
+        "why_it_matters": "AI is the single biggest theme driving stock markets and corporate spending, so any crack in the 'AI changes everything, fast' story matters for trillions in valuations. And the jobs question is deeply personal for India, whose vast IT-services and back-office workforce sits squarely in AI's path.",
+        "ripple_effects": "If AI progress is slower and messier than hyped, richly-priced AI stocks (chipmakers, cloud firms) face a 're-rating' — investors pay less for growth that arrives later. For India, the threat-and-opportunity is stark: automation could hollow out entry-level IT and call-centre jobs, but firms that retrain workers to build and run AI could win the new roles Goldman describes.",
+        "why_now": "A run of sobering signals — Goldman's estimate, LeCun's candour, Meta's layoffs and admission — is puncturing the most euphoric AI expectations just as investors reassess how quickly the payoff arrives.",
+        "watch_next": "Upcoming earnings from AI-chip and cloud leaders (Nvidia, the hyperscalers) and their capital-spending guidance — the real test of whether the AI build-out keeps accelerating.",
+        "market_link": "Central to AI-chip and cloud valuations (Nvidia, Microsoft, Alphabet, Meta) and to Indian IT-services names (TCS, Infosys) exposed to both AI disruption and AI demand.",
+        "key_terms": [
+          {
+            "term": "Displacement (of jobs)",
+            "definition": "When technology takes over tasks people used to do; some workers lose roles even if new kinds of jobs appear elsewhere."
+          },
+          {
+            "term": "Re-rating",
+            "definition": "When investors change the price they're willing to pay for each dollar of a company's earnings — down if growth looks slower, up if faster."
+          },
+          {
+            "term": "AI agent",
+            "definition": "AI software meant to carry out multi-step tasks on its own, not just answer a single question."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Times of India (Goldman)",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/goldman-sachs-top-economist-agrees-that-millions-of-americans-will-lose-jobs-to-ai-but-rejects-the-idea-that-these-will-be-permanently-wiped-out-says-these-ceos-are-ignoring-that-/articleshow/132192389.cms"
+          },
+          {
+            "name": "BBC (LeCun)",
+            "url": "https://www.bbc.co.uk/news/articles/cj6gr0xkyr3o"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-8",
+      "rank": 8,
+      "category": "india",
+      "importance": "notable",
+      "regions": [
+        "India"
+      ],
+      "title": "India orders Meta to pull Instagram ads that promoted child-abuse material",
+      "what_happened": "After a BBC investigation found Instagram running ads that used terms like 'rape' and 'child video' and linked to child sexual abuse material (CSAM) on Telegram, India's IT ministry (MeitY) issued Meta a stern notice, ordering Instagram to disable all such ads and content and demanding a detailed explanation within seven days.",
+      "moot": "Automated advertising systems scale bad actors as easily as good ones — the same targeting that sells shoes can sell the unspeakable unless it's actively policed.",
+      "concepts": [],
+      "depth": {
+        "background": "India is one of the world's largest social-media markets and has been steadily tightening rules on Big Tech platforms, holding them responsible for harmful content. Meta owns Instagram; under India's IT rules, the government can order intermediaries to remove illegal content quickly.",
+        "why_it_matters": "This is both a child-safety emergency and a governance test: it shows advertising systems can be abused to monetise the worst possible content, and it pits India's regulators directly against one of the world's most powerful platforms over accountability.",
+        "ripple_effects": "It raises the compliance and reputational stakes for Meta in a huge market, and strengthens the case for tighter ad-verification and content-moderation rules — in India and globally. For users, it's a reminder of how automated ad networks can slip past safety filters. Regulatory pressure of this kind is a slow-burn risk to platform business models.",
+        "why_now": "The BBC's findings forced the issue into the open this weekend, and the government's seven-day ultimatum makes it an immediate compliance deadline for Meta.",
+        "watch_next": "Meta's formal response within the seven-day window and whether India escalates with penalties or new ad-verification requirements.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "Intermediary",
+            "definition": "A platform (like Instagram or YouTube) that hosts content posted by others; Indian rules require it to remove illegal content when ordered."
+          },
+          {
+            "term": "MeitY",
+            "definition": "India's Ministry of Electronics and Information Technology, which regulates online platforms and can order content takedowns."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/sci-tech/technology/government-issues-stern-notice-to-meta-on-child-sexual-abuse-material-in-instagram-ads-sources/article71185375.ece"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/cvgm4e0316zo"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-9",
+      "rank": 9,
+      "category": "india",
+      "importance": "notable",
+      "regions": [
+        "India"
+      ],
+      "title": "Monsoon fury: Mumbai under a red alert as heavy rain lashes western and eastern India",
+      "what_happened": "The IMD put Mumbai under a red alert this weekend as extremely heavy rain — more than 200 mm in several areas — flooded the city, and the civic body urged people to stay indoors. In the northeast, the Border Roads Organisation rebuilt a Sikkim bridge washed away by continuous rain in just five days, underscoring how widespread the monsoon damage is.",
+      "moot": "Weather is macroeconomics in a country like India — a bad monsoon can move food prices, interest-rate decisions and rural demand more than any policy announcement.",
+      "concepts": [
+        "inflation"
+      ],
+      "depth": {
+        "background": "India's economy and food supply run on the June–September monsoon. But a warming climate is making the rains more erratic — long dry spells broken by intense, flooding downpours. India's weather office (IMD) issues colour-coded alerts; a 'red alert' is the most serious, meaning take action to protect life.",
+        "why_it_matters": "Mumbai is India's financial capital; when it floods, offices, trains, ports and markets are disrupted. More broadly, the monsoon's behaviour decides farm output, rural incomes and food inflation for 1.4 billion people, so its swings are a first-order economic story, not just a weather report.",
+        "ripple_effects": "Repeated flooding strains city infrastructure and insurers, dents productivity, and — if the rains are patchy elsewhere — can push up prices of vegetables and staples, feeding the very inflation the central bank is trying to contain. A widening monsoon deficit in some regions is already a flagged risk for markets this week.",
+        "why_now": "The monsoon is at its peak intensity in early July, and this weekend's system dumped extreme rainfall on the west coast, triggering the red alert.",
+        "watch_next": "Whether the rain eases or the red alert extends, and how the overall monsoon rainfall total tracks against the seasonal average (a deficit would lift food prices).",
+        "market_link": "Monsoon swings affect agriculture, consumer-staples and rural-demand stocks, and feed into food inflation that shapes RBI interest-rate policy.",
+        "key_terms": [
+          {
+            "term": "Monsoon",
+            "definition": "India's rainy season (roughly June–September) that supplies most of the year's rainfall and is vital for farming."
+          },
+          {
+            "term": "Red alert (IMD)",
+            "definition": "The India Meteorological Department's highest warning level, meaning severe weather likely and people should take protective action."
+          },
+          {
+            "term": "Food inflation",
+            "definition": "Rising prices of food items; in India it weighs heavily in the overall inflation basket and household budgets."
+          }
+        ],
+        "sources": [
+          {
+            "name": "NDTV (Mumbai red alert)",
+            "url": "https://www.ndtv.com/india-news/imd-weather-forecast-mumbai-rain-red-alert-in-mumbai-amid-heavy-rain-civic-body-urges-people-to-stay-indoors-11729178"
+          },
+          {
+            "name": "NDTV (Sikkim bridge)",
+            "url": "https://www.ndtv.com/india-news/sikkim-rain-sikkim-monsoon-washed-away-bridge-in-sikkim-restored-in-5-days-by-border-roads-organisation-11728968"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-10",
+      "rank": 10,
+      "category": "climate",
+      "importance": "notable",
+      "regions": [
+        "US",
+        "Europe"
+      ],
+      "title": "Record heat scorches the US and Europe — and strains the power grid",
+      "what_happened": "Record-breaking temperatures hit the US over the holiday weekend, and a fresh UK/European heatwave is forecast to peak around 34°C with a week-long health alert. Demand for air-conditioning is surging — so much that Europe 'can't quit' Chinese-made AC units even amid a trade fight with Beijing. In the US, the Department of Energy reportedly deleted about 6,000 web pages on energy conservation just as the grid came under strain, drawing political controversy.",
+      "moot": "Climate change shows up first as a demand shock — extreme heat spikes electricity use and prices precisely when the grid can least handle it, turning weather into an economic and political problem.",
+      "concepts": [
+        "supply_chain",
+        "tariffs"
+      ],
+      "depth": {
+        "background": "The planet has warmed by more than 1°C since pre-industrial times, and that extra heat makes extreme heatwaves more frequent and intense. Europe just recorded its hottest June on record; now a historic heatwave is baking the US as it celebrates July 4th.",
+        "why_it_matters": "Extreme heat is a killer and an economic drag — it endangers health, buckles infrastructure, cuts worker productivity and spikes electricity demand exactly when supply is tightest. It also collides with politics and trade: cooling the population now depends on the same Chinese manufacturing that Western governments are trying to reduce reliance on.",
+        "ripple_effects": "Surging power demand raises electricity prices and the risk of blackouts, boosts spending on cooling and grid upgrades, and strengthens the case for more generation — renewables, gas and, increasingly, nuclear. It also complicates the EU–China trade rebalancing, since heat is driving record imports of Chinese air-conditioners.",
+        "why_now": "Northern-hemisphere summer, amplified by a warming climate, has produced back-to-back record heat events on both sides of the Atlantic within weeks.",
+        "watch_next": "How high the European heatwave peaks and whether US grids hold up under record cooling demand without forced outages.",
+        "market_link": "Bullish for power, cooling, grid and utility names; heat-driven demand lifts electricity and natural-gas prices and feeds the EU–China trade/tariff debate.",
+        "key_terms": [
+          {
+            "term": "Heatwave",
+            "definition": "A prolonged period of abnormally hot weather; climate change is making them more common and severe."
+          },
+          {
+            "term": "Grid strain",
+            "definition": "When electricity demand approaches the limit of what the power system can supply, raising blackout risk and prices."
+          }
+        ],
+        "sources": [
+          {
+            "name": "BBC (Europe's new climate)",
+            "url": "https://www.bbc.co.uk/news/articles/c8e2j0j87reo"
+          },
+          {
+            "name": "The Verge (DoE page deletions)",
+            "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion"
+          }
+        ]
+      }
+    },
+    {
+      "type": "divider",
+      "id": "mkt",
+      "title": "Markets",
+      "emoji": "📈",
+      "subtitle": "A quiet Sunday with the tape still frozen at last week's closes — but the big change is relief: the Strait of Hormuz is reopening, India has stood down its gas emergency, and the week ahead turns on Indian Q1 earnings, not an oil shock."
+    },
+    {
+      "type": "market_story",
+      "id": "mkt-story",
+      "story": "Markets are shut this weekend — US exchanges were closed Friday for the July 4th holiday and India's are closed Saturday–Sunday — so every number below is frozen at last week's close, not a fresh move; trading resumes Monday. What HAS changed is the mood. A week ago the scariest wildcard was oil: a wounded Iran threatening to choke the Strait of Hormuz (the sea gate for a fifth of the world's crude). That risk is now cooling — the ceasefire is holding, tankers are returning, and this weekend India formally lifted the emergency gas-rationing it had imposed, saying supplies have normalised. Iran still wants to charge transit 'fees,' so the risk isn't gone, but crude sits quiet and oversold near $68.78, and steady sub-$70 oil is a quiet positive for oil-importer India. The week's other anchor is the US: June hiring was weak (just 57,000 jobs added, about half the ~115,000 expected), which buries the fear of a Fed rate HIKE — but with inflation still sticky near 4.2%, the Fed is stuck 'higher for longer,' so it's relief, not an all-clear. That backdrop split the US tape: old-economy blue-chips (Dow) hit a record while pricey AI-chip names (Nasdaq, Nvidia) lagged as money rotated to value — and Tesla fell ~7.5% even after RECORD deliveries, a textbook 'sell-the-news.' For India specifically, the setup into Monday is more constructive than a week ago: the US is moving to drop its bribery case against Gautam Adani, the India–UK free-trade pact goes live July 15, India's fear gauge is near multi-month lows, and Q1 (April–June) company results start this week (TCS on the 9th) — the real test of whether firm indices are backed by real profits.",
+      "themes": [
+        "Oil / energy security: The week's biggest shift: the Hormuz risk is de-escalating. The ceasefire is holding, tankers are returning, and India lifted its emergency gas curbs — a relief for oil-importers. Crude is oversold near $68.78; Iran's 'fees' plan is the only residual risk.",
+        "Rates / the Fed: Weak June jobs (57k) buried the July rate-HIKE fear, but sticky ~4.2% inflation keeps the Fed on hold 'higher for longer' — no hike, but no cuts either. A tailwind that put the Dow at a record and firmed gold, with a slowing-economy caveat.",
+        "AI chips / US tech: Nasdaq lagged as money rotated out of stretched AI valuations. Fresh cracks: Meta's 8,000 layoffs and 'AI progress slower than expected' admission, plus Goldman's 15M-jobs estimate and Yann LeCun calling today's AI 'not smart' — an expectations reset for high-priced growth.",
+        "India: A more constructive setup: US moving to drop the Adani case, the India–UK trade pact live July 15, India VIX near multi-month lows, and Q1 earnings season starting (TCS Jul 9). The offsets remain foreign outflows, a ~95.2 rupee and monsoon swings.",
+        "Crypto: Bitcoin held its weekend gains above its short-term averages (~$62,868) — early stabilization — but is still below the 50- and 200-day averages that define the bigger downtrend."
+      ],
+      "moot": "A quiet Sunday with the tape still frozen at last week's closes — but the big change is relief: the Strait of Hormuz is reopening, India has stood down its gas emergency, and the week ahead turns on Indian Q1 earnings, not an oil shock.",
+      "depth": {
+        "global_summary": {
+          "us": "US markets are shut for the July 4th holiday weekend, so levels reflect last week's close: S&P 500 ~7,483 (flat), Dow +1.14% to a record ~52,900, Nasdaq -0.8% (~25,833), VIX low at ~16. The driver was a weak June jobs report (57k) that killed rate-hike fears, sparking a rotation out of AI chips into value; Tesla fell ~7.5% despite record deliveries, and Meta's 8,000 layoffs plus an AI 'slower than expected' admission added to the tech wobble.",
+          "india": "Indian exchanges are shut for the weekend; Friday closed firm on domestic buying — Nifty +0.39% (~24,271), Sensex +0.34% (~77,764), Bank Nifty -0.16% (~57,939). The setup into Monday is constructive: the US moving to drop the Adani case, the India–UK trade pact live July 15, India VIX near multi-month lows, and Q1 earnings season starting (TCS ~July 9). Offsets: foreign outflows, a rupee near 95.2 and monsoon swings (Mumbai under a red alert).",
+          "crypto": "The only market open this weekend firmed slightly: Bitcoin ~$62,868 (+0.51%), Ether ~$1,766 (+0.54%), both holding above their short-term averages but still in downtrends below their 50- and 200-day averages.",
+          "macro": "The big macro shift is oil relief: the Strait of Hormuz is reopening, India lifted its emergency gas curbs, and crude sits oversold and quiet near $68.78. Fading US rate-hike bets keep gold firm (~$4,187); the rupee steadied to ~95.2 as oil fears eased. Next big date: the July 29 Fed decision."
+        },
+        "catalysts_today": [
+          "All day — US stock & bond markets and Indian exchanges CLOSED (holiday weekend); trading resumes Monday",
+          "Through this week — Iran's dayslong state funeral for the late Supreme Leader Khamenei — a Middle East / oil-risk backdrop",
+          "Monday (reopen) — First market reaction to Hormuz reopening / India lifting gas curbs / the Adani filing as US and India resume trading",
+          "Jul 9 (approx) — TCS Q1 FY27 results — kicks off India's earnings season",
+          "Jul 13 — US judge's deadline for the DoJ on permanently dismissing the Adani case",
+          "Jul 15 — India–UK free-trade pact (CETA) comes into force — 99% of Indian exports duty-free",
+          "Jul 22 — Tesla Q2 earnings — the margin test after record deliveries",
+          "Jul 29 — US Federal Reserve rate decision — the read on whether 'no hike' hardens or softens"
+        ],
+        "risks": [
+          "The oil relief is not absolute: Iran still insists on charging Hormuz transit 'fees,' so any enforcement clash could re-spike oversold crude and hit oil-importer India's fuel bill, rupee and inflation.",
+          "The Fed is stuck, not friendly: sticky ~4.2% US inflation means no rate cuts, and a hot CPI print before the July 29 meeting could quickly revive hike fears and unwind the Dow's record and gold's gains.",
+          "AI-expectations reset: Meta's layoffs, Goldman's job-loss estimate and LeCun's 'AI is not smart' — plus Tesla's 'sell-the-news' drop — show high-priced growth is vulnerable; Nvidia and the chip complex could stay choppy.",
+          "India's swing factors into earnings: firm indices rest on domestic buying while foreigners sell and the rupee sits near 95.2; a weak Q1 results season would expose stretched valuations, and the monsoon (Mumbai red alert) is a food-inflation wildcard.",
+          "Crypto is still in a downtrend despite the weekend bounce; a break below ~$62.4k support would signal the stabilization has failed and dent broader risk sentiment."
+        ]
+      }
+    },
+    {
+      "type": "board",
+      "id": "board",
+      "moot": "Wall Street's 'fear gauge' is low and easing — a reading in the mid-teens signals calm, complacent markets with little hedging demand into the weekend.",
+      "items": [
+        {
+          "name": "VIX (volatility)",
+          "ticker": "^VIX",
+          "currency": "",
+          "value": "16.15",
+          "change_pct": -2.65,
+          "read": "Wall Street's 'fear gauge' is low and easing — a reading in the mid-teens signals calm, complacent markets with little hedging demand into the weekend."
+        },
+        {
+          "name": "Gold",
+          "ticker": "GC=F",
+          "currency": "$",
+          "value": "4,187",
+          "change_pct": 1.81,
+          "read": "Firm near recent levels: fading rate-hike fears make the no-yield metal more attractive, a classic beneficiary of a softer-Fed backdrop.",
+          "spark": [
+            4010.0,
+            4089.0,
+            4197.0,
+            4187.0,
+            4187.0
+          ]
+        },
+        {
+          "name": "Dow Jones",
+          "ticker": "^DJI",
+          "currency": "",
+          "value": "52,900",
+          "change_pct": 1.14,
+          "read": "Old-economy blue-chips at a record — the winners of fading rate-hike fears. RSI ~70 flags it as short-term 'overbought' (stretched after a fast run).",
+          "spark": [
+            52319.0,
+            52305.0,
+            52900.0,
+            52900.0,
+            52900.0
+          ]
+        },
+        {
+          "name": "Nasdaq",
+          "ticker": "^IXIC",
+          "currency": "",
+          "value": "25,833",
+          "change_pct": -0.8,
+          "read": "The tech-heavy index was last week's laggard, hit by money rotating out of pricey AI-chip stocks into cheaper value names.",
+          "spark": [
+            26214.0,
+            26040.0,
+            25833.0,
+            25833.0,
+            25833.0
+          ]
+        },
+        {
+          "name": "Ether",
+          "ticker": "ETH-USD",
+          "currency": "$",
+          "value": "1,766",
+          "change_pct": 0.54,
+          "read": "Ethereum firmed alongside Bitcoin but remains technically weak, below both key moving averages."
+        },
+        {
+          "name": "Bitcoin",
+          "ticker": "BTC-USD",
+          "currency": "$",
+          "value": "62,868",
+          "change_pct": 0.51,
+          "read": "The only market open this weekend firmed a touch more (~$62,868), holding above its short-term averages — an early stabilization sign, but still below its 50- and 200-day averages (a downtrend).",
+          "spark": [
+            58570.0,
+            60165.0,
+            61651.0,
+            62795.0,
+            62868.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "watch",
+      "id": "watch-1",
+      "rank": 1,
+      "title": "The oil wildcard is cooling — Hormuz reopens, India stands down its gas emergency",
+      "gist": "A week ago the scariest thing for markets was oil: a post-war Iran threatening to block or toll the Strait of Hormuz, the channel that carries about a fifth of the world's crude. That threat is now easing — the ceasefire is holding, tankers are returning, and this weekend India formally withdrew the emergency curbs on gas use it had imposed, saying supplies have normalised. Iran still says it will charge transit 'fees' (not 'tolls'), so a small risk premium lingers. Crude (WTI) sits quiet and oversold near $68.78.",
+      "what_it_means": "The biggest overhang into Monday's reopen has shrunk, not vanished. It reduces the tail-risk to oil-sensitive Indian names and the rupee; the residual risk is any clash over Iran's 'fees.' Oil producers lose the upside spike; importers and consumers are the relative winners.",
+      "moot": "A fading risk is a market event in its own right — when a feared shock (like an oil blockade) is defused, the 'risk premium' baked into prices unwinds, helping the assets that had been most exposed.",
+      "concepts": [
+        "crude_geopolitics",
+        "crude_asset",
+        "supply_chain",
+        "usdinr"
+      ],
+      "tickers": [
+        "CL=F",
+        "RELIANCE.NS"
+      ],
+      "market": "MACRO",
+      "depth": {
+        "why_it_matters": "Oil feeds straight into petrol, transport and food prices — and into inflation. A calmer Hormuz removes the single biggest thing that could have spiked energy costs and reignited the inflation the Fed is fighting. For India — which imports ~85% of its crude with a record-weak rupee — steady sub-$70 oil is a direct relief for fuel bills, the currency and inflation.",
+        "watch": "Whether Iran actually enforces its transit 'fees' — and where crude opens when US and India resume trading Monday.",
+        "key_terms": [
+          {
+            "term": "Strait of Hormuz",
+            "definition": "A narrow sea lane between Iran and Oman through which roughly a fifth of the world's oil passes; there is no easy alternative route."
+          },
+          {
+            "term": "Oversold (RSI)",
+            "definition": "A momentum reading (RSI below ~30) suggesting a price has fallen fast and may be primed for a bounce — though 'oversold' can persist."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Hindu (India gas curbs lifted)",
+            "url": "https://www.thehindu.com/news/national/government-withdraws-emergency-gas-curbs-imposed-during-hormuz-disruption-as-lng-supplies-normalise/article71185227.ece"
+          },
+          {
+            "name": "Al Jazeera (Iran 'fees')",
+            "url": "https://www.aljazeera.com/news/2026/7/5/irans-china-envoy-vows-special-hormuz-treatment-for-friendly-countries"
+          }
+        ]
+      }
+    },
+    {
+      "type": "watch",
+      "id": "watch-2",
+      "rank": 2,
+      "title": "India's week: Q1 earnings begin, with trade-pact and Adani tailwinds",
+      "gist": "Indian indices closed last week firm (Nifty ~24,271, +0.39%) and the week ahead is the real test: the April–June (Q1 FY27) corporate results season starts, with IT bellwether TCS reporting around July 9–10. Two policy tailwinds add to the mood — the US is moving to permanently drop its bribery case against Gautam Adani, and the India–UK free-trade pact (99% of Indian exports go duty-free) comes into force July 15. India's volatility gauge sits near a multi-month low, a sign of calm.",
+      "what_it_means": "For an Indian investor this is a stock-picker's fortnight: watch the IT majors' commentary (TCS, Infosys) for the AI and US-demand read, and export-linked sectors (textiles, gems, auto components, engineering) that benefit from the UK deal. Adani Group names could re-rate on the case being dropped.",
+      "moot": "Indices can run on sentiment and flows, but earnings are the reality check — a results season is where a market finds out whether its prices were hope or substance.",
+      "concepts": [
+        "index",
+        "fii_flows",
+        "tariffs",
+        "pe"
+      ],
+      "tickers": [
+        "^NSEI",
+        "TCS.NS",
+        "RELIANCE.NS"
+      ],
+      "market": "IN",
+      "depth": {
+        "why_it_matters": "Indices have been propped up by domestic buying while foreigners sell; earnings are what decide whether those prices are justified. Strong Q1 profits and upbeat management commentary could extend the rally (some analysts eye Nifty ~25,000); weak numbers would expose stretched valuations. The Adani and trade-pact news lift sentiment and, at the margin, foreign-investor confidence.",
+        "watch": "TCS Q1 results (~July 9) and management commentary; the judge's July 13 decision on the Adani dismissal; and July 15, when the India–UK pact goes live.",
+        "key_terms": [
+          {
+            "term": "Q1 FY27 earnings",
+            "definition": "Company profit results for April–June 2026, India's first quarter of its financial year — the season that tests whether share prices are backed by real profit."
+          },
+          {
+            "term": "Rules of origin",
+            "definition": "The criteria deciding which country a product genuinely comes from, so it qualifies for a trade deal's lower tariffs."
+          },
+          {
+            "term": "Re-rating",
+            "definition": "A change in the price investors will pay per rupee of a company's earnings — up on good news, down on bad."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Economic Times (week ahead)",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/will-sensex-nifty-continue-to-rally-on-monday-q1-earnings-among-6-factors-to-drive-dalal-street-this-week/articleshow/132191088.cms"
+          },
+          {
+            "name": "The Hindu (Adani case)",
+            "url": "https://www.thehindu.com/business/Industry/us-doj-says-adani-case-should-never-have-been-brought-urges-judge-to-drop-charges-permanently/article71183562.ece"
+          }
+        ]
+      }
+    },
+    {
+      "type": "watch",
+      "id": "watch-3",
+      "rank": 3,
+      "title": "Weak US jobs leave the Fed stuck 'higher for longer'",
+      "gist": "The US added just 57,000 jobs in June, roughly half the ~115,000 expected. The jobless rate fell to 4.2%, but mostly because people stopped looking for work — labour-force participation hit a 50-year low outside Covid. Markets now put the odds of a July rate HIKE at only ~10% (a 'no change' at ~90%). But with inflation still sticky near 4.2%, they don't expect cuts either.",
+      "what_it_means": "The immediate worry — higher borrowing costs — has eased, supporting stocks and gold. But don't expect the Fed to rescue markets with cuts soon, and a cooling US consumer is a slow headwind for Indian IT and exporters that sell into America.",
+      "moot": "Markets trade the future, not the present — 'bad' economic news can be 'good' for stocks when it removes the threat of higher rates, but only up to the point where a slowing economy becomes the new worry.",
+      "concepts": [
+        "interest_rates",
+        "central_bank",
+        "inflation",
+        "gold_asset"
+      ],
+      "tickers": [],
+      "market": "MACRO",
+      "depth": {
+        "why_it_matters": "For months the fear was rate HIKES on oil-driven inflation. Weak jobs kill that — which is why the Dow hit a record and gold firmed. But 'no hike' is not 'cuts': sticky inflation keeps the Fed on hold, and a firm dollar keeps pressure on the rupee and foreign flows into India. It's relief with a slowing-economy caveat.",
+        "watch": "The next US inflation (CPI) print and the July 29 Fed decision — whether 'no hike' softens toward talk of cuts, or a hot CPI revives hike fears.",
+        "key_terms": [
+          {
+            "term": "Nonfarm payrolls",
+            "definition": "The monthly count of US jobs added outside farming — the most-watched gauge of hiring health."
+          },
+          {
+            "term": "Higher for longer",
+            "definition": "A central bank keeping rates elevated for an extended period rather than cutting, usually because inflation stays stubborn."
+          }
+        ],
+        "sources": [
+          {
+            "name": "CNBC (jobs report)",
+            "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+          },
+          {
+            "name": "CNBC (participation rate)",
+            "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "watch",
+      "id": "watch-4",
+      "rank": 4,
+      "title": "The AI-chip rotation and Tesla's 'sell-the-news'",
+      "gist": "Last week money rotated OUT of expensive AI-chip names into cheaper value stocks: the Nasdaq fell 0.8% while the Dow hit a record. Nvidia is caught between its 50-day (~$210) and 200-day (~$191) averages, rated a short-term Strong Sell. And in a telling episode, Tesla fell ~7.5% — its worst day in nearly a year — even though it reported RECORD Q2 deliveries of ~480,000 (beating estimates by ~74,000). The stock had run up ~13% into the report, and investors worried about profit margins (production ran below deliveries, meaning inventory was drawn down).",
+      "what_it_means": "If you own high-beta growth like Nvidia or Tesla, expect choppier, two-way action while this rotation and AI-expectations reset play out. It's a change in WHO leads, not necessarily a crash — but stretched valuations leave little room for disappointment.",
+      "moot": "For a richly-priced stock, what matters isn't whether the news is good — it's whether it beats what was already expected. Priced for perfection, even a record can disappoint.",
+      "concepts": [
+        "risk_on_off",
+        "moving_average",
+        "pe",
+        "beta"
+      ],
+      "tickers": [
+        "NVDA",
+        "TSLA"
+      ],
+      "market": "US",
+      "depth": {
+        "why_it_matters": "So much of the US market's gains rested on a handful of pricey growth names. When rate fears fade AND the AI narrative wobbles (Meta's layoffs, Goldman's job-loss estimate, LeCun calling AI 'not smart'), cheaper value stocks look more attractive and leadership rotates. Tesla shows the deeper lesson: when a stock is priced for perfection, even great news can trigger selling if it was already expected.",
+        "watch": "Nvidia's ~$191 200-day-average support and its next earnings/AI-capex guidance; Tesla's July 22 earnings for the margin picture.",
+        "key_terms": [
+          {
+            "term": "Sell-the-news",
+            "definition": "When a stock falls on good news because the good outcome was already expected and 'priced in,' so buyers who bet ahead take profits."
+          },
+          {
+            "term": "Rotation",
+            "definition": "Investors moving money from one part of the market (e.g. AI tech) into another (e.g. value), which shifts what leads."
+          }
+        ],
+        "sources": [
+          {
+            "name": "CNBC (Tesla)",
+            "url": "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html"
+          },
+          {
+            "name": "BBC (LeCun on AI)",
+            "url": "https://www.bbc.co.uk/news/articles/cj6gr0xkyr3o"
+          }
+        ]
+      }
+    },
+    {
+      "type": "watch",
+      "id": "watch-5",
+      "rank": 5,
+      "title": "Bitcoin's fragile weekend stabilization",
+      "gist": "Crypto is the only market open on a holiday weekend, and Bitcoin used it to firm a little more, to ~$62,868, holding above its short-term (10-, 20-, 30-day) averages. But it is still well below its 50-day (~$67,040) and 200-day (~$74,825) averages and sits near the low end of its 52-week range (after sliding from ~$114k). Ether is similar at ~$1,766.",
+      "what_it_means": "For a Bitcoin holder this is an encouraging wobble, not an all-clear. Treat the ~$67k 50-day average as the level that would signal a genuine trend change; a slip back below ~$62.4k support would say the bounce has failed.",
+      "moot": "Crypto trades 24/7, so its story often moves on the weekend while stocks sleep — and a downtrend isn't over until the LONGER moving averages are reclaimed, not just the short ones.",
+      "concepts": [
+        "bitcoin_asset",
+        "moving_average",
+        "support_resistance",
+        "overbought_oversold"
+      ],
+      "tickers": [
+        "BTC-USD"
+      ],
+      "market": "CRYPTO",
+      "depth": {
+        "why_it_matters": "Reclaiming and holding the short-term averages is the first thing that has to happen before any real turn — it shows sellers easing. But a downtrend isn't broken until price reclaims the longer 50- and 200-day averages, and Bitcoin's trend is still down, so this could be a pause rather than a bottom.",
+        "watch": "Whether Bitcoin holds ~$62.4k support and then challenges its 50-day average near ~$67,000.",
+        "key_terms": [
+          {
+            "term": "Moving average",
+            "definition": "The average closing price over a set number of days; price above it is bullish for that time frame, below it bearish."
+          },
+          {
+            "term": "Support",
+            "definition": "A price level where buyers have tended to step in; a decisive break below it often signals more downside."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Dashboard technicals (BTC-USD.json)",
+            "url": "https://www.coingecko.com/en/coins/bitcoin"
+          }
+        ]
+      }
+    },
+    {
+      "type": "favorite",
+      "id": "fav-AAPL",
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "price": 308.63,
+      "change_pct": 4.84,
+      "currency": "",
+      "whats_new": "Still frozen at Thursday's ~$308.63 close — US markets have not traded since (shut Friday for July 4 and through the weekend), so nothing new priced in. Apple sits just below its ~$315-317 record after Thursday's ~4.8% jump on foldable-iPhone and cheaper-memory-chip reports, firmly in an uptrend. It's the standout in a favorites book that's otherwise mixed.",
+      "moot": "Constructive",
+      "depth": {
+        "news": [
+          {
+            "headline": "Why Apple Stock Rallied",
+            "url": "https://www.fool.com/investing/2026/07/02/why-apple-stock-is-up-today/",
+            "source": "The Motley Fool"
+          },
+          {
+            "headline": "Apple's stock recovers after hit from unprecedented price hikes on products",
+            "url": "https://9to5mac.com/2026/07/02/apples-stock-recovers-after-hit-from-unprecedented-price-hikes-on-products/",
+            "source": "9to5Mac"
+          }
+        ],
+        "fundamentals": "Mega-cap tech, ~$4.53T market cap. Trailing P/E ~37 (expensive — you're paying up for growth), forward P/E ~32 (profits expected to grow). Revenue growing ~17% a year, keeping ~27¢ of every sales dollar as profit. Beta ~1.10 (about as jumpy as the market).",
+        "technicals": "Strong Buy. Price ($308.63) sits above both its 50-day (~$294) and 200-day (~$271) averages — the classic shape of a healthy uptrend — near the top (~94th percentile) of its 52-week range. RSI ~58-60 is neutral (not yet stretched), but shorter-term gauges flag 'overbought,' so a pause or dip near the $314-317 highs wouldn't surprise. Support to hold: ~$298; a close below the 50-day (~$294) would warn the trend is stalling.",
+        "catalysts": "Confirmation of foldable-iPhone orders and memory-chip deals; next quarterly earnings and AI/services commentary.",
+        "risks": "Rich valuation leaves little room for a miss; trading near record highs on optimistic reports means any disappointment could sting, and a broader AI-tech pullback could still drag it."
+      }
+    },
+    {
+      "type": "favorite",
+      "id": "fav-NVDA",
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "price": 194.83,
+      "change_pct": -1.39,
+      "currency": "",
+      "whats_new": "Unchanged over the weekend at ~$194.83 with US markets shut — still in the AI-chip penalty box after last week's rotation out of expensive tech. The weekend's AI-reset drumbeat is an added overhang: Goldman's 15M-jobs estimate, Yann LeCun calling today's AI 'not smart,' and Meta's 8,000 layoffs and 'progress slower than expected' admission all feed doubts about the pace of the AI build-out. It remains caught between its 50-day (~$210) and 200-day (~$191) averages.",
+      "moot": "Neutral",
+      "depth": {
+        "news": [
+          {
+            "headline": "AI is 'not smart' — what's next in artificial intelligence?",
+            "url": "https://www.bbc.co.uk/news/articles/cj6gr0xkyr3o",
+            "source": "BBC"
+          },
+          {
+            "headline": "Goldman Sachs economist: millions of jobs to AI, but won't be permanently wiped out",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/goldman-sachs-top-economist-agrees-that-millions-of-americans-will-lose-jobs-to-ai-but-rejects-the-idea-that-these-will-be-permanently-wiped-out-says-these-ceos-are-ignoring-that-/articleshow/132192389.cms",
+            "source": "Times of India"
+          }
+        ],
+        "fundamentals": "~$4.72T market cap with exceptional ~63¢-per-dollar profit margins. Trailing P/E ~30, but forward P/E just ~15 — meaning the market expects profits to keep growing very fast (revenue ~85% a year). Beta ~2.21, so it swings roughly twice as hard as the market.",
+        "technicals": "Strong Sell (short-term). Price ($194.83) is below its 50-day average (~$210) but above its 200-day (~$191), so the trend is transitional — it could break either way. RSI ~40 is weak but not oversold, and MACD momentum is negative. Line in the sand: the ~$191 200-day-average support must hold; a close back above ~$210 would be the first sign the pullback is turning up.",
+        "catalysts": "Next earnings and cloud-AI capex guidance — the real test of whether the AI-spending boom continues.",
+        "risks": "A high-beta momentum name: sharp drawdowns if AI-valuation doubts deepen or the chip rotation continues; the weekend's AI-expectations reset adds to the overhang."
+      }
+    },
+    {
+      "type": "favorite",
+      "id": "fav-BTC-USD",
+      "ticker": "BTC-USD",
+      "name": "Bitcoin",
+      "price": 62867.06,
+      "change_pct": 0.51,
+      "currency": "",
+      "whats_new": "The one favorite that actually trades on weekends, and it firmed a touch more to ~$62,868 (from ~$62,795 a day earlier), holding above its 10-, 20- and 30-day averages — its best footing in weeks and an early stabilization sign. But it is still below its 50-day (~$67,040) and 200-day (~$74,825) averages and sits near the low end (~8th percentile) of its 52-week range, so the downtrend isn't broken yet.",
+      "moot": "Cautious",
+      "depth": {
+        "news": [],
+        "fundamentals": "~$1.26T total value; near the low end of its 52-week range after a long slide from ~$114k.",
+        "technicals": "Neutral (improving from Sell). Price (~$62,868) is below both its 50-day (~$67,040) and 200-day (~$74,825) averages — a confirmed downtrend — and trend strength is still firm, so down-moves here can persist. The bright spots: it's holding above its short-term averages and RSI (~45) has stabilized. First support: ~$62,400; a close back above the 50-day (~$67k) is what would signal a real turn.",
+        "catalysts": "Risk appetite and fund flows; a calmer Fed and easing oil-risk help risk assets generally, but crypto needs to reclaim its longer averages to confirm a turn.",
+        "risks": "Downtrend still intact despite the bounce; a slip back below ~$62.4k support could reopen the door toward fresh lows."
+      }
+    },
+    {
+      "type": "concept",
+      "id": "learn-concept",
+      "key": "oscillators_rating"
+    },
+    {
+      "type": "quiz",
+      "id": "learn-quiz",
+      "context_date": "2026-07-04",
+      "context_title": "America at 250 — a milestone birthday held under a dangerous heat dome",
+      "question": "Yesterday we decoded this story. What's the transferable lesson?",
+      "answer": "Extreme heat is no longer a distant forecast — it now routinely disrupts everyday life, public events and the economy, even in wealthy nations with the money to prepare.",
+      "concepts": []
+    },
+    {
+      "type": "outro",
+      "id": "outro",
+      "also_notable": [
+        {
+          "title": "France's Marine Le Pen awaits an appeal verdict that could decide whether she can run for president",
+          "why": "A ruling on her EU-funds misuse conviction could reshape France's next presidential race — and Europe's politics.",
+          "source": {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/c5yzlwz34p7o"
+          }
+        },
+        {
+          "title": "China promotes two new generals after an anti-corruption purge thins the military's top ranks",
+          "why": "A loyalty-focused reshuffle of the world's largest army under Xi Jinping — a signal about stability at the top.",
+          "source": {
+            "name": "NPR",
+            "url": "https://www.npr.org/2026/07/04/g-s1-131994/chinas-military-promotes-2-new-generals-after-anti-corruption-purge-thins-ranks"
+          }
+        },
+        {
+          "title": "Rescuers still searching Venezuela's post-earthquake rubble as international teams join in",
+          "why": "Twin quakes on the northern coast left a humanitarian disaster; the death toll and needs are still rising.",
+          "source": {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/ng-interactive/2026/jul/03/international-rescuers-venezuela-earthquake-hellscape"
+          }
+        },
+        {
+          "title": "Canada green-lights a major new oil pipeline after a C$150bn plan to ease BC and First Nations concerns",
+          "why": "A big bet on expanding oil exports — relevant to global supply and the climate-vs-growth debate.",
+          "source": {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/jul/03/canada-alberta-pipeline"
+          }
+        },
+        {
+          "title": "PlayStation will stop selling games on discs from 2028",
+          "why": "A milestone in gaming's shift to fully digital — shops will sell download codes, not discs.",
+          "source": {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/c0ryjyvjq41o"
+          }
+        }
+      ],
+      "disclaimer": "Decoded from public reporting for general understanding. Verify before relying on any single claim; details evolve.",
+      "dashboard_url": "../"
+    }
+  ]
+}

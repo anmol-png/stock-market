@@ -1,0 +1,962 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Daily Intelligence — World & Markets</title>
+<script>
+  // Load the education glossary with a per-load cache-buster so content updates ALWAYS take effect
+  // (the JSON briefs are busted the same way). Without this, the browser serves a stale glossary and
+  // newly-added concepts silently fail to open.
+  document.write('<script src="./glossary.js?v=' + Date.now() + '"><\/script>');
+</script>
+<style>
+  :root{
+    --bg:#0b0f17; --panel:#131a26; --panel2:#0f1620; --line:#222c3b; --txt:#e7edf5; --dim:#8ea0b5;
+    --accent:#5b9dff; --amber:#f5b942;
+    --sbuy:#16a34a; --buy:#3fb950; --neu:#8b98a9; --sell:#f4685f; --ssell:#e5484d;
+    /* category accents */
+    --geopolitics:#f4685f; --economy:#3fb950; --technology:#a970ff; --science:#2dd4bf;
+    --health:#f472b6; --climate:#5cc98a; --india:#ff9933; --gdelt:#8ea0b5;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.55}
+  a{color:var(--accent);text-decoration:none}
+  .top{position:sticky;top:0;z-index:20;background:rgba(11,15,23,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);
+       padding:12px 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .brand{font-size:15px;font-weight:800;letter-spacing:.3px}
+  .brand .date{color:var(--dim);font-size:12px;font-weight:500;margin-left:8px}
+  .tabs{display:flex;gap:6px;margin-left:6px}
+  .tab{background:transparent;border:1px solid var(--line);color:var(--dim);border-radius:20px;
+       padding:7px 16px;font-size:13px;font-weight:700;cursor:pointer;transition:.12s}
+  .tab:hover{color:var(--txt)}
+  .tab.active{background:var(--accent);border-color:var(--accent);color:#04122b}
+  .daysel{background:var(--panel);border:1px solid var(--line);color:var(--txt);border-radius:20px;
+          padding:7px 12px;font-size:12.5px;cursor:pointer;outline:none}
+  .daysel:focus{border-color:var(--accent)}
+  .refreshbtn{background:var(--panel);border:1px solid var(--line);color:var(--txt);border-radius:20px;
+              padding:7px 14px;font-size:12.5px;font-weight:700;cursor:pointer;transition:.12s}
+  .refreshbtn:hover{border-color:var(--accent);color:var(--accent)}
+  .refreshbtn:disabled{opacity:.55;cursor:default}
+  .refreshbtn.spin{color:var(--accent)}
+  .updated{font-size:11px;color:var(--dim);align-self:center}
+  .archbanner{background:rgba(245,185,66,.10);border:1px solid var(--line);border-left:3px solid var(--amber);
+              border-radius:10px;padding:10px 14px;font-size:13px;margin-bottom:16px}
+  .archbanner a{cursor:pointer;font-weight:600}
+  .search{margin-left:auto;position:relative}
+  .search input{background:var(--panel);border:1px solid var(--line);color:var(--txt);border-radius:20px;
+      padding:8px 14px;width:200px;font-size:13px;outline:none}
+  .search input:focus{border-color:var(--accent)}
+  .wrap{max-width:1080px;margin:0 auto;padding:20px}
+  .sec-title{font-size:12px;text-transform:uppercase;letter-spacing:1.2px;color:var(--dim);margin:26px 0 12px;font-weight:700}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .muted{color:var(--dim)}
+  .disc{color:var(--dim);font-size:11px;margin-top:24px;border-top:1px solid var(--line);padding-top:12px}
+
+  /* ===================== WORLD pillar ===================== */
+  .bigpic{border-left:3px solid var(--accent)}
+  .bigpic .hl{font-size:19px;font-weight:800;margin:0 0 10px;line-height:1.35}
+  .bigpic .body{font-size:14.5px;opacity:.95}
+  .catbar{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0 6px}
+  .catchip{border:1px solid var(--line);background:var(--panel);color:var(--dim);border-radius:16px;
+           padding:5px 12px;font-size:12px;font-weight:700;cursor:pointer}
+  .catchip.active{color:var(--txt);border-color:var(--accent)}
+  .story{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--line);border-radius:12px;padding:16px 18px;margin:12px 0}
+  .story-top{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:11px}
+  .story .rank{font-weight:900;font-size:15px;color:var(--dim);min-width:18px}
+  .cat-badge{font-weight:800;text-transform:uppercase;letter-spacing:.5px;border-radius:6px;padding:2px 8px;font-size:10.5px}
+  .regions{color:var(--dim)}
+  .imp{margin-left:auto;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;border-radius:5px;padding:2px 8px}
+  .imp.critical{background:rgba(229,72,77,.18);color:var(--ssell)}
+  .imp.high{background:rgba(245,185,66,.16);color:var(--amber)}
+  .imp.notable{background:rgba(139,152,169,.15);color:var(--dim)}
+  .story-title{font-size:17px;font-weight:800;margin:10px 0 12px;line-height:1.35}
+  .d{margin:11px 0}
+  .dl{display:block;font-size:10.5px;text-transform:uppercase;letter-spacing:.9px;color:var(--dim);font-weight:800;margin-bottom:3px}
+  .d p{margin:0;font-size:14.5px;opacity:.96}
+  .d.market{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:9px 11px}
+  .d.market .dl{color:var(--accent)}
+  .d.watch .dl{color:var(--amber)}
+  .more-toggle{background:transparent;border:1px solid var(--line);color:var(--dim);border-radius:8px;
+               padding:6px 12px;font-size:12px;font-weight:700;cursor:pointer;margin-top:6px}
+  .more-toggle:hover{color:var(--txt);border-color:var(--accent)}
+  .extra{display:none;margin-top:4px}
+  .extra.open{display:block}
+  .srcs{margin-top:12px;font-size:11.5px;color:var(--dim);border-top:1px solid var(--line);padding-top:9px}
+  .srcs a{color:var(--dim)}.srcs a:hover{color:var(--accent)}
+  /* 🎓 the learning layer */
+  .d.lesson{background:rgba(63,185,80,.07);border:1px solid var(--line);border-left:3px solid var(--buy);
+            border-radius:8px;padding:10px 12px}
+  .d.lesson .dl{color:var(--buy)}
+  /* 📈 developing-story threads */
+  .thread-ribbon{display:inline-flex;align-items:center;gap:4px;padding:2px 9px;border-radius:99px;
+                 font-size:11px;font-weight:700;background:rgba(245,185,66,.14);color:var(--amber)}
+  .d.thread{background:rgba(245,185,66,.06);border:1px solid var(--line);border-left:3px solid var(--amber);
+            border-radius:8px;padding:10px 12px}
+  .d.thread .dl{color:var(--amber)}
+  .spark{margin-left:8px;opacity:.9}
+  .cchips{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+  .cchip{background:var(--panel2);border:1px solid var(--line);border-radius:16px;padding:5px 12px;
+         font-size:12px;font-weight:600;cursor:pointer;color:var(--txt)}
+  .cchip:hover{border-color:var(--accent);color:var(--accent)}
+  /* latest headlines strip */
+  .hrow{display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+  .hrow:last-child{border-bottom:0}
+  .hrow .ht{flex:1;min-width:0}
+  .hrow .hm{color:var(--dim);font-size:11.5px;white-space:nowrap}
+  .hrow a{color:var(--txt)} .hrow a:hover{color:var(--accent)}
+  /* freshness */
+  .stale{color:var(--amber) !important}
+  .asof{font-size:11px;color:var(--dim);margin-top:5px}
+  .livebadge{display:inline-block;font-size:10.5px;font-weight:800;border-radius:5px;padding:2px 8px;
+             background:rgba(63,185,80,.16);color:var(--buy);margin-left:8px}
+  .panel-actions{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  .panel-actions .back{margin-bottom:0}
+  .recompute{margin-left:auto;background:var(--panel);border:1px solid var(--line);color:var(--dim);
+             border-radius:8px;padding:5px 12px;font-size:12px;font-weight:700;cursor:pointer}
+  .recompute:hover{border-color:var(--accent);color:var(--accent)}
+  .notable-item{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+  .notable-item:last-child{border-bottom:0}
+
+  /* ===================== MARKETS pillar ===================== */
+  .miss{border-left:3px solid var(--amber)}
+  .miss .hl{font-size:17px;font-weight:700;margin:0 0 14px}
+  .miss-item{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+  .miss-item:last-child{border-bottom:0}
+  .miss-item .n{font-weight:800;color:var(--amber);font-size:15px;min-width:20px}
+  .miss-item .t{font-weight:700}
+  .miss-item .tag{color:var(--dim);font-size:11px;font-weight:600;border:1px solid var(--line);border-radius:6px;padding:1px 6px;margin-left:6px}
+  .miss-item .why{opacity:.9;font-size:14px;margin-top:2px}
+  /* deepened, decoded "don't miss" items */
+  .miss-item2{padding:14px 2px;border-bottom:1px solid var(--line)}
+  .miss-item2:last-child{border-bottom:0}
+  .miss-item2 .mh{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:6px}
+  .miss-item2 .mh .n{font-weight:800;color:var(--amber);font-size:16px}
+  .miss-item2 .mh .t{font-weight:700;font-size:15.5px}
+  .glance{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  @media(max-width:720px){.glance{grid-template-columns:repeat(2,1fr)}}
+  .g{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px}
+  .g .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--dim);font-weight:700}
+  .g .txt{font-size:13px;margin-top:6px;opacity:.92}
+  .cats{margin-top:12px;font-size:13px}
+  .cat{padding:3px 0}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+  .scard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;cursor:pointer;transition:.12s;position:relative}
+  .scard:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .scard .star{position:absolute;top:10px;right:12px;color:var(--amber);font-size:12px}
+  .scard .nm{font-weight:700}
+  .scard .tk{color:var(--dim);font-size:12px}
+  .scard .px{margin-top:8px;font-size:15px;font-weight:700}
+  .scard .ol{font-size:12px;color:var(--dim);margin-top:8px;min-height:32px}
+  .chip{display:inline-block;font-size:11px;font-weight:800;border-radius:6px;padding:3px 9px;letter-spacing:.3px;color:#04110a}
+  .up{color:var(--buy)} .down{color:var(--ssell)}
+  .mini{display:flex;gap:8px;margin-top:8px;font-size:11px;color:var(--dim);flex-wrap:wrap}
+  .mini span{background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:2px 7px}
+  .row-chips{display:flex;flex-wrap:wrap;gap:8px}
+  .rowchip{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:12px;cursor:pointer}
+  .rowchip:hover{border-color:var(--accent)}
+  .rowchip b{margin-right:6px}
+
+  /* deep panel */
+  #stock{display:none}
+  .back{display:inline-flex;align-items:center;gap:6px;color:var(--dim);cursor:pointer;font-size:13px;margin-bottom:14px}
+  .back:hover{color:var(--txt)}
+  .shead{display:flex;align-items:flex-start;gap:16px;flex-wrap:wrap}
+  .shead .big-nm{font-size:22px;font-weight:800}
+  .shead .big-tk{color:var(--dim);font-weight:500;font-size:14px}
+  .shead .px{font-size:22px;font-weight:800}
+  .verdict-summary{font-size:15px;margin:14px 0 4px;opacity:.95}
+  .tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px}
+  @media(max-width:640px){.tiles{grid-template-columns:1fr}}
+  .tile{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px;text-align:center}
+  .tile .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--dim);font-weight:700}
+  .tile .cnt{font-size:11px;color:var(--dim);margin-top:6px}
+  .grid2{display:grid;grid-template-columns:1.4fr 1fr;gap:14px;margin-top:16px}
+  @media(max-width:820px){.grid2{grid-template-columns:1fr}}
+  table.ind{width:100%;border-collapse:collapse;font-size:13px}
+  table.ind td{padding:7px 4px;border-bottom:1px solid var(--line);vertical-align:top}
+  table.ind td.v{text-align:right;color:var(--dim);font-variant-numeric:tabular-nums;white-space:nowrap}
+  table.ind td.s{text-align:right;width:82px}
+  .sig{font-size:11px;font-weight:800;border-radius:5px;padding:2px 8px}
+  .sig.Buy,.sig.Bullish{background:rgba(63,185,80,.16);color:var(--buy)}
+  .sig.Sell,.sig.Bearish{background:rgba(229,72,77,.16);color:var(--ssell)}
+  .sig.Neutral{background:rgba(139,152,169,.15);color:var(--dim)}
+  .levels{display:flex;justify-content:space-between;font-size:13px;margin-top:6px}
+  .bar{height:8px;background:var(--panel2);border:1px solid var(--line);border-radius:5px;position:relative;margin:10px 0 4px}
+  .bar .fill{position:absolute;top:-3px;width:10px;height:12px;background:var(--accent);border-radius:3px}
+  .kv{font-size:13px;color:var(--dim);margin:3px 0}
+  .kv b{color:var(--txt)}
+  /* deep-panel depth: the read, bull/bear, what-would-flip */
+  .read{font-size:14.5px;line-height:1.62;margin:12px 0 16px;opacity:.96}
+  .bbgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:4px 0 6px}
+  @media(max-width:640px){.bbgrid{grid-template-columns:1fr}}
+  .bcase{border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--panel2)}
+  .bcase .bh{font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;margin-bottom:8px}
+  .bcase.bull{border-left:3px solid var(--buy)} .bcase.bull .bh{color:var(--buy)}
+  .bcase.bear{border-left:3px solid var(--ssell)} .bcase.bear .bh{color:var(--ssell)}
+  .bcase ul{margin:0;padding-left:16px} .bcase li{font-size:13px;margin:6px 0;opacity:.95}
+  .flip{background:rgba(91,157,255,.07);border:1px solid var(--line);border-left:3px solid var(--accent);
+        border-radius:8px;padding:11px 13px;font-size:13.5px;margin-top:12px}
+  .flip .fh{font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:var(--accent);font-weight:800;margin-bottom:4px}
+  /* markets landing depth: story, board, themes */
+  .board{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+  .bcard{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 13px}
+  .bcard .bn{font-size:12px;color:var(--dim);font-weight:700}
+  .bcard .bv{font-size:17px;font-weight:800;margin-top:3px;font-variant-numeric:tabular-nums}
+  .bcard .br{font-size:12.5px;margin-top:7px;opacity:.9;line-height:1.45}
+  .theme{display:flex;gap:12px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+  .theme:last-child{border-bottom:0}
+  .theme .ta{font-weight:800;min-width:120px;flex:none}
+  .theme .ta.up{color:var(--buy)} .theme .ta.down{color:var(--ssell)} .theme .ta.mixed{color:var(--amber)}
+  /* board v2 — grouped, teach-as-you-go cards */
+  .bgroup{margin:14px 0 4px;font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--dim);font-weight:800}
+  .bcard{cursor:pointer;transition:.12s}
+  .bcard:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .bcard .bn{display:flex;align-items:center}
+  .bcard .cap{font-size:11px;color:var(--dim);margin-top:1px}
+  .bcard .phrase{font-size:12px;margin-top:6px}
+  .bcard .learn{font-size:11px;color:var(--accent);margin-top:8px;opacity:.85}
+  /* "start here" primer */
+  .primer{background:linear-gradient(180deg,rgba(91,157,255,.10),rgba(91,157,255,.02));border:1px solid var(--line);
+          border-radius:12px;padding:14px 16px;margin-bottom:6px}
+  .primer .ph{font-size:13px;font-weight:800;margin-bottom:4px}
+  .primer .psub{font-size:12.5px;color:var(--dim);margin-bottom:10px}
+  .primer .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .primer .pchip{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:6px 12px;
+                 font-size:12px;font-weight:600;cursor:pointer}
+  .primer .pchip:hover{border-color:var(--accent);color:var(--accent)}
+  /* "About this" teach-first block in the deep panel */
+  .about{background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--accent);
+         border-radius:10px;padding:14px 16px;margin:12px 0 4px}
+  .about .ah{font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--accent);font-weight:800;margin-bottom:6px}
+  .about .aone{font-size:15px;font-weight:700;margin-bottom:8px}
+  .about .arow{font-size:13.5px;margin:7px 0;opacity:.95}
+  .about .arow b{color:var(--txt)}
+  .about .ascale{margin-top:10px;font-size:12px;color:var(--dim);background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:7px 10px}
+
+  /* the "ⓘ explain" affordance — the education layer */
+  .ib{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;
+      border:1px solid var(--dim);color:var(--dim);font-size:10px;font-weight:800;cursor:pointer;margin-left:5px;
+      line-height:1;vertical-align:middle;font-style:normal;flex:none}
+  .ib:hover{border-color:var(--accent);color:var(--accent)}
+  .lblrow{display:flex;align-items:center}
+
+  /* glossary modal */
+  .gmask{display:none;position:fixed;inset:0;z-index:60;background:rgba(4,7,12,.66);backdrop-filter:blur(3px)}
+  .gmask.open{display:block}
+  .gmodal{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:61;width:min(520px,92vw);
+          max-height:82vh;overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:16px;
+          padding:22px;display:none;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  .gmodal.open{display:block}
+  .gmodal .gx{position:absolute;top:14px;right:16px;color:var(--dim);cursor:pointer;font-size:20px;line-height:1}
+  .gmodal h3{margin:0 8px 4px 0;font-size:18px}
+  .gmodal .one{color:var(--accent);font-size:13.5px;font-weight:600;margin-bottom:14px}
+  .gmodal .grow{margin:12px 0}
+  .gmodal .gk{font-size:10.5px;text-transform:uppercase;letter-spacing:.9px;color:var(--dim);font-weight:800;margin-bottom:3px}
+  .gmodal .gv{font-size:14px;opacity:.96}
+  .gmodal .scale{margin-top:12px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;
+                 padding:9px 11px;font-size:12.5px;color:var(--dim);font-variant-numeric:tabular-nums}
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="brand">🧭 Daily Intelligence<span class="date" id="date"></span></div>
+  <div class="tabs">
+    <button class="tab active" id="tab-world" onclick="showPillar('world')">🌍 World</button>
+    <button class="tab" id="tab-markets" onclick="showPillar('markets')">📈 Markets</button>
+  </div>
+  <select id="daySel" class="daysel" title="View a past day's brief" onchange="loadDay(this.value)" style="display:none"></select>
+  <a class="refreshbtn" href="./reels/" title="The day as a swipeable mobile deck — one takeaway per card" style="text-decoration:none">📱 Reels</a>
+  <button id="refreshBtn" class="refreshbtn" title="Reload the latest data" onclick="refreshNow(this)">⟳ Refresh</button>
+  <button id="viewBtn" class="refreshbtn" title="Toggle between full explanations and a compact view" onclick="toggleView()"></button>
+  <span class="updated"><span id="briefStamp" title=""></span><span id="updatedAt" title="When the on-screen data was last loaded"></span></span>
+  <form class="search" id="searchForm" style="display:none">
+    <input id="search" placeholder="Look up a stock (AAPL, TCS.NS…)" autocomplete="off" list="tickerlist" />
+    <datalist id="tickerlist"></datalist>
+  </form>
+</div>
+
+<div class="wrap">
+  <div id="archiveBanner" class="archbanner" style="display:none"></div>
+  <div id="staleBanner" class="archbanner" style="display:none"></div>
+
+  <!-- ============================ WORLD PILLAR ============================ -->
+  <div id="world">
+    <div class="card bigpic">
+      <div class="hl" id="worldHeadline">Loading today's world brief…</div>
+      <div class="body" id="bigPicture"></div>
+    </div>
+    <div class="catbar" id="catbar"></div>
+    <div id="stories"></div>
+    <div class="sec-title" id="hlTitle" style="display:none">Latest headlines <span id="hlMeta" class="muted" style="text-transform:none;letter-spacing:0"></span>
+      <span id="hlRefresh" style="cursor:pointer;color:var(--accent)" title="Re-pull the news feeds now" onclick="refreshNews(this)">↻</span></div>
+    <div class="card" id="hl" style="display:none"></div>
+    <div class="sec-title" id="notableTitle" style="display:none">Also notable</div>
+    <div class="card" id="notable" style="display:none"></div>
+    <div class="disc" id="worldDisc"></div>
+  </div>
+
+  <!-- ============================ MARKETS PILLAR ============================ -->
+  <div id="markets" style="display:none">
+    <div id="feed">
+      <div class="primer">
+        <div class="ph">👋 New to markets? Start here</div>
+        <div class="psub">Five 30-second ideas and the whole page will make sense. Tap any one.</div>
+        <div class="chips">
+          <span class="pchip" onclick="showGloss('index')">What's an index?</span>
+          <span class="pchip" onclick="showGloss('points_vs_price')">Why 'points', not ₹?</span>
+          <span class="pchip" onclick="showGloss('percent_change')">Is +0.8% a lot?</span>
+          <span class="pchip" onclick="showGloss('risk_on_off')">Risk-on vs risk-off</span>
+          <span class="pchip" onclick="showGloss('usdinr')">What's USD/INR?</span>
+        </div>
+      </div>
+
+      <div class="card bigpic" style="margin-top:14px">
+        <div class="hl" id="headline">Loading today's market brief…</div>
+        <div class="body" id="marketStory"></div>
+      </div>
+
+      <div class="sec-title">The board — key numbers, explained <span class="muted" style="font-size:10px;text-transform:none;letter-spacing:0">— tap any card to learn it</span> <span id="boardAsOf" class="muted" style="font-size:10px;text-transform:none;letter-spacing:0"></span></div>
+      <div id="board"><span class="muted">Loading…</span></div>
+
+      <div class="card miss" style="margin-top:20px">
+        <div class="hl">▲ Don't miss today</div>
+        <div id="miss"></div>
+      </div>
+
+      <div class="sec-title" id="themesTitle" style="display:none">Sector &amp; theme pulse — what's moving and why</div>
+      <div class="card" id="themes" style="display:none"></div>
+
+      <div class="sec-title">At a glance — by market</div>
+      <div class="glance" id="glance"></div>
+      <div class="cats" id="cats"></div>
+
+      <div class="sec-title">Your Stocks — processed verdicts <i class="ib" onclick="showGloss('verdict')">i</i> <span id="stocksAsOf" class="muted" style="font-size:10px;text-transform:none;letter-spacing:0"></span></div>
+      <div class="cards" id="favCards"><span class="muted">Loading…</span></div>
+
+      <div class="sec-title">Markets &amp; more</div>
+      <div class="row-chips" id="moreChips"></div>
+    </div>
+    <div id="stock"></div>
+    <div class="disc" id="disc"></div>
+  </div>
+</div>
+
+<!-- glossary modal -->
+<div class="gmask" id="gmask" onclick="hideGloss()"></div>
+<div class="gmodal" id="gmodal">
+  <span class="gx" onclick="hideGloss()">×</span>
+  <div id="gbody"></div>
+</div>
+
+<script>
+const RC = {"Strong Buy":"var(--sbuy)","Buy":"var(--buy)","Neutral":"var(--neu)","Sell":"var(--sell)","Strong Sell":"var(--ssell)"};
+const CAT = {
+  geopolitics:{lbl:"Geopolitics",emoji:"🌍"}, economy:{lbl:"Economy",emoji:"💵"},
+  technology:{lbl:"Technology",emoji:"⚙️"}, science:{lbl:"Science",emoji:"🔬"},
+  health:{lbl:"Health",emoji:"🩺"}, climate:{lbl:"Climate",emoji:"🌱"}, india:{lbl:"India",emoji:"🇮🇳"}
+};
+const esc = s => (s==null?'':String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])));
+const b = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');
+const sgn = p => p==null?'—':(p>=0?'+':'')+Number(p).toFixed(2)+'%';
+const cls = p => p>=0?'up':'down';
+const chip = r => `<span class="chip" style="background:${RC[r]||'#888'}">${esc(r)}</span>`;
+const ib = key => key?`<i class="ib" onclick="event.stopPropagation();showGloss('${key}')">i</i>`:'';
+
+// How the daily brief is generated (keep the wording in sync with the LaunchAgent in routine/).
+const SCHEDULE = {desc: 'the first time you open your laptop each day'};
+
+// True when served by the local server (live /api/* available); false on GitHub Pages.
+const IS_LOCAL = /^(localhost|127\.|192\.168\.|10\.|172\.(1[6-9]|2\d|3[01])\.)/.test(location.hostname);
+
+// Developing-story ribbon (story.thread is optional — old archives simply have none).
+const THREAD = {developing:"📈 Developing", escalating:"🔺 Escalating", cooling:"🔻 Cooling", resolved:"✅ Resolved"};
+function threadRibbon(t){
+  if(!t||!t.status) return '';
+  return `<span class="thread-ribbon" title="This story continues coverage from previous days">${THREAD[t.status]||'📈 '+esc(t.status)}${t.day?` — day ${esc(t.day)}`:''}</span>`;
+}
+
+// Tiny inline sparkline from board-history (needs ≥3 archived days for the ticker).
+function sparkSVG(pts){
+  if(!pts||pts.length<3) return '';
+  const min=Math.min(...pts), max=Math.max(...pts), r=(max-min)||1;
+  const xy = pts.map((v,i)=>`${(i/(pts.length-1)*58+2).toFixed(1)},${(16-(v-min)/r*12+1).toFixed(1)}`).join(' ');
+  const up = pts[pts.length-1]>=pts[0];
+  return `<svg class="spark" width="62" height="18" viewBox="0 0 62 18" style="vertical-align:middle">
+    <polyline points="${xy}" fill="none" stroke="${up?'var(--buy)':'var(--sell)'}" stroke-width="1.6"/></svg>`;
+}
+let BOARD_HISTORY = null;
+fetch('./board-history.json?_='+Date.now()).then(r=>r.ok?r.json():null)
+  .then(h=>{ BOARD_HISTORY=h; if(LAST_BRIEF) renderMarkets(LAST_BRIEF); }).catch(()=>{});
+
+// --- time helpers ---
+function relTime(iso){
+  if(!iso) return '';
+  const t=Date.parse(iso); if(isNaN(t)) return '';
+  const s=(Date.now()-t)/1e3;
+  if(s<90) return 'just now';                       // also clamps clock-skew / future dates
+  if(s<3600) return Math.floor(s/60)+'m ago';
+  if(s<86400) return Math.floor(s/3600)+'h ago';
+  if(s<172800) return 'yesterday';
+  return new Date(t).toLocaleDateString([], {month:'short', day:'numeric'});
+}
+function fmtStamp(iso){
+  if(!iso) return '';
+  const t=Date.parse(iso); if(isNaN(t)) return '';
+  return new Date(t).toLocaleString([], {month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'});
+}
+function todayLocal(){ return new Date().toLocaleDateString('en-CA'); }   // YYYY-MM-DD, local tz
+
+// --- full vs compact view (full = every decoded layer expanded; persisted) ---
+let EXPANDED = localStorage.getItem('di_view') !== 'compact';
+function updateViewBtn(){
+  const b=document.getElementById('viewBtn');
+  if(b) b.textContent = EXPANDED ? '▤ Compact view' : '▥ Full view';
+}
+function toggleView(){
+  EXPANDED = !EXPANDED;
+  localStorage.setItem('di_view', EXPANDED ? 'full' : 'compact');
+  updateViewBtn();
+  renderStories();
+  if(LAST_BRIEF) renderMarkets(LAST_BRIEF);
+}
+
+// 📚 concept chips — tie a story to the glossary so the news doubles as a course.
+// Unknown keys are silently dropped (the prompt enumerates allowed keys, but never trust it).
+function conceptChips(keys){
+  const chips=(keys||[]).filter(k=>typeof GLOSSARY!=='undefined'&&GLOSSARY[k])
+    .map(k=>`<span class="cchip" onclick="showGloss('${esc(k)}')">📚 ${esc(GLOSSARY[k].term.split(' — ')[0].split(' (')[0])}</span>`);
+  return chips.length?`<div class="cchips">${chips.join('')}</div>`:'';
+}
+
+// --- board helpers: group, caption the number, and phrase the move in plain words ---
+function boardGroup(t){
+  t=(t||'').toUpperCase();
+  if(['^GSPC','^IXIC','^DJI'].includes(t)) return 'US market';
+  if(['^NSEI','^BSESN','^NSEBANK'].includes(t)) return 'India market';
+  if(['BTC-USD','ETH-USD'].includes(t)) return 'Crypto';
+  if(['GC=F','CL=F'].includes(t)) return 'Commodities';
+  if(t==='INR=X') return 'Currency';
+  return 'Other';
+}
+function numberCaption(t){
+  t=(t||'').toUpperCase();
+  if(t.startsWith('^')) return 'index level — points, not a price';
+  if(t==='BTC-USD'||t==='ETH-USD') return 'price per coin (US$)';
+  if(t==='GC=F') return 'price per ounce (US$)';
+  if(t==='CL=F') return 'price per barrel (US$)';
+  if(t==='INR=X') return 'rupees to buy US$1';
+  return '';
+}
+function pctPhrase(pct,isCrypto){
+  if(pct==null||pct==='') return '';
+  const f=isCrypto?4:1, a=Math.abs(Number(pct));
+  if(a < 0.1*f) return '◆ basically flat today';
+  const dir=pct>=0?'up':'down', arrow=pct>=0?'▲':'▼';
+  const size=a<0.5*f?'a small':a<1.5*f?'a moderate':a<3*f?'a notable':'a big';
+  return `${arrow} ${size} move ${dir} today`;
+}
+
+let INDEX = [], LAST_BRIEF = null, HEADLINES = null, CURRENT_TICKER = null;
+
+/* ---------------- pillar switching ---------------- */
+function showPillar(which){
+  document.getElementById('world').style.display = which==='world'?'block':'none';
+  document.getElementById('markets').style.display = which==='markets'?'block':'none';
+  document.getElementById('tab-world').classList.toggle('active', which==='world');
+  document.getElementById('tab-markets').classList.toggle('active', which==='markets');
+  document.getElementById('searchForm').style.display = which==='markets'?'block':'none';
+  try{ history.replaceState(null,'','#'+which); }catch(e){}
+  window.scrollTo(0,0);
+}
+
+/* ---------------- glossary (the education layer) ---------------- */
+function showGloss(key){
+  const g = (typeof GLOSSARY!=='undefined') && GLOSSARY[key];
+  if(!g) return;
+  document.getElementById('gbody').innerHTML = `
+    <h3>${esc(g.term)}</h3>
+    <div class="one">${esc(g.one)}</div>
+    <div class="grow"><div class="gk">What it measures</div><div class="gv">${esc(g.what)}</div></div>
+    <div class="grow"><div class="gk">How to read it</div><div class="gv">${esc(g.read)}</div></div>
+    <div class="grow"><div class="gk">Why it matters to you</div><div class="gv">${esc(g.why)}</div></div>
+    ${g.scale?`<div class="scale">${esc(g.scale)}</div>`:''}`;
+  document.getElementById('gmask').classList.add('open');
+  document.getElementById('gmodal').classList.add('open');
+}
+function hideGloss(){
+  document.getElementById('gmask').classList.remove('open');
+  document.getElementById('gmodal').classList.remove('open');
+}
+document.addEventListener('keydown',e=>{ if(e.key==='Escape') hideGloss(); });
+
+/* ======================================================================
+   DAY LOADER + ARCHIVE — view today or any past day
+   ====================================================================== */
+let STORIES = [], ACTIVE_CAT = 'all', CUR_DAY = 'latest';
+
+// Populate the date selector from the archive index (built by build_dashboard.py).
+function loadArchiveIndex(){
+  return fetch('./archive/index.json?_='+Date.now()).then(r=>r.ok?r.json():null).then(idx=>{
+    const days = (idx && idx.days) || [];
+    const sel = document.getElementById('daySel');
+    if(!days.length){ sel.style.display='none'; return; }
+    // "Latest" IS the newest day, so only list the OLDER days explicitly (no duplicate newest entry).
+    sel.innerHTML = `<option value="latest">📅 Latest — ${esc(days[0].date)}</option>`
+      + days.slice(1).map(d=>`<option value="${esc(d.date)}">${esc(d.date)}</option>`).join('');
+    sel.style.display='inline-block';
+    if(CUR_DAY==='latest') sel.value='latest';
+  }).catch(()=>{});
+}
+
+// Show when the on-screen data was last (re)loaded — the visible proof that refresh did something.
+function stamp(){
+  const el=document.getElementById('updatedAt'); if(!el) return;
+  const d=new Date();
+  el.textContent = ' · loaded '+d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit', second:'2-digit'});
+}
+
+// Show WHEN the brief itself was generated (amber when it's not today's — data is stale, not broken).
+function setBriefStamp(brief){
+  const el=document.getElementById('briefStamp'); if(!el) return;
+  if(!brief || !brief.generated_at){ el.textContent=''; return; }
+  el.textContent = 'Brief: '+fmtStamp(brief.generated_at);
+  el.title = brief.generated_at;
+  el.classList.toggle('stale', (brief.date||'') < todayLocal());
+}
+
+// Reload everything currently on screen from disk (data files are cache-busted, so this pulls fresh).
+// On the LOCAL server it also asks the backend to recompute live prices/verdicts (/api/refresh);
+// on GitHub Pages that call just 404s harmlessly and we simply reload the published files.
+function refreshNow(btn){
+  if(btn){ btn.classList.add('spin'); btn.disabled=true; btn.textContent='⟳ Refreshing…'; }
+  loadArchiveIndex();
+  loadDay(CUR_DAY);
+  loadStocks();
+  stamp();
+  fetch('/api/refresh?_='+Date.now()).then(r=>r.ok?r.json():null).then(res=>{
+    if(res && res.ok){ loadStocks(); stamp(); }   // live technicals recomputed → pull them in
+  }).catch(()=>{});
+  fetch('/api/refresh_news?_='+Date.now()).then(r=>r.ok?r.json():null).then(res=>{
+    if(res && res.ok){ loadHeadlines(); }         // fresh RSS pull → re-render the headline strip
+  }).catch(()=>{});
+  setTimeout(()=>{ if(btn){ btn.classList.remove('spin'); btn.disabled=false; btn.textContent='⟳ Refresh'; } }, 700);
+}
+
+function loadDay(day){
+  CUR_DAY = day || 'latest';
+  const bust = '?_='+Date.now();
+  const wurl = CUR_DAY==='latest' ? './world.json'+bust : `./archive/world-${CUR_DAY}.json`+bust;
+  const burl = CUR_DAY==='latest' ? './brief.json'+bust : `./archive/brief-${CUR_DAY}.json`+bust;
+  closeStock(); ACTIVE_CAT='all';
+  fetch(wurl).then(r=>r.ok?r.json():null).then(renderWorld).catch(()=>renderWorld(null));
+  fetch(burl).then(r=>r.ok?r.json():null).then(renderMarkets).then(stamp).catch(()=>{ renderMarkets(null); stamp(); });
+  const bn = document.getElementById('archiveBanner');
+  if(CUR_DAY!=='latest'){
+    bn.style.display='block';
+    bn.innerHTML = `🕘 Viewing the archived brief for <b>${esc(CUR_DAY)}</b> — a snapshot of that day. `
+      + `<a onclick="document.getElementById('daySel').value='latest';loadDay('latest')">← Back to latest</a>`;
+  } else { bn.style.display='none'; }
+  // Latest headlines are a "now" feature — hide them when reading an archived day.
+  if(CUR_DAY==='latest'){ loadHeadlines(); }
+  else { document.getElementById('hlTitle').style.display='none'; document.getElementById('hl').style.display='none'; }
+}
+
+/* ======================================================================
+   WORLD pillar
+   ====================================================================== */
+function renderWorld(w){
+  const stories=document.getElementById('stories');
+  const nt=document.getElementById('notableTitle'), nb=document.getElementById('notable');
+  if(!w){
+    document.getElementById('worldHeadline').textContent='No world brief for this day.';
+    document.getElementById('bigPicture').innerHTML=''; document.getElementById('catbar').innerHTML='';
+    stories.innerHTML=''; nt.style.display='none'; nb.style.display='none';
+    document.getElementById('worldDisc').textContent=''; STORIES=[]; return;
+  }
+  document.getElementById('date').textContent = w.date? '· '+w.date : '';
+  document.getElementById('worldHeadline').textContent = w.headline||'';
+  document.getElementById('bigPicture').innerHTML = b(w.the_big_picture||'');
+  document.getElementById('worldDisc').textContent = w.disclaimer||'';
+  STORIES = w.stories||[];
+  const cats = ['all', ...Array.from(new Set(STORIES.map(s=>s.category)))];
+  document.getElementById('catbar').innerHTML = cats.map(c=>{
+    const meta = CAT[c]; const label = c==='all'?'All':(meta?meta.emoji+' '+meta.lbl:c);
+    return `<span class="catchip ${c===ACTIVE_CAT?'active':''}" data-cat="${esc(c)}" onclick="filterCat('${esc(c)}')">${esc(label)}</span>`;
+  }).join('');
+  renderStories();
+  if((w.also_notable||[]).length){
+    nt.style.display='block'; nb.style.display='block';
+    nb.innerHTML = w.also_notable.map(x=>`<div class="notable-item"><b>${esc(x.title)}</b> — ${esc(x.why)}
+      ${x.source&&x.source.url?` · <a href="${esc(x.source.url)}" target="_blank" rel="noopener">${esc(x.source.name||'source')}</a>`:''}</div>`).join('');
+  } else { nt.style.display='none'; nb.style.display='none'; }
+}
+
+function filterCat(c){
+  ACTIVE_CAT = c;
+  document.querySelectorAll('.catchip').forEach(el=>el.classList.toggle('active', el.dataset.cat===c));
+  renderStories();
+  renderHeadlines();
+}
+
+function renderStories(){
+  const list = STORIES.filter(s=>ACTIVE_CAT==='all'||s.category===ACTIVE_CAT);
+  document.getElementById('stories').innerHTML = list.map((s,i)=>{
+    const meta = CAT[s.category]||{lbl:s.category||'News',emoji:'•'};
+    const accent = `var(--${s.category||'gdelt'})`;
+    const regions = (s.regions||[]).join(' · ');
+    const srcs = (s.sources||[]).map(x=>x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name||'source')}</a>`:esc(x.name)).join(' · ');
+    const gid = 'x'+i;
+    return `<div class="story" style="border-left-color:${accent}">
+      <div class="story-top">
+        <span class="rank">${esc(s.rank||i+1)}</span>
+        <span class="cat-badge" style="background:${accent}22;color:${accent}">${meta.emoji} ${esc(meta.lbl)}</span>
+        ${regions?`<span class="regions">${esc(regions)}</span>`:''}
+        <span class="imp ${esc(s.importance||'notable')}">${esc(s.importance||'notable')}</span>
+        ${threadRibbon(s.thread)}
+      </div>
+      <div class="story-title">${esc(s.title)}</div>
+      ${s.thread&&s.thread.previously?`<div class="d thread"><span class="dl">Previously — what we told you</span><p>${esc(s.thread.previously)}</p>${s.thread.changed?`<span class="dl">What changed today</span><p>${esc(s.thread.changed)}</p>`:''}</div>`:''}
+      ${s.background?`<div class="d"><span class="dl">The backstory</span><p>${esc(s.background)}</p></div>`:''}
+      <div class="d"><span class="dl">What happened</span><p>${esc(s.what_happened)}</p></div>
+      <div class="d"><span class="dl">Why it matters</span><p>${esc(s.why_it_matters)}</p></div>
+      <div class="extra${EXPANDED?' open':''}" id="${gid}">
+        ${s.ripple_effects?`<div class="d"><span class="dl">Ripple effects — what happens next</span><p>${esc(s.ripple_effects)}</p></div>`:''}
+        ${s.why_now?`<div class="d"><span class="dl">Why you're seeing this now</span><p>${esc(s.why_now)}</p></div>`:''}
+        ${s.watch_next?`<div class="d watch"><span class="dl">Watch next</span><p>${esc(s.watch_next)}</p></div>`:''}
+        ${s.market_link?`<div class="d market"><span class="dl">Market link</span><p>${esc(s.market_link)}</p></div>`:''}
+        ${(s.key_terms||[]).length?`<div class="d"><span class="dl">Jargon, defined</span>${(s.key_terms||[]).map(k=>`<p><b>${esc(k.term)}:</b> ${esc(k.definition)}</p>`).join('')}</div>`:''}
+      </div>
+      ${s.the_lesson?`<div class="d lesson"><span class="dl">🎓 The lesson — what this teaches you</span><p>${esc(s.the_lesson)}</p></div>`:''}
+      ${conceptChips(s.concepts)}
+      <button class="more-toggle" onclick="toggleExtra('${gid}',this,'Ripple effects, context and terms ▾')">${EXPANDED?'Hide ▴':'Ripple effects, context and terms ▾'}</button>
+      ${srcs?`<div class="srcs">Sources: ${srcs}</div>`:''}
+    </div>`;
+  }).join('') || '<div class="card muted">No stories in this category today.</div>';
+}
+function toggleExtra(id,btn,label){
+  const el=document.getElementById(id); const open=el.classList.toggle('open');
+  btn.innerHTML = open ? 'Hide ▴' : (label || 'Show more ▾');
+}
+
+/* ======================================================================
+   MARKETS pillar — feed
+   ====================================================================== */
+function renderMarkets(brief){
+  if(!brief){
+    document.getElementById('headline').textContent='No market brief for this day.';
+    document.getElementById('marketStory').innerHTML=''; document.getElementById('board').innerHTML='';
+    document.getElementById('miss').innerHTML=''; document.getElementById('themesTitle').style.display='none';
+    document.getElementById('themes').style.display='none'; document.getElementById('glance').innerHTML='';
+    document.getElementById('cats').innerHTML=''; document.getElementById('disc').textContent='';
+    setBriefStamp(null); return;
+  }
+  LAST_BRIEF = brief;
+  setBriefStamp(brief);
+  document.getElementById('headline').textContent = brief.headline||'';
+  document.getElementById('marketStory').innerHTML = b(brief.market_story||'');
+  document.getElementById('disc').textContent = brief.disclaimer||'';
+  // keep the header date correct even on days where only the Markets brief exists (World may be missing)
+  if(brief.date) document.getElementById('date').textContent = '· '+brief.date;
+
+  // Staleness is a fact of life (the brief regenerates once a day) — make it VISIBLE, not confusing.
+  const sb = document.getElementById('staleBanner');
+  if(CUR_DAY==='latest' && (brief.date||'') < todayLocal()){
+    sb.style.display='block';
+    sb.innerHTML = `⏳ This brief is from <b>${esc(brief.date)}</b> (generated ${esc(fmtStamp(brief.generated_at))}). `
+      + `The next one generates automatically ${esc(SCHEDULE.desc)} — tap <b>⟳ Refresh</b> once it lands. `
+      + `Prices and stock analyses below can still be refreshed live right now.`;
+  } else { sb.style.display='none'; }
+
+  // The board's numbers were written when the brief was generated — label that freshness honestly.
+  const bAsOf=document.getElementById('boardAsOf');
+  if(bAsOf) bAsOf.textContent = brief.generated_at ? `· numbers as of ${fmtStamp(brief.generated_at)}` : '';
+
+  // The board — key numbers, grouped and taught as you go
+  const GROUPS=['US market','India market','Crypto','Commodities','Currency','Other'];
+  const grouped={};
+  (brief.board||[]).forEach(x=>{ (grouped[boardGroup(x.ticker)] = grouped[boardGroup(x.ticker)]||[]).push(x); });
+  document.getElementById('board').innerHTML = GROUPS.filter(g=>grouped[g]).map(g=>{
+    const isC=(g==='Crypto');
+    const cards = grouped[g].map(x=>{
+      const cs=x.currency||'', concept=(typeof conceptForTicker!=='undefined')?conceptForTicker(x.ticker):null;
+      return `<div class="bcard" onclick="openStock('${esc(x.ticker)}')">
+        <div class="bn"><span style="font-weight:700">${esc(x.name)}</span>${ib(concept)}</div>
+        <div class="cap">${esc(numberCaption(x.ticker))}</div>
+        <div class="bv">${cs}${esc(x.value)} <span class="${cls(x.change_pct)}" style="font-size:13px">${sgn(x.change_pct)}</span>${sparkSVG(((BOARD_HISTORY&&BOARD_HISTORY.series&&BOARD_HISTORY.series[x.ticker])||[]).map(p=>p.v))}</div>
+        <div class="phrase ${cls(x.change_pct)}">${pctPhrase(x.change_pct,isC)}</div>
+        <div class="br">${esc(x.read)}</div>
+        <div class="learn">Tap to learn what this is →</div>
+      </div>`;
+    }).join('');
+    return `<div class="bgroup">${g}</div><div class="board">${cards}</div>`;
+  }).join('') || '<span class="muted">No board data.</span>';
+
+  // Don't miss — each item fully DECODED (gist → why it matters → what it means for you → watch → jargon)
+  document.getElementById('miss').innerHTML = (brief.what_to_watch||[]).map((w,i)=>{
+    const gid='miss'+i;
+    const tick=(w.tickers||[]).length?' · '+esc((w.tickers||[]).join(', ')):'';
+    const terms=(w.key_terms||[]);
+    const srcs=(w.sources||[]).map(x=>x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name||'source')}</a>`:esc(x.name)).join(' · ');
+    const hasExtra = w.why_it_matters||w.what_it_means||w.watch||terms.length;
+    return `<div class="miss-item2">
+      <div class="mh"><span class="n">${esc(w.rank||i+1)}</span><span class="t">${esc(w.title)}</span>
+        <span class="tag">${esc(w.market||'')}${tick}</span></div>
+      <div class="d"><span class="dl">The gist</span><p>${esc(w.gist||w.why||'')}</p></div>
+      <div class="extra${EXPANDED?' open':''}" id="${gid}">
+        ${w.why_it_matters?`<div class="d"><span class="dl">Why it matters</span><p>${esc(w.why_it_matters)}</p></div>`:''}
+        ${w.what_it_means?`<div class="d"><span class="dl">What it means for you</span><p>${esc(w.what_it_means)}</p></div>`:''}
+        ${w.watch?`<div class="d watch"><span class="dl">Watch next</span><p>${esc(w.watch)}</p></div>`:''}
+        ${terms.length?`<div class="d"><span class="dl">Jargon, defined</span>${terms.map(k=>`<p><b>${esc(k.term)}:</b> ${esc(k.definition)}</p>`).join('')}</div>`:''}
+      </div>
+      ${w.the_lesson?`<div class="d lesson"><span class="dl">🎓 The lesson — what this teaches you</span><p>${esc(w.the_lesson)}</p></div>`:''}
+      ${conceptChips(w.concepts)}
+      ${hasExtra?`<button class="more-toggle" onclick="toggleExtra('${gid}',this,'Why it matters and what to do ▾')">${EXPANDED?'Hide ▴':'Why it matters and what to do ▾'}</button>`:''}
+      ${srcs?`<div class="srcs">Sources: ${srcs}</div>`:''}
+    </div>`;
+  }).join('') || '<span class="muted">No items today.</span>';
+
+  // Sector & theme pulse
+  const themes = brief.themes||[];
+  const themesTitle=document.getElementById('themesTitle'), themesEl=document.getElementById('themes');
+  if(themes.length){
+    themesTitle.style.display='block'; themesEl.style.display='block';
+    themesEl.innerHTML = themes.map(t=>{
+      const d=(t.direction||'').toLowerCase(), arrow=d==='up'?'▲':d==='down'?'▼':'◆';
+      return `<div class="theme"><span class="ta ${d}">${arrow} ${esc(t.theme)}</span><span>${esc(t.note)}</span></div>`;
+    }).join('');
+  } else { themesTitle.style.display='none'; themesEl.style.display='none'; }
+
+  const gs = brief.global_summary||{};
+  document.getElementById('glance').innerHTML = [['US','us'],['India','india'],['Crypto','crypto'],['Macro','macro']]
+    .filter(([_,k])=>gs[k]).map(([lbl,k])=>`<div class="g"><div class="lbl">${lbl}</div><div class="txt">${esc(gs[k])}</div></div>`).join('');
+  document.getElementById('cats').innerHTML = (brief.catalysts_today||[]).length
+    ? '<b>Catalysts:</b> '+(brief.catalysts_today||[]).map(c=>`<span class="cat">● <b>${esc(c.when)}</b> — ${esc(c.event)}${c.ticker?' ('+esc(c.ticker)+')':''}</span>`).join('') : '';
+}
+
+function loadStocks(){
+  return fetch('./stocks/index.json?_='+Date.now()).then(r=>r.ok?r.json():[]).then(rows=>{
+    INDEX = rows;
+    document.getElementById('tickerlist').innerHTML = rows.map(r=>`<option value="${esc(r.ticker)}">${esc(r.name)}</option>`).join('');
+    const favs = rows.filter(r=>r.favorite), rest = rows.filter(r=>!r.favorite);
+    document.getElementById('favCards').innerHTML = (favs.length?favs:rows.slice(0,6)).map(card).join('') || '<span class="muted">Run analyze_stock.py to populate.</span>';
+    document.getElementById('moreChips').innerHTML = rest.map(r=>
+      `<div class="rowchip" onclick="openStock('${esc(r.ticker)}')"><b>${esc(r.ticker)}</b>${chip(r.rating)} <span class="${cls(r.change_pct)}">${sgn(r.change_pct)}</span></div>`).join('');
+    // Prices here come from the last analysis run — show exactly how fresh that is.
+    const newest = rows.map(r=>r.as_of).filter(Boolean).sort().pop();
+    const sAsOf = document.getElementById('stocksAsOf');
+    if(sAsOf) sAsOf.textContent = newest ? `· prices as of ${fmtStamp(newest)} (${relTime(newest)})` : '';
+  }).catch(()=>{});
+}
+
+/* ---------------- latest headlines — raw-feed volume with REAL timestamps ---------------- */
+function loadHeadlines(){
+  return fetch('./headlines.json?_='+Date.now()).then(r=>r.ok?r.json():null).then(h=>{
+    HEADLINES = h;
+    renderHeadlines();
+  }).catch(()=>{ HEADLINES=null; renderHeadlines(); });
+}
+
+function renderHeadlines(){
+  const title=document.getElementById('hlTitle'), box=document.getElementById('hl');
+  const items=(HEADLINES&&HEADLINES.headlines)||[];
+  if(!items.length || CUR_DAY!=='latest'){ title.style.display='none'; box.style.display='none'; return; }
+  const list = items.filter(x=>ACTIVE_CAT==='all'||x.category===ACTIVE_CAT);
+  title.style.display='block'; box.style.display='block';
+  document.getElementById('hlRefresh').style.display = IS_LOCAL ? '' : 'none';  // re-pull needs the local server
+  document.getElementById('hlMeta').textContent = HEADLINES.as_of ? `— ${list.length} stories · fetched ${relTime(HEADLINES.as_of)}` : `— ${list.length} stories`;
+  const row = x=>{
+    const meta = CAT[x.category]||{lbl:x.category||'news',emoji:'•'};
+    const accent = `var(--${x.category||'gdelt'})`;
+    return `<div class="hrow">
+      <span class="cat-badge" style="background:${accent}22;color:${accent}">${meta.emoji} ${esc(meta.lbl)}</span>
+      <span class="ht"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.headline)}</a></span>
+      <span class="hm">${esc(x.source||'')}${x.published_iso?` · <b title="${esc(x.published_iso)}">${relTime(x.published_iso)}</b>`:''}</span>
+    </div>`;
+  };
+  const first = list.slice(0,15).map(row).join('');
+  const rest = list.slice(15).map(row).join('');
+  box.innerHTML = first
+    + (rest?`<div class="extra" id="hlExtra">${rest}</div>
+       <button class="more-toggle" onclick="toggleExtra('hlExtra',this,'Show all ${list.length} ▾')">Show all ${list.length} ▾</button>`:'')
+    || '<span class="muted">No recent headlines.</span>';
+}
+
+// Section-level ↻ — re-pulls the RSS feeds server-side (local only), then re-renders.
+function refreshNews(el){
+  if(el){ el.textContent='…'; }
+  fetch('/api/refresh_news?_='+Date.now()).then(r=>r.ok?r.json():null).then(res=>{
+    if(el){ el.textContent='↻'; }
+    if(res && res.ok) loadHeadlines();
+  }).catch(()=>{ if(el){ el.textContent='↻'; } });
+}
+
+function card(r){
+  const cs = r.currency||'$';
+  return `<div class="scard" onclick="openStock('${esc(r.ticker)}')">
+    ${r.favorite?'<span class="star">★</span>':''}
+    <div class="nm">${esc(r.name)}</div><div class="tk">${esc(r.ticker)}</div>
+    <div class="px">${cs}${esc(r.price)} <span class="${cls(r.change_pct)}" style="font-size:13px">${sgn(r.change_pct)}</span></div>
+    <div style="margin-top:8px">${chip(r.rating)}</div>
+    <div class="ol">${esc(r.one_liner||'')}</div>
+    <div class="mini"><span>Trend: ${esc(r.trend||'—')}</span>${r.rsi!=null?`<span>RSI ${Math.round(r.rsi)}</span>`:''}</div>
+  </div>`;
+}
+
+/* ---------------- deep panel (with education ⓘ on every metric) ---------------- */
+function svgChart(history){
+  const w=560,h=200,pad=8; const pts=(history||[]).filter(p=>p.c!=null);
+  if(pts.length<2) return '';
+  const xs=(i)=>pad+i*(w-2*pad)/(pts.length-1);
+  const all=pts.flatMap(p=>[p.c,p.m50,p.m200]).filter(v=>v!=null);
+  const mn=Math.min(...all), mx=Math.max(...all); const ys=v=>h-pad-((v-mn)/((mx-mn)||1))*(h-2*pad);
+  const line=(key,color,dash)=>{const seg=pts.map((p,i)=>p[key]!=null?`${xs(i).toFixed(1)},${ys(p[key]).toFixed(1)}`:null).filter(Boolean).join(' ');
+     return seg?`<polyline points="${seg}" fill="none" stroke="${color}" stroke-width="1.6"${dash?` stroke-dasharray="4 3"`:''}/>`:'';};
+  return `<svg viewBox="0 0 ${w} ${h}" width="100%" preserveAspectRatio="none" style="display:block">
+    ${line('m200','#8b98a9',true)}${line('m50','#f5b942',false)}${line('c','#5b9dff',false)}
+  </svg>
+  <div class="mini" style="margin-top:4px"><span style="color:#5b9dff">Price</span><span style="color:#f5b942">50-DMA</span><span style="color:#8b98a9">200-DMA</span></div>`;
+}
+
+async function openStock(ticker){
+  showPillar('markets');
+  CURRENT_TICKER = ticker;
+  const safe = ticker.toUpperCase().replace(/[\/^]/g,'_');
+  const feed=document.getElementById('feed'), panel=document.getElementById('stock');
+  feed.style.display='none'; panel.style.display='block'; window.scrollTo(0,0);
+
+  // 1) Instant: render the last saved analysis (may be hours old — the as-of line says so).
+  let d=null;
+  try{ const r = await fetch(`./stocks/${safe}.json?_=`+Date.now()); if(r.ok) d = await r.json(); }catch(e){}
+  if(CURRENT_TICKER!==ticker) return;
+  if(d) renderStock(d,false);
+  else panel.innerHTML=`<div class="panel-actions"><div class="back" onclick="closeStock()">← Back</div></div>
+       <div class="card">Computing a live analysis for <b>${esc(ticker)}</b>…</div>`;
+
+  // 2) Live: recompute on the local server and swap in the fresh read (silent no-op on GitHub Pages).
+  let fresh=null;
+  try{ const r = await fetch(`/api/analyze?ticker=`+encodeURIComponent(ticker)+`&_=`+Date.now()); if(r.ok) fresh = await r.json(); }catch(_){}
+  if(CURRENT_TICKER!==ticker) return;   // user opened a different stock meanwhile — don't overwrite
+  if(fresh && fresh.ticker){ renderStock(fresh,true); loadStocks(); }
+  else if(!d){
+    panel.innerHTML=`<div class="panel-actions"><div class="back" onclick="closeStock()">← Back</div></div>
+      <div class="card">No data for <b>${esc(ticker)}</b>. ${IS_LOCAL
+        ? 'Check the ticker symbol (e.g. AAPL, TCS.NS, BTC-USD).'
+        : 'This ticker isn\'t pre-computed, and live analysis of new tickers only works on the local dashboard (run <code>python server.py</code> on the Mac). Tracked stocks all work here.'}</div>`;
+  }
+}
+
+function renderStock(d, live){
+  const panel=document.getElementById('stock');
+  const _tk=(d.ticker||'').toUpperCase();
+  const cs=(_tk.startsWith('^')?'':(_tk==='INR=X'?'₹':(d.currency||'$'))), v=d.verdict||{}, a=d.analysis||{}, s=d.signals||{}, t=d.trend||{}, lv=d.levels||{}, rg=d.range_52w||{}, vol=d.volatility||{}, f=d.fundamentals||{};
+  // teach-first: if this ticker maps to a market concept (an index / gold / crude / BTC / USD-INR), explain what it IS
+  const _concept = (typeof conceptForTicker!=='undefined') ? conceptForTicker(d.ticker) : null;
+  const _g = (_concept && typeof GLOSSARY!=='undefined') ? GLOSSARY[_concept] : null;
+  const aboutBlock = _g ? `<div class="about">
+      <div class="ah">About this — what you're actually looking at</div>
+      <div class="aone">${esc(_g.one)}</div>
+      <div class="arow"><b>What it is:</b> ${esc(_g.what)}</div>
+      <div class="arow"><b>How to read it:</b> ${esc(_g.read)}</div>
+      <div class="arow"><b>Why it matters:</b> ${esc(_g.why)}</div>
+      ${_g.scale?`<div class="ascale">${esc(_g.scale)}</div>`:''}
+    </div>` : '';
+  const indTable = arr => (arr||[]).map(i=>{
+    const key = (typeof glossaryKey!=='undefined')?glossaryKey(i.name,i.metric):null;
+    return `<tr><td><div class="lblrow">${esc(i.name)}${ib(key)}</div><div class="muted" style="font-size:11px">${esc(i.note||'')}</div></td>
+      <td class="v">${esc(i.value)}</td><td class="s"><span class="sig ${esc((i.signal||'Neutral').split(' ')[0])}">${esc(i.signal)}</span></td></tr>`;}).join('');
+  const fund = Object.keys(f).length? Object.entries(f).map(([k,val])=>{
+      const nice={marketCap:'Market cap',trailingPE:'P/E (ttm)',forwardPE:'P/E (fwd)',profitMargins:'Margins',revenueGrowth:'Rev growth',dividendYield:'Div yield',beta:'Beta',sector:'Sector',industry:'Industry'}[k]||k;
+      const gk={marketCap:'market_cap',trailingPE:'pe',forwardPE:'forward_pe',profitMargins:'profit_margins',revenueGrowth:'revenue_growth',dividendYield:'dividend_yield',beta:'beta'}[k];
+      let vv=val;
+      if(['profitMargins','revenueGrowth'].includes(k)&&typeof val==='number') vv=(val*100).toFixed(1)+'%';
+      else if(k==='dividendYield'&&typeof val==='number') vv=((val<0.2?val*100:val)).toFixed(1)+'%';   // yfinance: fraction vs percent
+      if(k==='marketCap'&&typeof val==='number') vv=(val>=1e12?(val/1e12).toFixed(2)+'T':(val/1e9).toFixed(1)+'B');
+      if(typeof vv==='number') vv=Number(vv).toFixed(2);
+      return `<div class="kv"><b>${nice}${ib(gk)}:</b> ${esc(vv)}</div>`;}).join('') : '<div class="muted">—</div>';
+
+  // freshness line: exactly when this analysis was computed, amber if it's gone stale
+  const ageH = d.as_of ? (Date.now()-Date.parse(d.as_of))/3.6e6 : null;
+  const asofLine = d.as_of
+    ? `<div class="asof${(ageH!=null&&ageH>6)?' stale':''}" title="${esc(d.as_of)}">Analysis as of ${esc(fmtStamp(d.as_of))} (${esc(relTime(d.as_of))})${live?'<span class="livebadge">live · just recomputed</span>':''}</div>`
+    : '';
+
+  panel.innerHTML = `
+    <div class="panel-actions">
+      <div class="back" onclick="closeStock()">← Back to markets</div>
+      <button class="recompute" onclick="openStock('${esc(d.ticker)}')" title="Fetch fresh prices and recompute every indicator now">↻ Recompute live</button>
+    </div>
+    <div class="card">
+      ${CUR_DAY!=='latest'?`<div class="flip" style="margin:0 0 14px"><div class="fh">Heads up</div>Technical analysis is always live/current — this is not the ${esc(CUR_DAY)} archived snapshot. Switch the date back to Latest for a matching read.</div>`:''}
+      <div class="shead">
+        <div style="flex:1">
+          <div class="big-nm">${esc(d.name)} <span class="big-tk">${esc(d.ticker)}</span></div>
+          <div class="px">${cs}${esc(d.price)} <span class="${cls(d.change_pct)}" style="font-size:15px">${sgn(d.change_pct)}</span></div>
+          ${asofLine}
+        </div>
+        <div style="text-align:right">${chip(v.rating)}<div class="muted" style="font-size:11px;margin-top:6px">technical rating ${ib('verdict')}</div></div>
+      </div>
+      ${aboutBlock}
+      <div class="verdict-summary">${b(v.summary)}</div>
+      ${a.the_read?`<div class="read">${b(a.the_read)}</div>`:''}
+      <div class="bbgrid">
+        <div class="bcase bull"><div class="bh">▲ Bull case — what supports it</div>
+          <ul>${(a.bull_case||[]).map(x=>`<li>${esc(x)}</li>`).join('')||'<li class="muted">No clearly bullish signals right now.</li>'}</ul></div>
+        <div class="bcase bear"><div class="bh">▼ Bear case — the risks</div>
+          <ul>${(a.bear_case||[]).map(x=>`<li>${esc(x)}</li>`).join('')||'<li class="muted">No clearly bearish signals right now.</li>'}</ul></div>
+      </div>
+      <div class="tiles">
+        <div class="tile"><div class="lbl">Moving Averages ${ib('moving_averages_rating')}</div><div style="margin-top:8px">${chip(s.moving_averages?.rating)}</div><div class="cnt">${(s.moving_averages?.buy||0)} bullish · ${(s.moving_averages?.sell||0)} bearish</div></div>
+        <div class="tile"><div class="lbl">Oscillators ${ib('oscillators_rating')}</div><div style="margin-top:8px">${chip(s.oscillators?.rating)}</div><div class="cnt">${(s.oscillators?.buy||0)} buy · ${(s.oscillators?.sell||0)} sell</div></div>
+      </div>
+
+      <div class="grid2">
+        <div>
+          <div class="sec-title" style="margin-top:6px">Price &amp; trend ${ib('moving_average')}</div>
+          ${svgChart(d.history||[])}
+          <div class="kv" style="margin-top:10px"><b>Trend ${ib('trend')}:</b> ${esc(t.direction)} · strength ${esc(t.strength)}${t.adx?` (ADX ${Math.round(t.adx)} ${ib('adx')})`:''}; price is ${esc(t.vs_50dma)} the 50-DMA and ${esc(t.vs_200dma)} the 200-DMA.</div>
+          <div class="sec-title">Key levels ${ib('support_resistance')}</div>
+          <div class="levels"><span class="muted">Support</span><b>${cs}${(lv.support||[]).join(' / '+cs)}</b></div>
+          <div class="levels"><span class="muted">Pivot ${ib('pivot')}</span><b>${cs}${esc(lv.pivot)}</b></div>
+          <div class="levels"><span class="muted">Resistance</span><b>${cs}${(lv.resistance||[]).join(' / '+cs)}</b></div>
+          <div class="sec-title">52-week range ${ib('range_52w')}</div>
+          <div class="levels"><span>${cs}${esc(rg.low)}</span><span class="muted">${Math.round(rg.position_pct||0)}th percentile</span><span>${cs}${esc(rg.high)}</span></div>
+          <div class="bar"><div class="fill" style="left:calc(${Math.max(0,Math.min(100,rg.position_pct||0))}% - 5px)"></div></div>
+          <div class="kv"><b>Volatility ${ib('volatility')}:</b> ${esc(vol.label)}${vol.atr_pct?` (ATR ${vol.atr_pct}% of price)`:''}</div>
+          ${a.what_would_flip?`<div class="flip"><div class="fh">What would change this read</div>${esc(a.what_would_flip)}</div>`:''}
+        </div>
+        <div>
+          <div class="sec-title" style="margin-top:6px">Oscillators <span class="muted" style="font-size:10px;text-transform:none;letter-spacing:0">— tap ⓘ to learn each</span></div>
+          <table class="ind">${indTable(d.indicators?.oscillators)}</table>
+          <div class="sec-title">Moving averages</div>
+          <table class="ind">${indTable(d.indicators?.moving_averages)}</table>
+        </div>
+      </div>
+
+      ${d.whats_new?`<div class="sec-title">What changed</div><div style="font-size:14px">${esc(d.whats_new)}</div>`:''}
+      ${(d.news||[]).length?`<div class="sec-title">Recent news</div>`+(d.news||[]).map(n=>`<div class="kv">• <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.headline)}</a> <span class="muted">${esc(n.source||'')}</span></div>`).join(''):''}
+      <div class="sec-title">Fundamentals <span class="muted" style="font-size:10px;text-transform:none;letter-spacing:0">— tap ⓘ to learn each</span></div>
+      ${a.fundamentals_read?`<div class="read" style="margin:2px 0 12px">${esc(a.fundamentals_read)}</div>`:''}${fund}
+      <div class="disc">${esc(d.disclaimer)}</div>
+    </div>`;
+}
+function closeStock(){ CURRENT_TICKER=null; document.getElementById('stock').style.display='none'; document.getElementById('feed').style.display='block'; }
+
+document.getElementById('searchForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const q=document.getElementById('search').value.trim(); if(!q) return;
+  const hit=INDEX.find(r=>r.ticker.toUpperCase()===q.toUpperCase()) || INDEX.find(r=>(r.name||'').toLowerCase().includes(q.toLowerCase()));
+  openStock(hit?hit.ticker:q);
+});
+
+/* initial load — archive index, today's briefs, the stock verdicts, and the view toggle */
+updateViewBtn();
+loadArchiveIndex();
+loadDay('latest');
+loadStocks();
+
+/* land on the pillar named in the URL hash (default: World) */
+if(location.hash==='#markets') showPillar('markets');
+</script>
+</body>
+</html>

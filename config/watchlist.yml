@@ -1,0 +1,37 @@
+# The broad universe the agent scans each day for the "global moves" + "what to watch".
+# yfinance symbols: US = plain (AAPL), India = .NS / .BO (RELIANCE.NS), indices = ^ (^NSEI),
+# crypto = -USD (BTC-USD), commodities/futures = =F (GC=F). Edit freely.
+
+us_indices:
+  - { ticker: "^GSPC", name: "S&P 500" }
+  - { ticker: "^IXIC", name: "Nasdaq Composite" }
+  - { ticker: "^DJI",  name: "Dow Jones" }
+  - { ticker: "^VIX",  name: "VIX (volatility)" }
+
+us_stocks:
+  - { ticker: "AAPL",  name: "Apple" }
+  - { ticker: "MSFT",  name: "Microsoft" }
+  - { ticker: "NVDA",  name: "Nvidia" }
+  - { ticker: "GOOGL", name: "Alphabet" }
+  - { ticker: "AMZN",  name: "Amazon" }
+  - { ticker: "TSLA",  name: "Tesla" }
+
+india_indices:
+  - { ticker: "^NSEI",   name: "Nifty 50" }
+  - { ticker: "^BSESN",  name: "Sensex" }
+  - { ticker: "^NSEBANK", name: "Bank Nifty" }
+
+india_stocks:
+  - { ticker: "RELIANCE.NS", name: "Reliance Industries" }
+  - { ticker: "TCS.NS",      name: "TCS" }
+  - { ticker: "HDFCBANK.NS",  name: "HDFC Bank" }
+  - { ticker: "INFY.NS",     name: "Infosys" }
+
+crypto:
+  - { ticker: "BTC-USD", name: "Bitcoin",  coingecko: "bitcoin" }
+  - { ticker: "ETH-USD", name: "Ethereum", coingecko: "ethereum" }
+
+commodities:
+  - { ticker: "GC=F", name: "Gold" }
+  - { ticker: "CL=F", name: "Crude Oil (WTI)" }
+  - { ticker: "INR=X", name: "USD/INR" }

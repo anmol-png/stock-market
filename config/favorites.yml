@@ -1,0 +1,14 @@
+# Your favorite stocks — the agent goes DEEP on these every day (news, fundamentals delta,
+# technicals, catalysts, risks) and gives each a dedicated card in the email + dashboard.
+#
+# ticker    : yfinance symbol (US plain, India .NS/.BO, crypto -USD)
+# name      : display name
+# finnhub   : (optional) US symbol for Finnhub company-news (omit for non-US)
+# coingecko : (optional) CoinGecko id for crypto price
+# note      : (optional) your own context — why you care about it
+
+favorites:
+  - { ticker: "AAPL", name: "Apple Inc.", finnhub: "AAPL", note: "core long-term holding" }
+  - { ticker: "NVDA", name: "Nvidia", finnhub: "NVDA", note: "AI cycle bellwether" }
+  - { ticker: "RELIANCE.NS", name: "Reliance Industries", note: "India large-cap" }
+  - { ticker: "BTC-USD", name: "Bitcoin", coingecko: "bitcoin", note: "macro/crypto barometer" }

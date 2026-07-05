@@ -1,0 +1,358 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T07:30:00+05:30",
+  "headline": "A Middle East energy shock and a fresh inflation scare push the Fed toward rate HIKES \u2014 and it reaches all the way to India's pump prices and the rupee.",
+  "the_big_picture": "One thread runs through today: **energy and inflation are back in charge.** War-driven oil disruption in the Middle East, plus Ukrainian strikes crippling Russia's fuel supply, are pushing prices up worldwide. That's reignited inflation (US core prices are rising at their fastest since 2023), forcing central banks to reconsider \u2014 the US Federal Reserve is now expected to *raise* interest rates rather than cut them. Higher rates make borrowing costlier and tend to pressure stocks, bonds, gold and crypto at once. **For India this cuts both ways:** costlier imported oil and a weaker rupee (past 95 per dollar) on one hand, but a home economy running hot (growth just revised up) and a rare round of fuel-price cuts on the other. Add a big US court ruling, an Ebola emergency in Africa, and an AI-hardware land-grab, and that's the world this morning.",
+  "stories": [
+    {
+      "rank": 1,
+      "category": "economy",
+      "regions": [
+        "US",
+        "Global"
+      ],
+      "title": "Inflation reaccelerates and the Fed pivots toward rate HIKES",
+      "background": "For most of 2025, inflation was cooling and central banks were cutting interest rates to support growth. That trend has now reversed. A 'central bank' such as the US Federal Reserve sets the economy's baseline interest rate \u2014 it raises rates to cool inflation and cuts them to boost growth.",
+      "what_happened": "US inflation is climbing again. Consumer prices rose 4.1% in the year to May \u2014 the highest since April 2023 \u2014 and 'core' PCE (the Fed's preferred gauge, which strips out food and energy) hit 3.8%, the hottest since October 2023. With a Middle East conflict spiking energy costs, Bank of America now expects the Federal Reserve to RAISE interest rates three times this year, lifting its benchmark from 3.5\u20133.75% toward 4.25\u20134.5% \u2014 a reversal of the rate cuts markets had been counting on.",
+      "why_it_matters": "The Fed's interest rate is the price of money for the whole economy. When it goes UP, mortgages, loans and corporate borrowing get more expensive, growth slows, and riskier assets (stocks, crypto, gold) usually fall as safer cash and bonds start paying more. Markets spent 2025 betting on cuts; a pivot to hikes upends that bet.",
+      "ripple_effects": "Expect pressure across risk assets globally and a firmer US dollar, which weakens other currencies like the Indian rupee. Rate-sensitive areas \u2014 high-growth tech, real estate, gold, and Bitcoin \u2014 are the most exposed. Emerging markets like India feel it through a weaker currency and foreign-investor outflows.",
+      "why_now": "This is the delayed consequence of the Middle East energy shock feeding into prices, colliding with an economy that never fully cooled. Inflation data is released monthly, and these last two prints broke decisively higher \u2014 too big for the Fed to ignore.",
+      "watch_next": "The Fed's next policy meeting and the following core-PCE release \u2014 any confirmation of hikes would ripple through every market you track.",
+      "key_terms": [
+        {
+          "term": "Core PCE",
+          "definition": "The Federal Reserve's favourite inflation measure \u2014 it tracks what people pay for goods and services excluding volatile food and energy, to reveal the underlying trend."
+        },
+        {
+          "term": "Interest rate",
+          "definition": "The cost of borrowing money; when a central bank raises it, loans and mortgages get pricier and risky investments usually fall."
+        }
+      ],
+      "market_link": "Bearish backdrop for NVDA and growth tech, gold (GC=F) and Bitcoin (BTC-USD); supportive for the US dollar versus the rupee (USD/INR).",
+      "importance": "critical",
+      "sources": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/06/22/fed-rate-hikes-outlook-sticky-inflation-kevin-warsh-job-growth-oil-prices/"
+        },
+        {
+          "name": "Deloitte Insights",
+          "url": "https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook/weekly-update.html"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "category": "geopolitics",
+      "regions": [
+        "Russia",
+        "Ukraine"
+      ],
+      "title": "Ukrainian strikes trigger fuel shortages inside Russia",
+      "background": "Russia invaded Ukraine in 2022. Unable to match Russia's size head-on, Ukraine has increasingly used long-range drones to strike targets deep inside Russia \u2014 especially oil refineries, the plants that turn crude oil into usable fuel like petrol and diesel.",
+      "what_happened": "Ukraine's long-range drone and missile strikes on Russian oil refineries are now causing visible fuel shortages inside Russia. President Putin has publicly acknowledged the problem, and videos show long lines and scuffles breaking out at petrol stations across the country.",
+      "why_it_matters": "Russia is one of the world's largest oil producers, and fuel is the backbone of both its economy and its war machine. Domestic shortages signal the war is reaching ordinary Russians directly \u2014 a shift in the conflict's trajectory \u2014 and any hit to Russian refining tightens global fuel supply.",
+      "ripple_effects": "Reduced Russian refining capacity removes fuel from the world market, adding upward pressure to oil and diesel prices everywhere \u2014 feeding straight into the inflation story above, and into what India (a big oil importer) pays. It also raises the political stakes inside Russia.",
+      "why_now": "Ukraine has spent months methodically targeting Russian energy infrastructure; the cumulative damage has now crossed the threshold where shortages are unavoidable and publicly admitted.",
+      "watch_next": "Whether Russia retaliates with escalated strikes on Ukraine, and how far domestic fuel prices climb.",
+      "key_terms": [
+        {
+          "term": "Refinery",
+          "definition": "A plant that turns crude oil into finished fuels such as petrol, diesel and jet fuel; damaging refineries causes fuel shortages even when crude oil itself is available."
+        }
+      ],
+      "market_link": "Bullish pressure on crude oil (CL=F) and, by extension, inflation and energy-linked equities.",
+      "importance": "critical",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/world/watch-fights-break-out-russian-gas-stations-putin-admits-fuel-shortages"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "category": "geopolitics",
+      "regions": [
+        "Middle East",
+        "US",
+        "Iran"
+      ],
+      "title": "Iran battles to keep control of the Strait of Hormuz",
+      "background": "The Strait of Hormuz is a narrow sea passage between Iran and Oman. About a fifth of the world's oil is shipped through it, making it the most important 'chokepoint' in global energy. Iran sits on its northern shore and has long used the threat of disrupting it as strategic leverage.",
+      "what_happened": "Iran is accused of attacking commercial shipping in the Strait of Hormuz to undermine a new southern shipping corridor being developed by the US and its Gulf ally Oman.",
+      "why_it_matters": "Any threat to shipping through Hormuz sends oil prices sharply higher on fears that supply could be cut \u2014 which is exactly what's fuelling the inflation and central-bank story leading today's brief. It is the world's single biggest energy pressure point.",
+      "ripple_effects": "Higher oil prices raise the cost of everything that moves or is made, worldwide. Shipping insurance and freight costs rise; oil-importing economies \u2014 India chief among them \u2014 are hit hardest through costlier fuel and a weaker currency. It also risks drawing the US and Gulf states deeper into confrontation with Iran.",
+      "why_now": "The US\u2013Oman effort to route oil around Iran's influence directly threatens Tehran's strategic leverage, giving Iran a motive to show it can still disrupt the waterway.",
+      "watch_next": "Any confirmed attack on a tanker, or a US/Gulf naval response \u2014 either would spike oil further.",
+      "key_terms": [
+        {
+          "term": "Chokepoint",
+          "definition": "A narrow, hard-to-avoid passage that a large share of global trade must pass through \u2014 disrupting it can ripple across the whole world economy."
+        }
+      ],
+      "market_link": "Directly bullish for crude oil (CL=F); a major swing factor for oil-importer India and the rupee (USD/INR).",
+      "importance": "critical",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/iran-fights-keep-grip-hormuz-us-gulf-allies-carve-new-shipping-route"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "category": "india",
+      "regions": [
+        "India"
+      ],
+      "title": "India's economy runs hot \u2014 RBI lifts its growth forecast even as the rupee slips",
+      "background": "India is the world's fastest-growing major economy, powered mainly by domestic demand \u2014 its own consumers and government spending \u2014 which makes it more insulated than export-reliant economies. But India imports most of its oil, so global energy prices and the rupee's value matter enormously to it.",
+      "what_happened": "The Reserve Bank of India (RBI, the country's central bank) has raised its growth forecast for the financial year to 6.8% from 6.5%, pointing to strong momentum, healthy rural demand after a good harvest, and the boost from 'GST 2.0' \u2014 a simplification of India's national sales tax that has cut prices on many goods. At the same time, the rupee has weakened past 95 to the US dollar.",
+      "why_it_matters": "Faster growth alongside easing domestic prices is a rare good-news combination \u2014 it supports jobs, company profits and the stock market. But a weak rupee makes imports (especially oil) costlier and can push prices back up, partly offsetting the benefit.",
+      "ripple_effects": "A stronger growth outlook supports Indian shares (the Nifty and Sensex) and encourages investment. A weaker rupee hurts import-heavy businesses and anyone with dollar costs, but it helps exporters like IT firms whose revenue is earned in dollars. The RBI is intervening to steady the currency, spending part of its foreign reserves to do so.",
+      "why_now": "The upgrade follows a run of strong data and the GST reform taking effect, even as global rate pressures and foreign-investor outflows weigh on the rupee.",
+      "watch_next": "The RBI's next interest-rate decision, whether the rupee stabilises below 95, and the strength of the monsoon (which drives rural spending).",
+      "key_terms": [
+        {
+          "term": "RBI",
+          "definition": "The Reserve Bank of India \u2014 the country's central bank, which sets interest rates and manages the rupee."
+        },
+        {
+          "term": "GST",
+          "definition": "India's Goods and Services Tax, a single nationwide sales tax; 'GST 2.0' simplified its rates and lowered the cost of many everyday goods."
+        },
+        {
+          "term": "Foreign reserves",
+          "definition": "A country's stockpile of foreign currencies (mostly US dollars), used partly to defend its own currency's value."
+        }
+      ],
+      "market_link": "Supportive for Nifty 50, Sensex and Bank Nifty; a weak rupee (USD/INR ~95) pressures importers but cushions IT exporters like TCS and Infosys.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "Goldman Sachs",
+          "url": "https://www.goldmansachs.com/insights/articles/the-outlook-for-indias-economy-in-2026-amid-new-us-tradedeal"
+        },
+        {
+          "name": "Press Information Bureau",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2195990&reg=3&lang=1"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "category": "india",
+      "regions": [
+        "India"
+      ],
+      "title": "Rare fuel-price relief in India \u2014 but only from a private retailer",
+      "background": "Fuel prices are politically charged in India, where most people feel every rupee change at the pump. Government-owned oil companies \u2014 Indian Oil, BPCL and HPCL \u2014 run more than 90% of India's petrol stations and have frozen retail prices for over two years. Private retailers are a small minority of the market.",
+      "what_happened": "From July 1, Nayara Energy \u2014 India's largest PRIVATE fuel retailer \u2014 cut petrol by \u20b95 and diesel by \u20b93 a litre, the first retail fuel-price cut by any Indian company in more than two years. Commercial cooking-gas (19kg LPG) cylinders fell about \u20b9183 (to \u20b92,930 in Delhi) and jet fuel (ATF) dropped \u20b95 a litre. But the state-owned giants that dominate the market left pump prices unchanged, and household (14.2kg) cooking-gas prices were untouched.",
+      "why_it_matters": "Cheaper commercial LPG and jet fuel lower costs for restaurants, businesses and airlines, which can ease broader inflation. But because the state oil majors didn't budge, most ordinary drivers see no change \u2014 so the relief is real but limited, and it underlines how much India's fuel prices are managed rather than purely market-set.",
+      "ripple_effects": "Lower input costs help airlines and hospitality margins; a private retailer breaking ranks pressures the state firms to eventually follow. If the PSUs cut too, it would be a genuine tailwind for household budgets and for bringing inflation down.",
+      "why_now": "Global crude has softened lately, opening room to pass on savings; the private cut may also be a competitive move to win market share while the state firms hold.",
+      "watch_next": "Whether Indian Oil, BPCL and HPCL follow with their own cuts \u2014 that is what would actually reach most consumers.",
+      "key_terms": [
+        {
+          "term": "PSU",
+          "definition": "Public Sector Undertaking \u2014 a government-owned company; in fuel, PSUs like Indian Oil control most of India's petrol stations."
+        },
+        {
+          "term": "ATF",
+          "definition": "Aviation Turbine Fuel \u2014 jet fuel; a major airline cost, so its price feeds into ticket prices."
+        }
+      ],
+      "market_link": "Positive for Indian aviation and consumer names; watch the state oil marketers (IOC, BPCL, HPCL) and Reliance, which also runs fuel retail.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/india/story/commercial-lpg-petrol-diesel-atf-cheaper-from-july-1-fuel-prices-fall-across-sectors-540192-2026-07-01"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "category": "geopolitics",
+      "regions": [
+        "US"
+      ],
+      "title": "US Supreme Court rejects Trump's bid to end birthright citizenship",
+      "background": "Birthright citizenship \u2014 the rule that almost anyone born on US soil is automatically a citizen \u2014 comes from the 14th Amendment to the US Constitution, adopted in 1868. President Trump had sought to end it by executive order as part of a tougher immigration stance, setting up a constitutional showdown.",
+      "what_happened": "The US Supreme Court rejected President Trump's attempt to end birthright citizenship, preserving the long-standing guarantee that most children born on US soil are automatically citizens. It's a significant legal defeat for a central plank of his immigration agenda.",
+      "why_it_matters": "Birthright citizenship has been settled US law for over 150 years. The ruling reaffirms constitutional limits on presidential power over immigration and sets the tone for how far the administration's agenda can go through the courts.",
+      "ripple_effects": "It removes a source of legal uncertainty for millions of families and businesses, and signals that sweeping immigration changes will face firm judicial resistance \u2014 shaping the political battles ahead of the US midterm elections.",
+      "why_now": "The case reached the Supreme Court after lower courts blocked the policy; the justices have now delivered the definitive word.",
+      "watch_next": "How the administration redirects its immigration strategy in response.",
+      "key_terms": [
+        {
+          "term": "Executive order",
+          "definition": "A directive from the US president that carries legal force but cannot override the Constitution or laws passed by Congress."
+        },
+        {
+          "term": "14th Amendment",
+          "definition": "An 1868 addition to the US Constitution that guarantees citizenship to nearly everyone born or naturalized in the United States."
+        }
+      ],
+      "market_link": null,
+      "importance": "high",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-suffers-major-supreme-court-defeat-justices-uphold-birthright-citizenship"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "category": "india",
+      "regions": [
+        "India",
+        "US"
+      ],
+      "title": "India and US race for an interim trade deal before July 24",
+      "background": "The United States is one of India's biggest export markets. Washington has been reshaping its tariff (import-tax) rules worldwide, and Indian goods risk higher tariffs unless a new deal is struck \u2014 so both sides are negotiating hard against a deadline.",
+      "what_happened": "India and the US have begun high-level talks to reshape their trade relationship amid changing US tariff rules, aiming for an interim deal before a July 24 deadline. Alongside this, India's business activity stayed strong but cooled slightly \u2014 the HSBC Flash India Composite PMI slipped to 57.4 in June from 59.3 in May (any reading above 50 still signals growth).",
+      "why_it_matters": "A favourable deal protects Indian exporters \u2014 IT, pharma, autos, textiles \u2014 from tariff hikes that would make their goods pricier and less competitive in America; a breakdown could raise costs for major sectors. The slight PMI dip shows an economy still expanding but at a marginally slower pace.",
+      "ripple_effects": "A deal would lift sentiment for Indian exporters and the rupee; a breakdown would pressure them. It also shapes the broader India\u2013US strategic relationship at a tense global moment.",
+      "why_now": "The July 24 deadline on US tariff rules is forcing both sides to negotiate quickly for at least a stopgap agreement.",
+      "watch_next": "Whether an interim deal lands before July 24 \u2014 the key catalyst for Indian equities and the rupee this month.",
+      "key_terms": [
+        {
+          "term": "Tariff",
+          "definition": "A tax a country charges on imported goods; higher US tariffs make Indian exports pricier and less competitive in America."
+        },
+        {
+          "term": "PMI",
+          "definition": "Purchasing Managers' Index \u2014 a monthly survey of businesses; above 50 means activity is expanding, below 50 means it's shrinking."
+        }
+      ],
+      "market_link": "Matters for RELIANCE.NS, Indian IT names, the Nifty/Sensex and USD/INR.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/economy"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "category": "health",
+      "regions": [
+        "Democratic Republic of Congo",
+        "Africa"
+      ],
+      "title": "Ebola outbreak in DR Congo passes 300 deaths",
+      "background": "Ebola is a severe, often-fatal virus first identified in 1976 near the Ebola River in what is now the Democratic Republic of Congo (DRC). The DRC has faced repeated outbreaks; the virus spreads through direct contact with the bodily fluids of infected people or animals.",
+      "what_happened": "The current Ebola outbreak in the DRC has now killed more than 300 people, putting it on track to be one of the deadliest Ebola episodes in recent history.",
+      "why_it_matters": "Beyond the human tragedy, large Ebola outbreaks strain fragile health systems and carry the risk \u2014 however contained so far \u2014 of spreading across borders. Early, well-resourced response is what keeps such outbreaks from becoming regional crises.",
+      "ripple_effects": "Neighbouring countries tighten border health screening; aid agencies and the World Health Organization redirect resources and vaccines to the region. Regional trade and travel can be disrupted if the outbreak widens.",
+      "why_now": "Outbreaks flare when the virus jumps from an animal reservoir into humans and then spreads faster than containment teams can trace contacts; the death toll crossing 300 marks a dangerous escalation.",
+      "watch_next": "Whether vaccination and contact-tracing bring new case counts down, and any spread beyond the current zone.",
+      "key_terms": [
+        {
+          "term": "Contact tracing",
+          "definition": "Finding and monitoring everyone an infected person met, to catch new cases early and break the chain of transmission."
+        }
+      ],
+      "market_link": null,
+      "importance": "high",
+      "sources": [
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/sections/news/"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "category": "technology",
+      "regions": [
+        "US",
+        "South Korea"
+      ],
+      "title": "NVIDIA and SK hynix deepen the AI-memory alliance",
+      "background": "Modern AI is trained and run on specialized chips. NVIDIA makes the dominant AI processors (GPUs), but those chips need vast amounts of ultra-fast 'memory' to feed them data. South Korea's SK hynix is one of only a handful of firms that make this advanced memory.",
+      "what_happened": "NVIDIA and SK hynix announced a multiyear partnership to co-develop next-generation memory chips aligned with NVIDIA's AI roadmap. SK hynix will also use NVIDIA's tools to speed up chip design and build 'digital twins' (virtual simulations) of its factories. Separately, South Korea's NAVER said it will expand its 'sovereign AI' infrastructure on NVIDIA's platform.",
+      "why_it_matters": "Modern AI runs on a tight stack of GPUs plus ultra-fast memory. Locking in memory supply is as strategic as the chips themselves \u2014 it entrenches NVIDIA's dominance of the AI hardware that virtually every big tech company now depends on.",
+      "ripple_effects": "Reinforces the concentration of AI power around NVIDIA and its key suppliers; strengthens South Korea's grip on the world's advanced-memory supply. 'Sovereign AI' \u2014 countries building their own AI capacity \u2014 becomes a bigger driver of chip demand, a trend India is pursuing too.",
+      "why_now": "Demand for AI computing keeps outstripping supply, so chipmakers are racing to secure the memory and manufacturing capacity needed for the next generation of models.",
+      "watch_next": "Whether rival memory makers strike similar deals, and how 'sovereign AI' spending scales globally.",
+      "key_terms": [
+        {
+          "term": "GPU",
+          "definition": "Graphics Processing Unit \u2014 a chip originally built for video games, now the workhorse for training and running AI models."
+        },
+        {
+          "term": "Sovereign AI",
+          "definition": "A country building and controlling its own AI systems and computing infrastructure rather than relying on foreign providers."
+        }
+      ],
+      "market_link": "Directly relevant to NVDA \u2014 supply-chain strength supports the long-term AI thesis even while higher rates pressure the stock short-term.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "AI News",
+          "url": "https://www.artificialintelligence-news.com/"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "category": "science",
+      "regions": [
+        "US"
+      ],
+      "title": "AI discovers rare-earth-free magnets \u2014 a supply-chain breakthrough",
+      "background": "Permanent magnets are essential to electric-vehicle motors, wind turbines and weapons systems. The strongest ones rely on 'rare-earth' elements, whose mining and refining is dominated by China \u2014 giving Beijing strategic leverage over global supply chains.",
+      "what_happened": "Scientists at the US Ames Laboratory used a physics-trained AI model called 'DuctGPT' to design powerful permanent magnets that don't rely on rare-earth elements. Separately, University of Pennsylvania researchers created a hybrid light-matter particle that could make AI computing far faster while using much less energy.",
+      "why_it_matters": "Rare-earth elements are a geopolitical pressure point because China controls most of the supply. AI that can invent viable alternatives \u2014 while accounting for cost and sourcing \u2014 could loosen that chokehold. Faster, lower-energy AI chips address the industry's biggest constraint: power.",
+      "ripple_effects": "If commercialised, rare-earth-free magnets would reshape supply chains for EVs, renewables and defence, and reduce reliance on Chinese exports. It's also a marker of AI shifting from answering questions to actively discovering new materials and science.",
+      "why_now": "AI models have become capable enough to reason about physics and manufacturing constraints, turning them into genuine research tools rather than just chatbots.",
+      "watch_next": "Whether these lab results scale to real-world production.",
+      "key_terms": [
+        {
+          "term": "Rare-earth elements",
+          "definition": "A group of 17 metals critical for high-tech and defence manufacturing; not actually rare, but hard to mine and refine, and largely controlled by China."
+        }
+      ],
+      "market_link": null,
+      "importance": "notable",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+        }
+      ]
+    }
+  ],
+  "also_notable": [
+    {
+      "title": "US Supreme Court upholds state laws requiring school athletes to compete by biological sex",
+      "why": "A 6-3 ruling with national implications for school sports policy.",
+      "source": {
+        "name": "Fox News",
+        "url": "https://www.foxnews.com/sports/supreme-court-makes-ruling-trans-athletes-womens-sports"
+      }
+    },
+    {
+      "title": "Supreme Court strikes down limits on political party spending",
+      "why": "Loosens post-Watergate campaign-finance rules ahead of the US midterms.",
+      "source": {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/06/30/nx-s1-5827039/supreme-court-campaign-finance"
+      }
+    },
+    {
+      "title": "Pakistan says it intercepted four drones fired from Afghanistan",
+      "why": "Fresh friction on a volatile border in India's neighbourhood, worth watching.",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/7/1/pakistan-says-it-intercepted-four-drones-fired-from-afghanistan"
+      }
+    }
+  ],
+  "disclaimer": "Decoded from public reporting for general understanding. Details evolve \u2014 verify before relying on any single claim. This is not financial advice."
+}

@@ -1,0 +1,230 @@
+#!/usr/bin/env python3
+"""Pull broad WORLD news (not just markets) for the daily decoded brief.
+
+This is the raw-material gatherer for the World pillar. It casts a wide net across
+categories — geopolitics, economy/business, technology, science, health, climate/energy,
+and India — using free RSS feeds (no API key), plus a best-effort GDELT pull for a global
+pulse. The analyst (Claude, on your subscription) then reads this, cross-checks with
+WebSearch, and writes the DECODED brief (what happened / why it matters / ripple effects /
+why you're seeing it) to output/world-latest.json.
+
+Writes:
+    output/world-raw-<YYYY-MM-DD>.json   (dated archive)
+    output/world-raw-latest.json         (what the analyst reads)
+
+Everything here is free. Run:  python fetch_world.py
+"""
+from __future__ import annotations
+
+import datetime as dt
+import json
+import pathlib
+import sys
+
+import requests
+
+try:
+    import feedparser
+except ImportError:
+    feedparser = None
+
+ROOT = pathlib.Path(__file__).resolve().parent
+OUT = ROOT / "output"
+OUT.mkdir(exist_ok=True)
+
+HTTP_TIMEOUT = 20
+
+# Broad, reputable, free RSS across everything you "shouldn't miss".
+# (category, source, url). Edit freely — breadth is the point.
+WORLD_FEEDS = [
+    # --- Geopolitics / world ---
+    ("geopolitics", "BBC World", "http://feeds.bbci.co.uk/news/world/rss.xml"),
+    ("geopolitics", "Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml"),
+    ("geopolitics", "Guardian World", "https://www.theguardian.com/world/rss"),
+    ("geopolitics", "NPR World", "https://feeds.npr.org/1004/rss.xml"),
+    # --- Economy / business / markets-adjacent ---
+    ("economy", "BBC Business", "http://feeds.bbci.co.uk/news/business/rss.xml"),
+    ("economy", "Guardian Business", "https://www.theguardian.com/uk/business/rss"),
+    ("economy", "CNBC Economy", "https://www.cnbc.com/id/20910258/device/rss/rss.html"),
+    # --- Technology / AI ---
+    ("technology", "BBC Technology", "http://feeds.bbci.co.uk/news/technology/rss.xml"),
+    ("technology", "Ars Technica", "http://feeds.arstechnica.com/arstechnica/index"),
+    ("technology", "The Verge", "https://www.theverge.com/rss/index.xml"),
+    # --- Science ---
+    ("science", "BBC Science & Environment", "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml"),
+    ("science", "ScienceDaily", "https://www.sciencedaily.com/rss/top/science.xml"),
+    # --- Health ---
+    ("health", "BBC Health", "http://feeds.bbci.co.uk/news/health/rss.xml"),
+    # --- Climate / energy ---
+    ("climate", "Guardian Environment", "https://www.theguardian.com/environment/rss"),
+    # --- India (national + business + world-view — the user lives here, so we cast a WIDE net) ---
+    ("india", "The Hindu National", "https://www.thehindu.com/news/national/feeder/default.rss"),
+    ("india", "The Hindu Business", "https://www.thehindu.com/business/feeder/default.rss"),
+    ("india", "Times of India Top", "https://timesofindia.indiatimes.com/rssfeedstopstories.cms"),
+    ("india", "NDTV Top Stories", "https://feeds.feedburner.com/ndtvnews-top-stories"),
+    ("india", "Indian Express", "https://indianexpress.com/feed/"),
+    ("india", "Livemint", "https://www.livemint.com/rss/news"),
+    ("india", "Business Standard", "https://www.business-standard.com/rss/home_page_top_stories.rss"),
+    ("india", "The Hindu Economy", "https://www.thehindu.com/business/Economy/feeder/default.rss"),
+    ("india", "Livemint Markets", "https://www.livemint.com/rss/markets"),
+    # --- Primary sources: the policy-makers themselves (press releases, no middleman) ---
+    ("india", "RBI Press", "https://www.rbi.org.in/pressreleases_rss.xml"),
+    ("india", "PIB (Govt of India)", "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"),
+    ("economy", "US Fed Press", "https://www.federalreserve.gov/feeds/press_all.xml"),
+    ("economy", "ECB Press", "https://www.ecb.europa.eu/rss/press.html"),
+    # --- Wire copy + tech pulse ---
+    ("geopolitics", "Reuters (via Google News)",
+     "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en"),
+    ("technology", "Hacker News", "https://news.ycombinator.com/rss"),
+]
+
+# GDELT: a global pulse of what the world's press is covering most right now.
+# Best-effort; skipped silently if unavailable. A broad importance query keeps it general.
+GDELT_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
+GDELT_QUERY = (
+    '(crisis OR election OR war OR ceasefire OR "central bank" OR sanctions OR '
+    'breakthrough OR summit OR outbreak OR tariffs) sourcelang:english'
+)
+
+
+def rss_world(per_feed: int = 8) -> list[dict]:
+    if feedparser is None:
+        print("  ! feedparser not installed; skipping RSS", file=sys.stderr)
+        return []
+    items = []
+    for category, source, url in WORLD_FEEDS:
+        try:
+            # A browser-ish agent matters: some official feeds (PIB, RBI) reject the default one.
+            feed = feedparser.parse(url, agent="Mozilla/5.0")
+            for entry in feed.entries[:per_feed]:
+                summary = entry.get("summary", "") or entry.get("description", "")
+                published = entry.get("published", entry.get("updated", ""))
+                items.append({
+                    "category": category,
+                    "source": source,
+                    "headline": entry.get("title"),
+                    "url": entry.get("link"),
+                    "summary": _clean(summary)[:400],
+                    "published": published,
+                    "published_iso": _parse_published(published),
+                })
+        except Exception as e:  # noqa: BLE001 - never let one feed break the run
+            print(f"  ! rss {source} failed: {e}", file=sys.stderr)
+    return items
+
+
+def gdelt_pulse(maxrecords: int = 40) -> list[dict]:
+    try:
+        r = requests.get(
+            GDELT_URL,
+            params={"query": GDELT_QUERY, "mode": "ArtList", "maxrecords": maxrecords,
+                    "sort": "HybridRel", "timespan": "1d", "format": "json"},
+            timeout=HTTP_TIMEOUT,
+            headers={"User-Agent": "stock-market-world-brief/1.0"},
+        )
+        if r.status_code != 200:
+            print(f"  ! gdelt -> HTTP {r.status_code}", file=sys.stderr)
+            return []
+        arts = (r.json() or {}).get("articles", []) or []
+        return [
+            {"category": "gdelt", "source": a.get("domain"), "headline": a.get("title"),
+             "url": a.get("url"), "published": a.get("seendate", ""),
+             "published_iso": _parse_published(a.get("seendate", "")),
+             "country": a.get("sourcecountry", "")}
+            for a in arts
+        ]
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! gdelt failed: {e}", file=sys.stderr)
+        return []
+
+
+def _clean(text: str) -> str:
+    """Strip HTML tags/entities that RSS summaries often carry."""
+    import re
+    import html as _html
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    text = _html.unescape(text)
+    return " ".join(text.split())
+
+
+def _parse_published(raw: str) -> str | None:
+    """Normalize the wild mix of feed timestamps to UTC ISO-8601 (or None).
+
+    Real formats seen in the data: RFC-2822 ("Wed, 01 Jul 2026 07:30:53 GMT",
+    "... -0400", "... EDT"), ISO ("2026-06-30T14:14:05-04:00"), and GDELT's
+    compact "20260701T093000Z". Naive results are assumed UTC.
+    """
+    if not raw:
+        return None
+    raw = raw.strip()
+    parsed = None
+    try:
+        from email.utils import parsedate_to_datetime
+        parsed = parsedate_to_datetime(raw)
+    except Exception:  # noqa: BLE001
+        pass
+    if parsed is None:
+        try:
+            parsed = dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except Exception:  # noqa: BLE001
+            pass
+    if parsed is None:
+        try:
+            parsed = dt.datetime.strptime(raw, "%Y%m%dT%H%M%SZ").replace(tzinfo=dt.timezone.utc)
+        except Exception:  # noqa: BLE001
+            return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=dt.timezone.utc)
+    return parsed.astimezone(dt.timezone.utc).isoformat(timespec="seconds")
+
+
+def _dedupe(items: list[dict]) -> list[dict]:
+    seen, out = set(), []
+    for it in items:
+        key = (it.get("headline") or "").strip().lower()
+        if key and key not in seen:
+            seen.add(key)
+            out.append(it)
+    return out
+
+
+def main() -> None:
+    # Compute per-run (NOT at import) so a long-lived server can call main() days later.
+    today = dt.date.today()
+    now_iso = dt.datetime.now().astimezone().isoformat(timespec="seconds")
+
+    print("Fetching world news (free RSS across all categories)...")
+    rss = _dedupe(rss_world())
+    by_cat: dict[str, list] = {}
+    for it in rss:
+        by_cat.setdefault(it["category"], []).append(it)
+
+    print("Fetching GDELT global pulse (best-effort)...")
+    gdelt = _dedupe(gdelt_pulse())
+
+    raw = {
+        "date": today.isoformat(),
+        "as_of": now_iso,
+        "by_category": by_cat,
+        "all_headlines": rss,
+        "gdelt_pulse": gdelt,
+        "sources": {
+            "rss_feeds": [{"category": c, "source": s} for c, s, _ in WORLD_FEEDS],
+            "gdelt": bool(gdelt),
+        },
+        "note": "Raw material. The analyst decodes the most important of these into output/world-latest.json.",
+    }
+
+    dated = OUT / f"world-raw-{today.isoformat()}.json"
+    latest = OUT / "world-raw-latest.json"
+    for path in (dated, latest):
+        with open(path, "w") as f:
+            json.dump(raw, f, indent=2, default=str)
+
+    cats = ", ".join(f"{c}:{len(v)}" for c, v in by_cat.items())
+    print(f"Done. {len(rss)} headlines ({cats}); {len(gdelt)} GDELT items.")
+    print(f"Wrote {latest.relative_to(ROOT)} (and dated copy).")
+
+
+if __name__ == "__main__":
+    main()
