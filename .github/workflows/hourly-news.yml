@@ -1,0 +1,40 @@
+name: Hourly latest news
+
+# Free, cloud-side refresh of the raw headlines feed (RSS only — no AI, no Mac needed).
+# Runs about every hour and commits dashboard/headlines.json so the phone always sees fresh news.
+on:
+  schedule:
+    - cron: "0 * * * *"      # top of every hour (GitHub may lag a few minutes under load)
+  workflow_dispatch: {}       # manual / phone-triggerable run
+
+concurrency:
+  group: hourly-news
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install feed deps
+        run: pip install --quiet feedparser requests
+      - name: Pull latest headlines
+        run: python -c "import fetch_world, build_dashboard as b; fetch_world.main(); b.build_headlines()"
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dashboard/headlines.json
+          if git diff --cached --quiet; then
+            echo "no headline changes"
+          else
+            git commit -m "hourly: refresh latest headlines"
+            git pull --rebase --autostash origin main || true
+            git push origin main
+          fi

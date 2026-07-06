@@ -75,7 +75,16 @@ WORLD_FEEDS = [
     # --- Wire copy + tech pulse ---
     ("geopolitics", "Reuters (via Google News)",
      "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en"),
+    ("geopolitics", "AP (via Google News)",
+     "https://news.google.com/rss/search?q=site:apnews.com&hl=en-US&gl=US&ceid=US:en"),
+    ("geopolitics", "NYT World", "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"),
     ("technology", "Hacker News", "https://news.ycombinator.com/rss"),
+    ("technology", "Guardian Technology", "https://www.theguardian.com/technology/rss"),
+    # --- More India depth (national + economy + markets) ---
+    ("india", "Reuters India (via Google News)",
+     "https://news.google.com/rss/search?q=site:reuters.com+india&hl=en-IN&gl=IN&ceid=IN:en"),
+    ("india", "Livemint Economy", "https://www.livemint.com/rss/economy"),
+    ("india", "ET Markets", "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"),
 ]
 
 # GDELT: a global pulse of what the world's press is covering most right now.

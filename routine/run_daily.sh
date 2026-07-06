@@ -70,8 +70,9 @@ if [ -d .git ] && git remote get-url origin >/dev/null 2>&1; then
   if git diff --cached --quiet; then
     echo "nothing new to publish"
   else
-    git commit -m "daily: $TODAY" >/dev/null \
-      && git push origin main \
+    git commit -m "daily: $TODAY" >/dev/null
+    git pull --rebase --autostash origin main >/dev/null 2>&1 || true   # avoid clobbering the hourly cloud job
+    git push origin main \
       && echo "published to GitHub Pages" \
       || echo "WARN: git publish failed (self-retries on the next daily run)"
   fi

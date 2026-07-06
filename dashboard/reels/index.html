@@ -51,15 +51,28 @@
   #progress{position:fixed;top:calc(env(safe-area-inset-top) + 6px);left:10px;right:10px;z-index:31;display:flex;gap:3px}
   #progress i{flex:1;height:3px;border-radius:2px;background:#2a3546;transition:background .2s}
   #progress i.done{background:var(--dim)} #progress i.on{background:var(--accent)}
-  #hdr{position:fixed;top:calc(env(safe-area-inset-top) + 14px);left:12px;right:12px;z-index:30;
-    display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:11.5px;color:var(--dim)}
+  #hdr{position:fixed;top:calc(env(safe-area-inset-top) + 13px);left:12px;right:12px;z-index:30;
+    display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:11.5px;color:var(--dim)}
   #hdr .stale{color:var(--amber)}
-  #hdr a.dash{color:var(--dim);border:1px solid var(--line);border-radius:99px;padding:6px 11px;background:rgba(11,15,23,.55);font-weight:600}
-  /* World / Markets segmented toggle — the two pillars, cleanly separated */
-  #tabs{display:inline-flex;background:var(--panel2);border:1px solid var(--line);border-radius:99px;padding:3px;gap:2px}
-  #tabs button{font-family:var(--round);font-size:13px;font-weight:700;color:var(--dim);cursor:pointer;
-    border:none;background:none;border-radius:99px;padding:7px 14px;min-height:34px;display:inline-flex;align-items:center;gap:5px}
+  .hdr-actions{display:flex;gap:6px;flex:0 0 auto}
+  #hdr .dash,#refresh{color:var(--dim);border:1px solid var(--line);border-radius:99px;background:rgba(11,15,23,.55);
+    font-weight:700;width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;font-size:15px;cursor:pointer}
+  #refresh.spin{animation:spin .7s linear infinite;color:var(--accent)}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  /* Global / India / Markets segmented toggle */
+  #tabs{display:inline-flex;background:var(--panel2);border:1px solid var(--line);border-radius:99px;padding:3px;gap:2px;min-width:0}
+  #tabs button{font-family:var(--round);font-size:12.5px;font-weight:700;color:var(--dim);cursor:pointer;
+    border:none;background:none;border-radius:99px;padding:7px 11px;min-height:34px;display:inline-flex;align-items:center;gap:4px;white-space:nowrap}
   #tabs button.on{color:#fff;background:linear-gradient(135deg, var(--tabcat,var(--accent)), color-mix(in srgb, var(--tabcat,var(--accent)) 62%, #000))}
+
+  /* latest-headlines card (hourly feed) */
+  .hcard{justify-content:flex-start}
+  .hlist{display:flex;flex-direction:column;gap:2px}
+  .hrow{display:block;padding:12px 2px;border-bottom:1px solid var(--line);text-decoration:none}
+  .hrow:last-child{border-bottom:none}
+  .hrow .ht{font-size:15.5px;line-height:1.4;font-weight:600;color:var(--txt)}
+  .hrow .hm{font-size:11.5px;color:var(--dim);margin-top:4px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+  .hrow .hb{color:var(--cat,var(--accent));font-weight:700}
 
   /* cover / divider centered */
   .cover,.divider{text-align:center}
@@ -183,10 +196,14 @@
 <div id="progress"></div>
 <div id="hdr">
   <div id="tabs">
-    <button data-p="world" onclick="setPillar('world')">🌍 World</button>
+    <button data-p="global" onclick="setPillar('global')">🌍 Global</button>
+    <button data-p="india" onclick="setPillar('india')">🇮🇳 India</button>
     <button data-p="markets" onclick="setPillar('markets')">📈 Markets</button>
   </div>
-  <a class="dash" href="../">Dashboard →</a>
+  <div class="hdr-actions">
+    <button id="refresh" title="Get the latest news" onclick="refreshNow(this)">↻</button>
+    <a class="dash" href="../" title="Full dashboard">⧉</a>
+  </div>
 </div>
 <div id="deck"></div>
 <div id="empty"><div><div style="font-size:40px">📭</div>No deck yet for today.<br>Run the daily pipeline, then reload.</div></div>
@@ -222,7 +239,7 @@ const todayLocal = () => new Date().toLocaleDateString('en-CA');
 // highlight standalone money/percent figures — runs AFTER esc(), so it's injection-safe
 const hl = s => esc(s).replace(/([₹$€£]\s?\d[\d,]*\.?\d*|\b\d+(?:\.\d+)?%)/g, '<mark>$1</mark>');
 
-let DECK = null;
+let DECK = null, HEADLINES = null;
 
 /* ---------- renderers: each card type ---------- */
 function catStyle(cat){ return `--cat:var(--${CAT[cat]?cat:'markets'})`; }
@@ -333,28 +350,69 @@ const R = {
 };
 
 /* ---------- reel assembly + Stories-style progress ---------- */
-const EXTRA = {cover:'cover', divider:'divider'};   // extra class on top of .card
+const EXTRA = {cover:'cover', divider:'divider', hcard:'hcard'};   // extra class on top of .card
 const cardCat = c => c.category || ({concept:'learn', quiz:'learn'})[c.type] || 'markets';
-// which pillar each card belongs to — the two decks are shown separately via the top toggle
-const PILLAR = {cover:'world', story:'world', quiz:'world', outro:'world',
-  divider:'markets', market_story:'markets', board:'markets', watch:'markets', favorite:'markets', concept:'markets'};
-let PILLARSEL = 'world';
+const TAB_CAT = {global:'geopolitics', india:'india', markets:'markets'};
+// which of the three tabs a card belongs to — India stories split out by category
+function pillarOf(c){
+  if(c.type==='story') return c.category==='india' ? 'india' : 'global';
+  return ({cover:'global', quiz:'global', outro:'global',
+    divider:'markets', market_story:'markets', board:'markets', watch:'markets',
+    favorite:'markets', concept:'markets'})[c.type] || 'global';
+}
+let PILLARSEL = 'global';
 
 function setPillar(p){
   if(!DECK) return;
   PILLARSEL = p;
   document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on', b.dataset.p===p));
-  document.getElementById('tabs').style.setProperty('--tabcat', `var(--${p==='world'?'geopolitics':'markets'})`);
+  document.getElementById('tabs').style.setProperty('--tabcat', `var(--${TAB_CAT[p]})`);
   render();
   document.getElementById('deck').scrollTo(0,0);
 }
 
+// build the "Latest headlines" cards for a region from the hourly headlines feed
+const HL_PER_CARD = 8, HL_MAX_CARDS = 4;
+function headlineCards(region){
+  if(!HEADLINES || !(HEADLINES.headlines||[]).length) return [];
+  const items = HEADLINES.headlines.filter(x => (x.category==='india') === (region==='india'));
+  if(!items.length) return [];
+  const chunks = [];
+  for(let i=0;i<items.length && chunks.length<HL_MAX_CARDS;i+=HL_PER_CARD) chunks.push(items.slice(i,i+HL_PER_CARD));
+  const label = region==='india' ? 'India' : 'Global';
+  const upd = HEADLINES.as_of ? `updated ${relTime(HEADLINES.as_of)}` : '';
+  return chunks.map((rows,idx)=>({ __html:`
+    <div class="meta">${catChip(region==='india'?'india':'geopolitics')}<span>📰 Latest headlines — ${label}</span>${idx===0&&upd?`<span style="color:var(--dim)">· ${esc(upd)}</span>`:''}</div>
+    <div class="hlist">${rows.map(x=>{
+      const meta = CAT[x.category]||{lbl:x.category||'news',emoji:'•'};
+      return `<a class="hrow" href="${esc(x.url)}" target="_blank" rel="noopener">
+        <div class="ht">${esc(x.headline)}</div>
+        <div class="hm"><span class="hb">${meta.emoji} ${esc(meta.lbl)}</span>${esc(x.source||'')} · ${esc(relTime(x.published_iso))}</div></a>`;
+    }).join('')}</div>
+    ${idx===chunks.length-1?`<a class="expand" style="text-decoration:none;background:none;border:1px solid var(--line);color:var(--dim);box-shadow:none" href="../#world">See all headlines on the dashboard <span class="ar">→</span></a>`:'<div class="scrollcue">more latest ↑</div>'}`,
+    cat: region==='india'?'india':'geopolitics' }));
+}
+
 function render(){
   const deck = document.getElementById('deck');
-  const cards = DECK.cards.filter(c => PILLAR[c.type]===PILLARSEL);
-  deck.innerHTML = cards.map((c,i)=>
-    `<section class="card ${EXTRA[c.type]||''}" data-i="${i}" style="${catStyle(cardCat(c))}">${(R[c.type]||(()=>''))(c)}</section>`
-  ).join('');
+  let cards = DECK.cards.filter(c => pillarOf(c)===PILLARSEL).map(c=>({card:c}));
+  // India tab has no cover (that's the global intro) — synthesise a light intro
+  if(PILLARSEL==='india'){
+    const n = cards.filter(x=>x.card.type==='story').length;
+    cards.unshift({intro:`<div class="daylbl">${esc(DECK.day_label||DECK.date)}</div>
+      <div class="bigemoji">🇮🇳</div><h1 class="big">India</h1>
+      <div class="body" style="color:var(--dim)">${n} decoded ${n===1?'story':'stories'} today, then the latest headlines from home.</div>
+      <div class="scrollcue">swipe up ↑</div>`, extra:'cover', cat:'india'});
+  }
+  // append the hourly latest-headline cards (Global / India only)
+  if(PILLARSEL==='global'||PILLARSEL==='india') headlineCards(PILLARSEL).forEach(h=>cards.push({raw:h.__html, extra:'hcard', cat:h.cat}));
+
+  deck.innerHTML = cards.map((x,i)=>{
+    const cat = x.card ? cardCat(x.card) : x.cat;
+    const inner = x.card ? (R[x.card.type]||(()=>''))(x.card) : (x.intro || x.raw || '');
+    const extra = x.card ? (EXTRA[x.card.type]||'') : (x.extra||'');
+    return `<section class="card ${extra}" data-i="${i}" style="${catStyle(cat)}">${inner}</section>`;
+  }).join('');
 
   const prog = document.getElementById('progress');
   prog.innerHTML = cards.map((_,i)=>`<i data-i="${i}"></i>`).join('');
@@ -367,6 +425,17 @@ function render(){
     }});
   },{rootMargin:'-45% 0px -45% 0px', threshold:0});
   [...deck.children].forEach(el=>io.observe(el));
+}
+
+// re-pull the hourly headlines + daily deck from the cloud (works on the phone; SW is network-first)
+function refreshNow(btn){
+  if(btn) btn.classList.add('spin');
+  Promise.all([
+    fetch('../reels.json?_='+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null),
+    fetch('../headlines.json?_='+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null),
+  ]).then(([d,h])=>{ if(d) DECK=d; if(h) HEADLINES=h; render();
+    setTimeout(()=>btn&&btn.classList.remove('spin'), 500);
+  });
 }
 
 /* ---------- bottom sheet ---------- */
@@ -494,9 +563,11 @@ function openGloss(key){
 }
 
 /* ---------- boot ---------- */
+// headlines.json refreshes hourly in the cloud — fetch it alongside the daily deck
+fetch('../headlines.json?_='+Date.now()).then(r=>r.ok?r.json():null).then(h=>{ HEADLINES=h; if(DECK) render(); }).catch(()=>{});
 fetch('../reels.json')
   .then(r=>{ if(!r.ok) throw 0; return r.json(); })
-  .then(d=>{ DECK=d; setPillar('world'); })   // default to the World deck
+  .then(d=>{ DECK=d; setPillar('global'); })   // default to the Global deck
   .catch(()=>{ document.getElementById('empty').style.display='flex'; });
 
 if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='localhost')){

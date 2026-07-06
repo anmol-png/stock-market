@@ -60,7 +60,7 @@ def rebuild_index() -> list[dict]:
     return ordered
 
 
-def build_headlines(window_hours: int = 48, cap_total: int = 40, cap_per_source: int = 5) -> int:
+def build_headlines(window_hours: int = 48, cap_total: int = 140, cap_per_source: int = 8) -> int:
     """Publish dashboard/headlines.json — the recent raw headlines with real timestamps.
 
     Keeps items published within `window_hours`; if too few parse/survive, falls back to the
