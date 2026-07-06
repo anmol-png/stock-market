@@ -21,90 +21,121 @@
     --up:#3fb950; --down:#f4685f;
     --geopolitics:#f4685f; --economy:#3fb950; --technology:#a970ff; --science:#2dd4bf;
     --health:#f472b6; --climate:#5cc98a; --india:#ff9933; --markets:#5b9dff; --learn:#f5b942;
+    /* clean & friendly: native rounded headings, neutral sans body (no downloads) */
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --round:ui-rounded,"SF Pro Rounded",-apple-system,"Segoe UI",Roboto,sans-serif;
+    /* clears the fixed progress bar (6px) + header (15px) + notch, with breathing room */
+    --deck-top:calc(env(safe-area-inset-top) + 44px);
   }
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
   html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--txt);
-    font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5}
+    font-family:var(--sans);line-height:1.5;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
   a{color:var(--accent);text-decoration:none}
 
   /* ---- the deck: full-screen vertical snap ---- */
-  #deck{position:fixed;inset:0;overflow-y:auto;scroll-snap-type:y mandatory;
-    overscroll-behavior-y:contain;scrollbar-width:none}
+  /* proximity (not mandatory) + min-height (not fixed) + no overflow:hidden => nothing is ever
+     clipped; a face that runs long on a small phone just scrolls, then snaps to the next card. */
+  #deck{position:fixed;inset:0;overflow-y:auto;scroll-snap-type:y proximity;
+    overscroll-behavior-y:contain;scrollbar-width:none;-webkit-overflow-scrolling:touch}
   #deck::-webkit-scrollbar{display:none}
-  .card{height:100vh;height:100dvh;scroll-snap-align:start;scroll-snap-stop:always;
-    display:flex;justify-content:center;position:relative;overflow:hidden}
-  .in{width:100%;max-width:540px;display:flex;flex-direction:column;justify-content:center;
-    padding:calc(30px + env(safe-area-inset-top)) 22px calc(24px + env(safe-area-inset-bottom));
-    gap:14px;min-height:0}
+  .card{min-height:100vh;min-height:100svh;scroll-snap-align:start;
+    display:flex;justify-content:flex-start;position:relative;
+    padding-top:var(--deck-top)}
+  .card.center{justify-content:center}   /* guaranteed-short cards center in the remaining space */
+  .in{width:100%;max-width:560px;margin:0 auto;display:flex;flex-direction:column;
+    padding:0 20px calc(26px + env(safe-area-inset-bottom));gap:15px}
   /* faint category glow at the top of each card */
-  .card::before{content:"";position:absolute;inset:0 0 auto 0;height:34vh;pointer-events:none;
-    background:linear-gradient(180deg, color-mix(in srgb, var(--cat, var(--accent)) 13%, transparent), transparent)}
+  .card::before{content:"";position:absolute;inset:0 0 auto 0;height:38vh;pointer-events:none;
+    background:linear-gradient(180deg, color-mix(in srgb, var(--cat, var(--accent)) 14%, transparent), transparent)}
 
   /* ---- progress + header ---- */
   #progress{position:fixed;top:calc(6px + env(safe-area-inset-top));left:10px;right:10px;z-index:30;
     display:flex;gap:3px}
   #progress i{flex:1;height:3px;border-radius:2px;background:#2a3546;transition:background .25s}
   #progress i.done{background:var(--dim)} #progress i.on{background:var(--accent)}
-  #hdr{position:fixed;top:calc(15px + env(safe-area-inset-top));left:12px;right:12px;z-index:30;
+  #hdr{position:fixed;top:calc(14px + env(safe-area-inset-top));left:12px;right:12px;z-index:30;
     display:flex;justify-content:space-between;align-items:center;font-size:11.5px;color:var(--dim)}
   #hdr .stale{color:var(--amber)}
-  #hdr a{color:var(--dim);border:1px solid var(--line);border-radius:99px;padding:2px 9px;background:rgba(11,15,23,.6)}
+  #hdr a{color:var(--dim);border:1px solid var(--line);border-radius:99px;padding:3px 10px;background:rgba(11,15,23,.6)}
 
   /* ---- card content ---- */
-  .meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--dim)}
-  .catchip{display:inline-flex;align-items:center;gap:5px;padding:3px 10px;border-radius:99px;
-    font-size:12px;font-weight:600;background:color-mix(in srgb, var(--cat, var(--accent)) 18%, transparent);
+  .meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12.5px;font-weight:600;color:var(--dim)}
+  .catchip{display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border-radius:99px;
+    font-size:12.5px;font-weight:700;background:color-mix(in srgb, var(--cat, var(--accent)) 18%, transparent);
     color:var(--cat, var(--accent))}
-  .ribbon{display:inline-flex;align-items:center;gap:5px;padding:3px 10px;border-radius:99px;font-size:11.5px;
-    font-weight:600;background:rgba(245,185,66,.14);color:var(--amber)}
-  h1{margin:0;font-size:27px;line-height:1.22;letter-spacing:-.3px}
-  h1.big{font-size:31px}
-  .body{font-size:15.5px;color:#c9d4e2;display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
-  .moot{background:linear-gradient(135deg,var(--panel),var(--panel2));border:1px solid var(--line);
-    border-left:4px solid var(--cat, var(--accent));border-radius:14px;padding:14px 16px}
-  .moot .lbl{font-size:10.5px;font-weight:700;letter-spacing:.12em;color:var(--dim);text-transform:uppercase;margin-bottom:6px}
-  .moot .txt{font-size:19px;font-weight:700;line-height:1.38;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
-  .chips{display:flex;gap:7px;flex-wrap:wrap}
-  .cchip{font-size:12px;padding:4px 11px;border-radius:99px;border:1px solid var(--line);
-    background:var(--panel2);color:var(--dim);cursor:pointer}
+  .ribbon{display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border-radius:99px;font-size:11.5px;
+    font-weight:700;background:rgba(245,185,66,.14);color:var(--amber)}
+  .stance{display:inline-flex;padding:4px 11px;border-radius:99px;font-size:11.5px;font-weight:700;
+    background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--accent)}
+  h1{margin:0;font-family:var(--round);font-size:24px;line-height:1.25;font-weight:700;letter-spacing:-.2px}
+  h1.big{font-size:28px;line-height:1.2;font-weight:800;letter-spacing:-.4px}
+  .body{font-size:16.5px;line-height:1.6;color:#c9d4e2}
+  /* leads: a short, intentional teaser with a soft fade — the rest is one tap away, never a silent cut */
+  .lead{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;-webkit-line-clamp:3;position:relative}
+  .lead.l2{-webkit-line-clamp:2} .lead.l4{-webkit-line-clamp:4} .lead.l5{-webkit-line-clamp:5}
+  .lead::after{content:"";position:absolute;inset:auto 0 0 0;height:2em;pointer-events:none;
+    background:linear-gradient(transparent, var(--bg))}
+  mark{background:color-mix(in srgb,var(--amber) 20%,transparent);color:var(--txt);border-radius:4px;padding:0 3px;font-weight:600}
+  /* THE moot — the one takeaway, unmistakably the hero */
+  .moot{background:linear-gradient(135deg, color-mix(in srgb, var(--cat,var(--accent)) 12%, var(--panel)), var(--panel2));
+    border:1px solid color-mix(in srgb, var(--cat,var(--accent)) 30%, var(--line));
+    border-left:5px solid var(--cat, var(--accent));border-radius:15px;padding:15px 17px}
+  .moot .lbl{font-size:10.5px;font-weight:800;letter-spacing:.12em;color:var(--cat,var(--accent));text-transform:uppercase;margin-bottom:7px}
+  .moot .txt{font-family:var(--round);font-size:19px;font-weight:700;line-height:1.5}
+  .chips{display:flex;gap:8px;flex-wrap:wrap}
+  .cchip{font-size:12.5px;font-weight:600;padding:8px 13px;min-height:38px;display:inline-flex;align-items:center;
+    border-radius:99px;border:1px solid var(--line);background:var(--panel2);color:var(--dim);cursor:pointer}
   .cchip:active{background:var(--panel)}
-  .decode{align-self:flex-start;font-size:13.5px;font-weight:600;color:var(--txt);cursor:pointer;
-    border:1px solid var(--line);background:var(--panel);border-radius:99px;padding:9px 18px}
-  .hint{position:absolute;bottom:calc(16px + env(safe-area-inset-bottom));left:0;right:0;text-align:center;
-    font-size:12px;color:var(--dim);animation:bob 1.6s ease-in-out infinite}
+  .decode{align-self:flex-start;font-size:14px;font-weight:700;color:var(--txt);cursor:pointer;min-height:44px;
+    display:inline-flex;align-items:center;border:1px solid color-mix(in srgb,var(--cat,var(--accent)) 34%,var(--line));
+    background:var(--panel);border-radius:99px;padding:0 20px}
+  .decode:active{background:var(--panel2)}
+  .hint{position:absolute;bottom:calc(18px + env(safe-area-inset-bottom));left:0;right:0;text-align:center;
+    font-size:12.5px;font-weight:600;color:var(--dim);animation:bob 1.6s ease-in-out infinite}
   @keyframes bob{0%,100%{transform:translateY(0);opacity:.55}50%{transform:translateY(-6px);opacity:1}}
 
   /* cover / divider / outro */
-  .center{text-align:center;align-items:center}
-  .daylbl{font-size:13px;color:var(--dim);letter-spacing:.06em;text-transform:uppercase}
-  .counts{display:flex;gap:18px;justify-content:center;font-size:12.5px;color:var(--dim)}
-  .counts b{color:var(--txt);font-size:16px;display:block}
-  .bigemoji{font-size:52px;line-height:1}
+  /* center via text-align only — NOT align-items:center, which sizes text blocks to their
+     longest unwrapped line and overflows the viewport (clipping the right edge). */
+  .center{text-align:center}
+  .center .chips,.center .meta,.center .counts{justify-content:center}
+  .center .decode{align-self:center}
+  .daylbl{font-size:13px;font-weight:700;color:var(--dim);letter-spacing:.08em;text-transform:uppercase}
+  .counts{display:flex;gap:22px;justify-content:center;font-size:12.5px;color:var(--dim)}
+  .counts b{color:var(--txt);font-size:19px;font-family:var(--round);display:block}
+  .bigemoji{font-size:56px;line-height:1}
 
   /* board */
-  .brow{display:flex;align-items:center;gap:10px;padding:10px 4px;border-bottom:1px solid var(--line);cursor:pointer}
+  .brow{display:flex;align-items:center;gap:10px;padding:11px 2px;min-height:44px;
+    border-bottom:1px solid var(--line);cursor:pointer}
   .brow:last-child{border-bottom:none}
-  .brow .nm{flex:1;min-width:0}.brow .nm b{font-size:14.5px}.brow .nm span{display:block;font-size:11px;color:var(--dim)}
-  .brow .val{text-align:right;font-size:14.5px;font-weight:600}
-  .brow .val span{display:block;font-size:12.5px;font-weight:700}
+  .brow .nm{flex:1 1 auto;min-width:0}
+  .brow .nm b{font-size:14.5px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .brow .nm span{display:block;font-size:10.5px;color:var(--dim)}
+  .brow .val{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:3px}
+  .brow .val .num{font-family:var(--round);font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}
+  .pct{display:inline-block;font-size:12px;font-weight:800;padding:1px 8px;border-radius:99px;font-variant-numeric:tabular-nums}
+  .pct.up{color:var(--up);background:color-mix(in srgb,var(--up) 16%,transparent)}
+  .pct.down{color:var(--down);background:color-mix(in srgb,var(--down) 16%,transparent)}
   .up{color:var(--up)} .down{color:var(--down)}
-  .spark{flex:0 0 62px}
+  .spark{flex:0 0 48px}
 
   /* favorite */
-  .price{font-size:24px;font-weight:700}.price span{font-size:15px;margin-left:8px}
+  .price{font-family:var(--round);font-size:30px;font-weight:800;letter-spacing:-.5px;font-variant-numeric:tabular-nums}
+  .price .pct{font-size:15px;margin-left:10px;vertical-align:middle}
 
   /* quiz */
   .veil{position:relative;cursor:pointer}
   .veil .txt{filter:blur(9px);transition:filter .3s;user-select:none}
   .veil.open .txt{filter:none}
   .veil .tap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
-    font-size:13px;font-weight:600;color:var(--txt)}
+    font-size:13.5px;font-weight:700;color:var(--txt)}
   .veil.open .tap{display:none}
 
   /* outro */
-  .note{border:1px solid var(--line);border-radius:12px;background:var(--panel2);padding:10px 13px;font-size:13.5px;text-align:left}
+  .note{border:1px solid var(--line);border-radius:12px;background:var(--panel2);padding:11px 14px;font-size:14px;text-align:left}
   .note .w{color:var(--dim);font-size:12.5px}
-  .disc{font-size:11px;color:var(--dim)}
+  .disc{font-size:11.5px;line-height:1.5;color:var(--dim)}
 
   /* ---- bottom sheet (decode + glossary) ---- */
   #mask{position:fixed;inset:0;background:rgba(0,0,0,.55);opacity:0;pointer-events:none;transition:opacity .25s;z-index:40}
@@ -166,6 +197,8 @@ function relTime(iso){
   const d = Math.round(h/24); return d===1?'yesterday':d+'d ago';
 }
 const todayLocal = () => new Date().toLocaleDateString('en-CA');
+// highlight standalone money/percent figures — runs AFTER esc(), so it's injection-safe
+const hl = s => esc(s).replace(/([₹$€£]\s?\d[\d,]*\.?\d*|\b\d+(?:\.\d+)?%)/g, '<mark>$1</mark>');
 
 let DECK = null;
 
@@ -199,74 +232,73 @@ function sparkSVG(pts){
 }
 
 const R = {
-  cover: c => `<div class="in center" style="${catStyle('markets')}">
+  cover: c => `<div class="in" style="${catStyle('markets')}">
     <div class="daylbl">${esc(DECK.day_label||DECK.date)}</div>
     <h1 class="big">${esc(c.headline)}</h1>
-    <div class="body" style="-webkit-line-clamp:8">${esc(c.big_picture)}</div>
-    ${c.market_headline?`<div class="meta" style="justify-content:center">📈 ${esc(c.market_headline)}</div>`:''}
+    ${c.big_picture?`<div class="body lead l4">${esc(c.big_picture)}</div>
+      <span class="decode" onclick='openCover()'>The full picture ▾</span>`:''}
+    ${c.market_headline?`<div class="meta">📈 ${esc(c.market_headline)}</div>`:''}
     <div class="counts"><span><b>${c.counts.stories}</b>world</span><span><b>${c.counts.markets}</b>markets</span><span><b>${c.counts.learn}</b>learn</span></div>
     <div class="hint">swipe up ↑</div></div>`,
 
   story: c => `<div class="in" style="${catStyle(c.category)}">
-    <div class="meta">${catChip(c.category)}${threadRibbon(c.thread)}${c.importance==='critical'?'<span style="color:var(--down);font-weight:700">● critical</span>':''}</div>
+    <div class="meta">${catChip(c.category)}${threadRibbon(c.thread)}${c.importance==='critical'?'<span style="color:var(--down)">● critical</span>':''}</div>
     <h1>${esc(c.title)}</h1>
-    <div class="body">${esc(c.what_happened)}</div>
+    <div class="body lead">${hl(c.what_happened)}</div>
     ${mootBlock(c.moot)}
     ${chips(c.concepts)}
-    <span class="decode" onclick='openDecode(${JSON.stringify(c.id)})'>Decode ▾</span></div>`,
+    <span class="decode" onclick='openDecode(${JSON.stringify(c.id)})'>Read the full story ▾</span></div>`,
 
-  divider: c => `<div class="in center" style="${catStyle('markets')}">
+  divider: c => `<div class="in" style="${catStyle('markets')}">
     <div class="bigemoji">${esc(c.emoji)}</div><h1 class="big">${esc(c.title)}</h1>
-    <div class="body" style="-webkit-line-clamp:4">${esc(c.subtitle)}</div>
-    <div class="hint">swipe up ↑</div></div>`,
+    <div class="body lead l4">${esc(c.subtitle)}</div></div>`,
 
   market_story: c => `<div class="in" style="${catStyle('markets')}">
-    <div class="meta">${catChip('markets')} <span>the story</span></div>
-    <div class="body" style="-webkit-line-clamp:9;font-size:16.5px">${esc(c.story)}</div>
+    <div class="meta">${catChip('markets')} <span>the market story</span></div>
+    <div class="body lead l5">${hl(c.story)}</div>
     ${mootBlock(c.moot)}
-    <span class="decode" onclick='openDecode(${JSON.stringify(c.id)})'>Decode ▾</span></div>`,
+    <span class="decode" onclick='openDecode(${JSON.stringify(c.id)})'>Read the full story ▾</span></div>`,
 
   board: c => `<div class="in" style="${catStyle('markets')}">
-    <div class="meta">${catChip('markets')} <span>today's board — tap a row for its read</span></div>
+    <div class="meta">${catChip('markets')} <span>today's board — tap a row to learn it</span></div>
     <div>${c.items.map((b,i)=>`<div class="brow" onclick='openBoardRead(${i})'>
       <div class="nm"><b>${esc(b.name)}</b><span>${esc(b.ticker)}</span></div>
       ${sparkSVG(b.spark)}
-      <div class="val">${esc(b.currency||'')}${esc(b.value)}<span class="${cls(b.change_pct)}">${sgn(b.change_pct)}</span></div>
+      <div class="val"><span class="num">${esc(b.currency||'')}${esc(b.value)}</span><span class="pct ${cls(b.change_pct)}">${sgn(b.change_pct)}</span></div>
     </div>`).join('')}</div>
     ${mootBlock(c.moot)}</div>`,
 
   watch: c => `<div class="in" style="${catStyle('markets')}">
-    <div class="meta">${catChip('markets')}<span>watch #${esc(c.rank)}</span>${(c.tickers||[]).slice(0,3).map(t=>`<span class="cchip" style="cursor:default">${esc(t)}</span>`).join('')}</div>
+    <div class="meta">${catChip('markets')}<span>watch #${esc(c.rank)}</span>${(c.tickers||[]).slice(0,3).map(t=>`<span class="stance">${esc(t)}</span>`).join('')}</div>
     <h1>${esc(c.title)}</h1>
-    <div class="body" style="-webkit-line-clamp:5">${esc(c.gist)}</div>
-    ${c.what_it_means?`<div class="body" style="-webkit-line-clamp:3;color:var(--txt)"><b>For you:</b> ${esc(c.what_it_means)}</div>`:''}
+    <div class="body lead">${hl(c.gist)}</div>
+    ${c.what_it_means?`<div class="body lead l2" style="color:var(--txt)"><b>For you:</b> ${hl(c.what_it_means)}</div>`:''}
     ${mootBlock(c.moot)}
     ${chips(c.concepts)}
     <span class="decode" onclick='openDecode(${JSON.stringify(c.id)})'>Decode ▾</span></div>`,
 
   favorite: c => `<div class="in" style="${catStyle('markets')}">
-    <div class="meta">${catChip('markets')}<span>your stock</span></div>
-    <h1>${esc(c.name||c.ticker)} <span style="color:var(--dim);font-size:17px">${esc(c.ticker)}</span></h1>
-    <div class="price">${esc(c.currency||'')}${c.price!=null?Number(c.price).toLocaleString():'—'}<span class="${cls(c.change_pct)}">${sgn(c.change_pct)}</span></div>
-    ${c.whats_new?`<div class="body" style="-webkit-line-clamp:5">${esc(c.whats_new)}</div>`:''}
-    ${mootBlock(c.moot,'Stance')}
-    <span class="decode" onclick='openDecode(${JSON.stringify(c.id)})'>Decode ▾</span></div>`,
+    <div class="meta">${catChip('markets')}<span>your stock</span>${c.moot?`<span class="stance">${esc(c.moot)}</span>`:''}</div>
+    <h1>${esc(c.name||c.ticker)} <span style="color:var(--dim);font-size:16px">${esc(c.ticker)}</span></h1>
+    <div class="price">${esc(c.currency||'')}${c.price!=null?Number(c.price).toLocaleString():'—'}<span class="pct ${cls(c.change_pct)}">${sgn(c.change_pct)}</span></div>
+    ${c.whats_new?`<div class="body lead">${hl(c.whats_new)}</div>`:''}
+    <span class="decode" onclick='openDecode(${JSON.stringify(c.id)})'>What changed & why ▾</span></div>`,
 
   concept: c => {
     const g = (typeof GLOSSARY!=='undefined')&&GLOSSARY[c.key];
     if(!g) return `<div class="in center" style="${catStyle('learn')}"><h1>🎓</h1></div>`;
     return `<div class="in" style="${catStyle('learn')}">
-      <div class="meta">${catChip('learn')}<span>concept of the day</span>${c.why_today?`<span style="color:var(--amber)">★ live in today's brief</span>`:''}</div>
+      <div class="meta">${catChip('learn')}<span>concept of the day</span>${c.why_today?`<span style="color:var(--amber)">★ live today</span>`:''}</div>
       <h1>${esc(g.term)}</h1>
-      <div class="body" style="-webkit-line-clamp:3;font-size:16.5px">${esc(g.one)}</div>
+      <div class="body">${esc(g.one)}</div>
       ${mootBlock(g.why,'Why it matters to you')}
       <span class="decode" onclick='openGloss(${JSON.stringify(c.key)})'>Learn it ▾</span></div>`;
   },
 
   quiz: c => `<div class="in" style="${catStyle('learn')}">
     <div class="meta">${catChip('learn')}<span>flashback · ${esc(c.context_date)}</span></div>
-    <h1 style="font-size:22px">${esc(c.context_title)}</h1>
-    <div class="body" style="-webkit-line-clamp:3">${esc(c.question)}</div>
+    <h1 style="font-size:21px">${esc(c.context_title)}</h1>
+    <div class="body">${esc(c.question)}</div>
     <div class="moot veil" onclick="this.classList.add('open')">
       <div class="lbl">💡 The lesson (tap to reveal)</div>
       <div class="txt">${esc(c.answer)}</div>
@@ -276,23 +308,26 @@ const R = {
   outro: c => `<div class="in" style="${catStyle('markets')}">
     <div class="meta">${catChip('markets')}<span>quick hits — also notable today</span></div>
     ${(c.also_notable||[]).slice(0,5).map(n=>`<div class="note"><b>${esc(n.title)}</b><div class="w">${esc(n.why)}</div></div>`).join('')||'<div class="body">Nothing else cleared the bar today.</div>'}
-    <a class="decode" href="${esc(c.dashboard_url||'../')}" style="text-align:center">Open the full dashboard →</a>
+    <a class="decode" href="${esc(c.dashboard_url||'../')}">Open the full dashboard →</a>
     <div class="disc">${esc(c.disclaimer)}${IS_LOCAL?' · Live refresh & any-ticker analysis available on the local dashboard.':''}</div></div>`
 };
 
 /* ---------- deck assembly + progress ---------- */
+const CENTER = {cover:1, divider:1, concept:1, quiz:1};   // guaranteed-short cards center vertically
 function render(){
   const deck = document.getElementById('deck');
-  deck.innerHTML = DECK.cards.map((c,i)=>`<section class="card" data-i="${i}" style="${catStyle(c.category||({learn:1})[c.type]&&'learn'||'markets')}">${(R[c.type]||(()=>''))(c)}</section>`).join('');
+  deck.innerHTML = DECK.cards.map((c,i)=>`<section class="card${CENTER[c.type]?' center':''}" data-i="${i}" style="${catStyle(c.category||({learn:1})[c.type]&&'learn'||'markets')}">${(R[c.type]||(()=>''))(c)}</section>`).join('');
   const prog = document.getElementById('progress');
   prog.innerHTML = DECK.cards.map((_,i)=>`<i data-i="${i}"></i>`).join('');
   const segs = [...prog.children];
+  // rootMargin makes "on" = the card crossing the vertical middle, so tall cards (which never reach
+  // a .6 visibility ratio) still light the correct progress segment.
   const io = new IntersectionObserver(es=>{
     es.forEach(e=>{ if(e.isIntersecting){
       const i = +e.target.dataset.i;
       segs.forEach((s,j)=>{ s.className = j<i?'done':(j===i?'on':''); });
     }});
-  },{threshold:.6});
+  },{rootMargin:'-45% 0px -45% 0px', threshold:0});
   [...deck.children].forEach(el=>io.observe(el));
 
   const stale = DECK.date < todayLocal();
@@ -343,6 +378,13 @@ function openDecode(id){
   if((d.key_terms||[]).length) h += `<div class="sec"><div class="k">Key terms</div>${d.key_terms.map(t=>`<div class="kt"><b>${esc(t.term)}</b> — ${esc(t.definition)}</div>`).join('')}</div>`;
   if((d.sources||[]).length) h += `<div class="sec"><div class="k">Sources</div>${d.sources.map(s=>`<div class="src">🔗 <a href="${esc(s.url)}" target="_blank">${esc(s.name)}</a></div>`).join('')}</div>`;
   openSheet(c.title||c.name||'Decoded', h, c.category);
+}
+
+function openCover(){
+  const c = DECK.cards.find(x=>x.type==='cover'); if(!c) return;
+  let h = `<div class="sec"><div class="k">The big picture</div><div class="v">${esc(c.big_picture)}</div></div>`;
+  if(c.market_headline) h += `<div class="sec"><div class="k">Markets today</div><div class="v">${esc(c.market_headline)}</div></div>`;
+  openSheet(c.headline, h, 'markets');
 }
 
 function openBoardRead(i){
