@@ -8,11 +8,15 @@ with two pillars:
 - **📈 Markets** — US + India + crypto/commodities, with an in-house technical-analysis engine and a
   deep panel per stock where **every metric is explained in plain English** (tap the ⓘ to learn it).
 
-Plus **📱 Reels** (`dashboard/reels/`) — the whole day as a full-screen, swipeable mobile deck.
-Every card is built around **one bold takeaway** ("the moot"), with the full decoded depth one tap
-away, glossary chips inline, a concept-of-the-day, and a flashback quiz that tests yesterday's
-lesson. On your phone: open the site → Share → **Add to Home Screen** → it launches like an app and
-the last-loaded deck stays readable offline.
+Plus **📱 Reels** (`dashboard/reels/`) — the whole day as a full-screen, swipeable mobile deck, in
+**three tabs: 🌍 Global · 🇮🇳 India · 📈 Markets**. Every card is built around **one bold takeaway**;
+tapping the button opens a **bulleted briefing** (key points, why it matters, ripple effects, sources)
+one tap away. Each region tab ends with **latest headlines** that refresh **every hour in the cloud**
+(GitHub Actions — no Mac needed), newest first, with a **↻ refresh button** on the phone. On your phone:
+open the site → Share → **Add to Home Screen** → it launches like an app and works offline.
+
+**Two update cadences:** the AI-decoded deep-dives regenerate **once a day** (Claude on your Mac); the
+raw latest-headlines feed refreshes **hourly in the cloud** so the phone always has fresh news.
 
 Built **free / near-free**, with the AI brain running on your **Claude Max subscription** (not the
 paid API). Designed for someone new to markets: it decodes and explains, it doesn't just summarize.
@@ -74,7 +78,10 @@ analyze_stock.py ─► dashboard/stocks/*.json  ────┘                
    ```
    Pages serves the repo root (a root `index.html` redirects into `dashboard/`). Your site:
    `https://USER.github.io/stock-market/dashboard/` (+ `/dashboard/reels/` for the mobile deck).
-   The daily run then auto-commits and pushes, so the public site updates itself each morning.
+   Publishing runs via **GitHub Actions** (`.github/workflows/pages.yml`) on every push — set Pages
+   source to "GitHub Actions" (`gh api -X PUT repos/{owner}/{repo}/pages -f build_type=workflow`).
+   A second workflow (`hourly-news.yml`) refreshes the latest-headlines feed **every hour in the cloud**
+   (free, no Mac needed). The daily Mac run still writes the AI-decoded briefs and pushes them.
    ⚠️ The repo is **public** (free Pages requires it): briefs, archives, and your watchlist are
    visible; `.env`, `output/`, and `logs/` are gitignored — never commit secrets.
 
