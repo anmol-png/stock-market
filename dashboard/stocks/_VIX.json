@@ -2,7 +2,7 @@
   "ticker": "^VIX",
   "name": "VIX (volatility)",
   "currency": "$",
-  "as_of": "2026-07-10T03:03:09+05:30",
+  "as_of": "2026-07-10T11:13:25+05:30",
   "price": 15.84,
   "change_pct": -6.27,
   "verdict": {

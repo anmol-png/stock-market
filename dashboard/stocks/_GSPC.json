@@ -2,7 +2,7 @@
   "ticker": "^GSPC",
   "name": "S&P 500",
   "currency": "$",
-  "as_of": "2026-07-10T03:03:08+05:30",
+  "as_of": "2026-07-10T11:13:23+05:30",
   "price": 7543.64,
   "change_pct": 0.81,
   "verdict": {

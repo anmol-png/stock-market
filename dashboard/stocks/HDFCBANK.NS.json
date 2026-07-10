@@ -2,130 +2,197 @@
   "ticker": "HDFCBANK.NS",
   "name": "HDFC Bank",
   "currency": "\u20b9",
-  "as_of": "2026-07-10T03:03:18+05:30",
-  "price": NaN,
-  "change_pct": NaN,
+  "as_of": "2026-07-10T11:13:32+05:30",
+  "price": 825.0,
+  "change_pct": 0.91,
   "verdict": {
-    "rating": "Buy",
-    "score": 0.167,
-    "summary": "HDFC Bank is rated **Buy** on the technical suite. Momentum is neutral (RSI 59). MACD is bullish. Trend strength is strong; it sits at the nanth percentile of its 52-week range."
+    "rating": "Strong Buy",
+    "score": 0.5,
+    "summary": "HDFC Bank is rated **Strong Buy** on the technical suite. Price is between its 50- and 200-day averages (mixed / transitional). Momentum is neutral (RSI 64). MACD is bullish. Trend strength is strong; it sits at the 33th percentile of its 52-week range."
   },
   "analysis": {
-    "the_read": "HDFC Bank is in an unclear trend, and the full indicator suite reads Buy. Trend strength is strong (ADX 26) \u2014 moves here tend to persist. Momentum is improving on MACD, and RSI sits at 59 (neutral). It's trading in the nanth percentile of its 52-week range, and day-to-day volatility is normal (~nan% a day).",
+    "the_read": "HDFC Bank is moving sideways, and the full indicator suite reads Strong Buy. Price is caught between its 50-day (\u20b9777) and 200-day (\u20b9887) averages, so the trend is transitional and could break either way. Trend strength is strong (ADX 27) \u2014 moves here tend to persist. Momentum is improving on MACD, and RSI sits at 64 (neutral). It's trading in the 33th percentile of its 52-week range, and day-to-day volatility is normal (~1.9% a day).",
     "bull_case": [
+      "8 of 10 moving averages are bullish (price is above them).",
       "MACD momentum is positive \u2014 the bullish crossover is intact."
     ],
-    "bear_case": [],
-    "what_would_flip": "First resistance to clear overhead: \u20b9nan. First support that needs to hold: \u20b9nan.",
-    "fundamentals_read": "HDFC Bank is a mega-cap company in Financial Services, worth about \u20b912.59T. It trades at a P/E of 18 (moderate); the lower forward P/E of 13 suggests profits are expected to grow. Revenue is shrinking about 2% a year, and it keeps roughly 27\u00a2 of every sales dollar as profit. With a beta of 0.42, it's steadier than the market. It pays a dividend yielding 1.6%."
+    "bear_case": [
+      "Caught between its 50- and 200-day averages \u2014 no clear trend yet."
+    ],
+    "what_would_flip": "A daily close below the 50-day average (~\u20b9777) would warn the uptrend is stalling. First resistance to clear overhead: \u20b9828. First support that needs to hold: \u20b9821.",
+    "fundamentals_read": "HDFC Bank is a mega-cap company in Financial Services, worth about \u20b912.71T. It trades at a P/E of 18 (moderate); the lower forward P/E of 13 suggests profits are expected to grow. Revenue is shrinking about 2% a year, and it keeps roughly 27\u00a2 of every sales dollar as profit. With a beta of 0.42, it's steadier than the market. It pays a dividend yielding 1.6%."
   },
   "signals": {
     "moving_averages": {
-      "rating": "Neutral",
-      "buy": 0,
-      "sell": 0
+      "rating": "Strong Buy",
+      "buy": 8,
+      "sell": 2
     },
     "oscillators": {
-      "rating": "Strong Buy",
-      "buy": 1,
+      "rating": "Buy",
+      "buy": 2,
       "sell": 0
     }
   },
   "trend": {
-    "direction": "Unclear",
+    "direction": "Sideways",
     "strength": "Strong",
-    "adx": 26.35,
-    "vs_50dma": null,
-    "vs_200dma": null
+    "adx": 26.69,
+    "vs_50dma": "above",
+    "vs_200dma": "below"
   },
   "indicators": {
     "moving_averages": [
       {
+        "name": "SMA 10",
+        "value": 810.2,
+        "metric": "sma",
+        "signal": "Bullish",
+        "note": "price is above its 10-day average \u2014 bullish for the short-term trend"
+      },
+      {
+        "name": "SMA 20",
+        "value": 798.85,
+        "metric": "sma",
+        "signal": "Bullish",
+        "note": "price is above its 20-day average \u2014 bullish for the short-term trend"
+      },
+      {
+        "name": "SMA 30",
+        "value": 782.12,
+        "metric": "sma",
+        "signal": "Bullish",
+        "note": "price is above its 30-day average \u2014 bullish for the medium-term trend"
+      },
+      {
+        "name": "SMA 50",
+        "value": 776.68,
+        "metric": "sma",
+        "signal": "Bullish",
+        "note": "price is above its 50-day average \u2014 bullish for the medium-term trend"
+      },
+      {
+        "name": "SMA 100",
+        "value": 800.4,
+        "metric": "sma",
+        "signal": "Bullish",
+        "note": "price is above its 100-day average \u2014 bullish for the long-term trend"
+      },
+      {
+        "name": "SMA 200",
+        "value": 886.69,
+        "metric": "sma",
+        "signal": "Bearish",
+        "note": "price is below its 200-day average \u2014 bearish for the long-term trend"
+      },
+      {
         "name": "EMA 10",
-        "value": 806.15,
+        "value": 811.27,
         "metric": "ema",
-        "signal": "Neutral",
-        "note": "price is below its 10-day average \u2014 bearish for the short-term trend"
+        "signal": "Bullish",
+        "note": "price is above its 10-day average \u2014 bullish for the short-term trend"
       },
       {
         "name": "EMA 20",
-        "value": 794.85,
+        "value": 799.68,
         "metric": "ema",
-        "signal": "Neutral",
-        "note": "price is below its 20-day average \u2014 bearish for the short-term trend"
+        "signal": "Bullish",
+        "note": "price is above its 20-day average \u2014 bullish for the short-term trend"
       },
       {
         "name": "EMA 50",
-        "value": 788.63,
+        "value": 791.15,
         "metric": "ema",
-        "signal": "Neutral",
-        "note": "price is below its 50-day average \u2014 bearish for the medium-term trend"
+        "signal": "Bullish",
+        "note": "price is above its 50-day average \u2014 bullish for the medium-term trend"
       },
       {
         "name": "EMA 200",
-        "value": 854.33,
+        "value": 853.64,
         "metric": "ema",
-        "signal": "Neutral",
+        "signal": "Bearish",
         "note": "price is below its 200-day average \u2014 bearish for the long-term trend"
       }
     ],
     "oscillators": [
       {
         "name": "RSI (14)",
-        "value": 59.13,
+        "value": 64.12,
         "metric": "rsi",
         "signal": "Neutral",
-        "note": "59 \u2014 neutral momentum, no extreme"
+        "note": "64 \u2014 neutral momentum, no extreme"
       },
       {
         "name": "MACD (12,26,9)",
-        "value": 12.679,
+        "value": 13.459,
         "metric": "macd",
         "signal": "Buy",
         "note": "MACD line is above its signal line \u2014 momentum is improving (bullish)"
+      },
+      {
+        "name": "Stochastic %K (14,3)",
+        "value": 74.45,
+        "metric": "stochastic",
+        "signal": "Neutral",
+        "note": "closing in the middle of its recent range"
+      },
+      {
+        "name": "CCI (20)",
+        "value": 62.27,
+        "metric": "cci",
+        "signal": "Neutral",
+        "note": "close to its recent average \u2014 no extreme"
+      },
+      {
+        "name": "Williams %R (14)",
+        "value": -25.55,
+        "metric": "williams_r",
+        "signal": "Neutral",
+        "note": "mid-range \u2014 no extreme"
+      },
+      {
+        "name": "Momentum (10)",
+        "value": 28.7,
+        "metric": "momentum",
+        "signal": "Buy",
+        "note": "price is higher than 10 days ago \u2014 upward momentum"
       }
     ]
   },
   "levels": {
-    "pivot": NaN,
+    "pivot": 824.07,
     "resistance": [
-      NaN,
-      NaN
+      827.83,
+      830.67
     ],
     "support": [
-      NaN,
-      NaN
+      821.23,
+      817.47
     ]
   },
   "range_52w": {
     "low": 731.55,
     "high": 1012.9,
-    "position_pct": NaN
+    "position_pct": 33.2
   },
   "volatility": {
-    "atr": 15.95,
-    "atr_pct": NaN,
-    "bollinger_pctb": null,
+    "atr": 15.48,
+    "atr_pct": 1.88,
+    "bollinger_pctb": 0.9,
     "label": "Normal"
   },
   "fundamentals": {
     "sector": "Financial Services",
     "industry": "Banks - Regional",
-    "marketCap": 12591256567808,
-    "trailingPE": 18.24481,
-    "forwardPE": 12.988325,
+    "marketCap": 12705995948032,
+    "trailingPE": 18.248175,
+    "forwardPE": 13.10723,
     "profitMargins": 0.26834,
     "revenueGrowth": -0.018,
     "dividendYield": 1.6,
     "beta": 0.422
   },
   "history": [
-    {
-      "d": "2025-10-20",
-      "c": 1002.95,
-      "m50": 973.24,
-      "m200": 935.19
-    },
     {
       "d": "2025-10-21",
       "c": 1007.7,
@@ -1196,9 +1263,15 @@
     },
     {
       "d": "2026-07-09",
-      "c": NaN,
-      "m50": null,
-      "m200": null
+      "c": 817.55,
+      "m50": 775.61,
+      "m200": 887.4
+    },
+    {
+      "d": "2026-07-10",
+      "c": 825.0,
+      "m50": 776.68,
+      "m200": 886.69
     }
   ],
   "whats_new": "",

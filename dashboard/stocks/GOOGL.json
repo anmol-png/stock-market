@@ -2,7 +2,7 @@
   "ticker": "GOOGL",
   "name": "Alphabet",
   "currency": "$",
-  "as_of": "2026-07-10T03:03:12+05:30",
+  "as_of": "2026-07-10T11:13:27+05:30",
   "price": 358.89,
   "change_pct": -0.84,
   "verdict": {
@@ -20,7 +20,7 @@
       "Caught between its 50- and 200-day averages \u2014 no clear trend yet."
     ],
     "what_would_flip": "A daily close back above the 50-day average (~$373) would be the first sign the downtrend is turning up. First resistance to clear overhead: $362. First support that needs to hold: $353.",
-    "fundamentals_read": "Alphabet is a mega-cap company in Communication Services, worth about $4.38T. It trades at a P/E of 27 (on the rich side); the lower forward P/E of 25 suggests profits are expected to grow. Revenue is growing about 22% a year, and it keeps roughly 38\u00a2 of every sales dollar as profit. With a beta of 1.25, it's more volatile than the market. It pays a dividend yielding 0.2%."
+    "fundamentals_read": "Alphabet is a mega-cap company in Communication Services, worth about $4.38T. It trades at a P/E of 28 (on the rich side); the lower forward P/E of 25 suggests profits are expected to grow. Revenue is growing about 22% a year, and it keeps roughly 38\u00a2 of every sales dollar as profit. With a beta of 1.25, it's more volatile than the market. It pays a dividend yielding 0.2%."
   },
   "signals": {
     "moving_averages": {
@@ -185,7 +185,7 @@
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
     "marketCap": 4379381596160,
-    "trailingPE": 27.396183,
+    "trailingPE": 27.628178,
     "forwardPE": 24.652561,
     "profitMargins": 0.37919,
     "revenueGrowth": 0.218,

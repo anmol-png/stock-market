@@ -2,7 +2,7 @@
   "ticker": "MSFT",
   "name": "Microsoft",
   "currency": "$",
-  "as_of": "2026-07-10T03:03:11+05:30",
+  "as_of": "2026-07-10T11:13:26+05:30",
   "price": 384.36,
   "change_pct": 0.27,
   "verdict": {
@@ -186,7 +186,7 @@
     "sector": "Technology",
     "industry": "Software - Infrastructure",
     "marketCap": 2855193018368,
-    "trailingPE": 22.892195,
+    "trailingPE": 22.83779,
     "forwardPE": 19.85706,
     "profitMargins": 0.39341998,
     "revenueGrowth": 0.183,

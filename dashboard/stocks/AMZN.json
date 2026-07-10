@@ -2,7 +2,7 @@
   "ticker": "AMZN",
   "name": "Amazon",
   "currency": "$",
-  "as_of": "2026-07-10T03:03:13+05:30",
+  "as_of": "2026-07-10T11:13:28+05:30",
   "price": 247.04,
   "change_pct": 1.4,
   "verdict": {
@@ -140,7 +140,7 @@
       },
       {
         "name": "CCI (20)",
-        "value": 27.56,
+        "value": 27.64,
         "metric": "cci",
         "signal": "Neutral",
         "note": "close to its recent average \u2014 no extreme"
@@ -162,14 +162,14 @@
     ]
   },
   "levels": {
-    "pivot": 244.25,
+    "pivot": 244.26,
     "resistance": [
-      250.25,
-      253.46
+      250.28,
+      253.51
     ],
     "support": [
-      241.04,
-      235.04
+      241.03,
+      235.01
     ]
   },
   "range_52w": {
@@ -187,7 +187,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail",
     "marketCap": 2657436303360,
-    "trailingPE": 32.08312,
+    "trailingPE": 31.63124,
     "forwardPE": 24.973917,
     "profitMargins": 0.12224,
     "revenueGrowth": 0.166,

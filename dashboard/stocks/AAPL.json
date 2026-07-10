@@ -2,7 +2,7 @@
   "ticker": "AAPL",
   "name": "Apple",
   "currency": "$",
-  "as_of": "2026-07-10T03:03:10+05:30",
+  "as_of": "2026-07-10T11:13:25+05:30",
   "price": 316.22,
   "change_pct": 0.9,
   "verdict": {
@@ -1278,7 +1278,9 @@
       "m200": 272.15
     }
   ],
-  "whats_new": "",
-  "news": [],
+  "whats_new": "Rose 0.9% to a fresh 52-week high as the US relief rally lifted big tech, with the VIX 'fear gauge' crashing ~6%. Now at the very top of its one-year range (100th percentile) \u2014 strong momentum, but Stochastic, CCI and Williams %R are all overbought, a short-term caution flag near the highs.",
+  "news": [
+    {"headline": "US stocks rebound as the war premium fades and the VIX crashes ~6%", "url": "https://www.bbc.co.uk/news/articles/c4gym70r0y4o", "source": "BBC World"}
+  ],
   "disclaimer": "Technical signals are rules-based and informational only \u2014 not financial advice."
 }
