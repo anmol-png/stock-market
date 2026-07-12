@@ -2,7 +2,7 @@
   "ticker": "TSLA",
   "name": "Tesla",
   "currency": "$",
-  "as_of": "2026-07-11T20:08:44+05:30",
+  "as_of": "2026-07-12T11:38:41+05:30",
   "price": 407.76,
   "change_pct": 0.3,
   "verdict": {
@@ -187,7 +187,7 @@
     "industry": "Auto Manufacturers",
     "marketCap": 1531433975808,
     "trailingPE": 370.69092,
-    "forwardPE": 158.19429,
+    "forwardPE": 158.05571,
     "profitMargins": 0.03946,
     "revenueGrowth": 0.158,
     "beta": 1.802

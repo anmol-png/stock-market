@@ -2,7 +2,7 @@
   "ticker": "INFY.NS",
   "name": "Infosys",
   "currency": "\u20b9",
-  "as_of": "2026-07-11T20:08:52+05:30",
+  "as_of": "2026-07-12T11:38:45+05:30",
   "price": 1068.0,
   "change_pct": 1.64,
   "verdict": {
@@ -187,7 +187,7 @@
     "industry": "Information Technology Services",
     "marketCap": 4324255072256,
     "trailingPE": 14.143822,
-    "forwardPE": 13.10517,
+    "forwardPE": 13.102999,
     "profitMargins": 0.16434999,
     "revenueGrowth": 0.066,
     "dividendYield": 4.68,

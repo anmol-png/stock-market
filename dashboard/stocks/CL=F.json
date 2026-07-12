@@ -2,7 +2,7 @@
   "ticker": "CL=F",
   "name": "Crude Oil (WTI)",
   "currency": "$",
-  "as_of": "2026-07-11T20:08:55+05:30",
+  "as_of": "2026-07-12T11:38:48+05:30",
   "price": 71.41,
   "change_pct": -0.93,
   "verdict": {
@@ -109,7 +109,7 @@
       },
       {
         "name": "EMA 200",
-        "value": 78.47,
+        "value": 78.46,
         "metric": "ema",
         "signal": "Bearish",
         "note": "price is below its 200-day average \u2014 bearish for the long-term trend"

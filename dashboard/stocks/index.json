@@ -10,7 +10,7 @@
     "favorite": true,
     "trend": "Uptrend",
     "rsi": 56.97,
-    "as_of": "2026-07-11T20:08:41+05:30",
+    "as_of": "2026-07-12T11:38:39+05:30",
     "one_liner": "Price is above both its 50- and 200-day averages (a healthy uptrend)"
   },
   {
@@ -24,7 +24,7 @@
     "favorite": true,
     "trend": "Uptrend",
     "rsi": 62.93,
-    "as_of": "2026-07-11T20:08:40+05:30",
+    "as_of": "2026-07-12T11:38:37+05:30",
     "one_liner": "Price is above both its 50- and 200-day averages (a healthy uptrend)"
   },
   {
@@ -32,13 +32,13 @@
     "name": "Bitcoin",
     "rating": "Neutral",
     "score": 0.0,
-    "change_pct": 0.42,
-    "price": 64393.4,
+    "change_pct": -0.49,
+    "price": 63811.94,
     "currency": "$",
     "favorite": true,
     "trend": "Downtrend",
-    "rsi": 54.81,
-    "as_of": "2026-07-11T20:08:53+05:30",
+    "rsi": 52.41,
+    "as_of": "2026-07-12T11:38:46+05:30",
     "one_liner": "Price is below both its 50- and 200-day averages (a downtrend)"
   },
   {
@@ -52,7 +52,7 @@
     "favorite": true,
     "trend": "Downtrend",
     "rsi": 49.39,
-    "as_of": "2026-07-11T20:08:47+05:30",
+    "as_of": "2026-07-12T11:38:43+05:30",
     "one_liner": "Price is below both its 50- and 200-day averages (a downtrend)"
   },
   {
@@ -66,7 +66,7 @@
     "favorite": false,
     "trend": "Uptrend",
     "rsi": 52.18,
-    "as_of": "2026-07-11T20:08:56+05:30",
+    "as_of": "2026-07-12T11:38:49+05:30",
     "one_liner": "Price is above both its 50- and 200-day averages (a healthy uptrend)"
   },
   {
@@ -94,7 +94,7 @@
     "favorite": false,
     "trend": "Uptrend",
     "rsi": 62.1,
-    "as_of": "2026-07-11T20:08:38+05:30",
+    "as_of": "2026-07-12T11:38:36+05:30",
     "one_liner": "Price is above both its 50- and 200-day averages (a healthy uptrend)"
   },
   {
@@ -108,7 +108,7 @@
     "favorite": false,
     "trend": "Uptrend",
     "rsi": 60.02,
-    "as_of": "2026-07-11T20:08:37+05:30",
+    "as_of": "2026-07-12T11:38:35+05:30",
     "one_liner": "Price is above both its 50- and 200-day averages (a healthy uptrend)"
   },
   {
@@ -122,7 +122,7 @@
     "favorite": false,
     "trend": "Uptrend",
     "rsi": 54.56,
-    "as_of": "2026-07-11T20:08:38+05:30",
+    "as_of": "2026-07-12T11:38:35+05:30",
     "one_liner": "Price is above both its 50- and 200-day averages (a healthy uptrend)"
   },
   {
@@ -136,7 +136,7 @@
     "favorite": false,
     "trend": "Sideways",
     "rsi": 50.93,
-    "as_of": "2026-07-11T20:08:43+05:30",
+    "as_of": "2026-07-12T11:38:40+05:30",
     "one_liner": "Price is between its 50- and 200-day averages (mixed / transitional)"
   },
   {
@@ -150,7 +150,7 @@
     "favorite": false,
     "trend": "Sideways",
     "rsi": 64.11,
-    "as_of": "2026-07-11T20:08:49+05:30",
+    "as_of": "2026-07-12T11:38:45+05:30",
     "one_liner": "Price is between its 50- and 200-day averages (mixed / transitional)"
   },
   {
@@ -164,7 +164,7 @@
     "favorite": false,
     "trend": "Downtrend",
     "rsi": 51.22,
-    "as_of": "2026-07-11T20:08:44+05:30",
+    "as_of": "2026-07-12T11:38:41+05:30",
     "one_liner": "Price is below both its 50- and 200-day averages (a downtrend)"
   },
   {
@@ -178,7 +178,7 @@
     "favorite": false,
     "trend": "Sideways",
     "rsi": 56.41,
-    "as_of": "2026-07-11T20:08:45+05:30",
+    "as_of": "2026-07-12T11:38:42+05:30",
     "one_liner": "Price is between its 50- and 200-day averages (mixed / transitional)"
   },
   {
@@ -192,7 +192,7 @@
     "favorite": false,
     "trend": "Sideways",
     "rsi": 58.38,
-    "as_of": "2026-07-11T20:08:46+05:30",
+    "as_of": "2026-07-12T11:38:43+05:30",
     "one_liner": "Price is above both its 50- and 200-day averages (a healthy uptrend)"
   },
   {
@@ -206,21 +206,21 @@
     "favorite": false,
     "trend": "Sideways",
     "rsi": 55.8,
-    "as_of": "2026-07-11T20:08:45+05:30",
+    "as_of": "2026-07-12T11:38:41+05:30",
     "one_liner": "Price is between its 50- and 200-day averages (mixed / transitional)"
   },
   {
     "ticker": "ETH-USD",
     "name": "Ethereum",
-    "rating": "Buy",
-    "score": 0.25,
-    "change_pct": 0.87,
-    "price": 1811.25,
+    "rating": "Neutral",
+    "score": 0.125,
+    "change_pct": -0.04,
+    "price": 1794.9,
     "currency": "$",
     "favorite": false,
     "trend": "Sideways",
-    "rsi": 59.13,
-    "as_of": "2026-07-11T20:08:54+05:30",
+    "rsi": 57.52,
+    "as_of": "2026-07-12T11:38:47+05:30",
     "one_liner": "Price is between its 50- and 200-day averages (mixed / transitional)"
   },
   {
@@ -248,7 +248,7 @@
     "favorite": false,
     "trend": "Sideways",
     "rsi": 46.97,
-    "as_of": "2026-07-11T20:08:42+05:30",
+    "as_of": "2026-07-12T11:38:39+05:30",
     "one_liner": "Price is between its 50- and 200-day averages (mixed / transitional)"
   },
   {
@@ -262,7 +262,7 @@
     "favorite": false,
     "trend": "Downtrend",
     "rsi": 47.01,
-    "as_of": "2026-07-11T20:08:52+05:30",
+    "as_of": "2026-07-12T11:38:45+05:30",
     "one_liner": "Price is below both its 50- and 200-day averages (a downtrend)"
   },
   {
@@ -276,7 +276,7 @@
     "favorite": false,
     "trend": "Downtrend",
     "rsi": 47.52,
-    "as_of": "2026-07-11T20:08:41+05:30",
+    "as_of": "2026-07-12T11:38:38+05:30",
     "one_liner": "Price is below both its 50- and 200-day averages (a downtrend)"
   },
   {
@@ -284,13 +284,13 @@
     "name": "Gold",
     "rating": "Sell",
     "score": -0.375,
-    "change_pct": -0.64,
-    "price": 4104.1,
+    "change_pct": -0.41,
+    "price": 4113.7,
     "currency": "$",
     "favorite": false,
     "trend": "Downtrend",
-    "rsi": 42.62,
-    "as_of": "2026-07-11T20:08:54+05:30",
+    "rsi": 43.19,
+    "as_of": "2026-07-12T11:38:47+05:30",
     "one_liner": "Price is below both its 50- and 200-day averages (a downtrend)"
   },
   {
@@ -304,7 +304,7 @@
     "favorite": false,
     "trend": "Sideways",
     "rsi": 37.73,
-    "as_of": "2026-07-11T20:08:55+05:30",
+    "as_of": "2026-07-12T11:38:48+05:30",
     "one_liner": "Price is below both its 50- and 200-day averages (a downtrend)"
   },
   {
@@ -318,7 +318,7 @@
     "favorite": false,
     "trend": "Downtrend",
     "rsi": 43.28,
-    "as_of": "2026-07-11T20:08:47+05:30",
+    "as_of": "2026-07-12T11:38:44+05:30",
     "one_liner": "Price is below both its 50- and 200-day averages (a downtrend)"
   },
   {
@@ -332,7 +332,7 @@
     "favorite": false,
     "trend": "Downtrend",
     "rsi": 41.69,
-    "as_of": "2026-07-11T20:08:39+05:30",
+    "as_of": "2026-07-12T11:38:36+05:30",
     "one_liner": "Price is below both its 50- and 200-day averages (a downtrend)"
   }
 ]

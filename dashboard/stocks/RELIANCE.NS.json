@@ -2,7 +2,7 @@
   "ticker": "RELIANCE.NS",
   "name": "Reliance Industries",
   "currency": "\u20b9",
-  "as_of": "2026-07-11T20:08:47+05:30",
+  "as_of": "2026-07-12T11:38:43+05:30",
   "price": 1307.8,
   "change_pct": 2.19,
   "verdict": {
@@ -1275,9 +1275,13 @@
       "m200": 1416.1
     }
   ],
-  "whats_new": "Bounced 2.2% to \u20b91,308 with the broad India rally and the rating nudged up to Neutral (from Strong Sell), but it stays technically weak \u2014 still below all its major averages, near the bottom of its 52-week range. As an energy/refining major it's cross-exposed to the very oil swings driving the market.",
+  "whats_new": "Closed Friday +2.2% at ₹1,308 with the India rally, rating nudged up to Neutral (from Strong Sell) — but it's the favorite most directly in the crossfire of the weekend oil shock. As an energy/refining major, a Hormuz-driven crude spike cuts both ways (helps some segments, squeezes refining and demand), and Friday's bounce could reverse if India gaps down Monday.",
   "news": [
-    {"headline": "Sensex jumps 827 points as India rallies a second day; oil eases", "url": "https://www.thehindu.com/business/markets/markets-rally-for-second-day-sensex-jumps-over-800-points/article71206342.ece", "source": "The Hindu Business"}
+    {
+      "headline": "India rallied Friday as oil eased — but a weekend Hormuz closure now threatens a Monday reprice",
+      "url": "https://www.livemint.com/market/stock-market-news/indian-stock-market-how-are-sensex-and-nifty-50-likely-to-perform-next-week-amid-ongoing-us-iran-war-11783828228866.html",
+      "source": "Livemint Markets"
+    }
   ],
   "disclaimer": "Technical signals are rules-based and informational only \u2014 not financial advice."
 }

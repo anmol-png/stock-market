@@ -2,7 +2,7 @@
   "ticker": "NVDA",
   "name": "Nvidia",
   "currency": "$",
-  "as_of": "2026-07-11T20:08:41+05:30",
+  "as_of": "2026-07-12T11:38:39+05:30",
   "price": 210.96,
   "change_pct": 4.03,
   "verdict": {
@@ -1276,9 +1276,13 @@
       "m200": 191.67
     }
   ],
-  "whats_new": "Broke out \u2014 up 4% to $211 and, crucially, closed back above its 50-day average (~$209) for the first time in weeks, flipping the trend from 'stuck sideways/Neutral' to a confirmed uptrend (Strong Buy). SK Hynix's record $26.5bn AI-memory debut and easing risk appetite lit the fuse.",
+  "whats_new": "Holds Friday's breakout at $211 (unchanged over the weekend) — it had jumped 4% and closed back above its 50-day average (~$209), flipping the trend to a confirmed uptrend (Strong Buy) on SK Hynix's record AI-memory debut. Less oil-exposed than most, but as a high-beta (2.21) risk asset it's still vulnerable to a Monday risk-off gap from the weekend Hormuz escalation.",
   "news": [
-    {"headline": "SK Hynix soars ~13% in a record $26.5bn Nasdaq debut, reviving the AI-chip trade", "url": "https://www.bbc.co.uk/news/articles/c4gym70r0y4o", "source": "BBC Business"}
+    {
+      "headline": "AI-chip trade revived on SK Hynix's record $26.5bn Nasdaq debut; Nvidia reclaimed its 50-day average",
+      "url": "https://www.bbc.co.uk/news/articles/c4gym70r0y4o",
+      "source": "BBC Business"
+    }
   ],
   "disclaimer": "Technical signals are rules-based and informational only \u2014 not financial advice."
 }
