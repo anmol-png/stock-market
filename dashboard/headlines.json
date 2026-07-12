@@ -1,188 +1,510 @@
 {
-  "as_of": "2026-07-12T15:39:11+00:00",
+  "as_of": "2026-07-12T19:57:31+00:00",
   "count": 140,
   "headlines": [
     {
-      "category": "india",
-      "source": "The Hindu National",
-      "headline": "I want cinema to be a discussion point, says LGBT: A Legal Battle director",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/i-want-cinema-to-be-a-discussion-point-says-lgbt-a-legal-battle-director/article71214159.ece",
-      "published_iso": "2026-07-12T15:35:45+00:00"
+      "category": "geopolitics",
+      "source": "BBC World",
+      "headline": "At least 27 killed in Bangkok bar fire, Thai media report",
+      "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
+      "published_iso": "2026-07-12T19:54:45+00:00"
     },
     {
       "category": "geopolitics",
-      "source": "BBC World",
-      "headline": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
-      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "published_iso": "2026-07-12T15:35:38+00:00"
+      "source": "NPR World",
+      "headline": "Fire breaks out at a pub in Bangkok, killing at least 27 people, officials say",
+      "url": "https://www.npr.org/2026/07/12/g-s1-133238/fire-breaks-out-at-a-pub-in-bangkok-killing-at-least-27-people-officials-say",
+      "published_iso": "2026-07-12T19:53:24+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Livemint",
+      "headline": "Popular ice cream chain closes 46 US stores as one state bears the biggest impact",
+      "url": "https://www.livemint.com/news/us-news/popular-ice-cream-chain-closes-46-us-stores-as-one-state-bears-the-biggest-impact-11783885278591.html",
+      "published_iso": "2026-07-12T19:52:16+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "NYT World",
+      "headline": "Live Updates: Cease-Fire Unraveling as U.S. and Iran Trade Strikes Again",
+      "url": "https://www.nytimes.com/live/2026/07/12/us/iran-war-trump-hormuz",
+      "published_iso": "2026-07-12T19:48:49+00:00"
+    },
+    {
+      "category": "india",
+      "source": "The Hindu National",
+      "headline": "U.P. Minister\u2019s reply sought over \u2018discrepancies\u2019 in income, assets",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/up-ministers-reply-sought-over-discrepancies-in-income-assets/article71214117.ece",
+      "published_iso": "2026-07-12T19:43:23+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "NYT World",
+      "headline": "Lindsey Graham Championed Israel, Even as Wars Eroded American Support",
+      "url": "https://www.nytimes.com/2026/07/12/world/middleeast/lindsey-graham-iran-israel-gaza-war.html",
+      "published_iso": "2026-07-12T19:42:07+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "Al Jazeera",
+      "headline": "England vs Argentina: Greatest moments before FIFA World Cup semifinal",
+      "url": "https://www.aljazeera.com/sports/2026/7/12/fifa-world-cup-england-vs-argentina-historic-rivalry-greatest-moments-semifinal?traffic_source=rss",
+      "published_iso": "2026-07-12T19:31:20+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Times of India Top",
+      "headline": "Thailand fire horror: At least 27 dead after midnight blaze tears through Bangkok pub",
+      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/thailand-fire-horror-at-least-27-dead-after-midnight-blaze-tears-through-bangkok-pub/articleshow/132351916.cms",
+      "published_iso": "2026-07-12T19:31:19+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "Al Jazeera",
+      "headline": "Why the Iran-US ceasefire is falling apart",
+      "url": "https://www.aljazeera.com/video/the-bottom-line/2026/7/12/why-the-iran-us-ceasefire-is-falling-apart?traffic_source=rss",
+      "published_iso": "2026-07-12T19:27:34+00:00"
+    },
+    {
+      "category": "india",
+      "source": "The Hindu National",
+      "headline": "CM launches Kochi Corporation\u2019s third ro-ro vessel",
+      "url": "https://www.thehindu.com/news/national/kerala/cm-launches-kochi-corporations-third-ro-ro-vessel/article71213489.ece",
+      "published_iso": "2026-07-12T19:25:01+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "Al Jazeera",
+      "headline": "Anti-migrant display set alight in Northern Ireland bonfire",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/anti-migrant-display-set-alight-in-northern-ireland-bonfire?traffic_source=rss",
+      "published_iso": "2026-07-12T19:21:17+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "Al Jazeera",
+      "headline": "Friends turned foes: The split reshaping Senegal",
+      "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/7/12/friends-turned-foes-the-split-reshaping-senegal?traffic_source=rss",
+      "published_iso": "2026-07-12T19:21:00+00:00"
+    },
+    {
+      "category": "economy",
+      "source": "CNBC Economy",
+      "headline": "'Funflation' hits home: Why staying in isn't the cost-saver it used to be",
+      "url": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html",
+      "published_iso": "2026-07-12T19:17:32+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Times of India Top",
+      "headline": "J&amp;K: Pahalgam cloudburst damages hotels, huts, washes away road; tourists moved to safety",
+      "url": "https://timesofindia.indiatimes.com/india/jammu-and-kashmir-pahalgam-cloudburst-damages-hotels-huts-washes-away-road-tourists-moved-to-safety/articleshow/132351729.cms",
+      "published_iso": "2026-07-12T19:17:00+00:00"
+    },
+    {
+      "category": "india",
+      "source": "The Hindu National",
+      "headline": "Singer Janaki cremated with state honours in Mysuru",
+      "url": "https://www.thehindu.com/news/national/karnataka/singer-janaki-cremated-with-state-honours-in-mysuru/article71214416.ece",
+      "published_iso": "2026-07-12T19:10:40+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Times of India Top",
+      "headline": "CM Omar Adullah to BJP: Should I ask Trump for J&amp;K statehood?",
+      "url": "https://timesofindia.indiatimes.com/india/cm-omar-adullah-to-bjp-should-i-ask-donald-trump-for-jammu-kashmir-statehood/articleshow/132351566.cms",
+      "published_iso": "2026-07-12T19:09:08+00:00"
+    },
+    {
+      "category": "india",
+      "source": "The Hindu National",
+      "headline": "Ex-MP H. Hanumanthappa passes away",
+      "url": "https://www.thehindu.com/news/national/karnataka/ex-mp-h-hanumanthappa-passes-away/article71214644.ece",
+      "published_iso": "2026-07-12T19:08:50+00:00"
+    },
+    {
+      "category": "india",
+      "source": "The Hindu National",
+      "headline": "Doctor who flagged equipment shortage lauds Kerala government\u2019s move to end floor treatment",
+      "url": "https://www.thehindu.com/news/national/kerala/doctor-who-flagged-equipment-shortage-lauds-kerala-governments-move-to-end-floor-treatment/article71214963.ece",
+      "published_iso": "2026-07-12T19:08:25+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "Al Jazeera",
+      "headline": "Some 30 Malian soldiers killed during Anefis retaking, says army chief",
+      "url": "https://www.aljazeera.com/news/2026/7/12/some-30-malian-soldiers-killed-during-anefis-retaking-says-army-chief?traffic_source=rss",
+      "published_iso": "2026-07-12T19:01:40+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Indian Express",
+      "headline": "Israel to hold elections on October 27: What it means for Netanyahu",
+      "url": "https://indianexpress.com/article/world/israel-parliamentary-elections-october-benjamin-netanyahu-coalition-term-10783447/",
+      "published_iso": "2026-07-12T19:00:25+00:00"
+    },
+    {
+      "category": "india",
+      "source": "The Hindu National",
+      "headline": "Over a year on, transplanted trees at Raman Thangal Lake in Sholinganallur stand dead",
+      "url": "https://www.thehindu.com/news/cities/chennai/over-a-year-on-transplanted-trees-at-raman-thangal-lake-in-sholinganallur-stand-dead/article71213637.ece",
+      "published_iso": "2026-07-12T18:59:52+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Indian Express",
+      "headline": "How Jannik Sinner blunted Zverev 2.0 to retain Wimbledon title",
+      "url": "https://indianexpress.com/article/sports/tennis/jannik-sinner-defeats-alexander-zverev-back-to-back-wimbledon-10783403/",
+      "published_iso": "2026-07-12T18:58:02+00:00"
+    },
+    {
+      "category": "india",
+      "source": "The Hindu National",
+      "headline": "AAP launches signature drive to press for action against \u2018dacoity\u2019 at Ram Temple",
+      "url": "https://www.thehindu.com/news/national/aap-launches-signature-drive-to-press-for-action-against-dacoity-at-ram-temple/article71214581.ece",
+      "published_iso": "2026-07-12T18:53:55+00:00"
+    },
+    {
+      "category": "india",
+      "source": "The Hindu National",
+      "headline": "Ernakulam to get government-run geriatric centre",
+      "url": "https://www.thehindu.com/news/national/kerala/ernakulam-to-get-government-run-geriatric-centre/article71138152.ece",
+      "published_iso": "2026-07-12T18:53:29+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Livemint",
+      "headline": "World News Today Live Updates on July 13, 2026 : Kate Middleton closes Wimbledon 2026 in elegant sage green Emilia Wickstead dress",
+      "url": "https://www.livemint.com/news/world/total-world-latest-news-on-july-13-2026-live-updates-11783882310774.html",
+      "published_iso": "2026-07-12T18:51:50+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Livemint",
+      "headline": "Kate Middleton closes Wimbledon 2026 in elegant sage green Emilia Wickstead dress",
+      "url": "https://www.livemint.com/news/world/kate-middleton-closes-wimbledon-2026-in-elegant-sage-green-emilia-wickstead-dress-11783880080367.html",
+      "published_iso": "2026-07-12T18:51:39+00:00"
+    },
+    {
+      "category": "technology",
+      "source": "Hacker News",
+      "headline": "The One-Step Trap (In AI Research)",
+      "url": "http://incompleteideas.net/IncIdeas/OneStepTrap.html",
+      "published_iso": "2026-07-12T18:41:15+00:00"
+    },
+    {
+      "category": "technology",
+      "source": "Hacker News",
+      "headline": "I love LLMs, I hate hype",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "published_iso": "2026-07-12T18:31:56+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Indian Express",
+      "headline": "Why Vijay Sethupathi refused to romance Krithi Shetty on-screen; expert on workplace boundaries",
+      "url": "https://indianexpress.com/article/lifestyle/workplace/vijay-sethupathi-krithi-shetty-dsp-movie-uppena-10766656/",
+      "published_iso": "2026-07-12T18:30:45+00:00"
+    },
+    {
+      "category": "technology",
+      "source": "Hacker News",
+      "headline": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "published_iso": "2026-07-12T18:25:51+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "Al Jazeera",
+      "headline": "Thousands gather to bid farewell to Qatar\u2019s Father Emir Sheikh Hamad",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/thousands-gather-to-bid-farewell-to-qatars-father-emir-sheikh-hamad?traffic_source=rss",
+      "published_iso": "2026-07-12T18:24:30+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Livemint",
+      "headline": "Iran rejects US\u2019 Strait of Hormuz shipping \u2018traffic is flowing\u2019 claim, insists it remains closed",
+      "url": "https://www.livemint.com/news/world/iran-rejects-us-strait-of-hormuz-shipping-traffic-is-flowing-claim-insists-it-remains-closed-11783879957425.html",
+      "published_iso": "2026-07-12T18:24:22+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Indian Express",
+      "headline": "IND vs ENG: Yastika Bhatia\u2019s century takes India closer to Lord\u2019s win",
+      "url": "https://indianexpress.com/article/sports/cricket/yastika-bhatia-century-india-closer-to-lords-win-4-wickets-10783445/",
+      "published_iso": "2026-07-12T18:17:39+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "AP (via Google News)",
+      "headline": "Sen. Lindsey Graham, a close Trump ally and foreign policy hawk, dies after a brief illness - AP News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcGhrZ2FzTUtJem9sWmVlbWNIVFdEdmw0dGNpXzZoenpMLXNIVXZGblVJOEs3MUhPU2hwQTF2cUVtU0VfWjZlOUdmc0pfQy0xWE0xYlFuaDhCY0pBcVFMU3p3dkM3ZXhlc04tdTlEOEpSMDVzWkJ4ZkFlQmVPOVM4ZjhoOVZJdHFXRDVIOUhTMDlVZDMtenEyWmxR?oc=5",
+      "published_iso": "2026-07-12T18:17:00+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "NYT World",
+      "headline": "Sheikh Hamad bin Khalifa, Ruler Who Transformed Qatar, Dies at 74",
+      "url": "https://www.nytimes.com/2026/07/12/world/middleeast/sheikh-hamad-bin-khalifa-qatar-dead.html",
+      "published_iso": "2026-07-12T18:11:16+00:00"
+    },
+    {
+      "category": "technology",
+      "source": "Hacker News",
+      "headline": "Can We Understand How Large Language Models Reason?",
+      "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
+      "published_iso": "2026-07-12T18:04:41+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Indian Express",
+      "headline": "US-Iran tensions soar: Fresh strikes on Qeshm Island as Hormuz status remains at odds",
+      "url": "https://indianexpress.com/article/world/strait-of-hormuz-iran-us-attacks-qeshm-island-kuwait-donald-trump-10783418/",
+      "published_iso": "2026-07-12T18:01:23+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "Al Jazeera",
+      "headline": "Who will replace Trump ally Lindsey Graham in the US Senate?",
+      "url": "https://www.aljazeera.com/news/2026/7/12/who-will-replace-trump-ally-lindsey-graham-in-the-us-senate?traffic_source=rss",
+      "published_iso": "2026-07-12T17:51:54+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "Reuters (via Google News)",
+      "headline": "Israel's election will be held on October 27, coalition head says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbVlfeEhKTEQwUVJDNzQ3eWVJM2JQd2JNMUZSV2pMVFRQUnp3YUNlN1RRQ2VmWVVITTZiUzJwZEJGbWVNUzR5Y0FPaHRZZU5YM0FpQ3Z0UWo1UGI5Tk9BNlNfNUhMMmRGckxhSHBDTzk5RWtsUTM5bGxfTjFkWEp3dF9Mb2RiT1kyNUZINksyTk9KQWt0Tk1qdjNjcjJqOURpUUxKQllTR2M3TC1wRzRLY3Z3N2o?oc=5",
+      "published_iso": "2026-07-12T17:50:55+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Times of India Top",
+      "headline": "How Putin runs his war machine from a Tokyo high-rise: Report",
+      "url": "https://timesofindia.indiatimes.com/defence/international/how-putin-runs-his-war-machine-from-a-tokyo-high-rise-report/articleshow/132349965.cms",
+      "published_iso": "2026-07-12T17:50:47+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Indian Express",
+      "headline": "Iltija Mufti says under house detention with mother Mehbooba ahead of Martyr\u2019s Day in Kashmir",
+      "url": "https://indianexpress.com/article/india/iltija-mehbooba-mufti-house-detention-kashmir-martyrs-day-10783436/",
+      "published_iso": "2026-07-12T17:50:35+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "Al Jazeera",
+      "headline": "Concern for renewed war in Iran as US attacks military, civilian targets",
+      "url": "https://www.aljazeera.com/news/2026/7/12/concern-for-renewed-war-in-iran-as-us-attacks-military-civilian-targets?traffic_source=rss",
+      "published_iso": "2026-07-12T17:50:27+00:00"
+    },
+    {
+      "category": "india",
+      "source": "NDTV Top Stories",
+      "headline": "3 Border Posts, Offshore Oil Platform Attacked In Kuwait, 1 Injured",
+      "url": "https://www.ndtv.com/world-news/us-iran-war-update-3-border-posts-offshore-oil-platform-attacked-in-kuwait-1-injured-11762403#publisher=newsstand",
+      "published_iso": "2026-07-12T17:49:57+00:00"
     },
     {
       "category": "geopolitics",
       "source": "BBC World",
       "headline": "US senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'",
       "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss",
-      "published_iso": "2026-07-12T15:34:45+00:00"
+      "published_iso": "2026-07-12T17:40:34+00:00"
     },
     {
       "category": "india",
       "source": "Indian Express",
-      "headline": "Bangladesh busts alleged extremist network masquerading as \u2018martial arts group\u2019",
-      "url": "https://indianexpress.com/article/world/bangladesh-dhaka-martial-arts-extremist-network-arrested-jatrabari-10783369/",
-      "published_iso": "2026-07-12T15:34:13+00:00"
+      "headline": "Vaibhav Sooryavanshi attends Wimbledon, picks Jannik Sinner as winner",
+      "url": "https://indianexpress.com/article/sports/cricket/vaibhav-sooryavanshi-wimbledon-picks-jannik-sinner-winner-10783426/",
+      "published_iso": "2026-07-12T17:38:35+00:00"
     },
     {
       "category": "india",
-      "source": "The Hindu National",
-      "headline": "CPI(M) criticises Undavalli land acquisition, seeks fair compensation",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cpim-criticises-undavalli-land-acquisition-seeks-fair-compensation/article71214357.ece",
-      "published_iso": "2026-07-12T15:34:03+00:00"
+      "source": "NDTV Top Stories",
+      "headline": "Over Union Minister's Satluj Stance, Punjab BJP Leader's 'Stay-In-Limit' Barb",
+      "url": "https://www.ndtv.com/india-news/over-union-ministers-satluj-stance-punjab-bjp-leaders-stay-in-limit-barb-11762367#publisher=newsstand",
+      "published_iso": "2026-07-12T17:31:16+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Indian Express",
+      "headline": "From Ladakh to Tibet: 7 monasteries perched among the peaks",
+      "url": "https://indianexpress.com/article/lifestyle/destination-of-the-week/from-ladakh-to-tibet-7-monasteries-perched-among-the-peaks-10771474/",
+      "published_iso": "2026-07-12T17:30:26+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Livemint",
+      "headline": "MeitY reviews Meta Platforms\u2019 reply over alleged Instagram child exploitation content",
+      "url": "https://www.livemint.com/news/india/meity-reviews-meta-platforms-reply-over-alleged-instagram-child-exploitation-content-11783875937262.html",
+      "published_iso": "2026-07-12T17:22:39+00:00"
     },
     {
       "category": "geopolitics",
-      "source": "NYT World",
-      "headline": "Inside Herat, Where a Taliban Campaign Targets a Cosmopolitan Outpost",
-      "url": "https://www.nytimes.com/2026/07/12/world/asia/taliban-morality-police-herat-protests.html",
-      "published_iso": "2026-07-12T15:33:38+00:00"
+      "source": "NPR World",
+      "headline": "Toronto police looking for suspects after deadly shooting at festival",
+      "url": "https://www.npr.org/2026/07/12/g-s1-133229/toronto-shooting-salsa-festival",
+      "published_iso": "2026-07-12T17:22:29+00:00"
     },
     {
-      "category": "india",
-      "source": "The Hindu National",
-      "headline": "First \u2018Atirudram\u2019 ceremony for global peace held in US",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/first-atirudram-ceremony-for-global-peace-held-in-us/article71214127.ece",
-      "published_iso": "2026-07-12T15:32:26+00:00"
-    },
-    {
-      "category": "india",
-      "source": "The Hindu National",
-      "headline": "ESIC to add seven more healthcare facilities",
-      "url": "https://www.thehindu.com/news/national/esic-to-add-seven-more-healthcare-facilities/article71214458.ece",
-      "published_iso": "2026-07-12T15:32:25+00:00"
+      "category": "geopolitics",
+      "source": "AP (via Google News)",
+      "headline": "Iran reports new attacks on military targets on its largest island near the Strait of Hormuz - AP News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZWNIZWpPMUROMXlXU0EwT1pjWWUycXFoTjBobEJLM0JpWGhjTWZwN0Q2RkxaY3N6cU9fNXZOT194MWFHYllDYUh4RWdEdmF3NVpGQ2tlOTl4dWI5VzVMWlgycVBYcmtSRDR6UV9lQmtoWkZMUWRvLUYwZXhIQzlGcVVpTGlMZElhRkxkT0pkMXlEZDJmSll0c2JsYkY?oc=5",
+      "published_iso": "2026-07-12T17:22:00+00:00"
     },
     {
       "category": "india",
       "source": "Livemint",
-      "headline": "Why did Manmohan Singh tell ex-CEC 'I will commit suicide,' in 2012? SY Quraishi recalls \u2018He could imagine\u2026\u2019",
-      "url": "https://www.livemint.com/news/india/why-did-manmohan-singh-tell-ex-cec-i-will-commit-suicide-in-2012-sy-quraishi-recalls-he-could-imagine-11783866477483.html",
-      "published_iso": "2026-07-12T15:32:08+00:00"
-    },
-    {
-      "category": "india",
-      "source": "The Hindu National",
-      "headline": "Tripura CM opens new public hospital in Agartala",
-      "url": "https://www.thehindu.com/news/national/tripura/tripura-cm-opens-new-public-hospital-in-agartala/article71214401.ece",
-      "published_iso": "2026-07-12T15:30:58+00:00"
+      "headline": "82-year-old Bihar man visits bank to withdraw old-age pension, finds  \u20b9759 crore in account",
+      "url": "https://www.livemint.com/news/india/82yearold-bihar-man-visits-bank-to-withdraw-old-age-pension-finds-759-crore-in-account-11783875357631.html",
+      "published_iso": "2026-07-12T17:21:54+00:00"
     },
     {
       "category": "india",
       "source": "Livemint",
-      "headline": "\u2018He called me last night\u2019: Trump recalls last phone call with Lindsey Graham before his death",
-      "url": "https://www.livemint.com/news/us-news/he-called-me-last-night-trump-recalls-last-phone-call-with-lindsey-graham-before-his-death-11783868168674.html",
-      "published_iso": "2026-07-12T15:30:54+00:00"
+      "headline": "He quit a  \u20b915 LPA job to start a business. Now he earns just  \u20b912,000 a month. Internet reacts",
+      "url": "https://www.livemint.com/news/trends/he-quit-a-rs-15-lpa-job-to-start-a-business-now-he-earns-just-rs-12-000-a-month-internet-reacts-11783874619656.html",
+      "published_iso": "2026-07-12T17:15:07+00:00"
     },
     {
       "category": "india",
-      "source": "Indian Express",
-      "headline": "5 protein shake red flags to know",
-      "url": "https://indianexpress.com/article/lifestyle/health/5-protein-shake-red-flags-to-know-10775449/",
-      "published_iso": "2026-07-12T15:30:00+00:00"
+      "source": "NDTV Top Stories",
+      "headline": "Projectiles Hit Iran's Qeshm Island As Washington-Tehran Trade Blows",
+      "url": "https://www.ndtv.com/world-news/projectiles-hit-irans-qeshm-island-as-washington-tehran-trade-blows-11762226#publisher=newsstand",
+      "published_iso": "2026-07-12T17:03:12+00:00"
+    },
+    {
+      "category": "technology",
+      "source": "Hacker News",
+      "headline": "Automation Without Understanding",
+      "url": "https://arxiv.org/abs/2607.06377",
+      "published_iso": "2026-07-12T16:54:47+00:00"
     },
     {
       "category": "india",
-      "source": "Livemint",
-      "headline": "India declares one-day national mourning on Monday for Sheikh Hamad bin Khalifa Al-Thani",
-      "url": "https://www.livemint.com/news/india/india-declares-one-day-national-mourning-on-monday-for-sheikh-hamad-bin-khalifa-althani-11783870054268.html",
-      "published_iso": "2026-07-12T15:29:19+00:00"
-    },
-    {
-      "category": "india",
-      "source": "The Hindu National",
-      "headline": "Real culprits being protected in Ram Temple donation embezzlement case: Congress MP",
-      "url": "https://www.thehindu.com/news/national/real-culprits-being-protected-in-ram-temple-donation-embezzlement-case-congress-mp/article71214275.ece",
-      "published_iso": "2026-07-12T15:28:46+00:00"
-    },
-    {
-      "category": "india",
-      "source": "The Hindu National",
-      "headline": "Wayanad debris slip: lone missing project manager\u2019s body recovered; death toll rises to eight",
-      "url": "https://www.thehindu.com/news/national/kerala/wayanad-debris-slip-death-toll-rises-to-eight-as-lone-project-managers-body-recovered/article71213481.ece",
-      "published_iso": "2026-07-12T15:28:42+00:00"
-    },
-    {
-      "category": "india",
-      "source": "The Hindu National",
-      "headline": "\u2018Narayana on Wheels\u2019 mobile clinic offers affordable care to poor patients in Nellore",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/narayana-on-wheels-mobile-clinic-offers-affordable-care-to-poor-patients-in-nellore/article71214315.ece",
-      "published_iso": "2026-07-12T15:27:38+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Indian Express",
-      "headline": "Satluj row: What legal records reveal about Jaswant Singh Khalra\u2019s lifework, and murder",
-      "url": "https://indianexpress.com/article/explained/satluj-cbi-court-reveal-about-jaswant-singh-khalra-10783356/",
-      "published_iso": "2026-07-12T15:23:37+00:00"
+      "source": "Livemint Markets",
+      "headline": "Week Ahead: Wall Street braces for inflation data, big bank earnings and Middle East developments",
+      "url": "https://www.livemint.com/market/stock-market-news/week-ahead-wall-street-braces-for-inflation-data-big-bank-earnings-and-middle-east-developments-11783868386079.html",
+      "published_iso": "2026-07-12T16:47:57+00:00"
     },
     {
       "category": "geopolitics",
       "source": "BBC World",
-      "headline": "David Willey, esteemed BBC foreign correspondent, dies aged 93",
+      "headline": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
+      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+      "published_iso": "2026-07-12T16:46:24+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "Reuters (via Google News)",
+      "headline": "US conducts strikes on Iran missile systems around Strait of Hormuz, Axios reports - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVlFEMTBmd3hvZzZpVnBYcnNnUlBnQW9DRlkydFVqUTM0S3I2emo0TDczX3NJSGNHdXJqZGJreUhDRDhoYnNUck9vRGVpWEVtMGNnNElfY1lzR0NZakdlSWtTZEExQ2YyWFFKWTNhLXpwbk9HRkF6VGs4V0pLTDRRT013Z3dvc1hZVWthV0x6MzFneHlxei1LZWg5NVNKUE1oV2pfTUNlbkIwNU1tVU14MmhXc1Z2VmNNZnR5Q2thYjFDMWRyaUNJbw?oc=5",
+      "published_iso": "2026-07-12T16:43:45+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "NYT World",
+      "headline": "How Trump Failed to Secure the Strait of Hormuz in His Iran Deal",
+      "url": "https://www.nytimes.com/2026/07/12/us/politics/trump-strait-of-hormuz-iran-deal.html",
+      "published_iso": "2026-07-12T16:43:37+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "BBC World",
+      "headline": "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani dies aged 74",
+      "url": "https://www.bbc.co.uk/news/articles/cql1qdq14xro?at_medium=RSS&at_campaign=rss",
+      "published_iso": "2026-07-12T16:35:50+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Livemint",
+      "headline": "Nancy Mace poised to enter South Carolina Senate race after Lindsey Graham's death: Report",
+      "url": "https://www.livemint.com/news/us-news/nancy-mace-poised-to-enter-south-carolina-senate-race-after-lindsey-grahams-death-report-11783873036094.html",
+      "published_iso": "2026-07-12T16:32:14+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "Reuters (via Google News)",
+      "headline": "Iran's IRNA says 'enemy' launches missiles towards Qeshm Island - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcFNWV2l4NHpONDVaQ0VPNVczX3ZhaHJHS08ycWJvWDhabVJlZDZrQU5rSDZ0bGRNZXhudFVxSDkzQnNoSTZqWkRXd0RrSWNEVGpHMzBVS2J5ZlZXZ0RPeG93ZWF2QjJWY05oV2FlVlFTODJ3dmJOSnVVOFlJSHFLUzdfYXVhY0NDOEdOVXctakZucmJZLUoxVFhuSk9qRGxPX2lMT3lmenA5LXdmTUpaSVhGcTg?oc=5",
+      "published_iso": "2026-07-12T16:29:41+00:00"
+    },
+    {
+      "category": "technology",
+      "source": "The Verge",
+      "headline": "Apple\u2019s failed self-driving car program left a legacy of powerful AI chips",
+      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "published_iso": "2026-07-12T16:27:06+00:00"
+    },
+    {
+      "category": "india",
+      "source": "NDTV Top Stories",
+      "headline": "Israel Elections, To Determine Netanyahu's Fate, On October 27",
+      "url": "https://www.ndtv.com/world-news/israel-elections-to-determine-netanyahus-fate-on-october-27-11762150#publisher=newsstand",
+      "published_iso": "2026-07-12T16:19:40+00:00"
+    },
+    {
+      "category": "india",
+      "source": "NDTV Top Stories",
+      "headline": "Iran's Fractured Regime Dooms Trump's Middle East Plan: John Bolton To NDTV",
+      "url": "https://www.ndtv.com/world-news/irans-fractured-regime-dooms-trumps-middle-east-plan-john-bolton-to-ndtv-11762149#publisher=newsstand",
+      "published_iso": "2026-07-12T16:18:43+00:00"
+    },
+    {
+      "category": "india",
+      "source": "NDTV Top Stories",
+      "headline": "Premium Coffee, Colonial Cousins Vinyl: What PM Modi Gifted Australia's PM",
+      "url": "https://www.ndtv.com/india-news/premium-coffee-colonial-cousins-vinyl-what-pm-modi-gifted-australias-pm-11762069#publisher=newsstand",
+      "published_iso": "2026-07-12T15:46:58+00:00"
+    },
+    {
+      "category": "india",
+      "source": "NDTV Top Stories",
+      "headline": "France Temporarily Shuts Down 3 Nuclear Reactors Amid Heatwave",
+      "url": "https://www.ndtv.com/world-news/france-temporarily-shuts-down-3-nuclear-reactors-amid-heatwave-11762063#publisher=newsstand",
+      "published_iso": "2026-07-12T15:45:37+00:00"
+    },
+    {
+      "category": "india",
+      "source": "NDTV Top Stories",
+      "headline": "9 Killed As Russia, Ukraine Intensify Attacks Against Each Other",
+      "url": "https://www.ndtv.com/world-news/russia-ukraine-war-9-killed-as-russia-ukraine-intensify-attacks-against-each-other-11762055#publisher=newsstand",
+      "published_iso": "2026-07-12T15:44:33+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "NYT World",
+      "headline": "Residents of Spanish Towns Caught in Fierce Blazes Recount Harrowing Escapes",
+      "url": "https://www.nytimes.com/2026/07/12/world/europe/spain-wildfire-almeria-province.html",
+      "published_iso": "2026-07-12T15:31:34+00:00"
+    },
+    {
+      "category": "technology",
+      "source": "Hacker News",
+      "headline": "The shingles vaccine may reduce the risk of dementia",
+      "url": "https://www.economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain",
+      "published_iso": "2026-07-12T15:23:59+00:00"
+    },
+    {
+      "category": "geopolitics",
+      "source": "BBC World",
+      "headline": "David Willey, esteemed BBC Vatican correspondent, dies aged 93",
       "url": "https://www.bbc.co.uk/news/articles/cn9403518jro?at_medium=RSS&at_campaign=rss",
       "published_iso": "2026-07-12T15:22:52+00:00"
     },
     {
-      "category": "india",
-      "source": "Livemint",
-      "headline": "'Don't just notice, report it':  FSSAI asks consumers to report unsafe food via their app",
-      "url": "https://www.livemint.com/news/india/dont-just-notice-report-it-fssai-asks-consumers-to-report-unsafe-food-via-their-app-11783868743395.html",
-      "published_iso": "2026-07-12T15:22:42+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Indian Express",
-      "headline": "UPSC Essentials daily subject quiz : International Relations MCQs (Week 170) \u2014 Check out answers with explanations",
-      "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-daily-subject-quiz-international-relations-week-170-10783361/",
-      "published_iso": "2026-07-12T15:20:24+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Indian Express",
-      "headline": "Vandita Mishra writes: The regional party does not hold",
-      "url": "https://indianexpress.com/article/opinion/columns/bihar-prashant-kishor-west-bengal-tmc-up-bjp-sp-andhra-pradesh-tdp-regional-parties-10783355/",
-      "published_iso": "2026-07-12T15:18:19+00:00"
+      "category": "technology",
+      "source": "Hacker News",
+      "headline": "Don't you mean extinct?",
+      "url": "https://fabiensanglard.net/extinct/index.html",
+      "published_iso": "2026-07-12T15:17:20+00:00"
     },
     {
       "category": "geopolitics",
-      "source": "Al Jazeera",
-      "headline": "Israeli forces kill five Palestinians in latest attacks on Gaza",
-      "url": "https://www.aljazeera.com/news/2026/7/12/israeli-forces-kill-five-palestinians-in-latest-attacks-on-gaza?traffic_source=rss",
-      "published_iso": "2026-07-12T15:16:44+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Indian Express",
-      "headline": "Driving road roller over seized narcotics, Himanta Biswa Sarma kicks off massive anti-drug campaign",
-      "url": "https://indianexpress.com/article/india/himanta-biswa-sarma-anti-drug-campaign-seized-narcotics-road-roller-10783359/",
-      "published_iso": "2026-07-12T15:12:29+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Indian Express",
-      "headline": "Legendary singer S Janaki laid to rest; granddaughter Apsara says, \u2018She was one of a kind\u2019",
-      "url": "https://indianexpress.com/article/entertainment/telugu/legendary-singer-s-janaki-laid-to-rest-granddaughter-apsara-says-she-was-one-of-a-kind-10783353/",
-      "published_iso": "2026-07-12T15:07:04+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Livemint",
-      "headline": "Israel sets October 27 election date as Benjamin Netanyahu's coalition completes full term",
-      "url": "https://www.livemint.com/news/world/israel-sets-october-27-election-date-as-benjamin-netanyahus-coalition-completes-full-term-11783868321741.html",
-      "published_iso": "2026-07-12T15:06:18+00:00"
-    },
-    {
-      "category": "geopolitics",
-      "source": "Al Jazeera",
-      "headline": "What made US Republican Senator Lindsey Graham a controversial figure",
-      "url": "https://www.aljazeera.com/news/2026/7/12/what-made-us-republican-senator-lindsey-graham-a-controversial-figure?traffic_source=rss",
-      "published_iso": "2026-07-12T15:03:49+00:00"
+      "source": "AP (via Google News)",
+      "headline": "Qatar\u2019s former ruler Sheikh Hamad bin Khalifa Al Thani has died at 74 - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWjRDaUlZZWhZMlBnRGVNSmRGNzBoLWVGeXJEWVljdkZwNVkwcTNJT3pURUs5aXR5UkF1RzdzZDRUUWNGSnJnajlYRGptM3U1a01lUEVGRk1xT05sWjdRYjd6MFVOd0JYV3paSndLTEJkVkxwQ01UZmp1S0ZvS2ItOFlVT0xfN2dQd05DZThBVk43NldxaElUUEh4S19JdDl6WGc?oc=5",
+      "published_iso": "2026-07-12T15:11:00+00:00"
     },
     {
       "category": "technology",
@@ -192,67 +514,25 @@
       "published_iso": "2026-07-12T15:00:00+00:00"
     },
     {
-      "category": "india",
-      "source": "Livemint",
-      "headline": "'I trust my friend': Chinese teen's decision to leave  \u20b925 crore fortune to childhood friend goes viral",
-      "url": "https://www.livemint.com/news/trends/i-trust-my-friend-chinese-teens-decision-to-leave-rs-25-crore-fortune-to-childhood-friend-goes-viral-11783866753486.html",
-      "published_iso": "2026-07-12T14:58:03+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Times of India Top",
-      "headline": "Stock market this week: Earnings, inflation data to steer D-Street",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-this-week-q1-earnings-inflation-middle-east-tensions-to-keep-d-street-volatile/articleshow/132347529.cms",
-      "published_iso": "2026-07-12T14:56:53+00:00"
-    },
-    {
-      "category": "india",
-      "source": "NDTV Top Stories",
-      "headline": "Self-Immolation, Protests: Youth-Backed Nepal Government Faces Gen-Z Fire",
-      "url": "https://www.ndtv.com/world-news/self-immolation-protests-youth-backed-nepal-government-faces-gen-z-fire-11761903#publisher=newsstand",
-      "published_iso": "2026-07-12T14:50:53+00:00"
-    },
-    {
-      "category": "india",
-      "source": "NDTV Top Stories",
-      "headline": "Man Killed After Speeding SUV Hits Him In Delhi, Driver Arrested: Cops",
-      "url": "https://www.ndtv.com/india-news/man-killed-after-speeding-suv-hits-him-in-delhi-driver-arrested-cops-11761901#publisher=newsstand",
-      "published_iso": "2026-07-12T14:50:37+00:00"
+      "category": "geopolitics",
+      "source": "Reuters (via Google News)",
+      "headline": "New Syrian parliament meets for first time in Damascus - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX2ZCcEtqYlFjUXpUaGF5UEZUZklqaDJMSGI5NXRUdGI1bERBcnpUaXlkQl9jZnIxeVBYYWpTN2lpdFJFZUd4UWhVenhrWmotcHhHNi1RMU4tUHV3N3g3UXNLd2cycDdoT1NWUWNsa1NmaURWSDVOZlQ3S2lhM2RJQnpIck1ZTlNlVnBVbVdtREhlaGMxcDIyZlhSY3BDd3N1WkVj?oc=5",
+      "published_iso": "2026-07-12T14:56:31+00:00"
     },
     {
       "category": "geopolitics",
-      "source": "Al Jazeera",
-      "headline": "FIFA, Infantino, to examine 64-team World Cup for 2030 tournament",
-      "url": "https://www.aljazeera.com/sports/2026/7/12/fifa-infantino-to-examine-64-team-world-cup-for-2030-tournament?traffic_source=rss",
-      "published_iso": "2026-07-12T14:47:15+00:00"
+      "source": "NYT World",
+      "headline": "Zelensky Announces Leadership Shuffle as War Turns in Ukraine\u2019s Favor",
+      "url": "https://www.nytimes.com/2026/07/12/world/europe/ukraine-zelensky-leadership.html",
+      "published_iso": "2026-07-12T14:51:40+00:00"
     },
     {
       "category": "geopolitics",
-      "source": "Al Jazeera",
-      "headline": "The architect of Qatari autonomy",
-      "url": "https://www.aljazeera.com/opinions/2026/7/12/the-architect-of-qatari-autonomy?traffic_source=rss",
-      "published_iso": "2026-07-12T14:42:27+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Livemint",
-      "headline": "\u2018Traffic is flowing...Iran does not control the strait\u2019: US says Hormuz remains open despite Iranian threats",
-      "url": "https://www.livemint.com/news/us-news/traffic-is-flowing-iran-does-not-control-the-strait-us-says-strait-of-hormuz-remains-open-despite-iranian-threats-11783865997910.html",
-      "published_iso": "2026-07-12T14:42:05+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Indian Express",
-      "headline": "Rs 5-cr extortion-murder plot foiled, 3 linked to Lawrence Bishnoi gang arrested in Delhi",
-      "url": "https://indianexpress.com/article/delhi/lawrence-bishnoi-gang-members-arrested-rohini-extortion-plot-nadir-shah-murder-10783344/",
-      "published_iso": "2026-07-12T14:41:47+00:00"
-    },
-    {
-      "category": "india",
-      "source": "NDTV Top Stories",
-      "headline": "Delhi's AQI Touches 261, Highest In Over 85 Days: Weather Office",
-      "url": "https://www.ndtv.com/india-news/delhis-aqi-touches-261-highest-in-over-85-days-weather-office-11761868#publisher=newsstand",
-      "published_iso": "2026-07-12T14:40:06+00:00"
+      "source": "Reuters (via Google News)",
+      "headline": "Russia says four killed in Ukrainian drone attack on Russian-controlled Enerhodar - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTEJUQkhzN1ZwbUdlc2ZtLUpkNmxObUoydGFsUTJZY2lrX2k4WUh4WnYzN2l4V1h2V0hiNGY5RzgxaW1Iczlpb00tcnhCXy1lVDhQdkJzMnlLMFVCRFE4M2lNRy1rdmwycXliQTRjQWJSa1hCUHFEbWhMWGItbjBrektMaG9rQXV0c1l2dWxZUDd4b2Z5bTVHVElOMW1qSVVJaVJHd2RPNzlZMExHNnRhUjJ3Q3ByelhT?oc=5",
+      "published_iso": "2026-07-12T14:51:27+00:00"
     },
     {
       "category": "technology",
@@ -262,20 +542,6 @@
       "published_iso": "2026-07-12T14:38:01+00:00"
     },
     {
-      "category": "india",
-      "source": "Livemint",
-      "headline": "Mumbai-Ahmedabad bullet train: Surat-Bilimora section to begin operations in 2027, says Vaishnaw",
-      "url": "https://www.livemint.com/news/india/mumbaiahmedabad-bullet-train-surat-bilimora-section-to-begin-operations-in-2027-says-vaishnaw-11783865072363.html",
-      "published_iso": "2026-07-12T14:34:50+00:00"
-    },
-    {
-      "category": "india",
-      "source": "NDTV Top Stories",
-      "headline": "How Russia Built A Spy Network In Heart Of Japan",
-      "url": "https://www.ndtv.com/world-news/russia-ukraine-war-how-russia-built-a-spy-network-in-heart-of-japan-11761853#publisher=newsstand",
-      "published_iso": "2026-07-12T14:34:29+00:00"
-    },
-    {
       "category": "climate",
       "source": "Guardian Environment",
       "headline": "UK couple found burned and semi-conscious in Almer\u00eda amid Spanish wildfires",
@@ -283,32 +549,18 @@
       "published_iso": "2026-07-12T14:26:34+00:00"
     },
     {
-      "category": "india",
-      "source": "Times of India Top",
-      "headline": "'Religion is outside our scope': Annamalai charts political future for his 'movement'",
-      "url": "https://timesofindia.indiatimes.com/india/religion-is-outside-our-scope-annamalai-says-we-the-leaders-will-become-political-party/articleshow/132347025.cms",
-      "published_iso": "2026-07-12T14:17:42+00:00"
+      "category": "geopolitics",
+      "source": "AP (via Google News)",
+      "headline": "Lindsey Graham draws tributes for his support of Ukraine, trans-Atlantic ties and Israel - AP News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeEpBbVRLNUVVSjRxNURKZjFhR2tMbndqZl93SFVNNWJnRVhJZ3EyelVpWm1mLW5TckpRMGpSR2xXUEkyZ2cxTTA0VElTRHJMckVIUXJXWERCWkthMGF2QXV3X2M5TmZqb1NIaHFsanN2a2NtVVZxNnpVV29Jejk4R3dwNWt2WllUZ2ZSYzBDalRpM1ZE?oc=5",
+      "published_iso": "2026-07-12T14:11:00+00:00"
     },
     {
       "category": "geopolitics",
-      "source": "Al Jazeera",
-      "headline": "Driven by desperation: Yemenis resort to dangerous energy alternatives",
-      "url": "https://www.aljazeera.com/news/2026/7/12/driven-by-desperation-yemenis-resort-to-dangerous-energy-alternatives?traffic_source=rss",
-      "published_iso": "2026-07-12T14:12:45+00:00"
-    },
-    {
-      "category": "india",
-      "source": "NDTV Top Stories",
-      "headline": "Trump Claims Hormuz Open To Commercial Ships After Iran Says It Was Closed",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-donald-trump-claims-strait-of-hormuz-open-to-commercial-ships-after-iran-says-it-was-closed-11761766#publisher=newsstand",
-      "published_iso": "2026-07-12T14:07:36+00:00"
-    },
-    {
-      "category": "india",
-      "source": "NDTV Top Stories",
-      "headline": "China Builds Full-Scale US Warship Replica For Missile Target Practice",
-      "url": "https://www.ndtv.com/world-news/china-builds-full-scale-us-warship-replica-for-missile-target-practice-11761338#publisher=newsstand",
-      "published_iso": "2026-07-12T14:04:16+00:00"
+      "source": "Reuters (via Google News)",
+      "headline": "About 300 people evacuated in Paris suburb due to 'suspicious' car near synagogue - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSVVZY3VQR0hRVTIxNWcwcHBqMzNoYWxob1ZTSEJESnJIUDBKSFY0aTB0Rnlsek1HNVhzcXpvWnc4QlJaSDF2dUh1NTJTWXVONnJzZERvSElRSkVWcmIyNU5aQW44Zlp2VVlUcTh2aTUxN3ZBeng3S2xhRUtXang5OFE1LXEyR25DRnctOWhhWnV5STNhbzEtZTBTMER1Sk9LcXQ2UktuRHBoNVNvajdIWmxOckhKRWV3bV80UllUNA?oc=5",
+      "published_iso": "2026-07-12T14:01:43+00:00"
     },
     {
       "category": "climate",
@@ -339,32 +591,11 @@
       "published_iso": "2026-07-12T14:00:00+00:00"
     },
     {
-      "category": "india",
-      "source": "Times of India Top",
-      "headline": "Gurgaon engineer stabs girlfriend to death, kills self by jumping in front of train",
-      "url": "https://timesofindia.indiatimes.com/city/gurgaon/ai-engineer-stabs-girlfriend-to-death-at-gurgaon-pg-then-kills-self-by-jumping-in-front-of-train/articleshow/132346741.cms",
-      "published_iso": "2026-07-12T13:53:20+00:00"
-    },
-    {
       "category": "geopolitics",
-      "source": "Al Jazeera",
-      "headline": "Marc Marquez dominates Germany MotoGP to close in on championship lead",
-      "url": "https://www.aljazeera.com/sports/2026/7/12/marc-marquez-dominates-germany-motogp-to-close-in-on-championship-lead?traffic_source=rss",
-      "published_iso": "2026-07-12T13:45:32+00:00"
-    },
-    {
-      "category": "india",
-      "source": "NDTV Top Stories",
-      "headline": "On Camera, Mercedes Runs Over Man In Chandigarh. He Walks Seconds Later",
-      "url": "https://www.ndtv.com/india-news/on-camera-mercedes-runs-over-man-in-chandigarh-he-walks-seconds-later-11761561#publisher=newsstand",
-      "published_iso": "2026-07-12T13:39:02+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Times of India Top",
-      "headline": "Yastika Bhatia scripts history, becomes first-ever woman cricketer to...",
-      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/yastika-bhatia-scripts-history-in-lords-test-becomes-first-ever-woman-cricketer-to-/articleshow/132346189.cms",
-      "published_iso": "2026-07-12T13:38:21+00:00"
+      "source": "Reuters (via Google News)",
+      "headline": "Ukraine's Zelenskiy dismisses Prime Minister Svyrydenko after only a year - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSnhGVVA5VTN4M0liQkZxblJjLVplazZxT3FLTGtrbGp6d2dldFBmX2dkT2M3a0lQNV94enRxaTV6ZUdia2JLTnpzZ3dLdW50aDh2UldEY1ZRemJ3dmFwNTExTFFnOGh0bmtzb1plNm5oeDZkdy1WVjZEMVp5a1JWd19Rb2MydlpNVTFCSnRrRFpVZzFNTHZRaW9kUmJZWU1QaXQxZkxmSExRem1lZ3Zr?oc=5",
+      "published_iso": "2026-07-12T13:38:06+00:00"
     },
     {
       "category": "geopolitics",
@@ -374,46 +605,18 @@
       "published_iso": "2026-07-12T13:35:01+00:00"
     },
     {
-      "category": "geopolitics",
-      "source": "Al Jazeera",
-      "headline": "Ukraine\u2019s Zelenskyy announces cabinet reshuffle, replaces PM Svyrydenko",
-      "url": "https://www.aljazeera.com/news/2026/7/12/ukraines-zelenskyy-announces-cabinet-reshuffle-replaces-pm-svyrydenko?traffic_source=rss",
-      "published_iso": "2026-07-12T13:28:53+00:00"
-    },
-    {
-      "category": "technology",
-      "source": "Hacker News",
-      "headline": "AI Boosts Research Careers but Flattens Scientific Discovery",
-      "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
-      "published_iso": "2026-07-12T13:26:13+00:00"
+      "category": "economy",
+      "source": "Guardian Business",
+      "headline": "France and UK to increase staffing at border controls in effort to avert travel chaos",
+      "url": "https://www.theguardian.com/uk-news/2026/jul/12/france-uk-increase-staffing-border-controls-travel-chaos",
+      "published_iso": "2026-07-12T13:33:37+00:00"
     },
     {
       "category": "geopolitics",
-      "source": "Al Jazeera",
-      "headline": "Pape Thiaw fired as Senegal coach after disappointing FIFA World Cup",
-      "url": "https://www.aljazeera.com/sports/2026/7/12/pape-thiaw-fired-as-senegal-coach-after-disappointing-fifa-world-cup?traffic_source=rss",
-      "published_iso": "2026-07-12T13:23:21+00:00"
-    },
-    {
-      "category": "india",
-      "source": "NDTV Top Stories",
-      "headline": "US-Iran War Live Updates: US Military Says Traffic \"Flowing\" In Strait Of Hormuz",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-live-updates-us-strikes-iran-after-tanker-attacks-in-hormuz-donald-trump-nato-israel-lebanon-hezbollah-ceasefire-11741497#publisher=newsstand",
-      "published_iso": "2026-07-12T13:20:40+00:00"
-    },
-    {
-      "category": "technology",
-      "source": "Hacker News",
-      "headline": "Gina Gallery of International Naive Art",
-      "url": "https://www.ginagallery.com/",
-      "published_iso": "2026-07-12T13:18:34+00:00"
-    },
-    {
-      "category": "geopolitics",
-      "source": "NYT World",
-      "headline": "U.K. Police Make New Arrest in Killing of Ex-Lawmaker",
-      "url": "https://www.nytimes.com/2026/07/12/world/europe/ann-widdecombe-arrest-uk.html",
-      "published_iso": "2026-07-12T13:02:56+00:00"
+      "source": "Reuters (via Google News)",
+      "headline": "Trump says Strait of Hormuz open to commercial traffic - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM04zYVJRb2pfTkwzT0lIUm8wWHpKRkc4WE9TazFxdGQ4RktValc5UXhBbmM3ZGlHaFNBZm5MVDI4a3dDMG8zX2pza3NSb2o5dS1RYVNLUzFhd0wtOFZucWdhcHMzZFgyRWRaNUJUOUJ6VXp2ZEl4NXFmeXFiRWQzZDNQbWFqRDRpVnZXNmNwWmQ0a3RMeDRkTUQ0NkZXUUhZUHc?oc=5",
+      "published_iso": "2026-07-12T13:30:09+00:00"
     },
     {
       "category": "technology",
@@ -435,6 +638,13 @@
       "headline": "Alzheimer's tau protein has a surprising secret role in memory",
       "url": "https://www.sciencedaily.com/releases/2026/07/260710003535.htm",
       "published_iso": "2026-07-12T12:53:12+00:00"
+    },
+    {
+      "category": "india",
+      "source": "Times of India Top",
+      "headline": "'He forced his way in': Delivery agent flashes at Bengaluru woman, caught on cam",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/he-forced-his-way-in-bengaluru-woman-says-flipkart-delivery-executive-entered-flat-flashed-at-her-incident-caught-on-camera/articleshow/132345803.cms",
+      "published_iso": "2026-07-12T12:48:23+00:00"
     },
     {
       "category": "science",
@@ -465,13 +675,6 @@
       "published_iso": "2026-07-12T12:14:21+00:00"
     },
     {
-      "category": "technology",
-      "source": "Hacker News",
-      "headline": "Understanding the Odin Programming Language",
-      "url": "https://odinbook.com/",
-      "published_iso": "2026-07-12T12:08:07+00:00"
-    },
-    {
       "category": "climate",
       "source": "Guardian Environment",
       "headline": "\u2018Huge wave\u2019 of carbon storage projects causes alarm in small-town USA as oil firms eye billions in subsidies",
@@ -486,25 +689,11 @@
       "published_iso": "2026-07-12T12:00:00+00:00"
     },
     {
-      "category": "technology",
-      "source": "Hacker News",
-      "headline": "Unauthenticated RCE in Motorola's MR2600 Router",
-      "url": "https://mrbruh.com/motorola/",
-      "published_iso": "2026-07-12T11:52:21+00:00"
-    },
-    {
-      "category": "technology",
-      "source": "Hacker News",
-      "headline": "Yt-Dlp Sequence Diagrams",
-      "url": "https://app.ilograph.com/demo.ilograph.yt-dlp/Download%2520a%2520YouTube%2520Video",
-      "published_iso": "2026-07-12T11:49:38+00:00"
-    },
-    {
       "category": "india",
-      "source": "Times of India Top",
-      "headline": "'Never seen more confused management': Ex-cricketer blasts Gambhir's coaching staff",
-      "url": "https://timesofindia.indiatimes.com/sports/cricket/india-tour-of-england/never-seen-more-confused-team-management-former-india-cricketer-blasts-gautam-gambhirs-coaching-staff-after-0-4-rout/articleshow/132344748.cms",
-      "published_iso": "2026-07-12T11:35:33+00:00"
+      "source": "Reuters India (via Google News)",
+      "headline": "One Indian national missing after attack on vessel off Oman, foreign ministry says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVWJXSGd0QTVpY0Q3ZDBxWndCTGNGOTRoSkZmYWxOUTRfdTZ4Z2lXN2FzRWJ1cjlZSnZURFBGNFJOenpWZ2dkZWNJNUdybXlZN1BQS0xDMmNhZ1dCYXIwVTNudEZvME1rUlNPLS1EMXVPamlSbzV4Z1BWYXNFQXhlNlQ2MGQ3NXFxd0dfUTd4NHptemJLdlg4ZlktMl9pd1JkQnp2YUZSQWgwQjlDNWJCWTIwYnE0aC1fRk05aFI1Y3lLRTZ4?oc=5",
+      "published_iso": "2026-07-12T11:40:31+00:00"
     },
     {
       "category": "india",
@@ -530,7 +719,7 @@
     {
       "category": "technology",
       "source": "Hacker News",
-      "headline": "Old and new apps, via modern coding agents by Terry Tao",
+      "headline": "Old and new apps, via modern coding agents",
       "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
       "published_iso": "2026-07-12T11:09:42+00:00"
     },
@@ -605,11 +794,11 @@
       "published_iso": "2026-07-12T09:21:36+00:00"
     },
     {
-      "category": "technology",
-      "source": "Hacker News",
-      "headline": "Ghostel.el: Terminal emulator powered by libghostty",
-      "url": "https://dakra.github.io/ghostel/",
-      "published_iso": "2026-07-12T08:52:59+00:00"
+      "category": "india",
+      "source": "Reuters India (via Google News)",
+      "headline": "India's Tata Consultancy Services plans up to 8,900 AI deployment engineers, seeks AI acquisitions - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZHVWMTZfdlZoNHBPbVhNSTktYk5yTzBaN3BOTWc2NjNhczhUWVJVTktLZld3WC0zeGEyREFDZk1kWkFjNzBFaXV0M3JSMC1mNFlPQU9DYy1palFFbTRoUFYxR1JZVDNRVmhCQzREYnMxOGd1cEFhNE9aeTFOVzhDTjF6UVY3b0RzUm5ReWIyQkQ2ZjF2OC1kNG40clpPNzhkTTJZOWJUckc0SUlaWVhaa1VFOVpkVXA3am9aY1I2bWlqODM3N2c?oc=5",
+      "published_iso": "2026-07-12T08:37:43+00:00"
     },
     {
       "category": "india",
@@ -689,13 +878,6 @@
       "published_iso": "2026-07-12T07:21:28+00:00"
     },
     {
-      "category": "geopolitics",
-      "source": "NYT World",
-      "headline": "Typhoon Bavi Hits China, Causing Evacuations, Floods and Flight Delays",
-      "url": "https://www.nytimes.com/2026/07/12/world/asia/typhoon-bavi-china.html",
-      "published_iso": "2026-07-12T07:17:40+00:00"
-    },
-    {
       "category": "economy",
       "source": "Guardian Business",
       "headline": "UK\u2019s public spending watchdog to investigate Lower Thames Crossing project",
@@ -715,13 +897,6 @@
       "headline": "Iran moves to close Strait of Hormuz. Should investors fear a Nifty crash in coming days?",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/iran-moves-to-close-strait-of-hormuz-should-investors-fear-a-nifty-crash-in-coming-days/articleshow/132341443.cms",
       "published_iso": "2026-07-12T06:15:48+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Livemint Markets",
-      "headline": "Q1 results 2026: HCL Tech, Wipro to Jio Financial among companies to declare Q1 results next week; check full list here",
-      "url": "https://www.livemint.com/market/stock-market-news/q1-results-2026-hcl-tech-wipro-to-jio-financial-among-companies-to-declare-q1-results-next-week-check-full-list-here-11783830107050.html",
-      "published_iso": "2026-07-12T06:10:12+00:00"
     },
     {
       "category": "india",
@@ -774,13 +949,6 @@
     },
     {
       "category": "geopolitics",
-      "source": "NYT World",
-      "headline": "As India Erases Its Colonial Past, Delhi\u2019s Elite Feel Targeted",
-      "url": "https://www.nytimes.com/2026/07/12/world/asia/india-gymkhana-club-eviction-colonialism.html",
-      "published_iso": "2026-07-12T04:01:13+00:00"
-    },
-    {
-      "category": "geopolitics",
       "source": "Guardian World",
       "headline": "Toronto shooting: two dead and four injured at Salsa on St Clair street festival",
       "url": "https://www.theguardian.com/world/2026/jul/12/toronto-shooting-two-dead-and-three-injured-as-police-search-for-active-shooter",
@@ -795,10 +963,10 @@
     },
     {
       "category": "geopolitics",
-      "source": "BBC World",
-      "headline": "At least two killed in Toronto street festival shooting",
-      "url": "https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_medium=RSS&at_campaign=rss",
-      "published_iso": "2026-07-12T03:56:02+00:00"
+      "source": "AP (via Google News)",
+      "headline": "Bellingham scores twice to lift England past Haaland and Norway 2-1 and into World Cup semifinals - AP News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMjdYd29Xa3NsdWxUR2g0LUJLR1FlSTQzdlZOLUpZUHFrZXUxN1VCU2d6c0djSGpqZEJiZWFoLXJuTlVhdVJ0NmExV1B1aXFvbFYzR0Z4dk1TY21IYk4xX3RNQ1pxdHpDTU9LWlhKcVc5TVF1Q2N6REkwSWtKWk5mTDdNNEhvdU91U2I1YThNNlVsSERZ?oc=5",
+      "published_iso": "2026-07-12T03:56:00+00:00"
     },
     {
       "category": "science",
@@ -813,174 +981,6 @@
       "headline": "U.S. launches fresh strikes on Iran as Tehran says it has closed Strait of Hormuz",
       "url": "https://www.npr.org/2026/07/11/g-s1-133212/us-iran-vessel-attack-strait-hormuz-gulf",
       "published_iso": "2026-07-12T01:32:36+00:00"
-    },
-    {
-      "category": "geopolitics",
-      "source": "BBC World",
-      "headline": "Muslim judge in India faces death threats after convicting 'cow vigilantes'",
-      "url": "https://www.bbc.co.uk/news/articles/cd6e9zq87xvo?at_medium=RSS&at_campaign=rss",
-      "published_iso": "2026-07-12T00:49:24+00:00"
-    },
-    {
-      "category": "geopolitics",
-      "source": "NYT World",
-      "headline": "England and Norway Resurrect a Rivalry for the World Cup",
-      "url": "https://www.nytimes.com/2026/07/11/world/europe/england-norway-world-cup.html",
-      "published_iso": "2026-07-12T00:12:39+00:00"
-    },
-    {
-      "category": "geopolitics",
-      "source": "BBC World",
-      "headline": "T. rex could become most expensive fossil ever - but it's a \u200bproblem for scientists",
-      "url": "https://www.bbc.co.uk/news/articles/c4gykgyn1r4o?at_medium=RSS&at_campaign=rss",
-      "published_iso": "2026-07-11T23:58:40+00:00"
-    },
-    {
-      "category": "geopolitics",
-      "source": "NPR World",
-      "headline": "Palestinian aid worker who organized World Cup screenings killed in Israeli strike",
-      "url": "https://www.npr.org/2026/07/11/nx-s1-5890044/palestinian-aid-worker-who-organized-world-cup-screenings-killed-in-israeli-strike",
-      "published_iso": "2026-07-11T21:09:56+00:00"
-    },
-    {
-      "category": "geopolitics",
-      "source": "NPR World",
-      "headline": "A veteran foreign correspondent looks back on a career covering conflicts",
-      "url": "https://www.npr.org/2026/07/11/nx-s1-5866592/a-veteran-foreign-correspondent-looks-back-on-a-career-covering-conflicts",
-      "published_iso": "2026-07-11T21:08:23+00:00"
-    },
-    {
-      "category": "technology",
-      "source": "The Verge",
-      "headline": "After years of teasing, the viral Nopia synth is \u2018basically finished\u2019",
-      "url": "https://www.theverge.com/gadgets/964499/nopia-viral-synth-finished-price-release-demo",
-      "published_iso": "2026-07-11T20:57:42+00:00"
-    },
-    {
-      "category": "technology",
-      "source": "Guardian Technology",
-      "headline": "AI companies want to water down Australia\u2019s copyright laws. Artists are outraged, Labor is split",
-      "url": "https://www.theguardian.com/technology/2026/jul/12/ai-australia-will-labor-water-down-copyright-laws-datacentres",
-      "published_iso": "2026-07-11T20:00:59+00:00"
-    },
-    {
-      "category": "india",
-      "source": "The Hindu Business",
-      "headline": "Microsoft layoff: India will have only a `minimal numerical\u2019 impact but a massive strategic one",
-      "url": "https://www.thehindu.com/business/microsoft-layoff-india-will-have-only-a-minimal-numerical-impact-but-a-massive-strategic-one/article71194483.ece",
-      "published_iso": "2026-07-11T19:04:01+00:00"
-    },
-    {
-      "category": "india",
-      "source": "The Hindu Business",
-      "headline": "Is India prepared to handle an Internet blackout?",
-      "url": "https://www.thehindu.com/business/is-india-prepared-to-handle-an-internet-blackout/article71206601.ece",
-      "published_iso": "2026-07-11T18:53:53+00:00"
-    },
-    {
-      "category": "technology",
-      "source": "The Verge",
-      "headline": "Oregon\u2019s Attorney General withdraws effort to delay Paramount and Warner Bros. merger",
-      "url": "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger",
-      "published_iso": "2026-07-11T18:44:12+00:00"
-    },
-    {
-      "category": "india",
-      "source": "Times of India Top",
-      "headline": "'Wife moved in with another man': Tamil Nadu father kills 2 kids, self",
-      "url": "https://timesofindia.indiatimes.com/city/madurai/man-electrocutes-two-kids-self-in-tuticorin/articleshow/132336297.cms",
-      "published_iso": "2026-07-11T18:08:28+00:00"
-    },
-    {
-      "category": "india",
-      "source": "The Hindu Business",
-      "headline": "Aditya Birla Group proposes \u20b912,000 crore investment for Kansariguda alumina refinery expansion",
-      "url": "https://www.thehindu.com/business/Industry/aditya-birla-group-proposes-12000-crore-investment-for-kansariguda-alumina-refinery-expansion/article71211551.ece",
-      "published_iso": "2026-07-11T17:49:31+00:00"
-    },
-    {
-      "category": "geopolitics",
-      "source": "Guardian World",
-      "headline": "Venezuela quake death toll passes 4,300 as scale of recovery effort looms large",
-      "url": "https://www.theguardian.com/world/2026/jul/11/venezuela-quake-deaths-passes-4000-recovery-effort",
-      "published_iso": "2026-07-11T17:23:19+00:00"
-    },
-    {
-      "category": "technology",
-      "source": "The Verge",
-      "headline": "FL Studio head Constantin Koehncke turns to Reddit for feedback and fun",
-      "url": "https://www.theverge.com/entertainment/963509/image-line-ceo-constantin-koehncke-fl-studio-interview",
-      "published_iso": "2026-07-11T15:00:00+00:00"
-    },
-    {
-      "category": "india",
-      "source": "The Hindu Business",
-      "headline": "El-Nino, below normal monsoon pose risk for growth, inflation outlook in FY27: HDFC Bank MD",
-      "url": "https://www.thehindu.com/business/el-nino-below-normal-monsoon-pose-risk-for-growth-inflation-outlook-in-fy27-hdfc-bank-md/article71210377.ece",
-      "published_iso": "2026-07-11T14:12:46+00:00"
-    },
-    {
-      "category": "climate",
-      "source": "Guardian Environment",
-      "headline": "\u2018A slap in the face\u2019: small farmers say Trump is turning his back on them",
-      "url": "https://www.theguardian.com/us-news/2026/jul/11/iowa-farming-trump-cuts-usda",
-      "published_iso": "2026-07-11T14:00:51+00:00"
-    },
-    {
-      "category": "geopolitics",
-      "source": "NYT World",
-      "headline": "Man Arrested in Killing of U.K. Ex-Lawmaker Is Released",
-      "url": "https://www.nytimes.com/2026/07/11/world/europe/uk-ann-widdecombe-suspect-released.html",
-      "published_iso": "2026-07-11T13:16:54+00:00"
-    },
-    {
-      "category": "health",
-      "source": "BBC Health",
-      "headline": "US pays out $3m to victims of mystery Havana Syndrome condition reported by spies",
-      "url": "https://www.bbc.co.uk/news/articles/cr7xyl78vnko?at_medium=RSS&at_campaign=rss",
-      "published_iso": "2026-07-11T13:11:52+00:00"
-    },
-    {
-      "category": "science",
-      "source": "ScienceDaily",
-      "headline": "Scientists warn invasive Asian mantises are threatening Europe's wildlife",
-      "url": "https://www.sciencedaily.com/releases/2026/07/260710003540.htm",
-      "published_iso": "2026-07-11T12:53:55+00:00"
-    },
-    {
-      "category": "economy",
-      "source": "CNBC Economy",
-      "headline": "'Funflation' hits home: Why staying in isn't the cost-saver it used to be",
-      "url": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html",
-      "published_iso": "2026-07-11T12:47:23+00:00"
-    },
-    {
-      "category": "india",
-      "source": "The Hindu Business",
-      "headline": "FSSAI issues notices to Swiggy Instamart for allegedly delivering spoiled, expired food products",
-      "url": "https://www.thehindu.com/business/Industry/fssai-issues-notices-to-swiggy-instamart-for-allegedly-delivering-spoiled-expired-food-products/article71209909.ece",
-      "published_iso": "2026-07-11T12:25:20+00:00"
-    },
-    {
-      "category": "science",
-      "source": "BBC Science & Environment",
-      "headline": "RSPB buys 'magical' 96-hectare landscape to reconnect habitats",
-      "url": "https://www.bbc.co.uk/news/articles/cdx78nk7g25o?at_medium=RSS&at_campaign=rss",
-      "published_iso": "2026-07-11T12:01:34+00:00"
-    },
-    {
-      "category": "technology",
-      "source": "Ars Technica",
-      "headline": "A Jupiter-size planet that escaped its star's death",
-      "url": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
-      "published_iso": "2026-07-11T12:00:58+00:00"
-    },
-    {
-      "category": "climate",
-      "source": "Guardian Environment",
-      "headline": "Drones are detecting more sharks at US beaches, but do they make the public safer?",
-      "url": "https://www.theguardian.com/environment/2026/jul/11/sharks-drones-public-safety-beaches",
-      "published_iso": "2026-07-11T12:00:49+00:00"
     }
   ]
 }
