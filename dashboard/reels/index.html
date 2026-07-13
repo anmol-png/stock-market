@@ -65,23 +65,29 @@
     border:none;background:none;border-radius:99px;padding:7px 11px;min-height:34px;display:inline-flex;align-items:center;gap:4px;white-space:nowrap}
   #tabs button.on{color:#fff;background:linear-gradient(135deg, var(--tabcat,var(--accent)), color-mix(in srgb, var(--tabcat,var(--accent)) 62%, #000))}
 
-  /* latest-headlines card (hourly feed) */
-  .hcard{justify-content:flex-start}
-  .hlist{display:flex;flex-direction:column;gap:2px}
-  .hrow{display:block;padding:12px 2px;border-bottom:1px solid var(--line);text-decoration:none}
-  .hrow:last-child{border-bottom:none}
-  .hrow .ht{font-size:15.5px;line-height:1.4;font-weight:600;color:var(--txt)}
-  .hrow .hm{font-size:11.5px;color:var(--dim);margin-top:4px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
-  .hrow .hb{color:var(--cat,var(--accent));font-weight:700}
-
   /* cover / divider centered */
   .cover,.divider{text-align:center}
-  .cover .chips,.cover .meta,.cover .counts,.divider .chips{justify-content:center}
+  .cover .chips,.cover .meta,.divider .chips{justify-content:center}
   .scrollcue{font-size:12.5px;font-weight:600;color:var(--dim);animation:bob 1.7s ease-in-out infinite}
   @keyframes bob{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(5px);opacity:1}}
   .divider .t{font-family:var(--round);font-weight:800;font-size:26px;letter-spacing:.01em}
   .divider .sub{font-size:14px;color:var(--dim);margin-top:8px;line-height:1.5}
   .bigemoji{font-size:56px;line-height:1}
+
+  /* ---- cover header: eyebrow pill + freshness dot + stat pills ---- */
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;margin:0 auto;padding:6px 13px;border-radius:99px;
+    background:var(--panel2);border:1px solid var(--line);font-size:12px;font-weight:700;color:var(--dim);letter-spacing:.02em}
+  .eyebrow .sep{width:3px;height:3px;border-radius:99px;background:var(--line)}
+  .eyebrow .day{color:var(--txt);text-transform:uppercase;letter-spacing:.09em;font-size:11.5px}
+  .freshdot{display:inline-flex;align-items:center;gap:6px}
+  .freshdot::before{content:"";width:7px;height:7px;border-radius:99px;box-shadow:0 0 0 3px color-mix(in srgb,currentColor 22%,transparent)}
+  .freshdot.ok{color:var(--up)} .freshdot.ok::before{background:var(--up)}
+  .freshdot.stale{color:var(--amber)} .freshdot.stale::before{background:var(--amber)}
+  .statpills{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .statpill{flex:1 1 0;min-width:78px;max-width:130px;background:var(--panel2);border:1px solid var(--line);
+    border-radius:14px;padding:12px 8px;text-align:center}
+  .statpill b{display:block;font-family:var(--round);font-size:24px;font-weight:800;color:var(--txt);line-height:1;font-variant-numeric:tabular-nums}
+  .statpill span{display:block;margin-top:5px;font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--dim)}
 
   /* ---- shared content ---- */
   .meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12.5px;font-weight:600;color:var(--dim)}
@@ -239,7 +245,7 @@ const todayLocal = () => new Date().toLocaleDateString('en-CA');
 // highlight standalone money/percent figures — runs AFTER esc(), so it's injection-safe
 const hl = s => esc(s).replace(/([₹$€£]\s?\d[\d,]*\.?\d*|\b\d+(?:\.\d+)?%)/g, '<mark>$1</mark>');
 
-let DECK = null, HEADLINES = null;
+let DECK = null;
 
 /* ---------- renderers: each card type ---------- */
 function catStyle(cat){ return `--cat:var(--${CAT[cat]?cat:'markets'})`; }
@@ -275,14 +281,23 @@ const expandBtn = (onclick, label) => `<button class="expand" onclick='${onclick
 
 // Reel faces: category + hook + THE TAKEAWAY (hero) + expand. Body stays hidden until the button is tapped.
 const R = {
-  cover: c => `
-    <div class="daylbl">${esc(DECK.day_label||DECK.date)}</div>
-    <div style="font-size:12px;color:${DECK.date<todayLocal()?'var(--amber)':'var(--dim)'};margin-top:-8px">
-      ${DECK.date<todayLocal()?'⏳ yesterday\'s deck · ':''}updated ${esc(relTime(DECK.generated_at))}</div>
+  cover: c => {
+    const stale = DECK.date < todayLocal();
+    return `
+    <div class="eyebrow">
+      <span class="day">${esc(DECK.day_label||DECK.date)}</span>
+      <span class="sep"></span>
+      <span class="freshdot ${stale?'stale':'ok'}">${stale?'yesterday’s deck':'updated '+esc(relTime(DECK.generated_at))}</span>
+    </div>
     <h1 class="big">${esc(c.headline)}</h1>
-    <div class="counts"><span><b>${c.counts.stories}</b>world</span><span><b>${c.counts.markets}</b>markets</span><span><b>${c.counts.learn}</b>learn</span></div>
+    <div class="statpills">
+      <div class="statpill"><b>${c.counts.stories}</b><span>World</span></div>
+      <div class="statpill"><b>${c.counts.markets}</b><span>Markets</span></div>
+      <div class="statpill"><b>${c.counts.learn}</b><span>Learn</span></div>
+    </div>
     ${c.big_picture?expandBtn('openCover()', 'The big picture'):''}
-    <div class="scrollcue">swipe up to begin ↑</div>`,
+    <div class="scrollcue">swipe up to begin ↑</div>`;
+  },
 
   story: c => `
     <div class="meta">${catChip(c.category)}${threadRibbon(c.thread)}${c.importance==='critical'?'<span style="color:var(--down)">● critical</span>':''}</div>
@@ -350,7 +365,7 @@ const R = {
 };
 
 /* ---------- reel assembly + Stories-style progress ---------- */
-const EXTRA = {cover:'cover', divider:'divider', hcard:'hcard'};   // extra class on top of .card
+const EXTRA = {cover:'cover', divider:'divider'};   // extra class on top of .card
 const cardCat = c => c.category || ({concept:'learn', quiz:'learn'})[c.type] || 'markets';
 const TAB_CAT = {global:'geopolitics', india:'india', markets:'markets'};
 // which of the three tabs a card belongs to — India stories split out by category
@@ -371,28 +386,6 @@ function setPillar(p){
   document.getElementById('deck').scrollTo(0,0);
 }
 
-// build the "Latest headlines" cards for a region from the hourly headlines feed
-const HL_PER_CARD = 8, HL_MAX_CARDS = 4;
-function headlineCards(region){
-  if(!HEADLINES || !(HEADLINES.headlines||[]).length) return [];
-  const items = HEADLINES.headlines.filter(x => (x.category==='india') === (region==='india'));
-  if(!items.length) return [];
-  const chunks = [];
-  for(let i=0;i<items.length && chunks.length<HL_MAX_CARDS;i+=HL_PER_CARD) chunks.push(items.slice(i,i+HL_PER_CARD));
-  const label = region==='india' ? 'India' : 'Global';
-  const upd = HEADLINES.as_of ? `updated ${relTime(HEADLINES.as_of)}` : '';
-  return chunks.map((rows,idx)=>({ __html:`
-    <div class="meta">${catChip(region==='india'?'india':'geopolitics')}<span>📰 Latest headlines — ${label}</span>${idx===0&&upd?`<span style="color:var(--dim)">· ${esc(upd)}</span>`:''}</div>
-    <div class="hlist">${rows.map(x=>{
-      const meta = CAT[x.category]||{lbl:x.category||'news',emoji:'•'};
-      return `<a class="hrow" href="${esc(x.url)}" target="_blank" rel="noopener">
-        <div class="ht">${esc(x.headline)}</div>
-        <div class="hm"><span class="hb">${meta.emoji} ${esc(meta.lbl)}</span>${esc(x.source||'')} · ${esc(relTime(x.published_iso))}</div></a>`;
-    }).join('')}</div>
-    ${idx===chunks.length-1?`<a class="expand" style="text-decoration:none;background:none;border:1px solid var(--line);color:var(--dim);box-shadow:none" href="../#world">See all headlines on the dashboard <span class="ar">→</span></a>`:'<div class="scrollcue">more latest ↑</div>'}`,
-    cat: region==='india'?'india':'geopolitics' }));
-}
-
 function render(){
   const deck = document.getElementById('deck');
   let cards = DECK.cards.filter(c => pillarOf(c)===PILLARSEL).map(c=>({card:c}));
@@ -401,15 +394,13 @@ function render(){
     const n = cards.filter(x=>x.card.type==='story').length;
     cards.unshift({intro:`<div class="daylbl">${esc(DECK.day_label||DECK.date)}</div>
       <div class="bigemoji">🇮🇳</div><h1 class="big">India</h1>
-      <div class="body" style="color:var(--dim)">${n} decoded ${n===1?'story':'stories'} today, then the latest headlines from home.</div>
+      <div class="body" style="color:var(--dim)">${n} decoded ${n===1?'story':'stories'} from home today.</div>
       <div class="scrollcue">swipe up ↑</div>`, extra:'cover', cat:'india'});
   }
-  // append the hourly latest-headline cards (Global / India only)
-  if(PILLARSEL==='global'||PILLARSEL==='india') headlineCards(PILLARSEL).forEach(h=>cards.push({raw:h.__html, extra:'hcard', cat:h.cat}));
 
   deck.innerHTML = cards.map((x,i)=>{
     const cat = x.card ? cardCat(x.card) : x.cat;
-    const inner = x.card ? (R[x.card.type]||(()=>''))(x.card) : (x.intro || x.raw || '');
+    const inner = x.card ? (R[x.card.type]||(()=>''))(x.card) : (x.intro || '');
     const extra = x.card ? (EXTRA[x.card.type]||'') : (x.extra||'');
     return `<section class="card ${extra}" data-i="${i}" style="${catStyle(cat)}">${inner}</section>`;
   }).join('');
@@ -427,15 +418,13 @@ function render(){
   [...deck.children].forEach(el=>io.observe(el));
 }
 
-// re-pull the hourly headlines + daily deck from the cloud (works on the phone; SW is network-first)
+// re-pull the latest deck (regenerates ~every 2h on the laptop; SW is network-first so the phone gets it)
 function refreshNow(btn){
   if(btn) btn.classList.add('spin');
-  Promise.all([
-    fetch('../reels.json?_='+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null),
-    fetch('../headlines.json?_='+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null),
-  ]).then(([d,h])=>{ if(d) DECK=d; if(h) HEADLINES=h; render();
-    setTimeout(()=>btn&&btn.classList.remove('spin'), 500);
-  });
+  fetch('../reels.json?_='+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)
+    .then(d=>{ if(d) DECK=d; render();
+      setTimeout(()=>btn&&btn.classList.remove('spin'), 500);
+    });
 }
 
 /* ---------- bottom sheet ---------- */
@@ -563,9 +552,8 @@ function openGloss(key){
 }
 
 /* ---------- boot ---------- */
-// headlines.json refreshes hourly in the cloud — fetch it alongside the daily deck
-fetch('../headlines.json?_='+Date.now()).then(r=>r.ok?r.json():null).then(h=>{ HEADLINES=h; if(DECK) render(); }).catch(()=>{});
-fetch('../reels.json')
+// the deck (reels.json) regenerates ~every 2h on the laptop; fetch the latest
+fetch('../reels.json?_='+Date.now())
   .then(r=>{ if(!r.ok) throw 0; return r.json(); })
   .then(d=>{ DECK=d; setPillar('global'); })   // default to the Global deck
   .catch(()=>{ document.getElementById('empty').style.display='flex'; });

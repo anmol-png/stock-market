@@ -1,22 +1,24 @@
 #!/bin/bash
-# Daily Intelligence — full morning pipeline.
-# Fired by ~/Library/LaunchAgents/com.dailyintel.daily.plist on login/wake (RunAtLoad + StartInterval),
-# so it runs "the first time you open your laptop each day". The guard below makes every extra firing
-# a no-op once today's brief exists; failed runs self-retry on the next 30-min tick.
+# Daily Intelligence — full decoded pipeline (regenerates ~every 2 hours while the laptop is awake).
+# Fired by ~/Library/LaunchAgents/com.dailyintel.daily.plist on login/wake (RunAtLoad + 30-min
+# StartInterval). The freshness guard below makes every firing a no-op unless the last brief is older
+# than ~110 min, so the net effect is a real run about every 2 hours (and once at first open).
 #
-# Manual:  bash routine/run_daily.sh --force     (--force regenerates even if today's brief exists)
+# Manual:  bash routine/run_daily.sh --force     (--force regenerates even if the brief is fresh)
 set -u
 
 ROOT="/Users/anmolkhilwani/Learn AI/stock-market"
 PY="$ROOT/.venv/bin/python"
 CLAUDE="$HOME/.local/bin/claude"
 TODAY=$(date +%F)
+FRESH_MIN=110          # skip a run if the brief was regenerated less than this many minutes ago
 
 cd "$ROOT" || exit 1
 mkdir -p logs
 
-# ---- once-per-day guard (the archive file only exists after a successful publish) ----
-if [ "${1:-}" != "--force" ] && [ -f "dashboard/archive/brief-$TODAY.json" ]; then
+# ---- freshness guard: run at most ~every 2h (a 30-min wake tick past 110 min triggers the next run) ----
+if [ "${1:-}" != "--force" ] && [ -f "output/brief-latest.json" ] \
+   && [ -n "$(find output/brief-latest.json -mmin -$FRESH_MIN 2>/dev/null)" ]; then
   exit 0
 fi
 
@@ -54,12 +56,18 @@ if ! grep -q "\"date\": \"$TODAY\"" output/brief-latest.json 2>/dev/null; then
   echo "WARN: brief-latest.json is not dated $TODAY — publishing whatever exists"
 fi
 
-# ---- publish + archive (also writes dashboard/headlines.json) ----
+# ---- publish + archive (world.json / brief.json / reels.json + dated archive) ----
 "$PY" build_dashboard.py      || echo "WARN: publish failed"
 
-# ---- email only when credentials exist ----
+# ---- email once per day (the pipeline now runs every ~2h; don't spam the inbox) ----
 if [ -f .env ]; then
-  "$PY" send.py               || echo "WARN: email failed"
+  if [ -f "logs/emailed-$TODAY" ]; then
+    echo "already emailed today — skipping email"
+  elif "$PY" send.py; then
+    touch "logs/emailed-$TODAY"
+  else
+    echo "WARN: email failed (will retry next run)"
+  fi
 else
   echo "no .env — skipping email"
 fi

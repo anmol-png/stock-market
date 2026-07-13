@@ -58,9 +58,11 @@ add `thread` objects to stories that continue previous coverage (see the world s
 **The `dashboard/` folder is published to a PUBLIC GitHub Pages site** (via GitHub Actions on every push).
 Never write secrets, keys, email addresses, or personal data anywhere under `dashboard/`.
 
-**Two update cadences:** the AI-decoded briefs (`world`/`brief`/`reels.json`) regenerate once a day on the
-Mac; the raw `dashboard/headlines.json` refreshes hourly in the cloud (`.github/workflows/hourly-news.yml`,
-RSS only — no AI). The reels show 3 tabs (Global/India/Markets); India = stories with `category: "india"`.
+**Refresh cadence:** the AI-decoded briefs (`world`/`brief`/`reels.json`) regenerate **about every 2 hours
+on the Mac** while the laptop is awake (`routine/run_daily.sh`, guarded so it runs at most ~every 110 min);
+each push auto-deploys via `.github/workflows/pages.yml`. There is **no raw-headlines feed** — depth is the
+product, so every card is fully decoded. The reels show 3 tabs (Global/India/Markets); India = stories with
+`category: "india"`.
 
 ## Data you have (all free)
 - `output/world-raw-latest.json` — broad global headlines across all categories, pulled by `fetch_world.py`.

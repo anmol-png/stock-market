@@ -99,12 +99,6 @@
   .cchip{background:var(--panel2);border:1px solid var(--line);border-radius:16px;padding:5px 12px;
          font-size:12px;font-weight:600;cursor:pointer;color:var(--txt)}
   .cchip:hover{border-color:var(--accent);color:var(--accent)}
-  /* latest headlines strip */
-  .hrow{display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--line);font-size:13.5px}
-  .hrow:last-child{border-bottom:0}
-  .hrow .ht{flex:1;min-width:0}
-  .hrow .hm{color:var(--dim);font-size:11.5px;white-space:nowrap}
-  .hrow a{color:var(--txt)} .hrow a:hover{color:var(--accent)}
   /* freshness */
   .stale{color:var(--amber) !important}
   .asof{font-size:11px;color:var(--dim);margin-top:5px}
@@ -288,9 +282,6 @@
     </div>
     <div class="catbar" id="catbar"></div>
     <div id="stories"></div>
-    <div class="sec-title" id="hlTitle" style="display:none">Latest headlines <span id="hlMeta" class="muted" style="text-transform:none;letter-spacing:0"></span>
-      <span id="hlRefresh" style="cursor:pointer;color:var(--accent)" title="Re-pull the news feeds now" onclick="refreshNews(this)">↻</span></div>
-    <div class="card" id="hl" style="display:none"></div>
     <div class="sec-title" id="notableTitle" style="display:none">Also notable</div>
     <div class="card" id="notable" style="display:none"></div>
     <div class="disc" id="worldDisc"></div>
@@ -457,7 +448,7 @@ function pctPhrase(pct,isCrypto){
   return `${arrow} ${size} move ${dir} today`;
 }
 
-let INDEX = [], LAST_BRIEF = null, HEADLINES = null, CURRENT_TICKER = null;
+let INDEX = [], LAST_BRIEF = null, CURRENT_TICKER = null;
 
 /* ---------------- pillar switching ---------------- */
 function showPillar(which){
@@ -537,9 +528,6 @@ function refreshNow(btn){
   fetch('/api/refresh?_='+Date.now()).then(r=>r.ok?r.json():null).then(res=>{
     if(res && res.ok){ loadStocks(); stamp(); }   // live technicals recomputed → pull them in
   }).catch(()=>{});
-  fetch('/api/refresh_news?_='+Date.now()).then(r=>r.ok?r.json():null).then(res=>{
-    if(res && res.ok){ loadHeadlines(); }         // fresh RSS pull → re-render the headline strip
-  }).catch(()=>{});
   setTimeout(()=>{ if(btn){ btn.classList.remove('spin'); btn.disabled=false; btn.textContent='⟳ Refresh'; } }, 700);
 }
 
@@ -557,9 +545,6 @@ function loadDay(day){
     bn.innerHTML = `🕘 Viewing the archived brief for <b>${esc(CUR_DAY)}</b> — a snapshot of that day. `
       + `<a onclick="document.getElementById('daySel').value='latest';loadDay('latest')">← Back to latest</a>`;
   } else { bn.style.display='none'; }
-  // Latest headlines are a "now" feature — hide them when reading an archived day.
-  if(CUR_DAY==='latest'){ loadHeadlines(); }
-  else { document.getElementById('hlTitle').style.display='none'; document.getElementById('hl').style.display='none'; }
 }
 
 /* ======================================================================
@@ -596,7 +581,6 @@ function filterCat(c){
   ACTIVE_CAT = c;
   document.querySelectorAll('.catchip').forEach(el=>el.classList.toggle('active', el.dataset.cat===c));
   renderStories();
-  renderHeadlines();
 }
 
 function renderStories(){
@@ -747,48 +731,6 @@ function loadStocks(){
     const sAsOf = document.getElementById('stocksAsOf');
     if(sAsOf) sAsOf.textContent = newest ? `· prices as of ${fmtStamp(newest)} (${relTime(newest)})` : '';
   }).catch(()=>{});
-}
-
-/* ---------------- latest headlines — raw-feed volume with REAL timestamps ---------------- */
-function loadHeadlines(){
-  return fetch('./headlines.json?_='+Date.now()).then(r=>r.ok?r.json():null).then(h=>{
-    HEADLINES = h;
-    renderHeadlines();
-  }).catch(()=>{ HEADLINES=null; renderHeadlines(); });
-}
-
-function renderHeadlines(){
-  const title=document.getElementById('hlTitle'), box=document.getElementById('hl');
-  const items=(HEADLINES&&HEADLINES.headlines)||[];
-  if(!items.length || CUR_DAY!=='latest'){ title.style.display='none'; box.style.display='none'; return; }
-  const list = items.filter(x=>ACTIVE_CAT==='all'||x.category===ACTIVE_CAT);
-  title.style.display='block'; box.style.display='block';
-  document.getElementById('hlRefresh').style.display = IS_LOCAL ? '' : 'none';  // re-pull needs the local server
-  document.getElementById('hlMeta').textContent = HEADLINES.as_of ? `— ${list.length} stories · fetched ${relTime(HEADLINES.as_of)}` : `— ${list.length} stories`;
-  const row = x=>{
-    const meta = CAT[x.category]||{lbl:x.category||'news',emoji:'•'};
-    const accent = `var(--${x.category||'gdelt'})`;
-    return `<div class="hrow">
-      <span class="cat-badge" style="background:${accent}22;color:${accent}">${meta.emoji} ${esc(meta.lbl)}</span>
-      <span class="ht"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.headline)}</a></span>
-      <span class="hm">${esc(x.source||'')}${x.published_iso?` · <b title="${esc(x.published_iso)}">${relTime(x.published_iso)}</b>`:''}</span>
-    </div>`;
-  };
-  const first = list.slice(0,15).map(row).join('');
-  const rest = list.slice(15).map(row).join('');
-  box.innerHTML = first
-    + (rest?`<div class="extra" id="hlExtra">${rest}</div>
-       <button class="more-toggle" onclick="toggleExtra('hlExtra',this,'Show all ${list.length} ▾')">Show all ${list.length} ▾</button>`:'')
-    || '<span class="muted">No recent headlines.</span>';
-}
-
-// Section-level ↻ — re-pulls the RSS feeds server-side (local only), then re-renders.
-function refreshNews(el){
-  if(el){ el.textContent='…'; }
-  fetch('/api/refresh_news?_='+Date.now()).then(r=>r.ok?r.json():null).then(res=>{
-    if(el){ el.textContent='↻'; }
-    if(res && res.ok) loadHeadlines();
-  }).catch(()=>{ if(el){ el.textContent='↻'; } });
 }
 
 function card(r){

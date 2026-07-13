@@ -11,12 +11,12 @@ with two pillars:
 Plus **📱 Reels** (`dashboard/reels/`) — the whole day as a full-screen, swipeable mobile deck, in
 **three tabs: 🌍 Global · 🇮🇳 India · 📈 Markets**. Every card is built around **one bold takeaway**;
 tapping the button opens a **bulleted briefing** (key points, why it matters, ripple effects, sources)
-one tap away. Each region tab ends with **latest headlines** that refresh **every hour in the cloud**
-(GitHub Actions — no Mac needed), newest first, with a **↻ refresh button** on the phone. On your phone:
-open the site → Share → **Add to Home Screen** → it launches like an app and works offline.
+one tap away. A **↻ refresh button** on the phone pulls the latest deck. On your phone: open the site →
+Share → **Add to Home Screen** → it launches like an app and works offline.
 
-**Two update cadences:** the AI-decoded deep-dives regenerate **once a day** (Claude on your Mac); the
-raw latest-headlines feed refreshes **hourly in the cloud** so the phone always has fresh news.
+**Refresh cadence:** the full AI-decoded deep-dives (World + Markets) regenerate **about every 2 hours**
+on your Mac while the laptop is awake (Claude on your Max subscription), so the reels stay both deep and
+fresh — no shallow raw-headline ticker.
 
 Built **free / near-free**, with the AI brain running on your **Claude Max subscription** (not the
 paid API). Designed for someone new to markets: it decodes and explains, it doesn't just summarize.
@@ -25,9 +25,10 @@ See [PLAN.md](PLAN.md) for the full design and rationale.
 
 ## How it works
 
-A scheduled **Claude Code routine** runs each morning on your subscription: it gathers free data +
-broad world news, Claude decodes/analyzes both pillars (web-searching to confirm and fill gaps),
-emails a short digest, and publishes the full depth to the dashboard.
+A scheduled **Claude Code routine** runs **about every 2 hours** (while the laptop is awake) on your
+subscription: it gathers free data + broad world news, Claude decodes/analyzes both pillars
+(web-searching to confirm and fill gaps), publishes the full depth to the dashboard, and emails a short
+digest **once a day**.
 
 ```
 fetch_world.py ─► output/world-raw-latest.json ─┐
@@ -80,15 +81,16 @@ analyze_stock.py ─► dashboard/stocks/*.json  ────┘                
    `https://USER.github.io/stock-market/dashboard/` (+ `/dashboard/reels/` for the mobile deck).
    Publishing runs via **GitHub Actions** (`.github/workflows/pages.yml`) on every push — set Pages
    source to "GitHub Actions" (`gh api -X PUT repos/{owner}/{repo}/pages -f build_type=workflow`).
-   A second workflow (`hourly-news.yml`) refreshes the latest-headlines feed **every hour in the cloud**
-   (free, no Mac needed). The daily Mac run still writes the AI-decoded briefs and pushes them.
+   The Mac run (about every 2 hours) writes the AI-decoded briefs and pushes them, which triggers the
+   deploy — the phone always gets fresh, fully-decoded reels.
    ⚠️ The repo is **public** (free Pages requires it): briefs, archives, and your watchlist are
    visible; `.env`, `output/`, and `logs/` are gitignored — never commit secrets.
 
 6. **Automation (already set up on this Mac)** — a LaunchAgent
    (`~/Library/LaunchAgents/com.dailyintel.daily.plist`) runs [routine/run_daily.sh](routine/run_daily.sh)
-   **the first time you open your laptop each day**: fetch → analyze → headless Claude writes both
-   briefs → publish + archive (+ email if `.env` exists). See
+   **about every 2 hours while the laptop is awake** (a freshness guard skips runs when the last brief is
+   <110 min old): fetch → analyze → headless Claude writes both briefs → publish + archive (+ email once
+   per day if `.env` exists). See
    [routine/daily_routine.md](routine/daily_routine.md) for manage/disable/manual-run commands.
 
 ## Files
@@ -104,11 +106,11 @@ analyze_stock.py ─► dashboard/stocks/*.json  ────┘                
 | `analyze_stock.py` | Technical-analysis engine — computes the industry indicator suite and turns it into a processed verdict + plain-English notes per stock (`python analyze_stock.py AAPL` or `--all`) |
 | `send.py` | Renders + emails the **short two-pillar** digest via Gmail SMTP |
 | `build_dashboard.py` | Publishes both briefs (`world.json` + `brief.json`) to the dashboard |
-| `server.py` | Local server (threaded): serves the dashboard + `/api/analyze` (live any-ticker analysis), `/api/refresh` (recompute all), `/api/refresh_news` (re-pull headlines) |
-| `dashboard/index.html` | Two-pillar dashboard: 🌍 World (decoded stories + latest headlines) and 📈 Markets (feed + live deep panel), with 🎓 lessons, 📚 concept chips, 📈 developing-story threads, board sparklines, and freshness timestamps everywhere |
+| `server.py` | Local server (threaded): serves the dashboard + `/api/analyze` (live any-ticker analysis), `/api/refresh` (recompute all) |
+| `dashboard/index.html` | Two-pillar dashboard: 🌍 World (decoded stories) and 📈 Markets (feed + live deep panel), with 🎓 lessons, 📚 concept chips, 📈 developing-story threads, board sparklines, and freshness timestamps everywhere |
 | `dashboard/reels/` | 📱 The mobile deck (PWA): swipe-per-card, one takeaway per card, decode sheet, learn cards; `build_dashboard.build_reels()` compiles `dashboard/reels.json` daily |
 | `dashboard/glossary.js` | The **education layer** — plain-English "what is it / how to read it / why it matters" for every metric AND macro/world concept |
-| `routine/run_daily.sh` + `routine/claude_routine.md` | The automated morning pipeline (LaunchAgent fires it at first laptop-open each day) |
+| `routine/run_daily.sh` + `routine/claude_routine.md` | The automated pipeline (LaunchAgent fires it ~every 2h while the laptop is awake) |
 | `routine/daily_routine.md` | How the automation works + manage/disable commands |
 
 ## The dashboard

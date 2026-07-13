@@ -11,9 +11,6 @@ It ALSO keeps a dated history so you can browse any past day from the dashboard'
     dashboard/archive/brief-<date>.json
     dashboard/archive/index.json   (list of available days, newest first)
 
-And it publishes the raw-feed "Latest headlines" strip (timestamps included):
-    output/world-raw-latest.json -> dashboard/headlines.json  (recent, deduped, capped)
-
 The date comes from each brief's own "date" field. Re-running for the same day overwrites that
 day's snapshot (idempotent). Either brief missing is a soft warning.
 
@@ -58,48 +55,6 @@ def rebuild_index() -> list[dict]:
     ordered = sorted(days.values(), key=lambda d: d["date"], reverse=True)
     (ARCHIVE / "index.json").write_text(json.dumps({"days": ordered}, indent=2))
     return ordered
-
-
-def build_headlines(window_hours: int = 48, cap_total: int = 140, cap_per_source: int = 8) -> int:
-    """Publish dashboard/headlines.json — the recent raw headlines with real timestamps.
-
-    Keeps items published within `window_hours`; if too few parse/survive, falls back to the
-    newest `cap_total` overall so the section never renders empty after a successful fetch.
-    """
-    src = ROOT / "output" / "world-raw-latest.json"
-    if not src.exists():
-        print("  ! no world-raw-latest.json — skipping headlines.", file=sys.stderr)
-        return 0
-    raw = json.loads(src.read_text())
-    items = raw.get("all_headlines", []) or []
-
-    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=window_hours)
-    def _ts(it):
-        try:
-            return dt.datetime.fromisoformat(it.get("published_iso"))
-        except (TypeError, ValueError):
-            return None
-    dated = [(it, _ts(it)) for it in items]
-    recent = [(it, t) for it, t in dated if t and t >= cutoff]
-    if len(recent) < 10:  # thin window (stale feeds / parse failures) — fall back to newest overall
-        recent = sorted([(it, t) for it, t in dated if t], key=lambda x: x[1], reverse=True)[:cap_total]
-    recent.sort(key=lambda x: x[1], reverse=True)
-
-    per_source: dict[str, int] = {}
-    out = []
-    for it, _t in recent:
-        s = it.get("source") or "?"
-        if per_source.get(s, 0) >= cap_per_source:
-            continue
-        per_source[s] = per_source.get(s, 0) + 1
-        out.append({k: it.get(k) for k in ("category", "source", "headline", "url", "published_iso")})
-        if len(out) >= cap_total:
-            break
-
-    payload = {"as_of": raw.get("as_of"), "count": len(out), "headlines": out}
-    (DASH / "headlines.json").write_text(json.dumps(payload, indent=2))
-    print(f"Published dashboard/headlines.json ({len(out)} headlines, as of {raw.get('as_of')}).")
-    return len(out)
 
 
 def build_board_history(days: int = 14) -> int:
@@ -317,12 +272,6 @@ def build_reels() -> int:
 
 def main() -> None:
     ARCHIVE.mkdir(parents=True, exist_ok=True)
-
-    # Headlines publish even when briefs are missing — they're supplementary.
-    try:
-        build_headlines()
-    except Exception as exc:  # noqa: BLE001
-        print(f"  ! headlines build failed: {exc}", file=sys.stderr)
 
     published = 0
     for src, dst, kind, label in COPIES:
