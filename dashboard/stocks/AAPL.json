@@ -2,9 +2,9 @@
   "ticker": "AAPL",
   "name": "Apple",
   "currency": "$",
-  "as_of": "2026-07-14T23:52:49+05:30",
-  "price": 315.15,
-  "change_pct": -0.68,
+  "as_of": "2026-07-15T00:12:37+05:30",
+  "price": 315.17,
+  "change_pct": -0.67,
   "verdict": {
     "rating": "Strong Buy",
     "score": 0.625,
@@ -97,7 +97,7 @@
       },
       {
         "name": "EMA 20",
-        "value": 304.63,
+        "value": 304.64,
         "metric": "ema",
         "signal": "Bullish",
         "note": "price is above its 20-day average \u2014 bullish for the short-term trend"
@@ -120,42 +120,42 @@
     "oscillators": [
       {
         "name": "RSI (14)",
-        "value": 61.76,
+        "value": 61.78,
         "metric": "rsi",
         "signal": "Neutral",
         "note": "62 \u2014 neutral momentum, no extreme"
       },
       {
         "name": "MACD (12,26,9)",
-        "value": 5.497,
+        "value": 5.499,
         "metric": "macd",
         "signal": "Buy",
         "note": "MACD line is above its signal line \u2014 momentum is improving (bullish)"
       },
       {
         "name": "Stochastic %K (14,3)",
-        "value": 83.3,
+        "value": 83.34,
         "metric": "stochastic",
         "signal": "Sell",
         "note": "closing near its recent highs \u2014 overbought"
       },
       {
         "name": "CCI (20)",
-        "value": 80.22,
+        "value": 80.26,
         "metric": "cci",
         "signal": "Neutral",
         "note": "close to its recent average \u2014 no extreme"
       },
       {
         "name": "Williams %R (14)",
-        "value": -16.7,
+        "value": -16.66,
         "metric": "williams_r",
         "signal": "Sell",
         "note": "near its recent highs \u2014 overbought"
       },
       {
         "name": "Momentum (10)",
-        "value": 33.41,
+        "value": 33.43,
         "metric": "momentum",
         "signal": "Buy",
         "note": "price is higher than 10 days ago \u2014 upward momentum"
@@ -165,11 +165,11 @@
   "levels": {
     "pivot": 314.42,
     "resistance": [
-      316.92,
+      316.94,
       318.7
     ],
     "support": [
-      312.64,
+      312.66,
       310.14
     ]
   },
@@ -187,9 +187,9 @@
   "fundamentals": {
     "sector": "Technology",
     "industry": "Consumer Electronics",
-    "marketCap": 4628720123904,
-    "trailingPE": 38.2,
-    "forwardPE": 32.802498,
+    "marketCap": 4629015298048,
+    "trailingPE": 38.20244,
+    "forwardPE": 32.804592,
     "profitMargins": 0.27152002,
     "revenueGrowth": 0.166,
     "dividendYield": 0.34,
@@ -1272,7 +1272,7 @@
     },
     {
       "d": "2026-07-14",
-      "c": 315.15,
+      "c": 315.17,
       "m50": 299.59,
       "m200": 273.08
     }
