@@ -2,9 +2,9 @@
   "ticker": "MSFT",
   "name": "Microsoft",
   "currency": "$",
-  "as_of": "2026-07-14T23:20:21+05:30",
-  "price": 387.14,
-  "change_pct": -0.98,
+  "as_of": "2026-07-14T23:36:57+05:30",
+  "price": 387.43,
+  "change_pct": -0.91,
   "verdict": {
     "rating": "Neutral",
     "score": -0.125,
@@ -48,35 +48,35 @@
     "moving_averages": [
       {
         "name": "SMA 10",
-        "value": 385.43,
+        "value": 385.46,
         "metric": "sma",
         "signal": "Bullish",
         "note": "price is above its 10-day average \u2014 bullish for the short-term trend"
       },
       {
         "name": "SMA 20",
-        "value": 380.37,
+        "value": 380.38,
         "metric": "sma",
         "signal": "Bullish",
         "note": "price is above its 20-day average \u2014 bullish for the short-term trend"
       },
       {
         "name": "SMA 30",
-        "value": 392.49,
+        "value": 392.5,
         "metric": "sma",
         "signal": "Bearish",
         "note": "price is below its 30-day average \u2014 bearish for the medium-term trend"
       },
       {
         "name": "SMA 50",
-        "value": 402.53,
+        "value": 402.54,
         "metric": "sma",
         "signal": "Bearish",
         "note": "price is below its 50-day average \u2014 bearish for the medium-term trend"
       },
       {
         "name": "SMA 100",
-        "value": 399.16,
+        "value": 399.17,
         "metric": "sma",
         "signal": "Bearish",
         "note": "price is below its 100-day average \u2014 bearish for the long-term trend"
@@ -90,21 +90,21 @@
       },
       {
         "name": "EMA 10",
-        "value": 385.04,
+        "value": 385.09,
         "metric": "ema",
         "signal": "Bullish",
         "note": "price is above its 10-day average \u2014 bullish for the short-term trend"
       },
       {
         "name": "EMA 20",
-        "value": 386.68,
+        "value": 386.71,
         "metric": "ema",
         "signal": "Bullish",
         "note": "price is above its 20-day average \u2014 bullish for the short-term trend"
       },
       {
         "name": "EMA 50",
-        "value": 395.73,
+        "value": 395.74,
         "metric": "ema",
         "signal": "Bearish",
         "note": "price is below its 50-day average \u2014 bearish for the medium-term trend"
@@ -120,42 +120,42 @@
     "oscillators": [
       {
         "name": "RSI (14)",
-        "value": 48.72,
+        "value": 48.88,
         "metric": "rsi",
         "signal": "Neutral",
         "note": "49 \u2014 neutral momentum, no extreme"
       },
       {
         "name": "MACD (12,26,9)",
-        "value": -3.978,
+        "value": -3.954,
         "metric": "macd",
         "signal": "Buy",
         "note": "MACD line is above its signal line \u2014 momentum is improving (bullish)"
       },
       {
         "name": "Stochastic %K (14,3)",
-        "value": 81.82,
+        "value": 82.45,
         "metric": "stochastic",
         "signal": "Sell",
         "note": "closing near its recent highs \u2014 overbought"
       },
       {
         "name": "CCI (20)",
-        "value": 15.0,
+        "value": 15.31,
         "metric": "cci",
         "signal": "Neutral",
         "note": "close to its recent average \u2014 no extreme"
       },
       {
         "name": "Williams %R (14)",
-        "value": -18.18,
+        "value": -17.55,
         "metric": "williams_r",
         "signal": "Sell",
         "note": "near its recent highs \u2014 overbought"
       },
       {
         "name": "Momentum (10)",
-        "value": 18.57,
+        "value": 18.86,
         "metric": "momentum",
         "signal": "Buy",
         "note": "price is higher than 10 days ago \u2014 upward momentum"
@@ -163,33 +163,33 @@
     ]
   },
   "levels": {
-    "pivot": 384.66,
+    "pivot": 384.76,
     "resistance": [
-      390.67,
-      394.2
+      390.86,
+      394.3
     ],
     "support": [
-      381.13,
-      375.12
+      381.32,
+      375.22
     ]
   },
   "range_52w": {
     "low": 352.83,
     "high": 542.07,
-    "position_pct": 18.1
+    "position_pct": 18.3
   },
   "volatility": {
     "atr": 11.84,
     "atr_pct": 3.06,
-    "bollinger_pctb": 0.65,
+    "bollinger_pctb": 0.66,
     "label": "Normal"
   },
   "fundamentals": {
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "marketCap": 2875597783040,
-    "trailingPE": 23.083292,
-    "forwardPE": 19.99524,
+    "marketCap": 2877998497792,
+    "trailingPE": 23.102564,
+    "forwardPE": 20.011932,
     "profitMargins": 0.39341998,
     "revenueGrowth": 0.183,
     "dividendYield": 0.95,
@@ -1272,8 +1272,8 @@
     },
     {
       "d": "2026-07-14",
-      "c": 387.14,
-      "m50": 402.53,
+      "c": 387.43,
+      "m50": 402.54,
       "m200": 441.07
     }
   ],

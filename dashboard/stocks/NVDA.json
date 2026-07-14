@@ -2,9 +2,9 @@
   "ticker": "NVDA",
   "name": "Nvidia",
   "currency": "$",
-  "as_of": "2026-07-14T23:20:22+05:30",
-  "price": 211.19,
-  "change_pct": 3.76,
+  "as_of": "2026-07-14T23:36:58+05:30",
+  "price": 211.24,
+  "change_pct": 3.79,
   "verdict": {
     "rating": "Strong Buy",
     "score": 0.625,
@@ -54,7 +54,7 @@
       },
       {
         "name": "SMA 20",
-        "value": 202.18,
+        "value": 202.19,
         "metric": "sma",
         "signal": "Bullish",
         "note": "price is above its 20-day average \u2014 bullish for the short-term trend"
@@ -89,7 +89,7 @@
       },
       {
         "name": "EMA 10",
-        "value": 203.82,
+        "value": 203.83,
         "metric": "ema",
         "signal": "Bullish",
         "note": "price is above its 10-day average \u2014 bullish for the short-term trend"
@@ -119,42 +119,42 @@
     "oscillators": [
       {
         "name": "RSI (14)",
-        "value": 55.97,
+        "value": 56.0,
         "metric": "rsi",
         "signal": "Neutral",
         "note": "56 \u2014 neutral momentum, no extreme"
       },
       {
         "name": "MACD (12,26,9)",
-        "value": -0.635,
+        "value": -0.632,
         "metric": "macd",
         "signal": "Buy",
         "note": "MACD line is above its signal line \u2014 momentum is improving (bullish)"
       },
       {
         "name": "Stochastic %K (14,3)",
-        "value": 98.48,
+        "value": 98.69,
         "metric": "stochastic",
         "signal": "Sell",
         "note": "closing near its recent highs \u2014 overbought"
       },
       {
         "name": "CCI (20)",
-        "value": 68.6,
+        "value": 68.74,
         "metric": "cci",
         "signal": "Neutral",
         "note": "close to its recent average \u2014 no extreme"
       },
       {
         "name": "Williams %R (14)",
-        "value": -1.52,
+        "value": -1.31,
         "metric": "williams_r",
         "signal": "Sell",
         "note": "near its recent highs \u2014 overbought"
       },
       {
         "name": "Momentum (10)",
-        "value": 16.22,
+        "value": 16.26,
         "metric": "momentum",
         "signal": "Buy",
         "note": "price is higher than 10 days ago \u2014 upward momentum"
@@ -162,33 +162,33 @@
     ]
   },
   "levels": {
-    "pivot": 208.84,
+    "pivot": 208.85,
     "resistance": [
-      213.87,
-      216.56
+      213.9,
+      216.57
     ],
     "support": [
-      206.15,
-      201.12
+      206.18,
+      201.13
     ]
   },
   "range_52w": {
     "low": 164.07,
     "high": 235.74,
-    "position_pct": 65.7
+    "position_pct": 65.8
   },
   "volatility": {
     "atr": 7.28,
     "atr_pct": 3.45,
-    "bollinger_pctb": 0.85,
+    "bollinger_pctb": 0.86,
     "label": "Normal"
   },
   "fundamentals": {
     "sector": "Technology",
     "industry": "Semiconductors",
-    "marketCap": 5115233173504,
-    "trailingPE": 32.3415,
-    "forwardPE": 16.511305,
+    "marketCap": 5116199436288,
+    "trailingPE": 32.34761,
+    "forwardPE": 16.514425,
     "profitMargins": 0.62966,
     "revenueGrowth": 0.852,
     "dividendYield": 0.47,
@@ -1271,7 +1271,7 @@
     },
     {
       "d": "2026-07-14",
-      "c": 211.19,
+      "c": 211.24,
       "m50": 209.32,
       "m200": 191.97
     }

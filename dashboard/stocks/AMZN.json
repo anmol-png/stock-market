@@ -2,9 +2,9 @@
   "ticker": "AMZN",
   "name": "Amazon",
   "currency": "$",
-  "as_of": "2026-07-14T23:20:23+05:30",
-  "price": 246.46,
-  "change_pct": -0.34,
+  "as_of": "2026-07-14T23:36:59+05:30",
+  "price": 246.53,
+  "change_pct": -0.32,
   "verdict": {
     "rating": "Strong Buy",
     "score": 0.5,
@@ -47,7 +47,7 @@
     "moving_averages": [
       {
         "name": "SMA 10",
-        "value": 244.26,
+        "value": 244.27,
         "metric": "sma",
         "signal": "Bullish",
         "note": "price is above its 10-day average \u2014 bullish for the short-term trend"
@@ -89,14 +89,14 @@
       },
       {
         "name": "EMA 10",
-        "value": 244.31,
+        "value": 244.32,
         "metric": "ema",
         "signal": "Bullish",
         "note": "price is above its 10-day average \u2014 bullish for the short-term trend"
       },
       {
         "name": "EMA 20",
-        "value": 244.01,
+        "value": 244.02,
         "metric": "ema",
         "signal": "Bullish",
         "note": "price is above its 20-day average \u2014 bullish for the short-term trend"
@@ -119,42 +119,42 @@
     "oscillators": [
       {
         "name": "RSI (14)",
-        "value": 51.94,
+        "value": 52.02,
         "metric": "rsi",
         "signal": "Neutral",
         "note": "52 \u2014 neutral momentum, no extreme"
       },
       {
         "name": "MACD (12,26,9)",
-        "value": -0.736,
+        "value": -0.73,
         "metric": "macd",
         "signal": "Buy",
         "note": "MACD line is above its signal line \u2014 momentum is improving (bullish)"
       },
       {
         "name": "Stochastic %K (14,3)",
-        "value": 82.06,
+        "value": 82.34,
         "metric": "stochastic",
         "signal": "Sell",
         "note": "closing near its recent highs \u2014 overbought"
       },
       {
         "name": "CCI (20)",
-        "value": 38.36,
+        "value": 38.53,
         "metric": "cci",
         "signal": "Neutral",
         "note": "close to its recent average \u2014 no extreme"
       },
       {
         "name": "Williams %R (14)",
-        "value": -17.94,
+        "value": -17.66,
         "metric": "williams_r",
         "signal": "Sell",
         "note": "near its recent highs \u2014 overbought"
       },
       {
         "name": "Momentum (10)",
-        "value": 6.32,
+        "value": 6.39,
         "metric": "momentum",
         "signal": "Buy",
         "note": "price is higher than 10 days ago \u2014 upward momentum"
@@ -162,33 +162,33 @@
     ]
   },
   "levels": {
-    "pivot": 245.84,
+    "pivot": 245.86,
     "resistance": [
-      247.87,
-      249.29
+      247.92,
+      249.31
     ],
     "support": [
-      244.42,
-      242.39
+      244.47,
+      242.41
     ]
   },
   "range_52w": {
     "low": 198.79,
     "high": 274.99,
-    "position_pct": 62.6
+    "position_pct": 62.7
   },
   "volatility": {
     "atr": 7.27,
     "atr_pct": 2.95,
-    "bollinger_pctb": 0.73,
+    "bollinger_pctb": 0.74,
     "label": "Normal"
   },
   "fundamentals": {
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail",
-    "marketCap": 2651197276160,
-    "trailingPE": 29.480864,
-    "forwardPE": 24.929424,
+    "marketCap": 2651950153728,
+    "trailingPE": 29.489235,
+    "forwardPE": 24.936504,
     "profitMargins": 0.12224,
     "revenueGrowth": 0.166,
     "beta": 1.461
@@ -1270,7 +1270,7 @@
     },
     {
       "d": "2026-07-14",
-      "c": 246.46,
+      "c": 246.53,
       "m50": 253.35,
       "m200": 233.6
     }

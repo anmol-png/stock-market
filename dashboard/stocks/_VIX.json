@@ -2,9 +2,9 @@
   "ticker": "^VIX",
   "name": "VIX (volatility)",
   "currency": "$",
-  "as_of": "2026-07-14T23:20:20+05:30",
-  "price": 16.47,
-  "change_pct": -4.02,
+  "as_of": "2026-07-14T23:36:56+05:30",
+  "price": 16.48,
+  "change_pct": -3.96,
   "verdict": {
     "rating": "Strong Sell",
     "score": -0.625,
@@ -118,42 +118,42 @@
     "oscillators": [
       {
         "name": "RSI (14)",
-        "value": 47.7,
+        "value": 47.73,
         "metric": "rsi",
         "signal": "Neutral",
         "note": "48 \u2014 neutral momentum, no extreme"
       },
       {
         "name": "MACD (12,26,9)",
-        "value": -0.459,
+        "value": -0.458,
         "metric": "macd",
         "signal": "Sell",
         "note": "MACD line is below its signal line \u2014 momentum is deteriorating (bearish)"
       },
       {
         "name": "Stochastic %K (14,3)",
-        "value": 26.22,
+        "value": 26.39,
         "metric": "stochastic",
         "signal": "Neutral",
         "note": "closing in the middle of its recent range"
       },
       {
         "name": "CCI (20)",
-        "value": -25.97,
+        "value": -25.79,
         "metric": "cci",
         "signal": "Neutral",
         "note": "close to its recent average \u2014 no extreme"
       },
       {
         "name": "Williams %R (14)",
-        "value": -73.78,
+        "value": -73.61,
         "metric": "williams_r",
         "signal": "Neutral",
         "note": "mid-range \u2014 no extreme"
       },
       {
         "name": "Momentum (10)",
-        "value": -1.18,
+        "value": -1.17,
         "metric": "momentum",
         "signal": "Sell",
         "note": "price is lower than 10 days ago \u2014 downward momentum"
@@ -163,11 +163,11 @@
   "levels": {
     "pivot": 16.73,
     "resistance": [
-      17.3,
+      17.31,
       18.14
     ],
     "support": [
-      15.89,
+      15.9,
       15.32
     ]
   },
@@ -1260,7 +1260,7 @@
     },
     {
       "d": "2026-07-14",
-      "c": 16.47,
+      "c": 16.48,
       "m50": 17.36,
       "m200": 18.67
     }
