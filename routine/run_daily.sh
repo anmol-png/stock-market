@@ -52,14 +52,30 @@ done
 "$PY" fetch.py                || echo "WARN: fetch failed"
 "$PY" analyze_stock.py --all  || echo "WARN: analyze failed"
 
-# ---- the analyst (headless Claude on the Max subscription) writes both briefs ----
+# ---- the analyst (headless Claude on the Max subscription) writes the briefs ----
+# SPLIT into small calls so no single response is large enough to drop mid-stream ("Connection
+# closed mid-response"): World Global (~20), World India (~20), Markets — then merge the two World
+# halves. Each call is independent, so one failure never loses the others.
+CLAUDE_BIN="$CLAUDE"; [ -x "$CLAUDE_BIN" ] || CLAUDE_BIN="claude"
+run_claude () {   # $1 = prompt file — retried once on a mid-stream drop
+  local pf="$1" attempt
+  for attempt in 1 2; do
+    "$CLAUDE_BIN" -p "$(cat "$pf")" \
+      --permission-mode acceptEdits \
+      --allowedTools "Read" "Write" "Edit" "Glob" "Grep" "WebSearch" "WebFetch" \
+      --disallowedTools "Bash" \
+      --output-format text && return 0
+    echo "  retry $pf (attempt $attempt failed)"
+  done
+  return 1
+}
+
 if [ -x "$CLAUDE" ] || command -v claude >/dev/null 2>&1; then
-  "$CLAUDE" -p "$(cat routine/claude_routine.md)" \
-    --permission-mode acceptEdits \
-    --allowedTools "Read" "Write" "Edit" "Glob" "Grep" "WebSearch" "WebFetch" \
-    --disallowedTools "Bash" \
-    --output-format text \
-    || echo "WARN: claude brief generation failed"
+  rm -f output/world-global.json output/world-india.json   # never merge stale halves from a prior run
+  run_claude routine/world_global_prompt.md || echo "WARN: global world decode failed"
+  run_claude routine/world_india_prompt.md  || echo "WARN: india world decode failed"
+  run_claude routine/markets_prompt.md      || echo "WARN: markets decode failed"
+  "$PY" routine/merge_world.py              || echo "WARN: world merge failed (kept last good brief)"
 else
   echo "WARN: claude CLI not found — briefs not regenerated"
 fi
