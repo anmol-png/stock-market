@@ -1,11 +1,71 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T13:40:01+05:30",
+  "generated_at": "2026-07-15T14:47:55+05:30",
   "headline": "US and Iran reignite their war over the Strait of Hormuz: Trump drops a 20% shipping fee but presses a naval blockade as strikes fly, pushing oil to a one-month high.",
   "the_big_picture": "The single thread running through today is the re-escalation of the US-Iran conflict at the Strait of Hormuz, the chokepoint that carries roughly a fifth of the world's oil. Trump backed off a threatened 20% transit fee but is pushing ahead with a naval blockade while both sides trade strikes and tankers come under attack, sending crude to a one-month high. That oil spike is the hinge for everything downstream: US inflation cooled to 3.5% but officials flagged fresh upside risk, India's inflation just breached its central bank's target, the rupee slid past 96 and the Sensex fell. Running underneath, an AI storyline cuts both ways: IBM shed roughly $70bn in a day after stumbling on AI deals, even as China's AI-driven exports jumped 27% and Nvidia began shipping powerful H200 chips into China.",
   "stories": [
     {
       "rank": 1,
+      "category": "technology",
+      "published_iso": "2026-07-15T05:07:00+00:00",
+      "regions": [
+        "Netherlands",
+        "Europe",
+        "US",
+        "Asia",
+        "Global"
+      ],
+      "title": "The company that makes the machines that make every advanced AI chip just raised its outlook \u2014 again: ASML lifts its 2026 forecast on 'extremely strong' orders",
+      "key_points": [
+        "ASML raises 2026 revenue outlook to \u20ac43\u201345bn, up from \u20ac36\u201340bn",
+        "Second forecast raise this year; Q2 sales of \u20ac9.33bn beat estimates",
+        "CEO cites 'extremely strong' orders as chipmakers race to build AI capacity",
+        "Shares rose ~5%; ASML will expand its machine-making capacity by 30%"
+      ],
+      "background": "ASML is a Dutch company most people have never heard of, yet it sits at the very bottom of the entire AI boom. It is effectively the only maker in the world of the most advanced chipmaking machines \u2014 'extreme ultraviolet' (EUV) lithography tools, room-sized systems costing hundreds of millions of dollars each that use light to print circuits just a few atoms wide onto silicon. Every leading-edge chip \u2014 the Nvidia processors training AI, the chips inside your phone \u2014 is ultimately printed on an ASML machine. Because it has no real competitor at the cutting edge, its order book is the single truest gauge of whether the chip industry genuinely believes AI demand is real, or just hype.",
+      "what_happened": "On July 15 ASML reported second-quarter net revenue of \u20ac9.33 billion (about $10.9 billion), above the \u20ac8.8 billion analysts expected, and net profit of \u20ac2.92 billion, also a beat. More importantly, it raised its full-year 2026 revenue forecast to \u20ac43\u201345 billion, up roughly 16% at the midpoint from its earlier \u20ac36\u201340 billion \u2014 the second time it has lifted guidance this year. Chief executive Christophe Fouquet pointed to 'extremely strong' order intake driven by AI-chip demand, with customers such as TSMC, Samsung, SK Hynix and Micron racing to add capacity. In response, ASML said it will expand both its advanced EUV and its older DUV machine capacity by about 30%. The shares rose around 5%.",
+      "why_it_matters": "This is a rare, clean signal about whether the AI build-out is slowing or still accelerating. Individual chip companies can rise or fall on their own quirks, but ASML sells the one essential tool that all of them must buy \u2014 so when it raises its outlook twice and calls orders 'extremely strong,' it means the whole industry is still ordering more of the machines needed to make more AI chips. A company adding 30% to its own capacity is telling you it expects that demand to keep growing for years, not months.",
+      "ripple_effects": "A bullish read from the base of the supply chain tends to lift the entire chip complex \u2014 foundries like TSMC, memory makers like SK Hynix (whose shares had already jumped ~13% on AI hopes) and Micron, and the AI-chip designers on top, such as Nvidia. It also lands as a direct counterpoint to IBM's warning days earlier that AI-hardware spending is starving software budgets: ASML's order book confirms that hardware wave is real and physical. The flip side is concentration risk \u2014 the world's most important technology depends on a single Dutch firm, which also makes ASML a geopolitical chokepoint, since Washington restricts which of its machines can be sold to China.",
+      "why_now": "The raise came with ASML's scheduled second-quarter results on July 15, and it reflects a surge in orders in recent months as chipmakers rushed to lock in machines for AI-driven capacity \u2014 demand strong enough to justify a second guidance upgrade in a single year.",
+      "watch_next": "Whether the order momentum holds into the second half of the year, and whether tighter US\u2013China export rules on ASML's machines start to bite into that China demand.",
+      "key_terms": [
+        {
+          "term": "EUV lithography",
+          "definition": "The process of using extreme-ultraviolet light to 'print' the tiniest circuits onto a chip; ASML is the only company that makes the machines that can do it at the cutting edge."
+        },
+        {
+          "term": "Guidance / forecast raise",
+          "definition": "When a company tells investors it now expects to sell or earn more than it previously said; raising it twice in one year signals demand is running well ahead of plan."
+        },
+        {
+          "term": "Order intake (book-to-bill)",
+          "definition": "The value of new orders a company takes in; for a supplier like ASML it is a leading indicator \u2014 it shows what customers are committing to buy before the products are even built."
+        },
+        {
+          "term": "Foundry / memory maker",
+          "definition": "Foundries (like TSMC) manufacture chips designed by others; memory makers (like SK Hynix, Micron) make the high-speed memory AI systems need \u2014 both are ASML's biggest customers."
+        }
+      ],
+      "the_lesson": "To judge whether a boom is real, look at the base of its supply chain, not the loudest stock. The company selling the one essential tool everyone needs \u2014 the 'picks and shovels' of the gold rush \u2014 gives a cleaner read on true demand than any single product-maker, because everyone in the industry has to go through it.",
+      "concepts": [
+        "supply_chain",
+        "risk_on_off"
+      ],
+      "market_link": "Bullish for ASML and the whole semiconductor-equipment and memory complex (TSMC, SK Hynix, Micron, Nvidia); it reassures the AI-capex trade and acts as a direct counterpoint to IBM's warning that AI hardware is squeezing software budgets.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "CNBC (ASML rises 5% after hiking sales forecast for second time this year on strong AI chip demand)",
+          "url": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html"
+        },
+        {
+          "name": "Reuters via Zawya (ASML raises 2026 forecast, expands capacity on AI chip demand)",
+          "url": "https://www.zawya.com/en/business/technology-and-telecom/asml-raises-2026-forecast-expands-capacity-on-ai-chip-demand-ry3hcnp1"
+        }
+      ]
+    },
+    {
+      "rank": 2,
       "category": "economy",
       "published_iso": "2026-07-15T05:36:00+00:00",
       "regions": [
@@ -65,7 +125,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "category": "economy",
       "published_iso": "2026-07-15T02:08:00+00:00",
       "regions": [
@@ -133,7 +193,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "category": "geopolitics",
       "published_iso": "2026-07-14T17:23:00+00:00",
       "regions": [
@@ -205,7 +265,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "category": "economy",
       "published_iso": "2026-07-14T17:09:02+00:00",
       "regions": [
@@ -274,7 +334,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 6,
       "category": "economy",
       "published_iso": "2026-07-14T16:38:00+00:00",
       "regions": [
@@ -337,7 +397,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "category": "technology",
       "published_iso": "2026-07-14T17:18:43+00:00",
       "regions": [
@@ -397,7 +457,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "category": "economy",
       "published_iso": "2026-07-13T20:19:00+00:00",
       "regions": [
@@ -457,7 +517,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "category": "geopolitics",
       "published_iso": "2026-07-14T13:06:36+00:00",
       "regions": [
@@ -524,7 +584,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "category": "geopolitics",
       "published_iso": "2026-07-13T23:20:00+00:00",
       "regions": [
@@ -590,7 +650,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 11,
       "category": "economy",
       "published_iso": "2026-07-14T03:15:00+00:00",
       "regions": [
@@ -649,7 +709,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "category": "geopolitics",
       "published_iso": "2026-07-14T11:20:24+00:00",
       "regions": [
@@ -710,7 +770,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 13,
       "category": "technology",
       "published_iso": "2026-07-14T16:44:13+00:00",
       "regions": [
@@ -764,7 +824,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 14,
       "category": "geopolitics",
       "published_iso": "2026-07-14T10:23:29+00:00",
       "regions": [
@@ -812,7 +872,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "category": "economy",
       "published_iso": "2026-07-13T12:19:30+00:00",
       "regions": [
@@ -863,7 +923,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 16,
       "category": "geopolitics",
       "published_iso": "2026-07-13T20:39:14+00:00",
       "regions": [
@@ -915,7 +975,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "category": "technology",
       "published_iso": "2026-07-10T22:54:16+00:00",
       "regions": [
@@ -966,7 +1026,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 18,
       "category": "health",
       "published_iso": "2026-07-12T08:00:12+00:00",
       "regions": [
@@ -1025,7 +1085,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 19,
       "category": "climate",
       "published_iso": "2026-07-13T08:57:15+00:00",
       "regions": [
@@ -1079,7 +1139,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
       "category": "climate",
       "published_iso": "2026-07-12T07:39:45+00:00",
       "regions": [
@@ -1137,7 +1197,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 21,
       "category": "health",
       "published_iso": "2026-07-14T09:47:41+00:00",
       "regions": [
@@ -1200,7 +1260,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 22,
       "category": "science",
       "published_iso": "2026-07-14T15:31:05+00:00",
       "regions": [
@@ -1252,7 +1312,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "category": "science",
       "published_iso": "2026-07-13T22:33:00+00:00",
       "regions": [
@@ -1308,7 +1368,65 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 24,
+      "category": "india",
+      "published_iso": "2026-07-15T06:22:04+00:00",
+      "regions": [
+        "India",
+        "US",
+        "UK"
+      ],
+      "title": "India's Air India crash probe enters its final stage: investigators finish the cockpit-voice transcript and a 'psychological autopsy,' with the draft report due in October",
+      "key_points": [
+        "Probe into the June 2025 Ahmedabad Boeing 787 crash (260 dead) moves to final analysis",
+        "Investigators have completed a cockpit-voice-recorder transcript and a 'psychological autopsy' of the crew",
+        "Draft final report expected around October; to be shared with the US NTSB before release",
+        "India's AAIB told the Supreme Court the cockpit audio itself cannot be made public"
+      ],
+      "background": "On June 12, 2025, an Air India Boeing 787 Dreamliner (flight AI171) bound for London Gatwick crashed seconds after taking off from Ahmedabad, killing 260 people \u2014 one of the deadliest air disasters in India's history. The Aircraft Accident Investigation Bureau (AAIB) is the independent government body that investigates such crashes. A preliminary report last year noted that the engines' fuel-control switches moved to the 'cutoff' position just after takeoff \u2014 a detail that triggered intense but unproven public speculation about the crew, which the captain's family firmly rejects. Under global aviation rules, no cause is official until the final report is published.",
+      "what_happened": "In a court filing and to India's Supreme Court, the AAIB said its investigation has moved into its final stages. It has completed a transcript of the cockpit voice recorder (the 'black box' that captures cockpit audio) and carried out a 'psychological autopsy' \u2014 a reconstruction of the crew's mental state and history \u2014 and has interviewed pilots, other crew who had flown with them, technical staff, air-traffic controllers and weather officials. Still pending are an analysis of data pulled in late May from an engine-monitoring unit and a review of organisational factors; roughly six more weeks of analysis are expected. A draft final report is anticipated around October and will be shared with participating countries, including the US National Transportation Safety Board, for comment before public release. The AAIB also told the court the cockpit recordings themselves cannot be shared publicly; separately, the captain's father has sued over what he says was an implication his son deliberately cut the fuel.",
+      "why_it_matters": "260 people died, so the eventual finding carries enormous weight. Whether the cause is judged to be a technical fault, human factors, or a mix will shape scrutiny of Boeing's 787 worldwide, the rebuilding of Air India under the Tata Group, and India's safety credibility just as it becomes one of the world's fastest-growing aviation markets. The inclusion of a 'psychological autopsy' signals investigators are formally weighing human factors \u2014 but crucially, no cause has been officially concluded, and unverified speculation should not be mistaken for a verdict.",
+      "ripple_effects": "A finding that points to a technical or design fault would ripple out to Boeing's global 787 fleet, regulators and airlines; a human-factors conclusion would instead push the industry toward tighter pilot-monitoring and mental-health protocols. Either way it affects Air India's insurers and Tata's turnaround, the compensation owed to victims' families, and public trust in flying in India. Because the report is shared with the US NTSB, its conclusions will also be scrutinised by American regulators and Boeing.",
+      "why_now": "The status surfaced on July 14\u201315 through a Supreme Court hearing and fresh reporting, about 13 months after the crash, as the probe crossed from evidence-gathering into its final analysis phase and the AAIB set out its timeline to the court.",
+      "watch_next": "The draft final report expected around October \u2014 and whether it attributes the crash to a technical fault, human factors, or a combination.",
+      "key_terms": [
+        {
+          "term": "AAIB",
+          "definition": "India's Aircraft Accident Investigation Bureau \u2014 the independent government body that investigates air crashes and publishes the official report on what caused them."
+        },
+        {
+          "term": "Cockpit voice recorder (black box)",
+          "definition": "A crash-hardened device that records cockpit audio and conversations; investigators transcribe it to reconstruct the final minutes, but the raw audio is usually kept confidential."
+        },
+        {
+          "term": "Psychological autopsy",
+          "definition": "A structured after-the-fact review of a person's mental state, stresses and history \u2014 used in investigations to assess whether human factors may have played a role, without on its own proving a cause."
+        },
+        {
+          "term": "Fuel-control switch",
+          "definition": "The cockpit switch that lets fuel flow to an engine ('run') or shuts it off ('cutoff'); the preliminary report noted these moved to cutoff after takeoff, a finding still being investigated."
+        }
+      ],
+      "the_lesson": "Air-crash investigations are deliberately slow and layered \u2014 machines, procedures and people are all examined before any cause is named. Early leaks and speculation almost always outrun the evidence, which is exactly why final reports take a year or more and why an unproven theory should never be treated as the conclusion.",
+      "market_link": "Limited direct market impact, but it keeps scrutiny on Boeing (BA) and its 787 programme and weighs on the Tata Group's rebuilding of the unlisted Air India.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "Reuters via Yahoo Finance (Indian investigators conducted psychological autopsy in Air India crash probe, court filing says)",
+          "url": "https://uk.finance.yahoo.com/news/indian-investigators-conducted-psychological-autopsy-042527305.html"
+        },
+        {
+          "name": "Reuters via TradingView (Air India crash probe enters final stages after cockpit recorder, psychology reviews)",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N43H09S:0-air-india-crash-probe-enters-final-stages-after-cockpit-recorder-psychology-reviews/"
+        },
+        {
+          "name": "Oman Observer (Air India B787 crash probe enters final stages)",
+          "url": "https://www.omanobserver.om/article/1192884/world/asia/air-india-b787-crash-probe-enters-final-stages"
+        }
+      ]
+    },
+    {
+      "rank": 25,
       "category": "india",
       "published_iso": "2026-07-15T07:05:24+00:00",
       "regions": [
@@ -1369,7 +1487,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 26,
       "category": "india",
       "published_iso": "2026-07-14T12:07:59+00:00",
       "regions": [
@@ -1425,7 +1543,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 27,
       "category": "india",
       "published_iso": "2026-07-14T16:12:40+00:00",
       "regions": [
@@ -1483,7 +1601,7 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 28,
       "category": "india",
       "published_iso": "2026-07-14T06:41:00+00:00",
       "regions": [
@@ -1541,7 +1659,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 29,
       "category": "india",
       "published_iso": "2026-07-14T16:29:51+00:00",
       "regions": [
@@ -1605,7 +1723,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 30,
       "category": "india",
       "published_iso": "2026-07-13T12:09:22+00:00",
       "regions": [
@@ -1662,7 +1780,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 31,
       "category": "india",
       "published_iso": "2026-07-14T07:23:32+00:00",
       "regions": [
@@ -1719,7 +1837,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 32,
       "category": "india",
       "published_iso": "2026-07-14T17:30:30+00:00",
       "regions": [
@@ -1784,7 +1902,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 33,
       "category": "india",
       "published_iso": "2026-07-14T17:51:12+00:00",
       "regions": [
@@ -1844,7 +1962,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 34,
       "category": "india",
       "published_iso": "2026-07-14T17:41:20+00:00",
       "regions": [
@@ -1910,7 +2028,7 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 35,
       "category": "india",
       "published_iso": "2026-07-13T12:22:38+00:00",
       "regions": [
@@ -1974,7 +2092,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 36,
       "category": "india",
       "published_iso": "2026-07-13T11:50:23+00:00",
       "regions": [
@@ -2034,7 +2152,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 37,
       "category": "india",
       "published_iso": "2026-07-14T07:31:04+00:00",
       "regions": [
@@ -2084,7 +2202,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 38,
       "category": "india",
       "published_iso": "2026-07-12T08:37:43+00:00",
       "regions": [
@@ -2131,7 +2249,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 39,
       "category": "india",
       "published_iso": "2026-07-13T14:36:09+00:00",
       "regions": [
@@ -2184,7 +2302,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 40,
       "category": "india",
       "published_iso": "2026-07-14T04:43:00+00:00",
       "regions": [
@@ -2235,7 +2353,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 41,
       "category": "india",
       "published_iso": "2026-07-14T15:24:55+00:00",
       "regions": [
@@ -2287,7 +2405,7 @@
       ]
     },
     {
-      "rank": 40,
+      "rank": 42,
       "category": "india",
       "published_iso": "2026-07-14T18:37:41+00:00",
       "regions": [
@@ -2340,7 +2458,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 43,
       "category": "india",
       "published_iso": "2026-07-14T10:27:13+00:00",
       "regions": [
@@ -2396,7 +2514,7 @@
       ]
     },
     {
-      "rank": 42,
+      "rank": 44,
       "category": "india",
       "published_iso": "2026-07-14T18:12:40+00:00",
       "regions": [
@@ -2449,7 +2567,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 45,
       "category": "india",
       "published_iso": "2026-07-14T08:55:02+00:00",
       "regions": [
@@ -2494,7 +2612,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 46,
       "category": "india",
       "published_iso": "2026-07-14T17:45:46+00:00",
       "regions": [
