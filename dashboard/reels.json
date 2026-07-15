@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T20:57:39+05:30",
+  "generated_at": "2026-07-15T21:34:46+05:30",
   "day_label": "Wednesday · 15 July 2026",
   "dashboard_url": "../",
   "cards": [
@@ -8,6 +8,64 @@
       "type": "story",
       "id": "story-1",
       "rank": 1,
+      "category": "technology",
+      "published_iso": "2026-07-15T09:59:43+00:00",
+      "source": "Reuters",
+      "importance": "high",
+      "regions": [
+        "China",
+        "US"
+      ],
+      "title": "China's DeepSeek raises money at a $74bn valuation — and its founder quietly becomes the world's richest AI-startup billionaire",
+      "what_happened": "According to Reuters, DeepSeek is raising fresh capital that values the company at about $74 billion, ahead of a planned 'onshore' IPO — a stock-market listing in mainland China rather than in New York or Hong Kong. After this round, founder Liang Wenfeng's stake is estimated to be worth roughly $36 billion, making him the world's richest founder of an AI-model startup, and he keeps majority control. The raise comes after US AI firms — including Anthropic's chief executive — complained to the US government about how DeepSeek built and trained its models.",
+      "key_points": [
+        "DeepSeek is raising fresh cash at a ~$74bn valuation",
+        "It's the run-up to an 'onshore' IPO on China's own market",
+        "Founder Liang Wenfeng's stake is now worth ~$36bn",
+        "US AI rivals had complained to Washington about DeepSeek"
+      ],
+      "moot": "Cutting off a rival's tools slows them down, but it also forces them to build their own — restrictions can accelerate the very self-reliance they were meant to prevent.",
+      "concepts": [
+        "supply_chain",
+        "sanctions"
+      ],
+      "depth": {
+        "background": "DeepSeek is the Chinese AI startup that stunned the industry in early 2025 by releasing a top-tier chatbot built far more cheaply than its US rivals — and doing it despite US rules that block China from buying the most powerful AI chips. It was spun out of a quantitative hedge fund by founder Liang Wenfeng, and it became the symbol that China could compete at the frontier of AI without Silicon Valley's budgets or Nvidia's best chips.",
+        "why_it_matters": "A $74 billion price tag puts a Chinese AI lab in the same weight class as the biggest US AI companies, and raising it toward a mainland-China listing signals that China is building its own AI-funding pipeline — one insulated from US stock markets and sanctions. It is fresh evidence that US chip export controls have slowed China's AI push but not stopped it.",
+        "ripple_effects": "More Chinese capital pouring into home-grown AI intensifies the US–China technology race and pressures US chipmakers and AI firms who assumed they would stay comfortably ahead. An onshore listing would let Chinese retail savers and institutions fund the AI boom directly, deepening China's own capital markets. And it hardens the emerging split into 'two AI worlds' — a US stack and a Chinese stack — that global companies and governments increasingly have to choose between.",
+        "why_now": "DeepSeek's models have kept improving and adding users through 2026, so investors are piling in at a soaring valuation — just as Beijing nudges its national tech champions to list at home rather than abroad.",
+        "watch_next": "The formal IPO filing and pricing — and whether Washington responds with tighter chip-export or investment curbs aimed at DeepSeek.",
+        "market_link": "Bullish for China's domestic AI and chip names and AI-infrastructure plays; a competitive-threat overhang for US AI and chip stocks such as Nvidia and Micron.",
+        "key_terms": [
+          {
+            "term": "Onshore IPO",
+            "definition": "A company selling its shares to the public on its own country's stock exchange — here, mainland China — rather than on a foreign market like New York or Hong Kong."
+          },
+          {
+            "term": "Valuation",
+            "definition": "The total price investors place on an entire company, worked out from what they pay for a small slice of it."
+          },
+          {
+            "term": "Export controls",
+            "definition": "Government rules that block the sale of certain goods — here, the most advanced AI chips — to another country."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVDlhV1Zhbi1ieWRUeEJIa3ZIbTh3SF9HanFHeWEwYU05aU9hbUlDTUlCVDlPTjY2TnNtWE0zRGZWX2l6NGhQZnpOZTdGY2dlaWFyN1NFWVJfbTZ1QXdhcUp5ajhEaTZ6SlFwZVlFY2VlS25lb011dHpUQkVHd2lITGg4NlNxMTZNY3NfbVJkYzVrY1puTlRBSkNuNlREYldEVjFQMEUwZjRVSHNsRFRNZ0ozRklGdzZRQ2VnQmtDQi1KNTdzc1NWWWlR?oc=5"
+          },
+          {
+            "name": "Times of India",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/ceo-of-chinese-company-that-anthropic-ceo-dario-amodei-complained-about-to-us-government-is-now-the-worlds-richest-ai-startup-billionaire/articleshow/132416784.cms"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-2",
+      "rank": 2,
       "category": "economy",
       "published_iso": "2026-07-15T12:50:20+00:00",
       "source": "Quartz",
@@ -64,8 +122,8 @@
     },
     {
       "type": "story",
-      "id": "story-2",
-      "rank": 2,
+      "id": "story-3",
+      "rank": 3,
       "category": "economy",
       "published_iso": "2026-07-14T18:05:11+00:00",
       "source": "BBC",
@@ -122,8 +180,8 @@
     },
     {
       "type": "story",
-      "id": "story-3",
-      "rank": 3,
+      "id": "story-4",
+      "rank": 4,
       "category": "geopolitics",
       "published_iso": "2026-07-15T10:39:00+00:00",
       "source": "Al Jazeera",
@@ -174,8 +232,8 @@
     },
     {
       "type": "story",
-      "id": "story-4",
-      "rank": 4,
+      "id": "story-5",
+      "rank": 5,
       "category": "technology",
       "published_iso": "2026-07-15T10:08:40+00:00",
       "source": "The Times of India (reporting The Information's scoop)",
@@ -227,8 +285,8 @@
     },
     {
       "type": "story",
-      "id": "story-5",
-      "rank": 5,
+      "id": "story-6",
+      "rank": 6,
       "category": "economy",
       "published_iso": "2026-07-15T08:17:43+00:00",
       "source": "Reuters",
@@ -284,8 +342,8 @@
     },
     {
       "type": "story",
-      "id": "story-6",
-      "rank": 6,
+      "id": "story-7",
+      "rank": 7,
       "category": "geopolitics",
       "published_iso": "2026-07-15T04:10:00+00:00",
       "source": "The New York Times",
@@ -343,8 +401,8 @@
     },
     {
       "type": "story",
-      "id": "story-7",
-      "rank": 7,
+      "id": "story-8",
+      "rank": 8,
       "category": "health",
       "published_iso": "2026-07-12T16:45:00+00:00",
       "source": "NPR",
@@ -398,8 +456,8 @@
     },
     {
       "type": "story",
-      "id": "story-8",
-      "rank": 8,
+      "id": "story-9",
+      "rank": 9,
       "category": "technology",
       "published_iso": "2026-07-14T20:00:00+00:00",
       "source": "The Washington Post",
@@ -460,8 +518,8 @@
     },
     {
       "type": "story",
-      "id": "story-9",
-      "rank": 9,
+      "id": "story-10",
+      "rank": 10,
       "category": "geopolitics",
       "published_iso": "2026-07-15T09:06:52+00:00",
       "source": "BBC World (Trump threatens to bomb bridges and power plants unless Iran resumes talks)",
@@ -544,8 +602,8 @@
     },
     {
       "type": "story",
-      "id": "story-10",
-      "rank": 10,
+      "id": "story-11",
+      "rank": 11,
       "category": "technology",
       "published_iso": "2026-07-15T05:07:00+00:00",
       "source": "CNBC (ASML rises 5% after hiking sales forecast for second time this year on strong AI chip demand)",
@@ -609,8 +667,8 @@
     },
     {
       "type": "story",
-      "id": "story-11",
-      "rank": 11,
+      "id": "story-12",
+      "rank": 12,
       "category": "economy",
       "published_iso": "2026-07-15T05:36:00+00:00",
       "source": "Reuters (Exclusive: Stripe, Advent offer to buy PayPal for more than $53 billion, sources say)",
@@ -674,8 +732,8 @@
     },
     {
       "type": "story",
-      "id": "story-12",
-      "rank": 12,
+      "id": "story-13",
+      "rank": 13,
       "category": "economy",
       "published_iso": "2026-07-15T02:08:00+00:00",
       "source": "Reuters (China's Q2 economic growth cools to 3-1/2-year low as imbalances worsen)",
@@ -747,8 +805,8 @@
     },
     {
       "type": "story",
-      "id": "story-13",
-      "rank": 13,
+      "id": "story-14",
+      "rank": 14,
       "category": "geopolitics",
       "published_iso": "2026-07-14T17:23:00+00:00",
       "source": "AP News (US and Iran reignite war over the Strait of Hormuz)",
@@ -824,8 +882,8 @@
     },
     {
       "type": "story",
-      "id": "story-14",
-      "rank": 14,
+      "id": "story-15",
+      "rank": 15,
       "category": "economy",
       "published_iso": "2026-07-14T17:09:02+00:00",
       "source": "CNBC (Here's the inflation breakdown for June 2026)",
@@ -898,8 +956,8 @@
     },
     {
       "type": "story",
-      "id": "story-15",
-      "rank": 15,
+      "id": "story-16",
+      "rank": 16,
       "category": "economy",
       "published_iso": "2026-07-14T16:38:00+00:00",
       "source": "The Guardian (IBM loses a quarter of its value as shares plunge and profits falter)",
@@ -966,8 +1024,8 @@
     },
     {
       "type": "story",
-      "id": "story-16",
-      "rank": 16,
+      "id": "story-17",
+      "rank": 17,
       "category": "technology",
       "published_iso": "2026-07-14T17:18:43+00:00",
       "source": "Reuters (US official says shipments of Nvidia H200 chips to China have begun)",
@@ -1031,8 +1089,8 @@
     },
     {
       "type": "story",
-      "id": "story-17",
-      "rank": 17,
+      "id": "story-18",
+      "rank": 18,
       "category": "economy",
       "published_iso": "2026-07-13T20:19:00+00:00",
       "source": "AP News (Oil prices jump following the latest fighting in the Middle East, while AI stocks sink)",
@@ -1096,8 +1154,8 @@
     },
     {
       "type": "story",
-      "id": "story-18",
-      "rank": 18,
+      "id": "story-19",
+      "rank": 19,
       "category": "geopolitics",
       "published_iso": "2026-07-14T13:06:36+00:00",
       "source": "Reuters (Chemical tanker Stolt Magnesium hit by explosion off Omani coast, manager says)",
@@ -1168,8 +1226,8 @@
     },
     {
       "type": "story",
-      "id": "story-19",
-      "rank": 19,
+      "id": "story-20",
+      "rank": 20,
       "category": "geopolitics",
       "published_iso": "2026-07-13T23:20:00+00:00",
       "source": "AP News via The Washington Post (Yemen's Houthis strike Saudi Arabia's Abha airport with missiles and drones)",
@@ -1239,8 +1297,8 @@
     },
     {
       "type": "story",
-      "id": "story-20",
-      "rank": 20,
+      "id": "story-21",
+      "rank": 21,
       "category": "economy",
       "published_iso": "2026-07-14T03:15:00+00:00",
       "source": "AP News (China's June exports surge 27% from a year earlier as AI boom drives strong demand)",
@@ -1303,8 +1361,8 @@
     },
     {
       "type": "story",
-      "id": "story-21",
-      "rank": 21,
+      "id": "story-22",
+      "rank": 22,
       "category": "geopolitics",
       "published_iso": "2026-07-14T11:20:24+00:00",
       "source": "Al Jazeera (Russia readies to reroute exports from Sea of Azov after Ukrainian attacks)",
@@ -1369,8 +1427,8 @@
     },
     {
       "type": "story",
-      "id": "story-22",
-      "rank": 22,
+      "id": "story-23",
+      "rank": 23,
       "category": "technology",
       "published_iso": "2026-07-14T16:44:13+00:00",
       "source": "Reuters via US News (Meta Used AI to Target Workers With Medical Conditions for Layoffs, Lawsuit Claims)",
@@ -1428,8 +1486,8 @@
     },
     {
       "type": "story",
-      "id": "story-23",
-      "rank": 23,
+      "id": "story-24",
+      "rank": 24,
       "category": "geopolitics",
       "published_iso": "2026-07-14T10:23:29+00:00",
       "source": "The New York Times",
@@ -1482,8 +1540,8 @@
     },
     {
       "type": "story",
-      "id": "story-24",
-      "rank": 24,
+      "id": "story-25",
+      "rank": 25,
       "category": "economy",
       "published_iso": "2026-07-13T12:19:30+00:00",
       "source": "CNBC",
@@ -1538,8 +1596,8 @@
     },
     {
       "type": "story",
-      "id": "story-25",
-      "rank": 25,
+      "id": "story-26",
+      "rank": 26,
       "category": "geopolitics",
       "published_iso": "2026-07-13T20:39:14+00:00",
       "source": "BBC",
@@ -1595,8 +1653,8 @@
     },
     {
       "type": "story",
-      "id": "story-26",
-      "rank": 26,
+      "id": "story-27",
+      "rank": 27,
       "category": "technology",
       "published_iso": "2026-07-10T22:54:16+00:00",
       "source": "BBC",
@@ -1651,8 +1709,8 @@
     },
     {
       "type": "story",
-      "id": "story-27",
-      "rank": 27,
+      "id": "story-28",
+      "rank": 28,
       "category": "health",
       "published_iso": "2026-07-12T08:00:12+00:00",
       "source": "The Guardian",
@@ -1716,8 +1774,8 @@
     },
     {
       "type": "story",
-      "id": "story-28",
-      "rank": 28,
+      "id": "story-29",
+      "rank": 29,
       "category": "climate",
       "published_iso": "2026-07-13T08:57:15+00:00",
       "source": "BBC",
@@ -1776,8 +1834,8 @@
     },
     {
       "type": "story",
-      "id": "story-29",
-      "rank": 29,
+      "id": "story-30",
+      "rank": 30,
       "category": "climate",
       "published_iso": "2026-07-12T07:39:45+00:00",
       "source": "BBC",
@@ -1839,8 +1897,8 @@
     },
     {
       "type": "story",
-      "id": "story-30",
-      "rank": 30,
+      "id": "story-31",
+      "rank": 31,
       "category": "health",
       "published_iso": "2026-07-14T09:47:41+00:00",
       "source": "ScienceDaily",
@@ -1908,8 +1966,8 @@
     },
     {
       "type": "story",
-      "id": "story-31",
-      "rank": 31,
+      "id": "story-32",
+      "rank": 32,
       "category": "science",
       "published_iso": "2026-07-14T15:31:05+00:00",
       "source": "The Guardian",
@@ -1966,8 +2024,8 @@
     },
     {
       "type": "story",
-      "id": "story-32",
-      "rank": 32,
+      "id": "story-33",
+      "rank": 33,
       "category": "science",
       "published_iso": "2026-07-13T22:33:00+00:00",
       "source": "CNN",
@@ -2028,8 +2086,66 @@
     },
     {
       "type": "story",
-      "id": "story-33",
-      "rank": 33,
+      "id": "story-34",
+      "rank": 34,
+      "category": "india",
+      "published_iso": "2026-07-15T15:23:19+00:00",
+      "source": "The Hindu",
+      "importance": "notable",
+      "regions": [
+        "India"
+      ],
+      "title": "India's market watchdog polices itself: SEBI bars its own board members from buying stocks and sets up a formal recusal rulebook",
+      "what_happened": "SEBI has barred its board's Whole-Time Members — its most senior, full-time officials — from making new investments in stocks and related instruments, and will now treat them as 'insiders' under insider-trading rules, formally presuming they hold unpublished price-sensitive information. Alongside that, SEBI has rolled out a formal recusal framework: officials must step away from any matter where a personal, professional, or financial conflict could arise, and the regulator will keep digital records of those recusals and make the annual data public.",
+      "key_points": [
+        "SEBI's full-time members can't make new stock investments",
+        "They're now treated as 'insiders' under insider-trading rules",
+        "New code: officials must step back from any conflict",
+        "Recusals logged digitally and published yearly"
+      ],
+      "moot": "A referee is only as trusted as their neutrality — institutions that police others eventually have to prove they can police themselves.",
+      "concepts": [],
+      "depth": {
+        "background": "SEBI — the Securities and Exchange Board of India — is the watchdog that regulates India's stock markets: it writes the rules, investigates wrongdoing, and can punish companies and traders. Because its top officials see confidential, market-moving information before anyone else, questions about their personal investments and possible conflicts of interest have dogged the regulator in recent years.",
+        "why_it_matters": "A regulator's authority rests entirely on the public believing it is impartial. By restricting its own officials' trading and forcing documented recusals, SEBI is trying to close the gap between 'trust us' and 'here's the proof' — protecting the credibility of every ruling and penalty it hands down.",
+        "ripple_effects": "Cleaner conflict-of-interest rules can strengthen investor confidence in Indian markets just as domestic and foreign money keeps pouring in, and they set a template other Indian regulators may be pressed to copy. In the near term the change constrains SEBI's leaders personally and adds paperwork, but it lowers the risk that a future conflict scandal could undermine a major enforcement action or policy decision.",
+        "why_now": "The move follows a stretch of public scrutiny over conflicts of interest at the top of the regulator; formalising recusals and banning new investments is SEBI's answer to those doubts.",
+        "watch_next": "Whether SEBI actually publishes the promised recusal records, and whether it extends similar curbs to more of its staff.",
+        "market_link": "No single-stock move, but stronger governance at the regulator is a quiet positive for confidence in Indian equities broadly.",
+        "key_terms": [
+          {
+            "term": "Recusal",
+            "definition": "When an official steps back from a decision because they have a personal stake in it that could bias their judgement."
+          },
+          {
+            "term": "Insider trading",
+            "definition": "Buying or selling shares using secret, market-moving information the public doesn't have — illegal in most markets."
+          },
+          {
+            "term": "Unpublished price-sensitive information (UPSI)",
+            "definition": "Confidential facts that would move a stock's price if they became public."
+          },
+          {
+            "term": "Whole-Time Member",
+            "definition": "A full-time, salaried member of SEBI's board who helps run the regulator day to day."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/business/sebi-bans-board-members-from-new-investments-in-stocks-and-related-instruments/article71226596.ece"
+          },
+          {
+            "name": "Economic Times",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-tightens-conflict-safeguards-with-recusal-framework/articleshow/132419435.cms"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-35",
+      "rank": 35,
       "category": "india",
       "published_iso": "2026-07-15T13:23:58+00:00",
       "source": "The Tribune",
@@ -2082,8 +2198,8 @@
     },
     {
       "type": "story",
-      "id": "story-34",
-      "rank": 34,
+      "id": "story-36",
+      "rank": 36,
       "category": "india",
       "published_iso": "2026-07-15T10:08:00+00:00",
       "source": "The Hindu",
@@ -2146,8 +2262,8 @@
     },
     {
       "type": "story",
-      "id": "story-35",
-      "rank": 35,
+      "id": "story-37",
+      "rank": 37,
       "category": "india",
       "published_iso": "2026-07-15T09:25:20+00:00",
       "source": "The Times of India",
@@ -2200,8 +2316,8 @@
     },
     {
       "type": "story",
-      "id": "story-36",
-      "rank": 36,
+      "id": "story-38",
+      "rank": 38,
       "category": "india",
       "published_iso": "2026-07-14T22:54:00+00:00",
       "source": "NDTV (Vietnam boat tragedy: PM Modi condoles deaths of Indian tourists)",
@@ -2255,8 +2371,8 @@
     },
     {
       "type": "story",
-      "id": "story-37",
-      "rank": 37,
+      "id": "story-39",
+      "rank": 39,
       "category": "india",
       "published_iso": "2026-07-15T08:06:23+00:00",
       "source": "Business Standard",
@@ -2312,8 +2428,8 @@
     },
     {
       "type": "story",
-      "id": "story-38",
-      "rank": 38,
+      "id": "story-40",
+      "rank": 40,
       "category": "india",
       "published_iso": "2026-07-15T11:25:41+00:00",
       "source": "Mint",
@@ -2364,8 +2480,8 @@
     },
     {
       "type": "story",
-      "id": "story-39",
-      "rank": 39,
+      "id": "story-41",
+      "rank": 41,
       "category": "india",
       "published_iso": "2026-07-15T09:01:54+00:00",
       "source": "Reuters (via Yahoo News)",
@@ -2426,8 +2542,8 @@
     },
     {
       "type": "story",
-      "id": "story-40",
-      "rank": 40,
+      "id": "story-42",
+      "rank": 42,
       "category": "india",
       "published_iso": "2026-07-15T10:00:00+00:00",
       "source": "NewKerala",
@@ -2490,8 +2606,8 @@
     },
     {
       "type": "story",
-      "id": "story-41",
-      "rank": 41,
+      "id": "story-43",
+      "rank": 43,
       "category": "india",
       "published_iso": "2026-07-15T10:08:16+00:00",
       "source": "Times of India (Semicon 2.0, Varanasi projects, rail upgrades & more: 7 big decisions cleared by Cabinet — incl. National Investment Policy for Urea)",
@@ -2554,8 +2670,8 @@
     },
     {
       "type": "story",
-      "id": "story-42",
-      "rank": 42,
+      "id": "story-44",
+      "rank": 44,
       "category": "india",
       "published_iso": "2026-07-15T06:22:04+00:00",
       "source": "Reuters via Yahoo Finance (Indian investigators conducted psychological autopsy in Air India crash probe, court filing says)",
@@ -2618,8 +2734,8 @@
     },
     {
       "type": "story",
-      "id": "story-43",
-      "rank": 43,
+      "id": "story-45",
+      "rank": 45,
       "category": "india",
       "published_iso": "2026-07-15T07:05:24+00:00",
       "source": "Al Jazeera (India's ethanol rush prompts anger among vehicle owners, questions for gov't)",
@@ -2684,8 +2800,8 @@
     },
     {
       "type": "story",
-      "id": "story-44",
-      "rank": 44,
+      "id": "story-46",
+      "rank": 46,
       "category": "india",
       "published_iso": "2026-07-14T12:07:59+00:00",
       "source": "The Hindu (India bans the import of goods made using forced labour, even as U.S. investigation is pending)",
@@ -2745,8 +2861,8 @@
     },
     {
       "type": "story",
-      "id": "story-45",
-      "rank": 45,
+      "id": "story-47",
+      "rank": 47,
       "category": "india",
       "published_iso": "2026-07-14T16:12:40+00:00",
       "source": "The Hindu (Sensex declines by 561 points on surging oil, West Asia flare-up; banks, auto shares major drag)",
@@ -2808,8 +2924,8 @@
     },
     {
       "type": "story",
-      "id": "story-46",
-      "rank": 46,
+      "id": "story-48",
+      "rank": 48,
       "category": "india",
       "published_iso": "2026-07-14T06:41:00+00:00",
       "source": "Business Recorder (Indian rupee may drift towards 96 on twin drag from oil and U.S. yields)",
@@ -2871,8 +2987,8 @@
     },
     {
       "type": "story",
-      "id": "story-47",
-      "rank": 47,
+      "id": "story-49",
+      "rank": 49,
       "category": "india",
       "published_iso": "2026-07-14T16:29:51+00:00",
       "source": "Livemint (India–UK CETA to boost bilateral trade to $100 billion by 2030; engineering, textiles among biggest gainers)",
@@ -2940,8 +3056,8 @@
     },
     {
       "type": "story",
-      "id": "story-48",
-      "rank": 48,
+      "id": "story-50",
+      "rank": 50,
       "category": "india",
       "published_iso": "2026-07-13T12:09:22+00:00",
       "source": "Bloomberg (India inflation tops RBI target for first time in 17 months)",
@@ -3002,8 +3118,8 @@
     },
     {
       "type": "story",
-      "id": "story-49",
-      "rank": 49,
+      "id": "story-51",
+      "rank": 51,
       "category": "india",
       "published_iso": "2026-07-14T07:23:32+00:00",
       "source": "The Hindu (WPI inflation rises to 9.87% in June; minerals, food items see price spike)",
@@ -3064,8 +3180,8 @@
     },
     {
       "type": "story",
-      "id": "story-50",
-      "rank": 50,
+      "id": "story-52",
+      "rank": 52,
       "category": "india",
       "published_iso": "2026-07-14T17:30:30+00:00",
       "source": "The Hindu (MEA summons Iranian deputy envoy after Indian national killed in ship attack)",
@@ -3134,8 +3250,8 @@
     },
     {
       "type": "story",
-      "id": "story-51",
-      "rank": 51,
+      "id": "story-53",
+      "rank": 53,
       "category": "india",
       "published_iso": "2026-07-14T17:51:12+00:00",
       "source": "ANI (Trump backs Graham's Russia sanctions bill, setting up fresh tariff threat for India)",
@@ -3199,8 +3315,8 @@
     },
     {
       "type": "story",
-      "id": "story-52",
-      "rank": 52,
+      "id": "story-54",
+      "rank": 54,
       "category": "india",
       "published_iso": "2026-07-14T17:41:20+00:00",
       "source": "Livemint (Brent crude surge, import bill, India refiners, inflation and growth)",
@@ -3270,8 +3386,8 @@
     },
     {
       "type": "story",
-      "id": "story-53",
-      "rank": 53,
+      "id": "story-55",
+      "rank": 55,
       "category": "india",
       "published_iso": "2026-07-13T12:22:38+00:00",
       "source": "Reuters via Bloomberg (India trade deficit widens as Hormuz risks cloud outlook)",
@@ -3339,8 +3455,8 @@
     },
     {
       "type": "story",
-      "id": "story-54",
-      "rank": 54,
+      "id": "story-56",
+      "rank": 56,
       "category": "india",
       "published_iso": "2026-07-13T11:50:23+00:00",
       "source": "Business Today (India-US negotiations progressing well, framework deal is ready: Commerce Secretary)",
@@ -3404,8 +3520,8 @@
     },
     {
       "type": "story",
-      "id": "story-55",
-      "rank": 55,
+      "id": "story-57",
+      "rank": 57,
       "category": "india",
       "published_iso": "2026-07-14T07:31:04+00:00",
       "source": "The Hindu",
@@ -3459,8 +3575,8 @@
     },
     {
       "type": "story",
-      "id": "story-56",
-      "rank": 56,
+      "id": "story-58",
+      "rank": 58,
       "category": "india",
       "published_iso": "2026-07-12T08:37:43+00:00",
       "source": "Reuters (via Business Standard)",
@@ -3511,8 +3627,8 @@
     },
     {
       "type": "story",
-      "id": "story-57",
-      "rank": 57,
+      "id": "story-59",
+      "rank": 59,
       "category": "india",
       "published_iso": "2026-07-13T14:36:09+00:00",
       "source": "Reuters (via The Star)",
@@ -3569,8 +3685,8 @@
     },
     {
       "type": "story",
-      "id": "story-58",
-      "rank": 58,
+      "id": "story-60",
+      "rank": 60,
       "category": "india",
       "published_iso": "2026-07-14T04:43:00+00:00",
       "source": "Reuters (via NewsDrum)",
@@ -3625,8 +3741,8 @@
     },
     {
       "type": "story",
-      "id": "story-59",
-      "rank": 59,
+      "id": "story-61",
+      "rank": 61,
       "category": "india",
       "published_iso": "2026-07-14T15:24:55+00:00",
       "source": "NDTV",
@@ -3683,8 +3799,8 @@
     },
     {
       "type": "story",
-      "id": "story-60",
-      "rank": 60,
+      "id": "story-62",
+      "rank": 62,
       "category": "india",
       "published_iso": "2026-07-14T18:37:41+00:00",
       "source": "NDTV",
@@ -3741,8 +3857,8 @@
     },
     {
       "type": "story",
-      "id": "story-61",
-      "rank": 61,
+      "id": "story-63",
+      "rank": 63,
       "category": "india",
       "published_iso": "2026-07-14T10:27:13+00:00",
       "source": "The Hindu",
@@ -3802,8 +3918,8 @@
     },
     {
       "type": "story",
-      "id": "story-62",
-      "rank": 62,
+      "id": "story-64",
+      "rank": 64,
       "category": "india",
       "published_iso": "2026-07-14T18:12:40+00:00",
       "source": "The Hindu",
@@ -3860,8 +3976,8 @@
     },
     {
       "type": "story",
-      "id": "story-63",
-      "rank": 63,
+      "id": "story-65",
+      "rank": 65,
       "category": "india",
       "published_iso": "2026-07-14T08:55:02+00:00",
       "source": "Reuters (via Al Jazeera)",
@@ -3910,8 +4026,8 @@
     },
     {
       "type": "story",
-      "id": "story-64",
-      "rank": 64,
+      "id": "story-66",
+      "rank": 66,
       "category": "india",
       "published_iso": "2026-07-14T17:45:46+00:00",
       "source": "The Indian Express",

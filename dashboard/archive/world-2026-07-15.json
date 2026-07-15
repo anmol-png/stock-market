@@ -1,11 +1,64 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T20:57:39+05:30",
+  "generated_at": "2026-07-15T21:34:46+05:30",
   "headline": "US and Iran reignite their war over the Strait of Hormuz: Trump drops a 20% shipping fee but presses a naval blockade as strikes fly, pushing oil to a one-month high.",
   "the_big_picture": "The single thread running through today is the re-escalation of the US-Iran conflict at the Strait of Hormuz, the chokepoint that carries roughly a fifth of the world's oil. Trump backed off a threatened 20% transit fee but is pushing ahead with a naval blockade while both sides trade strikes and tankers come under attack, sending crude to a one-month high. That oil spike is the hinge for everything downstream: US inflation cooled to 3.5% but officials flagged fresh upside risk, India's inflation just breached its central bank's target, the rupee slid past 96 and the Sensex fell. Running underneath, an AI storyline cuts both ways: IBM shed roughly $70bn in a day after stumbling on AI deals, even as China's AI-driven exports jumped 27% and Nvidia began shipping powerful H200 chips into China.",
   "stories": [
     {
       "rank": 1,
+      "category": "technology",
+      "published_iso": "2026-07-15T09:59:43+00:00",
+      "regions": [
+        "China",
+        "US"
+      ],
+      "title": "China's DeepSeek raises money at a $74bn valuation \u2014 and its founder quietly becomes the world's richest AI-startup billionaire",
+      "key_points": [
+        "DeepSeek is raising fresh cash at a ~$74bn valuation",
+        "It's the run-up to an 'onshore' IPO on China's own market",
+        "Founder Liang Wenfeng's stake is now worth ~$36bn",
+        "US AI rivals had complained to Washington about DeepSeek"
+      ],
+      "background": "DeepSeek is the Chinese AI startup that stunned the industry in early 2025 by releasing a top-tier chatbot built far more cheaply than its US rivals \u2014 and doing it despite US rules that block China from buying the most powerful AI chips. It was spun out of a quantitative hedge fund by founder Liang Wenfeng, and it became the symbol that China could compete at the frontier of AI without Silicon Valley's budgets or Nvidia's best chips.",
+      "what_happened": "According to Reuters, DeepSeek is raising fresh capital that values the company at about $74 billion, ahead of a planned 'onshore' IPO \u2014 a stock-market listing in mainland China rather than in New York or Hong Kong. After this round, founder Liang Wenfeng's stake is estimated to be worth roughly $36 billion, making him the world's richest founder of an AI-model startup, and he keeps majority control. The raise comes after US AI firms \u2014 including Anthropic's chief executive \u2014 complained to the US government about how DeepSeek built and trained its models.",
+      "why_it_matters": "A $74 billion price tag puts a Chinese AI lab in the same weight class as the biggest US AI companies, and raising it toward a mainland-China listing signals that China is building its own AI-funding pipeline \u2014 one insulated from US stock markets and sanctions. It is fresh evidence that US chip export controls have slowed China's AI push but not stopped it.",
+      "ripple_effects": "More Chinese capital pouring into home-grown AI intensifies the US\u2013China technology race and pressures US chipmakers and AI firms who assumed they would stay comfortably ahead. An onshore listing would let Chinese retail savers and institutions fund the AI boom directly, deepening China's own capital markets. And it hardens the emerging split into 'two AI worlds' \u2014 a US stack and a Chinese stack \u2014 that global companies and governments increasingly have to choose between.",
+      "why_now": "DeepSeek's models have kept improving and adding users through 2026, so investors are piling in at a soaring valuation \u2014 just as Beijing nudges its national tech champions to list at home rather than abroad.",
+      "watch_next": "The formal IPO filing and pricing \u2014 and whether Washington responds with tighter chip-export or investment curbs aimed at DeepSeek.",
+      "key_terms": [
+        {
+          "term": "Onshore IPO",
+          "definition": "A company selling its shares to the public on its own country's stock exchange \u2014 here, mainland China \u2014 rather than on a foreign market like New York or Hong Kong."
+        },
+        {
+          "term": "Valuation",
+          "definition": "The total price investors place on an entire company, worked out from what they pay for a small slice of it."
+        },
+        {
+          "term": "Export controls",
+          "definition": "Government rules that block the sale of certain goods \u2014 here, the most advanced AI chips \u2014 to another country."
+        }
+      ],
+      "the_lesson": "Cutting off a rival's tools slows them down, but it also forces them to build their own \u2014 restrictions can accelerate the very self-reliance they were meant to prevent.",
+      "concepts": [
+        "supply_chain",
+        "sanctions"
+      ],
+      "market_link": "Bullish for China's domestic AI and chip names and AI-infrastructure plays; a competitive-threat overhang for US AI and chip stocks such as Nvidia and Micron.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVDlhV1Zhbi1ieWRUeEJIa3ZIbTh3SF9HanFHeWEwYU05aU9hbUlDTUlCVDlPTjY2TnNtWE0zRGZWX2l6NGhQZnpOZTdGY2dlaWFyN1NFWVJfbTZ1QXdhcUp5ajhEaTZ6SlFwZVlFY2VlS25lb011dHpUQkVHd2lITGg4NlNxMTZNY3NfbVJkYzVrY1puTlRBSkNuNlREYldEVjFQMEUwZjRVSHNsRFRNZ0ozRklGdzZRQ2VnQmtDQi1KNTdzc1NWWWlR?oc=5"
+        },
+        {
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/ceo-of-chinese-company-that-anthropic-ceo-dario-amodei-complained-about-to-us-government-is-now-the-worlds-richest-ai-startup-billionaire/articleshow/132416784.cms"
+        }
+      ]
+    },
+    {
+      "rank": 2,
       "category": "economy",
       "published_iso": "2026-07-15T12:50:20+00:00",
       "regions": [
@@ -58,7 +111,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "category": "economy",
       "published_iso": "2026-07-14T18:05:11+00:00",
       "regions": [
@@ -110,7 +163,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "category": "geopolitics",
       "published_iso": "2026-07-15T10:39:00+00:00",
       "regions": [
@@ -157,7 +210,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "category": "technology",
       "published_iso": "2026-07-15T10:08:40+00:00",
       "regions": [
@@ -205,7 +258,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 6,
       "category": "economy",
       "published_iso": "2026-07-15T08:17:43+00:00",
       "regions": [
@@ -257,7 +310,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "category": "geopolitics",
       "published_iso": "2026-07-15T04:10:00+00:00",
       "regions": [
@@ -310,7 +363,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "category": "health",
       "published_iso": "2026-07-12T16:45:00+00:00",
       "regions": [
@@ -359,7 +412,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "category": "technology",
       "published_iso": "2026-07-14T20:00:00+00:00",
       "regions": [
@@ -415,7 +468,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "category": "geopolitics",
       "published_iso": "2026-07-15T09:06:52+00:00",
       "regions": [
@@ -494,7 +547,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 11,
       "category": "technology",
       "published_iso": "2026-07-15T05:07:00+00:00",
       "regions": [
@@ -554,7 +607,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "category": "economy",
       "published_iso": "2026-07-15T05:36:00+00:00",
       "regions": [
@@ -614,7 +667,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 13,
       "category": "economy",
       "published_iso": "2026-07-15T02:08:00+00:00",
       "regions": [
@@ -682,7 +735,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 14,
       "category": "geopolitics",
       "published_iso": "2026-07-14T17:23:00+00:00",
       "regions": [
@@ -754,7 +807,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "category": "economy",
       "published_iso": "2026-07-14T17:09:02+00:00",
       "regions": [
@@ -823,7 +876,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 16,
       "category": "economy",
       "published_iso": "2026-07-14T16:38:00+00:00",
       "regions": [
@@ -886,7 +939,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "category": "technology",
       "published_iso": "2026-07-14T17:18:43+00:00",
       "regions": [
@@ -946,7 +999,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 18,
       "category": "economy",
       "published_iso": "2026-07-13T20:19:00+00:00",
       "regions": [
@@ -1006,7 +1059,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 19,
       "category": "geopolitics",
       "published_iso": "2026-07-14T13:06:36+00:00",
       "regions": [
@@ -1073,7 +1126,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
       "category": "geopolitics",
       "published_iso": "2026-07-13T23:20:00+00:00",
       "regions": [
@@ -1139,7 +1192,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 21,
       "category": "economy",
       "published_iso": "2026-07-14T03:15:00+00:00",
       "regions": [
@@ -1198,7 +1251,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 22,
       "category": "geopolitics",
       "published_iso": "2026-07-14T11:20:24+00:00",
       "regions": [
@@ -1259,7 +1312,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "category": "technology",
       "published_iso": "2026-07-14T16:44:13+00:00",
       "regions": [
@@ -1313,7 +1366,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 24,
       "category": "geopolitics",
       "published_iso": "2026-07-14T10:23:29+00:00",
       "regions": [
@@ -1361,7 +1414,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 25,
       "category": "economy",
       "published_iso": "2026-07-13T12:19:30+00:00",
       "regions": [
@@ -1412,7 +1465,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 26,
       "category": "geopolitics",
       "published_iso": "2026-07-13T20:39:14+00:00",
       "regions": [
@@ -1464,7 +1517,7 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 27,
       "category": "technology",
       "published_iso": "2026-07-10T22:54:16+00:00",
       "regions": [
@@ -1515,7 +1568,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 28,
       "category": "health",
       "published_iso": "2026-07-12T08:00:12+00:00",
       "regions": [
@@ -1574,7 +1627,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 29,
       "category": "climate",
       "published_iso": "2026-07-13T08:57:15+00:00",
       "regions": [
@@ -1628,7 +1681,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 30,
       "category": "climate",
       "published_iso": "2026-07-12T07:39:45+00:00",
       "regions": [
@@ -1686,7 +1739,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 31,
       "category": "health",
       "published_iso": "2026-07-14T09:47:41+00:00",
       "regions": [
@@ -1749,7 +1802,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 32,
       "category": "science",
       "published_iso": "2026-07-14T15:31:05+00:00",
       "regions": [
@@ -1801,7 +1854,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 33,
       "category": "science",
       "published_iso": "2026-07-13T22:33:00+00:00",
       "regions": [
@@ -1857,7 +1910,59 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 34,
+      "category": "india",
+      "published_iso": "2026-07-15T15:23:19+00:00",
+      "regions": [
+        "India"
+      ],
+      "title": "India's market watchdog polices itself: SEBI bars its own board members from buying stocks and sets up a formal recusal rulebook",
+      "key_points": [
+        "SEBI's full-time members can't make new stock investments",
+        "They're now treated as 'insiders' under insider-trading rules",
+        "New code: officials must step back from any conflict",
+        "Recusals logged digitally and published yearly"
+      ],
+      "background": "SEBI \u2014 the Securities and Exchange Board of India \u2014 is the watchdog that regulates India's stock markets: it writes the rules, investigates wrongdoing, and can punish companies and traders. Because its top officials see confidential, market-moving information before anyone else, questions about their personal investments and possible conflicts of interest have dogged the regulator in recent years.",
+      "what_happened": "SEBI has barred its board's Whole-Time Members \u2014 its most senior, full-time officials \u2014 from making new investments in stocks and related instruments, and will now treat them as 'insiders' under insider-trading rules, formally presuming they hold unpublished price-sensitive information. Alongside that, SEBI has rolled out a formal recusal framework: officials must step away from any matter where a personal, professional, or financial conflict could arise, and the regulator will keep digital records of those recusals and make the annual data public.",
+      "why_it_matters": "A regulator's authority rests entirely on the public believing it is impartial. By restricting its own officials' trading and forcing documented recusals, SEBI is trying to close the gap between 'trust us' and 'here's the proof' \u2014 protecting the credibility of every ruling and penalty it hands down.",
+      "ripple_effects": "Cleaner conflict-of-interest rules can strengthen investor confidence in Indian markets just as domestic and foreign money keeps pouring in, and they set a template other Indian regulators may be pressed to copy. In the near term the change constrains SEBI's leaders personally and adds paperwork, but it lowers the risk that a future conflict scandal could undermine a major enforcement action or policy decision.",
+      "why_now": "The move follows a stretch of public scrutiny over conflicts of interest at the top of the regulator; formalising recusals and banning new investments is SEBI's answer to those doubts.",
+      "watch_next": "Whether SEBI actually publishes the promised recusal records, and whether it extends similar curbs to more of its staff.",
+      "key_terms": [
+        {
+          "term": "Recusal",
+          "definition": "When an official steps back from a decision because they have a personal stake in it that could bias their judgement."
+        },
+        {
+          "term": "Insider trading",
+          "definition": "Buying or selling shares using secret, market-moving information the public doesn't have \u2014 illegal in most markets."
+        },
+        {
+          "term": "Unpublished price-sensitive information (UPSI)",
+          "definition": "Confidential facts that would move a stock's price if they became public."
+        },
+        {
+          "term": "Whole-Time Member",
+          "definition": "A full-time, salaried member of SEBI's board who helps run the regulator day to day."
+        }
+      ],
+      "the_lesson": "A referee is only as trusted as their neutrality \u2014 institutions that police others eventually have to prove they can police themselves.",
+      "market_link": "No single-stock move, but stronger governance at the regulator is a quiet positive for confidence in Indian equities broadly.",
+      "importance": "notable",
+      "sources": [
+        {
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/business/sebi-bans-board-members-from-new-investments-in-stocks-and-related-instruments/article71226596.ece"
+        },
+        {
+          "name": "Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-tightens-conflict-safeguards-with-recusal-framework/articleshow/132419435.cms"
+        }
+      ]
+    },
+    {
+      "rank": 35,
       "category": "india",
       "published_iso": "2026-07-15T13:23:58+00:00",
       "regions": [
@@ -1905,7 +2010,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 36,
       "category": "india",
       "published_iso": "2026-07-15T10:08:00+00:00",
       "regions": [
@@ -1964,7 +2069,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 37,
       "category": "india",
       "published_iso": "2026-07-15T09:25:20+00:00",
       "regions": [
@@ -2013,7 +2118,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 38,
       "category": "india",
       "published_iso": "2026-07-14T22:54:00+00:00",
       "regions": [
@@ -2062,7 +2167,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 39,
       "category": "india",
       "published_iso": "2026-07-15T08:06:23+00:00",
       "regions": [
@@ -2114,7 +2219,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 40,
       "category": "india",
       "published_iso": "2026-07-15T11:25:41+00:00",
       "regions": [
@@ -2161,7 +2266,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 41,
       "category": "india",
       "published_iso": "2026-07-15T09:01:54+00:00",
       "regions": [
@@ -2218,7 +2323,7 @@
       ]
     },
     {
-      "rank": 40,
+      "rank": 42,
       "category": "india",
       "published_iso": "2026-07-15T10:00:00+00:00",
       "regions": [
@@ -2277,7 +2382,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 43,
       "category": "india",
       "published_iso": "2026-07-15T10:08:16+00:00",
       "regions": [
@@ -2336,7 +2441,7 @@
       ]
     },
     {
-      "rank": 42,
+      "rank": 44,
       "category": "india",
       "published_iso": "2026-07-15T06:22:04+00:00",
       "regions": [
@@ -2394,7 +2499,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 45,
       "category": "india",
       "published_iso": "2026-07-15T07:05:24+00:00",
       "regions": [
@@ -2455,7 +2560,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 46,
       "category": "india",
       "published_iso": "2026-07-14T12:07:59+00:00",
       "regions": [
@@ -2511,7 +2616,7 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 47,
       "category": "india",
       "published_iso": "2026-07-14T16:12:40+00:00",
       "regions": [
@@ -2569,7 +2674,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 48,
       "category": "india",
       "published_iso": "2026-07-14T06:41:00+00:00",
       "regions": [
@@ -2627,7 +2732,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 49,
       "category": "india",
       "published_iso": "2026-07-14T16:29:51+00:00",
       "regions": [
@@ -2691,7 +2796,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 50,
       "category": "india",
       "published_iso": "2026-07-13T12:09:22+00:00",
       "regions": [
@@ -2748,7 +2853,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 51,
       "category": "india",
       "published_iso": "2026-07-14T07:23:32+00:00",
       "regions": [
@@ -2805,7 +2910,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 52,
       "category": "india",
       "published_iso": "2026-07-14T17:30:30+00:00",
       "regions": [
@@ -2870,7 +2975,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 53,
       "category": "india",
       "published_iso": "2026-07-14T17:51:12+00:00",
       "regions": [
@@ -2930,7 +3035,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 54,
       "category": "india",
       "published_iso": "2026-07-14T17:41:20+00:00",
       "regions": [
@@ -2996,7 +3101,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 55,
       "category": "india",
       "published_iso": "2026-07-13T12:22:38+00:00",
       "regions": [
@@ -3060,7 +3165,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 56,
       "category": "india",
       "published_iso": "2026-07-13T11:50:23+00:00",
       "regions": [
@@ -3120,7 +3225,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 57,
       "category": "india",
       "published_iso": "2026-07-14T07:31:04+00:00",
       "regions": [
@@ -3170,7 +3275,7 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 58,
       "category": "india",
       "published_iso": "2026-07-12T08:37:43+00:00",
       "regions": [
@@ -3217,7 +3322,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 59,
       "category": "india",
       "published_iso": "2026-07-13T14:36:09+00:00",
       "regions": [
@@ -3270,7 +3375,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 60,
       "category": "india",
       "published_iso": "2026-07-14T04:43:00+00:00",
       "regions": [
@@ -3321,7 +3426,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 61,
       "category": "india",
       "published_iso": "2026-07-14T15:24:55+00:00",
       "regions": [
@@ -3373,7 +3478,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 62,
       "category": "india",
       "published_iso": "2026-07-14T18:37:41+00:00",
       "regions": [
@@ -3426,7 +3531,7 @@
       ]
     },
     {
-      "rank": 61,
+      "rank": 63,
       "category": "india",
       "published_iso": "2026-07-14T10:27:13+00:00",
       "regions": [
@@ -3482,7 +3587,7 @@
       ]
     },
     {
-      "rank": 62,
+      "rank": 64,
       "category": "india",
       "published_iso": "2026-07-14T18:12:40+00:00",
       "regions": [
@@ -3535,7 +3640,7 @@
       ]
     },
     {
-      "rank": 63,
+      "rank": 65,
       "category": "india",
       "published_iso": "2026-07-14T08:55:02+00:00",
       "regions": [
@@ -3580,7 +3685,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 66,
       "category": "india",
       "published_iso": "2026-07-14T17:45:46+00:00",
       "regions": [

@@ -1,24 +1,24 @@
 {
-  "last_check": "2026-07-15T20:57:39+05:30",
+  "last_check": "2026-07-15T21:34:47+05:30",
   "last_kind": "hourly",
   "cadence_min": 30,
-  "next_update_est": "2026-07-15T21:27:39+05:30",
+  "next_update_est": "2026-07-15T22:04:47+05:30",
   "counts": {
-    "global": 32,
-    "india": 32
+    "global": 33,
+    "india": 33
   },
-  "total": 64,
-  "last_update": "2026-07-15T20:57:39+05:30",
+  "total": 66,
+  "last_update": "2026-07-15T21:34:46+05:30",
   "last_added": [
     {
-      "title": "JPMorgan is on the cusp of becoming the world's first $1 trillion bank — after the most profitable quarter in US banking history",
+      "title": "China's DeepSeek raises money at a $74bn valuation — and its founder quietly becomes the world's richest AI-startup billionaire",
       "region": "global",
-      "published_iso": "2026-07-15T12:50:20+00:00"
+      "published_iso": "2026-07-15T09:59:43+00:00"
     },
     {
-      "title": "India moves to bring streaming films under the Censor Board — planning to force OTT movies to get clearance before release, after pulling 'Satluj/Punjab 95'",
+      "title": "India's market watchdog polices itself: SEBI bars its own board members from buying stocks and sets up a formal recusal rulebook",
       "region": "india",
-      "published_iso": "2026-07-15T13:23:58+00:00"
+      "published_iso": "2026-07-15T15:23:19+00:00"
     }
   ],
   "added_count": 2
