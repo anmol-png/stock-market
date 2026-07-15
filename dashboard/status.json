@@ -1,24 +1,24 @@
 {
-  "last_check": "2026-07-15T21:34:47+05:30",
+  "last_check": "2026-07-15T22:15:19+05:30",
   "last_kind": "hourly",
   "cadence_min": 30,
-  "next_update_est": "2026-07-15T22:04:47+05:30",
+  "next_update_est": "2026-07-15T22:45:19+05:30",
   "counts": {
-    "global": 33,
-    "india": 33
+    "global": 34,
+    "india": 34
   },
-  "total": 66,
-  "last_update": "2026-07-15T21:34:46+05:30",
+  "total": 68,
+  "last_update": "2026-07-15T22:15:19+05:30",
   "last_added": [
     {
-      "title": "China's DeepSeek raises money at a $74bn valuation — and its founder quietly becomes the world's richest AI-startup billionaire",
+      "title": "Toronto's air becomes the world's worst as 100+ Ontario wildfires blanket Canada — and the smoke is now drifting over New York and Washington",
       "region": "global",
-      "published_iso": "2026-07-15T09:59:43+00:00"
+      "published_iso": "2026-07-15T16:08:39+00:00"
     },
     {
-      "title": "India's market watchdog polices itself: SEBI bars its own board members from buying stocks and sets up a formal recusal rulebook",
+      "title": "Tata wants to build ships in Kerala: the group behind Tata Steel and Jaguar seeks approval for a ₹10,000 crore ($1bn) shipyard — its first-ever move into shipbuilding",
       "region": "india",
-      "published_iso": "2026-07-15T15:23:19+00:00"
+      "published_iso": "2026-07-15T06:50:46+00:00"
     }
   ],
   "added_count": 2

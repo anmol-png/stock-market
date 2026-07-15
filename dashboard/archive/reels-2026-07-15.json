@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T21:34:46+05:30",
+  "generated_at": "2026-07-15T22:15:19+05:30",
   "day_label": "Wednesday · 15 July 2026",
   "dashboard_url": "../",
   "cards": [
@@ -8,6 +8,65 @@
       "type": "story",
       "id": "story-1",
       "rank": 1,
+      "category": "climate",
+      "published_iso": "2026-07-15T16:08:39+00:00",
+      "source": "The New York Times",
+      "importance": "high",
+      "regions": [
+        "Canada",
+        "US"
+      ],
+      "title": "Toronto's air becomes the world's worst as 100+ Ontario wildfires blanket Canada — and the smoke is now drifting over New York and Washington",
+      "what_happened": "More than 100 active wildfires in northern Ontario sent thick smoke over Toronto, Canada's largest city, on Wednesday. For part of the day Toronto had the worst air quality of any major city in the world, according to IQAir, a service that ranks live air pollution globally. Environment Canada, the government's weather agency, issued health warnings as the sky turned a sickly yellow. The smoke is already drifting south — reaching New York City and heading toward Washington — with air-quality alerts issued across parts of the US Northeast, Great Lakes and Midwest.",
+      "key_points": [
+        "Over 100 wildfires in northern Ontario turned Toronto's sky yellow",
+        "Toronto briefly ranked the single worst air quality on Earth",
+        "Smoke is spreading south into New York City and the US Northeast",
+        "A heat dome and near-40°C temperatures are feeding the fires"
+      ],
+      "moot": "A wildfire is a local event, but its smoke is a regional one — pollution travels hundreds of miles on the wind, so a fire in one country can send another country's cities indoors. As the climate warms, 'fire season' increasingly means 'smoke season' even for people who live nowhere near the flames.",
+      "concepts": [],
+      "depth": {
+        "background": "Canada's boreal forest — the vast northern woodland that rings the top of the country — burns every summer, but the fires now start earlier and grow bigger as the climate warms and dries the land. In 2023, smoke from Canadian wildfires famously turned New York's skyline orange, showing how one country's forest fire becomes another country's public-health emergency. This week a fresh outbreak in northern Ontario, fanned by extreme heat and drought, has flared into one of the season's worst episodes.",
+        "why_it_matters": "Wildfire smoke is not just unpleasant — it is a genuine health hazard, especially for children, the elderly, and people with asthma or heart conditions. The microscopic soot particles it carries lodge deep in the lungs and bloodstream and can trigger breathing problems, hospital visits, and worse. When a city of millions like Toronto — and then tens of millions across the US Northeast — is told to stay indoors, the health and economic costs add up fast, from lost workdays to strained hospitals.",
+        "ripple_effects": "Schools and outdoor events get cancelled, flights and highways face reduced visibility, and demand for air purifiers and masks spikes. Insurers face claims from fire damage while shops and restaurants lose customers who stay home. Cross-border smoke also becomes a climate and diplomatic talking point: Americans breathing Canadian smoke is a vivid reminder that emissions and fires ignore borders. And each repeat season nudges cities to invest in clean-air shelters, better forecasting, and tougher fire management.",
+        "why_now": "A 'heat dome' — a lid of high-pressure air that traps heat over a region for days — is parked over central Canada, pushing temperatures to 38–40°C and baking the forest into perfect fuel. That heat both ignites and spreads the fires, and the same weather system is steering the smoke plume southward into the US.",
+        "watch_next": "Whether the winds shift and forecast rain on Friday clear the smoke as Environment Canada expects — or the heat dome holds and pushes air-quality alerts deeper down the US East Coast.",
+        "market_link": "Watch Canadian property-and-casualty insurers and global reinsurers for wildfire claims, air-purifier and filter makers for demand spikes, and lumber prices if commercial timberland burns.",
+        "key_terms": [
+          {
+            "term": "Air Quality Index (AQI)",
+            "definition": "A 0–500+ scale that turns pollution levels into a simple health rating — the higher the number, the more dangerous the air is to breathe."
+          },
+          {
+            "term": "PM2.5",
+            "definition": "Microscopic soot particles smaller than 2.5 microns — small enough to pass deep into the lungs and bloodstream, which is what makes wildfire smoke so harmful."
+          },
+          {
+            "term": "Heat dome",
+            "definition": "A large zone of high-pressure air that acts like a lid, trapping heat over a region for days and driving temperatures far above normal."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The New York Times",
+            "url": "https://www.nytimes.com/2026/07/15/world/canada/wildfire-smoke-toronto-ontario-northeast.html"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world"
+          },
+          {
+            "name": "CP24",
+            "url": "https://www.cp24.com/weather/2026/07/15/torontos-air-quality-ranked-worst-in-the-world-as-wildfire-smoke-drifts-into-region/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-2",
+      "rank": 2,
       "category": "technology",
       "published_iso": "2026-07-15T09:59:43+00:00",
       "source": "Reuters",
@@ -64,8 +123,8 @@
     },
     {
       "type": "story",
-      "id": "story-2",
-      "rank": 2,
+      "id": "story-3",
+      "rank": 3,
       "category": "economy",
       "published_iso": "2026-07-15T12:50:20+00:00",
       "source": "Quartz",
@@ -122,8 +181,8 @@
     },
     {
       "type": "story",
-      "id": "story-3",
-      "rank": 3,
+      "id": "story-4",
+      "rank": 4,
       "category": "economy",
       "published_iso": "2026-07-14T18:05:11+00:00",
       "source": "BBC",
@@ -180,8 +239,8 @@
     },
     {
       "type": "story",
-      "id": "story-4",
-      "rank": 4,
+      "id": "story-5",
+      "rank": 5,
       "category": "geopolitics",
       "published_iso": "2026-07-15T10:39:00+00:00",
       "source": "Al Jazeera",
@@ -232,8 +291,8 @@
     },
     {
       "type": "story",
-      "id": "story-5",
-      "rank": 5,
+      "id": "story-6",
+      "rank": 6,
       "category": "technology",
       "published_iso": "2026-07-15T10:08:40+00:00",
       "source": "The Times of India (reporting The Information's scoop)",
@@ -285,8 +344,8 @@
     },
     {
       "type": "story",
-      "id": "story-6",
-      "rank": 6,
+      "id": "story-7",
+      "rank": 7,
       "category": "economy",
       "published_iso": "2026-07-15T08:17:43+00:00",
       "source": "Reuters",
@@ -342,8 +401,8 @@
     },
     {
       "type": "story",
-      "id": "story-7",
-      "rank": 7,
+      "id": "story-8",
+      "rank": 8,
       "category": "geopolitics",
       "published_iso": "2026-07-15T04:10:00+00:00",
       "source": "The New York Times",
@@ -401,8 +460,8 @@
     },
     {
       "type": "story",
-      "id": "story-8",
-      "rank": 8,
+      "id": "story-9",
+      "rank": 9,
       "category": "health",
       "published_iso": "2026-07-12T16:45:00+00:00",
       "source": "NPR",
@@ -456,8 +515,8 @@
     },
     {
       "type": "story",
-      "id": "story-9",
-      "rank": 9,
+      "id": "story-10",
+      "rank": 10,
       "category": "technology",
       "published_iso": "2026-07-14T20:00:00+00:00",
       "source": "The Washington Post",
@@ -518,8 +577,8 @@
     },
     {
       "type": "story",
-      "id": "story-10",
-      "rank": 10,
+      "id": "story-11",
+      "rank": 11,
       "category": "geopolitics",
       "published_iso": "2026-07-15T09:06:52+00:00",
       "source": "BBC World (Trump threatens to bomb bridges and power plants unless Iran resumes talks)",
@@ -602,8 +661,8 @@
     },
     {
       "type": "story",
-      "id": "story-11",
-      "rank": 11,
+      "id": "story-12",
+      "rank": 12,
       "category": "technology",
       "published_iso": "2026-07-15T05:07:00+00:00",
       "source": "CNBC (ASML rises 5% after hiking sales forecast for second time this year on strong AI chip demand)",
@@ -667,8 +726,8 @@
     },
     {
       "type": "story",
-      "id": "story-12",
-      "rank": 12,
+      "id": "story-13",
+      "rank": 13,
       "category": "economy",
       "published_iso": "2026-07-15T05:36:00+00:00",
       "source": "Reuters (Exclusive: Stripe, Advent offer to buy PayPal for more than $53 billion, sources say)",
@@ -732,8 +791,8 @@
     },
     {
       "type": "story",
-      "id": "story-13",
-      "rank": 13,
+      "id": "story-14",
+      "rank": 14,
       "category": "economy",
       "published_iso": "2026-07-15T02:08:00+00:00",
       "source": "Reuters (China's Q2 economic growth cools to 3-1/2-year low as imbalances worsen)",
@@ -805,8 +864,8 @@
     },
     {
       "type": "story",
-      "id": "story-14",
-      "rank": 14,
+      "id": "story-15",
+      "rank": 15,
       "category": "geopolitics",
       "published_iso": "2026-07-14T17:23:00+00:00",
       "source": "AP News (US and Iran reignite war over the Strait of Hormuz)",
@@ -882,8 +941,8 @@
     },
     {
       "type": "story",
-      "id": "story-15",
-      "rank": 15,
+      "id": "story-16",
+      "rank": 16,
       "category": "economy",
       "published_iso": "2026-07-14T17:09:02+00:00",
       "source": "CNBC (Here's the inflation breakdown for June 2026)",
@@ -956,8 +1015,8 @@
     },
     {
       "type": "story",
-      "id": "story-16",
-      "rank": 16,
+      "id": "story-17",
+      "rank": 17,
       "category": "economy",
       "published_iso": "2026-07-14T16:38:00+00:00",
       "source": "The Guardian (IBM loses a quarter of its value as shares plunge and profits falter)",
@@ -1024,8 +1083,8 @@
     },
     {
       "type": "story",
-      "id": "story-17",
-      "rank": 17,
+      "id": "story-18",
+      "rank": 18,
       "category": "technology",
       "published_iso": "2026-07-14T17:18:43+00:00",
       "source": "Reuters (US official says shipments of Nvidia H200 chips to China have begun)",
@@ -1089,8 +1148,8 @@
     },
     {
       "type": "story",
-      "id": "story-18",
-      "rank": 18,
+      "id": "story-19",
+      "rank": 19,
       "category": "economy",
       "published_iso": "2026-07-13T20:19:00+00:00",
       "source": "AP News (Oil prices jump following the latest fighting in the Middle East, while AI stocks sink)",
@@ -1154,8 +1213,8 @@
     },
     {
       "type": "story",
-      "id": "story-19",
-      "rank": 19,
+      "id": "story-20",
+      "rank": 20,
       "category": "geopolitics",
       "published_iso": "2026-07-14T13:06:36+00:00",
       "source": "Reuters (Chemical tanker Stolt Magnesium hit by explosion off Omani coast, manager says)",
@@ -1226,8 +1285,8 @@
     },
     {
       "type": "story",
-      "id": "story-20",
-      "rank": 20,
+      "id": "story-21",
+      "rank": 21,
       "category": "geopolitics",
       "published_iso": "2026-07-13T23:20:00+00:00",
       "source": "AP News via The Washington Post (Yemen's Houthis strike Saudi Arabia's Abha airport with missiles and drones)",
@@ -1297,8 +1356,8 @@
     },
     {
       "type": "story",
-      "id": "story-21",
-      "rank": 21,
+      "id": "story-22",
+      "rank": 22,
       "category": "economy",
       "published_iso": "2026-07-14T03:15:00+00:00",
       "source": "AP News (China's June exports surge 27% from a year earlier as AI boom drives strong demand)",
@@ -1361,8 +1420,8 @@
     },
     {
       "type": "story",
-      "id": "story-22",
-      "rank": 22,
+      "id": "story-23",
+      "rank": 23,
       "category": "geopolitics",
       "published_iso": "2026-07-14T11:20:24+00:00",
       "source": "Al Jazeera (Russia readies to reroute exports from Sea of Azov after Ukrainian attacks)",
@@ -1427,8 +1486,8 @@
     },
     {
       "type": "story",
-      "id": "story-23",
-      "rank": 23,
+      "id": "story-24",
+      "rank": 24,
       "category": "technology",
       "published_iso": "2026-07-14T16:44:13+00:00",
       "source": "Reuters via US News (Meta Used AI to Target Workers With Medical Conditions for Layoffs, Lawsuit Claims)",
@@ -1486,8 +1545,8 @@
     },
     {
       "type": "story",
-      "id": "story-24",
-      "rank": 24,
+      "id": "story-25",
+      "rank": 25,
       "category": "geopolitics",
       "published_iso": "2026-07-14T10:23:29+00:00",
       "source": "The New York Times",
@@ -1540,8 +1599,8 @@
     },
     {
       "type": "story",
-      "id": "story-25",
-      "rank": 25,
+      "id": "story-26",
+      "rank": 26,
       "category": "economy",
       "published_iso": "2026-07-13T12:19:30+00:00",
       "source": "CNBC",
@@ -1596,8 +1655,8 @@
     },
     {
       "type": "story",
-      "id": "story-26",
-      "rank": 26,
+      "id": "story-27",
+      "rank": 27,
       "category": "geopolitics",
       "published_iso": "2026-07-13T20:39:14+00:00",
       "source": "BBC",
@@ -1653,8 +1712,8 @@
     },
     {
       "type": "story",
-      "id": "story-27",
-      "rank": 27,
+      "id": "story-28",
+      "rank": 28,
       "category": "technology",
       "published_iso": "2026-07-10T22:54:16+00:00",
       "source": "BBC",
@@ -1709,8 +1768,8 @@
     },
     {
       "type": "story",
-      "id": "story-28",
-      "rank": 28,
+      "id": "story-29",
+      "rank": 29,
       "category": "health",
       "published_iso": "2026-07-12T08:00:12+00:00",
       "source": "The Guardian",
@@ -1774,8 +1833,8 @@
     },
     {
       "type": "story",
-      "id": "story-29",
-      "rank": 29,
+      "id": "story-30",
+      "rank": 30,
       "category": "climate",
       "published_iso": "2026-07-13T08:57:15+00:00",
       "source": "BBC",
@@ -1834,8 +1893,8 @@
     },
     {
       "type": "story",
-      "id": "story-30",
-      "rank": 30,
+      "id": "story-31",
+      "rank": 31,
       "category": "climate",
       "published_iso": "2026-07-12T07:39:45+00:00",
       "source": "BBC",
@@ -1897,8 +1956,8 @@
     },
     {
       "type": "story",
-      "id": "story-31",
-      "rank": 31,
+      "id": "story-32",
+      "rank": 32,
       "category": "health",
       "published_iso": "2026-07-14T09:47:41+00:00",
       "source": "ScienceDaily",
@@ -1966,8 +2025,8 @@
     },
     {
       "type": "story",
-      "id": "story-32",
-      "rank": 32,
+      "id": "story-33",
+      "rank": 33,
       "category": "science",
       "published_iso": "2026-07-14T15:31:05+00:00",
       "source": "The Guardian",
@@ -2024,8 +2083,8 @@
     },
     {
       "type": "story",
-      "id": "story-33",
-      "rank": 33,
+      "id": "story-34",
+      "rank": 34,
       "category": "science",
       "published_iso": "2026-07-13T22:33:00+00:00",
       "source": "CNN",
@@ -2086,8 +2145,68 @@
     },
     {
       "type": "story",
-      "id": "story-34",
-      "rank": 34,
+      "id": "story-35",
+      "rank": 35,
+      "category": "india",
+      "published_iso": "2026-07-15T06:50:46+00:00",
+      "source": "The Hindu",
+      "importance": "high",
+      "regions": [
+        "India"
+      ],
+      "title": "Tata wants to build ships in Kerala: the group behind Tata Steel and Jaguar seeks approval for a ₹10,000 crore ($1bn) shipyard — its first-ever move into shipbuilding",
+      "what_happened": "At the Kerala Samudra Mission 2026 seminar in Thiruvananthapuram, Kerala Chief Minister V.D. Satheesan said the Tata Group has sought the state's approval for a ₹10,000 crore (about $1 billion) shipbuilding investment. He said the state would provide the land and is likely to clear the proposal within a month. Satheesan also revealed that Singapore's Changi Airport — one of the world's top-rated airports — is interested in aviation-related investment in Kerala. The shipbuilding plan would mark Tata's first entry into the sector.",
+      "key_points": [
+        "Tata seeks state approval for a ₹10,000 crore ($1bn) Kerala shipyard",
+        "It would be Tata's first-ever entry into shipbuilding",
+        "Kerala says it will provide land and may approve within a month",
+        "Part of Kerala's 'Mission Samudra' port-led economy push"
+      ],
+      "moot": "A country can dominate the *use* of an industry while barely participating in *making* it — India moves enormous volumes of goods by sea yet builds almost none of the ships. Closing that kind of gap needs patient, capital-heavy players, which is why a conglomerate's balance sheet, not a startup's, tends to be what finally enters industries like shipbuilding.",
+      "concepts": [
+        "supply_chain"
+      ],
+      "depth": {
+        "background": "India is a shipping giant that barely builds its own ships. It relies on the sea for most of its trade and imports most of its oil, yet Indian shipyards make under 1% of the world's ships, while China, South Korea and Japan together build roughly 90%. New Delhi has spent years trying to change that with subsidies and a 'Maritime India' plan, wanting home-built ships for trade, the navy, and jobs. Tata, India's largest conglomerate, already spans steel, cars (it owns Jaguar Land Rover), software, power and consumer goods — but has never built ships.",
+        "why_it_matters": "If it goes ahead, a Tata shipyard would put one of India's most trusted industrial names — with deep pockets and engineering muscle — behind the country's long-stalled ambition to build ships at home. That matters for self-reliance (fewer vessels bought from China or Korea), for defence (naval and coast-guard ships), for skilled jobs in a coastal state, and for cutting India's import bill. It is also a vote of confidence in Kerala as an industrial destination, not just a tourism one.",
+        "ripple_effects": "A big new domestic yard would create thousands of skilled jobs and pull in a supply chain of steel, engines and components — a natural fit with Tata Steel. It would also raise the competitive bar for India's existing shipbuilders like Cochin Shipyard, Mazagon Dock and Garden Reach, even as it grows the overall industry. For Kerala, landing both Tata and Changi would be a signal flare to other investors. But this is still a proposal: land, environmental clearances and a firm capital commitment all have to follow the headline.",
+        "why_now": "Kerala has just launched 'Mission Samudra,' a ₹400 crore plan to turn its long coastline and new deep-water Vizhinjam port into a maritime economic hub — and it is actively courting marquee investors like Tata to anchor it. Globally, shipbuyers are also hunting for capacity outside China, which opens a rare window for new entrants.",
+        "watch_next": "Whether the Kerala cabinet formally approves the proposal within the promised month — and whether Tata publicly confirms the plan and names a site.",
+        "market_link": "Watch Indian shipbuilders — Cochin Shipyard, Mazagon Dock, Garden Reach — and Tata group stocks such as Tata Steel; a credible new entrant reshapes expectations for the entire sector.",
+        "key_terms": [
+          {
+            "term": "Conglomerate",
+            "definition": "A single company that owns many unrelated businesses at once — Tata, for example, spans steel, cars, software, salt and power."
+          },
+          {
+            "term": "Mission Samudra",
+            "definition": "Kerala's state initiative (samudra means 'ocean') to build a port-led economy, using its coastline and the new Vizhinjam deep-water port to attract maritime industry."
+          },
+          {
+            "term": "Shipbuilding order book",
+            "definition": "The backlog of ships a yard has already been contracted to build — the industry's main gauge of future work and market share."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/kerala/tata-changi-airport-to-invest-in-kerala-says-chief-minister-satheesan/article71226626.ece"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/india-news/tata-group-to-invest-1-billion-in-shipbuilding-in-kerala-cm-satheesan-126071500425_1.html"
+          },
+          {
+            "name": "Splash247",
+            "url": "https://splash247.com/tata-lines-up-1bn-kerala-shipbuilding-move/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-36",
+      "rank": 36,
       "category": "india",
       "published_iso": "2026-07-15T15:23:19+00:00",
       "source": "The Hindu",
@@ -2144,8 +2263,8 @@
     },
     {
       "type": "story",
-      "id": "story-35",
-      "rank": 35,
+      "id": "story-37",
+      "rank": 37,
       "category": "india",
       "published_iso": "2026-07-15T13:23:58+00:00",
       "source": "The Tribune",
@@ -2198,8 +2317,8 @@
     },
     {
       "type": "story",
-      "id": "story-36",
-      "rank": 36,
+      "id": "story-38",
+      "rank": 38,
       "category": "india",
       "published_iso": "2026-07-15T10:08:00+00:00",
       "source": "The Hindu",
@@ -2262,8 +2381,8 @@
     },
     {
       "type": "story",
-      "id": "story-37",
-      "rank": 37,
+      "id": "story-39",
+      "rank": 39,
       "category": "india",
       "published_iso": "2026-07-15T09:25:20+00:00",
       "source": "The Times of India",
@@ -2316,8 +2435,8 @@
     },
     {
       "type": "story",
-      "id": "story-38",
-      "rank": 38,
+      "id": "story-40",
+      "rank": 40,
       "category": "india",
       "published_iso": "2026-07-14T22:54:00+00:00",
       "source": "NDTV (Vietnam boat tragedy: PM Modi condoles deaths of Indian tourists)",
@@ -2371,8 +2490,8 @@
     },
     {
       "type": "story",
-      "id": "story-39",
-      "rank": 39,
+      "id": "story-41",
+      "rank": 41,
       "category": "india",
       "published_iso": "2026-07-15T08:06:23+00:00",
       "source": "Business Standard",
@@ -2428,8 +2547,8 @@
     },
     {
       "type": "story",
-      "id": "story-40",
-      "rank": 40,
+      "id": "story-42",
+      "rank": 42,
       "category": "india",
       "published_iso": "2026-07-15T11:25:41+00:00",
       "source": "Mint",
@@ -2480,8 +2599,8 @@
     },
     {
       "type": "story",
-      "id": "story-41",
-      "rank": 41,
+      "id": "story-43",
+      "rank": 43,
       "category": "india",
       "published_iso": "2026-07-15T09:01:54+00:00",
       "source": "Reuters (via Yahoo News)",
@@ -2542,8 +2661,8 @@
     },
     {
       "type": "story",
-      "id": "story-42",
-      "rank": 42,
+      "id": "story-44",
+      "rank": 44,
       "category": "india",
       "published_iso": "2026-07-15T10:00:00+00:00",
       "source": "NewKerala",
@@ -2606,8 +2725,8 @@
     },
     {
       "type": "story",
-      "id": "story-43",
-      "rank": 43,
+      "id": "story-45",
+      "rank": 45,
       "category": "india",
       "published_iso": "2026-07-15T10:08:16+00:00",
       "source": "Times of India (Semicon 2.0, Varanasi projects, rail upgrades & more: 7 big decisions cleared by Cabinet — incl. National Investment Policy for Urea)",
@@ -2670,8 +2789,8 @@
     },
     {
       "type": "story",
-      "id": "story-44",
-      "rank": 44,
+      "id": "story-46",
+      "rank": 46,
       "category": "india",
       "published_iso": "2026-07-15T06:22:04+00:00",
       "source": "Reuters via Yahoo Finance (Indian investigators conducted psychological autopsy in Air India crash probe, court filing says)",
@@ -2734,8 +2853,8 @@
     },
     {
       "type": "story",
-      "id": "story-45",
-      "rank": 45,
+      "id": "story-47",
+      "rank": 47,
       "category": "india",
       "published_iso": "2026-07-15T07:05:24+00:00",
       "source": "Al Jazeera (India's ethanol rush prompts anger among vehicle owners, questions for gov't)",
@@ -2800,8 +2919,8 @@
     },
     {
       "type": "story",
-      "id": "story-46",
-      "rank": 46,
+      "id": "story-48",
+      "rank": 48,
       "category": "india",
       "published_iso": "2026-07-14T12:07:59+00:00",
       "source": "The Hindu (India bans the import of goods made using forced labour, even as U.S. investigation is pending)",
@@ -2861,8 +2980,8 @@
     },
     {
       "type": "story",
-      "id": "story-47",
-      "rank": 47,
+      "id": "story-49",
+      "rank": 49,
       "category": "india",
       "published_iso": "2026-07-14T16:12:40+00:00",
       "source": "The Hindu (Sensex declines by 561 points on surging oil, West Asia flare-up; banks, auto shares major drag)",
@@ -2924,8 +3043,8 @@
     },
     {
       "type": "story",
-      "id": "story-48",
-      "rank": 48,
+      "id": "story-50",
+      "rank": 50,
       "category": "india",
       "published_iso": "2026-07-14T06:41:00+00:00",
       "source": "Business Recorder (Indian rupee may drift towards 96 on twin drag from oil and U.S. yields)",
@@ -2987,8 +3106,8 @@
     },
     {
       "type": "story",
-      "id": "story-49",
-      "rank": 49,
+      "id": "story-51",
+      "rank": 51,
       "category": "india",
       "published_iso": "2026-07-14T16:29:51+00:00",
       "source": "Livemint (India–UK CETA to boost bilateral trade to $100 billion by 2030; engineering, textiles among biggest gainers)",
@@ -3056,8 +3175,8 @@
     },
     {
       "type": "story",
-      "id": "story-50",
-      "rank": 50,
+      "id": "story-52",
+      "rank": 52,
       "category": "india",
       "published_iso": "2026-07-13T12:09:22+00:00",
       "source": "Bloomberg (India inflation tops RBI target for first time in 17 months)",
@@ -3118,8 +3237,8 @@
     },
     {
       "type": "story",
-      "id": "story-51",
-      "rank": 51,
+      "id": "story-53",
+      "rank": 53,
       "category": "india",
       "published_iso": "2026-07-14T07:23:32+00:00",
       "source": "The Hindu (WPI inflation rises to 9.87% in June; minerals, food items see price spike)",
@@ -3180,8 +3299,8 @@
     },
     {
       "type": "story",
-      "id": "story-52",
-      "rank": 52,
+      "id": "story-54",
+      "rank": 54,
       "category": "india",
       "published_iso": "2026-07-14T17:30:30+00:00",
       "source": "The Hindu (MEA summons Iranian deputy envoy after Indian national killed in ship attack)",
@@ -3250,8 +3369,8 @@
     },
     {
       "type": "story",
-      "id": "story-53",
-      "rank": 53,
+      "id": "story-55",
+      "rank": 55,
       "category": "india",
       "published_iso": "2026-07-14T17:51:12+00:00",
       "source": "ANI (Trump backs Graham's Russia sanctions bill, setting up fresh tariff threat for India)",
@@ -3315,8 +3434,8 @@
     },
     {
       "type": "story",
-      "id": "story-54",
-      "rank": 54,
+      "id": "story-56",
+      "rank": 56,
       "category": "india",
       "published_iso": "2026-07-14T17:41:20+00:00",
       "source": "Livemint (Brent crude surge, import bill, India refiners, inflation and growth)",
@@ -3386,8 +3505,8 @@
     },
     {
       "type": "story",
-      "id": "story-55",
-      "rank": 55,
+      "id": "story-57",
+      "rank": 57,
       "category": "india",
       "published_iso": "2026-07-13T12:22:38+00:00",
       "source": "Reuters via Bloomberg (India trade deficit widens as Hormuz risks cloud outlook)",
@@ -3455,8 +3574,8 @@
     },
     {
       "type": "story",
-      "id": "story-56",
-      "rank": 56,
+      "id": "story-58",
+      "rank": 58,
       "category": "india",
       "published_iso": "2026-07-13T11:50:23+00:00",
       "source": "Business Today (India-US negotiations progressing well, framework deal is ready: Commerce Secretary)",
@@ -3520,8 +3639,8 @@
     },
     {
       "type": "story",
-      "id": "story-57",
-      "rank": 57,
+      "id": "story-59",
+      "rank": 59,
       "category": "india",
       "published_iso": "2026-07-14T07:31:04+00:00",
       "source": "The Hindu",
@@ -3575,8 +3694,8 @@
     },
     {
       "type": "story",
-      "id": "story-58",
-      "rank": 58,
+      "id": "story-60",
+      "rank": 60,
       "category": "india",
       "published_iso": "2026-07-12T08:37:43+00:00",
       "source": "Reuters (via Business Standard)",
@@ -3627,8 +3746,8 @@
     },
     {
       "type": "story",
-      "id": "story-59",
-      "rank": 59,
+      "id": "story-61",
+      "rank": 61,
       "category": "india",
       "published_iso": "2026-07-13T14:36:09+00:00",
       "source": "Reuters (via The Star)",
@@ -3685,8 +3804,8 @@
     },
     {
       "type": "story",
-      "id": "story-60",
-      "rank": 60,
+      "id": "story-62",
+      "rank": 62,
       "category": "india",
       "published_iso": "2026-07-14T04:43:00+00:00",
       "source": "Reuters (via NewsDrum)",
@@ -3741,8 +3860,8 @@
     },
     {
       "type": "story",
-      "id": "story-61",
-      "rank": 61,
+      "id": "story-63",
+      "rank": 63,
       "category": "india",
       "published_iso": "2026-07-14T15:24:55+00:00",
       "source": "NDTV",
@@ -3799,8 +3918,8 @@
     },
     {
       "type": "story",
-      "id": "story-62",
-      "rank": 62,
+      "id": "story-64",
+      "rank": 64,
       "category": "india",
       "published_iso": "2026-07-14T18:37:41+00:00",
       "source": "NDTV",
@@ -3857,8 +3976,8 @@
     },
     {
       "type": "story",
-      "id": "story-63",
-      "rank": 63,
+      "id": "story-65",
+      "rank": 65,
       "category": "india",
       "published_iso": "2026-07-14T10:27:13+00:00",
       "source": "The Hindu",
@@ -3918,8 +4037,8 @@
     },
     {
       "type": "story",
-      "id": "story-64",
-      "rank": 64,
+      "id": "story-66",
+      "rank": 66,
       "category": "india",
       "published_iso": "2026-07-14T18:12:40+00:00",
       "source": "The Hindu",
@@ -3976,8 +4095,8 @@
     },
     {
       "type": "story",
-      "id": "story-65",
-      "rank": 65,
+      "id": "story-67",
+      "rank": 67,
       "category": "india",
       "published_iso": "2026-07-14T08:55:02+00:00",
       "source": "Reuters (via Al Jazeera)",
@@ -4026,8 +4145,8 @@
     },
     {
       "type": "story",
-      "id": "story-66",
-      "rank": 66,
+      "id": "story-68",
+      "rank": 68,
       "category": "india",
       "published_iso": "2026-07-14T17:45:46+00:00",
       "source": "The Indian Express",
