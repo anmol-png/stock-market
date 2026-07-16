@@ -1,11 +1,65 @@
 {
   "date": "2026-07-16",
-  "generated_at": "2026-07-16T12:08:45+05:30",
+  "generated_at": "2026-07-16T12:45:08+05:30",
   "headline": "US and Iran reignite their war over the Strait of Hormuz: Trump drops a 20% shipping fee but presses a naval blockade as strikes fly, pushing oil to a one-month high.",
   "the_big_picture": "The single thread running through today is the re-escalation of the US-Iran conflict at the Strait of Hormuz, the chokepoint that carries roughly a fifth of the world's oil. Trump backed off a threatened 20% transit fee but is pushing ahead with a naval blockade while both sides trade strikes and tankers come under attack, sending crude to a one-month high. That oil spike is the hinge for everything downstream: US inflation cooled to 3.5% but officials flagged fresh upside risk, India's inflation just breached its central bank's target, the rupee slid past 96 and the Sensex fell. Running underneath, an AI storyline cuts both ways: IBM shed roughly $70bn in a day after stumbling on AI deals, even as China's AI-driven exports jumped 27% and Nvidia began shipping powerful H200 chips into China.",
   "stories": [
     {
       "rank": 1,
+      "category": "economy",
+      "published_iso": "2026-07-16T03:37:00+00:00",
+      "regions": [
+        "US",
+        "Latin America"
+      ],
+      "title": "Trump slaps a 25% tariff on most Brazilian goods \u2014 and Brazil says the real target is its politics, not its trade",
+      "key_points": [
+        "US puts a 25% import tax on most goods from Brazil, starting July 22",
+        "Coffee, beef, oranges and orange juice are exempted \u2014 to spare US shoppers",
+        "A separate forced-labour probe could add another 12.5% next week",
+        "Brazil 'repudiates' it; Lula blames the Bolsonaro family's Washington lobbying"
+      ],
+      "background": "A tariff is a tax a government charges on goods coming in from another country; it makes those imports pricier, which is meant to pressure the exporting nation or protect local producers. Since returning to office, US President Donald Trump has used tariffs as an all-purpose lever against trading partners. Brazil is the world's 10th-largest economy and a member of BRICS \u2014 a bloc of big non-Western economies (Brazil, Russia, India, China, South Africa and newer members) that many in Washington see as a rival to US influence. For the past year the US Trade Representative (USTR) has been running a formal 'Section 301' investigation \u2014 a US trade law that lets Washington punish countries it judges to be treating American companies unfairly.",
+      "what_happened": "The US announced a 25% tariff on most Brazilian imports, taking effect July 22, after the year-long USTR probe concluded Brazil's rules on digital trade, tariffs, intellectual property, ethanol-market access and deforestation unfairly burden US commerce. Notably, coffee, beef, oranges and orange juice, some oil-and-gas products and aerospace parts were carved out. A separate US forced-labour investigation could pile an extra 12.5% on top, with a decision due next week. Brazil's government said it 'repudiates the decision,' and President Lula da Silva tied it to his October election rival \u2014 Senator Fl\u00e1vio Bolsonaro, son of Trump ally and former president Jair Bolsonaro \u2014 who recently visited Washington.",
+      "why_it_matters": "This turns a routine-sounding trade measure into a political weapon aimed at a major economy and a BRICS heavyweight. Brazil argues the tariffs are less about trade math and more about pressuring its domestic politics ahead of an election \u2014 which, if true, is a striking use of US economic power to reach inside another democracy's vote.",
+      "ripple_effects": "Brazilian exporters of steel, machinery, footwear and industrial goods now face a 25% price penalty in the US market, which could dent sales, jobs and the Brazilian real. The carve-outs are telling: sparing coffee and orange juice protects US consumers from sudden price jumps on breakfast staples, since Brazil supplies a huge share of both. Squeezed on trade, Brazil may lean harder into China and BRICS partners, and could retaliate with its own tariffs or a WTO complaint \u2014 raising the risk of a wider tit-for-tat.",
+      "why_now": "The USTR's year-long Section 301 investigation just wrapped, giving Washington the legal basis to act \u2014 and the timing, weeks before Brazil's October election and just after Fl\u00e1vio Bolsonaro's Washington trip, is exactly why Bras\u00edlia reads it as political.",
+      "watch_next": "The separate forced-labour ruling due next week, which could add 12.5% more, and whether Brazil retaliates or takes the case to the World Trade Organization.",
+      "key_terms": [
+        {
+          "term": "Section 301",
+          "definition": "A US trade law that lets Washington investigate and penalise countries it decides are treating American companies unfairly."
+        },
+        {
+          "term": "USTR",
+          "definition": "The Office of the US Trade Representative \u2014 the government agency that runs America's trade investigations and negotiates tariffs."
+        },
+        {
+          "term": "Carve-out (exemption)",
+          "definition": "A specific product deliberately left off a tariff list so it can still be imported tax-free."
+        }
+      ],
+      "the_lesson": "Tariffs are increasingly used as political leverage, not just economic policy \u2014 a 'trade' measure can really be about elections, alliances and pressure. And the exemptions reveal the intent: sparing coffee and orange juice shows the aim is to squeeze the other country without hurting your own voters at the checkout.",
+      "concepts": [
+        "tariffs",
+        "brics",
+        "supply_chain"
+      ],
+      "market_link": "Watch the Brazilian real and the Bovespa stock index for pressure, US-listed steel and industrial importers of Brazilian goods, and coffee and orange-juice futures \u2014 the latter spared for now by the carve-outs.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/16/us-tariffs-brazil-unfair-trade-practices-section-301-.html"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/brazil-us-tariffs"
+        }
+      ]
+    },
+    {
+      "rank": 2,
       "category": "geopolitics",
       "published_iso": "2026-07-15T13:00:00+00:00",
       "regions": [
@@ -59,7 +113,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "category": "geopolitics",
       "published_iso": "2026-07-15T17:02:41+00:00",
       "regions": [
@@ -116,7 +170,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "category": "health",
       "published_iso": "2026-07-15T01:23:00+02:00",
       "regions": [
@@ -165,7 +219,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "category": "geopolitics",
       "published_iso": "2026-07-15T16:30:20+00:00",
       "regions": [
@@ -223,7 +277,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 6,
       "category": "geopolitics",
       "published_iso": "2026-07-14T23:25:00+00:00",
       "regions": [
@@ -280,7 +334,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "category": "climate",
       "published_iso": "2026-07-15T16:08:39+00:00",
       "regions": [
@@ -333,7 +387,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "category": "technology",
       "published_iso": "2026-07-15T09:59:43+00:00",
       "regions": [
@@ -386,7 +440,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "category": "economy",
       "published_iso": "2026-07-15T12:50:20+00:00",
       "regions": [
@@ -439,7 +493,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "category": "economy",
       "published_iso": "2026-07-14T18:05:11+00:00",
       "regions": [
@@ -491,7 +545,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 11,
       "category": "geopolitics",
       "published_iso": "2026-07-15T10:39:00+00:00",
       "regions": [
@@ -538,7 +592,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "category": "technology",
       "published_iso": "2026-07-15T10:08:40+00:00",
       "regions": [
@@ -586,7 +640,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 13,
       "category": "economy",
       "published_iso": "2026-07-15T08:17:43+00:00",
       "regions": [
@@ -638,7 +692,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 14,
       "category": "geopolitics",
       "published_iso": "2026-07-15T04:10:00+00:00",
       "regions": [
@@ -691,7 +745,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "category": "health",
       "published_iso": "2026-07-12T16:45:00+00:00",
       "regions": [
@@ -740,7 +794,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 16,
       "category": "technology",
       "published_iso": "2026-07-14T20:00:00+00:00",
       "regions": [
@@ -796,7 +850,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "category": "geopolitics",
       "published_iso": "2026-07-15T09:06:52+00:00",
       "regions": [
@@ -875,7 +929,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 18,
       "category": "technology",
       "published_iso": "2026-07-15T05:07:00+00:00",
       "regions": [
@@ -935,7 +989,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 19,
       "category": "economy",
       "published_iso": "2026-07-15T05:36:00+00:00",
       "regions": [
@@ -995,7 +1049,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
       "category": "economy",
       "published_iso": "2026-07-15T02:08:00+00:00",
       "regions": [
@@ -1063,7 +1117,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 21,
       "category": "geopolitics",
       "published_iso": "2026-07-14T17:23:00+00:00",
       "regions": [
@@ -1135,7 +1189,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 22,
       "category": "economy",
       "published_iso": "2026-07-14T17:09:02+00:00",
       "regions": [
@@ -1204,7 +1258,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "category": "economy",
       "published_iso": "2026-07-14T16:38:00+00:00",
       "regions": [
@@ -1267,7 +1321,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 24,
       "category": "technology",
       "published_iso": "2026-07-14T17:18:43+00:00",
       "regions": [
@@ -1327,7 +1381,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 25,
       "category": "economy",
       "published_iso": "2026-07-13T20:19:00+00:00",
       "regions": [
@@ -1387,7 +1441,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 26,
       "category": "geopolitics",
       "published_iso": "2026-07-14T13:06:36+00:00",
       "regions": [
@@ -1454,7 +1508,7 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 27,
       "category": "geopolitics",
       "published_iso": "2026-07-13T23:20:00+00:00",
       "regions": [
@@ -1520,7 +1574,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 28,
       "category": "economy",
       "published_iso": "2026-07-14T03:15:00+00:00",
       "regions": [
@@ -1579,7 +1633,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 29,
       "category": "geopolitics",
       "published_iso": "2026-07-14T11:20:24+00:00",
       "regions": [
@@ -1640,7 +1694,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 30,
       "category": "technology",
       "published_iso": "2026-07-14T16:44:13+00:00",
       "regions": [
@@ -1694,7 +1748,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 31,
       "category": "geopolitics",
       "published_iso": "2026-07-14T10:23:29+00:00",
       "regions": [
@@ -1742,7 +1796,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 32,
       "category": "economy",
       "published_iso": "2026-07-13T12:19:30+00:00",
       "regions": [
@@ -1793,7 +1847,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 33,
       "category": "geopolitics",
       "published_iso": "2026-07-13T20:39:14+00:00",
       "regions": [
@@ -1845,7 +1899,7 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 34,
       "category": "technology",
       "published_iso": "2026-07-10T22:54:16+00:00",
       "regions": [
@@ -1896,7 +1950,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 35,
       "category": "health",
       "published_iso": "2026-07-12T08:00:12+00:00",
       "regions": [
@@ -1955,7 +2009,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 36,
       "category": "climate",
       "published_iso": "2026-07-13T08:57:15+00:00",
       "regions": [
@@ -2009,7 +2063,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 37,
       "category": "climate",
       "published_iso": "2026-07-12T07:39:45+00:00",
       "regions": [
@@ -2067,7 +2121,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "category": "health",
       "published_iso": "2026-07-14T09:47:41+00:00",
       "regions": [
@@ -2130,7 +2184,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 39,
       "category": "science",
       "published_iso": "2026-07-14T15:31:05+00:00",
       "regions": [
@@ -2182,7 +2236,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 40,
       "category": "science",
       "published_iso": "2026-07-13T22:33:00+00:00",
       "regions": [
@@ -2238,7 +2292,51 @@
       ]
     },
     {
-      "rank": 40,
+      "rank": 41,
+      "category": "india",
+      "published_iso": "2026-07-16T04:15:00+00:00",
+      "regions": [
+        "India"
+      ],
+      "title": "Brain drain at India's space agency: 100+ ISRO scientists \u2014 many on the Gaganyaan crewed mission \u2014 have quit, so the government is now freezing exits",
+      "key_points": [
+        "At least 100\u2013120 ISRO scientists and engineers resigned in the past year",
+        "Many worked on Gaganyaan, India's first human spaceflight mission",
+        "A July 14 memo bars centres from accepting resignations from key missions",
+        "India's booming private space startups are poaching the talent"
+      ],
+      "background": "ISRO \u2014 the Indian Space Research Organisation \u2014 is India's national space agency, the team behind the Chandrayaan Moon landings, the Mangalyaan Mars orbiter and, now, Gaganyaan, India's first attempt to send its own astronauts to space. In 2020 India opened its long-closed space sector to private companies, and a wave of startups (rocket and satellite firms like Skyroot and Agnikul, among others) has grown up since \u2014 companies that need exactly the kind of experienced hands ISRO has spent decades training.",
+      "what_happened": "According to reports across The Times of India, India Today, The Hindu, WION and Business Today, at least 100 \u2014 and possibly up to 120 \u2014 scientists and engineers have left ISRO over the past year, including roughly 80 from the U R Rao Satellite Centre (URSC) in Bengaluru and about 20 from the Vikram Sarabhai Space Centre (VSSC), many of them attached to Gaganyaan and other flagship projects. In response, an internal Department of Space memo dated July 14 directs ISRO's centre directors not to accept resignation or voluntary-retirement (VRS) requests from scientific and technical staff tied to key missions until those missions are completed, sending all such requests to the Department for a final decision. ISRO chairman V. Narayanan confirmed the departures and framed the curb as protecting critical projects from sudden disruption.",
+      "why_it_matters": "Losing more than a hundred trained people \u2014 some on the flagship human-spaceflight programme \u2014 risks delays to missions India has staked national prestige on. And the government's fix, effectively freezing people in their jobs, raises a bigger question: can India hold on to its scientific talent when a fast-growing private space industry can offer better pay and quicker advancement?",
+      "ripple_effects": "If key engineers keep leaving, timelines for Gaganyaan and other missions could slip. India's private space startups are the direct winners, gaining battle-tested talent that accelerates the whole industry. But the 'lock-in' memo could dent morale and make ISRO a less attractive place to build a career \u2014 treating the symptom (exits) rather than the cause (pay and opportunity gaps). It spotlights a tension every maturing space power faces: a state agency and a private sector now competing for the same scarce experts.",
+      "why_now": "The scale of the resignations became clear only after the Department of Space's July 14 internal memo surfaced in reports on July 16 \u2014 the clampdown itself is what made the quiet exodus public.",
+      "watch_next": "Whether the government moves beyond restricting exits to actually retaining talent (better pay, incentives, faster promotions), any official headcount on the departures, and updates to the Gaganyaan launch schedule.",
+      "key_terms": [
+        {
+          "term": "Gaganyaan",
+          "definition": "India's flagship mission to send its own astronauts into orbit aboard an Indian rocket \u2014 the country's first human spaceflight."
+        },
+        {
+          "term": "VRS (Voluntary Retirement Scheme)",
+          "definition": "A formal option letting government employees retire early, often used to leave for a new job in the private sector."
+        }
+      ],
+      "the_lesson": "When a country opens a state monopoly to private competition, its own government experts suddenly become poachable \u2014 talent flows to wherever the pay and upside are best. Freezing people in place treats the symptom, not the cause; retention is ultimately about incentives, not restrictions.",
+      "market_link": "No listed pure-play here, but India's private space and defence-tech firms \u2014 and their investors \u2014 stand to gain from an inflow of experienced ISRO talent.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/jobs/story/100-scientists-linked-to-gaganyaan-other-missions-quit-isro-dos-puts-brakes-on-resignations-report-543264-2026-07-16"
+        },
+        {
+          "name": "WION",
+          "url": "https://www.wionews.com/india-news/isro-scientist-resignations-gaganyaan-talent-exodus-government-memo-1784127615955"
+        }
+      ]
+    },
+    {
+      "rank": 42,
       "category": "india",
       "published_iso": "2026-07-09T20:30:00+00:00",
       "regions": [
@@ -2293,7 +2391,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 43,
       "category": "india",
       "published_iso": "2026-07-16T09:17:25+05:30",
       "regions": [
@@ -2358,7 +2456,7 @@
       ]
     },
     {
-      "rank": 42,
+      "rank": 44,
       "category": "india",
       "published_iso": "2026-07-15T20:05:00+05:30",
       "regions": [
@@ -2406,7 +2504,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 45,
       "category": "india",
       "published_iso": "2026-07-15T12:00:00+00:00",
       "regions": [
@@ -2464,7 +2562,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 46,
       "category": "india",
       "published_iso": "2026-07-15T16:38:36+00:00",
       "regions": [
@@ -2524,7 +2622,7 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 47,
       "category": "india",
       "published_iso": "2026-07-15T06:50:46+00:00",
       "regions": [
@@ -2579,7 +2677,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 48,
       "category": "india",
       "published_iso": "2026-07-15T15:23:19+00:00",
       "regions": [
@@ -2631,7 +2729,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 49,
       "category": "india",
       "published_iso": "2026-07-15T13:23:58+00:00",
       "regions": [
@@ -2679,7 +2777,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 50,
       "category": "india",
       "published_iso": "2026-07-15T10:08:00+00:00",
       "regions": [
@@ -2738,7 +2836,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 51,
       "category": "india",
       "published_iso": "2026-07-15T09:25:20+00:00",
       "regions": [
@@ -2787,7 +2885,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 52,
       "category": "india",
       "published_iso": "2026-07-14T22:54:00+00:00",
       "regions": [
@@ -2836,7 +2934,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 53,
       "category": "india",
       "published_iso": "2026-07-15T08:06:23+00:00",
       "regions": [
@@ -2888,7 +2986,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 54,
       "category": "india",
       "published_iso": "2026-07-15T11:25:41+00:00",
       "regions": [
@@ -2935,7 +3033,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 55,
       "category": "india",
       "published_iso": "2026-07-15T09:01:54+00:00",
       "regions": [
@@ -2992,7 +3090,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 56,
       "category": "india",
       "published_iso": "2026-07-15T10:00:00+00:00",
       "regions": [
@@ -3051,7 +3149,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 57,
       "category": "india",
       "published_iso": "2026-07-15T10:08:16+00:00",
       "regions": [
@@ -3110,7 +3208,7 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 58,
       "category": "india",
       "published_iso": "2026-07-15T06:22:04+00:00",
       "regions": [
@@ -3168,7 +3266,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 59,
       "category": "india",
       "published_iso": "2026-07-15T07:05:24+00:00",
       "regions": [
@@ -3229,7 +3327,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 60,
       "category": "india",
       "published_iso": "2026-07-14T12:07:59+00:00",
       "regions": [
@@ -3285,7 +3383,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 61,
       "category": "india",
       "published_iso": "2026-07-14T16:12:40+00:00",
       "regions": [
@@ -3343,7 +3441,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 62,
       "category": "india",
       "published_iso": "2026-07-14T06:41:00+00:00",
       "regions": [
@@ -3401,7 +3499,7 @@
       ]
     },
     {
-      "rank": 61,
+      "rank": 63,
       "category": "india",
       "published_iso": "2026-07-14T16:29:51+00:00",
       "regions": [
@@ -3465,7 +3563,7 @@
       ]
     },
     {
-      "rank": 62,
+      "rank": 64,
       "category": "india",
       "published_iso": "2026-07-13T12:09:22+00:00",
       "regions": [
@@ -3522,7 +3620,7 @@
       ]
     },
     {
-      "rank": 63,
+      "rank": 65,
       "category": "india",
       "published_iso": "2026-07-14T07:23:32+00:00",
       "regions": [
@@ -3579,7 +3677,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 66,
       "category": "india",
       "published_iso": "2026-07-14T17:30:30+00:00",
       "regions": [
@@ -3644,7 +3742,7 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 67,
       "category": "india",
       "published_iso": "2026-07-14T17:51:12+00:00",
       "regions": [
@@ -3704,7 +3802,7 @@
       ]
     },
     {
-      "rank": 66,
+      "rank": 68,
       "category": "india",
       "published_iso": "2026-07-14T17:41:20+00:00",
       "regions": [
@@ -3770,7 +3868,7 @@
       ]
     },
     {
-      "rank": 67,
+      "rank": 69,
       "category": "india",
       "published_iso": "2026-07-13T12:22:38+00:00",
       "regions": [
@@ -3834,7 +3932,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 70,
       "category": "india",
       "published_iso": "2026-07-13T11:50:23+00:00",
       "regions": [
@@ -3894,7 +3992,7 @@
       ]
     },
     {
-      "rank": 69,
+      "rank": 71,
       "category": "india",
       "published_iso": "2026-07-14T07:31:04+00:00",
       "regions": [
@@ -3944,7 +4042,7 @@
       ]
     },
     {
-      "rank": 70,
+      "rank": 72,
       "category": "india",
       "published_iso": "2026-07-12T08:37:43+00:00",
       "regions": [
@@ -3991,7 +4089,7 @@
       ]
     },
     {
-      "rank": 71,
+      "rank": 73,
       "category": "india",
       "published_iso": "2026-07-13T14:36:09+00:00",
       "regions": [
@@ -4044,7 +4142,7 @@
       ]
     },
     {
-      "rank": 72,
+      "rank": 74,
       "category": "india",
       "published_iso": "2026-07-14T04:43:00+00:00",
       "regions": [
@@ -4095,7 +4193,7 @@
       ]
     },
     {
-      "rank": 73,
+      "rank": 75,
       "category": "india",
       "published_iso": "2026-07-14T15:24:55+00:00",
       "regions": [
@@ -4147,7 +4245,7 @@
       ]
     },
     {
-      "rank": 74,
+      "rank": 76,
       "category": "india",
       "published_iso": "2026-07-14T18:37:41+00:00",
       "regions": [
@@ -4200,7 +4298,7 @@
       ]
     },
     {
-      "rank": 75,
+      "rank": 77,
       "category": "india",
       "published_iso": "2026-07-14T10:27:13+00:00",
       "regions": [
@@ -4256,7 +4354,7 @@
       ]
     },
     {
-      "rank": 76,
+      "rank": 78,
       "category": "india",
       "published_iso": "2026-07-14T18:12:40+00:00",
       "regions": [
@@ -4309,7 +4407,7 @@
       ]
     },
     {
-      "rank": 77,
+      "rank": 79,
       "category": "india",
       "published_iso": "2026-07-14T08:55:02+00:00",
       "regions": [
@@ -4354,7 +4452,7 @@
       ]
     },
     {
-      "rank": 78,
+      "rank": 80,
       "category": "india",
       "published_iso": "2026-07-14T17:45:46+00:00",
       "regions": [

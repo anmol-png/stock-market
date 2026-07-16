@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T12:08:45+05:30",
+  "generated_at": "2026-07-16T12:45:08+05:30",
   "count": 23,
   "entities": {
     "united-states": {
@@ -9,10 +9,18 @@
       "stories": [
         {
           "date": "2026-07-16",
+          "title": "Trump slaps a 25% tariff on most Brazilian goods — and Brazil says the real target is its politics, not its trade",
+          "category": "economy",
+          "url": "https://www.cnbc.com/2026/07/16/us-tariffs-brazil-unfair-trade-practices-section-301-.html",
+          "rank": 1,
+          "moot": "Tariffs are increasingly used as political leverage, not just economic policy — a 'trade' measure can really be about elections, alliances and pressure. And the exemptions reveal the intent: sparing coffee and orange juice shows the aim is to squeeze the other country without hurting your own voters at the checkout."
+        },
+        {
+          "date": "2026-07-16",
           "title": "The world just tilted toward Beijing: for the first time in about 20 years of polling, more countries view China favourably than the United States, Pew finds — China leads in 25 of 36 nations",
           "category": "geopolitics",
           "url": "https://www.pewresearch.org/global/2026/07/15/people-in-many-countries-now-view-china-more-positively-than-the-u-s/",
-          "rank": 2,
+          "rank": 3,
           "moot": "Soft power is a national asset you can spend or squander, and it moves with behaviour: alienate allies and it erodes quietly, letting a rival gain ground without firing a shot — because in global affairs, being trusted is itself a form of leverage."
         },
         {
@@ -20,7 +28,7 @@
           "title": "India's most famous central banker lands a US seat: ex-RBI chief Raghuram Rajan is co-leading a task force to overhaul the Federal Reserve",
           "category": "india",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-          "rank": 40,
+          "rank": 42,
           "moot": "A central bank's balance sheet is a hidden throttle on the world's money supply, and because US interest rates anchor global capital, who sits on the Fed's review panels can matter to a saver in Mumbai almost as much as to one in Chicago."
         },
         {
@@ -318,14 +326,6 @@
           "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
           "rank": 5,
           "moot": "A falling unemployment rate isn't always good news — it matters why it fell. If people are leaving the workforce rather than finding jobs, the headline number can hide a weakening economy, which is why analysts read the details, not just the top line."
-        },
-        {
-          "date": "2026-07-12",
-          "title": "China weighs curbing overseas access to its AI models — a new front in the tech cold war",
-          "category": "technology",
-          "url": "https://timesofindia.indiatimes.com/technology/tech-news/china-may-have-a-message-for-airbnb-nvidia-and-other-ceos-impressed-with-chinese-models-we-will-soon-ban-you-from/articleshow/132340674.cms",
-          "rank": 7,
-          "moot": "Any input a country dominates can become a lever of power — first it was chips and oil, now it may be AI models. When one side controls something the other needs, access itself becomes a bargaining chip."
         }
       ]
     },
@@ -932,10 +932,18 @@
       "stories": [
         {
           "date": "2026-07-16",
+          "title": "Brain drain at India's space agency: 100+ ISRO scientists — many on the Gaganyaan crewed mission — have quit, so the government is now freezing exits",
+          "category": "india",
+          "url": "https://www.businesstoday.in/jobs/story/100-scientists-linked-to-gaganyaan-other-missions-quit-isro-dos-puts-brakes-on-resignations-report-543264-2026-07-16",
+          "rank": 41,
+          "moot": "When a country opens a state monopoly to private competition, its own government experts suddenly become poachable — talent flows to wherever the pay and upside are best. Freezing people in place treats the symptom, not the cause; retention is ultimately about incentives, not restrictions."
+        },
+        {
+          "date": "2026-07-16",
           "title": "India's most famous central banker lands a US seat: ex-RBI chief Raghuram Rajan is co-leading a task force to overhaul the Federal Reserve",
           "category": "india",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-          "rank": 40,
+          "rank": 42,
           "moot": "A central bank's balance sheet is a hidden throttle on the world's money supply, and because US interest rates anchor global capital, who sits on the Fed's review panels can matter to a saver in Mumbai almost as much as to one in Chicago."
         },
         {
@@ -943,7 +951,7 @@
           "title": "The Iran war reaches India's tax code: New Delhi almost doubles the 'windfall tax' on diesel and jet-fuel exports to ₹15.5 and ₹14.5 a litre as oil spikes",
           "category": "india",
           "url": "https://www.business-standard.com/economy/news/india-raises-windfall-tax-on-diesel-and-atf-exports-amid-oil-surge-126071600029_1.html",
-          "rank": 41,
+          "rank": 43,
           "moot": "A windfall tax is how a government claws back profits a company earns from luck — here, war-driven oil prices — rather than from skill; and because it's tied to a formula, watching it move is like reading a thermometer for how hot the underlying commodity has become."
         },
         {
@@ -951,7 +959,7 @@
           "title": "NEET-UG leak, decoded in court: CBI says 111 of 136 questions found on a Latur tutor's phone matched the exam's secret master set",
           "category": "india",
           "url": "https://theprint.in/india/neet-2026-leak-cbi-recovers-136-questions-from-latur-teachers-phone-111-matched-master-sets/2987474/",
-          "rank": 42,
+          "rank": 44,
           "moot": "A high-stakes exam is only as trustworthy as the weakest human link in the chain that writes, translates, prints and guards it — one insider can void a test for millions, which is why security, not just difficulty, defines a fair exam."
         },
         {
@@ -1241,14 +1249,6 @@
           "url": "https://indianexpress.com/article/sports/cricket/axar-patel-shubman-gill-star-india-defeat-england-1st-odi-10786565/",
           "rank": 72,
           "moot": "In limited-overs cricket, players who can both bat and bowl are disproportionately valuable — one all-rounder having a big day, as Axar Patel did, can swing a match on both sides of the ball."
-        },
-        {
-          "date": "2026-07-14",
-          "title": "Blockade on, toll off: the US naval blockade of Iran's ports goes live in the small hours — but Trump drops his 20% Hormuz 'toll', easing Brent back off its ~$87 high",
-          "category": "geopolitics",
-          "url": "https://www.cnbc.com/2026/07/14/oil-prices-today-brent-wti-hormuz-trump-toll-iran.html",
-          "rank": 1,
-          "moot": "A war has more than one price. The concrete acts — a blockade, a tanker hit, a death — raise the risk, but a fee dropped or added moves the cost too. When oil eases even as warships close in, look for the second lever: here, scrapping a toll that would have taxed every ship offset the fear of the blockade."
         }
       ]
     },
@@ -1394,7 +1394,7 @@
           "title": "France legalises assisted dying: after 14 years of debate, the National Assembly passes a law letting terminally ill adults take lethal medication",
           "category": "health",
           "url": "https://www.france24.com/en/france/20260715-france-expected-to-pass-final-vote-on-assisted-dying-after-years-of-debate",
-          "rank": 3,
+          "rank": 4,
           "moot": "Big social change often turns on procedure as much as persuasion: when a two-chamber legislature deadlocks, the rules about which house gets the 'final say' can decide an outcome the moral argument alone never settled."
         },
         {
@@ -1703,7 +1703,7 @@
           "title": "France legalises assisted dying: after 14 years of debate, the National Assembly passes a law letting terminally ill adults take lethal medication",
           "category": "health",
           "url": "https://www.france24.com/en/france/20260715-france-expected-to-pass-final-vote-on-assisted-dying-after-years-of-debate",
-          "rank": 3,
+          "rank": 4,
           "moot": "Big social change often turns on procedure as much as persuasion: when a two-chamber legislature deadlocks, the rules about which house gets the 'final say' can decide an outcome the moral argument alone never settled."
         },
         {
@@ -1790,7 +1790,7 @@
           "title": "The world just tilted toward Beijing: for the first time in about 20 years of polling, more countries view China favourably than the United States, Pew finds — China leads in 25 of 36 nations",
           "category": "geopolitics",
           "url": "https://www.pewresearch.org/global/2026/07/15/people-in-many-countries-now-view-china-more-positively-than-the-u-s/",
-          "rank": 2,
+          "rank": 3,
           "moot": "Soft power is a national asset you can spend or squander, and it moves with behaviour: alienate allies and it erodes quietly, letting a rival gain ground without firing a shot — because in global affairs, being trusted is itself a form of leverage."
         },
         {
