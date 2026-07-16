@@ -209,11 +209,19 @@ function render(s){
   // ---- auto top-up card ----
   const t = s.topup;
   if(t){
-    $('topupState').innerHTML = t.active ? pill('ok','🟢 live') : pill('stale','paused — Mac off');
+    // Honest state: the panel only loads when the Mac is ON, so never claim "Mac off". If the agent is
+    // scheduled it's just between ticks (or catching up after a wake); only "off" if it's not loaded.
+    let stHtml, nextTxt;
+    if(t.active){ stHtml = pill('ok','🟢 live'); nextTxt = '≈ ' + (t.next_clock||'—'); }
+    else if(t.agent_loaded === false){ stHtml = pill('stale','⏸ off — not scheduled');
+      nextTxt = 'turn the hourly agent back on to resume'; }
+    else { stHtml = pill('aging','⏳ due — last check ' + fmtAge(t.last_check_age));
+      nextTxt = 'within ' + (t.cadence_min||30) + ' min (or right after the Mac wakes)'; }
+    $('topupState').innerHTML = stHtml;
     $('topupUpd').textContent  = fmtAge(t.last_update_age);
     $('topupChk').textContent  = fmtAge(t.last_check_age);
     $('topupCad').textContent  = '1 story / ' + (t.cadence_min||30) + ' min (per region)';
-    $('topupNext').textContent = t.active ? ('≈ ' + (t.next_clock||'—')) : 'once the Mac is on';
+    $('topupNext').textContent = nextTxt;
     $('topupCounts').textContent = (t.counts.global??'—') + ' 🌍 · ' + (t.counts.india??'—') + ' 🇮🇳';
     $('topupAdded').innerHTML = (t.last_added||[]).length
       ? '<div class="albl">🆕 Just added</div>' + t.last_added.map(a=>

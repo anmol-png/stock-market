@@ -189,6 +189,16 @@ def _age_min(iso: str | None) -> int | None:
     return max(0, int((now - t).total_seconds() // 60))
 
 
+def _hourly_agent_loaded() -> bool:
+    """True if the hourly top-up LaunchAgent is loaded (scheduled). Lets the panel tell 'between
+    ticks / just woke' apart from 'the auto top-up is turned off' — instead of guessing 'Mac off'."""
+    try:
+        out = subprocess.run(["launchctl", "list"], capture_output=True, text=True, timeout=5).stdout
+    except Exception:  # noqa: BLE001
+        return False
+    return "com.dailyintel.hourly" in out
+
+
 def _topup_status() -> dict | None:
     """The automatic top-up record (dashboard/status.json) + derived freshness for the Update Center."""
     p = DASH / "status.json"
@@ -199,7 +209,7 @@ def _topup_status() -> dict | None:
     cad = s.get("cadence_min", 30)
     chk_age = _age_min(s.get("last_check"))
     upd_age = _age_min(s.get("last_update"))
-    # "active" = a check happened within ~1.5 cadence windows (else the laptop was asleep → paused)
+    # "active" = a check happened within ~1.5 cadence windows (else it's between ticks / was asleep)
     active = chk_age is not None and chk_age <= cad * 1.5 + 5
     nxt = s.get("next_update_est")
     try:
@@ -207,7 +217,7 @@ def _topup_status() -> dict | None:
     except ValueError:
         nxt_clock = None
     return {
-        "cadence_min": cad, "active": active,
+        "cadence_min": cad, "active": active, "agent_loaded": _hourly_agent_loaded(),
         "last_update_age": upd_age, "last_check_age": chk_age,
         "next_clock": nxt_clock, "counts": s.get("counts") or {},
         "last_added": s.get("last_added") or [], "last_kind": s.get("last_kind"),
