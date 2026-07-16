@@ -996,7 +996,16 @@ window.addEventListener('hashchange',()=>{ const h=(location.hash||'').replace(/
   if(['global','india','learn'].includes(h) && h!==PILLARSEL) setPillar(h); });
 
 if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='localhost')){
-  navigator.serviceWorker.register('./sw.js').catch(()=>{});
+  // updateViaCache:'none' → always byte-check sw.js (never from HTTP cache), so a bumped SW is picked up fast.
+  const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.register('./sw.js', {updateViaCache:'none'})
+    .then(reg=>reg.update()).catch(()=>{});
+  // when a NEW sw version takes over (cache bumped), reload once so the fresh UI shows automatically —
+  // no more manual hard-refresh. Skipped on the very first install (no prior controller).
+  let _swReloaded=false;
+  navigator.serviceWorker.addEventListener('controllerchange', ()=>{
+    if(hadController && !_swReloaded){ _swReloaded=true; location.reload(); }
+  });
 }
 </script>
 </body>
