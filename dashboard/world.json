@@ -1,11 +1,76 @@
 {
   "date": "2026-07-18",
-  "generated_at": "2026-07-18T15:48:22+05:30",
+  "generated_at": "2026-07-18T17:16:49+05:30",
   "headline": "US and Iran reignite their war over the Strait of Hormuz: Trump drops a 20% shipping fee but presses a naval blockade as strikes fly, pushing oil to a one-month high.",
   "the_big_picture": "The single thread running through today is the re-escalation of the US-Iran conflict at the Strait of Hormuz, the chokepoint that carries roughly a fifth of the world's oil. Trump backed off a threatened 20% transit fee but is pushing ahead with a naval blockade while both sides trade strikes and tankers come under attack, sending crude to a one-month high. That oil spike is the hinge for everything downstream: US inflation cooled to 3.5% but officials flagged fresh upside risk, India's inflation just breached its central bank's target, the rupee slid past 96 and the Sensex fell. Running underneath, an AI storyline cuts both ways: IBM shed roughly $70bn in a day after stumbling on AI deals, even as China's AI-driven exports jumped 27% and Nvidia began shipping powerful H200 chips into China.",
   "stories": [
     {
       "rank": 1,
+      "category": "geopolitics",
+      "published_iso": "2026-07-17T14:57:00+00:00",
+      "regions": [
+        "UK",
+        "Europe"
+      ],
+      "title": "Britain gets a new prime minister without an election: Andy Burnham is declared Labour leader and will replace Keir Starmer in Downing Street on Monday",
+      "key_points": [
+        "Andy Burnham declared leader of Britain's governing Labour Party on Friday",
+        "Becomes PM Monday when Keir Starmer resigns to King Charles III",
+        "Ran unopposed \u2014 nominated by 379 of 403 Labour MPs",
+        "Britain's 7th prime minister in a decade \u2014 and no national vote was held"
+      ],
+      "background": "Britain does not directly elect its prime minister. Voters elect Members of Parliament (MPs); whoever leads the party with a majority in the House of Commons becomes PM. Labour, the main centre-left party, won a big majority in 2024 under Keir Starmer, but his government struggled with weak economic growth, a high cost of living and falling popularity. After Labour was hammered in local elections in May 2026 and his own MPs began to rebel, Starmer agreed to step aside. Andy Burnham \u2014 the popular, plain-speaking mayor of Greater Manchester, nicknamed the 'King of the North' for championing England's regions \u2014 emerged as his successor, winning a by-election last month to get the seat in Parliament that a PM must hold.",
+      "what_happened": "On Friday, July 17, 2026, Andy Burnham was formally declared leader of the Labour Party at a special conference in London. He was the only candidate, having been nominated by 379 of the party's 403 MPs, so the result was a formality. He becomes prime minister on Monday, July 20, when Starmer travels to Buckingham Palace to tender his resignation to King Charles III, who will then invite Burnham to form a government. In his first speech as leader Burnham promised to 'restore hope,' deliver 'good growth in every postcode,' cut the cost of essentials like energy, and shift power away from Westminster and Whitehall to Britain's cities and regions. The New York Times noted he will be the country's seventh prime minister in a decade \u2014 a striking measure of British political turbulence.",
+      "why_it_matters": "This is a change of leadership in a G7 economy and a major NATO ally, happening in the middle of a parliamentary term without voters going to the polls. Burnham signals a shift in both tone and policy \u2014 more devolution of power to the regions, more willingness to intervene in the economy, and a sharp focus on the cost of living. Who leads Britain shapes its response to Trump's tariffs, its support for Ukraine, its defence spending and its energy policy, so the handover matters well beyond the UK.",
+      "ripple_effects": "Markets will watch closely for his economic team \u2014 especially who he installs as Chancellor next door at No. 11 \u2014 and for his tax-and-spending plans, since the British pound and UK government bonds (called 'gilts') move on how much a new government is expected to borrow. His signature ideas \u2014 cutting household energy bills, making heat pumps cheaper to run than gas boilers, and taking more of key sectors into public control \u2014 could reshape UK utilities and energy firms. Abroad, he must quickly manage a prickly relationship with Donald Trump over tariffs and steer Britain's stance on Ukraine and the EU. And his leap from regional mayor to the top job strengthens the argument for handing English cities and regions more power.",
+      "why_now": "Starmer's position became untenable after Labour's heavy defeat in the May 2026 local elections and a growing rebellion among his own MPs. With Burnham the sole candidate and 379 MPs behind him, Friday's declaration was a foregone conclusion, and the formal handover was set for the following Monday \u2014 so the transition is unfolding this weekend.",
+      "watch_next": "Monday's formal handover at Buckingham Palace and Burnham's first cabinet \u2014 above all who he names as Chancellor \u2014 followed by his opening moves on the economy and the cost of living.",
+      "key_terms": [
+        {
+          "term": "Prime minister (UK)",
+          "definition": "The head of the UK government \u2014 always the leader of the party that holds a majority in the House of Commons, not someone voters choose directly, so the role can change hands mid-term when a party swaps leaders."
+        },
+        {
+          "term": "Labour Party",
+          "definition": "Britain's main centre-left party, in government since winning a Commons majority in 2024; it has just replaced its leader, and therefore the prime minister."
+        },
+        {
+          "term": "Devolution",
+          "definition": "Transferring political power and budgets from central government in London out to regional and city leaders \u2014 a cause Burnham built his reputation on as Manchester's mayor."
+        },
+        {
+          "term": "Gilts",
+          "definition": "UK government bonds \u2014 the IOUs the state sells to borrow money; their price and yield move on how much investors expect a new government to borrow and spend."
+        }
+      ],
+      "the_lesson": "In a parliamentary democracy the prime minister is simply the leader of the ruling party, not a directly elected president \u2014 so a country can change its head of government in the middle of a term, without any national election, the moment the governing party picks a new chief. And rapid leadership churn (seven prime ministers in ten years) is usually a symptom, not a cause: it reflects deeper economic strain and public frustration that no single leader has been able to fix.",
+      "market_link": "A modest mover for the British pound (GBP) and UK government bonds (gilts), which react to the incoming government's borrowing and spending plans; watch UK utilities and energy names given Burnham's push to cut energy bills and expand public control, plus any early friction with the US over Trump's tariffs.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/burnham-confirmed-as-leader-of-uks-governing-labour-party-headed-for-pm"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/andy-burnham-uk-prime-minister-labour-party-leader/"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2026/07/17/world/europe/burnham-labour-leader.html"
+        },
+        {
+          "name": "TIME",
+          "url": "https://time.com/article/2026/07/17/andy-burnham-first-speech-labour-leader-incoming-prime-minister/"
+        },
+        {
+          "name": "AP News",
+          "url": "https://abcnews.com/International/wireStory/andy-burnham-declared-leader-britains-labour-party-become-134840790"
+        }
+      ]
+    },
+    {
+      "rank": 2,
       "category": "science",
       "published_iso": "2026-07-17T12:58:37+00:00",
       "regions": [
@@ -65,7 +130,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "category": "geopolitics",
       "published_iso": "2026-07-18T01:29:47+00:00",
       "regions": [
@@ -130,7 +195,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "category": "economy",
       "published_iso": "2026-07-17T20:05:00+00:00",
       "regions": [
@@ -196,7 +261,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "category": "science",
       "published_iso": "2026-07-17T18:12:54+00:00",
       "regions": [
@@ -258,7 +323,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 6,
       "category": "technology",
       "published_iso": "2026-07-17T12:28:00+00:00",
       "regions": [
@@ -323,7 +388,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "category": "health",
       "published_iso": "2026-07-16T12:04:58+00:00",
       "regions": [
@@ -384,7 +449,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "category": "economy",
       "published_iso": "2026-07-15T05:14:11+00:00",
       "regions": [
@@ -445,7 +510,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "category": "economy",
       "published_iso": "2026-07-16T05:37:03+00:00",
       "regions": [
@@ -509,7 +574,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "category": "technology",
       "published_iso": "2026-07-16T09:00:00+00:00",
       "regions": [
@@ -567,7 +632,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 11,
       "category": "economy",
       "published_iso": "2026-07-15T16:45:00+00:00",
       "regions": [
@@ -636,7 +701,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "category": "health",
       "published_iso": "2026-07-15T00:00:00+00:00",
       "regions": [
@@ -697,7 +762,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 13,
       "category": "geopolitics",
       "published_iso": "2026-07-16T11:48:49+00:00",
       "regions": [
@@ -764,7 +829,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 14,
       "category": "technology",
       "published_iso": "2026-07-16T05:36:00+00:00",
       "regions": [
@@ -825,7 +890,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "category": "geopolitics",
       "published_iso": "2026-07-16T07:45:59+00:00",
       "regions": [
@@ -882,7 +947,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 16,
       "category": "economy",
       "published_iso": "2026-07-16T10:00:20+00:00",
       "regions": [
@@ -932,7 +997,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "category": "geopolitics",
       "published_iso": "2026-07-15T22:49:47+00:00",
       "regions": [
@@ -990,7 +1055,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 18,
       "category": "economy",
       "published_iso": "2026-07-16T03:37:00+00:00",
       "regions": [
@@ -1044,7 +1109,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 19,
       "category": "geopolitics",
       "published_iso": "2026-07-15T13:00:00+00:00",
       "regions": [
@@ -1098,7 +1163,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
       "category": "geopolitics",
       "published_iso": "2026-07-15T17:02:41+00:00",
       "regions": [
@@ -1155,56 +1220,67 @@
       ]
     },
     {
-      "rank": 20,
-      "category": "health",
-      "published_iso": "2026-07-15T01:23:00+02:00",
+      "rank": 21,
+      "category": "india",
+      "published_iso": "2026-07-18T09:04:54+00:00",
       "regions": [
-        "Europe",
-        "France"
+        "India"
       ],
-      "title": "France legalises assisted dying: after 14 years of debate, the National Assembly passes a law letting terminally ill adults take lethal medication",
+      "title": "India's biggest private bank posts a strong quarter: ICICI Bank's profit jumps ~16% to \u20b914,805 crore, beating forecasts as loans grow and bad loans shrink",
       "key_points": [
-        "France's lower house passed the bill 291\u2013241, ending a 14-year fight",
-        "Incurable, advanced-stage adults can get lethal medication under strict rules",
-        "The Senate rejected it, but the National Assembly has the final say",
-        "It still needs the Constitutional Council's sign-off to take effect"
+        "ICICI Bank Q1 net profit up 15.9% to \u20b914,805 crore (~$1.7bn)",
+        "Beat forecasts \u2014 analysts had expected roughly flat profit",
+        "Bad loans fell: gross NPA ratio eased to just 1.38%",
+        "Loans grew ~19.6% and lending margins widened"
       ],
-      "background": "Whether the state should let a doctor help a dying person end their life is one of the oldest, most divisive questions in medical ethics \u2014 pitting personal autonomy and mercy against fears that the vulnerable, elderly or disabled could be pushed toward death. France has argued over it for more than a decade across successive governments, with reformers pointing to neighbours who already allow it and opponents (including much of the Catholic church and some doctors' groups) warning of a slippery slope. The bill had already cleared the National Assembly in earlier readings but kept hitting resistance in the Senate, France's upper house.",
-      "what_happened": "In the early hours of July 15, 2026, France's National Assembly gave final approval to the assisted-dying bill by 291 votes to 241. The law lets adults (18+) who are French citizens or legal residents, and who have a serious, incurable, life-threatening illness in an advanced or terminal stage with suffering that cannot be relieved, request lethal medication. Patients must have the mental capacity to make the choice and must confirm it after a reflection period of at least two days; they generally self-administer the drug, with a doctor or nurse assisting only if they are physically unable. Psychological suffering alone does not qualify, and people with severe psychiatric disorders or neurodegenerative diseases such as Alzheimer's are excluded.",
-      "why_it_matters": "France is one of Europe's largest countries, so its choice reshapes the continent's map on end-of-life rights and gives momentum to reformers elsewhere. It joins a still-small club \u2014 the Netherlands, Belgium, Switzerland, Canada and several US states \u2014 that permit some form of assisted dying, moving a deeply personal medical decision from the shadows into a regulated legal framework.",
-      "ripple_effects": "Hospitals, doctors and nurses now face the practical work of writing rules, training, conscientious-objection protections and safeguards to prevent abuse. Expect renewed fights over funding for palliative (comfort) care, which critics say must be strong enough that no one chooses death for lack of alternatives. The vote will also energise campaigners \u2014 on both sides \u2014 in countries like the UK, Germany and Italy where similar bills are being debated, and religious institutions are likely to keep contesting it.",
-      "why_now": "The bill reached this point because the National Assembly used its constitutional power to have the final word after the Senate rejected the text \u2014 a procedural route that let reformers push it through despite the deadlock, capping 14 years of stop-start debate.",
-      "watch_next": "France's Constitutional Council, which has up to a month to rule on whether the law is constitutional; the law only takes effect once it clears that review.",
+      "background": "ICICI Bank is India's largest private-sector bank by market value and one of the country's most important lenders. A bank earns most of its money from the gap between the interest it charges on loans and the interest it pays on deposits \u2014 a spread called the 'net interest margin.' Its biggest danger is loans that borrowers stop repaying, known as 'non-performing assets' (NPAs) or bad loans, which force the bank to set money aside ('provisions') and eat into profit. That makes a bank's results a window into both its own health and the wider economy's willingness to borrow. Indian companies report their numbers every quarter; mid-to-late July is when the April\u2013June (Q1) figures land, and July 18 was a bumper results day with HDFC Bank, Axis, Kotak and others all reporting alongside ICICI.",
+      "what_happened": "On Saturday, July 18, 2026, ICICI Bank reported a standalone net profit of \u20b914,804.50 crore (about \u20b914,805 crore, or roughly $1.7 billion) for the April\u2013June quarter \u2014 up 15.9% from \u20b912,768 crore a year earlier, and comfortably ahead of analysts, some of whom had pencilled in near-flat profit of around \u20b913,164 crore. Net interest income, its core lending income, rose about 12.7%, and its lending margins expanded. Total loans ('advances') grew 19.6% from a year earlier to about \u20b916.3 lakh crore, led by retail borrowing, while asset quality improved: the gross NPA ratio eased to 1.38% and the net NPA ratio to just 0.35%, with the bank setting aside less money for bad loans than before.",
+      "why_it_matters": "ICICI is a bellwether for India's financial system, and banks are the single heaviest weight in India's stock indices \u2014 so a strong, forecast-beating quarter from ICICI lifts sentiment across the whole market. Rising profit paired with falling bad loans signals that Indian businesses and households are borrowing more and repaying reliably, a sign of underlying economic strength even as inflation has ticked above the RBI's target and global risks like the Iran war and higher oil prices cloud the outlook.",
+      "ripple_effects": "Bank stocks \u2014 ICICI itself plus peers like HDFC Bank, Axis and SBI \u2014 and the Bank Nifty index tend to move on results like these, and because financials make up roughly a third of India's benchmark Nifty 50, healthy bank earnings help hold up the broader market. Brisk loan growth also hints at solid credit demand flowing through the economy. Over the coming days investors will stack ICICI's margins and asset quality against the other big lenders reporting the same weekend to judge which banks are best navigating the Reserve Bank of India's interest-rate cycle.",
+      "why_now": "It is earnings season: Indian firms report April\u2013June results in mid-to-late July, and July 18 was a marquee day with more than 20 companies \u2014 mostly banks \u2014 reporting at once. ICICI's beat stood out precisely because expectations were modest (some analysts had forecast near-flat profit), making its double-digit jump the day's headline number.",
+      "watch_next": "The results from the other big lenders reporting this weekend \u2014 HDFC Bank, Kotak Mahindra and Axis \u2014 and management's commentary on loan growth and margins as the RBI's rate path and the oil-price spike shape the months ahead.",
       "key_terms": [
         {
-          "term": "Assisted dying",
-          "definition": "A legal arrangement in which a terminally or incurably ill person can be given medication to end their own life, under strict medical and legal conditions."
+          "term": "Net interest margin (NIM)",
+          "definition": "The gap between the interest a bank earns on its loans and what it pays on deposits \u2014 a bank's core profit engine. A wider margin means more profit on every rupee lent."
         },
         {
-          "term": "Constitutional Council",
-          "definition": "France's highest constitutional authority, which checks whether a new law complies with the constitution before it can take effect."
+          "term": "Non-performing asset (NPA) / bad loan",
+          "definition": "A loan whose borrower has stopped repaying; a lower NPA ratio (here 1.38%) means fewer souring loans and a healthier balance sheet."
+        },
+        {
+          "term": "Provisions",
+          "definition": "Money a bank sets aside in advance to cover loans that may go bad; when provisions fall, more of the bank's income drops through to profit."
+        },
+        {
+          "term": "Crore / lakh crore",
+          "definition": "Indian number units: 1 crore = 10 million and 1 lakh crore = 1 trillion. So \u20b914,805 crore is about $1.7 billion, and \u20b916.3 lakh crore of loans is roughly $195 billion."
         }
       ],
-      "the_lesson": "Big social change often turns on procedure as much as persuasion: when a two-chamber legislature deadlocks, the rules about which house gets the 'final say' can decide an outcome the moral argument alone never settled.",
-      "market_link": null,
-      "importance": "high",
+      "the_lesson": "A big bank's earnings are a stethoscope on the economy: because banks make money by lending, rising profits alongside shrinking bad loans mean businesses and households are borrowing and paying back \u2014 a healthy sign. And a bank's true engine is its net interest margin, the spread between what it charges borrowers and pays savers, so watch that spread and the bad-loan ratio, not just the headline profit.",
+      "concepts": [
+        "rbi",
+        "crore_lakh"
+      ],
+      "market_link": "Positive for ICICI Bank (NSE: ICICIBANK) and India's Bank Nifty; a read-through for peers HDFC Bank, Axis Bank and SBI, and supportive for the broader Nifty 50, where financials are the single biggest sector weight.",
+      "importance": "notable",
       "sources": [
         {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/france/20260715-france-expected-to-pass-final-vote-on-assisted-dying-after-years-of-debate"
+          "name": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/icici-bank-q1-results-profit-jumps-16-yoy-to-rs-14805-crore-nii-rises-13-as-margins-expand/articleshow/132477062.cms"
         },
         {
-          "name": "AP News (via ClickOrlando)",
-          "url": "https://www.clickorlando.com/news/world/2026/07/15/frances-national-assembly-will-give-final-approval-to-assisted-dying-bill-after-years-of-debate/"
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/markets/stocks/story/icici-bank-q1-results-net-profit-rises-15-9-to-rs-14805-crore-asset-quality-stays-stable-543762-2026-07-18"
         },
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o"
+          "name": "Livemint",
+          "url": "https://www.livemint.com/market/stock-market-news/icici-bank-q1-results-2026-net-profit-rises-16-to-rs-14-804-50-crore-check-nii-asset-quality-11784365257879.html"
         }
       ]
     },
     {
-      "rank": 21,
+      "rank": 22,
       "category": "india",
       "published_iso": "2026-07-17T15:16:49+00:00",
       "regions": [
@@ -1264,7 +1340,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "category": "india",
       "published_iso": "2026-07-17T20:56:07+00:00",
       "regions": [
@@ -1323,7 +1399,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 24,
       "category": "india",
       "published_iso": "2026-07-18T07:30:00+00:00",
       "regions": [
@@ -1384,7 +1460,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 25,
       "category": "india",
       "published_iso": "2026-07-18T04:16:55+00:00",
       "regions": [
@@ -1451,7 +1527,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 26,
       "category": "india",
       "published_iso": "2026-07-17T12:30:00+00:00",
       "regions": [
@@ -1510,7 +1586,7 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 27,
       "category": "india",
       "published_iso": "2026-07-16T14:49:56+00:00",
       "regions": [
@@ -1569,7 +1645,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 28,
       "category": "india",
       "published_iso": "2026-07-16T14:45:12+00:00",
       "regions": [
@@ -1628,7 +1704,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 29,
       "category": "india",
       "published_iso": "2026-07-16T05:43:00+00:00",
       "regions": [
@@ -1690,7 +1766,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 30,
       "category": "india",
       "published_iso": "2026-07-15T10:00:00+00:00",
       "regions": [
@@ -1747,7 +1823,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 31,
       "category": "india",
       "published_iso": "2026-07-16T12:35:32+00:00",
       "regions": [
@@ -1808,7 +1884,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 32,
       "category": "india",
       "published_iso": "2026-07-16T11:54:07+00:00",
       "regions": [
@@ -1869,7 +1945,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 33,
       "category": "india",
       "published_iso": "2026-07-16T11:58:53+00:00",
       "regions": [
@@ -1921,7 +1997,7 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 34,
       "category": "india",
       "published_iso": "2026-07-13T10:36:11+00:00",
       "regions": [
@@ -1983,7 +2059,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 35,
       "category": "india",
       "published_iso": "2026-07-15T12:12:40+00:00",
       "regions": [
@@ -2044,7 +2120,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 36,
       "category": "india",
       "published_iso": "2026-07-16T09:35:37+00:00",
       "regions": [
@@ -2096,7 +2172,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 37,
       "category": "india",
       "published_iso": "2026-07-16T06:42:53+00:00",
       "regions": [
@@ -2155,7 +2231,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "category": "india",
       "published_iso": "2026-07-16T04:15:00+00:00",
       "regions": [
@@ -2199,7 +2275,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 39,
       "category": "india",
       "published_iso": "2026-07-09T20:30:00+00:00",
       "regions": [
@@ -2254,7 +2330,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 40,
       "category": "india",
       "published_iso": "2026-07-16T09:17:25+05:30",
       "regions": [
@@ -2315,54 +2391,6 @@
         {
           "name": "The Tribune",
           "url": "https://www.tribuneindia.com/news/business/india-raises-windfall-tax-on-diesel-atf-exports-cuts-tariff-on-petrol/"
-        }
-      ]
-    },
-    {
-      "rank": 40,
-      "category": "india",
-      "published_iso": "2026-07-15T20:05:00+05:30",
-      "regions": [
-        "India"
-      ],
-      "title": "NEET-UG leak, decoded in court: CBI says 111 of 136 questions found on a Latur tutor's phone matched the exam's secret master set",
-      "key_points": [
-        "CBI: 111 of 136 questions on a Latur tutor's phone matched NTA's master set",
-        "The questions were captured on April 23 \u2014 days before the May 3 exam",
-        "NTA scrapped the May 3 test; ~22 lakh students had to re-sit on June 21",
-        "Two accused sit in Tihar jail as a Delhi court weighs their bail"
-      ],
-      "background": "NEET-UG is India's single national entrance exam for medical and dental colleges \u2014 a make-or-break test taken by around 22 lakh (2.2 million) students each year and run by the National Testing Agency (NTA). In 2026 the exam was engulfed in scandal after a leaked 'guess paper' circulating before the test turned out to match roughly 135 of the 400-plus real questions. The NTA cancelled the May 3 paper and re-held it on June 21, while the case moved from the Rajasthan police's Special Operations Group to the CBI, India's federal investigating agency.",
-      "what_happened": "In a July 15 court filing opposing bail, the CBI laid out its strongest evidence yet: forensic recovery of 136 handwritten chemistry questions from a Samsung Fold 7 phone belonging to Shivraj Motegaonkar, who runs Renukai Chemistry Classes in Latur, Maharashtra, and a YouTube channel with about 1.68 lakh subscribers. The agency says roughly 111 of those questions matched the NTA's confidential 'master' question sets, and that the images' metadata shows they were captured on April 23, 2026 \u2014 ten days before the exam. The CBI alleges the questions were obtained at Siddhivinayak Hospital in Latur, run by paediatrician Manoj Shirure, and that about \u20b95 lakh was paid to an NTA panel member/translator, P.V. Kulkarni, named as the alleged leak source. Both Motegaonkar and Shirure are in Tihar jail, with bail pleas pending before a Special CBI Court in Delhi.",
-      "why_it_matters": "This is the clearest official confirmation that the country's highest-stakes exam was compromised before students ever sat it \u2014 not a rumour, but a forensic match presented in court. It strikes at the credibility of the NTA and the whole idea of a single, centralised test that decides the futures of millions, and it validates the anger of the students forced to re-take the exam.",
-      "ripple_effects": "Trust in the NTA takes another hit, strengthening demands to overhaul or replace it and to decentralise or better secure the exam. The ~22 lakh candidates who re-sat on June 21 already lost weeks of preparation, money and peace of mind. The case also shines a harsh light on the coaching-and-YouTube tutoring economy, and hands the opposition fresh political ammunition over exam integrity. Watch for whether the probe implicates more insiders within the NTA's question-setting chain.",
-      "why_now": "The specific figures surfaced now because the CBI put them on the record to argue against granting bail to the two arrested accused \u2014 so the evidence became public as part of the Delhi court proceedings, not a fresh leak.",
-      "watch_next": "The Special CBI Court's decision on the bail applications, and whether the charge sheet names more NTA insiders in the question-setting or translation chain.",
-      "key_terms": [
-        {
-          "term": "NEET-UG",
-          "definition": "The National Eligibility cum Entrance Test (Undergraduate) \u2014 India's single national exam for admission to MBBS/BDS and other medical courses."
-        },
-        {
-          "term": "NTA",
-          "definition": "The National Testing Agency, the government body that designs, secures and conducts major national exams like NEET."
-        },
-        {
-          "term": "CBI",
-          "definition": "The Central Bureau of Investigation, India's federal agency that handles serious and inter-state crimes."
-        }
-      ],
-      "the_lesson": "A high-stakes exam is only as trustworthy as the weakest human link in the chain that writes, translates, prints and guards it \u2014 one insider can void a test for millions, which is why security, not just difficulty, defines a fair exam.",
-      "market_link": null,
-      "importance": "high",
-      "sources": [
-        {
-          "name": "ThePrint",
-          "url": "https://theprint.in/india/neet-2026-leak-cbi-recovers-136-questions-from-latur-teachers-phone-111-matched-master-sets/2987474/"
-        },
-        {
-          "name": "ThePrint (background)",
-          "url": "https://theprint.in/india/education/leaked-neet-paper-found-on-his-phone-latur-chemistry-tutor-with-popular-youtube-channel-in-cbi-net/2934208/"
         }
       ]
     }

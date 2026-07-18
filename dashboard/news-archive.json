@@ -1,7 +1,94 @@
 {
-  "generated_at": "2026-07-18T15:48:22+05:30",
-  "count": 110,
+  "generated_at": "2026-07-18T17:16:49+05:30",
+  "count": 112,
   "stories": [
+    {
+      "type": "story",
+      "id": "story-21",
+      "rank": 21,
+      "category": "india",
+      "published_iso": "2026-07-18T09:04:54+00:00",
+      "source": "The Economic Times",
+      "importance": "notable",
+      "regions": [
+        "India"
+      ],
+      "title": "India's biggest private bank posts a strong quarter: ICICI Bank's profit jumps ~16% to ₹14,805 crore, beating forecasts as loans grow and bad loans shrink",
+      "what_happened": "On Saturday, July 18, 2026, ICICI Bank reported a standalone net profit of ₹14,804.50 crore (about ₹14,805 crore, or roughly $1.7 billion) for the April–June quarter — up 15.9% from ₹12,768 crore a year earlier, and comfortably ahead of analysts, some of whom had pencilled in near-flat profit of around ₹13,164 crore. Net interest income, its core lending income, rose about 12.7%, and its lending margins expanded. Total loans ('advances') grew 19.6% from a year earlier to about ₹16.3 lakh crore, led by retail borrowing, while asset quality improved: the gross NPA ratio eased to 1.38% and the net NPA ratio to just 0.35%, with the bank setting aside less money for bad loans than before.",
+      "key_points": [
+        "ICICI Bank Q1 net profit up 15.9% to ₹14,805 crore (~$1.7bn)",
+        "Beat forecasts — analysts had expected roughly flat profit",
+        "Bad loans fell: gross NPA ratio eased to just 1.38%",
+        "Loans grew ~19.6% and lending margins widened"
+      ],
+      "moot": "A big bank's earnings are a stethoscope on the economy: because banks make money by lending, rising profits alongside shrinking bad loans mean businesses and households are borrowing and paying back — a healthy sign. And a bank's true engine is its net interest margin, the spread between what it charges borrowers and pays savers, so watch that spread and the bad-loan ratio, not just the headline profit.",
+      "concepts": [
+        "rbi",
+        "crore_lakh"
+      ],
+      "figures": [
+        {
+          "raw": "₹14,804.50 crore",
+          "words": "₹148.04 billion",
+          "usd_approx": "≈ $1.5bn"
+        },
+        {
+          "raw": "₹14,805 crore",
+          "words": "₹148.05 billion",
+          "usd_approx": "≈ $1.5bn"
+        },
+        {
+          "raw": "₹12,768 crore",
+          "words": "₹127.68 billion",
+          "usd_approx": "≈ $1.3bn"
+        },
+        {
+          "raw": "₹13,164 crore",
+          "words": "₹131.64 billion",
+          "usd_approx": "≈ $1.4bn"
+        }
+      ],
+      "depth": {
+        "background": "ICICI Bank is India's largest private-sector bank by market value and one of the country's most important lenders. A bank earns most of its money from the gap between the interest it charges on loans and the interest it pays on deposits — a spread called the 'net interest margin.' Its biggest danger is loans that borrowers stop repaying, known as 'non-performing assets' (NPAs) or bad loans, which force the bank to set money aside ('provisions') and eat into profit. That makes a bank's results a window into both its own health and the wider economy's willingness to borrow. Indian companies report their numbers every quarter; mid-to-late July is when the April–June (Q1) figures land, and July 18 was a bumper results day with HDFC Bank, Axis, Kotak and others all reporting alongside ICICI.",
+        "why_it_matters": "ICICI is a bellwether for India's financial system, and banks are the single heaviest weight in India's stock indices — so a strong, forecast-beating quarter from ICICI lifts sentiment across the whole market. Rising profit paired with falling bad loans signals that Indian businesses and households are borrowing more and repaying reliably, a sign of underlying economic strength even as inflation has ticked above the RBI's target and global risks like the Iran war and higher oil prices cloud the outlook.",
+        "ripple_effects": "Bank stocks — ICICI itself plus peers like HDFC Bank, Axis and SBI — and the Bank Nifty index tend to move on results like these, and because financials make up roughly a third of India's benchmark Nifty 50, healthy bank earnings help hold up the broader market. Brisk loan growth also hints at solid credit demand flowing through the economy. Over the coming days investors will stack ICICI's margins and asset quality against the other big lenders reporting the same weekend to judge which banks are best navigating the Reserve Bank of India's interest-rate cycle.",
+        "why_now": "It is earnings season: Indian firms report April–June results in mid-to-late July, and July 18 was a marquee day with more than 20 companies — mostly banks — reporting at once. ICICI's beat stood out precisely because expectations were modest (some analysts had forecast near-flat profit), making its double-digit jump the day's headline number.",
+        "watch_next": "The results from the other big lenders reporting this weekend — HDFC Bank, Kotak Mahindra and Axis — and management's commentary on loan growth and margins as the RBI's rate path and the oil-price spike shape the months ahead.",
+        "market_link": "Positive for ICICI Bank (NSE: ICICIBANK) and India's Bank Nifty; a read-through for peers HDFC Bank, Axis Bank and SBI, and supportive for the broader Nifty 50, where financials are the single biggest sector weight.",
+        "key_terms": [
+          {
+            "term": "Net interest margin (NIM)",
+            "definition": "The gap between the interest a bank earns on its loans and what it pays on deposits — a bank's core profit engine. A wider margin means more profit on every rupee lent."
+          },
+          {
+            "term": "Non-performing asset (NPA) / bad loan",
+            "definition": "A loan whose borrower has stopped repaying; a lower NPA ratio (here 1.38%) means fewer souring loans and a healthier balance sheet."
+          },
+          {
+            "term": "Provisions",
+            "definition": "Money a bank sets aside in advance to cover loans that may go bad; when provisions fall, more of the bank's income drops through to profit."
+          },
+          {
+            "term": "Crore / lakh crore",
+            "definition": "Indian number units: 1 crore = 10 million and 1 lakh crore = 1 trillion. So ₹14,805 crore is about $1.7 billion, and ₹16.3 lakh crore of loans is roughly $195 billion."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Economic Times",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/icici-bank-q1-results-profit-jumps-16-yoy-to-rs-14805-crore-nii-rises-13-as-margins-expand/articleshow/132477062.cms"
+          },
+          {
+            "name": "Business Today",
+            "url": "https://www.businesstoday.in/markets/stocks/story/icici-bank-q1-results-net-profit-rises-15-9-to-rs-14805-crore-asset-quality-stays-stable-543762-2026-07-18"
+          },
+          {
+            "name": "Livemint",
+            "url": "https://www.livemint.com/market/stock-market-news/icici-bank-q1-results-2026-net-profit-rises-16-to-rs-14-804-50-crore-check-nii-asset-quality-11784365257879.html"
+          }
+        ]
+      }
+    },
     {
       "type": "story",
       "id": "story-21",
@@ -498,6 +585,78 @@
           {
             "name": "The Week",
             "url": "https://www.theweek.in/news/health/2026/07/17/wegovy-gets-cdsco-approval-can-novo-nordisks-semaglutide-change-fatty-liver-treatment.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-1",
+      "rank": 1,
+      "category": "geopolitics",
+      "published_iso": "2026-07-17T14:57:00+00:00",
+      "source": "Al Jazeera",
+      "importance": "high",
+      "regions": [
+        "UK",
+        "Europe"
+      ],
+      "title": "Britain gets a new prime minister without an election: Andy Burnham is declared Labour leader and will replace Keir Starmer in Downing Street on Monday",
+      "what_happened": "On Friday, July 17, 2026, Andy Burnham was formally declared leader of the Labour Party at a special conference in London. He was the only candidate, having been nominated by 379 of the party's 403 MPs, so the result was a formality. He becomes prime minister on Monday, July 20, when Starmer travels to Buckingham Palace to tender his resignation to King Charles III, who will then invite Burnham to form a government. In his first speech as leader Burnham promised to 'restore hope,' deliver 'good growth in every postcode,' cut the cost of essentials like energy, and shift power away from Westminster and Whitehall to Britain's cities and regions. The New York Times noted he will be the country's seventh prime minister in a decade — a striking measure of British political turbulence.",
+      "key_points": [
+        "Andy Burnham declared leader of Britain's governing Labour Party on Friday",
+        "Becomes PM Monday when Keir Starmer resigns to King Charles III",
+        "Ran unopposed — nominated by 379 of 403 Labour MPs",
+        "Britain's 7th prime minister in a decade — and no national vote was held"
+      ],
+      "moot": "In a parliamentary democracy the prime minister is simply the leader of the ruling party, not a directly elected president — so a country can change its head of government in the middle of a term, without any national election, the moment the governing party picks a new chief. And rapid leadership churn (seven prime ministers in ten years) is usually a symptom, not a cause: it reflects deeper economic strain and public frustration that no single leader has been able to fix.",
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "Britain does not directly elect its prime minister. Voters elect Members of Parliament (MPs); whoever leads the party with a majority in the House of Commons becomes PM. Labour, the main centre-left party, won a big majority in 2024 under Keir Starmer, but his government struggled with weak economic growth, a high cost of living and falling popularity. After Labour was hammered in local elections in May 2026 and his own MPs began to rebel, Starmer agreed to step aside. Andy Burnham — the popular, plain-speaking mayor of Greater Manchester, nicknamed the 'King of the North' for championing England's regions — emerged as his successor, winning a by-election last month to get the seat in Parliament that a PM must hold.",
+        "why_it_matters": "This is a change of leadership in a G7 economy and a major NATO ally, happening in the middle of a parliamentary term without voters going to the polls. Burnham signals a shift in both tone and policy — more devolution of power to the regions, more willingness to intervene in the economy, and a sharp focus on the cost of living. Who leads Britain shapes its response to Trump's tariffs, its support for Ukraine, its defence spending and its energy policy, so the handover matters well beyond the UK.",
+        "ripple_effects": "Markets will watch closely for his economic team — especially who he installs as Chancellor next door at No. 11 — and for his tax-and-spending plans, since the British pound and UK government bonds (called 'gilts') move on how much a new government is expected to borrow. His signature ideas — cutting household energy bills, making heat pumps cheaper to run than gas boilers, and taking more of key sectors into public control — could reshape UK utilities and energy firms. Abroad, he must quickly manage a prickly relationship with Donald Trump over tariffs and steer Britain's stance on Ukraine and the EU. And his leap from regional mayor to the top job strengthens the argument for handing English cities and regions more power.",
+        "why_now": "Starmer's position became untenable after Labour's heavy defeat in the May 2026 local elections and a growing rebellion among his own MPs. With Burnham the sole candidate and 379 MPs behind him, Friday's declaration was a foregone conclusion, and the formal handover was set for the following Monday — so the transition is unfolding this weekend.",
+        "watch_next": "Monday's formal handover at Buckingham Palace and Burnham's first cabinet — above all who he names as Chancellor — followed by his opening moves on the economy and the cost of living.",
+        "market_link": "A modest mover for the British pound (GBP) and UK government bonds (gilts), which react to the incoming government's borrowing and spending plans; watch UK utilities and energy names given Burnham's push to cut energy bills and expand public control, plus any early friction with the US over Trump's tariffs.",
+        "key_terms": [
+          {
+            "term": "Prime minister (UK)",
+            "definition": "The head of the UK government — always the leader of the party that holds a majority in the House of Commons, not someone voters choose directly, so the role can change hands mid-term when a party swaps leaders."
+          },
+          {
+            "term": "Labour Party",
+            "definition": "Britain's main centre-left party, in government since winning a Commons majority in 2024; it has just replaced its leader, and therefore the prime minister."
+          },
+          {
+            "term": "Devolution",
+            "definition": "Transferring political power and budgets from central government in London out to regional and city leaders — a cause Burnham built his reputation on as Manchester's mayor."
+          },
+          {
+            "term": "Gilts",
+            "definition": "UK government bonds — the IOUs the state sells to borrow money; their price and yield move on how much investors expect a new government to borrow and spend."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/17/burnham-confirmed-as-leader-of-uks-governing-labour-party-headed-for-pm"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/andy-burnham-uk-prime-minister-labour-party-leader/"
+          },
+          {
+            "name": "The New York Times",
+            "url": "https://www.nytimes.com/2026/07/17/world/europe/burnham-labour-leader.html"
+          },
+          {
+            "name": "TIME",
+            "url": "https://time.com/article/2026/07/17/andy-burnham-first-speech-labour-leader-incoming-prime-minister/"
+          },
+          {
+            "name": "AP News",
+            "url": "https://abcnews.com/International/wireStory/andy-burnham-declared-leader-britains-labour-party-become-134840790"
           }
         ]
       }

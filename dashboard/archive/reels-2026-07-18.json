@@ -1,13 +1,13 @@
 {
   "date": "2026-07-18",
-  "generated_at": "2026-07-18T15:48:22+05:30",
+  "generated_at": "2026-07-18T17:16:49+05:30",
   "day_label": "Saturday · 18 July 2026",
   "dashboard_url": "../",
   "cards": [
     {
       "type": "story",
-      "id": "story-2",
-      "rank": 2,
+      "id": "story-3",
+      "rank": 3,
       "category": "geopolitics",
       "published_iso": "2026-07-18T01:29:47+00:00",
       "source": "CNN Politics",
@@ -77,8 +77,8 @@
     },
     {
       "type": "story",
-      "id": "story-3",
-      "rank": 3,
+      "id": "story-4",
+      "rank": 4,
       "category": "economy",
       "published_iso": "2026-07-17T20:05:00+00:00",
       "source": "Bloomberg",
@@ -149,8 +149,8 @@
     },
     {
       "type": "story",
-      "id": "story-4",
-      "rank": 4,
+      "id": "story-5",
+      "rank": 5,
       "category": "science",
       "published_iso": "2026-07-17T18:12:54+00:00",
       "source": "FOX Weather",
@@ -220,6 +220,78 @@
       "type": "story",
       "id": "story-1",
       "rank": 1,
+      "category": "geopolitics",
+      "published_iso": "2026-07-17T14:57:00+00:00",
+      "source": "Al Jazeera",
+      "importance": "high",
+      "regions": [
+        "UK",
+        "Europe"
+      ],
+      "title": "Britain gets a new prime minister without an election: Andy Burnham is declared Labour leader and will replace Keir Starmer in Downing Street on Monday",
+      "what_happened": "On Friday, July 17, 2026, Andy Burnham was formally declared leader of the Labour Party at a special conference in London. He was the only candidate, having been nominated by 379 of the party's 403 MPs, so the result was a formality. He becomes prime minister on Monday, July 20, when Starmer travels to Buckingham Palace to tender his resignation to King Charles III, who will then invite Burnham to form a government. In his first speech as leader Burnham promised to 'restore hope,' deliver 'good growth in every postcode,' cut the cost of essentials like energy, and shift power away from Westminster and Whitehall to Britain's cities and regions. The New York Times noted he will be the country's seventh prime minister in a decade — a striking measure of British political turbulence.",
+      "key_points": [
+        "Andy Burnham declared leader of Britain's governing Labour Party on Friday",
+        "Becomes PM Monday when Keir Starmer resigns to King Charles III",
+        "Ran unopposed — nominated by 379 of 403 Labour MPs",
+        "Britain's 7th prime minister in a decade — and no national vote was held"
+      ],
+      "moot": "In a parliamentary democracy the prime minister is simply the leader of the ruling party, not a directly elected president — so a country can change its head of government in the middle of a term, without any national election, the moment the governing party picks a new chief. And rapid leadership churn (seven prime ministers in ten years) is usually a symptom, not a cause: it reflects deeper economic strain and public frustration that no single leader has been able to fix.",
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "Britain does not directly elect its prime minister. Voters elect Members of Parliament (MPs); whoever leads the party with a majority in the House of Commons becomes PM. Labour, the main centre-left party, won a big majority in 2024 under Keir Starmer, but his government struggled with weak economic growth, a high cost of living and falling popularity. After Labour was hammered in local elections in May 2026 and his own MPs began to rebel, Starmer agreed to step aside. Andy Burnham — the popular, plain-speaking mayor of Greater Manchester, nicknamed the 'King of the North' for championing England's regions — emerged as his successor, winning a by-election last month to get the seat in Parliament that a PM must hold.",
+        "why_it_matters": "This is a change of leadership in a G7 economy and a major NATO ally, happening in the middle of a parliamentary term without voters going to the polls. Burnham signals a shift in both tone and policy — more devolution of power to the regions, more willingness to intervene in the economy, and a sharp focus on the cost of living. Who leads Britain shapes its response to Trump's tariffs, its support for Ukraine, its defence spending and its energy policy, so the handover matters well beyond the UK.",
+        "ripple_effects": "Markets will watch closely for his economic team — especially who he installs as Chancellor next door at No. 11 — and for his tax-and-spending plans, since the British pound and UK government bonds (called 'gilts') move on how much a new government is expected to borrow. His signature ideas — cutting household energy bills, making heat pumps cheaper to run than gas boilers, and taking more of key sectors into public control — could reshape UK utilities and energy firms. Abroad, he must quickly manage a prickly relationship with Donald Trump over tariffs and steer Britain's stance on Ukraine and the EU. And his leap from regional mayor to the top job strengthens the argument for handing English cities and regions more power.",
+        "why_now": "Starmer's position became untenable after Labour's heavy defeat in the May 2026 local elections and a growing rebellion among his own MPs. With Burnham the sole candidate and 379 MPs behind him, Friday's declaration was a foregone conclusion, and the formal handover was set for the following Monday — so the transition is unfolding this weekend.",
+        "watch_next": "Monday's formal handover at Buckingham Palace and Burnham's first cabinet — above all who he names as Chancellor — followed by his opening moves on the economy and the cost of living.",
+        "market_link": "A modest mover for the British pound (GBP) and UK government bonds (gilts), which react to the incoming government's borrowing and spending plans; watch UK utilities and energy names given Burnham's push to cut energy bills and expand public control, plus any early friction with the US over Trump's tariffs.",
+        "key_terms": [
+          {
+            "term": "Prime minister (UK)",
+            "definition": "The head of the UK government — always the leader of the party that holds a majority in the House of Commons, not someone voters choose directly, so the role can change hands mid-term when a party swaps leaders."
+          },
+          {
+            "term": "Labour Party",
+            "definition": "Britain's main centre-left party, in government since winning a Commons majority in 2024; it has just replaced its leader, and therefore the prime minister."
+          },
+          {
+            "term": "Devolution",
+            "definition": "Transferring political power and budgets from central government in London out to regional and city leaders — a cause Burnham built his reputation on as Manchester's mayor."
+          },
+          {
+            "term": "Gilts",
+            "definition": "UK government bonds — the IOUs the state sells to borrow money; their price and yield move on how much investors expect a new government to borrow and spend."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/17/burnham-confirmed-as-leader-of-uks-governing-labour-party-headed-for-pm"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/andy-burnham-uk-prime-minister-labour-party-leader/"
+          },
+          {
+            "name": "The New York Times",
+            "url": "https://www.nytimes.com/2026/07/17/world/europe/burnham-labour-leader.html"
+          },
+          {
+            "name": "TIME",
+            "url": "https://time.com/article/2026/07/17/andy-burnham-first-speech-labour-leader-incoming-prime-minister/"
+          },
+          {
+            "name": "AP News",
+            "url": "https://abcnews.com/International/wireStory/andy-burnham-declared-leader-britains-labour-party-become-134840790"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-2",
+      "rank": 2,
       "category": "science",
       "published_iso": "2026-07-17T12:58:37+00:00",
       "source": "Space.com",
@@ -285,8 +357,8 @@
     },
     {
       "type": "story",
-      "id": "story-5",
-      "rank": 5,
+      "id": "story-6",
+      "rank": 6,
       "category": "technology",
       "published_iso": "2026-07-17T12:28:00+00:00",
       "source": "Bloomberg",
@@ -356,8 +428,8 @@
     },
     {
       "type": "story",
-      "id": "story-6",
-      "rank": 6,
+      "id": "story-7",
+      "rank": 7,
       "category": "health",
       "published_iso": "2026-07-16T12:04:58+00:00",
       "source": "Merck (press release)",
@@ -424,8 +496,8 @@
     },
     {
       "type": "story",
-      "id": "story-12",
-      "rank": 12,
+      "id": "story-13",
+      "rank": 13,
       "category": "geopolitics",
       "published_iso": "2026-07-16T11:48:49+00:00",
       "source": "BBC World",
@@ -497,65 +569,95 @@
     },
     {
       "type": "story",
-      "id": "story-15",
-      "rank": 15,
-      "category": "economy",
-      "published_iso": "2026-07-16T10:00:20+00:00",
-      "source": "Uber (investor release)",
-      "importance": "high",
+      "id": "story-21",
+      "rank": 21,
+      "category": "india",
+      "published_iso": "2026-07-18T09:04:54+00:00",
+      "source": "The Economic Times",
+      "importance": "notable",
       "regions": [
-        "Europe",
-        "US",
-        "Global"
+        "India"
       ],
-      "title": "Uber makes a $14.8bn move to swallow Delivery Hero — a bid to build the world's biggest food-delivery firm outside China",
-      "what_happened": "On July 16, 2026 Uber launched a public takeover offer for Delivery Hero, offering shareholders €41.50 per share in cash — an equity value of about $14.8 billion (roughly $13.7bn after Uber's earlier stake purchases). Delivery Hero's management and supervisory boards unanimously backed the bid, and Prosus, its biggest shareholder, agreed to hand over its shares, which would take Uber's economic interest to about 53%. To ease competition worries, a separate buyer, SSW Partners, will take Delivery Hero's businesses in 14 markets where the two already overlap for about $1.6 billion. Uber CEO Dara Khosrowshahi said the deal would roughly double the number of markets where Uber offers both rides and delivery — from 34 to 58.",
+      "title": "India's biggest private bank posts a strong quarter: ICICI Bank's profit jumps ~16% to ₹14,805 crore, beating forecasts as loans grow and bad loans shrink",
+      "what_happened": "On Saturday, July 18, 2026, ICICI Bank reported a standalone net profit of ₹14,804.50 crore (about ₹14,805 crore, or roughly $1.7 billion) for the April–June quarter — up 15.9% from ₹12,768 crore a year earlier, and comfortably ahead of analysts, some of whom had pencilled in near-flat profit of around ₹13,164 crore. Net interest income, its core lending income, rose about 12.7%, and its lending margins expanded. Total loans ('advances') grew 19.6% from a year earlier to about ₹16.3 lakh crore, led by retail borrowing, while asset quality improved: the gross NPA ratio eased to 1.38% and the net NPA ratio to just 0.35%, with the bank setting aside less money for bad loans than before.",
       "key_points": [
-        "Uber offers €41.50 a share in cash, valuing Delivery Hero at ~$14.8bn",
-        "Deal would nearly double Uber's combined ride+delivery markets, 34 to 58",
-        "Delivery Hero's board backs it; top shareholder Prosus agrees to sell",
-        "Uber offloads 14 overlapping markets to defuse competition concerns"
+        "ICICI Bank Q1 net profit up 15.9% to ₹14,805 crore (~$1.7bn)",
+        "Beat forecasts — analysts had expected roughly flat profit",
+        "Bad loans fell: gross NPA ratio eased to just 1.38%",
+        "Loans grew ~19.6% and lending margins widened"
       ],
-      "moot": "In platform businesses, markets tend to collapse toward one or two dominant players — so after a long, loss-making land grab, the endgame is consolidation: the profitable survivor buys the rest to own the network. And big acquirers now design deals to pass antitrust review, pre-selling the overlapping pieces before regulators even ask.",
-      "concepts": [],
-      "figures": [],
+      "moot": "A big bank's earnings are a stethoscope on the economy: because banks make money by lending, rising profits alongside shrinking bad loans mean businesses and households are borrowing and paying back — a healthy sign. And a bank's true engine is its net interest margin, the spread between what it charges borrowers and pays savers, so watch that spread and the bad-loan ratio, not just the headline profit.",
+      "concepts": [
+        "rbi",
+        "crore_lakh"
+      ],
+      "figures": [
+        {
+          "raw": "₹14,804.50 crore",
+          "words": "₹148.04 billion",
+          "usd_approx": "≈ $1.5bn"
+        },
+        {
+          "raw": "₹14,805 crore",
+          "words": "₹148.05 billion",
+          "usd_approx": "≈ $1.5bn"
+        },
+        {
+          "raw": "₹12,768 crore",
+          "words": "₹127.68 billion",
+          "usd_approx": "≈ $1.3bn"
+        },
+        {
+          "raw": "₹13,164 crore",
+          "words": "₹131.64 billion",
+          "usd_approx": "≈ $1.4bn"
+        }
+      ],
       "depth": {
-        "background": "Delivery Hero is a Berlin-based company that owns a patchwork of regional food-delivery brands — apps like Foodpanda, Talabat and Glovo — across Europe, the Middle East, Asia and Latin America, the kind of service that brings restaurant meals and groceries to your door. Uber, best known for ride-hailing, has spent years turning Uber Eats into a second engine of its business. For a decade the delivery industry has been a race to grab as many cities as possible and then swallow the heavy losses that come from paying drivers and undercutting rivals — so the survivors are now buying each other to reach a size where the business finally makes money.",
-        "why_it_matters": "This is one of the largest deals ever in the app-delivery world, and it would make the combined Uber the dominant food-delivery player almost everywhere outside China. Consolidation on this scale changes who sets prices and delivery fees for millions of customers and restaurants, and how much bargaining power gig drivers have. It also signals that the 'grow at any cost' era of delivery apps is ending — the money now flows to whoever can be the last big platform standing in each region.",
-        "ripple_effects": "If regulators in Europe, the Middle East and Asia clear it, Uber gains tens of millions of new users and a ready-made network in regions where it was weak — but it also inherits the punishing economics of low-margin food delivery. Restaurants and shoppers could face less competition, which over time can mean higher fees or commissions. Rivals like DoorDash and Just Eat may feel pressure to bulk up through their own deals. And the SSW carve-out shows how big tech deals now get pre-negotiated with antitrust in mind — selling off overlapping markets up front to win approval.",
-        "why_now": "Years of losses and investor pressure have pushed delivery apps to merge rather than keep burning cash fighting each other; Delivery Hero, long unprofitable and carrying debt, became a natural target, and Uber — now consistently profitable — has the firepower to buy scale. Prosus's willingness to sell its large stake is what made a clean deal possible today.",
-        "watch_next": "Watch whether EU and other antitrust regulators demand deeper divestitures — and whether enough Delivery Hero shareholders tender their shares to let Uber actually close the deal.",
-        "market_link": "Uber (UBER) and Delivery Hero (DHER) shares are the direct movers; Prosus (PRX) monetises a big stake, while rivals such as DoorDash (DASH) and Just Eat Takeaway trade on the read-through for delivery-sector consolidation.",
+        "background": "ICICI Bank is India's largest private-sector bank by market value and one of the country's most important lenders. A bank earns most of its money from the gap between the interest it charges on loans and the interest it pays on deposits — a spread called the 'net interest margin.' Its biggest danger is loans that borrowers stop repaying, known as 'non-performing assets' (NPAs) or bad loans, which force the bank to set money aside ('provisions') and eat into profit. That makes a bank's results a window into both its own health and the wider economy's willingness to borrow. Indian companies report their numbers every quarter; mid-to-late July is when the April–June (Q1) figures land, and July 18 was a bumper results day with HDFC Bank, Axis, Kotak and others all reporting alongside ICICI.",
+        "why_it_matters": "ICICI is a bellwether for India's financial system, and banks are the single heaviest weight in India's stock indices — so a strong, forecast-beating quarter from ICICI lifts sentiment across the whole market. Rising profit paired with falling bad loans signals that Indian businesses and households are borrowing more and repaying reliably, a sign of underlying economic strength even as inflation has ticked above the RBI's target and global risks like the Iran war and higher oil prices cloud the outlook.",
+        "ripple_effects": "Bank stocks — ICICI itself plus peers like HDFC Bank, Axis and SBI — and the Bank Nifty index tend to move on results like these, and because financials make up roughly a third of India's benchmark Nifty 50, healthy bank earnings help hold up the broader market. Brisk loan growth also hints at solid credit demand flowing through the economy. Over the coming days investors will stack ICICI's margins and asset quality against the other big lenders reporting the same weekend to judge which banks are best navigating the Reserve Bank of India's interest-rate cycle.",
+        "why_now": "It is earnings season: Indian firms report April–June results in mid-to-late July, and July 18 was a marquee day with more than 20 companies — mostly banks — reporting at once. ICICI's beat stood out precisely because expectations were modest (some analysts had forecast near-flat profit), making its double-digit jump the day's headline number.",
+        "watch_next": "The results from the other big lenders reporting this weekend — HDFC Bank, Kotak Mahindra and Axis — and management's commentary on loan growth and margins as the RBI's rate path and the oil-price spike shape the months ahead.",
+        "market_link": "Positive for ICICI Bank (NSE: ICICIBANK) and India's Bank Nifty; a read-through for peers HDFC Bank, Axis Bank and SBI, and supportive for the broader Nifty 50, where financials are the single biggest sector weight.",
         "key_terms": [
           {
-            "term": "Takeover (tender) offer",
-            "definition": "A public offer to buy a company by asking its shareholders to sell ('tender') their shares, usually at a set cash price each."
+            "term": "Net interest margin (NIM)",
+            "definition": "The gap between the interest a bank earns on its loans and what it pays on deposits — a bank's core profit engine. A wider margin means more profit on every rupee lent."
           },
           {
-            "term": "Prosus",
-            "definition": "A large Dutch-listed tech investment group (spun out of South Africa's Naspers) that was Delivery Hero's biggest shareholder."
+            "term": "Non-performing asset (NPA) / bad loan",
+            "definition": "A loan whose borrower has stopped repaying; a lower NPA ratio (here 1.38%) means fewer souring loans and a healthier balance sheet."
           },
           {
-            "term": "Divestiture / carve-out",
-            "definition": "Selling off part of a business — here, the overlapping markets Uber agrees to give up so competition regulators will approve the deal."
+            "term": "Provisions",
+            "definition": "Money a bank sets aside in advance to cover loans that may go bad; when provisions fall, more of the bank's income drops through to profit."
+          },
+          {
+            "term": "Crore / lakh crore",
+            "definition": "Indian number units: 1 crore = 10 million and 1 lakh crore = 1 trillion. So ₹14,805 crore is about $1.7 billion, and ₹16.3 lakh crore of loans is roughly $195 billion."
           }
         ],
         "sources": [
           {
-            "name": "Uber (investor release)",
-            "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Acquisition-Offer-for-Delivery-Hero/default.aspx"
+            "name": "The Economic Times",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/icici-bank-q1-results-profit-jumps-16-yoy-to-rs-14805-crore-nii-rises-13-as-margins-expand/articleshow/132477062.cms"
           },
           {
-            "name": "Reuters",
-            "url": "https://www.aol.com/articles/uber-launches-14-8-billion-062550000.html"
+            "name": "Business Today",
+            "url": "https://www.businesstoday.in/markets/stocks/story/icici-bank-q1-results-net-profit-rises-15-9-to-rs-14805-crore-asset-quality-stays-stable-543762-2026-07-18"
+          },
+          {
+            "name": "Livemint",
+            "url": "https://www.livemint.com/market/stock-market-news/icici-bank-q1-results-2026-net-profit-rises-16-to-rs-14-804-50-crore-check-nii-asset-quality-11784365257879.html"
           }
         ]
       }
     },
     {
       "type": "story",
-      "id": "story-23",
-      "rank": 23,
+      "id": "story-24",
+      "rank": 24,
       "category": "india",
       "published_iso": "2026-07-18T07:30:00+00:00",
       "source": "Business Today",
@@ -637,8 +739,8 @@
     },
     {
       "type": "story",
-      "id": "story-24",
-      "rank": 24,
+      "id": "story-25",
+      "rank": 25,
       "category": "india",
       "published_iso": "2026-07-18T04:16:55+00:00",
       "source": "The Tribune",
@@ -710,8 +812,8 @@
     },
     {
       "type": "story",
-      "id": "story-22",
-      "rank": 22,
+      "id": "story-23",
+      "rank": 23,
       "category": "india",
       "published_iso": "2026-07-17T20:56:07+00:00",
       "source": "ThePrint",
@@ -775,8 +877,8 @@
     },
     {
       "type": "story",
-      "id": "story-21",
-      "rank": 21,
+      "id": "story-22",
+      "rank": 22,
       "category": "india",
       "published_iso": "2026-07-17T15:16:49+00:00",
       "source": "Reuters",
@@ -842,8 +944,8 @@
     },
     {
       "type": "story",
-      "id": "story-25",
-      "rank": 25,
+      "id": "story-26",
+      "rank": 26,
       "category": "india",
       "published_iso": "2026-07-17T12:30:00+00:00",
       "source": "The Free Press Journal",
@@ -928,8 +1030,8 @@
     },
     {
       "type": "story",
-      "id": "story-26",
-      "rank": 26,
+      "id": "story-27",
+      "rank": 27,
       "category": "india",
       "published_iso": "2026-07-16T14:49:56+00:00",
       "source": "Livemint",
@@ -999,8 +1101,8 @@
     },
     {
       "type": "story",
-      "id": "story-27",
-      "rank": 27,
+      "id": "story-28",
+      "rank": 28,
       "category": "india",
       "published_iso": "2026-07-16T14:45:12+00:00",
       "source": "The Hindu (Business)",
@@ -1079,86 +1181,18 @@
       }
     },
     {
-      "type": "story",
-      "id": "story-30",
-      "rank": 30,
-      "category": "india",
-      "published_iso": "2026-07-16T12:35:32+00:00",
-      "source": "The Hindu",
-      "importance": "high",
-      "regions": [
-        "India",
-        "Odisha"
-      ],
-      "title": "Deadly crush at Puri's Rath Yatra again: at least one devotee dead and 100+ hospitalised in a crowd surge — a year after a stampede here killed three",
-      "what_happened": "On Thursday, July 16, 2026, a stampede-like crowd surge broke out among devotees near the Singhadwara/Marichikund area as the chariots were being readied and pulled. At least one devotee died — reported to be from suffocation in the crush — while news outlets carried varying figures, with some reporting additional deaths that were not immediately confirmed. Over 100 people (some reports said up to around 200) were taken to hospital with suffocation, fainting and injuries, worsened by heavy rain and the packed conditions. Authorities said nearly 13,000 police personnel, including senior officers, had been deployed to manage the crowds — yet the surge still occurred. The death toll and exact cause were still being established as of this report.",
-      "key_points": [
-        "A crowd surge hit the Rath Yatra at Puri's Singhadwara (Lion's Gate) area",
-        "At least one devotee died — reports of the toll vary; 100+ hospitalised",
-        "Nearly 13,000 police were deployed, yet the crush still happened",
-        "Comes a year after a June 2025 stampede at the same festival killed three"
-      ],
-      "moot": "At mass gatherings the crowd itself is the risk: past a certain density, a single stumble or a broken barricade can cascade into a fatal crush, and packing more police in doesn't help if the space and the flow of people aren't designed for the numbers. Preventing disasters is about managing density and exits in advance, not reacting once the surge has begun.",
-      "concepts": [],
-      "figures": [],
-      "depth": {
-        "background": "The Rath Yatra ('chariot festival') in Puri, Odisha, is one of Hinduism's biggest annual events: the deities Lord Jagannath, his brother Balabhadra and sister Subhadra are pulled through the streets on three towering wooden chariots by hundreds of thousands of devotees, who believe helping to haul the ropes brings blessings. The sheer density of the crowd — packed into narrow lanes around the Jagannath Temple's Singhadwara, or 'Lion's Gate' — makes crowd control extremely hard. This is a recurring danger: just last year, on June 29, 2025, a stampede during the same festival killed three people and injured dozens, after which Odisha's chief minister called the negligence 'unpardonable.'",
-        "why_it_matters": "A second fatal crush at the very same festival in consecutive years turns a tragic accident into a pattern — and a pointed question about whether crowd-safety lessons from 2025 were actually put into practice. It is a stark reminder that at mass religious gatherings, the crowd itself becomes the hazard: once bodies are packed tightly enough, a small stumble or a collapsed barricade can trigger a deadly domino effect that no amount of faith or policing can instantly stop.",
-        "ripple_effects": "Expect immediate political fallout in Odisha — condolences, compensation for victims' families, an official inquiry, and opposition attacks over preparedness — echoing the response after the 2025 deaths. The incident will renew a nationwide debate about crowd management at India's giant religious festivals (from the Kumbh Mela to temple town events), where similar crushes recur. Temple and district administrations nationwide may face pressure to adopt stricter crowd-flow design, capacity limits, better barricading and real-time monitoring. For the millions who travel to Puri, it also raises hard questions about balancing open access to a sacred ritual with basic safety.",
-        "why_now": "The surge happened at the peak moment of the festival, when the largest crowds gather to pull the chariots after the traditional rituals — the same high-density window that has repeatedly turned dangerous. Heavy monsoon rain and the crush of devotees at a narrow chokepoint tipped an already-packed crowd into a deadly surge.",
-        "watch_next": "The confirmed death toll and the findings of any official inquiry into how the crush happened despite the large police deployment.",
-        "market_link": null,
-        "key_terms": [
-          {
-            "term": "Rath Yatra",
-            "definition": "The annual 'chariot festival' in Puri, Odisha, where huge crowds pull the deities Jagannath, Balabhadra and Subhadra through the streets on giant wooden chariots."
-          },
-          {
-            "term": "Singhadwara (Lion's Gate)",
-            "definition": "The main eastern entrance of Puri's Jagannath Temple, a natural chokepoint where the festival's densest crowds gather."
-          },
-          {
-            "term": "Stampede / crowd crush",
-            "definition": "When a densely packed crowd surges or collapses, people can be trampled or suffocated; deaths often come from compression, not trampling — you can't breathe when the crowd squeezes too tightly."
-          }
-        ],
-        "sources": [
-          {
-            "name": "The Hindu",
-            "url": "https://www.thehindu.com/news/national/odisha/puri-rath-yatra-crowds-surge-at-singhadwara/article71230034.ece"
-          },
-          {
-            "name": "Times of India",
-            "url": "https://timesofindia.indiatimes.com/india/puri-rath-yatra-stampede-like-situation-one-dead-over-100-reportedly-faint/articleshow/132439536.cms"
-          },
-          {
-            "name": "NDTV",
-            "url": "https://www.ndtv.com/india-news/1-dead-several-taken-to-hospital-after-crowd-surge-at-puri-rath-yatra-11780248"
-          },
-          {
-            "name": "The Week",
-            "url": "https://www.theweek.in/news/india/2026/07/16/puri-rath-yatra-stampede-news-jagannath-temple-devotee-crowd.html"
-          },
-          {
-            "name": "Deccan Chronicle",
-            "url": "https://www.deccanchronicle.com/nation/120-devotees-hospitalised-after-rush-during-puri-rath-yatra-1971395"
-          }
-        ]
-      }
-    },
-    {
       "type": "archive",
       "id": "archive-global",
       "category": "geopolitics",
       "region": "global",
-      "older_count": 47
+      "older_count": 48
     },
     {
       "type": "archive",
       "id": "archive-india",
       "category": "india",
       "region": "india",
-      "older_count": 47
+      "older_count": 48
     },
     {
       "type": "outro",
