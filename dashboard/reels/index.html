@@ -172,8 +172,15 @@
     font-size:11.5px;color:#0b0f17;background:linear-gradient(90deg,#ffd76a,#ff8a3d);letter-spacing:.2px}
   .devbadge{display:inline-flex;align-items:center;padding:3px 9px;border-radius:99px;font-weight:800;
     font-size:11.5px;color:#0b0f17;background:linear-gradient(90deg,#6fd3ff,#4b9dff);letter-spacing:.2px}
-  .prevref{margin-top:2px;font-size:12.5px;font-weight:700;color:var(--dim)}
-  .prevref b{color:var(--txt);font-weight:700}
+  .prevref{display:flex;gap:10px;align-items:center;width:100%;text-align:left;margin:0 0 15px;padding:12px 13px;
+    border:1px solid color-mix(in srgb,#4b9dff 42%,var(--line));border-radius:13px;
+    background:color-mix(in srgb,#4b9dff 10%,var(--panel2));color:var(--txt);font:inherit;cursor:pointer}
+  .prevref:active{background:color-mix(in srgb,#4b9dff 18%,var(--panel2))}
+  .prevref .pv-ic{font-size:17px;flex:0 0 auto}
+  .prevref .pv-t{flex:1;min-width:0;font-size:13.5px;font-weight:700;line-height:1.4}
+  .prevref .pv-lbl{display:block;font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;
+    color:#7fb6ff;margin-bottom:3px}
+  .prevref .pv-go{flex:0 0 auto;color:#7fb6ff;font-weight:800;font-size:17px}
   .catchip{display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border-radius:99px;
     font-size:12.5px;font-weight:700;background:color-mix(in srgb, var(--cat, var(--accent)) 18%, transparent);
     color:var(--cat, var(--accent))}
@@ -564,7 +571,7 @@ const R = {
   },
 
   story: c => `
-    <div class="meta">${catChip(c.category)}${c.is_new?'<span class="newbadge">🆕 Just added</span>':''}${c.development?'<span class="devbadge">🔄 Development</span>':''}${threadRibbon(c.thread)}${c.importance==='critical'?'<span style="color:var(--down)">● critical</span>':''}</div>
+    <div class="meta">${catChip(c.category)}${c.development?'<span class="devbadge">🔄 Development</span>':(c.is_new?'<span class="newbadge">🆕 Just added</span>':'')}${threadRibbon(c.thread)}${c.importance==='critical'?'<span style="color:var(--down)">● critical</span>':''}</div>
     ${whenLine(c)}
     <h1 class="headline">${esc(c.title)}</h1>
     ${expandBtn(`openDecode(${JSON.stringify(c.id)})`, 'Read full story')}`,
@@ -862,28 +869,65 @@ function openLessonSources(id){
 /* ---------- 📜 the rolling news archive (older stories that rotated out of the live top-20) ---------- */
 let ARCHIVE_CACHE=null, ARCHIVE_VIEW=[];
 const _tkey = t => (t||'').trim().toLowerCase();
+const _sregion = s => STORY_REGIONS.has(s.category) ? s.category : 'global';
 function openArchive(region){
-  const label = region==='india' ? 'India' : 'Global';
+  const label = ({india:'India', f1:'F1', cricket:'Cricket'})[region] || 'Global';
   openSheet('📜 Older '+label+' stories', '<div class="one">Loading the archive…</div>',
-            region==='india'?'india':'markets');
-  const paint = all => {
+            STORY_REGIONS.has(region)?region:'markets');
+  const paint = (all, hint, full) => {
     const live = new Set((DECK.cards||[]).filter(x=>x.type==='story').map(x=>_tkey(x.title)));
-    ARCHIVE_VIEW = (all||[]).filter(s => (s.category==='india'?'india':'global')===region
-                                         && !live.has(_tkey(s.title)));
+    const seen=new Set();
+    ARCHIVE_VIEW = (all||[]).filter(s => _sregion(s)===region && !live.has(_tkey(s.title)))
+      .filter(s => { const k=_tkey(s.title); if(!k||seen.has(k)) return false; seen.add(k); return true; })
+      .sort((a,b)=>String(b.published_iso||'').localeCompare(String(a.published_iso||'')));
+    const moreBtn = full ? '' :
+      `<button class="ust-btn" style="margin-top:12px" onclick="loadFullHistory('${region}')">📚 Load full history</button>`;
     document.getElementById('sbody').innerHTML = ARCHIVE_VIEW.length
-      ? `<div class="arch-hint">Newest first — every story that's rotated out of the live feed. Tap one to read its full decode.</div>`
-        + `<div class="jlist" style="max-height:72vh">${ARCHIVE_VIEW.map((s,i)=>`
+      ? `<div class="arch-hint">${hint||"Newest first — every story that's rotated out of the live feed. Tap one to read it."}</div>`
+        + `<div class="jlist" style="max-height:66vh">${ARCHIVE_VIEW.map((s,i)=>`
             <div class="jrow" onclick='openArchiveStory(${i})'>
               <div class="jmain"><b>${esc(s.title)}</b><span>${esc(relTime(s.published_iso))}${s.source?' · '+esc(String(s.source).split(' (')[0]):''}</span></div>
-              <div class="jgo">›</div></div>`).join('')}</div>`
-      : '<div class="one">Nothing older archived yet — as newer stories arrive, older ones collect here.</div>';
+              <div class="jgo">›</div></div>`).join('')}</div>` + moreBtn
+      : '<div class="one">Nothing older archived yet — as newer stories arrive, older ones collect here.</div>' + moreBtn;
     document.getElementById('sbody').scrollTop = 0;
   };
+  ARCHIVE_PAINT = paint;
   if(ARCHIVE_CACHE){ paint(ARCHIVE_CACHE); return; }
   fetch('../news-archive.json?_='+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)
     .then(d=>{ ARCHIVE_CACHE = (d&&d.stories)||[]; paint(ARCHIVE_CACHE); });
 }
+let ARCHIVE_PAINT=null, HISTORY_CACHE=null;
+// pull EVERY kept story from the permanent monthly shards (dashboard/archive/news-<YYYY-MM>.json)
+function loadFullHistory(region){
+  if(!ARCHIVE_PAINT) return;
+  const done = all => { HISTORY_CACHE=all; ARCHIVE_PAINT(all, "Full history — every story we've kept, newest first. Tap one to read it.", true); };
+  if(HISTORY_CACHE){ done(HISTORY_CACHE); return; }
+  document.getElementById('sbody').insertAdjacentHTML('afterbegin', '<div class="one" style="color:var(--dim)">Loading full history…</div>');
+  fetch('../archive/news-index.json?_='+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)
+    .then(idx => Promise.all(((idx&&idx.months)||[]).map(m =>
+        fetch('../archive/news-'+m+'.json?_='+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null))))
+    .then(shards => {
+      const all=[]; (shards||[]).forEach(sh=>{ if(sh&&sh.stories) all.push(...sh.stories); });
+      done(all.length ? all : (ARCHIVE_CACHE||[]));
+    });
+}
 function openArchiveStory(i){ const c=ARCHIVE_VIEW[i]; if(c) openDecodeCard(c); }
+
+// tap "Continues earlier coverage" → open the previous story (live feed first, then the archive)
+function openPrevStory(title){
+  const key=_tkey(title);
+  const match = arr => (arr||[]).find(s=>_tkey(s.title)===key)
+    || (arr||[]).find(s=>{ const k=_tkey(s.title); return k && key && (k.includes(key.slice(0,36)) || key.includes(k.slice(0,36))); });
+  const live = (DECK && DECK.cards || []).filter(x=>x.type==='story');
+  const hit = match(live);
+  if(hit){ openDecodeCard(hit); return; }
+  const go = arr => { const c=match(arr);
+    if(c) openDecodeCard(c);
+    else openSheet('Earlier story', `<div class="one">This story has rolled out of the saved archive, so the full decode isn’t available anymore.<br><br><b>${esc(title)}</b></div>`, 'markets'); };
+  if(ARCHIVE_CACHE){ go(ARCHIVE_CACHE); return; }
+  fetch('../news-archive.json?_='+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)
+    .then(d=>{ ARCHIVE_CACHE=(d&&d.stories)||[]; go(ARCHIVE_CACHE); });
+}
 
 /* ---------- 🎓 the course: a catalog (dashboard/lessons.json) the reader walks CLIENT-SIDE ---------- */
 function cLoad(){ try{ return JSON.parse(localStorage.getItem('di_course'))||{}; }catch(e){ return {}; } }
@@ -978,8 +1022,10 @@ function openDecodeCard(c){
   // and the sources. Nothing else. (If it continues earlier coverage, lead with what's new.)
   if(c.type==='story'){
     if(c.development && c.prev_ref && c.prev_ref.title){
-      const when = c.prev_ref.date ? ` <span style="color:var(--dim)">(${esc(c.prev_ref.date)})</span>` : '';
-      h += `<div class="prevref">🔄 Continues our earlier story: <b>${esc(c.prev_ref.title)}</b>${when}</div>`;
+      h += `<button class="prevref" onclick='openPrevStory(${JSON.stringify(c.prev_ref.title)})'>`
+        + `<span class="pv-ic">🔄</span>`
+        + `<span class="pv-t"><span class="pv-lbl">Continues earlier coverage — tap to read it</span>${esc(c.prev_ref.title)}</span>`
+        + `<span class="pv-go">›</span></button>`;
     }
     if(c.thread){
       h += bulletSec('🧵', 'Previously', c.thread.previously);

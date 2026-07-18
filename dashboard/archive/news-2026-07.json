@@ -1,0 +1,1368 @@
+{
+  "month": "2026-07",
+  "count": 42,
+  "stories": [
+    {
+      "type": "story",
+      "title": "India's Parliament opens its monsoon session Monday — an all-party meeting today, and 7 contentious bills on the table",
+      "category": "india",
+      "published_iso": "2026-07-19T11:00:00+05:30",
+      "source": "Outlook India",
+      "what_happened": "On Sunday, July 19, the government held the all-party meeting (around 11 a.m.) to outline its agenda. The session itself opens Monday, July 20, and runs to August 13 across 19 sittings. The government plans to push about seven bills — among them the Foreign Contribution (Regulation) Amendment Bill (which tightens the rules on foreign funding of NGOs and charities), a bill to raise the number of Supreme Court judges from 33 to 37 to clear a backlog of cases, and a Micro, Small and Medium Enterprises (MSME) reform bill. The politically explosive 'delimitation' debate — over redrawing parliamentary seats — also looms over the session.",
+      "key_points": [
+        "Monsoon session runs July 20 to Aug 13, with 19 sittings",
+        "Government holds the customary all-party meeting today",
+        "7 bills lined up, including FCRA and more Supreme Court judges",
+        "Expected to be stormy amid opposition splits and flashpoints"
+      ],
+      "depth": {
+        "background": "India's Parliament meets in a few fixed sessions each year; the monsoon session is the mid-year one, running roughly July to August. By custom, just before it opens the government convenes an 'all-party meeting' — a sit-down with leaders of every party — to preview its legislative plan and take the temperature of the opposition.",
+        "sources": [
+          {
+            "name": "Outlook India",
+            "url": "https://www.outlookindia.com/national/monsoon-session-to-begin-amid-political-flashpoints-seven-bills-on-govt-agenda"
+          },
+          {
+            "name": "India TV News",
+            "url": "https://www.indiatvnews.com/news/india/parliament-monsoon-session-income-tax-msme-reform-bills-on-agenda-here-s-the-list-of-key-legislations-2026-07-17-1048525"
+          },
+          {
+            "name": "The Pioneer",
+            "url": "https://dailypioneer.com/news/parliament-monsoon-session-to-begin-july-20"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India builds its own 'One Nation, One Time' network to stop relying on foreign GPS clocks",
+      "category": "india",
+      "published_iso": "2026-07-18T19:22:24+05:30",
+      "source": "IANS",
+      "what_happened": "On Saturday, Union Minister Pralhad Joshi commissioned India's first high-precision network to distribute Indian Standard Time (IST) over fibre-optic/Ethernet lines, at the Regional Reference Standards Laboratory in Jakkur, Bengaluru. It uses 'White Rabbit' technology — a Precision Time Protocol method that syncs clocks to within billionths of a second — to send UTC(NPLI)-traceable IST securely to critical sectors. It was built by the Legal Metrology division with NPL, ISRO, state telecom BSNL and markets regulator SEBI, under a 'One Nation, One Time' vision.",
+      "key_points": [
+        "New secure network distributes official Indian Standard Time over fibre",
+        "Cuts India's reliance on foreign GPS satellites for precise time",
+        "Aimed at banks, stock markets, telecom, power grids and defence",
+        "Uses 'White Rabbit' tech; commissioned in Jakkur, Bengaluru"
+      ],
+      "depth": {
+        "background": "Modern systems don't just need the right date — they need the exact instant, synced across the country to fractions of a second. Stock trades, bank transfers, mobile networks, power grids and defence systems all depend on this. Today much of that timing comes from foreign satellite systems like the US GPS — which is convenient but a security risk: a foreign or hackable signal is a single point of failure. India has been pushing 'time sovereignty': controlling its own precise time using its national reference clock at the National Physical Laboratory (NPL).",
+        "sources": [
+          {
+            "name": "IANS",
+            "url": "https://ianslive.in/govt-commissions-indian-standard-time-dissemination-network--20260718192224"
+          },
+          {
+            "name": "NewKerala",
+            "url": "https://www.newkerala.com/news/a/govt-commissions-indian-standard-time-dissemination-network-464.htm"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Iran's missiles kill 2 US troops in Jordan — the first American combat deaths of this war since spring",
+      "category": "geopolitics",
+      "published_iso": "2026-07-18T18:32:30+00:00",
+      "source": "CNN",
+      "what_happened": "US Central Command (CENTCOM — the US military command that runs operations in the Middle East) said that as its forces defended against an Iranian ballistic-missile and drone attack, two US service members in Jordan were killed and one is missing. Four others were medically evacuated to hospitals in Jordan but have since been discharged. Jordan said it shot down 10 Iranian missiles fired into its airspace overnight into Saturday. The US is withholding the fallen troops' names until 24 hours after their families are told.",
+      "key_points": [
+        "Iranian missiles and drones hit a US base in Jordan",
+        "2 US service members killed, 1 still missing",
+        "Jordan says it intercepted 10 Iranian missiles overnight",
+        "Comes on the 7th straight night of US strikes on Iran"
+      ],
+      "depth": {
+        "background": "For more than a week the United States and Iran have been in open military conflict. The US has been bombing Iranian military sites nightly — including near the capital, Tehran — and Iran has been firing back at American forces and US allies across the Gulf. Jordan is a close US partner in the region and hosts American troops on its soil, which put it in the line of fire.",
+        "sources": [
+          {
+            "name": "CNN",
+            "url": "https://www.cnn.com/2026/07/18/politics/iran-war-us-service-members-killed-jordan"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://reut.rs/4fprsCY"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/article/iran-us-hormuz-strait-war-july-18-2026-5adfef67554652580963684d9a663af2"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o"
+          }
+        ]
+      },
+      "thread": {
+        "previously": "Yesterday we reported the US had widened its air war — striking near Tehran for the first time and disabling an Iranian tanker — while Iran fired back at American bases across the Gulf.",
+        "changed": "Now Iran's strikes have killed US personnel for the first time in this war since spring: two service members died and one is missing after missiles and drones hit a base in Jordan, and Jordan says it shot down 10 incoming missiles."
+      },
+      "development": true,
+      "prev_ref": {
+        "title": "US widens its war on Iran — bombing near Tehran for the first time and disabling a tanker, as Iran fires back at American bases in the Gulf",
+        "date": null
+      }
+    },
+    {
+      "type": "story",
+      "title": "Hungary removes its president — Orban loyalist Sulyok agrees to go, defusing a constitutional standoff",
+      "category": "geopolitics",
+      "published_iso": "2026-07-18T17:33:28+00:00",
+      "source": "BBC",
+      "what_happened": "On July 13 Hungary's parliament passed a constitutional amendment — by 139 votes to 6 — to end Sulyok's term immediately. For a president's removal to take effect, that law must be signed, and Sulyok at first refused, calling the whole thing unconstitutional and raising the prospect of impeachment and a constitutional crisis. On Saturday, July 18, under a signing deadline, he relented and agreed to stand down, ending the standoff.",
+      "key_points": [
+        "Parliament voted to remove President Tamas Sulyok, an Orban ally",
+        "He resisted for days, calling the move unconstitutional",
+        "On July 18 he agreed to stand down, averting a crisis",
+        "Follows Viktor Orban's landslide election loss in April"
+      ],
+      "depth": {
+        "background": "Viktor Orban ran Hungary for 16 years until he lost power in April 2026 to Peter Magyar's Tisza Party in a landslide. Tamas Sulyok, the country's president — a largely ceremonial head-of-state role — was widely seen as an Orban loyalist left over from the old order. The new government moved to remove him and complete the changing of the guard.",
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po"
+          },
+          {
+            "name": "Reuters",
+            "url": "http://reut.rs/hungary-president"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/my-europe/2026/07/13/hungarian-parliament-removes-president-tamas-sulyok-from-office"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/14/hungarys-parliament-votes-to-oust-president-in-latest-anti-orban-move"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Venezuela's earthquake toll tops 5,000 as the IMF rushes in emergency aid — and reports reveal a botched military rescue",
+      "category": "geopolitics",
+      "published_iso": "2026-07-18T15:35:54+00:00",
+      "source": "Al Jazeera",
+      "what_happened": "On Saturday, July 18, 2026, Venezuelan authorities said the number of confirmed dead from the June quakes had risen above 5,000, with tens of thousands injured and roughly 17,000-plus people left homeless. The International Monetary Fund (IMF) — the global lender that governments turn to in a financial emergency — released about £346 million (roughly $460 million) in emergency funds to help pay for relief and rebuilding. At the same time, a Reuters investigation reported that Venezuela's military response was hobbled in the crucial first hours: delayed orders from senior commanders, a lack of basic equipment, and general confusion slowed the deployment of troops when speed mattered most. Officials estimate around 590,000 buildings were destroyed, and a UN agency has put the total damage near $37 billion.",
+      "key_points": [
+        "Death toll from June 24's twin quakes now passes 5,000, still climbing",
+        "IMF releases ~£346m (about $460m) in emergency funds to Venezuela",
+        "Reuters: delayed orders and missing gear crippled the army's first-hours response",
+        "~590,000 buildings destroyed; UN pegs the damage at roughly $37 billion"
+      ],
+      "depth": {
+        "background": "On June 24, 2026, two huge earthquakes — magnitude 7.2 and 7.5 — struck western Venezuela within seconds of each other, one of the deadliest natural disasters in the country's modern history. Venezuela was already a broken economy before the ground shook: years of mismanagement, hyperinflation and US sanctions had hollowed out the state, driven millions to emigrate, and left public services and building standards badly weakened. That matters because how deadly a quake becomes depends less on its raw power than on the quality of the buildings it hits and the government's ability to dig people out fast — and Venezuela was short on both. In the weeks since, the confirmed death toll has climbed relentlessly as rescuers reach flattened towns: from about 3,535 on July 7 to 4,333, and now past 5,000.",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/18/venezuela-quake-death-toll-tops-5000-as-imf-releases-emergency-aid"
+          },
+          {
+            "name": "Al Jazeera (July 7)",
+            "url": "https://www.aljazeera.com/news/2026/7/7/venezuela-earthquakes-death-toll-jumps-to-more-than-3500"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORklyRm83dTkxX2JtYTRsVkJhVWl4X2JDaHZob25TUEhONXhxWlMxdlNZTnlaNzIyeEdvMHhJMVM3T2xXT2hQR1NhRWlfeGlvdGt3QWk1bW96Zjc1YlRsUl9uNkJudDBmSVJoZFVfS1Z6RTVlRDZ4YV93MTFaQnI5YXZQRy0xdGxVZzZFWHRNLV9aY3JjbGtZZVk5VHFTTFdxU3VsalFSWng5U3FDY2ViWDlXWGtsWVVmdjkxcUlxTDNuSmlGS2l1TTJxbE5qbWUxNGNJ?oc=5"
+          },
+          {
+            "name": "Wikipedia (2026 Venezuela earthquakes)",
+            "url": "https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Antonelli beats Verstappen to pole at the Belgian GP as Mercedes keeps dominating qualifying",
+      "category": "f1",
+      "published_iso": "2026-07-18T15:26:31+00:00",
+      "source": "Autosport",
+      "what_happened": "At the Belgian Grand Prix at Spa-Francorchamps, Antonelli clinched his sixth pole position of the season, edging four-time champion Max Verstappen by 0.317 seconds. Verstappen admitted he only reached the front row thanks to a 'tow' — a slipstream — from Red Bull team-mate Isack Hadjar, who runs at the back after engine-change penalties. Reigning champion Lando Norris will drop 10 places on the grid for using too many engine parts, and Lewis Hamilton crashed his Ferrari in final practice earlier in the day.",
+      "key_points": [
+        "Kimi Antonelli takes his 6th pole of 2026",
+        "Beat Max Verstappen by 0.317s at Spa",
+        "Verstappen aided by a team-mate's slipstream",
+        "Champion Lando Norris hit with a 10-place grid penalty"
+      ],
+      "depth": {
+        "background": "Formula 1's qualifying decides the starting order for Sunday's race, and starting up front is a big advantage on tracks where overtaking is hard. Italian teenager Kimi Antonelli, in only his second F1 season with Mercedes, leads the 2026 drivers' championship, and Mercedes cars have been fastest over one lap all year.",
+        "sources": [
+          {
+            "name": "Autosport",
+            "url": "https://www.autosport.com/f1/news/f1-belgian-gp-antonelli-defeats-verstappen-to-take-pole/10839836/"
+          },
+          {
+            "name": "BBC Sport",
+            "url": "https://www.bbc.co.uk/sport/formula1/articles/cp8xep2w0epo"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "The backlash against AI's power-hungry data centres goes national — protests planned in 125+ US towns",
+      "category": "technology",
+      "published_iso": "2026-07-18T15:10:38+00:00",
+      "source": "Reuters (via US News)",
+      "what_happened": "A grassroots group called HumansFirst — co-founded by a former Tea Party organiser — coordinated protests in at least 125 locations across the US on Saturday, the first nationwide effort to channel local anger at the data-centre buildout. Organisers rail against what they call an 'unaccountable' expansion and an 'infringement on liberty.' Water is a flashpoint: one proposed project in California's Imperial County could draw about 260 million gallons a year from the Colorado River. A June Reuters/Ipsos poll found only about a third of Americans approve of the pace of construction, and just 14% would welcome one in their own community.",
+      "key_points": [
+        "First coordinated national protest against the AI data-centre boom",
+        "Rallies planned in at least 125 US locations on Saturday",
+        "Anger centres on water and electricity use, and lack of local say",
+        "Only ~14% of Americans want a data centre in their own community"
+      ],
+      "depth": {
+        "background": "The AI boom runs on 'data centres' — giant warehouses packed with computer servers that train and run models like ChatGPT and Claude. Over the past year, tech giants (Meta, Alphabet/Google, Amazon, Microsoft, Elon Musk's xAI) have raced to build them across the US. They guzzle electricity and, often, huge volumes of water for cooling, and they've been sprouting up faster than many towns can weigh in — turning a national tech story into thousands of local fights.",
+        "sources": [
+          {
+            "name": "Reuters (via US News)",
+            "url": "https://www.usnews.com/news/top-news/articles/2026-07-18/us-data-center-protests-go-national-as-backlash-grows"
+          },
+          {
+            "name": "Reuters (via Investing.com)",
+            "url": "https://www.investing.com/news/stock-market-news/us-data-center-protests-go-national-as-backlash-grows-4799582"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "A stomach-bug outbreak pulls Taylor Farms lettuce off US shelves — and Taco Bell's menu",
+      "category": "health",
+      "published_iso": "2026-07-18T14:51:00+00:00",
+      "source": "The Verge",
+      "what_happened": "US health agencies (the CDC and FDA) linked shredded iceberg lettuce served at Taco Bell to a Cyclospora outbreak first confirmed in five states — Indiana, Kentucky, Michigan, Ohio and West Virginia — and traced it to a single grower in central Mexico. On July 17, supplier Taylor Farms de México said it was voluntarily removing all iceberg lettuce sourced from central Mexico from the US market, and Taco Bell said it had pulled the lettuce from restaurants and its nationwide supply chain. Reporting suggests the wider outbreak may have sickened thousands, with cases being investigated across dozens of states.",
+      "key_points": [
+        "Shredded iceberg lettuce tied to a Cyclospora outbreak",
+        "Taylor Farms recalls all central-Mexico iceberg lettuce",
+        "Taco Bell removes the lettuce nationwide",
+        "Thousands possibly sickened across many states"
+      ],
+      "depth": {
+        "background": "Cyclospora is a tiny parasite that contaminates fresh produce, usually via water tainted with human waste, and causes cyclosporiasis — days or weeks of watery diarrhoea, cramps and fatigue. It can't be washed off reliably and isn't killed by refrigeration, so the main fix once produce is contaminated is to pull it from the food chain. The US sees these outbreaks most summers, often traced to imported salad greens.",
+        "sources": [
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/health/2026/07/taco-bell-iceburg-lettuce-identified-as-source-of-cyclosporiasis-in-5-states/"
+          },
+          {
+            "name": "CNN",
+            "url": "https://www.cnn.com/2026/07/16/health/cyclospora-outbreak-shredded-lettuce"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Iraq signs big US energy deals to reroute its oil around the Strait of Hormuz",
+      "category": "economy",
+      "published_iso": "2026-07-18T14:23:33+00:00",
+      "source": "Al Jazeera",
+      "what_happened": "At a US-Iraq business summit at the US Chamber of Commerce in Washington on Friday, the two sides signed preliminary agreements worth more than $60bn spanning energy, healthcare and technology. The headline deal is a plan for US giant Chevron to help rebuild the long-defunct pipeline from Iraq's oil-rich Kirkuk region to Syria's Mediterranean port of Baniyas — letting Iraqi crude reach world markets without going near Hormuz. Chevron signed two further oil-production deals, and Iraq also formally signed up Elon Musk's Starlink satellite internet.",
+      "key_points": [
+        "US-Iraq summit yields $60bn+ in initial deals",
+        "Centrepiece: revive the old Iraq-to-Syria oil pipeline",
+        "Goal: stop depending on the war-hit Strait of Hormuz",
+        "Chevron to lead; Iraq also signs up Starlink"
+      ],
+      "depth": {
+        "background": "Roughly a fifth of the world's oil is shipped through the Strait of Hormuz, a narrow sea passage between Iran and Oman — a classic 'chokepoint' where a single conflict can throttle global supply. With the US now fighting a war against Iran, tankers passing Hormuz face growing risk, and oil-exporting neighbours like Iraq are scrambling for safer routes to sell their crude.",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/18/iraq-signs-48-deals-with-us-companies-during-pms-visit-to-washington"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/17/iran-war-iraq-syria-oil-pipeline-strait-hormuz.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "The US fills all 85,000 H-1B work visas — and for the first time picks winners by salary, not luck, hitting India's junior tech hopefuls hardest",
+      "category": "india",
+      "published_iso": "2026-07-18T14:16:50+00:00",
+      "source": "The American Bazaar",
+      "what_happened": "On July 17, 2026, US Citizenship and Immigration Services (USCIS) announced it had received enough petitions to fill the entire 85,000 H-1B cap for fiscal year 2027 and would not hold a second lottery — closing the door for anyone not already selected. Crucially, FY2027 is the first cycle run under the new wage-based selection: instead of everyone getting one equal ticket, applicants are entered according to the US Labor Department's four prevailing-wage tiers — a Level 4 (highest-paid) job gets four entries, Level 3 gets three, Level 2 gets two, and Level 1 (entry-level) gets just one. The effect was dramatic: total registrations fell 38.5%, from about 343,981 for FY2026 to roughly 211,600 for FY2027, as low-wage and speculative filings dried up. Among those selected, 71.5% now hold a US advanced degree (up from 57%), and only 17.7% fell in the lowest wage band.",
+      "key_points": [
+        "USCIS says the FY2027 H-1B cap of 85,000 is full — no second lottery this year",
+        "First year selection is 'wage-weighted': higher-paid roles get more lottery entries",
+        "Registrations crashed 38.5% — from ~343,981 to ~211,600 — as the odds shifted",
+        "Indians win ~72% of H-1Bs, so the biggest single user of the visa is most exposed"
+      ],
+      "depth": {
+        "background": "The H-1B is America's main work visa for skilled foreign professionals — the route most Indian software engineers, data scientists and consultants use to work in the US. Demand far outstrips supply: Washington caps new H-1Bs at 85,000 a year (65,000 general plus 20,000 for holders of US master's degrees or higher), and for years the winners were chosen by a random lottery among registrations. Indians are by far the biggest users — roughly 72% of H-1B holders in 2023–24 — and Indian IT giants like TCS, Infosys, Wipro and HCL long built their US business on it (though they have already nearly halved their H-1B workforce since 2017). This year the rules changed: the US Department of Homeland Security replaced the pure coin-flip with a 'wage-weighted' system.",
+        "sources": [
+          {
+            "name": "The American Bazaar",
+            "url": "https://americanbazaaronline.com/2026/07/18/h-1b-fy2027-uscis-fills-85000-visa-cap-ends-chances-of-second-lottery-484785/"
+          },
+          {
+            "name": "Fragomen",
+            "url": "https://www.fragomen.com/insights/united-states-uscis-completes-fy-2027-h-1b-cap-selection-process.html"
+          },
+          {
+            "name": "Ogletree Deakins",
+            "url": "https://ogletree.com/insights-resources/blog-posts/uscis-completes-fiscal-year-2027-h-1b-lottery/"
+          },
+          {
+            "name": "Penn Wharton Budget Model",
+            "url": "https://budgetmodel.wharton.upenn.edu/p/2026-04-08-the-impact-of-higher-prevailing-wages-on-the-h-1b-visa-lottery-update-1/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Speaker lets 6 Uddhav Thackeray MPs defect to Shinde's Shiv Sena — a fresh blow to the UBT camp",
+      "category": "india",
+      "published_iso": "2026-07-18T14:07:00+00:00",
+      "source": "The Hindu",
+      "what_happened": "Lok Sabha Speaker Om Birla on Saturday formally recognised the merger of six Shiv Sena (UBT) MPs into the Shinde-led Shiv Sena. Because six of UBT's nine MPs crossed over — two-thirds — the move qualifies under the merger exception. That leaves Uddhav Thackeray's faction with just three MPs in the lower house of Parliament, while Shinde's group rises to 13. The decision, taken two days before Parliament's Monsoon Session, also lifts the BJP-led National Democratic Alliance's Lok Sabha strength to 298.",
+      "key_points": [
+        "Lok Sabha Speaker recognises the 6 MPs' switch",
+        "Shinde's Sena now has 13 MPs; Uddhav left with 3",
+        "Cleared under the anti-defection law's 'merger' rule",
+        "Lifts the ruling NDA's Lok Sabha tally to 298"
+      ],
+      "depth": {
+        "background": "The Shiv Sena, a big Maharashtra party, split in 2022 when Eknath Shinde broke away with most lawmakers and, backed by the BJP, took over the government — leaving founder Bal Thackeray's son Uddhav with a smaller faction, officially called Shiv Sena (UBT). India's anti-defection law normally bars lawmakers from switching parties to stop horse-trading, but it makes an exception: if two-thirds of a party's legislators agree to 'merge' with another party, the switch is legal and they keep their seats.",
+        "sources": [
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/lok-sabha-speaker-approves-merger-of-six-shiv-sena-ubt-mps-with-the-eknath-shinde-led-shiv-sena/article71238932.ece"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/politics/ls-speaker-birla-approves-merger-of-rebel-ss-ubt-with-shinde-led-shiv-sena-126071800860_1.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "A fire tears through a Norwegian town and becomes the country's largest in modern times — 100+ homes gone, hundreds evacuated",
+      "category": "climate",
+      "published_iso": "2026-07-18T13:06:42+00:00",
+      "source": "AP News",
+      "what_happened": "Police say a fire broke out in a townhouse in Drammen at about 3:30 p.m. on Friday. It spread rapidly through the densely built neighbourhood and into adjacent forest, destroying more than 100 homes — which officials call the largest fire of its kind in Norway's modern history. Hundreds of residents were evacuated to a shelter, and NRK, Norway's public broadcaster, reported no one missing. Firefighters were still fighting to contain it on Saturday, and the cause was not yet known.",
+      "key_points": [
+        "Fire started in a townhouse in Drammen, southern Norway, on Friday afternoon",
+        "It jumped house-to-house and into nearby forests — 100+ homes destroyed",
+        "Hundreds fled to an evacuation centre; no one reported missing",
+        "Cause still unknown; crews battled the blaze into Saturday"
+      ],
+      "depth": {
+        "background": "Norway is a cool, wet Nordic country not known for the kind of mass wildfires seen in California or Australia — big residential fires there are rare, which is exactly why this one is historic. Drammen is a city of about 100,000 people roughly 40 km southwest of the capital, Oslo. A dry, warm spell across parts of Northern Europe this summer left vegetation and timber homes unusually flammable.",
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://www.wral.com/news/ap/50b5e-massive-fire-destroys-100-homes-in-norway-and-forces-hundreds-to-evacuate/"
+          },
+          {
+            "name": "TimesLIVE",
+            "url": "https://www.timeslive.co.za/news/2026-07-18-massive-fire-becomes-norways-largest-in-modern-times-after-destroying-more-than-100-homes/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India vs England ODI series goes to a Lord's decider — with Rohit Sharma's future in the spotlight",
+      "category": "cricket",
+      "published_iso": "2026-07-18T13:03:00+00:00",
+      "source": "ESPNcricinfo",
+      "what_happened": "England levelled the series 1-1 by winning the second ODI in Cardiff, guided by Joe Root's unbeaten 99. That sets up a winner-takes-all third ODI at Lord's, cricket's most famous ground. Amid swirling retirement rumours, Rohit turned up for India's optional practice and looked in good touch, while India named all-rounder Harsh Dubey to replace the injured Washington Sundar, opening the door for spinner Kuldeep Yadav's possible return. India have not won a bilateral ODI series in England since 2018.",
+      "key_points": [
+        "Series level 1-1 after England win in Cardiff",
+        "Decider at Lord's; India seek first series win in England since 2018",
+        "Rohit Sharma under retirement speculation, joins optional practice",
+        "Harsh Dubey replaces injured Washington Sundar"
+      ],
+      "depth": {
+        "background": "India and England are playing a three-match one-day international (ODI) series — the 50-overs-a-side format. Veteran opener Rohit Sharma, 39, was recently removed as India's ODI captain and has struggled for runs, fuelling talk that this could be one of his last outings and that younger opener Yashasvi Jaiswal is ready to replace him.",
+        "sources": [
+          {
+            "name": "ESPNcricinfo",
+            "url": "https://www.cricinfo.com/ci/content/story/1546091.html"
+          },
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/sport/cricket/eng-vs-ind-third-odi-rohits-future-and-the-series-on-the-line/article71238320.ece"
+          },
+          {
+            "name": "BBC Sport",
+            "url": "https://www.bbc.co.uk/sport/cricket/videos/c151gppk448o"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India's National Film Awards for 2024 announced — Kartik Aaryan and Mammootty share Best Actor, Yami Gautam Best Actress",
+      "category": "india",
+      "published_iso": "2026-07-18T13:00:00+05:30",
+      "source": "Outlook India",
+      "what_happened": "On July 18 the ministry announced winners across 43 feature and non-feature categories. The Best Actor award was shared by Kartik Aaryan (for the sports biopic Chandu Champion) and Mammootty (for the Malayalam horror film Bramayugam). Yami Gautam won Best Actress for Article 370, which was also named Best Film. Nag Ashwin's big-budget science-fiction epic Kalki 2898 AD won Best Popular Film Providing Wholesome Entertainment, and Randeep Hooda won Best Debut Director for Swatantrya Veer Savarkar. An 11-member jury headed by filmmaker Jayaraj made the picks.",
+      "key_points": [
+        "72nd National Film Awards announced for films of 2024",
+        "Kartik Aaryan (Chandu Champion) & Mammootty (Bramayugam) share Best Actor",
+        "Yami Gautam wins Best Actress for Article 370",
+        "Article 370 named Best Film; Kalki 2898 AD wins Best Popular Film"
+      ],
+      "depth": {
+        "background": "The National Film Awards are India's highest government honours for cinema, handed out by the Ministry of Information and Broadcasting and decided by an appointed jury. The 72nd edition covers films released during 2024. Winning one carries prestige, career weight, and — because a government body picks them — plenty of scrutiny over what gets celebrated.",
+        "sources": [
+          {
+            "name": "Outlook India",
+            "url": "https://www.outlookindia.com/art-entertainment/72nd-national-film-awards-winners-full-list"
+          },
+          {
+            "name": "Republic World",
+            "url": "https://www.republicworld.com/entertainment/awards-events/72nd-national-film-awards-winners-yami-gautam-kartik-aaryan-mammootty-declared-best-actor-kalki-2898-ad-wins-best-popular-film-providing-wholesome-entertainment-2026-07-18-132736"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Germany raises its national terror-threat level to 'high' — and moves to hand its spy agencies more power",
+      "category": "geopolitics",
+      "published_iso": "2026-07-18T09:39:43+00:00",
+      "source": "Bloomberg",
+      "what_happened": "On Saturday, July 18, 2026, German Interior Minister Alexander Dobrindt told a newspaper that he was upgrading the country's security posture from the long-standing 'abstract' threat level to a 'high threat level'. He said 'the increased volume of reporting and intelligence' had driven the decision, and that Germans must now 'reckon with the risk of attacks at all times'. Officials indicated the danger is not vague: attack plans are 'clearly identifiable' and could be aimed at critical infrastructure (power, water, transport), specific institutions, or named individuals — with one plot reportedly involving 'disposable actors' using explosives that law enforcement disrupted. The announcement comes as Merz's coalition prepares to expand the operational powers of Germany's intelligence services so they can act faster and cooperate more closely with foreign partners.",
+      "key_points": [
+        "Interior minister lifts the alert from 'abstract' to a 'high threat level'",
+        "Says intelligence points to identifiable, credible attack plans right now",
+        "Warns targets could include infrastructure, institutions and named individuals",
+        "Merz government prepares to expand the intelligence services' powers"
+      ],
+      "depth": {
+        "background": "A country's 'threat level' is an official gauge of how likely a terrorist attack is judged to be, based on what its security agencies are picking up — intercepted chatter, tip-offs, foiled plots and intelligence shared by allies. Germany, Europe's largest economy and most populous country, has lived with a persistent 'abstract' risk for years — meaning attacks were considered possible but no specific, imminent plot stood out. In recent years it has suffered several deadly incidents, including car-ramming and knife attacks, and its agencies have repeatedly warned that Islamist militants, lone actors radicalised online, and sabotage crews linked to foreign states are all active threats. Chancellor Friedrich Merz's government has been pushing to modernise and strengthen the country's domestic intelligence apparatus in response.",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-18/germany-raises-threat-level-over-terror-attack-risk-welt-says"
+          },
+          {
+            "name": "Reuters (via Al-Monitor)",
+            "url": "https://www.al-monitor.com/originals/2026/07/germany-upgrades-security-stance-high-threat-level-interior-minister-tells-paper"
+          },
+          {
+            "name": "Reuters (via Internazionale)",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/18/germany-upgrades-security-stance-to-high-threat-level-interior-minister-tells-paper"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "At least 8 killed as an illegal firecracker factory explodes and burns in Ahmedabad — the latest deadly blast in India's loosely policed fireworks trade",
+      "category": "india",
+      "published_iso": "2026-07-18T09:30:00+00:00",
+      "source": "NDTV",
+      "what_happened": "On Saturday, July 18, 2026, a fire broke out at the Talent Fireworks factory on Gatrad Road in the Mahmudpura area near Ahmedabad, Gujarat. A series of powerful explosions ripped through the unit and shook the surrounding neighbourhood, throwing up a huge blaze; at least eight workers were killed and more than 15 injured, several critically. Police said the factory was operating illegally, without the mandatory licences and safety clearances. Gujarat Chief Minister Bhupendra Patel expressed grief and announced compensation of ₹4 lakh (about ₹400,000) to the family of each person killed and ₹50,000 to each of the injured, with the state arranging medical treatment for the survivors.",
+      "key_points": [
+        "Blasts then a blaze tore through the Talent Fireworks unit on Gatrad Road",
+        "At least 8 dead, 15+ injured; the factory was operating illegally",
+        "Explosions rocked the Mahmudpura area near Ahmedabad, sparking panic",
+        "Gujarat CM announces ₹4 lakh for each victim's family, ₹50,000 for injured"
+      ],
+      "depth": {
+        "background": "India is one of the world's biggest makers and users of firecrackers, and much of that production happens in small, cramped workshops — many of them unlicensed — where workers handle highly explosive chemicals by hand with little safety gear. Because these units store large amounts of gunpowder-like material in tight spaces, a single spark can set off a chain of explosions, so fatal fires at such factories are tragically common. Gatrad, on the industrial outskirts of Ahmedabad in Gujarat, is one such pocket of these small units.",
+        "sources": [
+          {
+            "name": "NDTV",
+            "url": "https://www.ndtv.com/india-news/8-killed-9-injured-in-blast-inside-illegal-ahmedabad-firecracker-factory-11788790"
+          },
+          {
+            "name": "TV9",
+            "url": "https://www.tv9hindi.com/state/gujarat/ahmedabad-firecracker-factory-fire-eight-dead-over-fifteen-injured-mahmudpura-talent-fireworks-3854311.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India's biggest bank grows the slowest: HDFC Bank's profit crawls up just 5% to ₹19,060 crore as its lending margin hits a record low",
+      "category": "india",
+      "published_iso": "2026-07-18T09:05:36+00:00",
+      "source": "Business Standard",
+      "what_happened": "On Saturday, July 18, 2026, HDFC Bank reported results for the April-June quarter (its first quarter of FY27). Net profit rose about 5% from a year earlier to ₹19,060 crore, and net interest income — the raw earnings from lending — grew nearly 7%. But its net interest margin narrowed to 3.26%, down from 3.38% in the previous quarter and the lowest level on record for the bank. Underneath, the business kept growing: gross advances (total loans) climbed 15.4% year-on-year to ₹30.61 trillion, and asset quality stayed strong, with gross bad loans at just 1.17%. The modest profit rise was helped along by lower-than-feared credit costs, even as provisions (money set aside for loans that may sour) ticked up to ₹3,060 crore.",
+      "key_points": [
+        "Net profit up only 5% year-on-year to ₹19,060 crore (~$2.2bn)",
+        "Net interest margin — the bank's core profit spread — hit a record-low 3.26%",
+        "Loans still grew a healthy 15.4%; bad loans stayed low at 1.17%",
+        "Contrasts with ICICI (+16%) and Axis (+23%) reported earlier this week"
+      ],
+      "depth": {
+        "background": "HDFC Bank is India's largest private-sector bank and one of its most valuable companies — the giant of Indian finance, so its results are read as a health check on the whole banking system. A bank's core engine is the gap between the interest it earns on loans and the interest it pays on deposits; that spread, expressed as a percentage, is called the net interest margin (NIM). This quarter that engine was under strain. India's central bank, the Reserve Bank of India (RBI), has been cutting its key interest rate (the repo rate) to support growth. When the RBI cuts, the interest banks can charge on loans falls quickly, but the interest they still owe on deposits takes longer to come down — so the margin gets squeezed in between. That squeeze is exactly what showed up in HDFC's numbers.",
+        "sources": [
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/companies/quarterly-results/hdfc-bank-q1fy27-results-net-profit-rises-5-to-19-060-cr-nii-grows-7-126071800598_1.html"
+          },
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/business/hdfc-bank-q1-net-profit-grows-5-to-19060-crore/article71238080.ece"
+          },
+          {
+            "name": "Investing.com",
+            "url": "https://www.investing.com/news/company-news/hdfc-bank-q1-fy27-slides-deposit-growth-strong-margins-under-pressure-93CH-4799615"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/india/indias-hdfc-bank-reports-5-rise-q1-profit-meeting-estimates-2026-07-18/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India's biggest private bank posts a strong quarter: ICICI Bank's profit jumps ~16% to ₹14,805 crore, beating forecasts as loans grow and bad loans shrink",
+      "category": "india",
+      "published_iso": "2026-07-18T09:04:54+00:00",
+      "source": "The Economic Times",
+      "what_happened": "On Saturday, July 18, 2026, ICICI Bank reported a standalone net profit of ₹14,804.50 crore (about ₹14,805 crore, or roughly $1.7 billion) for the April–June quarter — up 15.9% from ₹12,768 crore a year earlier, and comfortably ahead of analysts, some of whom had pencilled in near-flat profit of around ₹13,164 crore. Net interest income, its core lending income, rose about 12.7%, and its lending margins expanded. Total loans ('advances') grew 19.6% from a year earlier to about ₹16.3 lakh crore, led by retail borrowing, while asset quality improved: the gross NPA ratio eased to 1.38% and the net NPA ratio to just 0.35%, with the bank setting aside less money for bad loans than before.",
+      "key_points": [
+        "ICICI Bank Q1 net profit up 15.9% to ₹14,805 crore (~$1.7bn)",
+        "Beat forecasts — analysts had expected roughly flat profit",
+        "Bad loans fell: gross NPA ratio eased to just 1.38%",
+        "Loans grew ~19.6% and lending margins widened"
+      ],
+      "depth": {
+        "background": "ICICI Bank is India's largest private-sector bank by market value and one of the country's most important lenders. A bank earns most of its money from the gap between the interest it charges on loans and the interest it pays on deposits — a spread called the 'net interest margin.' Its biggest danger is loans that borrowers stop repaying, known as 'non-performing assets' (NPAs) or bad loans, which force the bank to set money aside ('provisions') and eat into profit. That makes a bank's results a window into both its own health and the wider economy's willingness to borrow. Indian companies report their numbers every quarter; mid-to-late July is when the April–June (Q1) figures land, and July 18 was a bumper results day with HDFC Bank, Axis, Kotak and others all reporting alongside ICICI.",
+        "sources": [
+          {
+            "name": "The Economic Times",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/icici-bank-q1-results-profit-jumps-16-yoy-to-rs-14805-crore-nii-rises-13-as-margins-expand/articleshow/132477062.cms"
+          },
+          {
+            "name": "Business Today",
+            "url": "https://www.businesstoday.in/markets/stocks/story/icici-bank-q1-results-net-profit-rises-15-9-to-rs-14805-crore-asset-quality-stays-stable-543762-2026-07-18"
+          },
+          {
+            "name": "Livemint",
+            "url": "https://www.livemint.com/market/stock-market-news/icici-bank-q1-results-2026-net-profit-rises-16-to-rs-14-804-50-crore-check-nii-asset-quality-11784365257879.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Bulldozers raze Abhishek Banerjee's party office in Bengal: the administration calls it an illegal building; the TMC calls it 'vengeful politics'",
+      "category": "india",
+      "published_iso": "2026-07-18T07:55:00+00:00",
+      "source": "The Tribune",
+      "what_happened": "On Saturday afternoon, July 18, 2026, the South 24 Parganas district administration began tearing down a five-storey building used as Abhishek Banerjee's party office in Amtala, saying it had been constructed illegally without a sanctioned building plan and in breach of building rules. Officials said notices were served on July 15 asking those responsible to appear at a hearing, and that they moved in with bulldozers only after two notices went unanswered. The demolition was carried out under local revenue and block officials and escorted by state police and central armed police forces. TMC supporters gathered at the site and the party denounced the action as 'vengeful politics,' while BJP leaders described it as lawful administrative enforcement.",
+      "key_points": [
+        "Five-storey building used as Abhishek Banerjee's Amtala office demolished Saturday",
+        "District administration says it was built illegally, without a sanctioned plan",
+        "Notices served July 15; bulldozers moved in when they went unanswered",
+        "TMC cries 'vengeful politics'; BJP calls it lawful action — polls loom in Bengal"
+      ],
+      "depth": {
+        "background": "'Bulldozer politics' — where authorities demolish the property of people they accuse of wrongdoing, often political opponents — has become a charged tactic across India, so much so that the Supreme Court in 2024 laid down binding rules requiring advance notice and a proper hearing before any demolition. Abhishek Banerjee is a Lok Sabha member (an elected MP) and the general secretary — the de facto number two — of the Trinamool Congress (TMC), the party that governs West Bengal under his aunt, Chief Minister Mamata Banerjee. Amtala sits in South 24 Parganas district, on the outskirts of Kolkata.",
+        "sources": [
+          {
+            "name": "The Tribune",
+            "url": "https://www.tribuneindia.com/news/india/tmc-mp-abhishek-banerjees-amtala-party-office-demolished-over-building-violations/"
+          },
+          {
+            "name": "IANS",
+            "url": "https://ianslive.in/demotion-of-illegally-construction-office-of-abhishek-banerjee-at-bengals-amtala-begins--20260718132537"
+          },
+          {
+            "name": "India.com",
+            "url": "https://www.india.com/news/india/abhishek-banerjees-office-demolished-five-storey-building-trinamool-cries-political-vendetta-8477318/"
+          },
+          {
+            "name": "Prokerala",
+            "url": "https://www.prokerala.com/news/articles/a1789458.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Axis Bank's profit jumps 23% to ₹7,114 crore and bad loans shrink — a reassuring quarter from one of India's biggest private banks",
+      "category": "india",
+      "published_iso": "2026-07-18T07:30:00+00:00",
+      "source": "Business Today",
+      "what_happened": "On July 18, 2026, Axis Bank reported that its standalone net profit for the June quarter rose about 23% from a year earlier to ₹7,114 crore, ahead of analysts' expectations. Its net interest income (NII) — the core profit from lending, i.e. the gap between what it earns on loans and pays out on deposits — climbed 8% to ₹14,646 crore, while its net interest margin (NIM), that gap expressed as a percentage, stood at 3.46%. Crucially, asset quality improved: gross non-performing assets (loans unlikely to be repaid) fell to 1.28% of total loans from 1.57% a year earlier, and net NPAs eased to 0.39%. The bank's overall balance sheet grew 20% to roughly ₹19.2 lakh crore (about ₹19.2 trillion).",
+      "key_points": [
+        "Standalone net profit rose 23% year-on-year to ₹7,114 crore, beating forecasts",
+        "Net interest income up 8% to ₹14,646 crore; margin (NIM) at 3.46%",
+        "Bad loans (gross NPAs) fell to 1.28% from 1.57% a year earlier",
+        "Balance sheet grew 20% to about ₹19.2 lakh crore"
+      ],
+      "depth": {
+        "background": "Axis Bank is one of India's largest private-sector banks, and its quarterly results are watched as a health-check on both the bank and the wider economy — because banks make money by lending, their profits rise and fall with how much people and businesses are borrowing and how reliably they repay. Every three months (a 'quarter') listed companies publish their financial scorecard; the April–June period is 'Q1' of India's financial year. Investors zero in on a handful of numbers: how much the bank earned, how fat its lending margin is, and how many loans are going sour — the last being the classic warning light for any bank.",
+        "sources": [
+          {
+            "name": "Business Today",
+            "url": "https://www.businesstoday.in/markets/stocks/story/axis-bank-q1-results-net-profit-rises-23-to-rs-7114-crore-nim-at-3-46-key-highlights-543750-2026-07-18"
+          },
+          {
+            "name": "The Hindu BusinessLine",
+            "url": "https://www.thehindu.com/business/markets/axis-bank-q1-net-profits-grows-23-to-7114-crore/article71237338.ece"
+          },
+          {
+            "name": "Free Press Journal",
+            "url": "https://www.freepressjournal.in/business/axis-banks-consolidated-net-profit-rises-2224-to-763231-crore-in-q1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India's first private rocket reaches orbit: Skyroot's Vikram-1 aces its maiden launch",
+      "category": "india",
+      "published_iso": "2026-07-18T07:05:19+00:00",
+      "source": "SpaceNews",
+      "what_happened": "On Saturday, July 18, Vikram-1 lifted off from the Satish Dhawan Space Centre at Sriharikota (liftoff slipped about 35 minutes after a technical check at T-minus 5). Skyroot says the rocket's upper stage reached its planned ~450 km low-Earth orbit about 15 minutes later, making Vikram-1 the first Indian commercial rocket to reach orbit. The ~22-metre, three-stage solid-fuel vehicle (with a 3D-printed liquid engine for final orbit adjustment) can carry up to ~350 kg. Its 'Mission Aagaman' flight carried Skyroot's SCOPE test satellite plus two symbolic payloads.",
+      "key_points": [
+        "Vikram-1 lifted off from Sriharikota and reached a 450 km orbit",
+        "India becomes only the 3rd country with private orbital launch capability",
+        "Mission 'Aagaman' carried Skyroot's own SCOPE test satellite",
+        "Uses a 3D-printed engine and tech flown in India for the first time"
+      ],
+      "depth": {
+        "background": "Until now, putting a satellite into orbit from India meant using a government rocket built by ISRO, the national space agency. Skyroot Aerospace, a Hyderabad startup and India's first space-tech 'unicorn' (a private firm valued over $1 billion), set out to change that — the way SpaceX did in the US. Its Vikram-1 rocket is named after Vikram Sarabhai, the father of India's space programme. Reaching orbit under your own power is one of the hardest feats in engineering; very few private companies worldwide have done it.",
+        "sources": [
+          {
+            "name": "SpaceNews",
+            "url": "https://spacenews.com/skyroot-aerospace-reaches-orbit-on-first-vikram-1-launch/"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/clyekv7rld3o"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/18/india-achieves-milestone-with-launch-of-first-private-sector-orbital-rocket"
+          }
+        ]
+      },
+      "thread": {
+        "status": "resolved",
+        "day": 2,
+        "previously": "Yesterday we noted Skyroot had scheduled Vikram-1's maiden launch for July 18 from Sriharikota — India's bid to become the third country with a private orbital rocket.",
+        "changed": "The launch happened and succeeded: Vikram-1 reached its planned ~450 km orbit, making it India's first commercial rocket to reach space and confirming the milestone."
+      },
+      "development": true,
+      "prev_ref": {
+        "title": "India's first private rocket goes for orbit: Skyroot sets July 18 for the maiden launch of Vikram-1 from Sriharikota",
+        "date": null
+      }
+    },
+    {
+      "type": "story",
+      "title": "Ukraine lands its deadliest strike inside Russia in over two years: drones set Wildberries warehouses and a Moscow-region oil depot ablaze, killing at least 8",
+      "category": "geopolitics",
+      "published_iso": "2026-07-18T07:00:00+00:00",
+      "source": "NPR",
+      "what_happened": "Overnight into Saturday, July 18, 2026, waves of Ukrainian long-range drones struck several sites in Russia. The deadliest hit a Wildberries logistics centre in Kotovsk, in the Tambov region about 475 km (295 miles) southeast of Moscow, killing seven night-shift workers and injuring around two dozen. A separate strike on a Wildberries warehouse in Elektrostal, east of Moscow, wounded dozens more; the Moscow-region governor, Andrei Vorobyov, said 37 people were hurt there and one later died — taking the overall toll to at least eight dead and more than 60 wounded. Drones also set an oil-storage depot in the Moscow region on fire. Officials described them as the deadliest Ukrainian strikes on Russian territory in more than two years. President Volodymyr Zelensky said the facilities had been used to supply sanctioned components for drone production and navigation; Ukraine did not formally claim the attack.",
+      "key_points": [
+        "Overnight drones hit Russia's 'Amazon' — Wildberries logistics hubs — and an oil depot",
+        "At least 8 killed, 60+ wounded; deadliest Ukrainian strike on Russian soil in 2+ years",
+        "Kotovsk (Tambov) warehouse: 7 night-shift workers dead; Elektrostal (Moscow region): dozens hurt",
+        "Kyiv says the sites stored sanctioned Western parts used to build Russian drones"
+      ],
+      "depth": {
+        "background": "Russia has waged a full-scale war on Ukraine since February 2022. Unable to match Russia's size on the front line, Ukraine has increasingly taken the fight deep inside Russia with cheap, home-built long-range drones — aiming at the factories, fuel depots and logistics networks that keep the Russian war machine running. Wildberries is Russia's largest online retailer, effectively its Amazon, and its giant logistics warehouses have become targets because Kyiv says they double as storage and transit points for sanctioned Western electronic components — the chips and navigation parts smuggled in despite Western trade bans and used to build Russia's own attack drones.",
+        "sources": [
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org/2026/07/18/nx-s1-5898963/8-killed-and-more-than-60-wounded-in-ukrainian-drone-attack-on-russian-regions"
+          },
+          {
+            "name": "The Moscow Times",
+            "url": "https://www.themoscowtimes.com/2026/07/18/ukrainian-drone-attacks-kill-seven-warehouse-workers-in-russia-a93280"
+          },
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/oil-depot-in-moscow-oblast-reportedly-struck-by-ukrainian-drones/"
+          },
+          {
+            "name": "U.S. News / Reuters",
+            "url": "https://www.usnews.com/news/world/articles/2026-07-18/ukrainian-drone-attacks-kill-seven-warehouse-workers-in-russia-spark-fire-at-moscow-region-oil-depot"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Police forcibly move a fasting Sonam Wangchuk to hospital on day 21 of his Ladakh protest",
+      "category": "india",
+      "published_iso": "2026-07-18T05:58:48+00:00",
+      "source": "The Hindu",
+      "what_happened": "In the early hours of Saturday, day 21 of his indefinite fast at Delhi's Jantar Mantar protest site, Delhi Police moved Wangchuk to Safdarjung Hospital, citing a Delhi High Court order and medical advice; hospital bulletins and an independent AIIMS expert said he needed immediate care. Protesters said white bedsheets were used to shield the operation, and that he was taken away in about five minutes. Wangchuk reportedly refused medical interventions, and fellow activists — including at least 21 others still fasting — vowed to continue; one, Abhijeet Dipke, began a fresh fast in his place.",
+      "key_points": [
+        "Climate activist removed from Delhi's Jantar Mantar before dawn",
+        "He was 20+ days into a hunger strike for Ladakh's rights",
+        "Doctors said he needed 'immediate medical intervention'",
+        "Opposition calls it repression of peaceful protest"
+      ],
+      "depth": {
+        "background": "Sonam Wangchuk is a famous engineer-educator from Ladakh, the high-altitude region in India's far north that was carved out as a federally-run 'union territory' in 2019 (meaning New Delhi, not a local elected government, runs it). Since then, Ladakhi groups have demanded statehood and protection under the Constitution's Sixth Schedule — a special provision that gives tribal areas control over their own land, culture and resources. Wangchuk has led repeated hunger strikes to push these demands, and this time also folded in a nationwide student protest over leaked exam papers.",
+        "sources": [
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/sonam-wangchuk-shifted-to-hospital-hunger-strike-abhijeet-dipke-jantar-mantar-july-18-2026/article71236976.ece"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "US senators push a bill to slap 100% tariffs on India for buying Russian oil — New Delhi says it's 'closely following'",
+      "category": "india",
+      "published_iso": "2026-07-18T04:16:55+00:00",
+      "source": "The Tribune",
+      "what_happened": "A bipartisan group of more than 60 US senators is backing the 'Senator Lindsey O. Graham Sanctioning Russia Act of 2026', introduced by Senator Richard Blumenthal alongside Graham's widow, Darline Graham. The revised bill would let the US president impose tariffs of up to 100% on imports from the five biggest purchasers of Russian oil and gas — India, China, Slovakia, Hungary and Azerbaijan — while carving out an exception for countries that import less than 15% of Russia's gas and are cutting back. It scales down an earlier, blunter proposal of 500% tariffs and gives the president discretion to waive the penalties in the US national interest; it has the backing of Senate Majority Leader John Thune and President Trump. At its July 17 briefing, India's Ministry of External Affairs (MEA) spokesperson Randhir Jaiswal said New Delhi is 'closely following' the legislation, adding that India's oil purchases are guided by its energy-security needs and that it sources crude from many suppliers.",
+      "key_points": [
+        "Bipartisan US bill would let Trump hit India with up to 100% tariffs",
+        "Targets the top 5 buyers of Russian oil: India, China, Slovakia, Hungary, Azerbaijan",
+        "60+ senators back it and President Trump supports it",
+        "India's foreign ministry: 'closely following', cites its energy-security needs"
+      ],
+      "depth": {
+        "background": "When Russia invaded Ukraine in 2022, the West hit Moscow with sanctions and largely stopped buying its oil, so Russia was forced to sell its crude at a steep discount. India — which imports most of the oil it burns and had bought almost none from Russia before the war — jumped at the cheap barrels, and Russian crude has since grown to roughly a third of India's oil imports, making India one of the world's biggest buyers. Western governments see that flow of oil money as funding Russia's war, and have been looking for ways to choke it off — including 'secondary' measures that punish not Russia itself, but the third countries still buying its oil. This bill is the latest, and it is named after the late US Senator Lindsey Graham, a long-time champion of tough Russia sanctions.",
+        "sources": [
+          {
+            "name": "The Tribune",
+            "url": "https://www.tribuneindia.com/news/energy-security/closely-following-mea-on-us-bill-seeking-100-tariff-on-india-others-due-to-russian-oil-purchase"
+          },
+          {
+            "name": "ANI News",
+            "url": "https://aninews.in/news/world/asia/closely-following-mea-on-us-bill-seeking-100-tariff-on-india-others-due-to-russian-oil-purchase20260718013040/"
+          },
+          {
+            "name": "The Logical Indian",
+            "url": "https://thelogicalindian.com/us-100-tariffs-on-india-russian-oil/"
+          },
+          {
+            "name": "National Herald",
+            "url": "https://www.nationalheraldindia.com/amp/story/business/us-senate-bill-proposes-100-tariffs-on-india-china-and-other-buyers-of-russian-oil"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "A rain-triggered landslide buries homes in China's Chongqing — at least 8 dead and 34 missing as rescuers dig through 18,000 cubic metres of rock",
+      "category": "climate",
+      "published_iso": "2026-07-18T03:00:00+00:00",
+      "source": "AP News",
+      "what_happened": "On Friday, July 17, 2026, a massive landslide swept down a slope in Pengshui County, on the outskirts of the Chongqing municipality in southwest China, burying more than 10 residential buildings near a stretch of the Wujiang River. Officials said roughly 18,000 cubic metres of rock and debris came down — the largest single boulder about 3,000 cubic metres. At least eight people were confirmed dead and 34 remained missing; rescuers pulled 10 survivors from the rubble and rushed them to hospital, while more than 1,100 nearby residents were relocated. President Xi Jinping publicly urged an all-out, 'scientific' search-and-rescue effort as rain kept falling and officials warned of further collapses.",
+      "key_points": [
+        "Hillside collapsed onto 10+ homes in Pengshui County, near Chongqing",
+        "At least 8 dead, 34 missing; 10 pulled out alive and hospitalised",
+        "About 18,000 cubic metres of rock and mud — one boulder ~3,000 m³",
+        "1,100+ residents relocated; Xi Jinping ordered an all-out rescue"
+      ],
+      "depth": {
+        "background": "China's mountainous southwest — and the sprawling Chongqing municipality in particular — sits on karst terrain: soft limestone hills riddled with cracks and hollows that soak up water and give way easily. Every summer the region's rainy season dumps heavy downpours on these slopes, and saturated soil and loosened rock regularly slide downhill onto the small towns and terraced farms tucked into the valleys. Deadly landslides and floods are an almost annual feature of the season, which is why local authorities keep evacuation and rescue systems on standby through the summer months.",
+        "sources": [
+          {
+            "name": "AP News",
+            "url": "https://www.local10.com/news/2026/07/18/rescuers-race-to-find-survivors-in-the-rain-after-a-landslide-in-china-kills-at-least-8/"
+          },
+          {
+            "name": "South China Morning Post",
+            "url": "https://www.scmp.com/news/china/politics/article/3360928/rescuers-southwest-china-race-extreme-weather-reach-residents-trapped-landslide"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/landslide-in-southwest-china-kills-eight-and-leaves-34-missing"
+          },
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com/world/asia/landslide-southwest-china-traps-people-rescue-efforts-underway-rcna587957"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Trump threatens to make Canada pay for its wildfire smoke — through tariffs — as 'filthy' haze from record fires chokes US cities",
+      "category": "geopolitics",
+      "published_iso": "2026-07-18T01:29:47+00:00",
+      "source": "CNN Politics",
+      "what_happened": "On Friday, July 17, 2026, President Trump wrote on social media that smoke drifting south from Canada's wildfires amounts to 'Willful Negligence' by Canada, is 'becoming a yearly occurrence, costing the United States Billions of Dollars,' and that 'the cost of this pollution must of necessity be added to the TARIFFS Canada is currently paying.' He accused Canadian officials of 'not properly maintaining their Forests, and Brush,' leaving the US 'unnecessarily invaded by filthy, polluted, and unhealthy air,' and said he would call Canadian Prime Minister Mark Carney about it. The complaint lands during a severe fire season: Canada has around 896 active blazes, roughly 200 of them in Ontario (about 81 still out of control), with some 10 communities evacuated, and the smoke has pushed air quality into unhealthy territory across about 20 US states from the Midwest to the Northeast. Carney has said the fires 'escalated significantly' in recent weeks; Ontario Premier Doug Ford shot back that neighbours should 'send support, send help' rather than complain.",
+      "key_points": [
+        "Trump says the cost of Canada's wildfire smoke 'must' be added to US tariffs",
+        "Blames Canada for 'not properly maintaining' its forests; calls the air 'filthy'",
+        "Smoke from 896 Canadian fires has fouled air across ~20 US states",
+        "Most Canadian goods already face a 10% US tariff; experts say you can't tariff smoke"
+      ],
+      "depth": {
+        "background": "Every summer, huge wildfires burn across Canada's vast northern forests, and prevailing winds carry the smoke south, blanketing US cities in a grey haze that can make the air dangerous to breathe. The problem has worsened as a warming climate produces hotter, drier conditions that let fires start more easily and spread further. Separately, the US and Canada — normally the closest of trading partners — have been in a tariff fight since Trump returned to office: a 'tariff' is a tax a government charges on goods imported from another country, and the US now applies a roughly 10% tariff to most Canadian imports (goods covered by the North American free-trade pact, USMCA, are largely exempt). This week those two threads collided.",
+        "sources": [
+          {
+            "name": "CNN Politics",
+            "url": "https://www.cnn.com/2026/07/17/politics/trump-canada-wildfire-smoke-tariffs"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/17/trump-threatens-canada-with-steeper-tariff-costs-over-wildfire-smoke"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/17/trump-canada-wildfire-tariffs.html"
+          },
+          {
+            "name": "Forbes",
+            "url": "https://www.forbes.com/sites/saradorn/2026/07/17/trump-threatens-canada-with-new-tariffs-for-wildfires/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Gujarat is India's most investment-friendly state: NITI Aayog's first-ever ranking scores all 36 states and UTs — Maharashtra and Tamil Nadu follow",
+      "category": "india",
+      "published_iso": "2026-07-17T20:56:07+00:00",
+      "source": "ThePrint",
+      "what_happened": "On Friday, July 17, 2026, NITI Aayog released the first-ever Investment Friendliness Index (IFI) 2026 in New Delhi, ranking all 28 states and 8 union territories on how attractive they are to investors. Among large states, Gujarat came first with 56.6 out of 100, followed by Maharashtra (53.7) and Tamil Nadu (53.3); Uttarakhand, Assam and Himachal Pradesh led the hilly and north-eastern group, while Goa, Delhi and Chandigarh topped the union territories and city-states. The index scores each place across eight 'pillars', weighted by importance: infrastructure (25%), business climate (20%), resources (15%), regulatory ease (12%), government policy (10%), financial health (7%), institutional environment (6%) and environmental resilience (5%). It drew on a survey of more than 1,850 investors plus 165 stakeholder inputs, and sorted states into bands — 'top performers', 'frontrunners', 'emerging performers' and 'aspiring' — so laggards can see exactly where they trail. NITI Aayog Vice Chairman Ashok Kumar Lahiri framed it plainly: 'It's an exercise to tell the states where they're doing well, where they're not.'",
+      "key_points": [
+        "Gujarat tops with 56.6/100; Maharashtra (53.7) and Tamil Nadu (53.3) next",
+        "First edition of NITI Aayog's Investment Friendliness Index (IFI) 2026",
+        "Scores all 28 states + 8 UTs on eight pillars, from infrastructure to green resilience",
+        "Meant to spark 'competitive federalism' — states racing to attract private money"
+      ],
+      "depth": {
+        "background": "NITI Aayog is the Indian government's main policy think-tank — it advises the Centre and the states and designs reform ideas (its name means 'policy' and stands for National Institution for Transforming India). One of its favourite tools is the 'ranking index': it scores every state on some goal and publishes a league table, betting that no chief minister wants to sit at the bottom, so the rankings push states to compete and improve. This is the logic of 'competitive federalism' — the Centre nudging states to out-reform each other. India badly wants more private investment (money that companies pour into factories, ports and jobs) to hit its stated goal of becoming a developed nation, 'Viksit Bharat', by 2047, and where that investment lands depends heavily on how easy each state makes it to do business.",
+        "sources": [
+          {
+            "name": "ThePrint",
+            "url": "https://theprint.in/economy/gujarat-tops-niti-aayogs-first-investment-friendliness-index-maharashtra-and-tamil-nadu-follow/2989423/"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/economy/news/gujarat-uttarakhand-goa-lead-niti-s-first-investment-friendliness-index-126071701389_1.html"
+          },
+          {
+            "name": "ANI",
+            "url": "https://www.aninews.in/news/business/gujarat-maharashtra-tamil-nadu-among-top-performers-in-niti-aayogs-investment-friendliness-index20260717205607/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Apple overtakes Nvidia as the world's most valuable company — the first time the AI-chip king has lost the crown in nearly a year, as investors cool on the AI trade",
+      "category": "economy",
+      "published_iso": "2026-07-17T20:05:00+00:00",
+      "source": "Bloomberg",
+      "what_happened": "On Friday, July 17, 2026, Apple overtook Nvidia to become the world's most valuable listed company, ending the day at about $4.88 trillion while Nvidia sat around $4.86 trillion after its shares fell 3.5%. It is the first time Apple has held the top spot since April 2025, and both firms are now circling the unprecedented $5 trillion mark. The shift wasn't driven by blockbuster Apple news — its shares were roughly flat — but by a sell-off in chipmakers: the Philadelphia Semiconductor Index (a benchmark tracking major chip stocks) has dropped almost 19% from its all-time high this month as investors reassessed how sustainable the AI spending frenzy really is. Analysts framed the move as a 'rotation': money leaving the most capex-heavy AI names and flowing into Apple, seen as a safer way to profit from AI through its services, ecosystem and hardware upgrades.",
+      "key_points": [
+        "Apple ends Friday worth ~$4.88 trillion, edging Nvidia's ~$4.86 trillion",
+        "Nvidia fell 3.5% as the AI-chip rally wobbled; Apple held steady",
+        "Apple's first time at No. 1 since April 2025 — both near the $5tn mark",
+        "The chip index is down almost 19% from its record high this month"
+      ],
+      "depth": {
+        "background": "The 'most valuable company' title is decided by market capitalisation — a company's share price multiplied by how many shares exist, i.e. what the whole business is worth on the stock market. For nearly a year that crown belonged to Nvidia, the chip designer whose processors ('AI accelerators') do the heavy computing behind the artificial-intelligence boom; as every big tech firm raced to buy its chips, Nvidia's value rocketed toward $5 trillion. Apple — the iPhone maker — had been the long-time leader before that but slipped as investors piled into the most obvious 'picks-and-shovels' winner of the AI gold rush. This week that trade wobbled: the same doubts that hit chip stocks after China's cheap Kimi K3 model launch knocked Nvidia and its peers, and money rotated toward Apple.",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-17/apple-tops-nvidia-as-world-s-largest-company-amid-tech-rotation"
+          },
+          {
+            "name": "Forbes",
+            "url": "https://www.forbes.com/sites/tylerroush/2026/07/17/apple-unseats-nvidia-as-worlds-largest-company/"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/17/apple-nvidia-aapl-nvda-market-cap.html"
+          },
+          {
+            "name": "9to5Mac",
+            "url": "https://9to5mac.com/2026/07/17/apple-reclaims-most-valuable-company-title-from-nvidia-as-it-barrels-toward-5t/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "A magnitude 7.3 earthquake strikes off the Mexico–Guatemala coast, triggering a brief tsunami alert — but no deaths or major damage",
+      "category": "science",
+      "published_iso": "2026-07-17T18:12:54+00:00",
+      "source": "FOX Weather",
+      "what_happened": "On July 17, 2026, at about 7:48 a.m. Pacific time, a powerful earthquake struck in the Pacific Ocean roughly 30 miles (48 km) southwest of Aquiles Serdán, near Mexico's Chiapas coast and the Guatemalan border, according to the US Geological Survey (USGS). It was first reported as magnitude 7.4 before being recalculated to 7.3, at a shallow depth of about 6.2 miles (10 km) — shallow quakes shake the surface harder. A tsunami threat was issued for coasts within about 186 miles of the epicentre and then cancelled roughly three hours later; the largest wave measured only about 1.1 feet above normal tide level at Puerto Madero, Chiapas. Several aftershocks followed, the strongest a magnitude 6.0, and authorities so far report no deaths or major damage.",
+      "key_points": [
+        "7.3 quake hit ~30 miles off Aquiles Serdán, southern Mexico",
+        "Tsunami threat issued for Mexico and Guatemala, then lifted ~3 hours later",
+        "Biggest wave was just ~1.1 feet; aftershocks reached magnitude 6.0",
+        "No casualties or major damage reported so far"
+      ],
+      "depth": {
+        "background": "Southern Mexico and Guatemala sit on the 'Pacific Ring of Fire', a horseshoe-shaped belt around the Pacific Ocean where most of the world's earthquakes and volcanic eruptions happen. It is so active because giant slabs of the Earth's crust — tectonic plates — grind and dive beneath one another here; off this coast the Cocos plate is slowly forced under the North American and Caribbean plates, a process called subduction that stores up stress until it snaps as a quake. This is the same region that has produced devastating tremors before, so a big offshore quake immediately raises fears of shaking and tsunamis onshore.",
+        "sources": [
+          {
+            "name": "FOX Weather",
+            "url": "https://www.foxweather.com/extreme-weather/tsunami-threat-issued-mexico-guatemala-after-major-magnitude-7-3-earthquake"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/07/17/magnitude-73-earthquake-strikes-mexico-and-guatemala-coasts-tsunami-alert-issued"
+          },
+          {
+            "name": "AccuWeather",
+            "url": "https://www.accuweather.com/en/weather-news/strong-earthquake-prompts-tsunami-threat-for-mexico-guatemala/1912735"
+          },
+          {
+            "name": "The National Desk",
+            "url": "https://thenationaldesk.com/news/americas-news-now/mexico-earthquake-chiapas-guatemala-7-3-magnitude-earthquake-usgs-tsunami-pacific-coast-aftershocks"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India clears Wegovy to treat fatty-liver disease — the first weight-loss jab approved for a silent condition that afflicts nearly 4 in 10 Indian adults",
+      "category": "india",
+      "published_iso": "2026-07-17T15:16:49+00:00",
+      "source": "Reuters",
+      "what_happened": "On July 17, 2026, the CDSCO approved Wegovy (semaglutide 2.4 mg injection) for treating non-cirrhotic MASH — fatty-liver disease that has caused moderate-to-advanced liver scarring but not yet full cirrhosis — in adults, used alongside a reduced-calorie diet and more exercise. The nod was based on the global 'ESSENCE' clinical trial, in which about 63% of patients on the drug saw their liver inflammation (steatohepatitis) resolve and roughly 37% saw their liver fibrosis (scarring) improve. Novo Nordisk says it is the first and only GLP-1 drug approved for this liver use, in India and globally.",
+      "key_points": [
+        "India's drug regulator CDSCO approves Novo Nordisk's Wegovy for serious fatty-liver disease (MASH)",
+        "First GLP-1 'weight-loss' injection cleared for a liver condition in India",
+        "Trial: 63% of patients saw liver inflammation resolve; 37% saw scarring improve",
+        "Studies suggest ~39% of Indian adults have fatty liver; the drug is already sold here for weight loss"
+      ],
+      "depth": {
+        "background": "Fatty liver disease is exactly what it sounds like — fat building up inside the liver. In its harmful form (now called MASLD, and its more dangerous, inflamed stage MASH) it can quietly scar the organ over years, leading to cirrhosis, liver failure or cancer, often with no symptoms until late. It is exploding in India alongside rising obesity, diabetes and sedentary, high-sugar diets: recent screening studies suggest around 39% of Indian adults — nearly four in ten — already have it, yet until recently there was no approved medicine, only 'eat less, move more'. Wegovy is the branded version of semaglutide, the blockbuster 'GLP-1' drug (the same molecule as Ozempic) that mimics a gut hormone to curb appetite and was first cleared in India in 2025 for weight loss. India's Central Drugs Standard Control Organisation (CDSCO) is the national regulator that decides which medicines can be sold — the equivalent of the US FDA.",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/india-approves-novo-nordisks-obesity-drug-wegovy-fatty-liver-disease-2026-07-17/"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/companies/news/novo-nordisk-s-wegovy-gets-cdsco-nod-for-fatty-liver-disease-indication-126071700977_1.html"
+          },
+          {
+            "name": "Business Today",
+            "url": "https://www.businesstoday.in/industry/pharma/story/govt-approves-novo-nordisks-obesity-drug-wegovy-for-fatty-liver-disease-treatment-543622-2026-07-17"
+          },
+          {
+            "name": "The Week",
+            "url": "https://www.theweek.in/news/health/2026/07/17/wegovy-gets-cdsco-approval-can-novo-nordisks-semaglutide-change-fatty-liver-treatment.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Britain gets a new prime minister without an election: Andy Burnham is declared Labour leader and will replace Keir Starmer in Downing Street on Monday",
+      "category": "geopolitics",
+      "published_iso": "2026-07-17T14:57:00+00:00",
+      "source": "Al Jazeera",
+      "what_happened": "On Friday, July 17, 2026, Andy Burnham was formally declared leader of the Labour Party at a special conference in London. He was the only candidate, having been nominated by 379 of the party's 403 MPs, so the result was a formality. He becomes prime minister on Monday, July 20, when Starmer travels to Buckingham Palace to tender his resignation to King Charles III, who will then invite Burnham to form a government. In his first speech as leader Burnham promised to 'restore hope,' deliver 'good growth in every postcode,' cut the cost of essentials like energy, and shift power away from Westminster and Whitehall to Britain's cities and regions. The New York Times noted he will be the country's seventh prime minister in a decade — a striking measure of British political turbulence.",
+      "key_points": [
+        "Andy Burnham declared leader of Britain's governing Labour Party on Friday",
+        "Becomes PM Monday when Keir Starmer resigns to King Charles III",
+        "Ran unopposed — nominated by 379 of 403 Labour MPs",
+        "Britain's 7th prime minister in a decade — and no national vote was held"
+      ],
+      "depth": {
+        "background": "Britain does not directly elect its prime minister. Voters elect Members of Parliament (MPs); whoever leads the party with a majority in the House of Commons becomes PM. Labour, the main centre-left party, won a big majority in 2024 under Keir Starmer, but his government struggled with weak economic growth, a high cost of living and falling popularity. After Labour was hammered in local elections in May 2026 and his own MPs began to rebel, Starmer agreed to step aside. Andy Burnham — the popular, plain-speaking mayor of Greater Manchester, nicknamed the 'King of the North' for championing England's regions — emerged as his successor, winning a by-election last month to get the seat in Parliament that a PM must hold.",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/17/burnham-confirmed-as-leader-of-uks-governing-labour-party-headed-for-pm"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/andy-burnham-uk-prime-minister-labour-party-leader/"
+          },
+          {
+            "name": "The New York Times",
+            "url": "https://www.nytimes.com/2026/07/17/world/europe/burnham-labour-leader.html"
+          },
+          {
+            "name": "TIME",
+            "url": "https://time.com/article/2026/07/17/andy-burnham-first-speech-labour-leader-incoming-prime-minister/"
+          },
+          {
+            "name": "AP News",
+            "url": "https://abcnews.com/International/wireStory/andy-burnham-declared-leader-britains-labour-party-become-134840790"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Astronomers find the first atmosphere on a rocky planet in its star's 'habitable zone' — a real step in the hunt for life beyond our Solar System",
+      "category": "science",
+      "published_iso": "2026-07-17T12:58:37+00:00",
+      "source": "Space.com",
+      "what_happened": "A team led by Collin Cherubim, who recently completed his PhD at Harvard, detected helium escaping from LHS 1140 b's upper atmosphere — the first direct evidence that a rocky planet in a star's habitable zone actually holds an atmosphere. They used the WINERED infrared spectrograph on the Magellan Clay telescope at Las Campanas Observatory in Chile, catching the signal during a rare moment when LHS 1140 b and a sister planet crossed the face of their star at the same time. The upper atmosphere is rich in helium and appears to have persisted for billions of years. The peer-reviewed study was published this week in the journal Science.",
+      "key_points": [
+        "Helium gas spotted escaping from LHS 1140 b, a rocky world ~48 light-years away",
+        "First time an atmosphere is found on a rocky, habitable-zone planet",
+        "The atmosphere has survived billions of years around a flare-prone red-dwarf star",
+        "A milestone — but NOT proof the planet is habitable or has life"
+      ],
+      "depth": {
+        "background": "Most of the thousands of planets found beyond our Solar System ('exoplanets') are either gas giants or airless rocks. The holy grail is a rocky, Earth-like planet sitting in its star's 'habitable zone' — the band of distance where it is neither too hot nor too cold for liquid water, the key ingredient for life as we know it. But being in the right spot is not enough: a planet also needs an atmosphere — a blanket of gas — to trap heat, shield the surface and hold water. LHS 1140 b is a leading candidate: a 'super-Earth' about 1.7 times Earth's width and 5.6 times its mass, discovered in 2017, orbiting a small, cool 'red dwarf' star every 24.7 days, roughly 48 light-years away. Red dwarfs are the most common stars in the galaxy, but they erupt with violent flares that can strip a nearby planet's air away — so whether such worlds can keep an atmosphere at all has been a central question in the search for life.",
+        "sources": [
+          {
+            "name": "Space.com",
+            "url": "https://www.space.com/astronomy/exoplanets/astronomers-discover-1st-atmosphere-around-a-rocky-earth-like-planet-in-the-habitable-zone"
+          },
+          {
+            "name": "Phys.org",
+            "url": "https://phys.org/news/2026-07-life-solar-atmosphere-habitable-zone.html"
+          },
+          {
+            "name": "Science (journal)",
+            "url": "https://www.science.org/doi/10.1126/science.aea9708"
+          },
+          {
+            "name": "TIME",
+            "url": "https://time.com/article/2026/07/16/earthlike-planet-atmosphere-science-discovery/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Reliance's profit 'falls 25%' — but only because of a one-off a year ago: revenue still jumped 25% as oil, Jio and retail powered India's biggest company",
+      "category": "india",
+      "published_iso": "2026-07-17T12:30:00+00:00",
+      "source": "The Free Press Journal",
+      "what_happened": "On July 17, 2026, RIL reported results for Q1 FY27 (the April–June quarter). Consolidated net profit — the group's total bottom-line earnings — came in around ₹23,001 crore, down roughly 25% from about ₹30,681 crore a year earlier (the portion attributable to RIL's own shareholders was about ₹20,946 crore). But that headline fall is misleading: revenue actually rose 25.4% to ₹3,11,850 crore, and operating profit (EBITDA — earnings before interest, tax and accounting write-downs, a cleaner gauge of the core business) climbed about 10% to ₹51,403 crore. The reason profit 'fell' is a base effect: the year-ago quarter was flattered by a one-time ₹8,924 crore gain from selling listed investments, which won't repeat. Strip that out and underlying earnings grew, led by a ~30% jump in the oil-to-chemicals division.",
+      "key_points": [
+        "Q1 net profit about ₹23,001 crore, down ~25% from a year earlier",
+        "But revenue rose 25% to ₹3.12 lakh crore — the business actually grew",
+        "The 'drop' is a base effect: last year's quarter had a ₹8,924 crore one-off gain",
+        "Oil-to-chemicals sales up ~30%; operating profit (EBITDA) up ~10%"
+      ],
+      "depth": {
+        "background": "Reliance Industries (RIL) is India's most valuable company and its results move the whole stock market, because it is the single biggest weight in the Sensex and Nifty (the two headline indices that track India's top companies). RIL is really three businesses in one: 'O2C' — oil refining and petrochemicals, turning crude into fuels and plastics; Jio, the country's largest mobile-phone and broadband network; and Reliance Retail, its huge chain of stores. Every quarter (a three-month reporting period) it publishes its profit and sales, and investors comb through them for the health of the Indian consumer, telecom and energy.",
+        "sources": [
+          {
+            "name": "The Free Press Journal",
+            "url": "https://www.freepressjournal.in/business/reliance-industries-q1-fy27-profit-declines-to-23001-crore-revenue-rises-to-312-lakh-crore"
+          },
+          {
+            "name": "Upstox",
+            "url": "https://upstox.com/news/market-news/earnings/reliance-q1-results-o2-c-segment-revenues-surge-30-yo-y-oil-and-gas-ebitda-slides-0-4-on-higher-energy-prices/article-197139/"
+          },
+          {
+            "name": "PSU Connect",
+            "url": "https://www.psuconnect.in/financial/reliance-q1-fy27-results-consolidated-profit-at-23-196-cr"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "China's Moonshot AI unveils Kimi K3 — a giant, cheap open model that rivals America's best and triggers a 'DeepSeek moment' chip selloff",
+      "category": "technology",
+      "published_iso": "2026-07-17T12:28:00+00:00",
+      "source": "Bloomberg",
+      "what_happened": "On July 17, 2026, Moonshot unveiled Kimi K3, a model with about 2.8 trillion parameters — which it says makes it the largest 'open-weight' model in the world (meaning the finished model can be downloaded and run by anyone, not locked behind one company's servers). On public benchmark tests it reportedly matched or beat most leading US models, trailing only Anthropic's Claude Fable 5 and OpenAI's GPT-5.6. Crucially, Moonshot priced it at roughly $15 per million 'output tokens' (the units of text a model generates), versus about $50 for Fable 5 — and said it will release the full model weights publicly on July 27. Investors read it as another cheap-but-capable China shock: Hong Kong-listed AI names tumbled (Z.ai fell as much as 30%, MiniMax about 16%, Alibaba around 4%), Bloomberg's Asian semiconductor index dropped more than 6%, and US chip leaders Nvidia, AMD, Micron and TSMC sank as the selloff spread to Wall Street.",
+      "key_points": [
+        "Kimi K3 has 2.8 trillion 'parameters' — the world's largest open-weight AI model",
+        "On benchmarks it trails only Anthropic's Claude Fable 5 and OpenAI's GPT-5.6",
+        "Priced at $15 per million output tokens — about a third of Fable 5's $50",
+        "AI and chip stocks slid; Asia's semiconductor index fell more than 6%"
+      ],
+      "depth": {
+        "background": "An AI 'model' is the underlying brain behind chatbots like ChatGPT or Claude — software trained on huge amounts of text to answer questions, write and reason. Its rough size is measured in 'parameters', the internal dials it tunes while learning; more parameters can mean more capability, but also far more computing power (and expensive chips) to build and run. Until now the most powerful models came from a few US firms — OpenAI, Anthropic, Google — and were kept closed. Moonshot AI is a Chinese startup (backed by e-commerce giant Alibaba and founded by researcher Yang Zhilin) whose 'Kimi' chatbot is popular in China. This launch echoes the 'DeepSeek moment' of early 2025, when another Chinese lab shocked markets by matching US models at a fraction of the cost.",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-17/china-s-powerful-new-moonshot-ai-model-closes-gap-with-us-rivals"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html"
+          },
+          {
+            "name": "Fortune",
+            "url": "https://fortune.com/2026/07/17/china-moonshot-kimi-k3-markets-china-ai/"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/technology/ai/articles/moonshot-ai-kimi-k3-launch-122826603.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India's biggest mutual-fund house goes public: SBI Funds Management's ₹9,813-crore IPO closes ~42 times oversubscribed, with big institutions bidding ~140x",
+      "category": "india",
+      "published_iso": "2026-07-16T14:49:56+00:00",
+      "source": "Livemint",
+      "what_happened": "SBI Funds Management's IPO ran from July 14–16, 2026, priced at ₹545–574 per share for a total size of about ₹9,813 crore, and closed on July 16 heavily oversubscribed — bids came in for roughly 42 times the shares on offer. The demand was lopsided: the slice reserved for large institutional investors (QIBs — qualified institutional buyers, like banks, insurers and foreign funds) was subscribed about 140 times, the wealthy 'non-institutional' (NII/HNI) portion about 22 times, while ordinary retail investors bid about 3.8 times their quota. Grey-market indicators pointed to a listing price around ₹669, a premium of roughly 16% over the top of the price band. Shares are due to be allotted around July 17 and to start trading on the NSE and BSE on July 21.",
+      "key_points": [
+        "SBI Funds Management's IPO closed on July 16, ~41.7x (≈42x) oversubscribed",
+        "Institutional (QIB) portion drew a huge ~140x demand; wealthy (NII) ~22x, retail ~3.8x",
+        "A ₹9,813-crore, all offer-for-sale issue at ₹545–574 a share",
+        "It runs SBI Mutual Fund, India's largest fund house; lists July 21"
+      ],
+      "depth": {
+        "background": "A mutual fund pools money from many small investors and a professional manager invests it in stocks or bonds — for millions of Indians, the monthly 'SIP' (systematic investment plan) into a mutual fund is their main way of investing. SBI Funds Management is the company that runs SBI Mutual Fund, the country's largest fund house by assets, and is a joint venture between State Bank of India (India's biggest bank) and France's Amundi, Europe's largest asset manager. An IPO (initial public offering) is the first time a company sells shares to the public and lists on the stock exchange. This one is structured entirely as an 'offer for sale' (OFS), meaning existing owners — SBI and Amundi — are selling part of their stakes and pocketing the money; the company itself raises no new cash.",
+        "sources": [
+          {
+            "name": "Livemint",
+            "url": "https://www.livemint.com/market/stock-market-news/sbi-funds-management-ipo-closes-with-42x-subscription-led-by-strong-qib-demand-gmp-signals-healthy-listing-11784212315273.html"
+          },
+          {
+            "name": "IPO Watch",
+            "url": "https://ipowatch.in/sbi-funds-management-ipo-subscription-status/"
+          },
+          {
+            "name": "ClearTax",
+            "url": "https://cleartax.in/ipo/sbi-funds-management-ipo-gmp"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Wipro's profit goes flat and its outlook stays gloomy — India's IT giant signals the sector's slump isn't over as AI reshapes the business",
+      "category": "india",
+      "published_iso": "2026-07-16T14:45:12+00:00",
+      "source": "The Hindu (Business)",
+      "what_happened": "On July 16, 2026, Wipro reported April-June (its fiscal first quarter) net profit of ₹3,352 crore — flat versus a year earlier and down 4.7% from the previous quarter, just short of the roughly ₹3,460 crore analysts expected. Revenue rose 10.6% from a year ago to ₹24,480 crore, but its core IT-services business — the number investors watch most — barely grew, up about 1% on the year and actually down 1.4% quarter-on-quarter. Operating margin slipped 130 basis points (1.3 percentage points) to 16%, squeezed by employee pay rises and spending on new AI capabilities; the finance chief admitted the company's target margin of 17-18% is out of reach for the next few quarters. Crucially, Wipro guided for muted revenue in the current quarter, and declared an interim dividend of ₹2 per share.",
+      "key_points": [
+        "Q1 net profit ₹3,352 crore — flat on last year, down 4.7% on the quarter",
+        "Just missed analysts' forecast of about ₹3,460 crore",
+        "Guides for flat-to-weak IT-services revenue next quarter",
+        "Declares a ₹2-per-share interim dividend; margins slip to 16%"
+      ],
+      "depth": {
+        "background": "Wipro is one of India's 'Big Four' IT-services companies — alongside TCS, Infosys and HCLTech — the firms that write software and run the back-office technology for banks, retailers and manufacturers around the world, mostly in the US and Europe. This industry is a pillar of India's economy: it earns huge amounts of foreign currency, employs millions of engineers, and its quarterly results are treated as a health check on both global corporate spending and Indian markets. For the past two years the sector has been in a slump — nervous Western clients, worried about high interest rates and a shaky economy, have frozen or trimmed their tech budgets — and now a fresh threat looms: generative AI, which can automate some of the very coding and support work these firms sell, forcing them to reinvent what they offer.",
+        "sources": [
+          {
+            "name": "The Hindu (Business)",
+            "url": "https://www.thehindu.com/business/Industry/wipro-posts-a-flat-q1-bottom-line-at-3352-cr-maintains-a-muted-outlook-for-upcoming-quarter/article71230354.ece"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/companies/quarterly-results/wipro-q1fy27-profit-revenue-buyback-dividend-126071600818_1.html"
+          },
+          {
+            "name": "Business Today",
+            "url": "https://www.businesstoday.in/markets/stocks/story/wipro-q1-earnings-net-profit-at-rs-3352-crore-board-clears-interim-dividend-543422-2026-07-16"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "A cholesterol pill to replace the needle: the US FDA approves Merck's enlicitide, the first pill that works like the powerful injected cholesterol drugs",
+      "category": "health",
+      "published_iso": "2026-07-16T12:04:58+00:00",
+      "source": "Merck (press release)",
+      "what_happened": "On July 16, 2026, the US Food and Drug Administration (FDA) — the agency that decides which medicines can be sold in America — approved Merck's LIPFENDRA (chemical name enlicitide), a 20-milligram tablet taken once a day alongside diet and exercise to lower LDL in adults with high cholesterol. It is the first PCSK9 inhibitor that works as a pill rather than a shot. Merck engineered enlicitide as a special looped ('macrocyclic') peptide that survives the gut and can be swallowed. In its main late-stage trial it cut LDL cholesterol by about 59% at 24 weeks versus a placebo — in the same league as the injected versions. Merck said it plans to sell the drug for about $10.50 a day, roughly $315 for a month's supply.",
+      "key_points": [
+        "FDA approves Merck's LIPFENDRA (enlicitide) — a once-daily tablet",
+        "First-ever oral 'PCSK9 inhibitor', a class that until now had to be injected",
+        "Cut 'bad' LDL cholesterol by about 59% in its main trial",
+        "Priced at ~$10.50 a day; rivals the injected drugs Repatha and Praluent"
+      ],
+      "depth": {
+        "background": "Cholesterol is a waxy substance in your blood; too much of the 'bad' kind — LDL — builds up inside arteries and is a leading cause of heart attacks and strokes, the biggest killers in the world. The standard cheap defence is statins (pills like atorvastatin), but many people can't get their LDL low enough on statins alone. For them, drugmakers created a far more powerful class of medicine called PCSK9 inhibitors: they block a protein (PCSK9) that stops the liver from clearing LDL out of the blood, so switching it off lets the liver mop up much more cholesterol. The catch was that these drugs — Amgen's Repatha and Regeneron/Sanofi's Praluent — are large antibody molecules that had to be delivered by injection every few weeks, which is inconvenient, more expensive, and puts a lot of patients off.",
+        "sources": [
+          {
+            "name": "Merck (press release)",
+            "url": "https://www.merck.com/news/mercks-lipfendra-enlicitide-is-the-first-and-only-once-daily-oral-pcsk9-inhibitor-approved-by-the-u-s-fda-to-reduce-ldl-c-in-adults-with-hypercholesterolemia/"
+          },
+          {
+            "name": "CNN",
+            "url": "https://www.cnn.com/2026/07/16/health/merck-cholesterol-pill-enlicitide"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-16/merck-secures-fda-approval-for-powerful-new-cholesterol-pill"
+          },
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com/health/heart-health/fda-approves-new-kind-cholesterol-pill-rcna587798"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "The EU orders Google to crack open Android and Search — rival AI assistants get 'Hey Google'-style access and competitors get its search data",
+      "category": "technology",
+      "published_iso": "2026-07-16T09:00:00+00:00",
+      "source": "CNBC",
+      "what_happened": "On Thursday, July 16, 2026, the European Commission — the EU's executive arm — issued two legally binding 'specification decisions' against Google under the DMA. The first forces Google to open up 11 features of Android so rival AI assistants (think OpenAI's ChatGPT or Anthropic's Claude) can tap the same phone functions Google's own Gemini assistant uses — meaning you could summon a competing assistant by voice, the way you say 'Hey Google', to book a taxi or look something up. The second orders Google to hand rival search engines and AI chatbot makers anonymised Search data — the ranking, query, click and view information that powers good search results — on 'fair, reasonable and non-discriminatory' (FRAND) terms. The data-sharing must begin by January 2027, and the Android changes arrive in the next version of the system from July 2027.",
+      "key_points": [
+        "EU issues two binding orders forcing Google to open Android and Search to rivals",
+        "11 Android features open up so rival AI assistants work by voice, like 'Hey Google'",
+        "Google must share anonymised search data with rival engines and AI chatbots",
+        "Search-data sharing starts Jan 2027; the Android changes land from July 2027"
+      ],
+      "depth": {
+        "background": "For years a handful of tech giants — Google, Apple, Amazon, Meta, Microsoft — have controlled the 'gateways' most people use to reach the internet: app stores, search engines, phone operating systems. Google is dominant on two of them at once: it runs Android, the operating system on the large majority of the world's smartphones, and Google Search, which handles the bulk of the world's web searches. To curb that power, the European Union passed the Digital Markets Act (DMA) — a 2022 law that labels the biggest platforms 'gatekeepers' and forces them to let competitors plug into their systems on fair terms, rather than quietly favouring their own products. This week's orders are Brussels spelling out, feature by feature, exactly what Google now has to open up.",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/16/google-required-to-open-up-to-ai-search-engine-rivals-under-eu-mandated-changes.html"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-must-give-gemini-rivals-equal-access-to-android-system-eu-says"
+          },
+          {
+            "name": "Reuters (via The Verge)",
+            "url": "https://www.theverge.com/news/google-eu-android-search-dma"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India draws up a $51bn 'make it at home' hit-list — Modi orders a push to replace imports and shield the economy from oil shocks, a weak rupee and China's grip on supplies",
+      "category": "india",
+      "published_iso": "2026-07-16T05:43:00+00:00",
+      "source": "Reuters (via Business Standard)",
+      "what_happened": "On July 16, 2026, reports (led by Reuters and Bloomberg) said Prime Minister Narendra Modi's office has ordered key ministries to comb through India's import bill and identify goods the country is heavily dependent on but could make at home. Officials have flagged about $51 billion of 'critical' imports — inputs used across industries from textiles to solar panels — as the priority pool, with roughly 100 specific items lined up for immediate action. A broader internal analysis suggested that up to $398 billion of India's total imports could, over time, potentially be replaced by domestic manufacturing. To make that happen, the government is weighing subsidies and other incentives to nudge companies to produce these goods locally.",
+      "key_points": [
+        "Govt flags $51bn of 'critical' imports to be made in India instead",
+        "About 100 items — from textiles to solar panels — get immediate action",
+        "Analysis: up to $398bn of India's $775bn imports could be localised",
+        "Subsidies and incentives planned; aim is to ease pressure on the rupee"
+      ],
+      "depth": {
+        "background": "India buys far more from the world than it sells — it imported about $775 billion of goods in the year to March 2026 — and that gap has to be paid for in foreign currency, mostly US dollars. When imports surge (say, when oil prices spike), India needs more dollars, which pushes the rupee down and makes everything imported dearer. India has long wanted to make more of what it uses at home — the 'Atmanirbhar Bharat' (self-reliant India) drive — and has offered 'PLI' schemes (production-linked incentives: cash rewards paid to companies for making more here). This new plan widens that effort into a systematic hunt for imports the country could realistically replace with local production.",
+        "sources": [
+          {
+            "name": "Reuters (via Business Standard)",
+            "url": "https://www.business-standard.com/economy/news/govt-identifies-51-bn-in-critical-imports-for-domestic-manufacturing-push-126071600607_1.html"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-16/modi-pushes-to-cut-import-reliance-to-shield-india-from-shocks"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/economy/news/govt-plans-incentives-to-cut-import-reliance-to-shield-india-from-shocks-126071600112_1.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Britain nationalises British Steel — the government seizes its last major steel mill from its Chinese owner to keep the country able to make its own steel",
+      "category": "economy",
+      "published_iso": "2026-07-16T05:37:03+00:00",
+      "source": "BBC News",
+      "what_happened": "On July 16, 2026, the UK government formally took British Steel into public ownership. Parliament had just passed the Steel Industry (Nationalisation) Act, which received Royal Assent (the final sign-off that makes a bill law) on July 15; Industry Minister Chris McDonald then signed regulations transferring the company to the state the next day. Ministers said months of talks with Jingye had failed to reach a deal that would both secure the plant's future and give value for taxpayers, so nationalisation was the only option left. Business Secretary Peter Kyle said an independent assessor will now judge whether Jingye is owed any compensation at all — and made clear the answer could be nothing.",
+      "key_points": [
+        "UK takes British Steel into public ownership, effective July 16",
+        "Strips Scunthorpe — the UK's last 'virgin' steel plant — from China's Jingye",
+        "Talks with Jingye failed; an assessor will decide any compensation (maybe zero)",
+        "Protects ~2,700 jobs and the ability to make steel from scratch at home"
+      ],
+      "depth": {
+        "background": "Steel is the backbone material of a modern economy — it goes into railways, cars, buildings, weapons and wind turbines. There are two ways to make it: from scratch, by melting iron ore in giant 'blast furnaces' (called 'virgin' or 'primary' steelmaking), or by recycling scrap in electric furnaces. Britain's steel industry has shrunk for decades, and the Scunthorpe plant in northern England is the country's last site still able to make virgin steel from raw ore. A Chinese company, Jingye, bought British Steel in 2020 and poured in more than £1.2bn, but the plant kept losing money. In April 2025 the government passed emergency powers and stepped in to stop Jingye letting the blast furnaces go cold — because once a blast furnace shuts down and solidifies, it is ruinously hard and expensive to restart.",
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/articles/c5y680w62wno"
+          },
+          {
+            "name": "GOV.UK",
+            "url": "https://www.gov.uk/government/news/government-brings-british-steel-into-public-ownership-to-protect-uk-steelmaking"
+          },
+          {
+            "name": "AP News (via US News)",
+            "url": "https://www.usnews.com/news/business/articles/2026-07-16/uk-nationalizes-chinese-owned-british-steel-to-protect-nations-steelmaking-capacity"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/business/live/2026/jul/16/uk-government-british-steel-public-ownership-gdp-economy-latest-news-updates"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Files from India's biggest nuclear plant, Kudankulam, turn up on the dark web — a contractor admits a 'partial breach' as CERT-In investigates",
+      "category": "india",
+      "published_iso": "2026-07-15T10:00:00+00:00",
+      "source": "Reuters (via Deccan Herald)",
+      "what_happened": "In mid-July 2026, Reuters reported that nearly 19,000 files totalling about 14.3 gigabytes and tied to Kudankulam had been sitting on the dark web — the hidden part of the internet reachable only with special software — since June 11, uploaded by a hacker group calling itself 'World Lix'. Reliance Group, the conglomerate controlled by businessman Anil Ambani and a contractor on the project, confirmed a 'partial breach' of its data on a server run by third-party Indian data-centre provider Yotta. Reuters said it reviewed the documents — which are dated from 2016 to mid-2025 and purportedly include blueprints, supplier details, meeting and inspection records, equipment reviews and insurance policies — but could not verify their authenticity. NPCIL is in touch with Reliance, India's Computer Emergency Response Team (CERT-In) is investigating, and Union Science Minister Jitendra Singh publicly downplayed the risk.",
+      "key_points": [
+        "~19,000 files (14.3 GB) tied to the Kudankulam nuclear plant leaked on the dark web",
+        "Hacker group 'World Lix' claims it; files online since June 11",
+        "Reliance Group, a plant contractor, admits a 'partial breach' on a Yotta-hosted server",
+        "India's cyber agency CERT-In is investigating; a minister played down the risk"
+      ],
+      "depth": {
+        "background": "The Kudankulam Nuclear Power Plant (KKNPP), on the coast of Tamil Nadu in south India, is the country's largest nuclear power station, built with Russian help and run by the state-owned Nuclear Power Corporation of India (NPCIL). Nuclear plants are treated as 'critical infrastructure' — facilities so vital that an attack on them could endanger public safety — so their technical details are meant to be closely guarded. This isn't Kudankulam's first scare: back in 2019 the plant's administrative network was hit by malware later linked to North Korean hackers, a reminder that even air-gapped nuclear sites are targets. Today's incident involves not the reactor controls themselves but a trove of documents held by one of the plant's private contractors.",
+        "sources": [
+          {
+            "name": "Reuters (via Deccan Herald)",
+            "url": "https://www.deccanherald.com/india/files-relating-to-indias-largest-nuclear-power-plant-kudankulam-exposed-in-data-breach-4074576"
+          },
+          {
+            "name": "Reuters (via Dawn)",
+            "url": "https://www.dawn.com/news/2015650"
+          },
+          {
+            "name": "Gulf News",
+            "url": "https://gulfnews.com/world/asia/india/dark-web-leak-raises-security-fears-over-india-s-biggest-nuclear-plant-1.500608885"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "China's economy grows just 4.3% — its slowest pace since 2022 — as a slump in investment and cautious shoppers drag on the world's No. 2 economy",
+      "category": "economy",
+      "published_iso": "2026-07-15T05:14:11+00:00",
+      "source": "CNBC",
+      "what_happened": "On July 15, 2026, China's statistics bureau reported that the economy grew 4.3% in the second quarter (April-June) compared with a year earlier. That undershot economists' forecasts of about 4.5% and marked a steep cooling from the 5% growth of the first quarter — the slowest quarterly reading since the lockdown-hit final months of 2022. Growth for the first half of the year came in at 4.7%. The weakness was concentrated in investment, which slid as factories and local governments held back on new projects, while retail spending stayed subdued. One bright spot: exports jumped 27% in June (and 17.6% across the first half), lifted by booming global demand for Chinese electric vehicles and AI-related electronics — without that export surge, the slowdown would have been worse.",
+      "key_points": [
+        "April-June GDP grew 4.3% from a year earlier — weakest since late 2022",
+        "Below the 4.5% forecast and down sharply from 5% in the first quarter",
+        "Investment slumped and consumers kept their wallets shut",
+        "A 27% June export jump, powered by AI chips and EVs, softened the blow"
+      ],
+      "depth": {
+        "background": "GDP (gross domestic product) is the total value of everything a country produces in a set period — the single broadest gauge of how fast an economy is growing. China is the world's second-largest economy and, for decades, its main growth engine: when China booms it buys the world's oil, metals, machinery and luxury goods, and when it slows the whole planet feels it. But China's old playbook — pouring money into property and infrastructure — has broken down. A years-long housing crash has left developers buried in debt, households nervous about spending, and local governments short of cash. Beijing has leaned harder on exports and high-tech manufacturing (electric vehicles, solar panels, AI-linked electronics) to fill the gap, and set itself a full-year growth target of 4.5-5% — its least ambitious goal in decades.",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org/2026/07/15/g-s1-133672/chinas-economy-grows-4-3-in-q2-slowest-since-late-2022"
+          },
+          {
+            "name": "IBTimes UK",
+            "url": "https://www.ibtimes.co.uk/china-economic-growth-slows-2026-1808887"
+          }
+        ]
+      }
+    }
+  ]
+}

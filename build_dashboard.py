@@ -192,7 +192,9 @@ def _yesterday_world(today: str) -> dict | None:
 # ---- rolling news archive: the live feed shows the top-N per region; everything else collects here ----
 NEWS_ARCHIVE = DASH / "news-archive.json"
 LIVE_PER_REGION = 20      # the live reels feed shows at most this many stories per tab (Global / India)
-NEWS_ARCHIVE_CAP = 300    # rolling history depth (dedup by title, newest-first)
+NEWS_ARCHIVE_CAP = 500    # RECENT rolling window kept in news-archive.json (fast to browse). NOTHING is
+                          # lost past this — every story is also appended, forever, to the permanent monthly
+                          # shards dashboard/archive/news-<YYYY-MM>.json (see _append_history_shards).
 FRESH_HOURS = 30          # a story older than this drops OUT of the live feed (still kept in the archive)
 MIN_LIVE = 8              # ...but always keep at least this many newest per region, so it's never empty
 NEW_BADGE_MIN = 90        # a story added by the hourly within this many minutes gets a 🆕 badge in the feed
@@ -258,14 +260,64 @@ def _is_near_dup(toks: set, seen: list) -> bool:
     return any((len(toks & s) / len(toks | s)) >= 0.55 for s in seen if s)
 
 
+def _slim_story(c: dict) -> dict:
+    """A lightweight archive record — only the fields the (trimmed) story sheet actually renders.
+    Full decodes are ~5.6 KB each; this is ~1 KB, so we can keep FAR more history in the same space."""
+    d = c.get("depth") or {}
+    out = {
+        "type": "story",
+        "title": c.get("title"),
+        "category": c.get("category"),
+        "published_iso": c.get("published_iso"),
+        "source": c.get("source"),
+        "what_happened": c.get("what_happened"),
+        "key_points": c.get("key_points") or [],
+        "depth": {"background": d.get("background"), "sources": d.get("sources") or []},
+    }
+    for k in ("thread", "development", "prev_ref"):
+        if c.get(k):
+            out[k] = c[k]
+    return out
+
+
+def _append_history_shards(slim_stories: list[dict]) -> None:
+    """PERMANENT, never-capped history: append each story (deduped by title) to a monthly shard
+    dashboard/archive/news-<YYYY-MM>.json, and maintain dashboard/archive/news-index.json (the month list).
+    This is the 'keep everything' store — the rolling news-archive.json is just a fast recent view of it."""
+    ARCHIVE.mkdir(parents=True, exist_ok=True)
+    by_month: dict[str, list[dict]] = {}
+    today_m = dt.date.today().isoformat()[:7]
+    for s in slim_stories:
+        m = (s.get("published_iso") or "")[:7] or today_m
+        by_month.setdefault(m, []).append(s)
+    for month, items in by_month.items():
+        f = ARCHIVE / f"news-{month}.json"
+        data = _load_json(f) or {}
+        existing = data.get("stories") or []
+        have = {_norm_title(s.get("title")) for s in existing}
+        add = [s for s in items if _norm_title(s.get("title")) and _norm_title(s.get("title")) not in have]
+        if not add:
+            continue
+        alls = add + existing
+        alls.sort(key=lambda s: s.get("published_iso") or "", reverse=True)
+        f.write_text(json.dumps({"month": month, "count": len(alls), "stories": alls},
+                                indent=2, ensure_ascii=False))
+    months = sorted({p.stem[len("news-"):] for p in ARCHIVE.glob("news-*.json")}, reverse=True)
+    (ARCHIVE / "news-index.json").write_text(json.dumps(
+        {"generated_at": dt.datetime.now(IST).isoformat(timespec="seconds"), "months": months},
+        indent=2, ensure_ascii=False))
+
+
 def update_news_archive(story_cards: list[dict]) -> int:
-    """Merge the currently-live story cards into dashboard/news-archive.json (dedup by title, newest
-    first). So every story that rotates out of the live top-20 is preserved as history, never lost."""
+    """Preserve every story forever. Each live story is (a) appended to a permanent monthly shard, and
+    (b) merged into the RECENT rolling window dashboard/news-archive.json (dedup by title, newest first,
+    capped at NEWS_ARCHIVE_CAP for a fast browse). Records are slimmed to what the story sheet shows."""
+    slim_all = [_slim_story(c) for c in story_cards if _norm_title(c.get("title"))]
+    _append_history_shards(slim_all)                       # permanent, uncapped
     data = _load_json(NEWS_ARCHIVE) or {}
-    old = data.get("stories") or []
+    old = [_slim_story(s) for s in (data.get("stories") or [])]
     have = {_norm_title(s.get("title")) for s in old}
-    fresh = [c for c in story_cards
-             if _norm_title(c.get("title")) and _norm_title(c.get("title")) not in have]
+    fresh = [s for s in slim_all if _norm_title(s.get("title")) not in have]
     merged = fresh + old
     merged.sort(key=lambda s: s.get("published_iso") or "", reverse=True)   # newest first, undated sink
     seen: set[str] = set()
