@@ -1,13 +1,13 @@
 {
   "date": "2026-07-18",
-  "generated_at": "2026-07-18T23:22:59+05:30",
+  "generated_at": "2026-07-18T23:36:14+05:30",
   "day_label": "Saturday · 18 July 2026",
   "dashboard_url": "../",
   "cards": [
     {
       "type": "story",
-      "id": "story-2",
-      "rank": 2,
+      "id": "story-4",
+      "rank": 4,
       "category": "geopolitics",
       "published_iso": "2026-07-18T15:35:54+00:00",
       "source": "Al Jazeera",
@@ -78,6 +78,120 @@
       "type": "story",
       "id": "story-1",
       "rank": 1,
+      "category": "health",
+      "is_new": true,
+      "published_iso": "2026-07-18T14:51:00+00:00",
+      "source": "The Verge",
+      "importance": "notable",
+      "regions": [
+        "US"
+      ],
+      "title": "A stomach-bug outbreak pulls Taylor Farms lettuce off US shelves — and Taco Bell's menu",
+      "what_happened": "US health agencies (the CDC and FDA) linked shredded iceberg lettuce served at Taco Bell to a Cyclospora outbreak first confirmed in five states — Indiana, Kentucky, Michigan, Ohio and West Virginia — and traced it to a single grower in central Mexico. On July 17, supplier Taylor Farms de México said it was voluntarily removing all iceberg lettuce sourced from central Mexico from the US market, and Taco Bell said it had pulled the lettuce from restaurants and its nationwide supply chain. Reporting suggests the wider outbreak may have sickened thousands, with cases being investigated across dozens of states.",
+      "key_points": [
+        "Shredded iceberg lettuce tied to a Cyclospora outbreak",
+        "Taylor Farms recalls all central-Mexico iceberg lettuce",
+        "Taco Bell removes the lettuce nationwide",
+        "Thousands possibly sickened across many states"
+      ],
+      "moot": "In a globalised food supply, safety is only as strong as its weakest link — one contaminated farm abroad can trigger recalls and menu changes across an entire country almost overnight.",
+      "concepts": [
+        "supply_chain"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "Cyclospora is a tiny parasite that contaminates fresh produce, usually via water tainted with human waste, and causes cyclosporiasis — days or weeks of watery diarrhoea, cramps and fatigue. It can't be washed off reliably and isn't killed by refrigeration, so the main fix once produce is contaminated is to pull it from the food chain. The US sees these outbreaks most summers, often traced to imported salad greens.",
+        "why_it_matters": "It's a live food-safety scare touching one of America's biggest fast-food chains and a major salad supplier, so it directly affects what's safe to eat right now. It also shows how a problem at one overseas farm can ripple through the whole US food system within days.",
+        "ripple_effects": "Restaurants and grocers relying on Taylor Farms greens face shortages and menu changes; the supplier and Taco Bell take a reputational and financial hit; and regulators face pressure over how quickly they can trace and contain such outbreaks — made harder, some reports note, by cuts to US public-health staffing. Expect tighter scrutiny of imported leafy greens.",
+        "why_now": "Warm summer weather and the salad-heavy season raise contamination risk, and the recall widened this week as investigators confirmed the source and cases kept climbing.",
+        "watch_next": "Whether the recall expands to other products or brands, and the CDC's updated case and state count.",
+        "market_link": "Negative for Taylor Farms and Yum Brands (Taco Bell's owner) near-term; food-safety scares can dent sales at affected chains.",
+        "key_terms": [
+          {
+            "term": "Cyclosporiasis",
+            "definition": "An intestinal illness caused by the Cyclospora parasite, spread through contaminated food or water, causing prolonged diarrhoea."
+          },
+          {
+            "term": "Recall",
+            "definition": "When a company pulls a product from sale because it may be unsafe."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Verge",
+            "url": "https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce"
+          },
+          {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/health/2026/07/taco-bell-iceburg-lettuce-identified-as-source-of-cyclosporiasis-in-5-states/"
+          },
+          {
+            "name": "CNN",
+            "url": "https://www.cnn.com/2026/07/16/health/cyclospora-outbreak-shredded-lettuce"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-2",
+      "rank": 2,
+      "category": "economy",
+      "is_new": true,
+      "published_iso": "2026-07-18T14:23:33+00:00",
+      "source": "Al Jazeera",
+      "importance": "high",
+      "regions": [
+        "Middle East",
+        "US"
+      ],
+      "title": "Iraq signs big US energy deals to reroute its oil around the Strait of Hormuz",
+      "what_happened": "At a US-Iraq business summit at the US Chamber of Commerce in Washington on Friday, the two sides signed preliminary agreements worth more than $60bn spanning energy, healthcare and technology. The headline deal is a plan for US giant Chevron to help rebuild the long-defunct pipeline from Iraq's oil-rich Kirkuk region to Syria's Mediterranean port of Baniyas — letting Iraqi crude reach world markets without going near Hormuz. Chevron signed two further oil-production deals, and Iraq also formally signed up Elon Musk's Starlink satellite internet.",
+      "key_points": [
+        "US-Iraq summit yields $60bn+ in initial deals",
+        "Centrepiece: revive the old Iraq-to-Syria oil pipeline",
+        "Goal: stop depending on the war-hit Strait of Hormuz",
+        "Chevron to lead; Iraq also signs up Starlink"
+      ],
+      "moot": "When a single passage carries a huge share of global supply, buyers and sellers will pay a lot to build backups — because in trade, having an alternative route is a form of insurance against conflict.",
+      "concepts": [
+        "strait_chokepoint",
+        "crude_geopolitics"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "Roughly a fifth of the world's oil is shipped through the Strait of Hormuz, a narrow sea passage between Iran and Oman — a classic 'chokepoint' where a single conflict can throttle global supply. With the US now fighting a war against Iran, tankers passing Hormuz face growing risk, and oil-exporting neighbours like Iraq are scrambling for safer routes to sell their crude.",
+        "why_it_matters": "It's a concrete move to 'chokepoint-proof' the oil trade: if crude can flow west through Syria to the Mediterranean, a blockade or attack at Hormuz hurts less. A US envoy said the deals could make Hormuz 'an afterthought'. It also deepens American commercial and strategic ties with Iraq at a moment when Washington is squeezing Iran next door.",
+        "ripple_effects": "Cheaper, safer export routes could steady global oil prices over time and blunt Iran's biggest threat — closing Hormuz. It draws Syria further into the US-aligned economic orbit, gives Chevron a major reconstruction contract, and could shift regional power away from Tehran. But a pipeline through Syria and northern Iraq crosses politically fragile, sometimes violent territory, so building it is far from guaranteed.",
+        "why_now": "Repeated US-Iran strikes have disrupted Hormuz shipping and pushed up fuel prices, giving Baghdad urgent reason — and Washington the leverage — to lock in alternative routes and lucrative American contracts.",
+        "watch_next": "Whether these preliminary deals turn into financed, signed contracts, and any Iranian response to being bypassed.",
+        "market_link": "Bullish for oil-route security over time (softening the Hormuz risk premium); a boost for Chevron and a strategic setback for Iran's leverage over crude prices.",
+        "key_terms": [
+          {
+            "term": "Strait of Hormuz",
+            "definition": "A narrow shipping lane between Iran and Oman through which about a fifth of the world's oil passes."
+          },
+          {
+            "term": "Chokepoint",
+            "definition": "A narrow passage that a lot of trade must squeeze through, so blocking it can disrupt supplies far and wide."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/18/iraq-signs-48-deals-with-us-companies-during-pms-visit-to-washington"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/17/iran-war-iraq-syria-oil-pipeline-strait-hormuz.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-3",
+      "rank": 3,
       "category": "geopolitics",
       "is_new": true,
       "published_iso": "2026-07-18T09:39:43+00:00",
@@ -141,8 +255,8 @@
     },
     {
       "type": "story",
-      "id": "story-4",
-      "rank": 4,
+      "id": "story-6",
+      "rank": 6,
       "category": "geopolitics",
       "published_iso": "2026-07-18T07:00:00+00:00",
       "source": "NPR",
@@ -213,8 +327,8 @@
     },
     {
       "type": "story",
-      "id": "story-3",
-      "rank": 3,
+      "id": "story-5",
+      "rank": 5,
       "category": "climate",
       "published_iso": "2026-07-18T03:00:00+00:00",
       "source": "AP News",
@@ -280,8 +394,8 @@
     },
     {
       "type": "story",
-      "id": "story-7",
-      "rank": 7,
+      "id": "story-9",
+      "rank": 9,
       "category": "geopolitics",
       "published_iso": "2026-07-18T01:29:47+00:00",
       "source": "CNN Politics",
@@ -351,8 +465,8 @@
     },
     {
       "type": "story",
-      "id": "story-8",
-      "rank": 8,
+      "id": "story-10",
+      "rank": 10,
       "category": "economy",
       "published_iso": "2026-07-17T20:05:00+00:00",
       "source": "Bloomberg",
@@ -423,8 +537,8 @@
     },
     {
       "type": "story",
-      "id": "story-9",
-      "rank": 9,
+      "id": "story-11",
+      "rank": 11,
       "category": "science",
       "published_iso": "2026-07-17T18:12:54+00:00",
       "source": "FOX Weather",
@@ -492,8 +606,8 @@
     },
     {
       "type": "story",
-      "id": "story-5",
-      "rank": 5,
+      "id": "story-7",
+      "rank": 7,
       "category": "geopolitics",
       "published_iso": "2026-07-17T14:57:00+00:00",
       "source": "Al Jazeera",
@@ -564,8 +678,8 @@
     },
     {
       "type": "story",
-      "id": "story-6",
-      "rank": 6,
+      "id": "story-8",
+      "rank": 8,
       "category": "science",
       "published_iso": "2026-07-17T12:58:37+00:00",
       "source": "Space.com",
@@ -631,8 +745,8 @@
     },
     {
       "type": "story",
-      "id": "story-10",
-      "rank": 10,
+      "id": "story-12",
+      "rank": 12,
       "category": "technology",
       "published_iso": "2026-07-17T12:28:00+00:00",
       "source": "Bloomberg",
@@ -702,8 +816,8 @@
     },
     {
       "type": "story",
-      "id": "story-21",
-      "rank": 21,
+      "id": "story-23",
+      "rank": 23,
       "category": "india",
       "is_new": true,
       "published_iso": "2026-07-18T14:16:50+00:00",
@@ -771,8 +885,63 @@
     },
     {
       "type": "story",
-      "id": "story-23",
-      "rank": 23,
+      "id": "story-21",
+      "rank": 21,
+      "category": "india",
+      "is_new": true,
+      "published_iso": "2026-07-18T14:07:00+00:00",
+      "source": "The Hindu",
+      "importance": "notable",
+      "regions": [
+        "India"
+      ],
+      "title": "Speaker lets 6 Uddhav Thackeray MPs defect to Shinde's Shiv Sena — a fresh blow to the UBT camp",
+      "what_happened": "Lok Sabha Speaker Om Birla on Saturday formally recognised the merger of six Shiv Sena (UBT) MPs into the Shinde-led Shiv Sena. Because six of UBT's nine MPs crossed over — two-thirds — the move qualifies under the merger exception. That leaves Uddhav Thackeray's faction with just three MPs in the lower house of Parliament, while Shinde's group rises to 13. The decision, taken two days before Parliament's Monsoon Session, also lifts the BJP-led National Democratic Alliance's Lok Sabha strength to 298.",
+      "key_points": [
+        "Lok Sabha Speaker recognises the 6 MPs' switch",
+        "Shinde's Sena now has 13 MPs; Uddhav left with 3",
+        "Cleared under the anti-defection law's 'merger' rule",
+        "Lifts the ruling NDA's Lok Sabha tally to 298"
+      ],
+      "moot": "Laws written to block one loophole often leave another: India's ban on defections still permits mass switches dressed up as 'mergers', showing how the exact wording of a rule shapes who holds power.",
+      "concepts": [
+        "lok_sabha",
+        "coalition_government"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "The Shiv Sena, a big Maharashtra party, split in 2022 when Eknath Shinde broke away with most lawmakers and, backed by the BJP, took over the government — leaving founder Bal Thackeray's son Uddhav with a smaller faction, officially called Shiv Sena (UBT). India's anti-defection law normally bars lawmakers from switching parties to stop horse-trading, but it makes an exception: if two-thirds of a party's legislators agree to 'merge' with another party, the switch is legal and they keep their seats.",
+        "why_it_matters": "It hollows out Uddhav Thackeray's national presence right before Parliament reconvenes, and hands the ruling coalition a bigger cushion. It's also a real-world stress test of the anti-defection law: critics argue the 'merger' loophole lets governing parties legally absorb opponents, weakening the very defections the law was meant to prevent.",
+        "ripple_effects": "A stronger NDA count makes it easier for the government to push bills through the Monsoon Session. In Maharashtra, it further shrinks the Uddhav camp's clout ahead of future elections and hands Shinde a symbolic victory in the long battle over who is the 'real' Shiv Sena. Expect the UBT side to challenge or protest the ruling.",
+        "why_now": "The MPs had jumped to Shinde's side last month; formalising it just before the session gives the government maximum numbers when Parliament sits.",
+        "watch_next": "Whether Shiv Sena (UBT) contests the Speaker's decision, and how the strengthened NDA uses its numbers in the Monsoon Session.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "Anti-defection law",
+            "definition": "A rule that disqualifies lawmakers who switch parties, meant to stop them being bought — but it allows a legal switch if two-thirds of a party agree to merge with another."
+          },
+          {
+            "term": "Lok Sabha",
+            "definition": "The directly-elected lower house of India's Parliament, where the party or coalition with a majority forms the government."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/lok-sabha-speaker-approves-merger-of-six-shiv-sena-ubt-mps-with-the-eknath-shinde-led-shiv-sena/article71238932.ece"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/politics/ls-speaker-birla-approves-merger-of-rebel-ss-ubt-with-shinde-led-shiv-sena-126071800860_1.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-25",
+      "rank": 25,
       "category": "india",
       "published_iso": "2026-07-18T09:30:00+00:00",
       "source": "NDTV",
@@ -838,8 +1007,8 @@
     },
     {
       "type": "story",
-      "id": "story-22",
-      "rank": 22,
+      "id": "story-24",
+      "rank": 24,
       "category": "india",
       "published_iso": "2026-07-18T09:05:36+00:00",
       "source": "Business Standard",
@@ -920,8 +1089,8 @@
     },
     {
       "type": "story",
-      "id": "story-25",
-      "rank": 25,
+      "id": "story-27",
+      "rank": 27,
       "category": "india",
       "published_iso": "2026-07-18T09:04:54+00:00",
       "source": "The Economic Times",
@@ -1007,8 +1176,8 @@
     },
     {
       "type": "story",
-      "id": "story-24",
-      "rank": 24,
+      "id": "story-26",
+      "rank": 26,
       "category": "india",
       "published_iso": "2026-07-18T07:55:00+00:00",
       "source": "The Tribune",
@@ -1077,8 +1246,8 @@
     },
     {
       "type": "story",
-      "id": "story-28",
-      "rank": 28,
+      "id": "story-30",
+      "rank": 30,
       "category": "india",
       "published_iso": "2026-07-18T07:30:00+00:00",
       "source": "Business Today",
@@ -1160,8 +1329,63 @@
     },
     {
       "type": "story",
-      "id": "story-29",
-      "rank": 29,
+      "id": "story-22",
+      "rank": 22,
+      "category": "india",
+      "is_new": true,
+      "published_iso": "2026-07-18T05:58:48+00:00",
+      "source": "The Hindu",
+      "importance": "high",
+      "regions": [
+        "India"
+      ],
+      "title": "Police forcibly move a fasting Sonam Wangchuk to hospital on day 21 of his Ladakh protest",
+      "what_happened": "In the early hours of Saturday, day 21 of his indefinite fast at Delhi's Jantar Mantar protest site, Delhi Police moved Wangchuk to Safdarjung Hospital, citing a Delhi High Court order and medical advice; hospital bulletins and an independent AIIMS expert said he needed immediate care. Protesters said white bedsheets were used to shield the operation, and that he was taken away in about five minutes. Wangchuk reportedly refused medical interventions, and fellow activists — including at least 21 others still fasting — vowed to continue; one, Abhijeet Dipke, began a fresh fast in his place.",
+      "key_points": [
+        "Climate activist removed from Delhi's Jantar Mantar before dawn",
+        "He was 20+ days into a hunger strike for Ladakh's rights",
+        "Doctors said he needed 'immediate medical intervention'",
+        "Opposition calls it repression of peaceful protest"
+      ],
+      "moot": "How a government responds to a hunger strike — negotiate, ignore, or forcibly end it — often becomes a bigger story than the original demand, because the method of dissent tests the state's tolerance for protest.",
+      "concepts": [
+        "state_vs_centre",
+        "parliament_india"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "Sonam Wangchuk is a famous engineer-educator from Ladakh, the high-altitude region in India's far north that was carved out as a federally-run 'union territory' in 2019 (meaning New Delhi, not a local elected government, runs it). Since then, Ladakhi groups have demanded statehood and protection under the Constitution's Sixth Schedule — a special provision that gives tribal areas control over their own land, culture and resources. Wangchuk has led repeated hunger strikes to push these demands, and this time also folded in a nationwide student protest over leaked exam papers.",
+        "why_it_matters": "This turns a regional grievance into a national test of how India handles peaceful dissent. Wangchuk is a globally respected figure, so images of police carrying away a frail, fasting protester draw scrutiny at home and abroad. It also keeps a spotlight on Ladakh's unresolved constitutional demands and on whether the central government negotiates or simply waits protests out.",
+        "ripple_effects": "Opposition and Left parties have condemned the removal and backed the protest, sharpening the fight just before Parliament's Monsoon Session opens on Monday. If Wangchuk's health worsens, or if the promised July 20 march to Parliament goes ahead, tensions in Ladakh — where similar protests turned violent before — could flare again, pressuring the government to reopen talks on statehood and Sixth Schedule protections.",
+        "why_now": "The fast had reached a medically dangerous stage on day 21, and a court order plus hospital warnings gave authorities the legal cover to act — timed, protesters allege, to the pre-dawn lull when fewer supporters and cameras were present.",
+        "watch_next": "Whether Wangchuk resumes or ends the fast in hospital, and if the July 20 'march to Parliament' proceeds as the Monsoon Session begins.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "Sixth Schedule",
+            "definition": "A part of India's Constitution that lets certain tribal areas run their own councils with power over land, forests and local customs."
+          },
+          {
+            "term": "Union territory",
+            "definition": "A region governed directly by the central government in New Delhi rather than by its own fully-empowered state government."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/sonam-wangchuk-shifted-to-hospital-hunger-strike-abhijeet-dipke-jantar-mantar-july-18-2026/article71236976.ece"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-31",
+      "rank": 31,
       "category": "india",
       "published_iso": "2026-07-18T04:16:55+00:00",
       "source": "The Tribune",
@@ -1233,8 +1457,8 @@
     },
     {
       "type": "story",
-      "id": "story-27",
-      "rank": 27,
+      "id": "story-29",
+      "rank": 29,
       "category": "india",
       "published_iso": "2026-07-17T20:56:07+00:00",
       "source": "ThePrint",
@@ -1298,8 +1522,8 @@
     },
     {
       "type": "story",
-      "id": "story-26",
-      "rank": 26,
+      "id": "story-28",
+      "rank": 28,
       "category": "india",
       "published_iso": "2026-07-17T15:16:49+00:00",
       "source": "Reuters",
@@ -1365,8 +1589,8 @@
     },
     {
       "type": "story",
-      "id": "story-30",
-      "rank": 30,
+      "id": "story-32",
+      "rank": 32,
       "category": "india",
       "published_iso": "2026-07-17T12:30:00+00:00",
       "source": "The Free Press Journal",
@@ -1445,6 +1669,115 @@
           {
             "name": "PSU Connect",
             "url": "https://www.psuconnect.in/financial/reliance-q1-fy27-results-consolidated-profit-at-23-196-cr"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-42",
+      "rank": 42,
+      "category": "f1",
+      "is_new": true,
+      "published_iso": "2026-07-18T15:26:31+00:00",
+      "source": "Autosport",
+      "importance": "notable",
+      "regions": [
+        "Belgium"
+      ],
+      "title": "Antonelli beats Verstappen to pole at the Belgian GP as Mercedes keeps dominating qualifying",
+      "what_happened": "At the Belgian Grand Prix at Spa-Francorchamps, Antonelli clinched his sixth pole position of the season, edging four-time champion Max Verstappen by 0.317 seconds. Verstappen admitted he only reached the front row thanks to a 'tow' — a slipstream — from Red Bull team-mate Isack Hadjar, who runs at the back after engine-change penalties. Reigning champion Lando Norris will drop 10 places on the grid for using too many engine parts, and Lewis Hamilton crashed his Ferrari in final practice earlier in the day.",
+      "key_points": [
+        "Kimi Antonelli takes his 6th pole of 2026",
+        "Beat Max Verstappen by 0.317s at Spa",
+        "Verstappen aided by a team-mate's slipstream",
+        "Champion Lando Norris hit with a 10-place grid penalty"
+      ],
+      "moot": "Even in a sport built on individual speed, small tactics like slipstreaming and the rules on engine parts can decide who starts where — proving strategy and reliability matter as much as raw pace.",
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "Formula 1's qualifying decides the starting order for Sunday's race, and starting up front is a big advantage on tracks where overtaking is hard. Italian teenager Kimi Antonelli, in only his second F1 season with Mercedes, leads the 2026 drivers' championship, and Mercedes cars have been fastest over one lap all year.",
+        "why_it_matters": "It reinforces Antonelli as the man to beat in a breakout season and tightens Mercedes' grip on qualifying. Grid penalties for Norris and others reshuffle the order, giving Antonelli a strong chance to convert pole into points and extend his title lead.",
+        "ripple_effects": "Track position at Spa can decide the race, so this hands Antonelli momentum in the championship; Norris's penalty forces a recovery drive; and Verstappen's reliance on a team-mate's tow hints at Red Bull's pace deficit. Rivals will study Mercedes' one-lap edge before the next round.",
+        "why_now": "Saturday qualifying set the grid for Sunday's Belgian Grand Prix.",
+        "watch_next": "Sunday's race — whether Antonelli converts pole into a win, and how far Norris climbs from his penalty.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "Pole position",
+            "definition": "The first place on the starting grid, earned by the fastest lap in qualifying."
+          },
+          {
+            "term": "Tow (slipstream)",
+            "definition": "Following closely behind another car to sit in its wake, cutting air resistance and gaining speed."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Autosport",
+            "url": "https://www.autosport.com/f1/news/f1-belgian-gp-antonelli-defeats-verstappen-to-take-pole/10839836/"
+          },
+          {
+            "name": "BBC Sport",
+            "url": "https://www.bbc.co.uk/sport/formula1/articles/cp8xep2w0epo"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-41",
+      "rank": 41,
+      "category": "cricket",
+      "is_new": true,
+      "published_iso": "2026-07-18T13:03:00+00:00",
+      "source": "ESPNcricinfo",
+      "importance": "notable",
+      "regions": [
+        "India",
+        "England"
+      ],
+      "title": "India vs England ODI series goes to a Lord's decider — with Rohit Sharma's future in the spotlight",
+      "what_happened": "England levelled the series 1-1 by winning the second ODI in Cardiff, guided by Joe Root's unbeaten 99. That sets up a winner-takes-all third ODI at Lord's, cricket's most famous ground. Amid swirling retirement rumours, Rohit turned up for India's optional practice and looked in good touch, while India named all-rounder Harsh Dubey to replace the injured Washington Sundar, opening the door for spinner Kuldeep Yadav's possible return. India have not won a bilateral ODI series in England since 2018.",
+      "key_points": [
+        "Series level 1-1 after England win in Cardiff",
+        "Decider at Lord's; India seek first series win in England since 2018",
+        "Rohit Sharma under retirement speculation, joins optional practice",
+        "Harsh Dubey replaces injured Washington Sundar"
+      ],
+      "moot": "In sport, individual and team stories often collide in one game — pressure on an ageing star can either sharpen a career-defining performance or hasten its end.",
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "India and England are playing a three-match one-day international (ODI) series — the 50-overs-a-side format. Veteran opener Rohit Sharma, 39, was recently removed as India's ODI captain and has struggled for runs, fuelling talk that this could be one of his last outings and that younger opener Yashasvi Jaiswal is ready to replace him.",
+        "why_it_matters": "It's a genuine decider with a personal subplot: a legend of Indian cricket may be playing to prove he still belongs, in the same match that decides the series. For India, ending a long drought of ODI series wins in England would be a marker of the team's transition to a younger core.",
+        "ripple_effects": "Rohit's performance could shape selection debates and his own career timeline heading toward major tournaments; a series win or loss feeds into how India rebuilds its one-day side. For England, backing up their Cardiff comeback would validate a reshaped ODI unit.",
+        "why_now": "The Cardiff result squared the series at 1-1, so everything rests on the final match at Lord's this weekend.",
+        "watch_next": "The result of the Lord's decider — and whether Rohit's showing quiets or amplifies the retirement talk.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "ODI (One-Day International)",
+            "definition": "A limited-overs cricket match where each side bats for 50 overs, usually finished in a single day."
+          },
+          {
+            "term": "Bilateral series",
+            "definition": "A series played between just two nations, separate from multi-team tournaments like the World Cup."
+          }
+        ],
+        "sources": [
+          {
+            "name": "ESPNcricinfo",
+            "url": "https://www.cricinfo.com/ci/content/story/1546091.html"
+          },
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/sport/cricket/eng-vs-ind-third-odi-rohits-future-and-the-series-on-the-line/article71238320.ece"
+          },
+          {
+            "name": "BBC Sport",
+            "url": "https://www.bbc.co.uk/sport/cricket/videos/c151gppk448o"
           }
         ]
       }

@@ -1,9 +1,113 @@
 {
   "date": "2026-07-18",
-  "generated_at": "2026-07-18T22:57:54+05:30",
+  "generated_at": "2026-07-18T23:36:14+05:30",
   "headline": "US and Iran reignite their war over the Strait of Hormuz: Trump drops a 20% shipping fee but presses a naval blockade as strikes fly, pushing oil to a one-month high.",
   "the_big_picture": "The single thread running through today is the re-escalation of the US-Iran conflict at the Strait of Hormuz, the chokepoint that carries roughly a fifth of the world's oil. Trump backed off a threatened 20% transit fee but is pushing ahead with a naval blockade while both sides trade strikes and tankers come under attack, sending crude to a one-month high. That oil spike is the hinge for everything downstream: US inflation cooled to 3.5% but officials flagged fresh upside risk, India's inflation just breached its central bank's target, the rupee slid past 96 and the Sensex fell. Running underneath, an AI storyline cuts both ways: IBM shed roughly $70bn in a day after stumbling on AI deals, even as China's AI-driven exports jumped 27% and Nvidia began shipping powerful H200 chips into China.",
   "stories": [
+    {
+      "rank": 1,
+      "category": "health",
+      "region": "global",
+      "published_iso": "2026-07-18T14:51:00+00:00",
+      "regions": [
+        "US"
+      ],
+      "title": "A stomach-bug outbreak pulls Taylor Farms lettuce off US shelves \u2014 and Taco Bell's menu",
+      "key_points": [
+        "Shredded iceberg lettuce tied to a Cyclospora outbreak",
+        "Taylor Farms recalls all central-Mexico iceberg lettuce",
+        "Taco Bell removes the lettuce nationwide",
+        "Thousands possibly sickened across many states"
+      ],
+      "background": "Cyclospora is a tiny parasite that contaminates fresh produce, usually via water tainted with human waste, and causes cyclosporiasis \u2014 days or weeks of watery diarrhoea, cramps and fatigue. It can't be washed off reliably and isn't killed by refrigeration, so the main fix once produce is contaminated is to pull it from the food chain. The US sees these outbreaks most summers, often traced to imported salad greens.",
+      "what_happened": "US health agencies (the CDC and FDA) linked shredded iceberg lettuce served at Taco Bell to a Cyclospora outbreak first confirmed in five states \u2014 Indiana, Kentucky, Michigan, Ohio and West Virginia \u2014 and traced it to a single grower in central Mexico. On July 17, supplier Taylor Farms de M\u00e9xico said it was voluntarily removing all iceberg lettuce sourced from central Mexico from the US market, and Taco Bell said it had pulled the lettuce from restaurants and its nationwide supply chain. Reporting suggests the wider outbreak may have sickened thousands, with cases being investigated across dozens of states.",
+      "why_it_matters": "It's a live food-safety scare touching one of America's biggest fast-food chains and a major salad supplier, so it directly affects what's safe to eat right now. It also shows how a problem at one overseas farm can ripple through the whole US food system within days.",
+      "ripple_effects": "Restaurants and grocers relying on Taylor Farms greens face shortages and menu changes; the supplier and Taco Bell take a reputational and financial hit; and regulators face pressure over how quickly they can trace and contain such outbreaks \u2014 made harder, some reports note, by cuts to US public-health staffing. Expect tighter scrutiny of imported leafy greens.",
+      "why_now": "Warm summer weather and the salad-heavy season raise contamination risk, and the recall widened this week as investigators confirmed the source and cases kept climbing.",
+      "watch_next": "Whether the recall expands to other products or brands, and the CDC's updated case and state count.",
+      "key_terms": [
+        {
+          "term": "Cyclosporiasis",
+          "definition": "An intestinal illness caused by the Cyclospora parasite, spread through contaminated food or water, causing prolonged diarrhoea."
+        },
+        {
+          "term": "Recall",
+          "definition": "When a company pulls a product from sale because it may be unsafe."
+        }
+      ],
+      "the_lesson": "In a globalised food supply, safety is only as strong as its weakest link \u2014 one contaminated farm abroad can trigger recalls and menu changes across an entire country almost overnight.",
+      "concepts": [
+        "supply_chain"
+      ],
+      "market_link": "Negative for Taylor Farms and Yum Brands (Taco Bell's owner) near-term; food-safety scares can dent sales at affected chains.",
+      "importance": "notable",
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/health/2026/07/taco-bell-iceburg-lettuce-identified-as-source-of-cyclosporiasis-in-5-states/"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/07/16/health/cyclospora-outbreak-shredded-lettuce"
+        }
+      ],
+      "added_at": "2026-07-18T23:27:04+05:30"
+    },
+    {
+      "rank": 2,
+      "category": "economy",
+      "region": "global",
+      "published_iso": "2026-07-18T14:23:33+00:00",
+      "regions": [
+        "Middle East",
+        "US"
+      ],
+      "title": "Iraq signs big US energy deals to reroute its oil around the Strait of Hormuz",
+      "key_points": [
+        "US-Iraq summit yields $60bn+ in initial deals",
+        "Centrepiece: revive the old Iraq-to-Syria oil pipeline",
+        "Goal: stop depending on the war-hit Strait of Hormuz",
+        "Chevron to lead; Iraq also signs up Starlink"
+      ],
+      "background": "Roughly a fifth of the world's oil is shipped through the Strait of Hormuz, a narrow sea passage between Iran and Oman \u2014 a classic 'chokepoint' where a single conflict can throttle global supply. With the US now fighting a war against Iran, tankers passing Hormuz face growing risk, and oil-exporting neighbours like Iraq are scrambling for safer routes to sell their crude.",
+      "what_happened": "At a US-Iraq business summit at the US Chamber of Commerce in Washington on Friday, the two sides signed preliminary agreements worth more than $60bn spanning energy, healthcare and technology. The headline deal is a plan for US giant Chevron to help rebuild the long-defunct pipeline from Iraq's oil-rich Kirkuk region to Syria's Mediterranean port of Baniyas \u2014 letting Iraqi crude reach world markets without going near Hormuz. Chevron signed two further oil-production deals, and Iraq also formally signed up Elon Musk's Starlink satellite internet.",
+      "why_it_matters": "It's a concrete move to 'chokepoint-proof' the oil trade: if crude can flow west through Syria to the Mediterranean, a blockade or attack at Hormuz hurts less. A US envoy said the deals could make Hormuz 'an afterthought'. It also deepens American commercial and strategic ties with Iraq at a moment when Washington is squeezing Iran next door.",
+      "ripple_effects": "Cheaper, safer export routes could steady global oil prices over time and blunt Iran's biggest threat \u2014 closing Hormuz. It draws Syria further into the US-aligned economic orbit, gives Chevron a major reconstruction contract, and could shift regional power away from Tehran. But a pipeline through Syria and northern Iraq crosses politically fragile, sometimes violent territory, so building it is far from guaranteed.",
+      "why_now": "Repeated US-Iran strikes have disrupted Hormuz shipping and pushed up fuel prices, giving Baghdad urgent reason \u2014 and Washington the leverage \u2014 to lock in alternative routes and lucrative American contracts.",
+      "watch_next": "Whether these preliminary deals turn into financed, signed contracts, and any Iranian response to being bypassed.",
+      "key_terms": [
+        {
+          "term": "Strait of Hormuz",
+          "definition": "A narrow shipping lane between Iran and Oman through which about a fifth of the world's oil passes."
+        },
+        {
+          "term": "Chokepoint",
+          "definition": "A narrow passage that a lot of trade must squeeze through, so blocking it can disrupt supplies far and wide."
+        }
+      ],
+      "the_lesson": "When a single passage carries a huge share of global supply, buyers and sellers will pay a lot to build backups \u2014 because in trade, having an alternative route is a form of insurance against conflict.",
+      "concepts": [
+        "strait_chokepoint",
+        "crude_geopolitics"
+      ],
+      "market_link": "Bullish for oil-route security over time (softening the Hormuz risk premium); a boost for Chevron and a strategic setback for Iran's leverage over crude prices.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/18/iraq-signs-48-deals-with-us-companies-during-pms-visit-to-washington"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/17/iran-war-iraq-syria-oil-pipeline-strait-hormuz.html"
+        }
+      ],
+      "added_at": "2026-07-18T23:27:04+05:30"
+    },
     {
       "category": "geopolitics",
       "published_iso": "2026-07-18T09:39:43+00:00",
@@ -60,7 +164,7 @@
         }
       ],
       "added_at": "2026-07-18T22:57:54+05:30",
-      "rank": 1
+      "rank": 3
     },
     {
       "category": "geopolitics",
@@ -124,7 +228,7 @@
           "url": "https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes"
         }
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "category": "climate",
@@ -184,10 +288,10 @@
           "url": "https://www.nbcnews.com/world/asia/landslide-southwest-china-traps-people-rescue-efforts-underway-rcna587957"
         }
       ],
-      "rank": 3
+      "rank": 5
     },
     {
-      "rank": 4,
+      "rank": 6,
       "category": "geopolitics",
       "published_iso": "2026-07-18T07:00:00+00:00",
       "regions": [
@@ -253,7 +357,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 7,
       "category": "geopolitics",
       "published_iso": "2026-07-17T14:57:00+00:00",
       "regions": [
@@ -318,7 +422,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 8,
       "category": "science",
       "published_iso": "2026-07-17T12:58:37+00:00",
       "regions": [
@@ -378,7 +482,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 9,
       "category": "geopolitics",
       "published_iso": "2026-07-18T01:29:47+00:00",
       "regions": [
@@ -443,7 +547,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 10,
       "category": "economy",
       "published_iso": "2026-07-17T20:05:00+00:00",
       "regions": [
@@ -509,7 +613,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 11,
       "category": "science",
       "published_iso": "2026-07-17T18:12:54+00:00",
       "regions": [
@@ -571,7 +675,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 12,
       "category": "technology",
       "published_iso": "2026-07-17T12:28:00+00:00",
       "regions": [
@@ -636,7 +740,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 13,
       "category": "health",
       "published_iso": "2026-07-16T12:04:58+00:00",
       "regions": [
@@ -697,7 +801,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 14,
       "category": "economy",
       "published_iso": "2026-07-15T05:14:11+00:00",
       "regions": [
@@ -758,7 +862,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 15,
       "category": "economy",
       "published_iso": "2026-07-16T05:37:03+00:00",
       "regions": [
@@ -822,7 +926,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 16,
       "category": "technology",
       "published_iso": "2026-07-16T09:00:00+00:00",
       "regions": [
@@ -880,7 +984,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 17,
       "category": "economy",
       "published_iso": "2026-07-15T16:45:00+00:00",
       "regions": [
@@ -949,7 +1053,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 18,
       "category": "health",
       "published_iso": "2026-07-15T00:00:00+00:00",
       "regions": [
@@ -1010,7 +1114,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 19,
       "category": "geopolitics",
       "published_iso": "2026-07-16T11:48:49+00:00",
       "regions": [
@@ -1077,7 +1181,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 20,
       "category": "technology",
       "published_iso": "2026-07-16T05:36:00+00:00",
       "regions": [
@@ -1138,111 +1242,104 @@
       ]
     },
     {
-      "rank": 19,
-      "category": "geopolitics",
-      "published_iso": "2026-07-16T07:45:59+00:00",
+      "rank": 21,
+      "category": "india",
+      "region": "india",
+      "published_iso": "2026-07-18T14:07:00+00:00",
       "regions": [
-        "Ukraine",
-        "Europe",
-        "Russia"
+        "India"
       ],
-      "title": "Zelensky fires Ukraine's popular 'drone-war' defence minister \u2014 and mass protests erupt in Kyiv as parliament installs a new prime minister",
+      "title": "Speaker lets 6 Uddhav Thackeray MPs defect to Shinde's Shiv Sena \u2014 a fresh blow to the UBT camp",
       "key_points": [
-        "Zelensky abruptly sacked defence minister Mykhailo Fedorov \u2014 no reason given",
-        "Fedorov is popular: he built the drone war that blunted Russia",
-        "Crowds rallied across Kyiv and other cities against the ouster",
-        "Parliament approved Serhii Koretskyi as new PM in a wider reshuffle"
+        "Lok Sabha Speaker recognises the 6 MPs' switch",
+        "Shinde's Sena now has 13 MPs; Uddhav left with 3",
+        "Cleared under the anti-defection law's 'merger' rule",
+        "Lifts the ruling NDA's Lok Sabha tally to 298"
       ],
-      "background": "Ukraine has been fighting off Russia's full-scale invasion since February 2022 \u2014 the war is now well past its 1,600th day. Because the country is under martial law (emergency wartime rule), normal elections are suspended, so its leadership can only change through President Volodymyr Zelensky and parliament, not the ballot box. Mykhailo Fedorov had become one of the war's most admired figures: a young, tech-savvy minister widely credited with turning cheap, mass-produced drones into a weapon that repeatedly let Ukraine outfight Russia's bigger and costlier military.",
-      "what_happened": "On July 15\u201316, 2026, Zelensky moved to dismiss Defence Minister Mykhailo Fedorov following a meeting with military leaders, and gave no public explanation for the decision. The move stunned Ukrainians and set off street protests in Kyiv and other cities, with civil-society groups and soldiers voicing anger at losing the minister they credit with the drone campaign. At the same time, parliament approved a broader government reshuffle: Serhii Koretskyi, a figure from the energy sector, was confirmed as the new prime minister, replacing Yulia Svyrydenko \u2014 Zelensky pointed to Koretskyi's experience preparing the country's power grid for winter.",
-      "why_it_matters": "Changing your defence minister in the middle of a war \u2014 and especially the person most credited with your biggest military success \u2014 is a jarring, high-risk move, and doing it with no stated reason has shaken public trust at a delicate moment. The backlash is a sign that Zelensky's wartime authority, long treated as beyond question, is now being openly challenged from within by the very people doing the fighting.",
-      "ripple_effects": "A leadership shake-up can unsettle Ukraine's Western backers, who are mid-negotiation on drone deals and waiting on licences for US-made Patriot air-defence missiles \u2014 allies prefer continuity in the officials they deal with. If the protests grow, they pull attention and national unity away from the front line, which is exactly what Moscow hopes for. The new prime minister's energy background hints the government is already bracing for another winter of Russian strikes on power plants. And the sacking raises an unanswered question \u2014 whether it reflects a policy clash, a personality dispute, or a power struggle inside Zelensky's inner circle.",
-      "why_now": "The immediate trigger was a military-leadership meeting after which Zelensky decided on the change, timed alongside a wider cabinet reshuffle he framed as 'refreshing' the government for the winter war effort \u2014 but the total absence of any stated reason is what turned a routine reshuffle into a public firestorm.",
-      "watch_next": "Whether the protests grow or fade, who Zelensky names as the new defence minister, and whether Western partners signal any wobble in drone and Patriot-missile support.",
+      "background": "The Shiv Sena, a big Maharashtra party, split in 2022 when Eknath Shinde broke away with most lawmakers and, backed by the BJP, took over the government \u2014 leaving founder Bal Thackeray's son Uddhav with a smaller faction, officially called Shiv Sena (UBT). India's anti-defection law normally bars lawmakers from switching parties to stop horse-trading, but it makes an exception: if two-thirds of a party's legislators agree to 'merge' with another party, the switch is legal and they keep their seats.",
+      "what_happened": "Lok Sabha Speaker Om Birla on Saturday formally recognised the merger of six Shiv Sena (UBT) MPs into the Shinde-led Shiv Sena. Because six of UBT's nine MPs crossed over \u2014 two-thirds \u2014 the move qualifies under the merger exception. That leaves Uddhav Thackeray's faction with just three MPs in the lower house of Parliament, while Shinde's group rises to 13. The decision, taken two days before Parliament's Monsoon Session, also lifts the BJP-led National Democratic Alliance's Lok Sabha strength to 298.",
+      "why_it_matters": "It hollows out Uddhav Thackeray's national presence right before Parliament reconvenes, and hands the ruling coalition a bigger cushion. It's also a real-world stress test of the anti-defection law: critics argue the 'merger' loophole lets governing parties legally absorb opponents, weakening the very defections the law was meant to prevent.",
+      "ripple_effects": "A stronger NDA count makes it easier for the government to push bills through the Monsoon Session. In Maharashtra, it further shrinks the Uddhav camp's clout ahead of future elections and hands Shinde a symbolic victory in the long battle over who is the 'real' Shiv Sena. Expect the UBT side to challenge or protest the ruling.",
+      "why_now": "The MPs had jumped to Shinde's side last month; formalising it just before the session gives the government maximum numbers when Parliament sits.",
+      "watch_next": "Whether Shiv Sena (UBT) contests the Speaker's decision, and how the strengthened NDA uses its numbers in the Monsoon Session.",
       "key_terms": [
         {
-          "term": "Martial law",
-          "definition": "Emergency wartime rule that concentrates power in the government and suspends normal elections \u2014 which is why Ukraine's leaders change by appointment, not by a public vote, during the war."
+          "term": "Anti-defection law",
+          "definition": "A rule that disqualifies lawmakers who switch parties, meant to stop them being bought \u2014 but it allows a legal switch if two-thirds of a party agree to merge with another."
         },
         {
-          "term": "Defence minister",
-          "definition": "The civilian official who runs a country's armed forces, weapons purchases and military policy."
-        },
-        {
-          "term": "Patriot missiles",
-          "definition": "Advanced US-made air-defence missiles that shoot down incoming aircraft and ballistic missiles \u2014 a top priority for Ukraine against Russian air strikes."
+          "term": "Lok Sabha",
+          "definition": "The directly-elected lower house of India's Parliament, where the party or coalition with a majority forms the government."
         }
       ],
-      "the_lesson": "Even under wartime rule, a leader's power ultimately rests on public trust \u2014 and removing a popular, successful official without explaining why can spark the very instability the move was meant to avoid. Transparency isn't a courtesy in a crisis; it's what keeps authority intact when people can't simply vote you out.",
+      "the_lesson": "Laws written to block one loophole often leave another: India's ban on defections still permits mass switches dressed up as 'mergers', showing how the exact wording of a rule shapes who holds power.",
       "concepts": [
-        "martial_law"
+        "lok_sabha",
+        "coalition_government"
       ],
-      "market_link": "Ukraine isn't a market itself, but political turbulence in a country mid-war can nudge European risk sentiment and defence and drone-maker shares, and any wobble in Western arms support feeds into how markets price the broader Ukraine-Russia war risk.",
-      "importance": "high",
+      "market_link": null,
+      "importance": "notable",
       "sources": [
         {
-          "name": "NPR",
-          "url": "https://www.npr.org/2026/07/16/nx-s1-5894781/dismissal-of-ukraines-popular-defense-minister-draws-intense-criticism"
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/lok-sabha-speaker-approves-merger-of-six-shiv-sena-ubt-mps-with-the-eknath-shinde-led-shiv-sena/article71238932.ece"
         },
         {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do"
-        },
-        {
-          "name": "AP News",
-          "url": "https://apnews.com/article/russia-ukraine-war-defense-minister-reshuffle-fedorov-88083e4381b1690f5048088d75954d3a"
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/politics/ls-speaker-birla-approves-merger-of-rebel-ss-ubt-with-shinde-led-shiv-sena-126071800860_1.html"
         }
-      ]
+      ],
+      "added_at": "2026-07-18T23:27:04+05:30"
     },
     {
-      "rank": 20,
-      "category": "economy",
-      "published_iso": "2026-07-16T10:00:20+00:00",
+      "rank": 22,
+      "category": "india",
+      "region": "india",
+      "published_iso": "2026-07-18T05:58:48+00:00",
       "regions": [
-        "Europe",
-        "US",
-        "Global"
+        "India"
       ],
-      "title": "Uber makes a $14.8bn move to swallow Delivery Hero \u2014 a bid to build the world's biggest food-delivery firm outside China",
+      "title": "Police forcibly move a fasting Sonam Wangchuk to hospital on day 21 of his Ladakh protest",
       "key_points": [
-        "Uber offers \u20ac41.50 a share in cash, valuing Delivery Hero at ~$14.8bn",
-        "Deal would nearly double Uber's combined ride+delivery markets, 34 to 58",
-        "Delivery Hero's board backs it; top shareholder Prosus agrees to sell",
-        "Uber offloads 14 overlapping markets to defuse competition concerns"
+        "Climate activist removed from Delhi's Jantar Mantar before dawn",
+        "He was 20+ days into a hunger strike for Ladakh's rights",
+        "Doctors said he needed 'immediate medical intervention'",
+        "Opposition calls it repression of peaceful protest"
       ],
-      "background": "Delivery Hero is a Berlin-based company that owns a patchwork of regional food-delivery brands \u2014 apps like Foodpanda, Talabat and Glovo \u2014 across Europe, the Middle East, Asia and Latin America, the kind of service that brings restaurant meals and groceries to your door. Uber, best known for ride-hailing, has spent years turning Uber Eats into a second engine of its business. For a decade the delivery industry has been a race to grab as many cities as possible and then swallow the heavy losses that come from paying drivers and undercutting rivals \u2014 so the survivors are now buying each other to reach a size where the business finally makes money.",
-      "what_happened": "On July 16, 2026 Uber launched a public takeover offer for Delivery Hero, offering shareholders \u20ac41.50 per share in cash \u2014 an equity value of about $14.8 billion (roughly $13.7bn after Uber's earlier stake purchases). Delivery Hero's management and supervisory boards unanimously backed the bid, and Prosus, its biggest shareholder, agreed to hand over its shares, which would take Uber's economic interest to about 53%. To ease competition worries, a separate buyer, SSW Partners, will take Delivery Hero's businesses in 14 markets where the two already overlap for about $1.6 billion. Uber CEO Dara Khosrowshahi said the deal would roughly double the number of markets where Uber offers both rides and delivery \u2014 from 34 to 58.",
-      "why_it_matters": "This is one of the largest deals ever in the app-delivery world, and it would make the combined Uber the dominant food-delivery player almost everywhere outside China. Consolidation on this scale changes who sets prices and delivery fees for millions of customers and restaurants, and how much bargaining power gig drivers have. It also signals that the 'grow at any cost' era of delivery apps is ending \u2014 the money now flows to whoever can be the last big platform standing in each region.",
-      "ripple_effects": "If regulators in Europe, the Middle East and Asia clear it, Uber gains tens of millions of new users and a ready-made network in regions where it was weak \u2014 but it also inherits the punishing economics of low-margin food delivery. Restaurants and shoppers could face less competition, which over time can mean higher fees or commissions. Rivals like DoorDash and Just Eat may feel pressure to bulk up through their own deals. And the SSW carve-out shows how big tech deals now get pre-negotiated with antitrust in mind \u2014 selling off overlapping markets up front to win approval.",
-      "why_now": "Years of losses and investor pressure have pushed delivery apps to merge rather than keep burning cash fighting each other; Delivery Hero, long unprofitable and carrying debt, became a natural target, and Uber \u2014 now consistently profitable \u2014 has the firepower to buy scale. Prosus's willingness to sell its large stake is what made a clean deal possible today.",
-      "watch_next": "Watch whether EU and other antitrust regulators demand deeper divestitures \u2014 and whether enough Delivery Hero shareholders tender their shares to let Uber actually close the deal.",
+      "background": "Sonam Wangchuk is a famous engineer-educator from Ladakh, the high-altitude region in India's far north that was carved out as a federally-run 'union territory' in 2019 (meaning New Delhi, not a local elected government, runs it). Since then, Ladakhi groups have demanded statehood and protection under the Constitution's Sixth Schedule \u2014 a special provision that gives tribal areas control over their own land, culture and resources. Wangchuk has led repeated hunger strikes to push these demands, and this time also folded in a nationwide student protest over leaked exam papers.",
+      "what_happened": "In the early hours of Saturday, day 21 of his indefinite fast at Delhi's Jantar Mantar protest site, Delhi Police moved Wangchuk to Safdarjung Hospital, citing a Delhi High Court order and medical advice; hospital bulletins and an independent AIIMS expert said he needed immediate care. Protesters said white bedsheets were used to shield the operation, and that he was taken away in about five minutes. Wangchuk reportedly refused medical interventions, and fellow activists \u2014 including at least 21 others still fasting \u2014 vowed to continue; one, Abhijeet Dipke, began a fresh fast in his place.",
+      "why_it_matters": "This turns a regional grievance into a national test of how India handles peaceful dissent. Wangchuk is a globally respected figure, so images of police carrying away a frail, fasting protester draw scrutiny at home and abroad. It also keeps a spotlight on Ladakh's unresolved constitutional demands and on whether the central government negotiates or simply waits protests out.",
+      "ripple_effects": "Opposition and Left parties have condemned the removal and backed the protest, sharpening the fight just before Parliament's Monsoon Session opens on Monday. If Wangchuk's health worsens, or if the promised July 20 march to Parliament goes ahead, tensions in Ladakh \u2014 where similar protests turned violent before \u2014 could flare again, pressuring the government to reopen talks on statehood and Sixth Schedule protections.",
+      "why_now": "The fast had reached a medically dangerous stage on day 21, and a court order plus hospital warnings gave authorities the legal cover to act \u2014 timed, protesters allege, to the pre-dawn lull when fewer supporters and cameras were present.",
+      "watch_next": "Whether Wangchuk resumes or ends the fast in hospital, and if the July 20 'march to Parliament' proceeds as the Monsoon Session begins.",
       "key_terms": [
         {
-          "term": "Takeover (tender) offer",
-          "definition": "A public offer to buy a company by asking its shareholders to sell ('tender') their shares, usually at a set cash price each."
+          "term": "Sixth Schedule",
+          "definition": "A part of India's Constitution that lets certain tribal areas run their own councils with power over land, forests and local customs."
         },
         {
-          "term": "Prosus",
-          "definition": "A large Dutch-listed tech investment group (spun out of South Africa's Naspers) that was Delivery Hero's biggest shareholder."
-        },
-        {
-          "term": "Divestiture / carve-out",
-          "definition": "Selling off part of a business \u2014 here, the overlapping markets Uber agrees to give up so competition regulators will approve the deal."
+          "term": "Union territory",
+          "definition": "A region governed directly by the central government in New Delhi rather than by its own fully-empowered state government."
         }
       ],
-      "the_lesson": "In platform businesses, markets tend to collapse toward one or two dominant players \u2014 so after a long, loss-making land grab, the endgame is consolidation: the profitable survivor buys the rest to own the network. And big acquirers now design deals to pass antitrust review, pre-selling the overlapping pieces before regulators even ask.",
-      "market_link": "Uber (UBER) and Delivery Hero (DHER) shares are the direct movers; Prosus (PRX) monetises a big stake, while rivals such as DoorDash (DASH) and Just Eat Takeaway trade on the read-through for delivery-sector consolidation.",
+      "the_lesson": "How a government responds to a hunger strike \u2014 negotiate, ignore, or forcibly end it \u2014 often becomes a bigger story than the original demand, because the method of dissent tests the state's tolerance for protest.",
+      "concepts": [
+        "state_vs_centre",
+        "parliament_india"
+      ],
+      "market_link": null,
       "importance": "high",
       "sources": [
         {
-          "name": "Uber (investor release)",
-          "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Acquisition-Offer-for-Delivery-Hero/default.aspx"
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/sonam-wangchuk-shifted-to-hospital-hunger-strike-abhijeet-dipke-jantar-mantar-july-18-2026/article71236976.ece"
         },
         {
-          "name": "Reuters",
-          "url": "https://www.aol.com/articles/uber-launches-14-8-billion-062550000.html"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do"
         }
-      ]
+      ],
+      "added_at": "2026-07-18T23:27:04+05:30"
     },
     {
       "category": "india",
@@ -1305,7 +1402,7 @@
         }
       ],
       "added_at": "2026-07-18T22:57:54+05:30",
-      "rank": 21
+      "rank": 23
     },
     {
       "category": "india",
@@ -1370,7 +1467,7 @@
           "url": "https://www.reuters.com/world/india/indias-hdfc-bank-reports-5-rise-q1-profit-meeting-estimates-2026-07-18/"
         }
       ],
-      "rank": 22
+      "rank": 24
     },
     {
       "category": "india",
@@ -1426,10 +1523,10 @@
           "url": "https://www.tv9hindi.com/state/gujarat/ahmedabad-firecracker-factory-fire-eight-dead-over-fifteen-injured-mahmudpura-talent-fireworks-3854311.html"
         }
       ],
-      "rank": 23
+      "rank": 25
     },
     {
-      "rank": 24,
+      "rank": 26,
       "category": "india",
       "published_iso": "2026-07-18T07:55:00+00:00",
       "regions": [
@@ -1493,7 +1590,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 27,
       "category": "india",
       "published_iso": "2026-07-18T09:04:54+00:00",
       "regions": [
@@ -1553,7 +1650,7 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 28,
       "category": "india",
       "published_iso": "2026-07-17T15:16:49+00:00",
       "regions": [
@@ -1613,7 +1710,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 29,
       "category": "india",
       "published_iso": "2026-07-17T20:56:07+00:00",
       "regions": [
@@ -1672,7 +1769,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 30,
       "category": "india",
       "published_iso": "2026-07-18T07:30:00+00:00",
       "regions": [
@@ -1733,7 +1830,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 31,
       "category": "india",
       "published_iso": "2026-07-18T04:16:55+00:00",
       "regions": [
@@ -1800,7 +1897,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 32,
       "category": "india",
       "published_iso": "2026-07-17T12:30:00+00:00",
       "regions": [
@@ -1859,7 +1956,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 33,
       "category": "india",
       "published_iso": "2026-07-16T14:49:56+00:00",
       "regions": [
@@ -1918,7 +2015,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 34,
       "category": "india",
       "published_iso": "2026-07-16T14:45:12+00:00",
       "regions": [
@@ -1977,7 +2074,7 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 35,
       "category": "india",
       "published_iso": "2026-07-16T05:43:00+00:00",
       "regions": [
@@ -2039,7 +2136,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 36,
       "category": "india",
       "published_iso": "2026-07-15T10:00:00+00:00",
       "regions": [
@@ -2096,7 +2193,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 37,
       "category": "india",
       "published_iso": "2026-07-16T12:35:32+00:00",
       "regions": [
@@ -2157,7 +2254,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 38,
       "category": "india",
       "published_iso": "2026-07-16T11:54:07+00:00",
       "regions": [
@@ -2218,7 +2315,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 39,
       "category": "india",
       "published_iso": "2026-07-16T11:58:53+00:00",
       "regions": [
@@ -2270,7 +2367,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 40,
       "category": "india",
       "published_iso": "2026-07-13T10:36:11+00:00",
       "regions": [
@@ -2332,117 +2429,101 @@
       ]
     },
     {
-      "rank": 39,
-      "category": "india",
-      "published_iso": "2026-07-15T12:12:40+00:00",
+      "rank": 41,
+      "category": "cricket",
+      "region": "cricket",
+      "published_iso": "2026-07-18T13:03:00+00:00",
       "regions": [
         "India",
-        "UK",
-        "Europe"
+        "England"
       ],
-      "title": "India's biggest trade deal with the West goes live: the India-UK free-trade pact kicks in \u2014 cheaper Scotch and British cars coming in, near-zero tariffs for Indian exports going out",
+      "title": "India vs England ODI series goes to a Lord's decider \u2014 with Rohit Sharma's future in the spotlight",
       "key_points": [
-        "India-UK free-trade deal (CETA) took effect on July 15",
-        "UK drops or cuts tariffs on 98.8% of its tariff lines",
-        "~99% of Indian exports get duty-free UK access \u2014 textiles, leather, gems",
-        "Scotch whisky and British cars set to get cheaper for Indian buyers"
+        "Series level 1-1 after England win in Cardiff",
+        "Decider at Lord's; India seek first series win in England since 2018",
+        "Rohit Sharma under retirement speculation, joins optional practice",
+        "Harsh Dubey replaces injured Washington Sundar"
       ],
-      "background": "A free-trade agreement (FTA) is a pact in which two countries slash the taxes \u2014 called tariffs \u2014 they charge on each other's goods, making trade cheaper and larger for both sides. India has historically been cautious about FTAs, worried that a flood of cheap imports could hurt local industry, so it has struck few deals with rich Western economies. After years of on-and-off talks, India and the UK finalised the Comprehensive Economic and Trade Agreement (CETA) \u2014 India's most significant trade deal yet with a major developed economy.",
-      "what_happened": "On July 15, 2026, the India-UK CETA formally came into force. Under it, the UK removes or reduces tariffs on 98.8% of its tariff lines, covering 99.5% of the value of trade, which gives roughly 99% of Indian exports duty-free entry to Britain \u2014 a major win for labour-intensive sectors such as textiles, leather, footwear, gems and jewellery, and marine products. In return, India will gradually cut tariffs on British goods: the steep import tax on Scotch whisky drops from about 150% (to 75% now, and toward 40% over a decade), and British cars get lower duties within set quotas. The deal also eases rules for services and professionals, and exempts many Indian workers on temporary UK postings from paying UK social-security contributions for three years. On the first day, India shipped out roughly $140 million of goods duty-free, with early consignments flagged off from ports including Kolkata and from Karnataka.",
-      "why_it_matters": "This swings open the door to the UK \u2014 one of the world's largest economies \u2014 for millions of Indian exporters and workers, and it marks a strategic shift: India, long protective of its home market, is now willing to sign deep trade deals with the developed world. It is also a template for the far bigger prizes India is chasing next \u2014 trade agreements with the European Union and the United States.",
-      "ripple_effects": "Indian garment, leather and jewellery makers \u2014 industries that employ huge numbers of people \u2014 gain a price edge in Britain that could lift both exports and jobs. Indian consumers may eventually see cheaper Scotch and British cars, though those cuts phase in slowly. British firms get smoother access to India's vast market and its government contracts. The professional-mobility and social-security provisions make it easier and cheaper for Indian IT and skilled workers to take short-term postings in the UK. And rival exporters in Bangladesh, Vietnam and China lose a slice of their edge in the British market.",
-      "why_now": "The two governments spent years negotiating and then ratifying the pact, and July 15, 2026 was the agreed date for it to legally take effect \u2014 the moment a signed agreement turns into real, tariff-cutting trade.",
-      "watch_next": "Whether the promised export surge actually shows up in the coming months' trade data, and whether this momentum helps India close its far larger and more contentious trade talks with the US and the EU.",
+      "background": "India and England are playing a three-match one-day international (ODI) series \u2014 the 50-overs-a-side format. Veteran opener Rohit Sharma, 39, was recently removed as India's ODI captain and has struggled for runs, fuelling talk that this could be one of his last outings and that younger opener Yashasvi Jaiswal is ready to replace him.",
+      "what_happened": "England levelled the series 1-1 by winning the second ODI in Cardiff, guided by Joe Root's unbeaten 99. That sets up a winner-takes-all third ODI at Lord's, cricket's most famous ground. Amid swirling retirement rumours, Rohit turned up for India's optional practice and looked in good touch, while India named all-rounder Harsh Dubey to replace the injured Washington Sundar, opening the door for spinner Kuldeep Yadav's possible return. India have not won a bilateral ODI series in England since 2018.",
+      "why_it_matters": "It's a genuine decider with a personal subplot: a legend of Indian cricket may be playing to prove he still belongs, in the same match that decides the series. For India, ending a long drought of ODI series wins in England would be a marker of the team's transition to a younger core.",
+      "ripple_effects": "Rohit's performance could shape selection debates and his own career timeline heading toward major tournaments; a series win or loss feeds into how India rebuilds its one-day side. For England, backing up their Cardiff comeback would validate a reshaped ODI unit.",
+      "why_now": "The Cardiff result squared the series at 1-1, so everything rests on the final match at Lord's this weekend.",
+      "watch_next": "The result of the Lord's decider \u2014 and whether Rohit's showing quiets or amplifies the retirement talk.",
       "key_terms": [
         {
-          "term": "Free-trade agreement (FTA)",
-          "definition": "A deal in which countries cut or remove tariffs and other barriers on each other's goods and services to boost trade between them."
+          "term": "ODI (One-Day International)",
+          "definition": "A limited-overs cricket match where each side bats for 50 overs, usually finished in a single day."
         },
         {
-          "term": "Tariff",
-          "definition": "A tax a country charges on imported goods, which makes them more expensive; cutting the tariff makes those imports cheaper."
-        },
-        {
-          "term": "CETA",
-          "definition": "The Comprehensive Economic and Trade Agreement \u2014 the formal name of the India-UK trade pact."
-        },
-        {
-          "term": "Tariff line",
-          "definition": "A single product category in a country's official list of import taxes; '98.8% of tariff lines' means almost every type of product is covered."
+          "term": "Bilateral series",
+          "definition": "A series played between just two nations, separate from multi-team tournaments like the World Cup."
         }
       ],
-      "the_lesson": "Free-trade deals work by trading away protection: each side gives up some of its tariffs to win access to the other's market. The winners are exporters and the consumers of the newly cheaper goods; the real test is always whether the jobs and sales gained outweigh the home industries newly exposed to competition.",
-      "concepts": [
-        "tariffs"
-      ],
-      "market_link": "Positive for Indian textile, leather, gems-and-jewellery and auto-component exporters with UK exposure, and for UK-facing IT services firms; watch listed apparel and jewellery exporters and the trade-driven flows in the rupee.",
-      "importance": "high",
-      "sources": [
-        {
-          "name": "The Hindu",
-          "url": "https://www.thehindu.com/business/what-are-the-gains-from-the-india-uk-trade-deal-explained/article71224212.ece"
-        },
-        {
-          "name": "The Hindu (Economy)",
-          "url": "https://www.thehindu.com/business/Economy/most-ambitious-and-aspirational-ftas-india-uk-trade-deal-set-to-come-into-force-on-july-15/article71221192.ece"
-        },
-        {
-          "name": "Mint (CETA explainer)",
-          "url": "https://www.livemint.com/economy/india-uk-ceta-trade-deal-explained-exporters-services-msmes-11784083260248.html"
-        }
-      ]
-    },
-    {
-      "rank": 40,
-      "category": "india",
-      "published_iso": "2026-07-16T09:35:37+00:00",
-      "regions": [
-        "India"
-      ],
-      "title": "India's first hydrogen train is here: Modi flags off a zero-emission trainset from Haryana on Friday",
-      "key_points": [
-        "Modi to flag off India's first hydrogen train on July 17 from Jind, Haryana",
-        "Runs the ~89 km Jind\u2013Sonipat route; emits only water vapour",
-        "Among the world's most powerful hydrogen trainsets at ~2,400 kW",
-        "First of a planned 35 hydrogen trains for scenic/heritage routes"
-      ],
-      "background": "Most Indian trains run either on diesel or on electricity drawn from overhead wires. Diesel pollutes; stringing electric wires over every remote or hilly line is slow and costly. A hydrogen train sidesteps both: it carries hydrogen gas and runs it through a 'fuel cell' \u2014 a device that combines hydrogen with oxygen from the air to make electricity, with only water vapour coming out the back. India announced its 'Hydrogen for Heritage' programme in 2023 to put such trains on ecologically sensitive and scenic routes, and this is the first one to actually roll.",
-      "what_happened": "Indian Railways has built India's first hydrogen-powered train, and Prime Minister Narendra Modi is set to flag it off on July 17, 2026 from Jind in Haryana, where it will run the roughly 89-km Jind\u2013Sonipat section. The 10-coach trainset is rated at about 2,400 kilowatts \u2014 among the most powerful hydrogen trains in the world \u2014 seats around 680 passengers, and uses hydrogen fuel cells plus batteries for propulsion, emitting only water. The flag-off is part of a wider Modi tour of Haryana, Chandigarh and Punjab on July 17 to launch projects worth about \u20b926,800 crore (roughly $3 billion).",
-      "why_it_matters": "Transport is one of the hardest parts of the economy to clean up, and railways are India's lifeline. A working hydrogen train shows India can cut diesel pollution on lines that are too remote or costly to electrify \u2014 without importing the core technology. If it scales, it strengthens India's push to become a maker, not just a buyer, of green-hydrogen technology, an industry New Delhi is betting on for jobs and energy security.",
-      "ripple_effects": "Success here feeds the plan for 35 hydrogen trains and creates demand for green hydrogen, fuel cells and refuelling stations \u2014 a supply chain that Indian firms and railway suppliers are racing to build. But hydrogen is still expensive to produce and store, and refuelling infrastructure barely exists, so these early trains are as much a proving ground as a transport solution. For passengers on heritage and hill routes, it could eventually mean quieter, cleaner journeys.",
-      "why_now": "The flag-off caps years of development under the 2023 'Hydrogen for Heritage' plan and lands as India leans hard into green hydrogen as a strategic industry; slotting it into a multi-project prime-ministerial tour maximises its visibility just as the country courts clean-energy investment.",
-      "watch_next": "Watch the July 17 flag-off, then the real test: how reliably and at what cost the train runs the Jind\u2013Sonipat line in daily service, and whether more of the promised 35 trains actually follow.",
-      "key_terms": [
-        {
-          "term": "Green hydrogen",
-          "definition": "Hydrogen fuel made by using renewable electricity (solar/wind) to split water into hydrogen and oxygen, so making and using it adds little or no carbon."
-        },
-        {
-          "term": "Hydrogen fuel cell",
-          "definition": "A device that turns hydrogen and oxygen into electricity, producing only water and heat \u2014 no exhaust pollution."
-        },
-        {
-          "term": "Hydrogen for Heritage",
-          "definition": "Indian Railways' 2023 initiative to run 35 hydrogen-powered trains on scenic and ecologically sensitive routes."
-        }
-      ],
-      "the_lesson": "The hardest emissions to cut are in transport and heavy industry, where batteries and wires don't easily reach \u2014 which is why countries are testing hydrogen there first. A pilot like this is less about one train than about proving a whole new supply chain (fuel, storage, refuelling) can work at all.",
-      "market_link": "A thematic rather than an instant market mover: it supports India's green-hydrogen and rail-equipment ecosystem \u2014 railway rolling-stock and engineering suppliers, and industrial-gas/electrolyser makers positioning for the National Green Hydrogen Mission \u2014 rather than moving any single stock today.",
+      "the_lesson": "In sport, individual and team stories often collide in one game \u2014 pressure on an ageing star can either sharpen a career-defining performance or hasten its end.",
+      "market_link": null,
       "importance": "notable",
       "sources": [
         {
-          "name": "NDTV",
-          "url": "https://www.ndtv.com/india-news/pm-narendra-modi-to-flag-off-indias-first-hydrogen-train-in-haryana-on-friday-11779093"
+          "name": "ESPNcricinfo",
+          "url": "https://www.cricinfo.com/ci/content/story/1546091.html"
         },
         {
-          "name": "DD News",
-          "url": "https://ddnews.gov.in/en/pm-modi-to-visit-haryana-chandigarh-and-punjab-on-july-17-to-launch-projects-worth-%E2%82%B926800-crore-flag-off-indias-first-hydrogen-train/"
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/sport/cricket/eng-vs-ind-third-odi-rohits-future-and-the-series-on-the-line/article71238320.ece"
         },
         {
-          "name": "The Tribune",
-          "url": "https://www.tribuneindia.com/news/haryana/hydrogen-train-powers-modis-haryana-visit/"
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/cricket/videos/c151gppk448o"
         }
-      ]
+      ],
+      "added_at": "2026-07-18T23:27:04+05:30"
+    },
+    {
+      "rank": 42,
+      "category": "f1",
+      "region": "f1",
+      "published_iso": "2026-07-18T15:26:31+00:00",
+      "regions": [
+        "Belgium"
+      ],
+      "title": "Antonelli beats Verstappen to pole at the Belgian GP as Mercedes keeps dominating qualifying",
+      "key_points": [
+        "Kimi Antonelli takes his 6th pole of 2026",
+        "Beat Max Verstappen by 0.317s at Spa",
+        "Verstappen aided by a team-mate's slipstream",
+        "Champion Lando Norris hit with a 10-place grid penalty"
+      ],
+      "background": "Formula 1's qualifying decides the starting order for Sunday's race, and starting up front is a big advantage on tracks where overtaking is hard. Italian teenager Kimi Antonelli, in only his second F1 season with Mercedes, leads the 2026 drivers' championship, and Mercedes cars have been fastest over one lap all year.",
+      "what_happened": "At the Belgian Grand Prix at Spa-Francorchamps, Antonelli clinched his sixth pole position of the season, edging four-time champion Max Verstappen by 0.317 seconds. Verstappen admitted he only reached the front row thanks to a 'tow' \u2014 a slipstream \u2014 from Red Bull team-mate Isack Hadjar, who runs at the back after engine-change penalties. Reigning champion Lando Norris will drop 10 places on the grid for using too many engine parts, and Lewis Hamilton crashed his Ferrari in final practice earlier in the day.",
+      "why_it_matters": "It reinforces Antonelli as the man to beat in a breakout season and tightens Mercedes' grip on qualifying. Grid penalties for Norris and others reshuffle the order, giving Antonelli a strong chance to convert pole into points and extend his title lead.",
+      "ripple_effects": "Track position at Spa can decide the race, so this hands Antonelli momentum in the championship; Norris's penalty forces a recovery drive; and Verstappen's reliance on a team-mate's tow hints at Red Bull's pace deficit. Rivals will study Mercedes' one-lap edge before the next round.",
+      "why_now": "Saturday qualifying set the grid for Sunday's Belgian Grand Prix.",
+      "watch_next": "Sunday's race \u2014 whether Antonelli converts pole into a win, and how far Norris climbs from his penalty.",
+      "key_terms": [
+        {
+          "term": "Pole position",
+          "definition": "The first place on the starting grid, earned by the fastest lap in qualifying."
+        },
+        {
+          "term": "Tow (slipstream)",
+          "definition": "Following closely behind another car to sit in its wake, cutting air resistance and gaining speed."
+        }
+      ],
+      "the_lesson": "Even in a sport built on individual speed, small tactics like slipstreaming and the rules on engine parts can decide who starts where \u2014 proving strategy and reliability matter as much as raw pace.",
+      "market_link": null,
+      "importance": "notable",
+      "sources": [
+        {
+          "name": "Autosport",
+          "url": "https://www.autosport.com/f1/news/f1-belgian-gp-antonelli-defeats-verstappen-to-take-pole/10839836/"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/cp8xep2w0epo"
+        }
+      ],
+      "added_at": "2026-07-18T23:27:04+05:30"
     }
   ],
   "also_notable": [],
