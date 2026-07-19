@@ -1,8 +1,8 @@
 {
-  "last_check": "2026-07-19T23:06:02+05:30",
+  "last_check": "2026-07-19T23:44:12+05:30",
   "last_kind": "hourly",
   "cadence_min": 30,
-  "next_update_est": "2026-07-19T23:36:02+05:30",
+  "next_update_est": "2026-07-20T00:14:12+05:30",
   "counts": {
     "global": 20,
     "india": 20,
@@ -10,28 +10,28 @@
     "cricket": 3
   },
   "total": 47,
-  "last_update": "2026-07-19T23:06:02+05:30",
+  "last_update": "2026-07-19T23:44:12+05:30",
   "last_added": [
     {
-      "title": "Lebanon's president heads to the White House with a plan to disarm Hezbollah — the first Lebanese leader to visit in nearly 20 years",
+      "title": "China's Moonshot AI moves to cash in on its 'Kimi' moment — planning a Hong Kong listing within six months at a $30bn-plus valuation",
       "region": "global",
-      "published_iso": "2026-07-19T11:00:00+00:00"
+      "published_iso": "2026-07-19T16:29:08+00:00"
     },
     {
-      "title": "20 Trinamool MPs break from Mamata Banerjee to merge with a tiny party — a legal workaround to defect without losing their seats",
-      "region": "india",
-      "published_iso": "2026-07-19T17:06:42+00:00"
-    },
-    {
-      "title": "Hundreds of Israelis march on the Gaza border to demand Jewish resettlement — with coalition ministers backing them",
+      "title": "A second person dies in a Legionnaires' disease outbreak on Manhattan's Upper East Side — 72 sickened, but officials say the source is likely gone",
       "region": "global",
-      "published_iso": "2026-07-19T12:30:00+00:00"
+      "published_iso": "2026-07-19T16:08:00+00:00"
     },
     {
-      "title": "India moves to add four more Supreme Court judges — a bill to fight the country's mountain of pending cases",
+      "title": "Yes Bank — the lender that nearly collapsed in 2020 — posts a 34% jump in quarterly profit as its turnaround gathers pace",
       "region": "india",
-      "published_iso": "2026-07-19T06:30:00+00:00"
+      "published_iso": "2026-07-18T16:38:32+00:00"
+    },
+    {
+      "title": "India Inc's mandatory 'giving' hits a record ₹40,794 crore — the money big companies are legally required to spend on society jumps 17%",
+      "region": "india",
+      "published_iso": "2026-07-19T07:12:19+00:00"
     }
   ],
-  "added_count": 6
+  "added_count": 4
 }

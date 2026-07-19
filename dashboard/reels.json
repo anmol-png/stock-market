@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "generated_at": "2026-07-19T23:06:02+05:30",
+  "generated_at": "2026-07-19T23:44:12+05:30",
   "day_label": "Sunday · 19 July 2026",
   "dashboard_url": "../",
   "cards": [
@@ -8,6 +8,129 @@
       "type": "story",
       "id": "story-1",
       "rank": 1,
+      "category": "health",
+      "is_new": true,
+      "published_iso": "2026-07-19T16:08:00+00:00",
+      "added_at": "2026-07-19T23:37:05+05:30",
+      "source": "CBS New York",
+      "importance": "notable",
+      "regions": [
+        "US"
+      ],
+      "title": "A second person dies in a Legionnaires' disease outbreak on Manhattan's Upper East Side — 72 sickened, but officials say the source is likely gone",
+      "what_happened": "The New York City Health Department said a second person has died in a cluster of Legionnaires' cases centred on the Upper East Side of Manhattan. In all, 72 people have been infected: two have died, nine are currently in hospital, 50 have already been discharged and 11 did not need hospital care. Officials have been testing the cooling towers of nearby buildings and ordering owners to drain and disinfect any that test positive.",
+      "key_points": [
+        "72 people infected on Manhattan's Upper East Side, 2 now dead",
+        "9 people are still hospitalised; most others have recovered",
+        "Cause: Legionella bacteria that breeds in warm, stagnant water",
+        "Officials suspect building cooling towers and say cases are falling"
+      ],
+      "moot": "Deadly infections don't always come from other people — man-made systems like air-conditioning and plumbing can breed and broadcast disease, which is why routine maintenance and inspection are a genuine public-health tool.",
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "Legionnaires' disease is a severe form of pneumonia (a lung infection) caused by breathing in tiny water droplets carrying Legionella bacteria, which thrive in warm, stagnant water. It is not spread person-to-person — outbreaks are usually traced to man-made water systems, most often the 'cooling towers' that sit on top of large buildings and shed a fine mist as part of their air-conditioning. New York City, with thousands of such towers, sees clusters most summers when the weather is hot.",
+        "why_it_matters": "Two deaths and dozens of infections in a dense, wealthy neighbourhood is a reminder that a deadly disease can spread from something as mundane as a building's air-conditioning. It also shows public-health teams can often trace and shut down the source — the city says new cases are steadily falling, suggesting the contaminated water system has likely been cleaned out.",
+        "ripple_effects": "Building owners across the city face renewed pressure to test and disinfect cooling towers, and residents — especially older people and those with weak lungs or immune systems, who are most at risk — are being urged to watch for flu-like symptoms. Summer clusters like this fuel calls for tighter, year-round inspection rules on the water systems that cause them.",
+        "why_now": "Legionella multiplies fastest in warm water, so cases spike in mid-summer; the second death, announced this weekend, is what pushed the ongoing cluster back into the headlines.",
+        "watch_next": "Whether the case count keeps falling in the coming days — the sign officials use to confirm the source has truly been eliminated — and whether they publicly identify the specific building responsible.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "Legionnaires' disease",
+            "definition": "A serious lung infection (pneumonia) caught by inhaling water droplets that contain Legionella bacteria; it is not passed between people."
+          },
+          {
+            "term": "Cooling tower",
+            "definition": "A rooftop unit that helps cool large buildings by evaporating water; if not cleaned, its warm water can grow Legionella and spread it in the mist."
+          }
+        ],
+        "sources": [
+          {
+            "name": "CBS New York",
+            "url": "https://www.cbsnews.com/newyork/news/upper-east-side-legionnaires-disease-cluster-2nd-death/"
+          },
+          {
+            "name": "AP News",
+            "url": "https://abc7chicago.com/story/second-death-reported-legionnaires-disease-outbreak-new-york-city/19537559/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-2",
+      "rank": 2,
+      "category": "technology",
+      "is_new": true,
+      "development": true,
+      "prev_ref": {
+        "title": "China's Moonshot AI unveils Kimi K3 — a giant, cheap open model that rivals America's best and triggers a 'DeepSeek moment' chip selloff",
+        "date": null
+      },
+      "published_iso": "2026-07-19T16:29:08+00:00",
+      "added_at": "2026-07-19T23:37:05+05:30",
+      "source": "Bloomberg",
+      "importance": "high",
+      "regions": [
+        "China",
+        "Hong Kong",
+        "US"
+      ],
+      "title": "China's Moonshot AI moves to cash in on its 'Kimi' moment — planning a Hong Kong listing within six months at a $30bn-plus valuation",
+      "what_happened": "According to Bloomberg, Moonshot has formally sent its shareholders a resolution seeking their approval for a stock-market listing (IPO) in Hong Kong, telling backers it could go public in as little as six months. At the same time it is closing a fundraising round that would value the company at more than $30 billion. An IPO — 'initial public offering' — is the first time a private company sells its shares to the public, turning private paper wealth into real, tradable cash.",
+      "key_points": [
+        "Moonshot tells investors it wants to IPO in as little as six months",
+        "It is raising money at a valuation above $30 billion",
+        "The push follows its Kimi K3 model rattling global tech stocks",
+        "A Hong Kong listing would be one of China's biggest AI debuts"
+      ],
+      "moot": "A breakthrough product is also a fundraising event: companies rush to sell shares when hype and attention are highest, because a hot moment is when investors will pay the most for a stake.",
+      "thread": {
+        "status": "developing",
+        "day": 2,
+        "previously": "On July 17 Moonshot unveiled Kimi K3, a roughly 2.8-trillion-parameter open model it billed as the world's largest, and its arrival sparked a chip-stock sell-off across Asia and the US on fears cheap Chinese AI would undercut American rivals.",
+        "changed": "Now Moonshot is moving to cash in on the buzz — telling investors it plans a Hong Kong IPO within six months and closing a funding round that values it at more than $30 billion."
+      },
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "Moonshot AI is a three-year-old Beijing startup and one of China's leading builders of large AI 'models' — the software behind chatbots and coding assistants. On July 17 it released Kimi K3, a huge 'open-weight' model (meaning the finished model is free for anyone to download and run), which it says outperformed America's best on coding tests. That launch spooked investors, who fear cheap Chinese models could undercut the pricey US AI industry, and it triggered a sharp sell-off in chip and tech shares — a repeat of the 'DeepSeek moment' from early 2025.",
+        "why_it_matters": "It shows Chinese AI firms are not just catching up technically but are ready to raise serious money on public markets, giving them the war-chest to keep competing with US giants. A $30bn-plus valuation would make Moonshot one of the most valuable AI companies outside America, and a successful listing could open the floodgates for other Chinese AI startups to follow.",
+        "ripple_effects": "For investors, it deepens the debate over whether the huge valuations of US AI and chip companies are justified if China can build rival models far more cheaply — the fear that hammered Nvidia, Taiwan's TSMC and Japanese tech shares after Kimi K3. For Hong Kong, landing a marquee AI listing is a boost to a market that had gone quiet. For the US-China tech contest, it signals China's AI sector is maturing into a fundable, investable industry despite American chip export curbs.",
+        "why_now": "Moonshot is striking while attention is at its peak: the Kimi K3 launch two days ago put it on every investor's screen, and a hot moment is the best time to raise money and line up a listing before rivals or the news cycle move on.",
+        "watch_next": "Whether shareholders approve the resolution and Moonshot files listing papers with the Hong Kong exchange in the coming weeks, and at what final valuation the fundraising closes.",
+        "market_link": "Fresh worry about cheap Chinese AI pressures US chip and AI names (Nvidia, AMD, TSMC) and Japanese/Taiwanese tech indexes, while lifting Hong Kong-listed Chinese tech.",
+        "key_terms": [
+          {
+            "term": "IPO (initial public offering)",
+            "definition": "The first sale of a private company's shares to the public, letting it raise cash and letting outsiders buy a stake."
+          },
+          {
+            "term": "Open-weight model",
+            "definition": "An AI model whose finished 'brain' (its trained parameters) is released free for anyone to download, run and build on."
+          },
+          {
+            "term": "Valuation",
+            "definition": "The estimated total worth of a company, usually set by what investors agree to pay for a slice of it."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-19/china-s-moonshot-plans-ipo-in-six-months-after-ai-breakthrough"
+          },
+          {
+            "name": "The Japan Times",
+            "url": "https://www.japantimes.co.jp/business/2026/07/19/tech/china-moonshot-ai-ipo/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-3",
+      "rank": 3,
       "category": "geopolitics",
       "is_new": true,
       "published_iso": "2026-07-19T12:30:00+00:00",
@@ -66,8 +189,8 @@
     },
     {
       "type": "story",
-      "id": "story-2",
-      "rank": 2,
+      "id": "story-4",
+      "rank": 4,
       "category": "geopolitics",
       "is_new": true,
       "published_iso": "2026-07-19T11:00:00+00:00",
@@ -127,10 +250,9 @@
     },
     {
       "type": "story",
-      "id": "story-3",
-      "rank": 3,
+      "id": "story-5",
+      "rank": 5,
       "category": "science",
-      "is_new": true,
       "published_iso": "2026-07-19T02:24:00+00:00",
       "added_at": "2026-07-19T22:03:41+05:30",
       "source": "ABC News",
@@ -184,10 +306,9 @@
     },
     {
       "type": "story",
-      "id": "story-4",
-      "rank": 4,
+      "id": "story-6",
+      "rank": 6,
       "category": "climate",
-      "is_new": true,
       "published_iso": "2026-07-19T11:33:43+00:00",
       "added_at": "2026-07-19T22:03:41+05:30",
       "source": "Reuters",
@@ -241,8 +362,8 @@
     },
     {
       "type": "story",
-      "id": "story-5",
-      "rank": 5,
+      "id": "story-7",
+      "rank": 7,
       "category": "climate",
       "development": true,
       "prev_ref": {
@@ -307,8 +428,8 @@
     },
     {
       "type": "story",
-      "id": "story-6",
-      "rank": 6,
+      "id": "story-8",
+      "rank": 8,
       "category": "geopolitics",
       "published_iso": "2026-07-18T18:00:00+00:00",
       "added_at": "2026-07-19T21:26:12+05:30",
@@ -368,8 +489,8 @@
     },
     {
       "type": "story",
-      "id": "story-7",
-      "rank": 7,
+      "id": "story-9",
+      "rank": 9,
       "category": "economy",
       "published_iso": "2026-07-19T01:47:59+00:00",
       "added_at": "2026-07-19T20:48:45+05:30",
@@ -425,8 +546,8 @@
     },
     {
       "type": "story",
-      "id": "story-8",
-      "rank": 8,
+      "id": "story-10",
+      "rank": 10,
       "category": "geopolitics",
       "published_iso": "2026-07-19T07:27:59+00:00",
       "added_at": "2026-07-19T20:48:45+05:30",
@@ -485,8 +606,8 @@
     },
     {
       "type": "story",
-      "id": "story-9",
-      "rank": 9,
+      "id": "story-11",
+      "rank": 11,
       "category": "economy",
       "published_iso": "2026-07-19T07:50:20+00:00",
       "added_at": "2026-07-19T20:10:21+05:30",
@@ -547,8 +668,8 @@
     },
     {
       "type": "story",
-      "id": "story-10",
-      "rank": 10,
+      "id": "story-12",
+      "rank": 12,
       "category": "geopolitics",
       "development": true,
       "prev_ref": {
@@ -617,8 +738,8 @@
     },
     {
       "type": "story",
-      "id": "story-11",
-      "rank": 11,
+      "id": "story-13",
+      "rank": 13,
       "category": "science",
       "published_iso": "2026-07-18T20:06:35+00:00",
       "added_at": "2026-07-19T19:35:32+05:30",
@@ -670,8 +791,8 @@
     },
     {
       "type": "story",
-      "id": "story-12",
-      "rank": 12,
+      "id": "story-14",
+      "rank": 14,
       "category": "geopolitics",
       "published_iso": "2026-07-19T11:18:17+00:00",
       "added_at": "2026-07-19T19:35:32+05:30",
@@ -719,8 +840,8 @@
     },
     {
       "type": "story",
-      "id": "story-13",
-      "rank": 13,
+      "id": "story-15",
+      "rank": 15,
       "category": "geopolitics",
       "published_iso": "2026-07-19T12:53:20+00:00",
       "added_at": "2026-07-19T18:48:09+05:30",
@@ -782,8 +903,8 @@
     },
     {
       "type": "story",
-      "id": "story-14",
-      "rank": 14,
+      "id": "story-16",
+      "rank": 16,
       "category": "geopolitics",
       "development": true,
       "prev_ref": {
@@ -853,8 +974,8 @@
     },
     {
       "type": "story",
-      "id": "story-15",
-      "rank": 15,
+      "id": "story-17",
+      "rank": 17,
       "category": "geopolitics",
       "published_iso": "2026-07-18T15:23:31+00:00",
       "added_at": "2026-07-19T01:09:11+05:30",
@@ -910,8 +1031,8 @@
     },
     {
       "type": "story",
-      "id": "story-16",
-      "rank": 16,
+      "id": "story-18",
+      "rank": 18,
       "category": "geopolitics",
       "published_iso": "2026-07-18T18:00:00+00:00",
       "added_at": "2026-07-19T01:09:11+05:30",
@@ -964,8 +1085,8 @@
     },
     {
       "type": "story",
-      "id": "story-17",
-      "rank": 17,
+      "id": "story-19",
+      "rank": 19,
       "category": "technology",
       "published_iso": "2026-07-18T15:10:38+00:00",
       "added_at": "2026-07-19T00:45:14+05:30",
@@ -1014,8 +1135,8 @@
     },
     {
       "type": "story",
-      "id": "story-18",
-      "rank": 18,
+      "id": "story-20",
+      "rank": 20,
       "category": "climate",
       "published_iso": "2026-07-18T13:06:42+00:00",
       "added_at": "2026-07-19T00:45:14+05:30",
@@ -1063,153 +1184,160 @@
     },
     {
       "type": "story",
-      "id": "story-19",
-      "rank": 19,
-      "category": "geopolitics",
-      "published_iso": "2026-07-18T17:33:28+00:00",
-      "added_at": "2026-07-19T00:07:22+05:30",
-      "source": "BBC",
-      "importance": "high",
-      "regions": [
-        "Europe",
-        "Hungary"
-      ],
-      "title": "Hungary removes its president — Orban loyalist Sulyok agrees to go, defusing a constitutional standoff",
-      "what_happened": "On July 13 Hungary's parliament passed a constitutional amendment — by 139 votes to 6 — to end Sulyok's term immediately. For a president's removal to take effect, that law must be signed, and Sulyok at first refused, calling the whole thing unconstitutional and raising the prospect of impeachment and a constitutional crisis. On Saturday, July 18, under a signing deadline, he relented and agreed to stand down, ending the standoff.",
-      "key_points": [
-        "Parliament voted to remove President Tamas Sulyok, an Orban ally",
-        "He resisted for days, calling the move unconstitutional",
-        "On July 18 he agreed to stand down, averting a crisis",
-        "Follows Viktor Orban's landslide election loss in April"
-      ],
-      "moot": "In a parliamentary system, a large enough legislative majority can reshape even the constitution — the real guardrails on power often depend on democratic norms as much as on the written law.",
-      "concepts": [
-        "impeachment"
-      ],
-      "figures": [],
-      "depth": {
-        "background": "Viktor Orban ran Hungary for 16 years until he lost power in April 2026 to Peter Magyar's Tisza Party in a landslide. Tamas Sulyok, the country's president — a largely ceremonial head-of-state role — was widely seen as an Orban loyalist left over from the old order. The new government moved to remove him and complete the changing of the guard.",
-        "why_it_matters": "It completes the transfer of power away from Orban's camp and shows the new government consolidating control of the state's top institutions. How it was done — rewriting the constitution to remove a sitting president — also becomes a precedent that Hungary's rivals and the EU will watch closely.",
-        "ripple_effects": "Orban was a persistent thorn for the European Union, blocking aid to Ukraine and softening the bloc's line on Russia; a cleaner, more EU-friendly government in Budapest could shift those dynamics. Hungary's currency (the forint) and its government bonds tend to steady when political uncertainty clears.",
-        "why_now": "The new government is moving fast to cement its win, and the threat of impeachment plus a hard signing deadline finally forced Sulyok's hand.",
-        "watch_next": "Who is named Hungary's next president — and whether Budapest drops its vetoes and swings behind the EU line on Ukraine and Russia.",
-        "market_link": "Hungary's forint and government bonds react to political stability; a smoother transfer of power and warmer EU ties would generally support Hungarian assets.",
-        "key_terms": [
-          {
-            "term": "Constitutional amendment",
-            "definition": "A change to a country's highest law, usually needing a large supermajority in parliament to pass."
-          },
-          {
-            "term": "Ceremonial presidency",
-            "definition": "A head-of-state role that is mostly symbolic, with real day-to-day power held by the prime minister."
-          },
-          {
-            "term": "Impeachment",
-            "definition": "A formal process by which a legislature can charge and remove a top official from office."
-          }
-        ],
-        "sources": [
-          {
-            "name": "BBC",
-            "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po"
-          },
-          {
-            "name": "Reuters",
-            "url": "http://reut.rs/hungary-president"
-          },
-          {
-            "name": "Euronews",
-            "url": "https://www.euronews.com/my-europe/2026/07/13/hungarian-parliament-removes-president-tamas-sulyok-from-office"
-          },
-          {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/7/14/hungarys-parliament-votes-to-oust-president-in-latest-anti-orban-move"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
-      "id": "story-20",
-      "rank": 20,
-      "category": "geopolitics",
-      "development": true,
-      "prev_ref": {
-        "title": "US widens its war on Iran — bombing near Tehran for the first time and disabling a tanker, as Iran fires back at American bases in the Gulf",
-        "date": null
-      },
-      "published_iso": "2026-07-18T18:32:30+00:00",
-      "added_at": "2026-07-19T00:07:22+05:30",
-      "source": "CNN",
-      "importance": "critical",
-      "regions": [
-        "Middle East",
-        "US",
-        "Jordan"
-      ],
-      "title": "Iran's missiles kill 2 US troops in Jordan — the first American combat deaths of this war since spring",
-      "what_happened": "US Central Command (CENTCOM — the US military command that runs operations in the Middle East) said that as its forces defended against an Iranian ballistic-missile and drone attack, two US service members in Jordan were killed and one is missing. Four others were medically evacuated to hospitals in Jordan but have since been discharged. Jordan said it shot down 10 Iranian missiles fired into its airspace overnight into Saturday. The US is withholding the fallen troops' names until 24 hours after their families are told.",
-      "key_points": [
-        "Iranian missiles and drones hit a US base in Jordan",
-        "2 US service members killed, 1 still missing",
-        "Jordan says it intercepted 10 Iranian missiles overnight",
-        "Comes on the 7th straight night of US strikes on Iran"
-      ],
-      "moot": "When a great power's own troops are killed, the political pressure to escalate often overrides strategic caution — casualties tend to change a nation's calculus faster than battlefield logic does.",
-      "thread": {
-        "previously": "Yesterday we reported the US had widened its air war — striking near Tehran for the first time and disabling an Iranian tanker — while Iran fired back at American bases across the Gulf.",
-        "changed": "Now Iran's strikes have killed US personnel for the first time in this war since spring: two service members died and one is missing after missiles and drones hit a base in Jordan, and Jordan says it shot down 10 incoming missiles."
-      },
-      "concepts": [
-        "crude_geopolitics",
-        "strait_chokepoint"
-      ],
-      "figures": [],
-      "depth": {
-        "background": "For more than a week the United States and Iran have been in open military conflict. The US has been bombing Iranian military sites nightly — including near the capital, Tehran — and Iran has been firing back at American forces and US allies across the Gulf. Jordan is a close US partner in the region and hosts American troops on its soil, which put it in the line of fire.",
-        "why_it_matters": "These are the first US combat deaths of this war since March. American casualties change the political math at home: they pile huge pressure on the president either to escalate hard in response or to find an exit — and either choice reshapes the conflict. It also drags a US ally, Jordan, directly into the fighting.",
-        "ripple_effects": "Expect oil prices to jump on fears the war spreads and chokes the Strait of Hormuz, the narrow sea lane that carries a fifth of the world's oil. Gulf states are already being hit — Kuwait says an Iranian strike damaged a water-desalination plant that supplies most of its drinking water. Wider escalation could pull in more allies, rattle global shipping, and lift defense stocks and safe-haven assets like gold and the US dollar.",
-        "why_now": "Iran is escalating in response to the seventh consecutive night of US airstrikes aimed at degrading its military — and hitting US bases and allies directly is Tehran's way of raising the cost on Washington.",
-        "watch_next": "Whether President Trump orders a major escalation in retaliation for the deaths — and the fate of the missing service member.",
-        "market_link": "Gulf escalation typically spikes crude oil (Brent), lifts defense stocks and safe havens like gold and the dollar, and pressures the currencies of oil-importers such as India's rupee.",
-        "key_terms": [
-          {
-            "term": "CENTCOM",
-            "definition": "US Central Command — the branch of the US military responsible for operations across the Middle East and Central Asia."
-          },
-          {
-            "term": "Ballistic missile",
-            "definition": "A missile that is powered on the way up, then arcs high and falls on its target under gravity — fast and hard to shoot down."
-          },
-          {
-            "term": "Strait of Hormuz",
-            "definition": "A narrow sea passage between Iran and Oman through which about a fifth of the world's oil is shipped."
-          }
-        ],
-        "sources": [
-          {
-            "name": "CNN",
-            "url": "https://www.cnn.com/2026/07/18/politics/iran-war-us-service-members-killed-jordan"
-          },
-          {
-            "name": "Reuters",
-            "url": "https://reut.rs/4fprsCY"
-          },
-          {
-            "name": "AP News",
-            "url": "https://apnews.com/article/iran-us-hormuz-strait-war-july-18-2026-5adfef67554652580963684d9a663af2"
-          },
-          {
-            "name": "BBC",
-            "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
       "id": "story-21",
       "rank": 21,
+      "category": "india",
+      "is_new": true,
+      "published_iso": "2026-07-19T07:12:19+00:00",
+      "added_at": "2026-07-19T23:37:05+05:30",
+      "source": "India CSR",
+      "importance": "notable",
+      "regions": [
+        "India"
+      ],
+      "title": "India Inc's mandatory 'giving' hits a record ₹40,794 crore — the money big companies are legally required to spend on society jumps 17%",
+      "what_happened": "A new industry report (the Bharat CSR Performance Report 2026, by research firm Fulcrum) found that India's companies spent a record ₹40,794 crore on CSR in the 2024-25 financial year — a 17% rise on the year before. Education drew the most money at ₹13,877 crore (about 34% of the total), followed by healthcare at ₹8,531 crore (21%). Geographically, Maharashtra received the most (₹8,631 crore), while Gujarat saw the fastest growth, with inflows up 68%.",
+      "key_points": [
+        "Corporate social spending hit a record ₹40,794 crore in FY25, up 17%",
+        "Education got the biggest slice — ₹13,877 crore (34%)",
+        "Healthcare was second at ₹8,531 crore (21%)",
+        "India is the rare country that makes such spending a legal duty"
+      ],
+      "moot": "A rule that ties charitable spending to a share of profits turns social funding into an automatic, growing stream — but it tends to pool where big companies already sit, so a mandate to give doesn't guarantee the money reaches those who need it most.",
+      "concepts": [],
+      "figures": [
+        {
+          "raw": "₹40,794 crore",
+          "words": "₹407.94 billion",
+          "usd_approx": "≈ $4.2bn"
+        },
+        {
+          "raw": "₹13,877 crore",
+          "words": "₹138.77 billion",
+          "usd_approx": "≈ $1.4bn"
+        },
+        {
+          "raw": "₹8,531 crore",
+          "words": "₹85.31 billion",
+          "usd_approx": "≈ $887mn"
+        },
+        {
+          "raw": "₹8,631 crore",
+          "words": "₹86.31 billion",
+          "usd_approx": "≈ $897mn"
+        }
+      ],
+      "depth": {
+        "background": "'CSR' stands for Corporate Social Responsibility — money companies spend on social causes like schools, hospitals and clean water. What makes India unusual is that this is not optional: under the Companies Act of 2013, India became the first major country to legally require it. Big firms — roughly those with net worth over ₹500 crore, sales over ₹1,000 crore, or profit over ₹5 crore — must spend at least 2% of their average recent profits on approved social projects every year, or explain why they didn't.",
+        "why_it_matters": "This is a large, guaranteed river of private money flowing into public goods — bigger than many government scheme budgets — and it grows automatically as corporate profits rise. The 17% jump signals both healthier company earnings (the 2% is a slice of profit) and rising compliance. Where that money goes — education, health, which states — shapes real services for millions.",
+        "ripple_effects": "Charities and non-profits compete hard for these corporate funds, and the tilt toward education and healthcare steers where new schools and clinics get built. The heavy concentration in richer states like Maharashtra and Gujarat — rather than India's poorest regions — fuels a long-running debate about whether mandatory giving actually reaches the areas that need it most.",
+        "why_now": "FY25 results and disclosures are now finalised, so full-year CSR totals are being tallied and published — an annual snapshot of how much corporate India gave and where.",
+        "watch_next": "Whether future years narrow the gap so more CSR money flows to India's poorer, less-industrialised states rather than clustering where big companies are already based.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "CSR (Corporate Social Responsibility)",
+            "definition": "Money and effort companies put into social good — India legally requires large firms to spend at least 2% of average profits on it."
+          },
+          {
+            "term": "Companies Act, 2013",
+            "definition": "The Indian law governing companies; it introduced the world's first broad legal mandate for corporate social spending."
+          }
+        ],
+        "sources": [
+          {
+            "name": "India CSR",
+            "url": "https://indiacsr.in/indias-csr-hits-record-crore-in-fy-2024-25/"
+          },
+          {
+            "name": "Businessworld",
+            "url": "https://www.businessworld.in/article/india-inc-s-csr-spending-hits-record-rs-40-794-cr-in-fy25-maharashtra-tops-investments-615473"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-22",
+      "rank": 22,
+      "category": "india",
+      "is_new": true,
+      "published_iso": "2026-07-18T16:38:32+00:00",
+      "added_at": "2026-07-19T23:37:05+05:30",
+      "source": "Business Standard",
+      "importance": "notable",
+      "regions": [
+        "India"
+      ],
+      "title": "Yes Bank — the lender that nearly collapsed in 2020 — posts a 34% jump in quarterly profit as its turnaround gathers pace",
+      "what_happened": "For the April–June quarter (the first of India's 2026-27 financial year), Yes Bank reported standalone net profit of about ₹1,071 crore, up roughly 34% from ₹801 crore a year earlier, beating analysts' forecasts. Net interest income — the gap between what a bank earns on loans and pays on deposits, a bank's core engine — rose 17.5% to ₹2,786 crore. Loans grew 18.3% to ₹2.85 lakh crore, and the gross bad-loan (NPA) ratio fell to 1.3% from 1.6%.",
+      "key_points": [
+        "Net profit up ~34% to ₹1,071 crore for the June quarter",
+        "Core interest income rose 17.5%; loans grew 18.3%",
+        "Bad-loan ratio eased to 1.3% from 1.6% a year ago",
+        "A milestone for a bank rescued from failure in 2020"
+      ],
+      "moot": "A bank's health shows up in three numbers together — is it lending more, earning more on those loans, and losing less to defaults? Rising profit alongside a falling bad-loan ratio is the signature of a genuine turnaround.",
+      "concepts": [],
+      "figures": [
+        {
+          "raw": "₹1,071 crore",
+          "words": "₹10.71 billion",
+          "usd_approx": "≈ $111mn"
+        },
+        {
+          "raw": "₹801 crore",
+          "words": "₹8.01 billion",
+          "usd_approx": "≈ $83mn"
+        },
+        {
+          "raw": "₹2,786 crore",
+          "words": "₹27.86 billion",
+          "usd_approx": "≈ $290mn"
+        },
+        {
+          "raw": "₹2.85 lakh crore",
+          "words": "₹2.85 trillion",
+          "usd_approx": "≈ $30bn"
+        }
+      ],
+      "depth": {
+        "background": "Yes Bank was one of India's fastest-growing private banks until March 2020, when the Reserve Bank of India (RBI) — the country's banking regulator — seized it after a pile-up of bad loans left it near collapse, briefly freezing customers' withdrawals. A State Bank of India-led group of lenders pumped in rescue capital and installed new management. The years since have been a slow rebuild: cleaning up bad loans, rebuilding deposits and restoring trust. Each solid quarter is a check on whether the turnaround is real.",
+        "why_it_matters": "A 34% profit jump with falling bad loans is exactly the shape of a healthy recovery — the bank is lending more, earning more on it, and losing less to defaults. For a lender that regulators had to rescue five years ago, it is evidence the clean-up is working and that Yes Bank is edging back toward being an ordinary, profitable bank.",
+        "ripple_effects": "Steady profits make it easier for Yes Bank to raise capital and grow lending, and they matter to the millions of depositors and the State Bank of India-led shareholders who backed the rescue. It also rounds out a broadly strong earnings season for India's private banks (ICICI, Axis, Kotak all posted gains), a reassuring signal about the health of the financial system that powers the wider economy.",
+        "why_now": "Indian companies report results every quarter, and July is peak 'earnings season' for banks — Yes Bank's numbers landed alongside those of its larger private-sector peers.",
+        "watch_next": "Whether Yes Bank can keep its bad-loan ratio low and net interest margin (its lending profitability) rising in coming quarters — and progress on new strategic investors taking bigger stakes.",
+        "market_link": "Yes Bank shares react to the beat; strong results across ICICI, Axis, Kotak and Yes Bank support the Bank Nifty and overall market sentiment.",
+        "key_terms": [
+          {
+            "term": "Net interest income (NII)",
+            "definition": "A bank's core earnings: the difference between the interest it collects on loans and the interest it pays out on deposits."
+          },
+          {
+            "term": "Non-performing asset (NPA)",
+            "definition": "A loan the borrower has stopped repaying; a lower NPA ratio means fewer loans have gone bad."
+          },
+          {
+            "term": "Reserve Bank of India (RBI)",
+            "definition": "India's central bank and banking regulator, which sets interest rates and can take over a failing bank."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/companies/quarterly-results/yes-bank-q1fy27-profit-jumps-34-to-rs-1-071-crore-on-healthy-loan-growth-126071800633_1.html"
+          },
+          {
+            "name": "Republic World",
+            "url": "https://www.republicworld.com/business/yes-bank-q1-results-2026-net-profit-nii-npa-shares-trending-2026-07-18-132712"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-23",
+      "rank": 23,
       "category": "india",
       "is_new": true,
       "published_iso": "2026-07-19T06:30:00+00:00",
@@ -1269,8 +1397,8 @@
     },
     {
       "type": "story",
-      "id": "story-22",
-      "rank": 22,
+      "id": "story-24",
+      "rank": 24,
       "category": "india",
       "is_new": true,
       "published_iso": "2026-07-19T17:06:42+00:00",
@@ -1329,10 +1457,9 @@
     },
     {
       "type": "story",
-      "id": "story-23",
-      "rank": 23,
+      "id": "story-25",
+      "rank": 25,
       "category": "india",
-      "is_new": true,
       "published_iso": "2026-07-19T15:32:14+00:00",
       "added_at": "2026-07-19T22:03:41+05:30",
       "source": "Mint",
@@ -1389,10 +1516,9 @@
     },
     {
       "type": "story",
-      "id": "story-24",
-      "rank": 24,
+      "id": "story-26",
+      "rank": 26,
       "category": "india",
-      "is_new": true,
       "published_iso": "2026-07-19T15:53:44+00:00",
       "added_at": "2026-07-19T22:03:41+05:30",
       "source": "The Indian Express",
@@ -1448,8 +1574,8 @@
     },
     {
       "type": "story",
-      "id": "story-25",
-      "rank": 25,
+      "id": "story-27",
+      "rank": 27,
       "category": "india",
       "published_iso": "2026-07-18T18:00:00+05:30",
       "added_at": "2026-07-19T21:26:12+05:30",
@@ -1496,8 +1622,8 @@
     },
     {
       "type": "story",
-      "id": "story-26",
-      "rank": 26,
+      "id": "story-28",
+      "rank": 28,
       "category": "india",
       "published_iso": "2026-07-19T13:19:04+05:30",
       "added_at": "2026-07-19T21:26:12+05:30",
@@ -1555,8 +1681,8 @@
     },
     {
       "type": "story",
-      "id": "story-27",
-      "rank": 27,
+      "id": "story-29",
+      "rank": 29,
       "category": "india",
       "published_iso": "2026-07-19T06:30:00+00:00",
       "added_at": "2026-07-19T20:48:45+05:30",
@@ -1607,8 +1733,8 @@
     },
     {
       "type": "story",
-      "id": "story-28",
-      "rank": 28,
+      "id": "story-30",
+      "rank": 30,
       "category": "india",
       "development": true,
       "prev_ref": {
@@ -1674,8 +1800,8 @@
     },
     {
       "type": "story",
-      "id": "story-29",
-      "rank": 29,
+      "id": "story-31",
+      "rank": 31,
       "category": "india",
       "published_iso": "2026-07-18T12:30:00+00:00",
       "added_at": "2026-07-19T20:10:21+05:30",
@@ -1752,8 +1878,8 @@
     },
     {
       "type": "story",
-      "id": "story-30",
-      "rank": 30,
+      "id": "story-32",
+      "rank": 32,
       "category": "india",
       "published_iso": "2026-07-19T08:51:16+00:00",
       "added_at": "2026-07-19T20:10:21+05:30",
@@ -1811,8 +1937,8 @@
     },
     {
       "type": "story",
-      "id": "story-31",
-      "rank": 31,
+      "id": "story-33",
+      "rank": 33,
       "category": "india",
       "published_iso": "2026-07-19T11:50:11+00:00",
       "added_at": "2026-07-19T19:35:32+05:30",
@@ -1860,8 +1986,8 @@
     },
     {
       "type": "story",
-      "id": "story-32",
-      "rank": 32,
+      "id": "story-34",
+      "rank": 34,
       "category": "india",
       "development": true,
       "prev_ref": {
@@ -1924,8 +2050,8 @@
     },
     {
       "type": "story",
-      "id": "story-33",
-      "rank": 33,
+      "id": "story-35",
+      "rank": 35,
       "category": "india",
       "published_iso": "2026-07-19T07:00:00+00:00",
       "added_at": "2026-07-19T18:48:09+05:30",
@@ -1984,8 +2110,8 @@
     },
     {
       "type": "story",
-      "id": "story-34",
-      "rank": 34,
+      "id": "story-36",
+      "rank": 36,
       "category": "india",
       "published_iso": "2026-07-19T05:00:00+00:00",
       "added_at": "2026-07-19T18:48:09+05:30",
@@ -2044,66 +2170,8 @@
     },
     {
       "type": "story",
-      "id": "story-35",
-      "rank": 35,
-      "category": "india",
-      "published_iso": "2026-07-18T12:00:00+00:00",
-      "added_at": "2026-07-19T01:09:11+05:30",
-      "source": "Business Standard",
-      "importance": "notable",
-      "regions": [
-        "India"
-      ],
-      "title": "Under fire over its voter-list clean-up, India's Election Commission goes on the offensive to defend its credibility",
-      "what_happened": "Facing a growing row, the ECI has launched what commentators are calling a 'credibility offensive' to defend the process. Chief Election Commissioner Gyanesh Kumar has argued that the SIR has made voter lists more accurate and reliable and that India's electoral system is among the most transparent and credible in the world. Critics disagree sharply: civil-society coalitions claim that across the states and union territories where SIR has run, several crore voters risk being wrongly left off the rolls. The house-to-house verification phase is scheduled to run from June 30 to July 29, 2026.",
-      "key_points": [
-        "EC pushes back as the SIR voter-roll revision draws heavy criticism",
-        "CEC says SIR made rolls more accurate and India's polls more credible",
-        "Critics say the drive risks wrongly deleting eligible voters",
-        "House-to-house verification is running June 30–July 29"
-      ],
-      "moot": "Elections are only as trustworthy as the voter list underneath them — how names are added and removed is quietly one of the most powerful levers in a democracy, which is why the process itself becomes a political battleground.",
-      "concepts": [
-        "eci"
-      ],
-      "figures": [],
-      "depth": {
-        "background": "The Election Commission of India (ECI) is the independent body that runs the country's elections and maintains the electoral rolls — the official lists of who is allowed to vote. It has been carrying out a 'Special Intensive Revision' (SIR): a door-to-door exercise to update those lists by removing people who have died, moved away, are duplicates or are not citizens, while trying not to drop genuine voters. The drive has become one of India's most contested political issues, because opposition parties and civil-society groups fear that aggressive deletions could strip real voters — often the poor or migrants — off the rolls before elections.",
-        "why_it_matters": "Who is on the voter list decides who can vote — so the integrity of the roll is the foundation of a fair election. If genuine voters are removed, real people lose their say; if fake or duplicate entries stay, results can be questioned. Public trust in the ECI, an institution meant to be above politics, is itself at stake.",
-        "ripple_effects": "The fight will shape the run-up to upcoming state elections and feeds a broader opposition-versus-government battle over institutions. Court challenges are likely, and how the ECI handles appeals from people wrongly dropped will determine whether the clean-up is seen as fair. It also sets a template other states will follow.",
-        "why_now": "The verification drive is in full swing this month (ending July 29), and mounting complaints pushed the ECI to publicly rebut the criticism rather than let it harden.",
-        "watch_next": "The final revised rolls and the volume of deletions and appeals once SIR verification closes on July 29 — plus any Supreme Court or High Court challenges.",
-        "market_link": null,
-        "key_terms": [
-          {
-            "term": "Electoral roll",
-            "definition": "The official list of citizens registered and eligible to vote in a constituency."
-          },
-          {
-            "term": "Special Intensive Revision (SIR)",
-            "definition": "A door-to-door drive by the Election Commission to update voter lists by adding eligible voters and removing dead, shifted, duplicate or ineligible entries."
-          },
-          {
-            "term": "Chief Election Commissioner (CEC)",
-            "definition": "The head of the Election Commission of India, which conducts national and state elections."
-          }
-        ],
-        "sources": [
-          {
-            "name": "Business Standard",
-            "url": "https://www.business-standard.com/india-news/cec-says-sir-made-voter-rolls-more-accurate-india-s-polls-more-credible-126070400859_1.html"
-          },
-          {
-            "name": "NDTV",
-            "url": "https://www.ndtv.com/india-news/after-row-over-sir-election-commission-launches-credibility-offensive-11790078"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
-      "id": "story-37",
-      "rank": 37,
+      "id": "story-39",
+      "rank": 39,
       "category": "india",
       "published_iso": "2026-07-18T19:22:24+05:30",
       "added_at": "2026-07-19T00:45:14+05:30",
@@ -2148,74 +2216,6 @@
           {
             "name": "NewKerala",
             "url": "https://www.newkerala.com/news/a/govt-commissions-indian-standard-time-dissemination-network-464.htm"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
-      "id": "story-40",
-      "rank": 40,
-      "category": "india",
-      "published_iso": "2026-07-19T11:00:00+05:30",
-      "added_at": "2026-07-19T00:07:22+05:30",
-      "source": "Outlook India",
-      "importance": "high",
-      "regions": [
-        "India"
-      ],
-      "title": "India's Parliament opens its monsoon session Monday — an all-party meeting today, and 7 contentious bills on the table",
-      "what_happened": "On Sunday, July 19, the government held the all-party meeting (around 11 a.m.) to outline its agenda. The session itself opens Monday, July 20, and runs to August 13 across 19 sittings. The government plans to push about seven bills — among them the Foreign Contribution (Regulation) Amendment Bill (which tightens the rules on foreign funding of NGOs and charities), a bill to raise the number of Supreme Court judges from 33 to 37 to clear a backlog of cases, and a Micro, Small and Medium Enterprises (MSME) reform bill. The politically explosive 'delimitation' debate — over redrawing parliamentary seats — also looms over the session.",
-      "key_points": [
-        "Monsoon session runs July 20 to Aug 13, with 19 sittings",
-        "Government holds the customary all-party meeting today",
-        "7 bills lined up, including FCRA and more Supreme Court judges",
-        "Expected to be stormy amid opposition splits and flashpoints"
-      ],
-      "moot": "In a parliamentary democracy, the pre-session agenda-setting can decide more than the floor debates — controlling which bills even reach the floor is where a lot of real power sits.",
-      "concepts": [
-        "parliament_india",
-        "lok_sabha",
-        "rajya_sabha"
-      ],
-      "figures": [],
-      "depth": {
-        "background": "India's Parliament meets in a few fixed sessions each year; the monsoon session is the mid-year one, running roughly July to August. By custom, just before it opens the government convenes an 'all-party meeting' — a sit-down with leaders of every party — to preview its legislative plan and take the temperature of the opposition.",
-        "why_it_matters": "The laws passed here reach into everyday life: how charities are funded, how fast courts can deliver justice, and how millions of small businesses get paid and regulated. The session is also a live test of whether the government has the numbers to pass its agenda and whether a fractured opposition can slow it down.",
-        "ripple_effects": "Tighter FCRA rules could squeeze civil-society groups that rely on foreign donations; more Supreme Court judges could speed up a clogged justice system; MSME reforms touch millions of small firms and the timely payments they depend on. If flashpoints like delimitation trigger walkouts, much of the agenda could stall.",
-        "why_now": "The session opens Monday, and the all-party meeting is the traditional curtain-raiser held the day before to line up business and gauge cooperation.",
-        "watch_next": "Whether the FCRA and delimitation bills spark opposition walkouts — and how many of the seven bills actually make it through.",
-        "market_link": "Investors watch reform-heavy sessions closely; progress on MSME, tax and business-friendly bills tends to support sentiment on Indian equities, while gridlock can dampen it.",
-        "key_terms": [
-          {
-            "term": "Monsoon session",
-            "definition": "The mid-year sitting of India's Parliament, typically held during the July-August monsoon months."
-          },
-          {
-            "term": "All-party meeting",
-            "definition": "A pre-session gathering where the government briefs leaders of all parties on its plan and hears their concerns."
-          },
-          {
-            "term": "FCRA",
-            "definition": "The Foreign Contribution (Regulation) Act — India's law governing how organisations can receive and use money from abroad."
-          },
-          {
-            "term": "Delimitation",
-            "definition": "The redrawing of parliamentary and assembly constituency boundaries, usually to match population changes."
-          }
-        ],
-        "sources": [
-          {
-            "name": "Outlook India",
-            "url": "https://www.outlookindia.com/national/monsoon-session-to-begin-amid-political-flashpoints-seven-bills-on-govt-agenda"
-          },
-          {
-            "name": "India TV News",
-            "url": "https://www.indiatvnews.com/news/india/parliament-monsoon-session-income-tax-msme-reform-bills-on-agenda-here-s-the-list-of-key-legislations-2026-07-17-1048525"
-          },
-          {
-            "name": "The Pioneer",
-            "url": "https://dailypioneer.com/news/parliament-monsoon-session-to-begin-july-20"
           }
         ]
       }
@@ -2625,14 +2625,14 @@
       "id": "archive-global",
       "category": "geopolitics",
       "region": "global",
-      "older_count": 63
+      "older_count": 65
     },
     {
       "type": "archive",
       "id": "archive-india",
       "category": "india",
       "region": "india",
-      "older_count": 65
+      "older_count": 67
     },
     {
       "type": "archive",

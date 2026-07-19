@@ -1,6 +1,6 @@
 {
   "month": "2026-07",
-  "count": 79,
+  "count": 83,
   "stories": [
     {
       "type": "story",
@@ -30,6 +30,73 @@
           {
             "name": "The Hindu",
             "url": "https://www.thehindu.com/news/national/west-bengal/martyrs-day-2026-turns-out-to-be-show-of-political-strength-for-rival-trinamool-factions-in-west-bengal/article71242029.ece"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "China's Moonshot AI moves to cash in on its 'Kimi' moment — planning a Hong Kong listing within six months at a $30bn-plus valuation",
+      "category": "technology",
+      "published_iso": "2026-07-19T16:29:08+00:00",
+      "added_at": "2026-07-19T23:37:05+05:30",
+      "source": "Bloomberg",
+      "what_happened": "According to Bloomberg, Moonshot has formally sent its shareholders a resolution seeking their approval for a stock-market listing (IPO) in Hong Kong, telling backers it could go public in as little as six months. At the same time it is closing a fundraising round that would value the company at more than $30 billion. An IPO — 'initial public offering' — is the first time a private company sells its shares to the public, turning private paper wealth into real, tradable cash.",
+      "key_points": [
+        "Moonshot tells investors it wants to IPO in as little as six months",
+        "It is raising money at a valuation above $30 billion",
+        "The push follows its Kimi K3 model rattling global tech stocks",
+        "A Hong Kong listing would be one of China's biggest AI debuts"
+      ],
+      "depth": {
+        "background": "Moonshot AI is a three-year-old Beijing startup and one of China's leading builders of large AI 'models' — the software behind chatbots and coding assistants. On July 17 it released Kimi K3, a huge 'open-weight' model (meaning the finished model is free for anyone to download and run), which it says outperformed America's best on coding tests. That launch spooked investors, who fear cheap Chinese models could undercut the pricey US AI industry, and it triggered a sharp sell-off in chip and tech shares — a repeat of the 'DeepSeek moment' from early 2025.",
+        "sources": [
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-19/china-s-moonshot-plans-ipo-in-six-months-after-ai-breakthrough"
+          },
+          {
+            "name": "The Japan Times",
+            "url": "https://www.japantimes.co.jp/business/2026/07/19/tech/china-moonshot-ai-ipo/"
+          }
+        ]
+      },
+      "thread": {
+        "status": "developing",
+        "day": 2,
+        "previously": "On July 17 Moonshot unveiled Kimi K3, a roughly 2.8-trillion-parameter open model it billed as the world's largest, and its arrival sparked a chip-stock sell-off across Asia and the US on fears cheap Chinese AI would undercut American rivals.",
+        "changed": "Now Moonshot is moving to cash in on the buzz — telling investors it plans a Hong Kong IPO within six months and closing a funding round that values it at more than $30 billion."
+      },
+      "development": true,
+      "prev_ref": {
+        "title": "China's Moonshot AI unveils Kimi K3 — a giant, cheap open model that rivals America's best and triggers a 'DeepSeek moment' chip selloff",
+        "date": null
+      }
+    },
+    {
+      "type": "story",
+      "title": "A second person dies in a Legionnaires' disease outbreak on Manhattan's Upper East Side — 72 sickened, but officials say the source is likely gone",
+      "category": "health",
+      "published_iso": "2026-07-19T16:08:00+00:00",
+      "added_at": "2026-07-19T23:37:05+05:30",
+      "source": "CBS New York",
+      "what_happened": "The New York City Health Department said a second person has died in a cluster of Legionnaires' cases centred on the Upper East Side of Manhattan. In all, 72 people have been infected: two have died, nine are currently in hospital, 50 have already been discharged and 11 did not need hospital care. Officials have been testing the cooling towers of nearby buildings and ordering owners to drain and disinfect any that test positive.",
+      "key_points": [
+        "72 people infected on Manhattan's Upper East Side, 2 now dead",
+        "9 people are still hospitalised; most others have recovered",
+        "Cause: Legionella bacteria that breeds in warm, stagnant water",
+        "Officials suspect building cooling towers and say cases are falling"
+      ],
+      "depth": {
+        "background": "Legionnaires' disease is a severe form of pneumonia (a lung infection) caused by breathing in tiny water droplets carrying Legionella bacteria, which thrive in warm, stagnant water. It is not spread person-to-person — outbreaks are usually traced to man-made water systems, most often the 'cooling towers' that sit on top of large buildings and shed a fine mist as part of their air-conditioning. New York City, with thousands of such towers, sees clusters most summers when the weather is hot.",
+        "sources": [
+          {
+            "name": "CBS New York",
+            "url": "https://www.cbsnews.com/newyork/news/upper-east-side-legionnaires-disease-cluster-2nd-death/"
+          },
+          {
+            "name": "AP News",
+            "url": "https://abc7chicago.com/story/second-death-reported-legionnaires-disease-outbreak-new-york-city/19537559/"
           }
         ]
       }
@@ -708,6 +775,34 @@
     },
     {
       "type": "story",
+      "title": "India Inc's mandatory 'giving' hits a record ₹40,794 crore — the money big companies are legally required to spend on society jumps 17%",
+      "category": "india",
+      "published_iso": "2026-07-19T07:12:19+00:00",
+      "added_at": "2026-07-19T23:37:05+05:30",
+      "source": "India CSR",
+      "what_happened": "A new industry report (the Bharat CSR Performance Report 2026, by research firm Fulcrum) found that India's companies spent a record ₹40,794 crore on CSR in the 2024-25 financial year — a 17% rise on the year before. Education drew the most money at ₹13,877 crore (about 34% of the total), followed by healthcare at ₹8,531 crore (21%). Geographically, Maharashtra received the most (₹8,631 crore), while Gujarat saw the fastest growth, with inflows up 68%.",
+      "key_points": [
+        "Corporate social spending hit a record ₹40,794 crore in FY25, up 17%",
+        "Education got the biggest slice — ₹13,877 crore (34%)",
+        "Healthcare was second at ₹8,531 crore (21%)",
+        "India is the rare country that makes such spending a legal duty"
+      ],
+      "depth": {
+        "background": "'CSR' stands for Corporate Social Responsibility — money companies spend on social causes like schools, hospitals and clean water. What makes India unusual is that this is not optional: under the Companies Act of 2013, India became the first major country to legally require it. Big firms — roughly those with net worth over ₹500 crore, sales over ₹1,000 crore, or profit over ₹5 crore — must spend at least 2% of their average recent profits on approved social projects every year, or explain why they didn't.",
+        "sources": [
+          {
+            "name": "India CSR",
+            "url": "https://indiacsr.in/indias-csr-hits-record-crore-in-fy-2024-25/"
+          },
+          {
+            "name": "Businessworld",
+            "url": "https://www.businessworld.in/article/india-inc-s-csr-spending-hits-record-rs-40-794-cr-in-fy25-maharashtra-tops-investments-615473"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
       "title": "NEET score-mismatch row: NTA says some 'proof' sheets from aspirants are AI-generated fakes, warns of legal action",
       "category": "india",
       "published_iso": "2026-07-19T07:00:00+00:00",
@@ -1188,6 +1283,34 @@
       "prev_ref": {
         "title": "Trump threatens to make Canada pay for its wildfire smoke — through tariffs — as 'filthy' haze from record fires chokes US cities",
         "date": null
+      }
+    },
+    {
+      "type": "story",
+      "title": "Yes Bank — the lender that nearly collapsed in 2020 — posts a 34% jump in quarterly profit as its turnaround gathers pace",
+      "category": "india",
+      "published_iso": "2026-07-18T16:38:32+00:00",
+      "added_at": "2026-07-19T23:37:05+05:30",
+      "source": "Business Standard",
+      "what_happened": "For the April–June quarter (the first of India's 2026-27 financial year), Yes Bank reported standalone net profit of about ₹1,071 crore, up roughly 34% from ₹801 crore a year earlier, beating analysts' forecasts. Net interest income — the gap between what a bank earns on loans and pays on deposits, a bank's core engine — rose 17.5% to ₹2,786 crore. Loans grew 18.3% to ₹2.85 lakh crore, and the gross bad-loan (NPA) ratio fell to 1.3% from 1.6%.",
+      "key_points": [
+        "Net profit up ~34% to ₹1,071 crore for the June quarter",
+        "Core interest income rose 17.5%; loans grew 18.3%",
+        "Bad-loan ratio eased to 1.3% from 1.6% a year ago",
+        "A milestone for a bank rescued from failure in 2020"
+      ],
+      "depth": {
+        "background": "Yes Bank was one of India's fastest-growing private banks until March 2020, when the Reserve Bank of India (RBI) — the country's banking regulator — seized it after a pile-up of bad loans left it near collapse, briefly freezing customers' withdrawals. A State Bank of India-led group of lenders pumped in rescue capital and installed new management. The years since have been a slow rebuild: cleaning up bad loans, rebuilding deposits and restoring trust. Each solid quarter is a check on whether the turnaround is real.",
+        "sources": [
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/companies/quarterly-results/yes-bank-q1fy27-profit-jumps-34-to-rs-1-071-crore-on-healthy-loan-growth-126071800633_1.html"
+          },
+          {
+            "name": "Republic World",
+            "url": "https://www.republicworld.com/business/yes-bank-q1-results-2026-net-profit-nii-npa-shares-trending-2026-07-18-132712"
+          }
+        ]
       }
     },
     {
