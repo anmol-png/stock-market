@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "generated_at": "2026-07-19T22:12:18+05:30",
+  "generated_at": "2026-07-19T23:06:02+05:30",
   "day_label": "Sunday · 19 July 2026",
   "dashboard_url": "../",
   "cards": [
@@ -8,6 +8,127 @@
       "type": "story",
       "id": "story-1",
       "rank": 1,
+      "category": "geopolitics",
+      "is_new": true,
+      "published_iso": "2026-07-19T12:30:00+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "The Times of Israel",
+      "importance": "notable",
+      "regions": [
+        "Middle East",
+        "Israel"
+      ],
+      "title": "Hundreds of Israelis march on the Gaza border to demand Jewish resettlement — with coalition ministers backing them",
+      "what_happened": "Hundreds of activists marched from the town of Sderot toward the Gaza border on Sunday, July 19, demanding that Israel re-establish settlements inside Gaza. The military issued a 'closed military zone' order over parts of the western Negev and physically blocked marchers at roadblocks; organisers said a Likud minister joined the group as it pushed past an IDF checkpoint, and other senior coalition figures were expected to attend. The army and organisers negotiated so the crowd did not actually enter Gaza.",
+      "key_points": [
+        "Marchers chanted 'Ours forever', demanding settlements be rebuilt in Gaza",
+        "The IDF declared the border a closed military zone and blocked them",
+        "Senior government ministers backed or joined the pro-settlement rally",
+        "It clashes with Israel's official stance that it won't resettle Gaza"
+      ],
+      "moot": "In a coalition government, a prime minister's stated policy and his actual room to maneuver can diverge — when survival depends on hardline partners, street movements they back can drag official policy in directions the leader publicly denies wanting.",
+      "concepts": [
+        "annexation"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "Israel withdrew all its settlers and soldiers from the Gaza Strip in 2005. A hard-right movement in Israel has long wanted to reverse that and rebuild Jewish settlements there — a goal that gained momentum during the long Gaza war. The march was organised by settler groups such as Nahala, and several ministers in Prime Minister Benjamin Netanyahu's governing coalition openly support the idea.",
+        "why_it_matters": "The march exposes a widening split inside Israel over Gaza's future: the official line is that Israel is not resettling the territory, yet powerful ministers are publicly campaigning to do exactly that. What Israel ultimately intends for post-war Gaza shapes the odds of any ceasefire, reconstruction, and a Palestinian political future.",
+        "ripple_effects": "Open talk of resettlement inflames Palestinians and Arab states, complicates US and mediator efforts to arrange aid and a lasting truce, and hands Israel's critics evidence of annexation intent. It also pressures Netanyahu, who depends on far-right coalition partners to stay in power, deepening tension between his stated policy and his political survival.",
+        "why_now": "With the war's active phase winding down, factions are jockeying to define what happens to Gaza next — and the settler movement is staging visible shows of force to push resettlement onto the agenda before any post-war arrangement is fixed.",
+        "watch_next": "Whether Netanyahu's government explicitly rules resettlement in or out — and how the US and Arab mediators respond to ministers endorsing it.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "Closed military zone",
+            "definition": "An area the army legally seals off to civilians, giving it the power to block or remove anyone who enters."
+          },
+          {
+            "term": "Settlement",
+            "definition": "A community built by one group on contested or occupied land; rebuilding them in Gaza would mean Israelis living where the territory's Palestinian population resides."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Times of Israel",
+            "url": "https://www.timesofisrael.com/ours-forever-hundreds-march-from-sderot-to-gaza-border-to-demand-resettlement/"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/19/from-settlements-to-blocked-recovery-israeli-strategy-taking-shape-in-gaza"
+          },
+          {
+            "name": "The Jerusalem Post",
+            "url": "https://www.jpost.com/israel-news/article-902980"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-2",
+      "rank": 2,
+      "category": "geopolitics",
+      "is_new": true,
+      "published_iso": "2026-07-19T11:00:00+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "Reuters via US News",
+      "importance": "high",
+      "regions": [
+        "Middle East",
+        "US"
+      ],
+      "title": "Lebanon's president heads to the White House with a plan to disarm Hezbollah — the first Lebanese leader to visit in nearly 20 years",
+      "what_happened": "Aoun is traveling to Washington for his first face-to-face meeting with US President Donald Trump, carrying a written proposal for how Hezbollah's large arsenal could be dismantled in stages, paired with a phased Israeli military withdrawal from two 'pilot zones' in the south. Ahead of the visit, US Secretary of State Marco Rubio publicly praised Aoun's 'courage' in trying to disarm Hezbollah and restore Lebanese sovereignty. Aoun's team says only Trump has the leverage to press Israel to pull back.",
+      "key_points": [
+        "Aoun will hand Trump a written plan to decommission Hezbollah's weapons",
+        "In return he wants Israel to pull its troops out of south Lebanon",
+        "First Lebanese head of state at the White House in ~20 years",
+        "Hezbollah rejects any direct talks with Israel — the plan's biggest obstacle"
+      ],
+      "moot": "Winning a war on the battlefield is not the same as ending it — lasting peace needs a political deal that gives each side something it wants (here, disarmament in exchange for withdrawal), and it usually needs an outside power with enough leverage to make both sides move.",
+      "concepts": [
+        "proxy_war",
+        "ceasefire_vs_truce"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "Hezbollah is an Iran-backed armed political movement in Lebanon that, for decades, kept a private army more powerful than the Lebanese state's own. A brutal 2024–2026 war with Israel badly degraded the group, and Israeli troops still occupy a strip of southern Lebanon. Joseph Aoun — a former commander of Lebanon's US-backed army — was elected president last year on a promise to reclaim the state's monopoly on force, meaning the government, not a militia, controls weapons.",
+        "why_it_matters": "This is the most serious attempt in a generation to end Lebanon's 'state within a state' problem peacefully — to turn a war Israel won on the battlefield into a durable political settlement. If it works, a country that has been a front line for Iran's regional network could stabilize; if it collapses, fighting can reignite.",
+        "ripple_effects": "Success would weaken Iran's 'axis' of allied militias across the region and could ease the war-risk premium that keeps oil prices jumpy. It would also test Israel's willingness to trade occupied land for security guarantees. Failure risks another round of strikes, more displacement inside Lebanon, and a blow to US mediation credibility while it is also managing the wider Iran conflict.",
+        "why_now": "Israel's military still sits on Lebanese soil and hundreds of thousands of Lebanese remain displaced, so Beirut is racing to convert a fragile post-war lull into a deal before it frays — and Washington is pushing a framework that links disarmament to withdrawal.",
+        "watch_next": "Whether the Trump–Aoun meeting produces a concrete timeline for the first Israeli pullback and Hezbollah handover — and how Hezbollah responds to being pressured to give up its guns.",
+        "market_link": "Diplomacy that lowers the risk of renewed Israel–Hezbollah fighting can shave the geopolitical 'risk premium' baked into oil prices; a breakdown would push it back up.",
+        "key_terms": [
+          {
+            "term": "Hezbollah",
+            "definition": "A powerful Iran-backed Shia political party and armed group in Lebanon that has long kept its own military separate from the national army."
+          },
+          {
+            "term": "Sovereignty",
+            "definition": "A state's full authority over its own territory and affairs — here, the government controlling all weapons rather than a militia."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Reuters via US News",
+            "url": "https://www.usnews.com/news/world/articles/2026-07-19/lebanons-aoun-to-meet-trump-at-white-house-hoping-to-generate-pressure-on-israel"
+          },
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/news/us/2026/07/20/donald-trump-aoun-lebanon-israel/"
+          },
+          {
+            "name": "The Jerusalem Post",
+            "url": "https://www.jpost.com/middle-east/article-902906"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-3",
+      "rank": 3,
       "category": "science",
       "is_new": true,
       "published_iso": "2026-07-19T02:24:00+00:00",
@@ -63,8 +184,8 @@
     },
     {
       "type": "story",
-      "id": "story-2",
-      "rank": 2,
+      "id": "story-4",
+      "rank": 4,
       "category": "climate",
       "is_new": true,
       "published_iso": "2026-07-19T11:33:43+00:00",
@@ -120,10 +241,9 @@
     },
     {
       "type": "story",
-      "id": "story-3",
-      "rank": 3,
+      "id": "story-5",
+      "rank": 5,
       "category": "climate",
-      "is_new": true,
       "development": true,
       "prev_ref": {
         "title": "Trump threatens to make Canada pay for its wildfire smoke — through tariffs — as 'filthy' haze from record fires chokes US cities",
@@ -187,10 +307,9 @@
     },
     {
       "type": "story",
-      "id": "story-4",
-      "rank": 4,
+      "id": "story-6",
+      "rank": 6,
       "category": "geopolitics",
-      "is_new": true,
       "published_iso": "2026-07-18T18:00:00+00:00",
       "added_at": "2026-07-19T21:26:12+05:30",
       "source": "Kyiv Independent",
@@ -249,10 +368,9 @@
     },
     {
       "type": "story",
-      "id": "story-5",
-      "rank": 5,
+      "id": "story-7",
+      "rank": 7,
       "category": "economy",
-      "is_new": true,
       "published_iso": "2026-07-19T01:47:59+00:00",
       "added_at": "2026-07-19T20:48:45+05:30",
       "source": "BBC",
@@ -307,10 +425,9 @@
     },
     {
       "type": "story",
-      "id": "story-6",
-      "rank": 6,
+      "id": "story-8",
+      "rank": 8,
       "category": "geopolitics",
-      "is_new": true,
       "published_iso": "2026-07-19T07:27:59+00:00",
       "added_at": "2026-07-19T20:48:45+05:30",
       "source": "NPR",
@@ -368,8 +485,8 @@
     },
     {
       "type": "story",
-      "id": "story-7",
-      "rank": 7,
+      "id": "story-9",
+      "rank": 9,
       "category": "economy",
       "published_iso": "2026-07-19T07:50:20+00:00",
       "added_at": "2026-07-19T20:10:21+05:30",
@@ -430,8 +547,8 @@
     },
     {
       "type": "story",
-      "id": "story-8",
-      "rank": 8,
+      "id": "story-10",
+      "rank": 10,
       "category": "geopolitics",
       "development": true,
       "prev_ref": {
@@ -500,8 +617,8 @@
     },
     {
       "type": "story",
-      "id": "story-9",
-      "rank": 9,
+      "id": "story-11",
+      "rank": 11,
       "category": "science",
       "published_iso": "2026-07-18T20:06:35+00:00",
       "added_at": "2026-07-19T19:35:32+05:30",
@@ -553,8 +670,8 @@
     },
     {
       "type": "story",
-      "id": "story-10",
-      "rank": 10,
+      "id": "story-12",
+      "rank": 12,
       "category": "geopolitics",
       "published_iso": "2026-07-19T11:18:17+00:00",
       "added_at": "2026-07-19T19:35:32+05:30",
@@ -602,8 +719,8 @@
     },
     {
       "type": "story",
-      "id": "story-11",
-      "rank": 11,
+      "id": "story-13",
+      "rank": 13,
       "category": "geopolitics",
       "published_iso": "2026-07-19T12:53:20+00:00",
       "added_at": "2026-07-19T18:48:09+05:30",
@@ -665,8 +782,8 @@
     },
     {
       "type": "story",
-      "id": "story-12",
-      "rank": 12,
+      "id": "story-14",
+      "rank": 14,
       "category": "geopolitics",
       "development": true,
       "prev_ref": {
@@ -736,8 +853,8 @@
     },
     {
       "type": "story",
-      "id": "story-13",
-      "rank": 13,
+      "id": "story-15",
+      "rank": 15,
       "category": "geopolitics",
       "published_iso": "2026-07-18T15:23:31+00:00",
       "added_at": "2026-07-19T01:09:11+05:30",
@@ -793,8 +910,8 @@
     },
     {
       "type": "story",
-      "id": "story-14",
-      "rank": 14,
+      "id": "story-16",
+      "rank": 16,
       "category": "geopolitics",
       "published_iso": "2026-07-18T18:00:00+00:00",
       "added_at": "2026-07-19T01:09:11+05:30",
@@ -847,8 +964,8 @@
     },
     {
       "type": "story",
-      "id": "story-15",
-      "rank": 15,
+      "id": "story-17",
+      "rank": 17,
       "category": "technology",
       "published_iso": "2026-07-18T15:10:38+00:00",
       "added_at": "2026-07-19T00:45:14+05:30",
@@ -897,8 +1014,8 @@
     },
     {
       "type": "story",
-      "id": "story-16",
-      "rank": 16,
+      "id": "story-18",
+      "rank": 18,
       "category": "climate",
       "published_iso": "2026-07-18T13:06:42+00:00",
       "added_at": "2026-07-19T00:45:14+05:30",
@@ -946,8 +1063,8 @@
     },
     {
       "type": "story",
-      "id": "story-17",
-      "rank": 17,
+      "id": "story-19",
+      "rank": 19,
       "category": "geopolitics",
       "published_iso": "2026-07-18T17:33:28+00:00",
       "added_at": "2026-07-19T00:07:22+05:30",
@@ -1013,8 +1130,8 @@
     },
     {
       "type": "story",
-      "id": "story-18",
-      "rank": 18,
+      "id": "story-20",
+      "rank": 20,
       "category": "geopolitics",
       "development": true,
       "prev_ref": {
@@ -1091,122 +1208,129 @@
     },
     {
       "type": "story",
-      "id": "story-19",
-      "rank": 19,
-      "category": "health",
-      "published_iso": "2026-07-18T14:51:00+00:00",
-      "added_at": "2026-07-18T23:27:04+05:30",
-      "source": "The Verge",
-      "importance": "notable",
-      "regions": [
-        "US"
-      ],
-      "title": "A stomach-bug outbreak pulls Taylor Farms lettuce off US shelves — and Taco Bell's menu",
-      "what_happened": "US health agencies (the CDC and FDA) linked shredded iceberg lettuce served at Taco Bell to a Cyclospora outbreak first confirmed in five states — Indiana, Kentucky, Michigan, Ohio and West Virginia — and traced it to a single grower in central Mexico. On July 17, supplier Taylor Farms de México said it was voluntarily removing all iceberg lettuce sourced from central Mexico from the US market, and Taco Bell said it had pulled the lettuce from restaurants and its nationwide supply chain. Reporting suggests the wider outbreak may have sickened thousands, with cases being investigated across dozens of states.",
-      "key_points": [
-        "Shredded iceberg lettuce tied to a Cyclospora outbreak",
-        "Taylor Farms recalls all central-Mexico iceberg lettuce",
-        "Taco Bell removes the lettuce nationwide",
-        "Thousands possibly sickened across many states"
-      ],
-      "moot": "In a globalised food supply, safety is only as strong as its weakest link — one contaminated farm abroad can trigger recalls and menu changes across an entire country almost overnight.",
-      "concepts": [
-        "supply_chain"
-      ],
-      "figures": [],
-      "depth": {
-        "background": "Cyclospora is a tiny parasite that contaminates fresh produce, usually via water tainted with human waste, and causes cyclosporiasis — days or weeks of watery diarrhoea, cramps and fatigue. It can't be washed off reliably and isn't killed by refrigeration, so the main fix once produce is contaminated is to pull it from the food chain. The US sees these outbreaks most summers, often traced to imported salad greens.",
-        "why_it_matters": "It's a live food-safety scare touching one of America's biggest fast-food chains and a major salad supplier, so it directly affects what's safe to eat right now. It also shows how a problem at one overseas farm can ripple through the whole US food system within days.",
-        "ripple_effects": "Restaurants and grocers relying on Taylor Farms greens face shortages and menu changes; the supplier and Taco Bell take a reputational and financial hit; and regulators face pressure over how quickly they can trace and contain such outbreaks — made harder, some reports note, by cuts to US public-health staffing. Expect tighter scrutiny of imported leafy greens.",
-        "why_now": "Warm summer weather and the salad-heavy season raise contamination risk, and the recall widened this week as investigators confirmed the source and cases kept climbing.",
-        "watch_next": "Whether the recall expands to other products or brands, and the CDC's updated case and state count.",
-        "market_link": "Negative for Taylor Farms and Yum Brands (Taco Bell's owner) near-term; food-safety scares can dent sales at affected chains.",
-        "key_terms": [
-          {
-            "term": "Cyclosporiasis",
-            "definition": "An intestinal illness caused by the Cyclospora parasite, spread through contaminated food or water, causing prolonged diarrhoea."
-          },
-          {
-            "term": "Recall",
-            "definition": "When a company pulls a product from sale because it may be unsafe."
-          }
-        ],
-        "sources": [
-          {
-            "name": "The Verge",
-            "url": "https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce"
-          },
-          {
-            "name": "Ars Technica",
-            "url": "https://arstechnica.com/health/2026/07/taco-bell-iceburg-lettuce-identified-as-source-of-cyclosporiasis-in-5-states/"
-          },
-          {
-            "name": "CNN",
-            "url": "https://www.cnn.com/2026/07/16/health/cyclospora-outbreak-shredded-lettuce"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
-      "id": "story-20",
-      "rank": 20,
-      "category": "economy",
-      "published_iso": "2026-07-18T14:23:33+00:00",
-      "added_at": "2026-07-18T23:27:04+05:30",
-      "source": "Al Jazeera",
-      "importance": "high",
-      "regions": [
-        "Middle East",
-        "US"
-      ],
-      "title": "Iraq signs big US energy deals to reroute its oil around the Strait of Hormuz",
-      "what_happened": "At a US-Iraq business summit at the US Chamber of Commerce in Washington on Friday, the two sides signed preliminary agreements worth more than $60bn spanning energy, healthcare and technology. The headline deal is a plan for US giant Chevron to help rebuild the long-defunct pipeline from Iraq's oil-rich Kirkuk region to Syria's Mediterranean port of Baniyas — letting Iraqi crude reach world markets without going near Hormuz. Chevron signed two further oil-production deals, and Iraq also formally signed up Elon Musk's Starlink satellite internet.",
-      "key_points": [
-        "US-Iraq summit yields $60bn+ in initial deals",
-        "Centrepiece: revive the old Iraq-to-Syria oil pipeline",
-        "Goal: stop depending on the war-hit Strait of Hormuz",
-        "Chevron to lead; Iraq also signs up Starlink"
-      ],
-      "moot": "When a single passage carries a huge share of global supply, buyers and sellers will pay a lot to build backups — because in trade, having an alternative route is a form of insurance against conflict.",
-      "concepts": [
-        "strait_chokepoint",
-        "crude_geopolitics"
-      ],
-      "figures": [],
-      "depth": {
-        "background": "Roughly a fifth of the world's oil is shipped through the Strait of Hormuz, a narrow sea passage between Iran and Oman — a classic 'chokepoint' where a single conflict can throttle global supply. With the US now fighting a war against Iran, tankers passing Hormuz face growing risk, and oil-exporting neighbours like Iraq are scrambling for safer routes to sell their crude.",
-        "why_it_matters": "It's a concrete move to 'chokepoint-proof' the oil trade: if crude can flow west through Syria to the Mediterranean, a blockade or attack at Hormuz hurts less. A US envoy said the deals could make Hormuz 'an afterthought'. It also deepens American commercial and strategic ties with Iraq at a moment when Washington is squeezing Iran next door.",
-        "ripple_effects": "Cheaper, safer export routes could steady global oil prices over time and blunt Iran's biggest threat — closing Hormuz. It draws Syria further into the US-aligned economic orbit, gives Chevron a major reconstruction contract, and could shift regional power away from Tehran. But a pipeline through Syria and northern Iraq crosses politically fragile, sometimes violent territory, so building it is far from guaranteed.",
-        "why_now": "Repeated US-Iran strikes have disrupted Hormuz shipping and pushed up fuel prices, giving Baghdad urgent reason — and Washington the leverage — to lock in alternative routes and lucrative American contracts.",
-        "watch_next": "Whether these preliminary deals turn into financed, signed contracts, and any Iranian response to being bypassed.",
-        "market_link": "Bullish for oil-route security over time (softening the Hormuz risk premium); a boost for Chevron and a strategic setback for Iran's leverage over crude prices.",
-        "key_terms": [
-          {
-            "term": "Strait of Hormuz",
-            "definition": "A narrow shipping lane between Iran and Oman through which about a fifth of the world's oil passes."
-          },
-          {
-            "term": "Chokepoint",
-            "definition": "A narrow passage that a lot of trade must squeeze through, so blocking it can disrupt supplies far and wide."
-          }
-        ],
-        "sources": [
-          {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/7/18/iraq-signs-48-deals-with-us-companies-during-pms-visit-to-washington"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/07/17/iran-war-iraq-syria-oil-pipeline-strait-hormuz.html"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
       "id": "story-21",
       "rank": 21,
+      "category": "india",
+      "is_new": true,
+      "published_iso": "2026-07-19T06:30:00+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "Outlook India",
+      "importance": "notable",
+      "regions": [
+        "India"
+      ],
+      "title": "India moves to add four more Supreme Court judges — a bill to fight the country's mountain of pending cases",
+      "what_happened": "As Parliament's monsoon session opens on July 20, the government plans to introduce the Supreme Court (Number of Judges) Amendment Bill, 2026, which would raise the sanctioned strength of Supreme Court judges from 33 to 37 (in addition to the Chief Justice of India), with the stated aim of reducing pendency. It is one of seven bills on the agenda, alongside an income-tax overhaul, an MSME (small-business) reform, and others — in a session expected to be stormy over unrelated flashpoints like exam leaks and party defections.",
+      "key_points": [
+        "Bill would raise the Supreme Court's judge strength from 33 to 37",
+        "Goal: clear a huge backlog of pending cases faster",
+        "One of 7 bills the government will table in the monsoon session",
+        "Session opens July 20 amid heated opposition protests"
+      ],
+      "moot": "When an institution is overwhelmed, the fix can be as basic as raising its capacity — but even a simple 'add more judges' move can reopen deeper fights, here over the age-old question of who gets to choose them.",
+      "concepts": [
+        "supreme_court_india",
+        "judiciary_collegium",
+        "parliament_india"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "India's Supreme Court is the country's highest court, and the number of judges it can have is fixed by a law that Parliament can amend. For years the court has struggled with a swelling backlog — tens of thousands of cases wait years for a hearing — because there simply aren't enough judges to keep up with the flood of appeals in a country of 1.4 billion.",
+        "why_it_matters": "More judges at the top court means cases — including constitutional questions that affect millions — can potentially be heard sooner, improving access to justice. It also quietly touches a sensitive nerve: how judges are chosen (currently by a judges-led 'collegium'), because more seats means more high-stakes appointments.",
+        "ripple_effects": "If passed, larger benches and more courtrooms could speed up rulings on everything from citizens' rights to business disputes, which markets and investors watch for legal certainty. It may also revive the long-running tug-of-war between the government and the judiciary over who should have the final say in appointing judges.",
+        "why_now": "The bill is being tabled at the start of the monsoon session, the government's main window to pass legislation, and reflects mounting pressure over years of case delays that critics say deny 'justice delayed is justice denied' to ordinary litigants.",
+        "watch_next": "Whether the bill passes cleanly or gets caught in the session's broader opposition standoff — and how the new vacancies would be filled.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "Pendency / backlog",
+            "definition": "The pile-up of cases waiting to be heard and decided; a bigger backlog means longer waits for a verdict."
+          },
+          {
+            "term": "Collegium",
+            "definition": "The system where senior Supreme Court judges themselves recommend who becomes a judge, a process the government has long wanted more say in."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Outlook India",
+            "url": "https://www.outlookindia.com/national/monsoon-session-to-begin-amid-political-flashpoints-seven-bills-on-govt-agenda"
+          },
+          {
+            "name": "India TV News",
+            "url": "https://www.indiatvnews.com/news/india/parliament-monsoon-session-income-tax-msme-reform-bills-on-agenda-here-s-the-list-of-key-legislations-2026-07-17-1048525"
+          },
+          {
+            "name": "Indian Masterminds",
+            "url": "https://indianmasterminds.com/news/government/monsoon-session-2026-7-bills-list-217895/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-22",
+      "rank": 22,
+      "category": "india",
+      "is_new": true,
+      "published_iso": "2026-07-19T17:06:42+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "The Week",
+      "importance": "high",
+      "regions": [
+        "India"
+      ],
+      "title": "20 Trinamool MPs break from Mamata Banerjee to merge with a tiny party — a legal workaround to defect without losing their seats",
+      "what_happened": "A rebel group of 20 TMC Lok Sabha MPs — led by figures including Kakoli Ghosh Dastidar and Sudip Bandyopadhyay — informed Lok Sabha Speaker Om Birla they are merging with the Tripura-based Nationalist Citizens Party of India (NCPI) and asked to be recognised as a separate bloc. Because 20 of TMC's 28 MPs (more than two-thirds) are crossing over, the move is designed to satisfy the anti-defection rule. The government arranged for the group to attend the pre-session all-party meeting, prompting the wider opposition to stage a symbolic walkout.",
+      "key_points": [
+        "20 of TMC's 28 Lok Sabha MPs are quitting Mamata's leadership",
+        "They plan to merge into the little-known Nationalist Citizens Party (NCPI)",
+        "The merger route dodges India's anti-defection law",
+        "Opposition walked out of an all-party meet in protest over recognising them"
+      ],
+      "moot": "Laws written to stop a behaviour often leave a legal 'side door' — India's anti-defection law bans individual party-switching, but a coordinated two-thirds 'merger' walks right through the loophole, showing how rules shape the form politics takes rather than always preventing it.",
+      "concepts": [
+        "lok_sabha",
+        "parliament_india"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "The Trinamool Congress (TMC), led by Mamata Banerjee, has run West Bengal for over a decade but suffered a heavy defeat in the state's 2026 Assembly elections. In India, lawmakers who switch parties normally lose their seats under the 'anti-defection law' (the Constitution's Tenth Schedule) — but there is a loophole: if two-thirds or more of a party's legislators merge as a bloc into another party, it counts as a legal merger, not defection.",
+        "why_it_matters": "This is one of the largest single desertions from a major regional party in years and hollows out the TMC's presence in Parliament just as the monsoon session opens. It also reshapes the opposition's arithmetic, weakening a party that has been a loud anti-BJP voice nationally.",
+        "ripple_effects": "If the Speaker formally recognises the NCPI bloc, the rebels keep their seats and speaking time while Mamata's faction shrinks — bolstering the ruling side's floor management. It intensifies the West Bengal power struggle, sets up rival 'Martyrs' Day' shows of strength on July 21, and could trigger legal challenges over whether the merger is genuine or a stitch-up.",
+        "why_now": "Timing is deliberate: the defectors want recognition locked in before Parliament's monsoon session begins on July 20, and the fallout from TMC's state-election loss has emboldened a two-thirds bloc to break away now.",
+        "watch_next": "Whether Speaker Om Birla grants the NCPI bloc formal recognition — and whether Mamata's camp mounts a court challenge under the anti-defection law.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "Anti-defection law (Tenth Schedule)",
+            "definition": "A constitutional rule that disqualifies lawmakers who switch parties — with an exception when two-thirds of a party's members merge together into another party."
+          },
+          {
+            "term": "Lok Sabha",
+            "definition": "The directly elected lower house of India's Parliament, where most law-making and the government's majority are decided."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Week",
+            "url": "https://www.theweek.in/news/india/2026/07/19/ncpi-to-get-speakers-recognition-rebel-tmc-group-attend-key-all-party-meet.html"
+          },
+          {
+            "name": "The Statesman",
+            "url": "https://www.thestatesman.com/india/rebel-tmc-mps-to-merge-with-little-known-tripura-based-nationalist-citizen-party-of-india-1503605734.html"
+          },
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/west-bengal/martyrs-day-2026-turns-out-to-be-show-of-political-strength-for-rival-trinamool-factions-in-west-bengal/article71242029.ece"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-23",
+      "rank": 23,
       "category": "india",
       "is_new": true,
       "published_iso": "2026-07-19T15:32:14+00:00",
@@ -1265,8 +1389,8 @@
     },
     {
       "type": "story",
-      "id": "story-22",
-      "rank": 22,
+      "id": "story-24",
+      "rank": 24,
       "category": "india",
       "is_new": true,
       "published_iso": "2026-07-19T15:53:44+00:00",
@@ -1324,10 +1448,9 @@
     },
     {
       "type": "story",
-      "id": "story-23",
-      "rank": 23,
+      "id": "story-25",
+      "rank": 25,
       "category": "india",
-      "is_new": true,
       "published_iso": "2026-07-18T18:00:00+05:30",
       "added_at": "2026-07-19T21:26:12+05:30",
       "source": "The Week",
@@ -1373,10 +1496,9 @@
     },
     {
       "type": "story",
-      "id": "story-24",
-      "rank": 24,
+      "id": "story-26",
+      "rank": 26,
       "category": "india",
-      "is_new": true,
       "published_iso": "2026-07-19T13:19:04+05:30",
       "added_at": "2026-07-19T21:26:12+05:30",
       "source": "Republic World",
@@ -1433,10 +1555,9 @@
     },
     {
       "type": "story",
-      "id": "story-25",
-      "rank": 25,
+      "id": "story-27",
+      "rank": 27,
       "category": "india",
-      "is_new": true,
       "published_iso": "2026-07-19T06:30:00+00:00",
       "added_at": "2026-07-19T20:48:45+05:30",
       "source": "Free Press Journal",
@@ -1486,10 +1607,9 @@
     },
     {
       "type": "story",
-      "id": "story-26",
-      "rank": 26,
+      "id": "story-28",
+      "rank": 28,
       "category": "india",
-      "is_new": true,
       "development": true,
       "prev_ref": {
         "title": "Police forcibly move a fasting Sonam Wangchuk to hospital on day 21 of his Ladakh protest",
@@ -1554,8 +1674,8 @@
     },
     {
       "type": "story",
-      "id": "story-27",
-      "rank": 27,
+      "id": "story-29",
+      "rank": 29,
       "category": "india",
       "published_iso": "2026-07-18T12:30:00+00:00",
       "added_at": "2026-07-19T20:10:21+05:30",
@@ -1632,8 +1752,8 @@
     },
     {
       "type": "story",
-      "id": "story-28",
-      "rank": 28,
+      "id": "story-30",
+      "rank": 30,
       "category": "india",
       "published_iso": "2026-07-19T08:51:16+00:00",
       "added_at": "2026-07-19T20:10:21+05:30",
@@ -1691,8 +1811,8 @@
     },
     {
       "type": "story",
-      "id": "story-29",
-      "rank": 29,
+      "id": "story-31",
+      "rank": 31,
       "category": "india",
       "published_iso": "2026-07-19T11:50:11+00:00",
       "added_at": "2026-07-19T19:35:32+05:30",
@@ -1740,8 +1860,8 @@
     },
     {
       "type": "story",
-      "id": "story-30",
-      "rank": 30,
+      "id": "story-32",
+      "rank": 32,
       "category": "india",
       "development": true,
       "prev_ref": {
@@ -1804,8 +1924,8 @@
     },
     {
       "type": "story",
-      "id": "story-31",
-      "rank": 31,
+      "id": "story-33",
+      "rank": 33,
       "category": "india",
       "published_iso": "2026-07-19T07:00:00+00:00",
       "added_at": "2026-07-19T18:48:09+05:30",
@@ -1864,8 +1984,8 @@
     },
     {
       "type": "story",
-      "id": "story-32",
-      "rank": 32,
+      "id": "story-34",
+      "rank": 34,
       "category": "india",
       "published_iso": "2026-07-19T05:00:00+00:00",
       "added_at": "2026-07-19T18:48:09+05:30",
@@ -1924,8 +2044,8 @@
     },
     {
       "type": "story",
-      "id": "story-33",
-      "rank": 33,
+      "id": "story-35",
+      "rank": 35,
       "category": "india",
       "published_iso": "2026-07-18T12:00:00+00:00",
       "added_at": "2026-07-19T01:09:11+05:30",
@@ -1982,8 +2102,8 @@
     },
     {
       "type": "story",
-      "id": "story-35",
-      "rank": 35,
+      "id": "story-37",
+      "rank": 37,
       "category": "india",
       "published_iso": "2026-07-18T19:22:24+05:30",
       "added_at": "2026-07-19T00:45:14+05:30",
@@ -2034,8 +2154,8 @@
     },
     {
       "type": "story",
-      "id": "story-38",
-      "rank": 38,
+      "id": "story-40",
+      "rank": 40,
       "category": "india",
       "published_iso": "2026-07-19T11:00:00+05:30",
       "added_at": "2026-07-19T00:07:22+05:30",
@@ -2102,65 +2222,67 @@
     },
     {
       "type": "story",
-      "id": "story-39",
-      "rank": 39,
-      "category": "india",
-      "published_iso": "2026-07-18T14:07:00+00:00",
-      "added_at": "2026-07-18T23:27:04+05:30",
-      "source": "The Hindu",
+      "id": "story-44",
+      "rank": 44,
+      "category": "f1",
+      "is_new": true,
+      "published_iso": "2026-07-19T15:45:00+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "Formula1.com",
       "importance": "notable",
       "regions": [
-        "India"
+        "Belgium",
+        "Global"
       ],
-      "title": "Speaker lets 6 Uddhav Thackeray MPs defect to Shinde's Shiv Sena — a fresh blow to the UBT camp",
-      "what_happened": "Lok Sabha Speaker Om Birla on Saturday formally recognised the merger of six Shiv Sena (UBT) MPs into the Shinde-led Shiv Sena. Because six of UBT's nine MPs crossed over — two-thirds — the move qualifies under the merger exception. That leaves Uddhav Thackeray's faction with just three MPs in the lower house of Parliament, while Shinde's group rises to 13. The decision, taken two days before Parliament's Monsoon Session, also lifts the BJP-led National Democratic Alliance's Lok Sabha strength to 298.",
+      "title": "After his Spa win, Antonelli's title lead balloons to 45 points — and Ferrari is fined for a pit-lane scare",
+      "what_happened": "With the Spa result confirmed, Antonelli extended his lead to 45 points over Hamilton, who reclaimed second place, while Russell dropped to 50 points behind after his DNF ('did not finish'). Separately, stewards fined Ferrari €30,000 (€10,000 suspended) for an 'unsafe release': during Hamilton's pit stop, a mechanic reaching in for a front-wing adjustment was struck by the car as it was waved off. The mechanic was unhurt, and because Hamilton stopped immediately and lost time, stewards issued a fine rather than a track penalty, so he keeps fourth.",
       "key_points": [
-        "Lok Sabha Speaker recognises the 6 MPs' switch",
-        "Shinde's Sena now has 13 MPs; Uddhav left with 3",
-        "Cleared under the anti-defection law's 'merger' rule",
-        "Lifts the ruling NDA's Lok Sabha tally to 298"
+        "Antonelli's championship lead over Hamilton grows to 45 points",
+        "Russell, out on lap one, is now 50 points adrift and fading",
+        "Ferrari fined €30,000 after Hamilton's car hit a mechanic in the pits",
+        "Stewards spared Hamilton a sporting penalty; he keeps 4th"
       ],
-      "moot": "Laws written to block one loophole often leave another: India's ban on defections still permits mass switches dressed up as 'mergers', showing how the exact wording of a rule shapes who holds power.",
-      "concepts": [
-        "lok_sabha",
-        "coalition_government"
-      ],
+      "moot": "In a points-based season, momentum compounds: extending a lead while a rival scores zero can flip a close contest into a near-decided one, because there are only so many races left to make the gap back up.",
+      "concepts": [],
       "figures": [],
       "depth": {
-        "background": "The Shiv Sena, a big Maharashtra party, split in 2022 when Eknath Shinde broke away with most lawmakers and, backed by the BJP, took over the government — leaving founder Bal Thackeray's son Uddhav with a smaller faction, officially called Shiv Sena (UBT). India's anti-defection law normally bars lawmakers from switching parties to stop horse-trading, but it makes an exception: if two-thirds of a party's legislators agree to 'merge' with another party, the switch is legal and they keep their seats.",
-        "why_it_matters": "It hollows out Uddhav Thackeray's national presence right before Parliament reconvenes, and hands the ruling coalition a bigger cushion. It's also a real-world stress test of the anti-defection law: critics argue the 'merger' loophole lets governing parties legally absorb opponents, weakening the very defections the law was meant to prevent.",
-        "ripple_effects": "A stronger NDA count makes it easier for the government to push bills through the Monsoon Session. In Maharashtra, it further shrinks the Uddhav camp's clout ahead of future elections and hands Shinde a symbolic victory in the long battle over who is the 'real' Shiv Sena. Expect the UBT side to challenge or protest the ruling.",
-        "why_now": "The MPs had jumped to Shinde's side last month; formalising it just before the session gives the government maximum numbers when Parliament sits.",
-        "watch_next": "Whether Shiv Sena (UBT) contests the Speaker's decision, and how the strengthened NDA uses its numbers in the Monsoon Session.",
+        "background": "Kimi Antonelli, Mercedes' teenage star, has led the 2026 Formula 1 championship for much of the season, with team-mate George Russell his closest rival. At the Belgian Grand Prix at Spa-Francorchamps, Antonelli started on pole and won — his sixth victory of the year — while Russell retired on the opening lap after a collision with Ferrari's Lewis Hamilton. In F1, drivers score points by finishing position, and the season title goes to whoever accumulates the most across all races.",
+        "why_it_matters": "The math is turning decisive: a 45–50 point cushion with a limited number of races left makes Antonelli the clear favourite and effectively pushes Russell out of realistic title contention. The pit incident is also a reminder of how dangerous the fast-moving pit lane is for the crews.",
+        "ripple_effects": "Mercedes now manages an awkward dynamic — one driver cruising toward the crown, the other watching his hopes slip — which shapes team orders and strategy for the rest of the year. Ferrari must submit a review of its pit procedures, and Hamilton's tangle with Russell adds needle to an already tense rivalry heading into the final race before F1's summer break.",
+        "why_now": "The points swing and the fine both land in the immediate aftermath of Sunday's race at Spa, the last round before the sport pauses for its mid-season break.",
+        "watch_next": "Next weekend's Hungarian Grand Prix — the final race before the summer shutdown, and Russell's last realistic chance to claw back into the fight.",
         "market_link": null,
         "key_terms": [
           {
-            "term": "Anti-defection law",
-            "definition": "A rule that disqualifies lawmakers who switch parties, meant to stop them being bought — but it allows a legal switch if two-thirds of a party agree to merge with another."
+            "term": "Unsafe release",
+            "definition": "When a car is sent out of its pit box before it is safe to do so, risking a collision with crew or another car; it draws a penalty or fine."
           },
           {
-            "term": "Lok Sabha",
-            "definition": "The directly-elected lower house of India's Parliament, where the party or coalition with a majority forms the government."
+            "term": "DNF",
+            "definition": "'Did not finish' — a driver who retires from the race, usually scoring no points."
           }
         ],
         "sources": [
           {
-            "name": "The Hindu",
-            "url": "https://www.thehindu.com/news/national/lok-sabha-speaker-approves-merger-of-six-shiv-sena-ubt-mps-with-the-eknath-shinde-led-shiv-sena/article71238932.ece"
+            "name": "Formula1.com",
+            "url": "https://www.formula1.com/en/latest/article/antonelli-beats-leclerc-to-belgian-grand-prix-win-to-extend-title-lead-as-russell-retires.MAqSJSgXvRP6dLbwiRbWI"
           },
           {
-            "name": "Business Standard",
-            "url": "https://www.business-standard.com/politics/ls-speaker-birla-approves-merger-of-rebel-ss-ubt-with-shinde-led-shiv-sena-126071800860_1.html"
+            "name": "The Race",
+            "url": "https://www.the-race.com/formula-1/why-lewis-hamilton-was-penalised-for-belgian-gp-clash-why-charles-leclerc-wasnt/"
+          },
+          {
+            "name": "Motorsport.com",
+            "url": "https://www.motorsport.com/f1/news/ferrari-summoned-for-hamiltons-belgian-gp-unsafe-release-after-hitting-mechanic/10840224/"
           }
         ]
       }
     },
     {
       "type": "story",
-      "id": "story-43",
-      "rank": 43,
+      "id": "story-45",
+      "rank": 45,
       "category": "f1",
-      "is_new": true,
       "published_iso": "2026-07-19T14:40:40+00:00",
       "added_at": "2026-07-19T20:48:45+05:30",
       "source": "Autosport",
@@ -2219,8 +2341,8 @@
     },
     {
       "type": "story",
-      "id": "story-44",
-      "rank": 44,
+      "id": "story-46",
+      "rank": 46,
       "category": "f1",
       "published_iso": "2026-07-19T11:57:03+00:00",
       "added_at": "2026-07-19T18:48:09+05:30",
@@ -2275,8 +2397,8 @@
     },
     {
       "type": "story",
-      "id": "story-45",
-      "rank": 45,
+      "id": "story-47",
+      "rank": 47,
       "category": "f1",
       "published_iso": "2026-07-18T15:26:31+00:00",
       "added_at": "2026-07-18T23:27:04+05:30",
@@ -2331,6 +2453,59 @@
       "rank": 41,
       "category": "cricket",
       "is_new": true,
+      "published_iso": "2026-07-19T15:28:05+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "ESPNcricinfo (match report)",
+      "importance": "notable",
+      "regions": [
+        "Zimbabwe",
+        "Bangladesh"
+      ],
+      "title": "Bangladesh come from behind to clinch the T20 series in Zimbabwe — Tanzid Hasan's unbeaten 66 seals a nervy chase",
+      "what_happened": "Chasing Zimbabwe's 143 for 7, Bangladesh reached 144 for 6 with two balls to spare to win by four wickets and take the series 2-1 — their first T20I series win of 2026. Opener Tanzid Hasan held the innings together with an unbeaten 66 off 58 balls, his 13th T20I fifty. The finish was dramatic: an umpire's 'dead ball' call (ruling a delivery void because a fielder was moving illegally) denied Zimbabwe's Brad Evans a hat-trick, and Mahedi Hasan struck the winning boundary.",
+      "key_points": [
+        "Bangladesh won the decider by 4 wickets to take the series 2-1",
+        "They fought back after losing the opening match",
+        "Tanzid Hasan anchored the chase with an unbeaten 66",
+        "A controversial 'dead ball' denied Zimbabwe's Evans a hat-trick"
+      ],
+      "moot": "Short-format cricket rewards nerve at the death: a single steady innings (Tanzid's unbeaten 66) and one contentious umpiring call can be the difference between winning and losing a whole series.",
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "Bangladesh and Zimbabwe were playing a three-match Twenty20 International (T20I) series in Bulawayo, Zimbabwe. T20 is cricket's shortest, fastest format — 20 overs a side — and a three-match series is decided by whoever wins two. Bangladesh had lost the first game, meaning the third and final match was a winner-takes-all decider.",
+        "why_it_matters": "For a Bangladesh side that has been inconsistent, bouncing back from 1-0 down to win a series away from home is a confidence boost and a sign of composure under pressure. Series wins abroad are exactly the results teams point to when building toward bigger tournaments.",
+        "ripple_effects": "Momentum and rankings points from an overseas series win help Bangladesh's standing in the T20I pecking order and give selectors reasons to back their in-form batters. For Zimbabwe, losing a series they led stings and raises questions about closing out tight games.",
+        "why_now": "The result came Sunday, July 19, in the series-deciding third T20I in Bulawayo.",
+        "watch_next": "Whether Bangladesh can carry this away-series momentum into their next assignments — and how Zimbabwe respond after letting a lead slip.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "T20I (Twenty20 International)",
+            "definition": "A short form of cricket where each team faces just 20 overs (120 balls), designed to be fast and high-scoring."
+          },
+          {
+            "term": "Dead ball",
+            "definition": "A delivery the umpire rules void — it doesn't count, and no runs or wickets from it stand — often because something illegal or disruptive happened as it was bowled."
+          }
+        ],
+        "sources": [
+          {
+            "name": "ESPNcricinfo (match report)",
+            "url": "https://www.espncricinfo.com/series/bangladesh-in-zimbabwe-2026-1538288/zimbabwe-vs-bangladesh-3rd-t20i-1538303/match-report"
+          },
+          {
+            "name": "ESPNcricinfo (scorecard)",
+            "url": "https://www.espncricinfo.com/series/bangladesh-in-zimbabwe-2026-1538288/zimbabwe-vs-bangladesh-3rd-t20i-1538303/full-scorecard"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-42",
+      "rank": 42,
+      "category": "cricket",
       "development": true,
       "prev_ref": {
         "title": "India vs England ODI series goes to a Lord's decider — with Rohit Sharma's future in the spotlight",
@@ -2390,8 +2565,8 @@
     },
     {
       "type": "story",
-      "id": "story-42",
-      "rank": 42,
+      "id": "story-43",
+      "rank": 43,
       "category": "cricket",
       "published_iso": "2026-07-18T13:03:00+00:00",
       "added_at": "2026-07-18T23:27:04+05:30",
@@ -2450,14 +2625,14 @@
       "id": "archive-global",
       "category": "geopolitics",
       "region": "global",
-      "older_count": 61
+      "older_count": 63
     },
     {
       "type": "archive",
       "id": "archive-india",
       "category": "india",
       "region": "india",
-      "older_count": 64
+      "older_count": 65
     },
     {
       "type": "archive",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T22:12:18+05:30",
-  "count": 26,
+  "generated_at": "2026-07-19T23:06:02+05:30",
+  "count": 28,
   "entities": {
     "united-states": {
       "slug": "united-states",
@@ -9,10 +9,18 @@
       "stories": [
         {
           "date": "2026-07-19",
+          "title": "Lebanon's president heads to the White House with a plan to disarm Hezbollah — the first Lebanese leader to visit in nearly 20 years",
+          "category": "geopolitics",
+          "url": "https://www.usnews.com/news/world/articles/2026-07-19/lebanons-aoun-to-meet-trump-at-white-house-hoping-to-generate-pressure-on-israel",
+          "rank": 2,
+          "moot": "Winning a war on the battlefield is not the same as ending it — lasting peace needs a political deal that gives each side something it wants (here, disarmament in exchange for withdrawal), and it usually needs an outside power with enough leverage to make both sides move."
+        },
+        {
+          "date": "2026-07-19",
           "title": "A storm is spinning up in the Gulf of Mexico — forecasters give it an 80% chance of becoming a tropical cyclone within two days, aimed at Florida",
           "category": "climate",
           "url": "https://wtvbam.com/2026/07/19/us-hurricane-center-says-80-chance-of-cyclone-in-next-48-hours-near-florida/",
-          "rank": 2,
+          "rank": 4,
           "moot": "A storm's danger isn't just about wind speed — slow, soggy tropical systems often kill more people through inland flooding than through the wind they get named for."
         },
         {
@@ -20,7 +28,7 @@
           "title": "Canada's record wildfires push New York and Washington to 'most polluted' — as air turns hazardous across the US Northeast and Midwest",
           "category": "climate",
           "url": "https://www.bbc.co.uk/news/articles/c5ywdl9ne3yo",
-          "rank": 3,
+          "rank": 5,
           "moot": "Pollution ignores borders: a fire season in one country can become a health emergency for tens of millions in another. As the climate warms, 'someone else's wildfire' increasingly becomes everyone's air."
         },
         {
@@ -28,7 +36,7 @@
           "title": "Cuba frees dissident artist Luis Manuel Otero Alcántara after 5 years — on condition he leave the country, and he lands in Miami",
           "category": "geopolitics",
           "url": "https://www.npr.org/2026/07/19/nx-s1-5899494/cuban-artist-exile-us",
-          "rank": 6,
+          "rank": 8,
           "moot": "Governments often manage dissent by exporting it — freeing a prominent critic into exile silences them at home while avoiding any admission that the jailing was unjust."
         },
         {
@@ -36,7 +44,7 @@
           "title": "Iran hits Kuwait's water-and-power plants, forcing rationing — the Gulf war spreads to civilian lifelines",
           "category": "geopolitics",
           "url": "https://www.nbcnews.com/world/iran/water-energy-sites-hit-us-iran-strikes-escalate-rcna588143",
-          "rank": 8,
+          "rank": 10,
           "moot": "In modern wars the most damaging targets aren't always armies — hitting the plants that supply a country's water and power can hurt a whole population fast, so heavy dependence on a few critical facilities is itself a strategic weakness."
         },
         {
@@ -44,7 +52,7 @@
           "title": "Tate brothers arrested in Miami as UK seeks their extradition on 59 charges including rape and trafficking",
           "category": "geopolitics",
           "url": "https://www.cnn.com/2026/07/18/us/tate-brothers-arrested-miami",
-          "rank": 11,
+          "rank": 13,
           "moot": "Borders don't erase criminal liability: extradition treaties let charges filed in one country reach a suspect living in another — but proving the case and completing the transfer can take years."
         },
         {
@@ -52,7 +60,7 @@
           "title": "The World Cup final is here: Spain vs Argentina, Messi vs Yamal — the planet's biggest match, tonight in New Jersey",
           "category": "geopolitics",
           "url": "https://www.aljazeera.com/sports/2026/7/18/spain-argentina-fifa-world-cup-final-prediction-head-to-head-messi-yamal-prediction-venue",
-          "rank": 14,
+          "rank": 16,
           "moot": "Global sporting finals are economic events too: for one night they concentrate the world's attention, and money flows to whoever owns the broadcast rights, the sponsorships and the merchandise — attention is a market."
         },
         {
@@ -60,7 +68,7 @@
           "title": "The backlash against AI's power-hungry data centres goes national — protests planned in 125+ US towns",
           "category": "technology",
           "url": "https://www.usnews.com/news/top-news/articles/2026-07-18/us-data-center-protests-go-national-as-backlash-grows",
-          "rank": 15,
+          "rank": 17,
           "moot": "Every digital boom has a physical bill: AI may feel weightless, but it runs on real land, power and water — and when those costs land on local communities, the politics can slow the technology down even as the tech keeps advancing."
         },
         {
@@ -68,7 +76,7 @@
           "title": "Iran's missiles kill 2 US troops in Jordan — the first American combat deaths of this war since spring",
           "category": "geopolitics",
           "url": "https://www.cnn.com/2026/07/18/politics/iran-war-us-service-members-killed-jordan",
-          "rank": 18,
+          "rank": 20,
           "moot": "When a great power's own troops are killed, the political pressure to escalate often overrides strategic caution — casualties tend to change a nation's calculus faster than battlefield logic does."
         },
         {
@@ -318,14 +326,6 @@
           "url": "https://finance.yahoo.com/news/us-official-says-shipments-h200-145442328.html",
           "rank": 20,
           "moot": "Export controls are a dial, not a switch. A government can loosen or tighten the flow of sensitive technology — and even turn permission into a revenue stream — trading national-security caution against commercial and fiscal gain. Watch the volume and the terms, not just the yes-or-no headline."
-        },
-        {
-          "date": "2026-07-15",
-          "title": "War-risk hits the pump: Brent jumps ~10% to a one-month high as the Hormuz crisis flares, while AI chip stocks slide",
-          "category": "economy",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcHZ0YWpGZjBZakNRRmRveklzX1hRUklIWUc2MzVoWE51Z1Bjc0JFU05vd2tGVWhaSVVVSmFvbHU3QWJZcEs0R2dkRjFxcG9WaGMtWFo2SmhqTTVjSDNFVFk5Zl8xcmdiaTFHUmM5cWU0RzNDeDU2TGM4RWJJMjg3Y2lYeEJBWkdqeXFWUjg0eWpNZw?oc=5",
-          "rank": 21,
-          "moot": "A supply scare moves prices as much as an actual supply cut. Traders price the risk of lost oil, not just the loss itself — so war-risk in a shipping chokepoint shows up at the pump within weeks, and the same fear that lifts crude often drains the market's most crowded trades."
         }
       ]
     },
@@ -339,7 +339,7 @@
           "title": "Drone strikes halt a major Black Sea oil pipeline's exports — a new front in the Russia-Ukraine war threatens oil supply",
           "category": "economy",
           "url": "https://www.bloomberg.com/news/articles/2026-07-19/caspian-pipeline-consortium-halts-loadings-after-drone-strike",
-          "rank": 7,
+          "rank": 9,
           "moot": "Global oil supply runs through a handful of chokepoints and terminals; damage to even one export node — far from the buyer — can ripple into prices worldwide, showing how concentrated and fragile energy logistics really are."
         },
         {
@@ -347,7 +347,7 @@
           "title": "Russia hits Kyiv with one of the biggest missile barrages of the war — 40+ missiles and 120+ drones",
           "category": "geopolitics",
           "url": "https://www.cnn.com/2026/07/19/europe/russia-ukraine-ballistic-missiles-intl-hnk",
-          "rank": 12,
+          "rank": 14,
           "moot": "In modern warfare, defence is a numbers game: attackers try to overwhelm air defences with mass salvos, so a country's safety depends as much on how many interceptors it can keep in stock as on how good each one is."
         },
         {
@@ -490,7 +490,7 @@
           "title": "Ukraine's leadership is in turmoil mid-war: Zelensky sacked his star defence minister, crowds are protesting for a third day, and his top general may be next",
           "category": "geopolitics",
           "url": "https://kyivindependent.com/draft-ukrainians-take-to-streets-for-3rd-consecutive-day-of-protests-over-military-leadership-crisis/",
-          "rank": 4,
+          "rank": 6,
           "moot": "Even a country united by an outside enemy can fracture over strategy — and in modern war, the fight between 'more technology' and 'more troops' is itself a decisive front. How an army chooses to fight can matter as much as how much it spends."
         },
         {
@@ -498,7 +498,7 @@
           "title": "Russia hits Kyiv with one of the biggest missile barrages of the war — 40+ missiles and 120+ drones",
           "category": "geopolitics",
           "url": "https://www.cnn.com/2026/07/19/europe/russia-ukraine-ballistic-missiles-intl-hnk",
-          "rank": 12,
+          "rank": 14,
           "moot": "In modern warfare, defence is a numbers game: attackers try to overwhelm air defences with mass salvos, so a country's safety depends as much on how many interceptors it can keep in stock as on how good each one is."
         },
         {
@@ -606,10 +606,26 @@
       "stories": [
         {
           "date": "2026-07-19",
+          "title": "Hundreds of Israelis march on the Gaza border to demand Jewish resettlement — with coalition ministers backing them",
+          "category": "geopolitics",
+          "url": "https://www.timesofisrael.com/ours-forever-hundreds-march-from-sderot-to-gaza-border-to-demand-resettlement/",
+          "rank": 1,
+          "moot": "In a coalition government, a prime minister's stated policy and his actual room to maneuver can diverge — when survival depends on hardline partners, street movements they back can drag official policy in directions the leader publicly denies wanting."
+        },
+        {
+          "date": "2026-07-19",
+          "title": "Lebanon's president heads to the White House with a plan to disarm Hezbollah — the first Lebanese leader to visit in nearly 20 years",
+          "category": "geopolitics",
+          "url": "https://www.usnews.com/news/world/articles/2026-07-19/lebanons-aoun-to-meet-trump-at-white-house-hoping-to-generate-pressure-on-israel",
+          "rank": 2,
+          "moot": "Winning a war on the battlefield is not the same as ending it — lasting peace needs a political deal that gives each side something it wants (here, disarmament in exchange for withdrawal), and it usually needs an outside power with enough leverage to make both sides move."
+        },
+        {
+          "date": "2026-07-19",
           "title": "Iran hits Kuwait's water-and-power plants, forcing rationing — the Gulf war spreads to civilian lifelines",
           "category": "geopolitics",
           "url": "https://www.nbcnews.com/world/iran/water-energy-sites-hit-us-iran-strikes-escalate-rcna588143",
-          "rank": 8,
+          "rank": 10,
           "moot": "In modern wars the most damaging targets aren't always armies — hitting the plants that supply a country's water and power can hurt a whole population fast, so heavy dependence on a few critical facilities is itself a strategic weakness."
         },
         {
@@ -617,7 +633,7 @@
           "title": "Iran's missiles kill 2 US troops in Jordan — the first American combat deaths of this war since spring",
           "category": "geopolitics",
           "url": "https://www.cnn.com/2026/07/18/politics/iran-war-us-service-members-killed-jordan",
-          "rank": 18,
+          "rank": 20,
           "moot": "When a great power's own troops are killed, the political pressure to escalate often overrides strategic caution — casualties tend to change a nation's calculus faster than battlefield logic does."
         },
         {
@@ -880,7 +896,7 @@
           "title": "Iran hits Kuwait's water-and-power plants, forcing rationing — the Gulf war spreads to civilian lifelines",
           "category": "geopolitics",
           "url": "https://www.nbcnews.com/world/iran/water-energy-sites-hit-us-iran-strikes-escalate-rcna588143",
-          "rank": 8,
+          "rank": 10,
           "moot": "In modern wars the most damaging targets aren't always armies — hitting the plants that supply a country's water and power can hurt a whole population fast, so heavy dependence on a few critical facilities is itself a strategic weakness."
         },
         {
@@ -1052,10 +1068,26 @@
       "stories": [
         {
           "date": "2026-07-19",
+          "title": "India moves to add four more Supreme Court judges — a bill to fight the country's mountain of pending cases",
+          "category": "india",
+          "url": "https://www.outlookindia.com/national/monsoon-session-to-begin-amid-political-flashpoints-seven-bills-on-govt-agenda",
+          "rank": 21,
+          "moot": "When an institution is overwhelmed, the fix can be as basic as raising its capacity — but even a simple 'add more judges' move can reopen deeper fights, here over the age-old question of who gets to choose them."
+        },
+        {
+          "date": "2026-07-19",
+          "title": "20 Trinamool MPs break from Mamata Banerjee to merge with a tiny party — a legal workaround to defect without losing their seats",
+          "category": "india",
+          "url": "https://www.theweek.in/news/india/2026/07/19/ncpi-to-get-speakers-recognition-rebel-tmc-group-attend-key-all-party-meet.html",
+          "rank": 22,
+          "moot": "Laws written to stop a behaviour often leave a legal 'side door' — India's anti-defection law bans individual party-switching, but a coordinated two-thirds 'merger' walks right through the loophole, showing how rules shape the form politics takes rather than always preventing it."
+        },
+        {
+          "date": "2026-07-19",
           "title": "India and the EU say their long-delayed free-trade deal is nearly done — aiming to sign by year-end and switch it on in early 2027",
           "category": "india",
           "url": "https://www.livemint.com/news/india/goyal-ends-europe-tour-pushes-early-india-eu-fta-implementation-11784473292461.html",
-          "rank": 21,
+          "rank": 23,
           "moot": "Trade deals take years because the last 5% is the hardest — farm goods, carbon rules and rules of origin are where national interests clash most sharply, long after the easy parts are agreed."
         },
         {
@@ -1063,7 +1095,7 @@
           "title": "Madhya Pradesh clears a Uniform Civil Code draft that makes registering a live-in relationship compulsory — skip it, and you could face jail",
           "category": "india",
           "url": "https://indianexpress.com/article/india/madhya-pradesh-cabinet-approves-draft-ucc-bill-live-in-relationship-registration-polygamy-ban-10794014/",
-          "rank": 22,
+          "rank": 24,
           "moot": "The same reform can expand freedom and shrink it at once — here, equal inheritance for all children sits beside jail time for not registering a relationship. 'Reform' always has a trade-off in who it empowers and who it polices."
         },
         {
@@ -1071,7 +1103,7 @@
           "title": "Chennamma, wife of former PM H.D. Deve Gowda and matriarch of a political dynasty, dies at 85 in Bengaluru",
           "category": "india",
           "url": "https://www.theweek.in/news/india/2026/07/18/hd-deve-gowda-wife-chennamma-dies.html",
-          "rank": 23,
+          "rank": 25,
           "moot": "Behind India's political dynasties are family networks whose personal milestones — births, marriages, deaths — ripple into public life, because kinship and politics are tightly woven in the country's regional parties."
         },
         {
@@ -1079,7 +1111,7 @@
           "title": "Exam-leak anger reaches Parliament: opposition will demand Education Minister Dharmendra Pradhan quit as the monsoon session opens tomorrow",
           "category": "india",
           "url": "https://www.republicworld.com/india/government-to-unveil-legislative-agenda-at-monsoon-session-all-party-meet-opposition-prepares-to-raise-key-issues-2026-07-19-132774",
-          "rank": 24,
+          "rank": 26,
           "moot": "Public anger becomes political power when it finds an institutional channel: a street protest can be ignored, but the same grievance raised on the floor of Parliament forces a government to respond on the record."
         },
         {
@@ -1087,7 +1119,7 @@
           "title": "A Kanpur engineering topper dies by suicide after nearly 50 failed tries at a government job — a note that reads 'Sorry, Papa'",
           "category": "india",
           "url": "https://www.freepressjournal.in/education/sorry-papa-please-forgive-me-kanpur-btech-gold-medallist-dies-by-suicide-after-struggling-to-secure-govt-job",
-          "rank": 25,
+          "rank": 27,
           "moot": "When one narrow path — here, a government job — is treated as the only measure of success, its scarcity turns ordinary setbacks into crushing personal failure; broadening what counts as success is itself a safeguard."
         },
         {
@@ -1095,7 +1127,7 @@
           "title": "Delhi Police declare the 'Cockroach' party's July 20 march to Parliament illegal as a hospitalised Wangchuk refuses to break his fast",
           "category": "india",
           "url": "https://www.outlookindia.com/national/delhi-police-declare-cjps-july-20-sansad-chalo-march-illegal-after-removing-sonam-wangchuk",
-          "rank": 26,
+          "rank": 28,
           "moot": "Protests are often timed to a political calendar for maximum leverage — and how authorities police a demonstration can matter more for public sympathy than the demonstration itself."
         },
         {
@@ -1103,7 +1135,7 @@
           "title": "Kotak Mahindra Bank's profit jumps about 26% — another solid quarter for India's private banks",
           "category": "india",
           "url": "https://www.brecorder.com/news/40430658/indias-kotak-bank-reports-26-jump-in-q1-profit-beats-estimates",
-          "rank": 27,
+          "rank": 29,
           "moot": "Bank earnings are an early X-ray of the whole economy — when big lenders grow loans quickly with few bad debts, it usually means households and businesses are borrowing and repaying, a sign of underlying demand."
         },
         {
@@ -1111,7 +1143,7 @@
           "title": "Government plans jail time for insulting 'Vande Mataram' — a new bill heads to Parliament as the monsoon session opens",
           "category": "india",
           "url": "https://www.business-standard.com/india-news/bill-seeks-up-to-3-year-jail-term-for-insulting-or-disrupting-vande-mataram-126071700602_1.html",
-          "rank": 28,
+          "rank": 30,
           "moot": "Laws about national symbols are rarely just about the symbol — they test where a democracy draws the line between fostering unity and compelling belief, and how it balances patriotism against free speech and minority rights."
         },
         {
@@ -1119,7 +1151,7 @@
           "title": "PV Sindhu wins the Japan Open — a first for any Indian, and her biggest title since 2019",
           "category": "india",
           "url": "https://www.olympics.com/en/news/japan-open-2026-badminton-india-final-report-pv-sindhu",
-          "rank": 29,
+          "rank": 31,
           "moot": "Elite form is rarely gone for good — a champion can go two years without a title and still deliver a statement win, which is why writing off experienced players too early is a mistake."
         },
         {
@@ -1127,7 +1159,7 @@
           "title": "India's Gen Z 'cockroach' movement calls a march on Parliament — a youth revolt over exam leaks builds as the monsoon session opens",
           "category": "india",
           "url": "https://www.aljazeera.com/features/2026/7/19/why-have-indias-gen-z-protesters-called-for-a-march-to-parliament",
-          "rank": 30,
+          "rank": 32,
           "moot": "Movements gain their loudest moment by timing — a protest staged on the exact day power reconvenes forces the issue onto the official agenda in a way a march on any ordinary day could not."
         },
         {
@@ -1135,7 +1167,7 @@
           "title": "NEET score-mismatch row: NTA says some 'proof' sheets from aspirants are AI-generated fakes, warns of legal action",
           "category": "india",
           "url": "https://news.careers360.com/neet-result-2026-nta-dismisses-omr-mismatch-allegation-finds-ai-generated-omr-sheets-warns-legal-action",
-          "rank": 31,
+          "rank": 33,
           "moot": "As AI makes convincing fake documents cheap to produce, 'proof' can no longer be taken at face value — institutions increasingly need tamper-evident, verifiable records for anyone to trust the process."
         },
         {
@@ -1143,7 +1175,7 @@
           "title": "Monsoon fury batters India's north and northeast — a deadly cloudburst landslide in Nagaland, flash floods in Kashmir",
           "category": "india",
           "url": "https://www.newsx.com/regionals/nagaland-landslide-8-feared-dead-4-bodies-recovered-rescue-operations-underway-250215/",
-          "rank": 32,
+          "rank": 34,
           "moot": "Natural hazards turn into human disasters mostly where people are exposed and unprepared — the same rainfall is far deadlier on deforested, over-built hillsides than on protected slopes with good drainage and warning systems."
         },
         {
@@ -1151,7 +1183,7 @@
           "title": "Under fire over its voter-list clean-up, India's Election Commission goes on the offensive to defend its credibility",
           "category": "india",
           "url": "https://www.business-standard.com/india-news/cec-says-sir-made-voter-rolls-more-accurate-india-s-polls-more-credible-126070400859_1.html",
-          "rank": 33,
+          "rank": 35,
           "moot": "Elections are only as trustworthy as the voter list underneath them — how names are added and removed is quietly one of the most powerful levers in a democracy, which is why the process itself becomes a political battleground."
         },
         {
@@ -1159,7 +1191,7 @@
           "title": "PNB's profit 'triples' to ₹5,253 crore — but the eye-popping jump is mostly a tax quirk, not a business boom",
           "category": "india",
           "url": "https://www.businesstoday.in/markets/stocks/story/pnb-q1-net-profit-soars-214-to-rs-5253-crore-on-lower-provision-for-income-tax-543757-2026-07-18",
-          "rank": 34,
+          "rank": 36,
           "moot": "Always read past the headline percentage: a profit that 'triples' can be a tax or one-off effect. The durable signals for a bank are its core interest income, its margins, and its bad-loan trend."
         },
         {
@@ -1167,7 +1199,7 @@
           "title": "India builds its own 'One Nation, One Time' network to stop relying on foreign GPS clocks",
           "category": "india",
           "url": "https://ianslive.in/govt-commissions-indian-standard-time-dissemination-network--20260718192224",
-          "rank": 35,
+          "rank": 37,
           "moot": "Critical systems depend on hidden 'utilities' like precise time — and controlling that infrastructure yourself, rather than borrowing it from another country's satellites, is a form of security as important as any weapon or firewall."
         },
         {
@@ -1175,7 +1207,7 @@
           "title": "India's first private rocket reaches orbit: Skyroot's Vikram-1 aces its maiden launch",
           "category": "india",
           "url": "https://spacenews.com/skyroot-aerospace-reaches-orbit-on-first-vikram-1-launch/",
-          "rank": 36,
+          "rank": 38,
           "moot": "Opening a state-run industry to private competition can unlock new capability fast — but reaching a milestone once is easier than building a business that can do it reliably and cheaply, again and again."
         },
         {
@@ -1183,7 +1215,7 @@
           "title": "India's National Film Awards for 2024 announced — Kartik Aaryan and Mammootty share Best Actor, Yami Gautam Best Actress",
           "category": "india",
           "url": "https://www.outlookindia.com/art-entertainment/72nd-national-film-awards-winners-full-list",
-          "rank": 37,
+          "rank": 39,
           "moot": "State-run honours are never purely about art — the choices signal what a government wants to celebrate, which is exactly why national award lists get read as political statements."
         },
         {
@@ -1191,7 +1223,7 @@
           "title": "India's Parliament opens its monsoon session Monday — an all-party meeting today, and 7 contentious bills on the table",
           "category": "india",
           "url": "https://www.outlookindia.com/national/monsoon-session-to-begin-amid-political-flashpoints-seven-bills-on-govt-agenda",
-          "rank": 38,
+          "rank": 40,
           "moot": "In a parliamentary democracy, the pre-session agenda-setting can decide more than the floor debates — controlling which bills even reach the floor is where a lot of real power sits."
         },
         {
@@ -1199,7 +1231,7 @@
           "title": "England pile up 387/3 in the Lord's ODI decider — India face a huge chase, and Rohit Sharma's future is on the line",
           "category": "cricket",
           "url": "https://www.espncricinfo.com/series/india-in-england-2026-1496488/england-vs-india-3rd-odi-1496581/full-scorecard",
-          "rank": 41,
+          "rank": 42,
           "moot": "In a run-chase, the scoreboard sets the psychology: past a certain total the required rate itself becomes the opponent, forcing risks that make failure more likely."
         },
         {
@@ -1353,22 +1385,6 @@
           "url": "https://aninews.in/news/national/politics/mallikarjun-kharge-urges-pm-modi-to-call-all-party-meeting-to-discuss-delimitation20260716172407/",
           "rank": 26,
           "moot": "How you count people decides who holds power. Tying representation to raw population sounds fair, but it can quietly punish regions that did what was asked of them — so in a diverse federation, 'one person, one vote' constantly collides with 'don't let the biggest states swallow the smaller ones'. That tension is the permanent balancing act of any large democracy."
-        },
-        {
-          "date": "2026-07-16",
-          "title": "India's first private rocket goes for orbit: Skyroot sets July 18 for the maiden launch of Vikram-1 from Sriharikota",
-          "category": "india",
-          "url": "https://www.thehindu.com/news/national/karnataka/indias-first-privately-developed-orbital-class-rocket-vikram-1-set-to-liff-off-on-july-18/article71229535.ece",
-          "rank": 27,
-          "moot": "Space is shifting from a government-only endeavour into a private industry, and the first orbital launch is the gate a private space sector must clear before it can compete. When a country lets startups build rockets, launches tend to get cheaper and more frequent — the same shift SpaceX drove in the US, now playing out in India."
-        },
-        {
-          "date": "2026-07-16",
-          "title": "India's inflation jumps past the RBI's target for the first time in 18 months — pricier fuel and food push June prices up 4.38%",
-          "category": "india",
-          "url": "https://www.livemint.com/economy/indias-retail-inflation-rbi-s-midpoint-target-india-june-cpi-new-cpi-series-india-gdp-india-interest-rates-11783925607030.html",
-          "rank": 28,
-          "moot": "A central bank's interest-rate decisions swing on one number — inflation versus its target — so when prices cross that line, borrowing costs and your loan EMIs are the next thing in play. And inflation is often imported: a war thousands of miles away can raise the price of the fuel in your tank and the food on your plate."
         }
       ]
     },
@@ -1491,7 +1507,7 @@
           "title": "PV Sindhu wins the Japan Open — a first for any Indian, and her biggest title since 2019",
           "category": "india",
           "url": "https://www.olympics.com/en/news/japan-open-2026-badminton-india-final-report-pv-sindhu",
-          "rank": 29,
+          "rank": 31,
           "moot": "Elite form is rarely gone for good — a champion can go two years without a title and still deliver a statement win, which is why writing off experienced players too early is a mistake."
         },
         {
@@ -1530,7 +1546,7 @@
           "title": "Ukraine's leadership is in turmoil mid-war: Zelensky sacked his star defence minister, crowds are protesting for a third day, and his top general may be next",
           "category": "geopolitics",
           "url": "https://kyivindependent.com/draft-ukrainians-take-to-streets-for-3rd-consecutive-day-of-protests-over-military-leadership-crisis/",
-          "rank": 4,
+          "rank": 6,
           "moot": "Even a country united by an outside enemy can fracture over strategy — and in modern war, the fight between 'more technology' and 'more troops' is itself a decisive front. How an army chooses to fight can matter as much as how much it spends."
         },
         {
@@ -1538,7 +1554,7 @@
           "title": "Europe's new digital border system is tripling airport queues — a summer-travel headache as fingerprints replace passport stamps",
           "category": "economy",
           "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o",
-          "rank": 5,
+          "rank": 7,
           "moot": "New security or tracking systems almost always trade short-term friction for long-term control — the promised benefits arrive slowly, but the queues and costs land immediately."
         },
         {
@@ -1546,7 +1562,7 @@
           "title": "Russia hits Kyiv with one of the biggest missile barrages of the war — 40+ missiles and 120+ drones",
           "category": "geopolitics",
           "url": "https://www.cnn.com/2026/07/19/europe/russia-ukraine-ballistic-missiles-intl-hnk",
-          "rank": 12,
+          "rank": 14,
           "moot": "In modern warfare, defence is a numbers game: attackers try to overwhelm air defences with mass salvos, so a country's safety depends as much on how many interceptors it can keep in stock as on how good each one is."
         },
         {
@@ -1554,7 +1570,7 @@
           "title": "A top German conservative quits over a surrogacy row — Jens Spahn steps down after backing a ban he then used abroad",
           "category": "geopolitics",
           "url": "https://www.aljazeera.com/news/2026/7/18/top-german-conservative-quits-after-surrogacy-sparks-backlash-within-party",
-          "rank": 13,
+          "rank": 15,
           "moot": "In politics, the gap between what a leader legislates and how they live their own life is scrutinised hard — perceived hypocrisy can end a career faster than the underlying policy fight itself."
         },
         {
@@ -1562,7 +1578,7 @@
           "title": "A fire tears through a Norwegian town and becomes the country's largest in modern times — 100+ homes gone, hundreds evacuated",
           "category": "climate",
           "url": "https://www.wral.com/news/ap/50b5e-massive-fire-destroys-100-homes-in-norway-and-forces-hundreds-to-evacuate/",
-          "rank": 16,
+          "rank": 18,
           "moot": "Climate risk shows up first where no one has planned for it: when heat and drought reach places that were historically too cold or wet to burn, ordinary house fires can turn into record disasters because the buildings, water systems and fire services were never designed for it."
         },
         {
@@ -1570,7 +1586,7 @@
           "title": "Hungary removes its president — Orban loyalist Sulyok agrees to go, defusing a constitutional standoff",
           "category": "geopolitics",
           "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po",
-          "rank": 17,
+          "rank": 19,
           "moot": "In a parliamentary system, a large enough legislative majority can reshape even the constitution — the real guardrails on power often depend on democratic norms as much as on the written law."
         },
         {
@@ -1578,7 +1594,7 @@
           "title": "India and the EU say their long-delayed free-trade deal is nearly done — aiming to sign by year-end and switch it on in early 2027",
           "category": "india",
           "url": "https://www.livemint.com/news/india/goyal-ends-europe-tour-pushes-early-india-eu-fta-implementation-11784473292461.html",
-          "rank": 21,
+          "rank": 23,
           "moot": "Trade deals take years because the last 5% is the hardest — farm goods, carbon rules and rules of origin are where national interests clash most sharply, long after the easy parts are agreed."
         },
         {
@@ -1586,7 +1602,7 @@
           "title": "The talent-spotter who found Antonelli is leaving Mercedes for Red Bull",
           "category": "f1",
           "url": "https://www.bbc.co.uk/sport/formula1/articles/cvg7kdnv4p2o",
-          "rank": 44,
+          "rank": 46,
           "moot": "In elite sport as in business, long-term success is built as much by the scouts and developers behind the scenes as by the stars on track — which is why rivals compete to hire them, not just the talent they find."
         },
         {
@@ -1852,6 +1868,14 @@
       "name": "Israel",
       "primer": "Ali Khamenei ruled Iran as Supreme Leader — its highest political and religious authority — for 36 years. He was assassinated on February 28, 2026, at the very start of a short but intense US-Israel war on Iran. His son, Mojtaba Khamenei, was named successor by Iran's Assembly of Experts in March but has stayed out of public view since. A fragile calm has since returned to the region, including the vital Strait of Hormuz shipping lane.",
       "stories": [
+        {
+          "date": "2026-07-19",
+          "title": "Hundreds of Israelis march on the Gaza border to demand Jewish resettlement — with coalition ministers backing them",
+          "category": "geopolitics",
+          "url": "https://www.timesofisrael.com/ours-forever-hundreds-march-from-sderot-to-gaza-border-to-demand-resettlement/",
+          "rank": 1,
+          "moot": "In a coalition government, a prime minister's stated policy and his actual room to maneuver can diverge — when survival depends on hardline partners, street movements they back can drag official policy in directions the leader publicly denies wanting."
+        },
         {
           "date": "2026-07-12",
           "title": "Overshadowed by the Iran war, Israel now controls nearly 70% of Gaza as hospitals go dark",
@@ -2173,7 +2197,7 @@
           "title": "Europe's new digital border system is tripling airport queues — a summer-travel headache as fingerprints replace passport stamps",
           "category": "economy",
           "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o",
-          "rank": 5,
+          "rank": 7,
           "moot": "New security or tracking systems almost always trade short-term friction for long-term control — the promised benefits arrive slowly, but the queues and costs land immediately."
         },
         {
@@ -2181,7 +2205,7 @@
           "title": "Britain's Josh Kerr breaks a 27-year-old mile world record — the first man ever under 3:43",
           "category": "science",
           "url": "https://worldathletics.org/competitions/diamond-league/news/london-athletics-meet-2026-josh-kerr-world-mile-record",
-          "rank": 9,
+          "rank": 11,
           "moot": "Even 'unbreakable' records fall to a clear plan executed patiently — naming the target, engineering the conditions, and building toward it beats simply hoping for a great day."
         },
         {
@@ -2189,7 +2213,7 @@
           "title": "Tate brothers arrested in Miami as UK seeks their extradition on 59 charges including rape and trafficking",
           "category": "geopolitics",
           "url": "https://www.cnn.com/2026/07/18/us/tate-brothers-arrested-miami",
-          "rank": 11,
+          "rank": 13,
           "moot": "Borders don't erase criminal liability: extradition treaties let charges filed in one country reach a suspect living in another — but proving the case and completing the transfer can take years."
         },
         {
@@ -2534,6 +2558,37 @@
         }
       ]
     },
+    "bangladesh": {
+      "slug": "bangladesh",
+      "name": "Bangladesh",
+      "primer": "The Rohingya are a mostly-Muslim ethnic minority from Myanmar's Rakhine state. Myanmar denies them citizenship, so they are 'stateless' — no country legally recognises them. After a brutal 2017 military crackdown that UN investigators said may amount to genocide, roughly a million Rohingya fled to overcrowded camps in Cox's Bazar, Bangladesh. Trapped there with no legal right to work, study or move on, thousands each year pay smugglers for dangerous boat crossings toward Malaysia or Indonesia.",
+      "stories": [
+        {
+          "date": "2026-07-19",
+          "title": "Bangladesh come from behind to clinch the T20 series in Zimbabwe — Tanzid Hasan's unbeaten 66 seals a nervy chase",
+          "category": "cricket",
+          "url": "https://www.espncricinfo.com/series/bangladesh-in-zimbabwe-2026-1538288/zimbabwe-vs-bangladesh-3rd-t20i-1538303/match-report",
+          "rank": 41,
+          "moot": "Short-format cricket rewards nerve at the death: a single steady innings (Tanzid's unbeaten 66) and one contentious umpiring call can be the difference between winning and losing a whole series."
+        },
+        {
+          "date": "2026-07-16",
+          "title": "More than 500 Rohingya feared drowned after two boats sink off Myanmar — one of the deadliest days of the whole refugee crisis",
+          "category": "geopolitics",
+          "url": "https://apnews.com/article/un-rohingya-myanmar-bangladesh-boats-migration-refugees-40aade57d92ab1828f86d82141ef884c",
+          "rank": 13,
+          "moot": "When people knowingly board boats that may kill them, it measures how unbearable the place they are leaving has become — desperation, not recklessness, drives migration, and cutting aid to a trapped population tends to push more of them onto deadly routes, not fewer."
+        },
+        {
+          "date": "2026-07-09",
+          "title": "India's monsoon is 15% short for the season — yet 'bursts' of rain are drowning cities and hills",
+          "category": "india",
+          "url": "https://www.ndtv.com/india-news/monsoon-in-bursts-why-several-states-are-flooded-in-below-normal-year-11746022",
+          "rank": 8,
+          "moot": "In a farm-heavy economy the weather is a macro variable, and a warming climate makes it a double threat — the same season can be dry on average yet deadly in bursts, hitting crops and cities at once and tying a central bank's hands."
+        }
+      ]
+    },
     "canada": {
       "slug": "canada",
       "name": "Canada",
@@ -2544,7 +2599,7 @@
           "title": "Canada's record wildfires push New York and Washington to 'most polluted' — as air turns hazardous across the US Northeast and Midwest",
           "category": "climate",
           "url": "https://www.bbc.co.uk/news/articles/c5ywdl9ne3yo",
-          "rank": 3,
+          "rank": 5,
           "moot": "Pollution ignores borders: a fire season in one country can become a health emergency for tens of millions in another. As the climate warms, 'someone else's wildfire' increasingly becomes everyone's air."
         },
         {
@@ -2614,7 +2669,7 @@
           "title": "The World Cup final is here: Spain vs Argentina, Messi vs Yamal — the planet's biggest match, tonight in New Jersey",
           "category": "geopolitics",
           "url": "https://www.aljazeera.com/sports/2026/7/18/spain-argentina-fifa-world-cup-final-prediction-head-to-head-messi-yamal-prediction-venue",
-          "rank": 14,
+          "rank": 16,
           "moot": "Global sporting finals are economic events too: for one night they concentrate the world's attention, and money flows to whoever owns the broadcast rights, the sponsorships and the merchandise — attention is a market."
         },
         {
@@ -2684,7 +2739,7 @@
           "title": "A top German conservative quits over a surrogacy row — Jens Spahn steps down after backing a ban he then used abroad",
           "category": "geopolitics",
           "url": "https://www.aljazeera.com/news/2026/7/18/top-german-conservative-quits-after-surrogacy-sparks-backlash-within-party",
-          "rank": 13,
+          "rank": 15,
           "moot": "In politics, the gap between what a leader legislates and how they live their own life is scrutinised hard — perceived hypocrisy can end a career faster than the underlying policy fight itself."
         },
         {
@@ -2715,7 +2770,7 @@
           "title": "A shallow earthquake in Peru's Andes kills at least five and flattens dozens of homes near Huancayo",
           "category": "science",
           "url": "https://abcnews.com/International/wireStory/55-magnitude-earthquake-hits-perus-andes-region-killing-134891630",
-          "rank": 1,
+          "rank": 3,
           "moot": "An earthquake's death toll depends less on its magnitude than on how deep it is, how close it is to people, and what their homes are made of — a shallow 5.5 under a town of mud-brick houses can be deadlier than a bigger quake far offshore."
         },
         {
@@ -2723,7 +2778,7 @@
           "title": "A passenger ferry carrying 116 people capsizes off Guyana — a frantic overnight rescue pulls dozens from the water",
           "category": "geopolitics",
           "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o",
-          "rank": 10,
+          "rank": 12,
           "moot": "When infrastructure is old and there is no backup, a single failure becomes a disaster — the safety of everyday transport depends as much on maintenance and honest capacity limits as on rescue crews arriving fast."
         },
         {
@@ -2741,6 +2796,37 @@
           "url": "https://www.aljazeera.com/sports/2026/7/15/argentina-players-brandish-political-falklands-flag-after-england-match",
           "rank": 11,
           "moot": "Global sporting stages are among the most powerful megaphones on earth, so the rules that try to keep politics off the pitch keep colliding with the fact that players carry their nations' grievances onto it — and enforcing 'no politics' is far harder than declaring it."
+        }
+      ]
+    },
+    "belgium": {
+      "slug": "belgium",
+      "name": "Belgium",
+      "primer": "Kimi Antonelli, Mercedes' teenage star, has led the 2026 Formula 1 championship for much of the season, with team-mate George Russell his closest rival. At the Belgian Grand Prix at Spa-Francorchamps, Antonelli started on pole and won — his sixth victory of the year — while Russell retired on the opening lap after a collision with Ferrari's Lewis Hamilton. In F1, drivers score points by finishing position, and the season title goes to whoever accumulates the most across all races.",
+      "stories": [
+        {
+          "date": "2026-07-19",
+          "title": "After his Spa win, Antonelli's title lead balloons to 45 points — and Ferrari is fined for a pit-lane scare",
+          "category": "f1",
+          "url": "https://www.formula1.com/en/latest/article/antonelli-beats-leclerc-to-belgian-grand-prix-win-to-extend-title-lead-as-russell-retires.MAqSJSgXvRP6dLbwiRbWI",
+          "rank": 44,
+          "moot": "In a points-based season, momentum compounds: extending a lead while a rival scores zero can flip a close contest into a near-decided one, because there are only so many races left to make the gap back up."
+        },
+        {
+          "date": "2026-07-19",
+          "title": "Antonelli wins the Belgian Grand Prix — holding off Leclerc as title rival Russell crashes out on lap one",
+          "category": "f1",
+          "url": "https://www.autosport.com/f1/live-text/f1-belgian-gp-live-commentary-and-updates-race-1127360/1127360/",
+          "rank": 45,
+          "moot": "In any points-based contest, a rival's zero is worth as much as your win — championships are decided by the swing between the two, not by one result in isolation."
+        },
+        {
+          "date": "2026-07-18",
+          "title": "Antonelli beats Verstappen to pole at the Belgian GP as Mercedes keeps dominating qualifying",
+          "category": "f1",
+          "url": "https://www.autosport.com/f1/news/f1-belgian-gp-antonelli-defeats-verstappen-to-take-pole/10839836/",
+          "rank": 42,
+          "moot": "Even in a sport built on individual speed, small tactics like slipstreaming and the rules on engine parts can decide who starts where — proving strategy and reliability matter as much as raw pace."
         }
       ]
     }

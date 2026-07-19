@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-07-19T22:12:18+05:30",
-  "count": 170,
+  "generated_at": "2026-07-19T23:06:02+05:30",
+  "count": 176,
   "stories": [
+    {
+      "type": "story",
+      "title": "20 Trinamool MPs break from Mamata Banerjee to merge with a tiny party — a legal workaround to defect without losing their seats",
+      "category": "india",
+      "published_iso": "2026-07-19T17:06:42+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "The Week",
+      "what_happened": "A rebel group of 20 TMC Lok Sabha MPs — led by figures including Kakoli Ghosh Dastidar and Sudip Bandyopadhyay — informed Lok Sabha Speaker Om Birla they are merging with the Tripura-based Nationalist Citizens Party of India (NCPI) and asked to be recognised as a separate bloc. Because 20 of TMC's 28 MPs (more than two-thirds) are crossing over, the move is designed to satisfy the anti-defection rule. The government arranged for the group to attend the pre-session all-party meeting, prompting the wider opposition to stage a symbolic walkout.",
+      "key_points": [
+        "20 of TMC's 28 Lok Sabha MPs are quitting Mamata's leadership",
+        "They plan to merge into the little-known Nationalist Citizens Party (NCPI)",
+        "The merger route dodges India's anti-defection law",
+        "Opposition walked out of an all-party meet in protest over recognising them"
+      ],
+      "depth": {
+        "background": "The Trinamool Congress (TMC), led by Mamata Banerjee, has run West Bengal for over a decade but suffered a heavy defeat in the state's 2026 Assembly elections. In India, lawmakers who switch parties normally lose their seats under the 'anti-defection law' (the Constitution's Tenth Schedule) — but there is a loophole: if two-thirds or more of a party's legislators merge as a bloc into another party, it counts as a legal merger, not defection.",
+        "sources": [
+          {
+            "name": "The Week",
+            "url": "https://www.theweek.in/news/india/2026/07/19/ncpi-to-get-speakers-recognition-rebel-tmc-group-attend-key-all-party-meet.html"
+          },
+          {
+            "name": "The Statesman",
+            "url": "https://www.thestatesman.com/india/rebel-tmc-mps-to-merge-with-little-known-tripura-based-nationalist-citizen-party-of-india-1503605734.html"
+          },
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/west-bengal/martyrs-day-2026-turns-out-to-be-show-of-political-strength-for-rival-trinamool-factions-in-west-bengal/article71242029.ece"
+          }
+        ]
+      }
+    },
     {
       "type": "story",
       "title": "Madhya Pradesh clears a Uniform Civil Code draft that makes registering a live-in relationship compulsory — skip it, and you could face jail",
@@ -32,6 +64,38 @@
     },
     {
       "type": "story",
+      "title": "After his Spa win, Antonelli's title lead balloons to 45 points — and Ferrari is fined for a pit-lane scare",
+      "category": "f1",
+      "published_iso": "2026-07-19T15:45:00+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "Formula1.com",
+      "what_happened": "With the Spa result confirmed, Antonelli extended his lead to 45 points over Hamilton, who reclaimed second place, while Russell dropped to 50 points behind after his DNF ('did not finish'). Separately, stewards fined Ferrari €30,000 (€10,000 suspended) for an 'unsafe release': during Hamilton's pit stop, a mechanic reaching in for a front-wing adjustment was struck by the car as it was waved off. The mechanic was unhurt, and because Hamilton stopped immediately and lost time, stewards issued a fine rather than a track penalty, so he keeps fourth.",
+      "key_points": [
+        "Antonelli's championship lead over Hamilton grows to 45 points",
+        "Russell, out on lap one, is now 50 points adrift and fading",
+        "Ferrari fined €30,000 after Hamilton's car hit a mechanic in the pits",
+        "Stewards spared Hamilton a sporting penalty; he keeps 4th"
+      ],
+      "depth": {
+        "background": "Kimi Antonelli, Mercedes' teenage star, has led the 2026 Formula 1 championship for much of the season, with team-mate George Russell his closest rival. At the Belgian Grand Prix at Spa-Francorchamps, Antonelli started on pole and won — his sixth victory of the year — while Russell retired on the opening lap after a collision with Ferrari's Lewis Hamilton. In F1, drivers score points by finishing position, and the season title goes to whoever accumulates the most across all races.",
+        "sources": [
+          {
+            "name": "Formula1.com",
+            "url": "https://www.formula1.com/en/latest/article/antonelli-beats-leclerc-to-belgian-grand-prix-win-to-extend-title-lead-as-russell-retires.MAqSJSgXvRP6dLbwiRbWI"
+          },
+          {
+            "name": "The Race",
+            "url": "https://www.the-race.com/formula-1/why-lewis-hamilton-was-penalised-for-belgian-gp-clash-why-charles-leclerc-wasnt/"
+          },
+          {
+            "name": "Motorsport.com",
+            "url": "https://www.motorsport.com/f1/news/ferrari-summoned-for-hamiltons-belgian-gp-unsafe-release-after-hitting-mechanic/10840224/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
       "title": "India and the EU say their long-delayed free-trade deal is nearly done — aiming to sign by year-end and switch it on in early 2027",
       "category": "india",
       "published_iso": "2026-07-19T15:32:14+00:00",
@@ -54,6 +118,34 @@
           {
             "name": "The Daily Guardian",
             "url": "https://thedailyguardian.com/business/india-eu-reaffirm-commitment-to-early-signing-implementation-of-fta-during-piyush-goyals-europe-visit20260719202613-738698/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Bangladesh come from behind to clinch the T20 series in Zimbabwe — Tanzid Hasan's unbeaten 66 seals a nervy chase",
+      "category": "cricket",
+      "published_iso": "2026-07-19T15:28:05+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "ESPNcricinfo (match report)",
+      "what_happened": "Chasing Zimbabwe's 143 for 7, Bangladesh reached 144 for 6 with two balls to spare to win by four wickets and take the series 2-1 — their first T20I series win of 2026. Opener Tanzid Hasan held the innings together with an unbeaten 66 off 58 balls, his 13th T20I fifty. The finish was dramatic: an umpire's 'dead ball' call (ruling a delivery void because a fielder was moving illegally) denied Zimbabwe's Brad Evans a hat-trick, and Mahedi Hasan struck the winning boundary.",
+      "key_points": [
+        "Bangladesh won the decider by 4 wickets to take the series 2-1",
+        "They fought back after losing the opening match",
+        "Tanzid Hasan anchored the chase with an unbeaten 66",
+        "A controversial 'dead ball' denied Zimbabwe's Evans a hat-trick"
+      ],
+      "depth": {
+        "background": "Bangladesh and Zimbabwe were playing a three-match Twenty20 International (T20I) series in Bulawayo, Zimbabwe. T20 is cricket's shortest, fastest format — 20 overs a side — and a three-match series is decided by whoever wins two. Bangladesh had lost the first game, meaning the third and final match was a winner-takes-all decider.",
+        "sources": [
+          {
+            "name": "ESPNcricinfo (match report)",
+            "url": "https://www.espncricinfo.com/series/bangladesh-in-zimbabwe-2026-1538288/zimbabwe-vs-bangladesh-3rd-t20i-1538303/match-report"
+          },
+          {
+            "name": "ESPNcricinfo (scorecard)",
+            "url": "https://www.espncricinfo.com/series/bangladesh-in-zimbabwe-2026-1538288/zimbabwe-vs-bangladesh-3rd-t20i-1538303/full-scorecard"
           }
         ]
       }
@@ -231,6 +323,38 @@
       "prev_ref": {
         "title": "Police forcibly move a fasting Sonam Wangchuk to hospital on day 21 of his Ladakh protest",
         "date": null
+      }
+    },
+    {
+      "type": "story",
+      "title": "Hundreds of Israelis march on the Gaza border to demand Jewish resettlement — with coalition ministers backing them",
+      "category": "geopolitics",
+      "published_iso": "2026-07-19T12:30:00+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "The Times of Israel",
+      "what_happened": "Hundreds of activists marched from the town of Sderot toward the Gaza border on Sunday, July 19, demanding that Israel re-establish settlements inside Gaza. The military issued a 'closed military zone' order over parts of the western Negev and physically blocked marchers at roadblocks; organisers said a Likud minister joined the group as it pushed past an IDF checkpoint, and other senior coalition figures were expected to attend. The army and organisers negotiated so the crowd did not actually enter Gaza.",
+      "key_points": [
+        "Marchers chanted 'Ours forever', demanding settlements be rebuilt in Gaza",
+        "The IDF declared the border a closed military zone and blocked them",
+        "Senior government ministers backed or joined the pro-settlement rally",
+        "It clashes with Israel's official stance that it won't resettle Gaza"
+      ],
+      "depth": {
+        "background": "Israel withdrew all its settlers and soldiers from the Gaza Strip in 2005. A hard-right movement in Israel has long wanted to reverse that and rebuild Jewish settlements there — a goal that gained momentum during the long Gaza war. The march was organised by settler groups such as Nahala, and several ministers in Prime Minister Benjamin Netanyahu's governing coalition openly support the idea.",
+        "sources": [
+          {
+            "name": "The Times of Israel",
+            "url": "https://www.timesofisrael.com/ours-forever-hundreds-march-from-sderot-to-gaza-border-to-demand-resettlement/"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/19/from-settlements-to-blocked-recovery-israeli-strategy-taking-shape-in-gaza"
+          },
+          {
+            "name": "The Jerusalem Post",
+            "url": "https://www.jpost.com/israel-news/article-902980"
+          }
+        ]
       }
     },
     {
@@ -461,6 +585,38 @@
     },
     {
       "type": "story",
+      "title": "Lebanon's president heads to the White House with a plan to disarm Hezbollah — the first Lebanese leader to visit in nearly 20 years",
+      "category": "geopolitics",
+      "published_iso": "2026-07-19T11:00:00+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "Reuters via US News",
+      "what_happened": "Aoun is traveling to Washington for his first face-to-face meeting with US President Donald Trump, carrying a written proposal for how Hezbollah's large arsenal could be dismantled in stages, paired with a phased Israeli military withdrawal from two 'pilot zones' in the south. Ahead of the visit, US Secretary of State Marco Rubio publicly praised Aoun's 'courage' in trying to disarm Hezbollah and restore Lebanese sovereignty. Aoun's team says only Trump has the leverage to press Israel to pull back.",
+      "key_points": [
+        "Aoun will hand Trump a written plan to decommission Hezbollah's weapons",
+        "In return he wants Israel to pull its troops out of south Lebanon",
+        "First Lebanese head of state at the White House in ~20 years",
+        "Hezbollah rejects any direct talks with Israel — the plan's biggest obstacle"
+      ],
+      "depth": {
+        "background": "Hezbollah is an Iran-backed armed political movement in Lebanon that, for decades, kept a private army more powerful than the Lebanese state's own. A brutal 2024–2026 war with Israel badly degraded the group, and Israeli troops still occupy a strip of southern Lebanon. Joseph Aoun — a former commander of Lebanon's US-backed army — was elected president last year on a promise to reclaim the state's monopoly on force, meaning the government, not a militia, controls weapons.",
+        "sources": [
+          {
+            "name": "Reuters via US News",
+            "url": "https://www.usnews.com/news/world/articles/2026-07-19/lebanons-aoun-to-meet-trump-at-white-house-hoping-to-generate-pressure-on-israel"
+          },
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/news/us/2026/07/20/donald-trump-aoun-lebanon-israel/"
+          },
+          {
+            "name": "The Jerusalem Post",
+            "url": "https://www.jpost.com/middle-east/article-902906"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
       "title": "Government plans jail time for insulting 'Vande Mataram' — a new bill heads to Parliament as the monsoon session opens",
       "category": "india",
       "published_iso": "2026-07-19T08:51:16+00:00",
@@ -579,6 +735,38 @@
           {
             "name": "Deccan Chronicle",
             "url": "https://www.deccanchronicle.com/nation/nta-warns-against-fake-ai-generated-neet-omr-sheets-1972206"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India moves to add four more Supreme Court judges — a bill to fight the country's mountain of pending cases",
+      "category": "india",
+      "published_iso": "2026-07-19T06:30:00+00:00",
+      "added_at": "2026-07-19T22:46:32+05:30",
+      "source": "Outlook India",
+      "what_happened": "As Parliament's monsoon session opens on July 20, the government plans to introduce the Supreme Court (Number of Judges) Amendment Bill, 2026, which would raise the sanctioned strength of Supreme Court judges from 33 to 37 (in addition to the Chief Justice of India), with the stated aim of reducing pendency. It is one of seven bills on the agenda, alongside an income-tax overhaul, an MSME (small-business) reform, and others — in a session expected to be stormy over unrelated flashpoints like exam leaks and party defections.",
+      "key_points": [
+        "Bill would raise the Supreme Court's judge strength from 33 to 37",
+        "Goal: clear a huge backlog of pending cases faster",
+        "One of 7 bills the government will table in the monsoon session",
+        "Session opens July 20 amid heated opposition protests"
+      ],
+      "depth": {
+        "background": "India's Supreme Court is the country's highest court, and the number of judges it can have is fixed by a law that Parliament can amend. For years the court has struggled with a swelling backlog — tens of thousands of cases wait years for a hearing — because there simply aren't enough judges to keep up with the flood of appeals in a country of 1.4 billion.",
+        "sources": [
+          {
+            "name": "Outlook India",
+            "url": "https://www.outlookindia.com/national/monsoon-session-to-begin-amid-political-flashpoints-seven-bills-on-govt-agenda"
+          },
+          {
+            "name": "India TV News",
+            "url": "https://www.indiatvnews.com/news/india/parliament-monsoon-session-income-tax-msme-reform-bills-on-agenda-here-s-the-list-of-key-legislations-2026-07-17-1048525"
+          },
+          {
+            "name": "Indian Masterminds",
+            "url": "https://indianmasterminds.com/news/government/monsoon-session-2026-7-bills-list-217895/"
           }
         ]
       }
