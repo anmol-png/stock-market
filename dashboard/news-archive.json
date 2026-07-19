@@ -1,7 +1,94 @@
 {
-  "generated_at": "2026-07-19T23:44:12+05:30",
-  "count": 180,
+  "generated_at": "2026-07-20T00:24:38+05:30",
+  "count": 184,
   "stories": [
+    {
+      "type": "story",
+      "title": "At least 50 soldiers killed in Mali as fighters ambush an army convoy backed by Russian mercenaries",
+      "category": "geopolitics",
+      "published_iso": "2026-07-19T18:27:58+00:00",
+      "added_at": "2026-07-20T00:15:11+05:30",
+      "source": "Al Jazeera",
+      "what_happened": "Fighters ambushed a convoy of Malian soldiers and Russia's Africa Corps mercenaries, killing at least 50, Al Jazeera reported. It is one of the deadlier single attacks on the joint force and shows how exposed even well-armed columns remain on the Sahel's vast, thinly-policed roads.",
+      "key_points": [
+        "Ambush kills 50+ from a joint Malian army–Russia 'Africa Corps' convoy",
+        "The Sahel's jihadist insurgency keeps overrunning state forces",
+        "Russia's mercenaries are now taking heavy losses too"
+      ],
+      "depth": {
+        "background": "Mali, in West Africa's Sahel (the dry belt just south of the Sahara), has battled a jihadist insurgency for over a decade. After coups in 2020–21, its military rulers expelled French and UN troops and hired Russian mercenaries — first the Wagner Group, now its state-run successor 'Africa Corps' — to fight the militants. The insurgency, linked to al-Qaeda and ISIS affiliates, has only spread across the region.",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/at-least-50-malian-soldiers-killed-in-attack-on-military-convoy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India tells its citizens to leave Iran and postpone travel there as the US–Iran war escalates",
+      "category": "india",
+      "published_iso": "2026-07-19T18:27:37+00:00",
+      "added_at": "2026-07-20T00:15:11+05:30",
+      "source": "Livemint",
+      "what_happened": "India's Ministry of External Affairs (MEA) issued a travel advisory urging citizens to postpone non-essential travel to Iran and asking those already there to leave or exercise extreme caution, citing repeated US airstrikes and Iranian retaliation. It is a precautionary step — short of a full, organised evacuation.",
+      "key_points": [
+        "MEA advisory: postpone all non-essential travel to Iran",
+        "Indians already in Iran urged to leave or stay extremely cautious",
+        "Follows days of US airstrikes and Iranian retaliation"
+      ],
+      "depth": {
+        "background": "India has deep ties to the Gulf: millions of Indians live and work across the region, and India buys much of its oil from there. When Middle East conflicts flare, New Delhi's first job is protecting its nationals — it has run large evacuations before, such as from Ukraine in 2022 and Yemen in 2015. With the US–Iran fight now escalating sharply, Iran has become dangerous for foreigners.",
+        "sources": [
+          {
+            "name": "Livemint",
+            "url": "https://www.livemint.com/news/india/india-issues-iran-travel-advisory-asks-citizens-to-postpone-travel-and-leave-country-amid-escalating-us-iran-conflict-11784485091865.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "The US and Iran are now trading direct blows — two US soldiers killed in Jordan, and America hits back with airstrikes",
+      "category": "geopolitics",
+      "published_iso": "2026-07-19T17:22:23+00:00",
+      "added_at": "2026-07-20T00:15:11+05:30",
+      "source": "BBC World",
+      "what_happened": "Iran attacked a base in Jordan that hosts US forces, killing two American service members and leaving one missing, the US military said. In response, the US launched new airstrikes it said would 'swiftly punish' Iran. Iran says US strikes hit an under-construction nuclear power plant; it also struck a Kuwaiti electricity-and-water desalination plant — the second such hit in two days — and warned it was firing toward Jordan, with warnings the violence could spill into Israel. The reporting is fast-moving and still developing.",
+      "key_points": [
+        "Two US soldiers killed, one missing, after Iran struck a base in Jordan",
+        "US launched fresh airstrikes to 'swiftly punish' Iran",
+        "Iran hit a Kuwaiti water-and-power plant and fired toward Jordan",
+        "Both sides edging toward all-out war near the Strait of Hormuz"
+      ],
+      "depth": {
+        "background": "The US and Iran have been enemies for decades, but they mostly fought through proxies (allied armed groups), sanctions and cyberattacks rather than head-on. Over the past roughly eight days that restraint broke down: a crisis around the Strait of Hormuz — the narrow sea gate through which about a fifth of the world's oil is shipped — spiralled into an exchange of strikes across the Middle East. Until now the fighting mostly hit Iran's allies and infrastructure; the killing of US troops pulls Washington in directly.",
+        "sources": [
+          {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po"
+          },
+          {
+            "name": "NDTV",
+            "url": "https://www.ndtv.com/world-news/us-iran-war-khamenei-trump-strait-of-hormuz-us-military-sirens-strikes-shattered-deal-middle-east-on-edge-as-us-iran-trade-blows-11792544"
+          },
+          {
+            "name": "AP News",
+            "url": "https://apnews.com/hub/iran"
+          }
+        ]
+      },
+      "thread": {
+        "previously": "Yesterday we covered Iran striking Kuwait's water-and-power desalination plants, spreading the Gulf war to civilian lifelines and forcing rationing.",
+        "changed": "Now the US is directly in the fight: Iran killed two US soldiers at a base in Jordan, and Washington has launched retaliatory airstrikes to 'punish' Iran — pushing both sides toward open war."
+      },
+      "development": true,
+      "prev_ref": {
+        "title": "Iran hits Kuwait's water-and-power plants, forcing rationing — the Gulf war spreads to civilian lifelines",
+        "date": null
+      }
+    },
     {
       "type": "story",
       "title": "20 Trinamool MPs break from Mamata Banerjee to merge with a tiny party — a legal workaround to defect without losing their seats",
@@ -770,6 +857,29 @@
           {
             "name": "CNN",
             "url": "https://www.cnn.com/2026/07/17/americas/cuba-activist-exile-us-latam-intl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "ICICI Bank's profit rises 16% to ₹14,805 crore — India's second-biggest private bank posts another strong quarter",
+      "category": "india",
+      "published_iso": "2026-07-19T07:13:41+00:00",
+      "added_at": "2026-07-20T00:15:11+05:30",
+      "source": "The Hindu Business",
+      "what_happened": "ICICI reported net profit (PAT, or profit after tax) of about ₹14,805 crore, up roughly 16% from a year earlier. Provisions — the buffer a bank sets aside to cover loans that might go bad — fell to about ₹1,260 crore from ₹1,815 crore a year ago, meaning fewer expected defaults ate into profit.",
+      "key_points": [
+        "Q1 net profit up ~16% to ₹14,805 crore",
+        "Lower provisions (money set aside for bad loans) helped",
+        "Latest in a run of solid private-bank results"
+      ],
+      "depth": {
+        "background": "India's private banks have been on a strong run, powered by fast loan growth in a fast-growing economy and relatively low bad loans. ICICI Bank is the country's second-largest private-sector lender (after HDFC Bank) and a heavyweight in the Nifty 50 index, so its results are read as a gauge of the whole sector's health. This covers Q1 of India's 2026-27 financial year — the April–June quarter.",
+        "sources": [
+          {
+            "name": "The Hindu Business",
+            "url": "https://www.thehindu.com/business/icici-bank-q1-pat-rises-16-to-14805-crore/article71237755.ece"
           }
         ]
       }

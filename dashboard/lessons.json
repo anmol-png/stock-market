@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T00:16:24+05:30",
-  "count": 6,
+  "generated_at": "2026-07-20T00:24:38+05:30",
+  "count": 7,
   "parts": [
     {
       "recap_so_far": "",
@@ -1068,6 +1068,149 @@
       "part": 6,
       "total_parts": 6,
       "session_title": "The art of changing your mind"
+    },
+    {
+      "recap_so_far": "",
+      "chunks": [
+        {
+          "n": 1,
+          "heading": "The itch to explain everything",
+          "idea": "Long before science, humans faced a scary, confusing world and desperately needed answers. So they did the most human thing possible: they made up stories.",
+          "detail": "Picture yourself 10,000 years ago. The sun vanishes each night, lightning splits the sky, crops die for no reason you can see. You have no books, no schools, no instruments — just your eyes and a racing mind.\n\nYour brain hates not knowing. A blank where an explanation should be feels unbearable, so it reaches for any answer that makes the fear go away.\n\nThe first answers were stories about invisible people. Thunder wasn't cold air and electricity — it was an angry god swinging a hammer. Winter wasn't the Earth's tilt — it was a goddess grieving.\n\nThese stories were comforting and easy to remember. But notice what they were really doing: they turned a terrifying mystery into a familiar tale, whether or not the tale was true.",
+          "example": "The ancient Greeks explained the seasons with the myth of Persephone: a girl taken to the underworld, so her grieving mother, the harvest goddess, let the world go cold and barren for the months her daughter was gone. It's a beautiful story — and it makes winter feel meaningful. But it tells you nothing you could ever check or use to predict next year's frost.",
+          "points": [
+            "Humans can't stand an unexplained gap — the mind fills it with a story fast.",
+            "The earliest explanations were myths: nature run by invisible people with human moods.",
+            "A story can feel satisfying and still be completely wrong."
+          ],
+          "key_takeaway": "The need to explain came first; the ability to explain *truthfully* came thousands of years later.",
+          "key_terms": [
+            {
+              "term": "Myth",
+              "definition": "A traditional story that explains the world through gods, spirits, or magical events rather than tested evidence."
+            }
+          ],
+          "concepts": []
+        },
+        {
+          "n": 2,
+          "heading": "Truth by whoever said it loudest",
+          "idea": "For most of history, a claim wasn't true because you checked it — it was true because an important person or an old book said so. This is 'authority', and it ran the world.",
+          "detail": "Once a story existed, someone had to decide which version counted. The answer was almost always: the powerful person, the priest, the elder, the sacred text.\n\nThink about how this feels from the inside. If the wisest man in the village says the stars control your fate, who are you — a farmer — to argue? Doubting him feels not just rude but dangerous.\n\nSo knowledge got passed down like an heirloom, sealed and unopened. You memorized what the great thinkers said and repeated it. Questioning it could get you mocked, exiled, or worse.\n\nThe deep flaw is simple once you see it: *who* says something has nothing to do with whether it's *true*. A king can be wrong. A holy book can contain a mistake. But under authority, there was no allowed way to find out.",
+          "example": "The Greek philosopher Aristotle was so respected that for well over a thousand years, European scholars treated his writings as almost the final word on how nature worked. When his ideas clashed with what people could actually observe, the reflex was often to trust Aristotle over their own eyes — because arguing with 'The Philosopher' felt like arrogance.",
+          "points": [
+            "Authority means a claim is accepted because of who said it, not because it was tested.",
+            "It made knowledge stable and easy to pass down — but impossible to correct.",
+            "The powerful can be sincerely, confidently wrong, and no one is allowed to notice."
+          ],
+          "key_takeaway": "Believing something because an important person said it is not knowledge — it's obedience wearing knowledge's clothes.",
+          "key_terms": [
+            {
+              "term": "Authority (as a source of truth)",
+              "definition": "Accepting a claim as true because a respected person, tradition, or text asserts it."
+            }
+          ],
+          "concepts": []
+        },
+        {
+          "n": 3,
+          "heading": "Why the old ways kept failing",
+          "idea": "Myth and authority share one fatal weakness: they have no built-in way to catch their own mistakes. So errors didn't just happen — they survived for centuries.",
+          "detail": "Here's the thing that should bother you. Being wrong is normal — everyone gets things wrong. The real question is: does your system have a way to *find out* it's wrong and fix it?\n\nMyth and authority don't. If the explanation is 'the gods willed it' or 'the master wrote it', there's no test that could ever prove it false. And if nothing can prove it false, nothing can improve it.\n\nSo a mistake, once accepted, just sat there. Not for a year — for lifetimes. Whole civilizations inherited the same errors, polished them, and taught them to their children as certainty.\n\nWorse, the system punished the very people who might fix it. The curious person who said 'but wait, let's check' was a troublemaker, not a hero.",
+          "example": "For over a thousand years, educated people were sure the Earth sat still at the center of everything, with the sun, planets, and stars circling it. It matched daily experience — the sun clearly 'rises' and 'sets' — and it had the weight of Aristotle and later Ptolemy behind it. It was also wrong, and because no one was allowed to seriously test it, that wrong idea steered astronomy for more than a millennium.",
+          "points": [
+            "The flaw isn't making mistakes — it's having no way to detect and correct them.",
+            "Untestable claims can't be improved, so errors last for centuries.",
+            "These systems tended to silence the doubters who could have fixed things."
+          ],
+          "key_takeaway": "Any belief system with no way to prove itself wrong will happily carry its worst mistakes forever.",
+          "key_terms": [
+            {
+              "term": "Geocentric model",
+              "definition": "The old belief that the Earth is the fixed center of the universe, with the sun and planets orbiting it."
+            }
+          ],
+          "concepts": []
+        },
+        {
+          "n": 4,
+          "heading": "The trap of 'well, obviously'",
+          "idea": "Even the smartest ancient thinkers had a blind spot: they trusted pure reasoning from the armchair and rarely bothered to *test* it against the real world. 'It makes sense' quietly replaced 'it's true.'",
+          "detail": "The clever Greeks didn't only lean on gods and elders. They also prized logic — thinking carefully from ideas that seemed obviously true. That sounds great, and sometimes it worked.\n\nBut logic has a trap. If you start from a wrong assumption, flawless reasoning carries you confidently to a wrong answer. Your thinking feels airtight the whole way.\n\nThe missing step was almost never taken: actually go outside and *check*. Set up the situation, watch what happens, let the world be the judge. Reasoning was king; experiment was an afterthought.\n\nSo 'this must be how it works' got mistaken for 'this is how it works.' The gap between those two sentences is the entire reason science had to be invented.",
+          "example": "Aristotle reasoned that heavier objects must fall faster than light ones — it feels obvious, like a boulder should beat a pebble to the ground. People believed it for nearly two thousand years. Yet no one had to believe it: you could simply drop two objects and watch. When thinkers finally *tested* the idea much later, the neat, 'obvious' logic turned out to be false.",
+          "points": [
+            "Perfect logic from a false starting point still lands you on a false answer.",
+            "Ancient thinkers often reasoned instead of testing — 'makes sense' stood in for 'is true.'",
+            "The habit of checking your idea against reality was the missing ingredient."
+          ],
+          "key_takeaway": "An idea can be logical, elegant, and beloved for centuries — and still crumble the first time someone actually tests it.",
+          "key_terms": [
+            {
+              "term": "Deduction from first principles",
+              "definition": "Reasoning to conclusions purely from assumptions taken as obviously true, without testing them against the world."
+            }
+          ],
+          "concepts": []
+        },
+        {
+          "n": 5,
+          "heading": "You can still feel the old habits",
+          "idea": "Myth and authority never fully left us — they live in how we still argue today. Spotting them is the first skill of thinking clearly, and it's exactly what science was built to fix.",
+          "detail": "You might think all this is ancient history. It isn't. The same two habits show up every single day, just in modern clothes.\n\n'A famous expert said it, so it's true' — that's authority. 'Everyone knows this, it's just common sense' — that's the armchair-logic trap. 'It happened because of fate' — that's myth, lightly disguised.\n\nNone of these are automatically wrong. Experts are often right; intuition often works. The danger is treating them as *proof* — as reasons to stop checking.\n\nThat's the itch this whole course scratches. Humans needed a reliable machine for turning shaky guesses into real, correctable knowledge. Understanding why the old ways failed is what makes the invention of that machine feel less like a boring school topic and more like the escape it truly was.",
+          "example": "Scroll social media for five minutes and you'll see it: a claim spreading fast because a celebrity or influencer said it (authority), or because it 'just feels true' and matches what people already believe (armchair logic) — usually with no one asking the simple question, 'How could we actually check this?'",
+          "points": [
+            "Authority, myth, and untested 'common sense' still drive everyday arguments.",
+            "The red flag isn't using them — it's treating them as proof that ends the questioning.",
+            "Knowing why they fail is what makes the coming 'truth machine' worth learning."
+          ],
+          "key_takeaway": "The oldest bad habits of thinking never died — learning to notice them is step one toward thinking like a scientist.",
+          "key_terms": [
+            {
+              "term": "Skepticism",
+              "definition": "The healthy habit of asking 'how do we actually know this?' before accepting a claim as true."
+            }
+          ],
+          "concepts": []
+        }
+      ],
+      "recap": [
+        "Humans have always needed explanations, and the first ones were myths — nature run by invisible people.",
+        "For most of history, truth meant whatever an authority (a leader, priest, or old book) declared it to be.",
+        "Both myth and authority had no way to catch their own errors, so wrong ideas survived for centuries.",
+        "Even brilliant thinkers trusted armchair logic over real testing, mistaking 'it makes sense' for 'it's true.'"
+      ],
+      "check": {
+        "question": "Myth and authority both explained the world for thousands of years. What one crucial thing were they missing that let their mistakes survive for so long?",
+        "answer": "A way to test claims and prove them wrong. Without any method to check ideas against reality, errors couldn't be caught or corrected, so they persisted for centuries."
+      },
+      "sources": [
+        {
+          "name": "Scientific Method — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/scientific-method/"
+        },
+        {
+          "name": "The Demon-Haunted World: Science as a Candle in the Dark (Carl Sagan) — Wikipedia overview",
+          "url": "https://en.wikipedia.org/wiki/The_Demon-Haunted_World"
+        },
+        {
+          "name": "Historic Dispute: Is Earth the Center of the Universe? — Encyclopedia.com",
+          "url": "https://www.encyclopedia.com/science/science-magazines/historic-dispute-earth-center-universe"
+        },
+        {
+          "name": "Planetary Motion: The History of an Idea That Launched the Scientific Revolution — NASA Earth Observatory",
+          "url": "https://earthobservatory.nasa.gov/features/OrbitsHistory"
+        }
+      ],
+      "next_up": "Part 2: the slow, thrilling birth of a fix — how a handful of restless minds stopped trusting authority and started demanding evidence, and lit the fuse of the scientific revolution.",
+      "seq": 7,
+      "date": "2026-07-20",
+      "generated_at": "2026-07-20T00:24:38+05:30",
+      "subject_slug": "how-we-know-whats-true",
+      "subject_title": "How We Know What's True",
+      "emoji": "🔬",
+      "part": 1,
+      "total_parts": 6,
+      "session_title": "Before science"
     }
   ]
 }
