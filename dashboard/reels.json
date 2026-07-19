@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "generated_at": "2026-07-19T20:55:03+05:30",
+  "generated_at": "2026-07-19T21:32:34+05:30",
   "day_label": "Sunday · 19 July 2026",
   "dashboard_url": "../",
   "cards": [
@@ -8,6 +8,135 @@
       "type": "story",
       "id": "story-1",
       "rank": 1,
+      "category": "climate",
+      "is_new": true,
+      "development": true,
+      "prev_ref": {
+        "title": "Trump threatens to make Canada pay for its wildfire smoke — through tariffs — as 'filthy' haze from record fires chokes US cities",
+        "date": null
+      },
+      "published_iso": "2026-07-18T17:18:47+00:00",
+      "added_at": "2026-07-19T21:26:12+05:30",
+      "source": "BBC",
+      "importance": "notable",
+      "regions": [
+        "US",
+        "Canada"
+      ],
+      "title": "Canada's record wildfires push New York and Washington to 'most polluted' — as air turns hazardous across the US Northeast and Midwest",
+      "what_happened": "Thick haze from more than 800 active Canadian wildfires — including a dozen recent flare-ups in Ontario — pushed New York City and Washington, DC into the ranks of the world's most polluted major cities on Saturday. Washington was placed under a 'Code Purple' alert, meaning the air was 'very unhealthy' for everyone, and parts of northeast Minnesota reached 'hazardous' levels. Air-quality alerts stretched from Minnesota to the East Coast. Canadian officials said fire activity in Ontario is beginning to ease and expect air to improve.",
+      "key_points": [
+        "800+ wildfires burning across Canada this summer",
+        "Smoke pushed NYC and Washington DC into world's most-polluted cities",
+        "Washington hit 'Code Purple' — very unhealthy for everyone",
+        "Officials say Ontario fires are easing; air should improve"
+      ],
+      "moot": "Pollution ignores borders: a fire season in one country can become a health emergency for tens of millions in another. As the climate warms, 'someone else's wildfire' increasingly becomes everyone's air.",
+      "thread": {
+        "previously": "Yesterday we covered the political angle: Trump calling Canada's drifting wildfire smoke 'Willful Negligence' and threatening tariffs, with Canada's PM Carney saying both nations share responsibility for the climate change driving the fires.",
+        "changed": "Today the story is the health emergency itself — smoke pushed New York and Washington into the world's most-polluted cities, Washington hit 'Code Purple,' and parts of Minnesota reached hazardous air, though officials now say Ontario's fires are easing."
+      },
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "Canada is having another catastrophic fire season — about 3,500 fires have burned more than 6 million acres this summer, driven by hot, dry conditions that scientists link to a warming climate. Smoke from these fires doesn't stay put: high-altitude winds carry it hundreds of miles south, blanketing US cities. This has become a near-yearly pattern, and it flared into a political row a day earlier when President Trump threatened new tariffs on Canada over the 'filthy' air.",
+        "why_it_matters": "This is a public-health event, not just a hazy sky: fine wildfire particles (PM2.5) lodge deep in the lungs and bloodstream, worsening asthma, heart and lung disease — and 'very unhealthy' air tells even healthy people to stay indoors. It shows how a fire in one country becomes a health emergency for tens of millions in another, with no border to stop it.",
+        "ripple_effects": "Schools cancel outdoor activities, flights and outdoor events face disruption, and hospitals see more breathing and cardiac cases. Repeated smoke seasons raise costs for insurers and healthcare systems and push demand for air purifiers and filtration. It also keeps straining US–Canada relations, already frayed by Trump's tariff threat over the smoke.",
+        "why_now": "Peak North American fire season collides with weather patterns that funnel Ontario's smoke straight into densely populated US corridors — and this weekend's plume happened to settle over the biggest East Coast cities.",
+        "watch_next": "Whether the promised improvement holds as winds shift, and if any US cities issue fresh Code Purple/hazardous alerts into next week.",
+        "market_link": "Repeated record fire seasons pressure Canadian and US property insurers and lift demand for air-quality and filtration products, while airlines and outdoor-event operators face weather-style disruption.",
+        "key_terms": [
+          {
+            "term": "Air Quality Index (AQI)",
+            "definition": "A 0–500+ scale that rates how polluted the air is; higher is worse. 'Code Purple' (roughly 201–300) means 'very unhealthy' for everyone."
+          },
+          {
+            "term": "PM2.5",
+            "definition": "Tiny airborne particles under 2.5 micrometres wide — the main danger in wildfire smoke, small enough to reach deep into the lungs and enter the blood."
+          }
+        ],
+        "sources": [
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/c5ywdl9ne3yo"
+          },
+          {
+            "name": "CNN",
+            "url": "https://www.cnn.com/2026/07/17/weather/smoke-forecast-northeast-midwest"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/wildfires-smoke-millions-exposed-midwest-northeast-us/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-2",
+      "rank": 2,
+      "category": "geopolitics",
+      "is_new": true,
+      "published_iso": "2026-07-18T18:00:00+00:00",
+      "added_at": "2026-07-19T21:26:12+05:30",
+      "source": "Kyiv Independent",
+      "importance": "high",
+      "regions": [
+        "Ukraine",
+        "Europe"
+      ],
+      "title": "Ukraine's leadership is in turmoil mid-war: Zelensky sacked his star defence minister, crowds are protesting for a third day, and his top general may be next",
+      "what_happened": "On July 15 Zelensky removed Fedorov, the popular defence minister, as part of a wider government reshuffle that also replaced the prime minister. That triggered protests: crowds gathered in Kyiv and other cities for a third consecutive day on July 18, with two demands — reinstate Fedorov and sack Syrskyi. Reporting (FT, Bloomberg) says Zelensky is now considering replacing Syrskyi too, with interviews for candidates expected over the July 18–19 weekend. Ukraine is currently fighting under an interim defence chief.",
+      "key_points": [
+        "Zelensky fired 35-year-old defence minister Mykhailo Fedorov",
+        "Thousands protested in Kyiv for a third straight day",
+        "Protesters want Fedorov back — and army chief Syrskyi gone",
+        "A rare public rift over how to fight the war"
+      ],
+      "moot": "Even a country united by an outside enemy can fracture over strategy — and in modern war, the fight between 'more technology' and 'more troops' is itself a decisive front. How an army chooses to fight can matter as much as how much it spends.",
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "Ukraine has been fighting Russia's full-scale invasion for nearly four and a half years. For most of that time the country projected unity, but a quiet fight has been building at the top over HOW to fight: Fedorov, a young tech-first minister, is credited with the cheap drones and unmanned systems that have let Ukraine punch above its weight, while 60-year-old Commander-in-Chief Oleksandr Syrskyi — a general trained in the Soviet era — favours classic, centralised command: more infantry, hold ground. The two clashed, and Zelensky sided with his general.",
+        "why_it_matters": "This is the first serious crack in Ukraine's wartime unity, and it's spilling into the streets while the war still rages. It is a live test of Zelensky's political authority: firing a popular reformer to protect an old-guard general risks looking like he's choosing loyalty over the innovation that has kept Ukraine competitive against a far larger army.",
+        "ripple_effects": "Turmoil at the top can slow weapons decisions and unsettle Western allies who fund and arm Ukraine — they want a stable, predictable partner. A leadership fight over drones-vs-troops could shape whether Ukraine keeps its technological edge or reverts to attrition warfare it can't win on numbers. It also hands Moscow a propaganda gift at a moment when Russia is escalating missile strikes on Ukrainian cities.",
+        "why_now": "The reshuffle landed just as Russia intensified its bombardment (a major ballistic-missile attack hit Kyiv this week), sharpening the debate over which strategy is working — and street anger has built with each day Fedorov stays out and Syrskyi stays in.",
+        "watch_next": "Whether Zelensky actually removes Syrskyi after this weekend's candidate interviews — or holds firm and rides out the protests.",
+        "market_link": "Deepening political turmoil in a country at war can add risk premium to European defence stocks and to wheat and oil, both sensitive to the Russia-Ukraine conflict.",
+        "key_terms": [
+          {
+            "term": "Commander-in-Chief of the Armed Forces",
+            "definition": "The top uniformed military officer who runs battlefield operations — distinct from the defence minister, who is a civilian official handling policy, budgets and procurement."
+          },
+          {
+            "term": "Government reshuffle",
+            "definition": "When a leader reassigns or removes senior ministers, changing the makeup of the cabinet without a new election."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/draft-ukrainians-take-to-streets-for-3rd-consecutive-day-of-protests-over-military-leadership-crisis/"
+          },
+          {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-18/zelenskyy-may-fire-commander-syrskyi-after-protests-ft-reports"
+          },
+          {
+            "name": "PBS / AP News",
+            "url": "https://www.pbs.org/newshour/amp/world/ukrainians-protest-zelenskyys-ouster-of-his-popular-defense-minister"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org/2026/07/16/g-s1-133920/ukraine-defense-minister-fired"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-3",
+      "rank": 3,
       "category": "economy",
       "is_new": true,
       "published_iso": "2026-07-19T01:47:59+00:00",
@@ -64,8 +193,8 @@
     },
     {
       "type": "story",
-      "id": "story-2",
-      "rank": 2,
+      "id": "story-4",
+      "rank": 4,
       "category": "geopolitics",
       "is_new": true,
       "published_iso": "2026-07-19T07:27:59+00:00",
@@ -125,8 +254,8 @@
     },
     {
       "type": "story",
-      "id": "story-3",
-      "rank": 3,
+      "id": "story-5",
+      "rank": 5,
       "category": "economy",
       "is_new": true,
       "published_iso": "2026-07-19T07:50:20+00:00",
@@ -188,8 +317,8 @@
     },
     {
       "type": "story",
-      "id": "story-4",
-      "rank": 4,
+      "id": "story-6",
+      "rank": 6,
       "category": "geopolitics",
       "is_new": true,
       "development": true,
@@ -259,10 +388,9 @@
     },
     {
       "type": "story",
-      "id": "story-5",
-      "rank": 5,
+      "id": "story-7",
+      "rank": 7,
       "category": "science",
-      "is_new": true,
       "published_iso": "2026-07-18T20:06:35+00:00",
       "added_at": "2026-07-19T19:35:32+05:30",
       "source": "World Athletics",
@@ -313,10 +441,9 @@
     },
     {
       "type": "story",
-      "id": "story-6",
-      "rank": 6,
+      "id": "story-8",
+      "rank": 8,
       "category": "geopolitics",
-      "is_new": true,
       "published_iso": "2026-07-19T11:18:17+00:00",
       "added_at": "2026-07-19T19:35:32+05:30",
       "source": "BBC",
@@ -363,8 +490,8 @@
     },
     {
       "type": "story",
-      "id": "story-7",
-      "rank": 7,
+      "id": "story-9",
+      "rank": 9,
       "category": "geopolitics",
       "published_iso": "2026-07-19T12:53:20+00:00",
       "added_at": "2026-07-19T18:48:09+05:30",
@@ -426,8 +553,8 @@
     },
     {
       "type": "story",
-      "id": "story-8",
-      "rank": 8,
+      "id": "story-10",
+      "rank": 10,
       "category": "geopolitics",
       "development": true,
       "prev_ref": {
@@ -497,8 +624,8 @@
     },
     {
       "type": "story",
-      "id": "story-9",
-      "rank": 9,
+      "id": "story-11",
+      "rank": 11,
       "category": "geopolitics",
       "published_iso": "2026-07-18T15:23:31+00:00",
       "added_at": "2026-07-19T01:09:11+05:30",
@@ -554,8 +681,8 @@
     },
     {
       "type": "story",
-      "id": "story-10",
-      "rank": 10,
+      "id": "story-12",
+      "rank": 12,
       "category": "geopolitics",
       "published_iso": "2026-07-18T18:00:00+00:00",
       "added_at": "2026-07-19T01:09:11+05:30",
@@ -608,8 +735,8 @@
     },
     {
       "type": "story",
-      "id": "story-11",
-      "rank": 11,
+      "id": "story-13",
+      "rank": 13,
       "category": "technology",
       "published_iso": "2026-07-18T15:10:38+00:00",
       "added_at": "2026-07-19T00:45:14+05:30",
@@ -658,8 +785,8 @@
     },
     {
       "type": "story",
-      "id": "story-12",
-      "rank": 12,
+      "id": "story-14",
+      "rank": 14,
       "category": "climate",
       "published_iso": "2026-07-18T13:06:42+00:00",
       "added_at": "2026-07-19T00:45:14+05:30",
@@ -707,8 +834,8 @@
     },
     {
       "type": "story",
-      "id": "story-13",
-      "rank": 13,
+      "id": "story-15",
+      "rank": 15,
       "category": "geopolitics",
       "published_iso": "2026-07-18T17:33:28+00:00",
       "added_at": "2026-07-19T00:07:22+05:30",
@@ -774,8 +901,8 @@
     },
     {
       "type": "story",
-      "id": "story-14",
-      "rank": 14,
+      "id": "story-16",
+      "rank": 16,
       "category": "geopolitics",
       "development": true,
       "prev_ref": {
@@ -852,8 +979,8 @@
     },
     {
       "type": "story",
-      "id": "story-15",
-      "rank": 15,
+      "id": "story-17",
+      "rank": 17,
       "category": "health",
       "published_iso": "2026-07-18T14:51:00+00:00",
       "added_at": "2026-07-18T23:27:04+05:30",
@@ -910,8 +1037,8 @@
     },
     {
       "type": "story",
-      "id": "story-16",
-      "rank": 16,
+      "id": "story-18",
+      "rank": 18,
       "category": "economy",
       "published_iso": "2026-07-18T14:23:33+00:00",
       "added_at": "2026-07-18T23:27:04+05:30",
@@ -966,73 +1093,8 @@
     },
     {
       "type": "story",
-      "id": "story-17",
-      "rank": 17,
-      "category": "geopolitics",
-      "published_iso": "2026-07-18T09:39:43+00:00",
-      "added_at": "2026-07-18T22:57:54+05:30",
-      "source": "Bloomberg",
-      "importance": "high",
-      "regions": [
-        "Germany",
-        "Europe"
-      ],
-      "title": "Germany raises its national terror-threat level to 'high' — and moves to hand its spy agencies more power",
-      "what_happened": "On Saturday, July 18, 2026, German Interior Minister Alexander Dobrindt told a newspaper that he was upgrading the country's security posture from the long-standing 'abstract' threat level to a 'high threat level'. He said 'the increased volume of reporting and intelligence' had driven the decision, and that Germans must now 'reckon with the risk of attacks at all times'. Officials indicated the danger is not vague: attack plans are 'clearly identifiable' and could be aimed at critical infrastructure (power, water, transport), specific institutions, or named individuals — with one plot reportedly involving 'disposable actors' using explosives that law enforcement disrupted. The announcement comes as Merz's coalition prepares to expand the operational powers of Germany's intelligence services so they can act faster and cooperate more closely with foreign partners.",
-      "key_points": [
-        "Interior minister lifts the alert from 'abstract' to a 'high threat level'",
-        "Says intelligence points to identifiable, credible attack plans right now",
-        "Warns targets could include infrastructure, institutions and named individuals",
-        "Merz government prepares to expand the intelligence services' powers"
-      ],
-      "moot": "A 'threat level' is a government translating what its spies see into a public warning — so raising it is as much a communication and policy act as a security one. And moments of heightened fear are exactly when states seek new surveillance powers, which is why every security expansion carries a parallel question the public must weigh: how much liberty are we trading for how much safety, and who watches the watchers?",
-      "concepts": [],
-      "figures": [],
-      "depth": {
-        "background": "A country's 'threat level' is an official gauge of how likely a terrorist attack is judged to be, based on what its security agencies are picking up — intercepted chatter, tip-offs, foiled plots and intelligence shared by allies. Germany, Europe's largest economy and most populous country, has lived with a persistent 'abstract' risk for years — meaning attacks were considered possible but no specific, imminent plot stood out. In recent years it has suffered several deadly incidents, including car-ramming and knife attacks, and its agencies have repeatedly warned that Islamist militants, lone actors radicalised online, and sabotage crews linked to foreign states are all active threats. Chancellor Friedrich Merz's government has been pushing to modernise and strengthen the country's domestic intelligence apparatus in response.",
-        "why_it_matters": "When a major Western democracy formally lifts its threat level, it is telling its own public that its spies believe an attack could come at any moment — a rare, deliberate step that reshapes daily security across airports, stations, stadiums and public events. It also lands at a politically charged moment: the government is using the heightened danger to justify giving its intelligence agencies more surveillance and operational muscle, which forces a hard trade-off between security and civil liberties in a country whose history makes it especially wary of a powerful secret-police state.",
-        "ripple_effects": "Expect visibly tighter security — more armed police, checkpoints and cancelled or guarded events — and knock-on effects for travellers and big gatherings across Germany and, potentially, neighbouring EU states that share open borders. The push to expand spy powers will trigger a fierce domestic debate over privacy, data collection and oversight, with courts and civil-liberties groups likely to challenge any overreach. Heightened alerts also strain police budgets and can feed public anxiety and political polarisation, especially around immigration and counter-terror policy. For the rest of Europe, Germany's move is a signal to re-check their own threat assessments, since militant networks and state-linked sabotage rarely respect borders.",
-        "why_now": "The minister tied the upgrade directly to a recent surge in credible intelligence — foiled plots and specific threat reporting — rather than a single attack. It also dovetails with the Merz government's existing drive to overhaul and empower Germany's intelligence services, giving officials both a reason and a moment to act.",
-        "watch_next": "Whether the government's bill to expand intelligence-agency powers is unveiled and how far it goes, and whether any specific plot or arrest is made public to substantiate the 'high' rating.",
-        "market_link": null,
-        "key_terms": [
-          {
-            "term": "Threat level",
-            "definition": "An official rating of how likely a terrorist attack is, set by security agencies from the intelligence they collect; 'high' means an attack is considered possible at any time."
-          },
-          {
-            "term": "Abstract vs high threat",
-            "definition": "'Abstract' means a general, background danger with no specific plot in view; moving to 'high' signals authorities now see concrete, credible attack planning."
-          },
-          {
-            "term": "Intelligence services",
-            "definition": "Government agencies (like Germany's domestic BfV) that gather secret information to detect and prevent threats such as terrorism, espionage and sabotage."
-          },
-          {
-            "term": "Critical infrastructure",
-            "definition": "The essential systems a society runs on — power grids, water, transport, telecoms — whose disruption would cause outsized harm, making them prime targets."
-          }
-        ],
-        "sources": [
-          {
-            "name": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-07-18/germany-raises-threat-level-over-terror-attack-risk-welt-says"
-          },
-          {
-            "name": "Reuters (via Al-Monitor)",
-            "url": "https://www.al-monitor.com/originals/2026/07/germany-upgrades-security-stance-high-threat-level-interior-minister-tells-paper"
-          },
-          {
-            "name": "Reuters (via Internazionale)",
-            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/18/germany-upgrades-security-stance-to-high-threat-level-interior-minister-tells-paper"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
-      "id": "story-18",
-      "rank": 18,
+      "id": "story-20",
+      "rank": 20,
       "category": "geopolitics",
       "published_iso": "2026-07-18T15:35:54+00:00",
       "added_at": null,
@@ -1106,6 +1168,115 @@
       "rank": 21,
       "category": "india",
       "is_new": true,
+      "published_iso": "2026-07-18T18:00:00+05:30",
+      "added_at": "2026-07-19T21:26:12+05:30",
+      "source": "The Week",
+      "importance": "notable",
+      "regions": [
+        "India"
+      ],
+      "title": "Chennamma, wife of former PM H.D. Deve Gowda and matriarch of a political dynasty, dies at 85 in Bengaluru",
+      "what_happened": "Chennamma Deve Gowda, 85, died on the evening of Saturday, July 18, 2026, at Manipal Hospital in Bengaluru. She had been admitted about four days earlier with breathing difficulties and, doctors said, died of a severe heart attack. She is survived by her husband, four sons and two daughters. Condolences poured in from across the political spectrum, including from Karnataka CM Siddaramaiah and Congress leader Rahul Gandhi.",
+      "key_points": [
+        "Chennamma Deve Gowda died of a heart attack at 85",
+        "Wife of former PM and JD(S) patriarch H.D. Deve Gowda",
+        "Mother of six, including Union minister H.D. Kumaraswamy",
+        "Leaders across parties, including Rahul Gandhi, condoled"
+      ],
+      "moot": "Behind India's political dynasties are family networks whose personal milestones — births, marriages, deaths — ripple into public life, because kinship and politics are tightly woven in the country's regional parties.",
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "H.D. Deve Gowda served as India's Prime Minister in 1996–97 and is the founder-patriarch of the Janata Dal (Secular), or JD(S), a Karnataka-based party that has repeatedly held the balance of power in the state. Chennamma, whom he married in 1954, was the quiet anchor of a large political family — their son H.D. Kumaraswamy is a former Karnataka Chief Minister and current Union minister, and other relatives hold elected office across the state.",
+        "why_it_matters": "She was the matriarch of one of Karnataka's most influential political families, whose fortunes shape the state's — and sometimes the country's — politics. Her passing is a moment of mourning for the JD(S) and a reminder of the human core behind India's political dynasties.",
+        "ripple_effects": "Expect state mourning and a pause in JD(S) political activity; family members including Kumaraswamy will step back from public duties for the rites. In the longer run, moments like this often reinforce family cohesion around the ageing 92-year-old Deve Gowda at a time of leadership transition within the party.",
+        "why_now": "Her health declined suddenly after four days of hospitalisation for breathing problems, and news of her death on Saturday evening drew immediate national condolences.",
+        "watch_next": "The funeral arrangements in the coming days and the cross-party turnout, a signal of the family's continuing political weight.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "Janata Dal (Secular) / JD(S)",
+            "definition": "A regional political party based in Karnataka, founded by H.D. Deve Gowda, that has often been a kingmaker in the state's coalition governments."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Week",
+            "url": "https://www.theweek.in/news/india/2026/07/18/hd-deve-gowda-wife-chennamma-dies.html"
+          },
+          {
+            "name": "ETV Bharat",
+            "url": "https://www.etvbharat.com/en/bharat/former-prime-minister-hd-deve-gowda-wife-chennamma-dies-of-heart-attack-enn26071805334"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-22",
+      "rank": 22,
+      "category": "india",
+      "is_new": true,
+      "published_iso": "2026-07-19T13:19:04+05:30",
+      "added_at": "2026-07-19T21:26:12+05:30",
+      "source": "Republic World",
+      "importance": "high",
+      "regions": [
+        "India"
+      ],
+      "title": "Exam-leak anger reaches Parliament: opposition will demand Education Minister Dharmendra Pradhan quit as the monsoon session opens tomorrow",
+      "what_happened": "Ahead of the monsoon session opening July 20, opposition parties signalled they will demand the resignation of Union Education Minister Dharmendra Pradhan over the exam-leak scandal. Congress's B.K. Hariprasad, echoing Rahul Gandhi's 'Chhatron ki Goonj' campaign, alleged 152 paper leaks occurred between 2014 and 2026. Notably, Odisha's Naveen Patnaik (BJD) — often seen as non-aligned — urged the government to talk to protesting students, warning that 'a nation that compromises the integrity of its examination system compromises its future.' The government will lay out its legislative agenda at an all-party meeting. The session runs to August 13.",
+      "key_points": [
+        "Opposition to target Education Minister over exam paper leaks",
+        "Congress cites '152 paper leaks' between 2014 and 2026",
+        "Even BJD's Naveen Patnaik urges talks with protesting students",
+        "Monsoon session runs July 20 to August 13"
+      ],
+      "moot": "Public anger becomes political power when it finds an institutional channel: a street protest can be ignored, but the same grievance raised on the floor of Parliament forces a government to respond on the record.",
+      "concepts": [
+        "parliament_india",
+        "lok_sabha"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "For weeks, a youth-led movement has been building over repeated leaks of exam question papers — including for high-stakes tests like NEET, the national medical-entrance exam that decides who becomes a doctor. Leaks let some cheat while honest students lose seats, and the anger has spilled into street protests (the 'cockroach' march) and demands for accountability. That anger now moves from the streets into Parliament as the monsoon session begins.",
+        "why_it_matters": "It turns a street movement into a parliamentary showdown, and the breadth of criticism — reaching beyond Congress to regional players like the BJD — signals the exam-leak issue has real political heat. How the government responds touches the credibility of India's entire merit-based exam system, which millions of students stake their futures on.",
+        "ripple_effects": "Expect disruptions and adjournments in Parliament, pressure on the government to promise tougher anti-leak laws or an exam-security overhaul, and continued student mobilisation. If the opposition can stay united on this, it becomes a template for pressing the government across the session's other contentious bills.",
+        "why_now": "The monsoon session — Parliament's mid-year sitting — opens July 20, giving the opposition its first big floor platform to force the exam-leak issue into the national spotlight while student protests are still fresh.",
+        "watch_next": "Whether the opposition forces a formal debate or adjournment motion on the exam leaks in the session's opening days — and how Pradhan and the government respond.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "Monsoon session",
+            "definition": "One of Parliament's three regular sittings each year (held around the July–August monsoon), when new laws are debated and the government faces questions."
+          },
+          {
+            "term": "NEET",
+            "definition": "The National Eligibility cum Entrance Test — India's single nationwide entrance exam for admission to medical (MBBS) and dental colleges."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Republic World",
+            "url": "https://www.republicworld.com/india/government-to-unveil-legislative-agenda-at-monsoon-session-all-party-meet-opposition-prepares-to-raise-key-issues-2026-07-19-132774"
+          },
+          {
+            "name": "ANI",
+            "url": "https://aninews.in/news/national/politics/nation-that-compromises-integrity-of-examination-system-compromises-its-future-naveen-patnaik-urges-government-to-talk-to-protesting-students20260719131904/"
+          },
+          {
+            "name": "ANI",
+            "url": "https://www.aninews.in/news/national/general-news/assam-congress-steps-up-campaign-seeks-dharmendra-pradhans-resignation-over-exam-paper-leaks20260629201444/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-23",
+      "rank": 23,
+      "category": "india",
+      "is_new": true,
       "published_iso": "2026-07-19T06:30:00+00:00",
       "added_at": "2026-07-19T20:48:45+05:30",
       "source": "Free Press Journal",
@@ -1155,8 +1326,8 @@
     },
     {
       "type": "story",
-      "id": "story-22",
-      "rank": 22,
+      "id": "story-24",
+      "rank": 24,
       "category": "india",
       "is_new": true,
       "development": true,
@@ -1223,8 +1394,8 @@
     },
     {
       "type": "story",
-      "id": "story-23",
-      "rank": 23,
+      "id": "story-25",
+      "rank": 25,
       "category": "india",
       "is_new": true,
       "published_iso": "2026-07-18T12:30:00+00:00",
@@ -1302,8 +1473,8 @@
     },
     {
       "type": "story",
-      "id": "story-24",
-      "rank": 24,
+      "id": "story-26",
+      "rank": 26,
       "category": "india",
       "is_new": true,
       "published_iso": "2026-07-19T08:51:16+00:00",
@@ -1362,10 +1533,9 @@
     },
     {
       "type": "story",
-      "id": "story-25",
-      "rank": 25,
+      "id": "story-27",
+      "rank": 27,
       "category": "india",
-      "is_new": true,
       "published_iso": "2026-07-19T11:50:11+00:00",
       "added_at": "2026-07-19T19:35:32+05:30",
       "source": "Olympics.com",
@@ -1412,10 +1582,9 @@
     },
     {
       "type": "story",
-      "id": "story-26",
-      "rank": 26,
+      "id": "story-28",
+      "rank": 28,
       "category": "india",
-      "is_new": true,
       "development": true,
       "prev_ref": {
         "title": "Police forcibly move a fasting Sonam Wangchuk to hospital on day 21 of his Ladakh protest",
@@ -1477,8 +1646,8 @@
     },
     {
       "type": "story",
-      "id": "story-27",
-      "rank": 27,
+      "id": "story-29",
+      "rank": 29,
       "category": "india",
       "published_iso": "2026-07-19T07:00:00+00:00",
       "added_at": "2026-07-19T18:48:09+05:30",
@@ -1537,8 +1706,8 @@
     },
     {
       "type": "story",
-      "id": "story-28",
-      "rank": 28,
+      "id": "story-30",
+      "rank": 30,
       "category": "india",
       "published_iso": "2026-07-19T05:00:00+00:00",
       "added_at": "2026-07-19T18:48:09+05:30",
@@ -1597,8 +1766,8 @@
     },
     {
       "type": "story",
-      "id": "story-29",
-      "rank": 29,
+      "id": "story-31",
+      "rank": 31,
       "category": "india",
       "published_iso": "2026-07-18T12:00:00+00:00",
       "added_at": "2026-07-19T01:09:11+05:30",
@@ -1655,88 +1824,8 @@
     },
     {
       "type": "story",
-      "id": "story-30",
-      "rank": 30,
-      "category": "india",
-      "published_iso": "2026-07-18T09:30:00+00:00",
-      "added_at": "2026-07-19T01:09:11+05:30",
-      "source": "Business Today",
-      "importance": "notable",
-      "regions": [
-        "India"
-      ],
-      "title": "PNB's profit 'triples' to ₹5,253 crore — but the eye-popping jump is mostly a tax quirk, not a business boom",
-      "what_happened": "PNB's net profit jumped about 214% from a year earlier to ₹5,253 crore (roughly $630 million), up from ₹1,675 crore. The main reason was a far lower income-tax bill: PNB set aside ₹1,725 crore for tax this quarter versus ₹5,083 crore a year ago, when it had booked a large one-time tax charge after switching to a new tax regime. Its core lending income — net interest income, the difference between interest earned on loans and paid on deposits — rose only about 3%. Asset quality improved, with gross bad loans (NPAs) falling to 2.78% of loans from 3.78% a year earlier.",
-      "key_points": [
-        "Q1 net profit up ~214% year-on-year to ₹5,253 crore",
-        "Real driver: a much smaller income-tax charge than last year",
-        "Core income (NII) rose only about 3% — the modest bit",
-        "Bad loans improved: gross NPAs fell to 2.78% from 3.78%"
-      ],
-      "moot": "Always read past the headline percentage: a profit that 'triples' can be a tax or one-off effect. The durable signals for a bank are its core interest income, its margins, and its bad-loan trend.",
-      "concepts": [
-        "psu",
-        "crore_lakh"
-      ],
-      "figures": [
-        {
-          "raw": "₹5,253 crore",
-          "words": "₹52.53 billion",
-          "usd_approx": "≈ $546mn"
-        },
-        {
-          "raw": "₹1,675 crore",
-          "words": "₹16.75 billion",
-          "usd_approx": "≈ $174mn"
-        },
-        {
-          "raw": "₹1,725 crore",
-          "words": "₹17.25 billion",
-          "usd_approx": "≈ $179mn"
-        },
-        {
-          "raw": "₹5,083 crore",
-          "words": "₹50.83 billion",
-          "usd_approx": "≈ $528mn"
-        }
-      ],
-      "depth": {
-        "background": "Punjab National Bank (PNB) is one of India's largest public-sector (government-owned) banks. On Saturday, July 18, it reported results for the April-June quarter (the first quarter of financial year 2026-27). Company profits can swing sharply for reasons that have little to do with day-to-day business — especially taxes and one-off charges — so a huge headline percentage always needs a second look.",
-        "why_it_matters": "It is a reminder that a tripling of profit can be an accounting effect, not proof that a bank is suddenly earning much more. The genuinely encouraging signals here are the falling bad-loan ratio and steady margins — signs the PSU bank clean-up of recent years is holding — rather than the flashy profit number.",
-        "ripple_effects": "Stronger balance sheets at state-run banks make them more willing to lend, which supports credit growth across the economy. For the government, which owns most of PNB, healthier profits and lower bad loans raise the value of its stake and its options for any future share sale. Investors, though, tend to look past one-off tax gains to core income, so the share reaction is usually muted.",
-        "why_now": "Indian banks report quarterly earnings in mid-July; PNB's release lands in the same weekend batch as private lenders like HDFC, ICICI and Axis, letting investors compare the sector.",
-        "watch_next": "Whether PNB's net interest margin and loan growth pick up in coming quarters — the real test of underlying earnings once the tax base-effect fades.",
-        "market_link": "PNB shares and the broader PSU-bank index (Nifty PSU Bank); improving asset quality supports state-bank valuations even when the profit jump is a tax quirk.",
-        "key_terms": [
-          {
-            "term": "Net interest income (NII)",
-            "definition": "A bank's core earnings: interest it collects on loans minus interest it pays on deposits."
-          },
-          {
-            "term": "Gross NPA",
-            "definition": "The share of a bank's loans that borrowers have stopped repaying — a lower number means healthier lending."
-          },
-          {
-            "term": "Base effect",
-            "definition": "A large percentage change caused mainly by an unusually high or low figure in the comparison period, not by real underlying change."
-          }
-        ],
-        "sources": [
-          {
-            "name": "Business Today",
-            "url": "https://www.businesstoday.in/markets/stocks/story/pnb-q1-net-profit-soars-214-to-rs-5253-crore-on-lower-provision-for-income-tax-543757-2026-07-18"
-          },
-          {
-            "name": "ThePrint",
-            "url": "https://theprint.in/economy/pnb-q1-profit-surges-over-three-fold-to-rs-5253-cr/2989882/"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
-      "id": "story-31",
-      "rank": 31,
+      "id": "story-33",
+      "rank": 33,
       "category": "india",
       "published_iso": "2026-07-18T19:22:24+05:30",
       "added_at": "2026-07-19T00:45:14+05:30",
@@ -1787,8 +1876,8 @@
     },
     {
       "type": "story",
-      "id": "story-34",
-      "rank": 34,
+      "id": "story-36",
+      "rank": 36,
       "category": "india",
       "published_iso": "2026-07-19T11:00:00+05:30",
       "added_at": "2026-07-19T00:07:22+05:30",
@@ -1855,8 +1944,8 @@
     },
     {
       "type": "story",
-      "id": "story-35",
-      "rank": 35,
+      "id": "story-37",
+      "rank": 37,
       "category": "india",
       "published_iso": "2026-07-18T14:07:00+00:00",
       "added_at": "2026-07-18T23:27:04+05:30",
@@ -1910,8 +1999,8 @@
     },
     {
       "type": "story",
-      "id": "story-37",
-      "rank": 37,
+      "id": "story-39",
+      "rank": 39,
       "category": "india",
       "published_iso": "2026-07-18T14:16:50+00:00",
       "added_at": "2026-07-18T22:57:54+05:30",
@@ -1973,74 +2062,6 @@
           {
             "name": "Penn Wharton Budget Model",
             "url": "https://budgetmodel.wharton.upenn.edu/p/2026-04-08-the-impact-of-higher-prevailing-wages-on-the-h-1b-visa-lottery-update-1/"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
-      "id": "story-39",
-      "rank": 39,
-      "category": "india",
-      "published_iso": "2026-07-18T09:30:00+00:00",
-      "added_at": null,
-      "source": "NDTV",
-      "importance": "notable",
-      "regions": [
-        "India",
-        "Gujarat"
-      ],
-      "title": "At least 8 killed as an illegal firecracker factory explodes and burns in Ahmedabad — the latest deadly blast in India's loosely policed fireworks trade",
-      "what_happened": "On Saturday, July 18, 2026, a fire broke out at the Talent Fireworks factory on Gatrad Road in the Mahmudpura area near Ahmedabad, Gujarat. A series of powerful explosions ripped through the unit and shook the surrounding neighbourhood, throwing up a huge blaze; at least eight workers were killed and more than 15 injured, several critically. Police said the factory was operating illegally, without the mandatory licences and safety clearances. Gujarat Chief Minister Bhupendra Patel expressed grief and announced compensation of ₹4 lakh (about ₹400,000) to the family of each person killed and ₹50,000 to each of the injured, with the state arranging medical treatment for the survivors.",
-      "key_points": [
-        "Blasts then a blaze tore through the Talent Fireworks unit on Gatrad Road",
-        "At least 8 dead, 15+ injured; the factory was operating illegally",
-        "Explosions rocked the Mahmudpura area near Ahmedabad, sparking panic",
-        "Gujarat CM announces ₹4 lakh for each victim's family, ₹50,000 for injured"
-      ],
-      "moot": "Rules only save lives if they are enforced. When dangerous work — like handling explosives — is allowed to run in unlicensed workshops beyond the reach of inspectors, the cost is paid in workers' lives; the tragedy is rarely a surprise, and almost always preventable.",
-      "concepts": [
-        "crore_lakh"
-      ],
-      "figures": [
-        {
-          "raw": "₹4 lakh",
-          "words": "₹400,000"
-        }
-      ],
-      "depth": {
-        "background": "India is one of the world's biggest makers and users of firecrackers, and much of that production happens in small, cramped workshops — many of them unlicensed — where workers handle highly explosive chemicals by hand with little safety gear. Because these units store large amounts of gunpowder-like material in tight spaces, a single spark can set off a chain of explosions, so fatal fires at such factories are tragically common. Gatrad, on the industrial outskirts of Ahmedabad in Gujarat, is one such pocket of these small units.",
-        "why_it_matters": "Eight lives lost in a preventable industrial accident is a human tragedy — and it repeats a pattern India has seen again and again, where unlicensed, unsafe factories keep running until one of them explodes. It puts a spotlight on weak enforcement of safety and licensing rules, and on the workers — often poor and low-paid — who carry the deadly risk. For the reader, it is a window into how much of India's manufacturing still operates in an informal, under-regulated grey zone.",
-        "ripple_effects": "Expect the familiar sequence: a police case against the factory's owners, arrests and an inquiry, temporary crackdowns on nearby illegal units, and compensation for the victims' families — but safety campaigners note that without sustained enforcement, similar workshops simply reopen elsewhere. The disaster will renew pressure on Gujarat and other states to inspect and shut down unlicensed fireworks and chemical units, and it feeds a broader debate about labour safety across India's vast informal economy, where millions work with little oversight.",
-        "why_now": "The blast itself is the trigger; such fires cluster where demand for fireworks keeps small units running, and the hot, dry summer makes stored explosive material more volatile. It also lands amid recurring national attention on industrial-safety failures — from factory fires to building collapses — that keep exposing the same gaps in enforcement.",
-        "watch_next": "The police investigation and any arrests of the factory's owners, the final casualty count as the injured are treated, and whether the state orders a wider crackdown on illegal firecracker units.",
-        "market_link": null,
-        "key_terms": [
-          {
-            "term": "Ex-gratia compensation",
-            "definition": "A payment the government makes to victims or their families as a goodwill gesture after a disaster — here ₹4 lakh per death — not an admission of legal fault."
-          },
-          {
-            "term": "Lakh",
-            "definition": "An Indian counting unit equal to 100,000; so ₹4 lakh means ₹400,000, and ₹50,000 is half a lakh."
-          },
-          {
-            "term": "Unlicensed unit",
-            "definition": "A factory running without the safety licences and clearances the law requires, so it escapes the inspections meant to prevent exactly this kind of accident."
-          },
-          {
-            "term": "Informal economy",
-            "definition": "The huge share of Indian work done in small, often unregistered businesses with little regulation or worker protection."
-          }
-        ],
-        "sources": [
-          {
-            "name": "NDTV",
-            "url": "https://www.ndtv.com/india-news/8-killed-9-injured-in-blast-inside-illegal-ahmedabad-firecracker-factory-11788790"
-          },
-          {
-            "name": "TV9",
-            "url": "https://www.tv9hindi.com/state/gujarat/ahmedabad-firecracker-factory-fire-eight-dead-over-fifteen-injured-mahmudpura-talent-fireworks-3854311.html"
           }
         ]
       }
@@ -2340,14 +2361,14 @@
       "id": "archive-global",
       "category": "geopolitics",
       "region": "global",
-      "older_count": 59
+      "older_count": 60
     },
     {
       "type": "archive",
       "id": "archive-india",
       "category": "india",
       "region": "india",
-      "older_count": 61
+      "older_count": 63
     },
     {
       "type": "archive",

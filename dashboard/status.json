@@ -1,8 +1,8 @@
 {
-  "last_check": "2026-07-19T20:55:03+05:30",
+  "last_check": "2026-07-19T21:32:34+05:30",
   "last_kind": "hourly",
   "cadence_min": 30,
-  "next_update_est": "2026-07-19T21:25:03+05:30",
+  "next_update_est": "2026-07-19T22:02:34+05:30",
   "counts": {
     "global": 20,
     "india": 20,
@@ -10,28 +10,28 @@
     "cricket": 2
   },
   "total": 45,
-  "last_update": "2026-07-19T20:55:03+05:30",
+  "last_update": "2026-07-19T21:32:34+05:30",
   "last_added": [
     {
-      "title": "Antonelli wins the Belgian Grand Prix — holding off Leclerc as title rival Russell crashes out on lap one",
-      "region": "f1",
-      "published_iso": "2026-07-19T14:40:40+00:00"
+      "title": "Ukraine's leadership is in turmoil mid-war: Zelensky sacked his star defence minister, crowds are protesting for a third day, and his top general may be next",
+      "region": "global",
+      "published_iso": "2026-07-18T18:00:00+00:00"
     },
     {
-      "title": "England pile up 387/3 in the Lord's ODI decider — India face a huge chase, and Rohit Sharma's future is on the line",
-      "region": "cricket",
-      "published_iso": "2026-07-19T12:30:00+00:00"
+      "title": "Canada's record wildfires push New York and Washington to 'most polluted' — as air turns hazardous across the US Northeast and Midwest",
+      "region": "global",
+      "published_iso": "2026-07-18T17:18:47+00:00"
     },
     {
-      "title": "Delhi Police declare the 'Cockroach' party's July 20 march to Parliament illegal as a hospitalised Wangchuk refuses to break his fast",
+      "title": "Exam-leak anger reaches Parliament: opposition will demand Education Minister Dharmendra Pradhan quit as the monsoon session opens tomorrow",
       "region": "india",
-      "published_iso": "2026-07-19T06:00:00+00:00"
+      "published_iso": "2026-07-19T13:19:04+05:30"
     },
     {
-      "title": "A Kanpur engineering topper dies by suicide after nearly 50 failed tries at a government job — a note that reads 'Sorry, Papa'",
+      "title": "Chennamma, wife of former PM H.D. Deve Gowda and matriarch of a political dynasty, dies at 85 in Bengaluru",
       "region": "india",
-      "published_iso": "2026-07-19T06:30:00+00:00"
+      "published_iso": "2026-07-18T18:00:00+05:30"
     }
   ],
-  "added_count": 6
+  "added_count": 4
 }
