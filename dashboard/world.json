@@ -1,11 +1,112 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T16:45:32+05:30",
+  "generated_at": "2026-07-20T18:13:49+05:30",
   "headline": "US and Iran reignite their war over the Strait of Hormuz: Trump drops a 20% shipping fee but presses a naval blockade as strikes fly, pushing oil to a one-month high.",
   "the_big_picture": "The single thread running through today is the re-escalation of the US-Iran conflict at the Strait of Hormuz, the chokepoint that carries roughly a fifth of the world's oil. Trump backed off a threatened 20% transit fee but is pushing ahead with a naval blockade while both sides trade strikes and tankers come under attack, sending crude to a one-month high. That oil spike is the hinge for everything downstream: US inflation cooled to 3.5% but officials flagged fresh upside risk, India's inflation just breached its central bank's target, the rupee slid past 96 and the Sensex fell. Running underneath, an AI storyline cuts both ways: IBM shed roughly $70bn in a day after stumbling on AI deals, even as China's AI-driven exports jumped 27% and Nvidia began shipping powerful H200 chips into China.",
   "stories": [
     {
       "rank": 1,
+      "category": "geopolitics",
+      "region": "global",
+      "published_iso": "2026-07-20T12:15:49+00:00",
+      "regions": [
+        "Middle East"
+      ],
+      "title": "Yemen's Houthis declare a naval blockade of Saudi Arabia \u2014 a new front opens in the widening Gulf war",
+      "key_points": [
+        "Houthi spokesman Yahya Saree announced an 'immediate' maritime blockade",
+        "The group says it answers a Saudi 'siege' of Yemen",
+        "Follows the first Houthi-Saudi fire exchange in years",
+        "Saudi Arabia is weighing a military response"
+      ],
+      "background": "The Houthis are an Iran-aligned armed movement that controls northern Yemen, including the capital Sanaa, after years of civil war against a Saudi-led coalition. Since 2023 they have attacked ships in the Red Sea, one of the world's busiest trade routes. Tensions with Saudi Arabia flared again this month: the Houthis accuse Riyadh of striking Sanaa's airport to block a plane carrying their officials, and last week the two sides traded direct fire for the first time in years, with Houthi missiles aimed at the Saudi city of Abha.",
+      "what_happened": "On Monday, July 20, Houthi military spokesman Yahya Saree declared an immediate naval blockade of Saudi Arabia, saying it was a response to what the group calls Saudi Arabia's long-running 'siege' of Yemen. The announcement \u2014 reported by Reuters, AFP and Gulf outlets \u2014 is so far a declaration; the Houthis have not yet shown they can actually halt Saudi-bound shipping, and it lands amid the ongoing US-Iran conflict.",
+      "why_it_matters": "Saudi Arabia is one of the world's largest oil exporters, and its trade moves by sea. Even a threat to blockade its shipping raises the 'risk premium' baked into oil prices \u2014 the extra cost markets add for the chance that supply gets disrupted. It also widens a regional war that already spans Iran, the US, Israel and the Gulf states.",
+      "ripple_effects": "Expect upward pressure on crude oil and on shipping-insurance and freight costs, as vessels may reroute or demand danger pay to sail near Saudi ports. Gulf stock markets and airlines are exposed. Riyadh is reportedly weighing military escalation, which would deepen the conflict rather than contain it.",
+      "why_now": "It is direct retaliation for the alleged Saudi strike on Sanaa airport and last week's missile exchanges, and it fits a broader escalation as the US-Iran war drags in more of the region.",
+      "watch_next": "Whether the Houthis actually attack Saudi-bound ships \u2014 turning the declaration into a real blockade \u2014 and how Saudi Arabia responds militarily.",
+      "key_terms": [
+        {
+          "term": "Naval blockade",
+          "definition": "An attempt to cut off a country's sea traffic \u2014 stopping ships from reaching or leaving its ports \u2014 to pressure it."
+        },
+        {
+          "term": "Risk premium",
+          "definition": "The extra amount added to a price (here, oil) to compensate for the danger that supply could be disrupted."
+        }
+      ],
+      "the_lesson": "A blockade doesn't have to sink a single ship to bite: the mere threat pushes up insurance and freight costs and reroutes traffic, so markets price the disruption long before any shots are fired.",
+      "concepts": [
+        "crude_geopolitics",
+        "strait_chokepoint",
+        "proxy_war"
+      ],
+      "market_link": "Bullish for crude oil (Brent/WTI) and tanker/shipping rates; a fresh worry for Gulf equities, airlines and any economy that imports Middle East oil, including India.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/2026/07/20/houthis-announce-maritime-ban-on-saudi-arabia-citing-blockade-of-yemen/"
+        },
+        {
+          "name": "The Korea Times (AFP)",
+          "url": "https://www.koreatimes.co.kr/world/20260720/yemens-houthis-declare-naval-blockade-against-saudi-arabia-statement"
+        }
+      ],
+      "added_at": "2026-07-20T18:08:40+05:30"
+    },
+    {
+      "rank": 2,
+      "category": "geopolitics",
+      "region": "global",
+      "published_iso": "2026-07-20T11:27:04+00:00",
+      "regions": [
+        "Middle East"
+      ],
+      "title": "Hamas picks Khalil al-Hayya as its new leader \u2014 its lead ceasefire negotiator now heads the group",
+      "key_points": [
+        "Al-Hayya won an internal run-off against veteran Khaled Meshaal",
+        "He is Hamas's chief negotiator in the Israel ceasefire talks",
+        "Armed wing, the Qassam Brigades, declared 'full support'",
+        "He is expected to formally take office next week"
+      ],
+      "background": "Hamas is the armed Palestinian group that has run Gaza since 2007 and is at war with Israel. Its top leader, Yahya Sinwar, was killed by Israeli forces in October 2024, and since then the group has been run by a committee rather than one figure. Khalil al-Hayya, a Gaza-born veteran of the movement, has been its most public face abroad \u2014 the man leading the on-and-off ceasefire and hostage talks brokered by Qatar and Egypt.",
+      "what_happened": "On Monday, July 20, Hamas said al-Hayya had been elected head of its political bureau (its top decision-making body) after an internal ballot, beating former leader Khaled Meshaal in a run-off by a large majority. Hamas's military wing, the Ezzedine al-Qassam Brigades, publicly backed him. He is expected to formally assume the role within the week.",
+      "why_it_matters": "The person who negotiates on Hamas's behalf will now also lead the whole organisation. That concentrates authority in one man at a moment when a ceasefire, the fate of remaining hostages, and the shape of any post-war Gaza are all unresolved \u2014 so his instincts could tilt the region toward more war or toward a deal.",
+      "ripple_effects": "Israel views senior Hamas figures as legitimate targets, so his elevation raises his personal risk and could complicate the very talks he leads. Mediators in Qatar and Egypt now have a single, clearer counterpart. And because he rose through negotiations rather than the battlefield, some read it as the diplomatic track gaining weight inside Hamas \u2014 though the armed wing's endorsement shows the fighters are on board too.",
+      "why_now": "The leadership had effectively been vacant at the very top since Sinwar's death, and the internal vote to fill it has now concluded.",
+      "watch_next": "Whether al-Hayya formally takes office next week and whether his appointment revives or freezes the stalled ceasefire negotiations.",
+      "key_terms": [
+        {
+          "term": "Political bureau",
+          "definition": "The top leadership council of a political or militant movement \u2014 the body that sets overall strategy and picks the leader."
+        },
+        {
+          "term": "Qassam Brigades",
+          "definition": "The armed military wing of Hamas, named after a 1930s Palestinian fighter."
+        }
+      ],
+      "the_lesson": "When a militant or political group loses its top figure, power tends to flow to whoever controls the group's main source of leverage \u2014 here, the negotiations \u2014 so a leadership pick quietly signals where the real bargaining chips sit.",
+      "concepts": [
+        "proxy_war",
+        "ceasefire_vs_truce"
+      ],
+      "market_link": "Marginal \u2014 leadership shifts inside Hamas feed into the region's 'war-risk premium' that keeps oil prices jumpy, but there is no direct asset move.",
+      "importance": "high",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/20/hamas-names-khalil-al-hayya-as-new-leader-after-run-off-with-khaled-meshaal"
+        },
+        {
+          "name": "Israel National News",
+          "url": "https://www.israelnationalnews.com/news/430455"
+        }
+      ],
+      "added_at": "2026-07-20T18:08:40+05:30"
+    },
+    {
+      "rank": 3,
       "category": "technology",
       "published_iso": "2026-07-20T10:31:52+00:00",
       "regions": [
@@ -51,7 +152,7 @@
       "added_at": "2026-07-20T16:26:12+05:30"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "category": "health",
       "published_iso": "2026-07-20T10:36:08+00:00",
       "regions": [
@@ -102,7 +203,7 @@
       "added_at": "2026-07-20T16:26:12+05:30"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "category": "climate",
       "region": "global",
       "published_iso": "2026-07-19T16:00:00+00:00",
@@ -151,7 +252,7 @@
       "added_at": "2026-07-20T15:48:21+05:30"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "category": "economy",
       "region": "global",
       "published_iso": "2026-07-20T06:00:00+00:00",
@@ -208,7 +309,7 @@
       "added_at": "2026-07-20T15:48:21+05:30"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "category": "economy",
       "region": "global",
       "published_iso": "2026-07-20T06:04:00+00:00",
@@ -262,7 +363,7 @@
       "added_at": "2026-07-20T15:11:58+05:30"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-20T00:48:05+00:00",
@@ -313,7 +414,7 @@
       "added_at": "2026-07-20T15:11:58+05:30"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "category": "technology",
       "region": "global",
       "published_iso": "2026-07-19T11:06:03+00:00",
@@ -356,7 +457,7 @@
       "added_at": "2026-07-20T14:31:33+05:30"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-20T06:11:00+00:00",
@@ -410,7 +511,7 @@
       "added_at": "2026-07-20T14:31:33+05:30"
     },
     {
-      "rank": 9,
+      "rank": 11,
       "category": "climate",
       "region": "global",
       "published_iso": "2026-07-20T02:22:28+00:00",
@@ -448,7 +549,7 @@
       "added_at": "2026-07-20T13:55:34+05:30"
     },
     {
-      "rank": 10,
+      "rank": 12,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-20T07:48:58+00:00",
@@ -494,7 +595,7 @@
       "added_at": "2026-07-20T13:55:34+05:30"
     },
     {
-      "rank": 11,
+      "rank": 13,
       "category": "economy",
       "region": "global",
       "published_iso": "2026-07-20T06:15:00+00:00",
@@ -551,7 +652,7 @@
       "added_at": "2026-07-20T13:19:18+05:30"
     },
     {
-      "rank": 12,
+      "rank": 14,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-20T02:00:00+00:00",
@@ -612,7 +713,7 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 15,
       "category": "economy",
       "region": "global",
       "published_iso": "2026-07-20T03:29:43+00:00",
@@ -668,7 +769,7 @@
       "added_at": "2026-07-20T12:38:24+05:30"
     },
     {
-      "rank": 14,
+      "rank": 16,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-20T03:20:48+00:00",
@@ -722,7 +823,7 @@
       "added_at": "2026-07-20T12:38:24+05:30"
     },
     {
-      "rank": 15,
+      "rank": 17,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-19T18:27:58+00:00",
@@ -774,7 +875,7 @@
       "added_at": "2026-07-20T00:15:11+05:30"
     },
     {
-      "rank": 16,
+      "rank": 18,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-19T17:22:23+00:00",
@@ -841,7 +942,7 @@
       }
     },
     {
-      "rank": 17,
+      "rank": 19,
       "category": "health",
       "region": "global",
       "published_iso": "2026-07-19T16:08:00+00:00",
@@ -887,7 +988,7 @@
       "added_at": "2026-07-19T23:37:05+05:30"
     },
     {
-      "rank": 18,
+      "rank": 20,
       "category": "technology",
       "region": "global",
       "published_iso": "2026-07-19T16:29:08+00:00",
@@ -950,116 +1051,109 @@
       }
     },
     {
-      "rank": 19,
-      "category": "geopolitics",
-      "region": "global",
-      "published_iso": "2026-07-19T12:30:00+00:00",
+      "rank": 21,
+      "category": "india",
+      "region": "india",
+      "published_iso": "2026-07-20T09:40:15+00:00",
       "regions": [
-        "Middle East",
-        "Israel"
+        "India"
       ],
-      "title": "Hundreds of Israelis march on the Gaza border to demand Jewish resettlement \u2014 with coalition ministers backing them",
+      "title": "Government tells Parliament it has no plan to scrap the LTCG tax on shares \u2014 ending months of investor rumours",
       "key_points": [
-        "Marchers chanted 'Ours forever', demanding settlements be rebuilt in Gaza",
-        "The IDF declared the border a closed military zone and blocked them",
-        "Senior government ministers backed or joined the pro-settlement rally",
-        "It clashes with Israel's official stance that it won't resettle Gaza"
+        "Minister Pankaj Chaudhary: 'no proposal under consideration' to abolish it",
+        "LTCG on listed shares held over a year is taxed at 12.5%",
+        "Gains up to \u20b91.25 lakh a year stay tax-free",
+        "Any change would come only in the annual Budget"
       ],
-      "background": "Israel withdrew all its settlers and soldiers from the Gaza Strip in 2005. A hard-right movement in Israel has long wanted to reverse that and rebuild Jewish settlements there \u2014 a goal that gained momentum during the long Gaza war. The march was organised by settler groups such as Nahala, and several ministers in Prime Minister Benjamin Netanyahu's governing coalition openly support the idea.",
-      "what_happened": "Hundreds of activists marched from the town of Sderot toward the Gaza border on Sunday, July 19, demanding that Israel re-establish settlements inside Gaza. The military issued a 'closed military zone' order over parts of the western Negev and physically blocked marchers at roadblocks; organisers said a Likud minister joined the group as it pushed past an IDF checkpoint, and other senior coalition figures were expected to attend. The army and organisers negotiated so the crowd did not actually enter Gaza.",
-      "why_it_matters": "The march exposes a widening split inside Israel over Gaza's future: the official line is that Israel is not resettling the territory, yet powerful ministers are publicly campaigning to do exactly that. What Israel ultimately intends for post-war Gaza shapes the odds of any ceasefire, reconstruction, and a Palestinian political future.",
-      "ripple_effects": "Open talk of resettlement inflames Palestinians and Arab states, complicates US and mediator efforts to arrange aid and a lasting truce, and hands Israel's critics evidence of annexation intent. It also pressures Netanyahu, who depends on far-right coalition partners to stay in power, deepening tension between his stated policy and his political survival.",
-      "why_now": "With the war's active phase winding down, factions are jockeying to define what happens to Gaza next \u2014 and the settler movement is staging visible shows of force to push resettlement onto the agenda before any post-war arrangement is fixed.",
-      "watch_next": "Whether Netanyahu's government explicitly rules resettlement in or out \u2014 and how the US and Arab mediators respond to ministers endorsing it.",
+      "background": "'Long-term capital gains' (LTCG) tax is the tax you pay on the profit when you sell an investment you've held for a while. For listed Indian shares and equity mutual funds held more than a year, profits above \u20b91.25 lakh in a year are taxed at 12.5%. Investors have long lobbied to scrap it, arguing it discourages long-term investing \u2014 and speculation had grown louder after the government recently gave foreign investors a tax break on government bonds, fuelling talk that domestic equity taxes might be eased too.",
+      "what_happened": "On Monday, July 20, Minister of State for Finance Pankaj Chaudhary told the Lok Sabha (Parliament's lower house) that there is 'no proposal under consideration' to abolish LTCG tax on listed equities for retail and domestic investors. He added that capital-gains rates are reviewed only periodically, during the annual Budget, in light of the wider economy.",
+      "why_it_matters": "Tens of millions of ordinary Indians now invest in stocks and mutual funds, and this tax directly shapes their after-tax returns. The clarification kills a persistent rumour and signals policy continuity \u2014 useful because false 'the tax is going away' talk can distort how people time their buying and selling.",
+      "ripple_effects": "It removes a speculative overhang from equity-market sentiment and from the fast-growing mutual-fund industry. It also leaves alive a fairness debate: domestic equity investors still pay 12.5% while some foreign investors just won exemptions on government securities, and that gap will keep drawing calls for parity.",
+      "why_now": "The issue was raised in Parliament amid recurring investor demands and rumours that intensified after the recent tax breaks for foreign portfolio investors.",
+      "watch_next": "Any tweak to capital-gains rules in the next Union Budget, expected around February 2027 \u2014 the only realistic window for a change.",
       "key_terms": [
         {
-          "term": "Closed military zone",
-          "definition": "An area the army legally seals off to civilians, giving it the power to block or remove anyone who enters."
+          "term": "LTCG (long-term capital gains) tax",
+          "definition": "Tax on the profit from selling an asset held long enough to count as long-term \u2014 over one year for listed Indian shares."
         },
         {
-          "term": "Settlement",
-          "definition": "A community built by one group on contested or occupied land; rebuilding them in Gaza would mean Israelis living where the territory's Palestinian population resides."
+          "term": "FPI (foreign portfolio investor)",
+          "definition": "An overseas investor who buys Indian stocks and bonds in financial markets, without taking control of companies."
         }
       ],
-      "the_lesson": "In a coalition government, a prime minister's stated policy and his actual room to maneuver can diverge \u2014 when survival depends on hardline partners, street movements they back can drag official policy in directions the leader publicly denies wanting.",
+      "the_lesson": "Investment tax rules almost never change outside the annual Budget, so mid-year 'they're about to scrap the tax' chatter is usually just noise \u2014 a reason to ignore rumours rather than trade on them.",
       "concepts": [
-        "annexation"
+        "sebi",
+        "union_budget",
+        "fii_flows"
       ],
-      "market_link": null,
+      "market_link": "Neutral-to-supportive for broad Indian equities and mutual funds by removing a tax-uncertainty overhang; no single-stock impact.",
       "importance": "notable",
       "sources": [
         {
-          "name": "The Times of Israel",
-          "url": "https://www.timesofisrael.com/ours-forever-hundreds-march-from-sderot-to-gaza-border-to-demand-resettlement/"
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/india/story/no-proposal-to-abolish-ltcg-on-listed-equities-govt-in-lok-sabha-543991-2026-07-20"
         },
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/19/from-settlements-to-blocked-recovery-israeli-strategy-taking-shape-in-gaza"
-        },
-        {
-          "name": "The Jerusalem Post",
-          "url": "https://www.jpost.com/israel-news/article-902980"
+          "name": "Livemint",
+          "url": "https://www.livemint.com/market/no-proposal-under-consideration-to-scrap-ltcg-tax-on-equities-government-clarifies-11784539640469.html"
         }
       ],
-      "added_at": "2026-07-19T22:46:32+05:30"
+      "added_at": "2026-07-20T18:08:40+05:30"
     },
     {
-      "rank": 20,
-      "category": "geopolitics",
-      "region": "global",
-      "published_iso": "2026-07-19T11:00:00+00:00",
+      "rank": 22,
+      "category": "india",
+      "region": "india",
+      "published_iso": "2026-07-20T11:56:45+00:00",
       "regions": [
-        "Middle East",
-        "US"
+        "India"
       ],
-      "title": "Lebanon's president heads to the White House with a plan to disarm Hezbollah \u2014 the first Lebanese leader to visit in nearly 20 years",
+      "title": "India says its capital spending has jumped five-fold to \u20b990.87 lakh crore over 2014-26 \u2014 the engine behind its growth story",
       "key_points": [
-        "Aoun will hand Trump a written plan to decommission Hezbollah's weapons",
-        "In return he wants Israel to pull its troops out of south Lebanon",
-        "First Lebanese head of state at the White House in ~20 years",
-        "Hezbollah rejects any direct talks with Israel \u2014 the plan's biggest obstacle"
+        "Effective capex \u20b990.87 lakh crore in 2014-26 vs \u20b917.04 lakh crore in 2004-14",
+        "The Centre's own direct capex rose to \u20b964.70 lakh crore",
+        "\u20b926.17 lakh crore of that went as grants to states",
+        "Capex as a share of GDP doubled from 1.6% to 3.2%"
       ],
-      "background": "Hezbollah is an Iran-backed armed political movement in Lebanon that, for decades, kept a private army more powerful than the Lebanese state's own. A brutal 2024\u20132026 war with Israel badly degraded the group, and Israeli troops still occupy a strip of southern Lebanon. Joseph Aoun \u2014 a former commander of Lebanon's US-backed army \u2014 was elected president last year on a promise to reclaim the state's monopoly on force, meaning the government, not a militia, controls weapons.",
-      "what_happened": "Aoun is traveling to Washington for his first face-to-face meeting with US President Donald Trump, carrying a written proposal for how Hezbollah's large arsenal could be dismantled in stages, paired with a phased Israeli military withdrawal from two 'pilot zones' in the south. Ahead of the visit, US Secretary of State Marco Rubio publicly praised Aoun's 'courage' in trying to disarm Hezbollah and restore Lebanese sovereignty. Aoun's team says only Trump has the leverage to press Israel to pull back.",
-      "why_it_matters": "This is the most serious attempt in a generation to end Lebanon's 'state within a state' problem peacefully \u2014 to turn a war Israel won on the battlefield into a durable political settlement. If it works, a country that has been a front line for Iran's regional network could stabilize; if it collapses, fighting can reignite.",
-      "ripple_effects": "Success would weaken Iran's 'axis' of allied militias across the region and could ease the war-risk premium that keeps oil prices jumpy. It would also test Israel's willingness to trade occupied land for security guarantees. Failure risks another round of strikes, more displacement inside Lebanon, and a blow to US mediation credibility while it is also managing the wider Iran conflict.",
-      "why_now": "Israel's military still sits on Lebanese soil and hundreds of thousands of Lebanese remain displaced, so Beirut is racing to convert a fragile post-war lull into a deal before it frays \u2014 and Washington is pushing a framework that links disarmament to withdrawal.",
-      "watch_next": "Whether the Trump\u2013Aoun meeting produces a concrete timeline for the first Israeli pullback and Hezbollah handover \u2014 and how Hezbollah responds to being pressured to give up its guns.",
+      "background": "'Capital expenditure' (capex) is money a government spends building things that last \u2014 roads, railways, ports, power lines \u2014 as opposed to day-to-day running costs or welfare handouts. Since around 2020, New Delhi has leaned hard on public capex as its main tool to drive growth, betting that building infrastructure creates jobs now and makes the whole economy more productive later. These figures were tabled in Parliament as the monsoon session got under way.",
+      "what_happened": "On Monday, July 20, the Finance Ministry told Parliament that the Centre's 'effective' capital expenditure reached \u20b990.87 lakh crore during 2014-26 \u2014 more than five times the \u20b917.04 lakh crore spent in the previous decade (2004-14). Of that, \u20b964.70 lakh crore was the Centre's own direct spending and \u20b926.17 lakh crore was grants to states to build assets. Capex as a share of GDP rose from 1.6% in 2014-15 to 3.2% in 2023-24. ('Effective capex' bundles the Centre's own spending with the grants it gives states to build.)",
+      "why_it_matters": "This is the government's core answer to how India kept growing near 7-8% even through global shocks and an oil spike: instead of relying on consumers or exports, the state itself became the big spender, pouring money into infrastructure. Understanding this explains a lot of India's recent economic resilience.",
+      "ripple_effects": "Heavy public building directly feeds construction, cement, steel and capital-goods companies, and the jobs they create. But there's a trade-off: every rupee of capex adds to the fiscal deficit (government borrowing), which is harder to sustain when oil is dear and the rupee is weak. The open question is whether private companies will now invest enough to take over from the government.",
+      "why_now": "The data was placed before Parliament on the opening days of the monsoon session, with the government showcasing a record it wants credit for.",
+      "watch_next": "Whether private-sector investment finally picks up the baton, and whether the government can keep capex this high given fiscal pressure from costly oil.",
       "key_terms": [
         {
-          "term": "Hezbollah",
-          "definition": "A powerful Iran-backed Shia political party and armed group in Lebanon that has long kept its own military separate from the national army."
+          "term": "Capital expenditure (capex)",
+          "definition": "Government spending on long-lasting assets like roads, railways and power grids, rather than on salaries, subsidies or interest."
         },
         {
-          "term": "Sovereignty",
-          "definition": "A state's full authority over its own territory and affairs \u2014 here, the government controlling all weapons rather than a militia."
+          "term": "Lakh crore",
+          "definition": "An Indian unit for large numbers: 1 lakh crore = 1 trillion (\u20b990.87 lakh crore is about \u20b990.87 trillion, or roughly $1.05 trillion)."
         }
       ],
-      "the_lesson": "Winning a war on the battlefield is not the same as ending it \u2014 lasting peace needs a political deal that gives each side something it wants (here, disarmament in exchange for withdrawal), and it usually needs an outside power with enough leverage to make both sides move.",
+      "the_lesson": "A government can power growth by spending on assets rather than handouts \u2014 building a road employs people today and lifts the economy's productivity for decades \u2014 but it works only as long as the borrowing behind it stays affordable.",
       "concepts": [
-        "proxy_war",
-        "ceasefire_vs_truce"
+        "gdp",
+        "fiscal_deficit",
+        "crore_lakh"
       ],
-      "market_link": "Diplomacy that lowers the risk of renewed Israel\u2013Hezbollah fighting can shave the geopolitical 'risk premium' baked into oil prices; a breakdown would push it back up.",
-      "importance": "high",
+      "market_link": "Supportive for infrastructure, cement, steel and capital-goods stocks (the likes of L&T, UltraTech and Larsen peers) and for the broader 'India growth' narrative that foreign investors watch.",
+      "importance": "notable",
       "sources": [
         {
-          "name": "Reuters via US News",
-          "url": "https://www.usnews.com/news/world/articles/2026-07-19/lebanons-aoun-to-meet-trump-at-white-house-hoping-to-generate-pressure-on-israel"
+          "name": "ANI",
+          "url": "https://aninews.in/news/business/centres-effective-capital-expenditure-rises-over-five-fold-to-rs-9087-lakh-crore-during-2014-26-govt20260720161823/"
         },
         {
-          "name": "The National",
-          "url": "https://www.thenationalnews.com/news/us/2026/07/20/donald-trump-aoun-lebanon-israel/"
-        },
-        {
-          "name": "The Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/article-902906"
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/india/centres-effective-capital-outlay-tops-rs-90-trillion-since-2014-capex-nearly-five-times-previous-decade-11784544402940.html"
         }
       ],
-      "added_at": "2026-07-19T22:46:32+05:30"
+      "added_at": "2026-07-20T18:08:40+05:30"
     },
     {
-      "rank": 21,
+      "rank": 23,
       "category": "india",
       "published_iso": "2026-07-20T10:28:27+00:00",
       "regions": [
@@ -1108,7 +1202,7 @@
       "added_at": "2026-07-20T16:26:12+05:30"
     },
     {
-      "rank": 22,
+      "rank": 24,
       "category": "india",
       "published_iso": "2026-07-20T09:48:03+00:00",
       "regions": [
@@ -1168,7 +1262,7 @@
       }
     },
     {
-      "rank": 23,
+      "rank": 25,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T02:31:06+00:00",
@@ -1222,7 +1316,7 @@
       "added_at": "2026-07-20T15:48:21+05:30"
     },
     {
-      "rank": 24,
+      "rank": 26,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T03:45:00+00:00",
@@ -1277,7 +1371,7 @@
       "added_at": "2026-07-20T15:48:21+05:30"
     },
     {
-      "rank": 25,
+      "rank": 27,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T08:13:14+00:00",
@@ -1332,7 +1426,7 @@
       "added_at": "2026-07-20T15:11:58+05:30"
     },
     {
-      "rank": 26,
+      "rank": 28,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T07:59:57+00:00",
@@ -1387,7 +1481,7 @@
       "added_at": "2026-07-20T15:11:58+05:30"
     },
     {
-      "rank": 27,
+      "rank": 29,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T03:54:27+00:00",
@@ -1433,7 +1527,7 @@
       "added_at": "2026-07-20T14:31:33+05:30"
     },
     {
-      "rank": 28,
+      "rank": 30,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T08:30:18+00:00",
@@ -1483,7 +1577,7 @@
       "added_at": "2026-07-20T14:31:33+05:30"
     },
     {
-      "rank": 29,
+      "rank": 31,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T06:21:24+00:00",
@@ -1529,7 +1623,7 @@
       "added_at": "2026-07-20T13:55:34+05:30"
     },
     {
-      "rank": 30,
+      "rank": 32,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T04:30:00+00:00",
@@ -1581,7 +1675,7 @@
       "added_at": "2026-07-20T13:19:18+05:30"
     },
     {
-      "rank": 31,
+      "rank": 33,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T07:00:00+00:00",
@@ -1641,7 +1735,7 @@
       }
     },
     {
-      "rank": 32,
+      "rank": 34,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T02:01:57+00:00",
@@ -1695,7 +1789,7 @@
       "added_at": "2026-07-20T12:38:24+05:30"
     },
     {
-      "rank": 33,
+      "rank": 35,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T07:03:05+00:00",
@@ -1759,7 +1853,7 @@
       }
     },
     {
-      "rank": 34,
+      "rank": 36,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-19T07:13:41+00:00",
@@ -1809,7 +1903,7 @@
       "added_at": "2026-07-20T00:15:11+05:30"
     },
     {
-      "rank": 35,
+      "rank": 37,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-19T18:27:37+00:00",
@@ -1858,7 +1952,7 @@
       "added_at": "2026-07-20T00:15:11+05:30"
     },
     {
-      "rank": 36,
+      "rank": 38,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-19T07:12:19+00:00",
@@ -1904,7 +1998,7 @@
       "added_at": "2026-07-19T23:37:05+05:30"
     },
     {
-      "rank": 37,
+      "rank": 39,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-18T16:38:32+00:00",
@@ -1954,7 +2048,7 @@
       "added_at": "2026-07-19T23:37:05+05:30"
     },
     {
-      "rank": 38,
+      "rank": 40,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-19T06:30:00+00:00",
@@ -2007,114 +2101,6 @@
         }
       ],
       "added_at": "2026-07-19T22:46:32+05:30"
-    },
-    {
-      "rank": 39,
-      "category": "india",
-      "region": "india",
-      "published_iso": "2026-07-19T17:06:42+00:00",
-      "regions": [
-        "India"
-      ],
-      "title": "20 Trinamool MPs break from Mamata Banerjee to merge with a tiny party \u2014 a legal workaround to defect without losing their seats",
-      "key_points": [
-        "20 of TMC's 28 Lok Sabha MPs are quitting Mamata's leadership",
-        "They plan to merge into the little-known Nationalist Citizens Party (NCPI)",
-        "The merger route dodges India's anti-defection law",
-        "Opposition walked out of an all-party meet in protest over recognising them"
-      ],
-      "background": "The Trinamool Congress (TMC), led by Mamata Banerjee, has run West Bengal for over a decade but suffered a heavy defeat in the state's 2026 Assembly elections. In India, lawmakers who switch parties normally lose their seats under the 'anti-defection law' (the Constitution's Tenth Schedule) \u2014 but there is a loophole: if two-thirds or more of a party's legislators merge as a bloc into another party, it counts as a legal merger, not defection.",
-      "what_happened": "A rebel group of 20 TMC Lok Sabha MPs \u2014 led by figures including Kakoli Ghosh Dastidar and Sudip Bandyopadhyay \u2014 informed Lok Sabha Speaker Om Birla they are merging with the Tripura-based Nationalist Citizens Party of India (NCPI) and asked to be recognised as a separate bloc. Because 20 of TMC's 28 MPs (more than two-thirds) are crossing over, the move is designed to satisfy the anti-defection rule. The government arranged for the group to attend the pre-session all-party meeting, prompting the wider opposition to stage a symbolic walkout.",
-      "why_it_matters": "This is one of the largest single desertions from a major regional party in years and hollows out the TMC's presence in Parliament just as the monsoon session opens. It also reshapes the opposition's arithmetic, weakening a party that has been a loud anti-BJP voice nationally.",
-      "ripple_effects": "If the Speaker formally recognises the NCPI bloc, the rebels keep their seats and speaking time while Mamata's faction shrinks \u2014 bolstering the ruling side's floor management. It intensifies the West Bengal power struggle, sets up rival 'Martyrs' Day' shows of strength on July 21, and could trigger legal challenges over whether the merger is genuine or a stitch-up.",
-      "why_now": "Timing is deliberate: the defectors want recognition locked in before Parliament's monsoon session begins on July 20, and the fallout from TMC's state-election loss has emboldened a two-thirds bloc to break away now.",
-      "watch_next": "Whether Speaker Om Birla grants the NCPI bloc formal recognition \u2014 and whether Mamata's camp mounts a court challenge under the anti-defection law.",
-      "key_terms": [
-        {
-          "term": "Anti-defection law (Tenth Schedule)",
-          "definition": "A constitutional rule that disqualifies lawmakers who switch parties \u2014 with an exception when two-thirds of a party's members merge together into another party."
-        },
-        {
-          "term": "Lok Sabha",
-          "definition": "The directly elected lower house of India's Parliament, where most law-making and the government's majority are decided."
-        }
-      ],
-      "the_lesson": "Laws written to stop a behaviour often leave a legal 'side door' \u2014 India's anti-defection law bans individual party-switching, but a coordinated two-thirds 'merger' walks right through the loophole, showing how rules shape the form politics takes rather than always preventing it.",
-      "concepts": [
-        "lok_sabha",
-        "parliament_india"
-      ],
-      "market_link": null,
-      "importance": "high",
-      "sources": [
-        {
-          "name": "The Week",
-          "url": "https://www.theweek.in/news/india/2026/07/19/ncpi-to-get-speakers-recognition-rebel-tmc-group-attend-key-all-party-meet.html"
-        },
-        {
-          "name": "The Statesman",
-          "url": "https://www.thestatesman.com/india/rebel-tmc-mps-to-merge-with-little-known-tripura-based-nationalist-citizen-party-of-india-1503605734.html"
-        },
-        {
-          "name": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/west-bengal/martyrs-day-2026-turns-out-to-be-show-of-political-strength-for-rival-trinamool-factions-in-west-bengal/article71242029.ece"
-        }
-      ],
-      "added_at": "2026-07-19T22:46:32+05:30"
-    },
-    {
-      "rank": 40,
-      "category": "india",
-      "region": "india",
-      "published_iso": "2026-07-19T15:32:14+00:00",
-      "regions": [
-        "India",
-        "Europe"
-      ],
-      "title": "India and the EU say their long-delayed free-trade deal is nearly done \u2014 aiming to sign by year-end and switch it on in early 2027",
-      "key_points": [
-        "Trade Minister Piyush Goyal wraps a five-day, four-nation Europe tour",
-        "Both sides reaffirm early signing and implementation of the FTA",
-        "Target: sign the legal text by end-2026, in force February\u2013March 2027",
-        "Sticking points: farm goods, Basmati rice, steel scrap, EU's carbon border tax"
-      ],
-      "background": "A free-trade agreement (FTA) is a deal to cut or scrap the taxes (tariffs) two sides charge on each other's goods, making trade cheaper and faster. India and the European Union \u2014 a 27-country bloc that is one of India's biggest trading partners \u2014 first started FTA talks back in 2007, then stalled for years over disagreements, and relaunched negotiations in 2022. After India recently sealed a trade pact with the UK, momentum has picked up.",
-      "what_happened": "Commerce and Industry Minister Piyush Goyal concluded a July 13\u201318 visit to Spain, Belgium, Finland and Estonia, meeting EU leaders including European Council President Antonio Costa and Trade Commissioner Maros Sefcovic. Both sides reaffirmed their commitment to sign and implement the FTA early, and Goyal said the plan is to finalise the legal text before the end of 2026 and bring it into effect in the first quarter of 2027 (around February\u2013March). Talks also covered an investment-protection agreement, market access for farm goods, Basmati rice, steel scrap, and the EU's carbon border tax.",
-      "why_it_matters": "The EU is a giant market of roughly 450 million relatively wealthy consumers. A deal that removes tariffs would make Indian exports \u2014 textiles, pharma, autos, leather, gems \u2014 cheaper and more competitive in Europe, potentially boosting jobs, while giving Indian buyers cheaper access to EU cars, machinery and wine.",
-      "ripple_effects": "Indian export sectors and their workers stand to gain the most, while some domestic industries fear cheaper European competition. The EU's Carbon Border Adjustment Mechanism (CBAM) \u2014 a fee on carbon-heavy imports like steel \u2014 is a flashpoint India wants softened. A signed deal would also strengthen India-EU ties at a time when US tariff threats are reshaping global trade.",
-      "why_now": "India is moving fast on trade deals after clinching its UK pact, and both India and the EU are hunting for reliable partners as US tariffs and China tensions scramble global supply chains.",
-      "watch_next": "Whether negotiators actually sign the final legal text before the end of 2026 \u2014 the last stretch, over farm goods and carbon rules, is where past talks broke down.",
-      "key_terms": [
-        {
-          "term": "Free Trade Agreement (FTA)",
-          "definition": "A pact between countries to cut or remove tariffs and other barriers so goods and services flow more freely."
-        },
-        {
-          "term": "Tariff",
-          "definition": "A tax a government charges on imported goods, which makes foreign products costlier for local buyers."
-        },
-        {
-          "term": "CBAM (carbon border tax)",
-          "definition": "An EU fee on imports of carbon-intensive goods like steel and cement, designed to protect European industry that pays for its emissions."
-        }
-      ],
-      "the_lesson": "Trade deals take years because the last 5% is the hardest \u2014 farm goods, carbon rules and rules of origin are where national interests clash most sharply, long after the easy parts are agreed.",
-      "concepts": [
-        "tariffs"
-      ],
-      "market_link": "A deal would lift India's export-heavy sectors \u2014 textiles, pharma, autos and gems \u2014 and EU firms eyeing India; watch export names and the rupee as signing nears.",
-      "importance": "notable",
-      "sources": [
-        {
-          "name": "Mint",
-          "url": "https://www.livemint.com/news/india/goyal-ends-europe-tour-pushes-early-india-eu-fta-implementation-11784473292461.html"
-        },
-        {
-          "name": "The Daily Guardian",
-          "url": "https://thedailyguardian.com/business/india-eu-reaffirm-commitment-to-early-signing-implementation-of-fta-during-piyush-goyals-europe-visit20260719202613-738698/"
-        }
-      ],
-      "added_at": "2026-07-19T22:03:41+05:30"
     },
     {
       "rank": 41,

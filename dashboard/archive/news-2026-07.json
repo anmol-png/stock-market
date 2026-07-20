@@ -1,7 +1,91 @@
 {
   "month": "2026-07",
-  "count": 120,
+  "count": 124,
   "stories": [
+    {
+      "type": "story",
+      "title": "Yemen's Houthis declare a naval blockade of Saudi Arabia — a new front opens in the widening Gulf war",
+      "category": "geopolitics",
+      "published_iso": "2026-07-20T12:15:49+00:00",
+      "added_at": "2026-07-20T18:08:40+05:30",
+      "source": "The National",
+      "what_happened": "On Monday, July 20, Houthi military spokesman Yahya Saree declared an immediate naval blockade of Saudi Arabia, saying it was a response to what the group calls Saudi Arabia's long-running 'siege' of Yemen. The announcement — reported by Reuters, AFP and Gulf outlets — is so far a declaration; the Houthis have not yet shown they can actually halt Saudi-bound shipping, and it lands amid the ongoing US-Iran conflict.",
+      "key_points": [
+        "Houthi spokesman Yahya Saree announced an 'immediate' maritime blockade",
+        "The group says it answers a Saudi 'siege' of Yemen",
+        "Follows the first Houthi-Saudi fire exchange in years",
+        "Saudi Arabia is weighing a military response"
+      ],
+      "depth": {
+        "background": "The Houthis are an Iran-aligned armed movement that controls northern Yemen, including the capital Sanaa, after years of civil war against a Saudi-led coalition. Since 2023 they have attacked ships in the Red Sea, one of the world's busiest trade routes. Tensions with Saudi Arabia flared again this month: the Houthis accuse Riyadh of striking Sanaa's airport to block a plane carrying their officials, and last week the two sides traded direct fire for the first time in years, with Houthi missiles aimed at the Saudi city of Abha.",
+        "sources": [
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/news/2026/07/20/houthis-announce-maritime-ban-on-saudi-arabia-citing-blockade-of-yemen/"
+          },
+          {
+            "name": "The Korea Times (AFP)",
+            "url": "https://www.koreatimes.co.kr/world/20260720/yemens-houthis-declare-naval-blockade-against-saudi-arabia-statement"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India says its capital spending has jumped five-fold to ₹90.87 lakh crore over 2014-26 — the engine behind its growth story",
+      "category": "india",
+      "published_iso": "2026-07-20T11:56:45+00:00",
+      "added_at": "2026-07-20T18:08:40+05:30",
+      "source": "ANI",
+      "what_happened": "On Monday, July 20, the Finance Ministry told Parliament that the Centre's 'effective' capital expenditure reached ₹90.87 lakh crore during 2014-26 — more than five times the ₹17.04 lakh crore spent in the previous decade (2004-14). Of that, ₹64.70 lakh crore was the Centre's own direct spending and ₹26.17 lakh crore was grants to states to build assets. Capex as a share of GDP rose from 1.6% in 2014-15 to 3.2% in 2023-24. ('Effective capex' bundles the Centre's own spending with the grants it gives states to build.)",
+      "key_points": [
+        "Effective capex ₹90.87 lakh crore in 2014-26 vs ₹17.04 lakh crore in 2004-14",
+        "The Centre's own direct capex rose to ₹64.70 lakh crore",
+        "₹26.17 lakh crore of that went as grants to states",
+        "Capex as a share of GDP doubled from 1.6% to 3.2%"
+      ],
+      "depth": {
+        "background": "'Capital expenditure' (capex) is money a government spends building things that last — roads, railways, ports, power lines — as opposed to day-to-day running costs or welfare handouts. Since around 2020, New Delhi has leaned hard on public capex as its main tool to drive growth, betting that building infrastructure creates jobs now and makes the whole economy more productive later. These figures were tabled in Parliament as the monsoon session got under way.",
+        "sources": [
+          {
+            "name": "ANI",
+            "url": "https://aninews.in/news/business/centres-effective-capital-expenditure-rises-over-five-fold-to-rs-9087-lakh-crore-during-2014-26-govt20260720161823/"
+          },
+          {
+            "name": "Livemint",
+            "url": "https://www.livemint.com/news/india/centres-effective-capital-outlay-tops-rs-90-trillion-since-2014-capex-nearly-five-times-previous-decade-11784544402940.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Hamas picks Khalil al-Hayya as its new leader — its lead ceasefire negotiator now heads the group",
+      "category": "geopolitics",
+      "published_iso": "2026-07-20T11:27:04+00:00",
+      "added_at": "2026-07-20T18:08:40+05:30",
+      "source": "Al Jazeera",
+      "what_happened": "On Monday, July 20, Hamas said al-Hayya had been elected head of its political bureau (its top decision-making body) after an internal ballot, beating former leader Khaled Meshaal in a run-off by a large majority. Hamas's military wing, the Ezzedine al-Qassam Brigades, publicly backed him. He is expected to formally assume the role within the week.",
+      "key_points": [
+        "Al-Hayya won an internal run-off against veteran Khaled Meshaal",
+        "He is Hamas's chief negotiator in the Israel ceasefire talks",
+        "Armed wing, the Qassam Brigades, declared 'full support'",
+        "He is expected to formally take office next week"
+      ],
+      "depth": {
+        "background": "Hamas is the armed Palestinian group that has run Gaza since 2007 and is at war with Israel. Its top leader, Yahya Sinwar, was killed by Israeli forces in October 2024, and since then the group has been run by a committee rather than one figure. Khalil al-Hayya, a Gaza-born veteran of the movement, has been its most public face abroad — the man leading the on-and-off ceasefire and hostage talks brokered by Qatar and Egypt.",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/20/hamas-names-khalil-al-hayya-as-new-leader-after-run-off-with-khaled-meshaal"
+          },
+          {
+            "name": "Israel National News",
+            "url": "https://www.israelnationalnews.com/news/430455"
+          }
+        ]
+      }
+    },
     {
       "type": "story",
       "title": "After losing the England series, captain Gill sounds the alarm on India's fitness: 'we're missing a trick'",
@@ -179,6 +263,34 @@
       "prev_ref": {
         "title": "Monsoon fury batters India's north and northeast — a deadly cloudburst landslide in Nagaland, flash floods in Kashmir",
         "date": null
+      }
+    },
+    {
+      "type": "story",
+      "title": "Government tells Parliament it has no plan to scrap the LTCG tax on shares — ending months of investor rumours",
+      "category": "india",
+      "published_iso": "2026-07-20T09:40:15+00:00",
+      "added_at": "2026-07-20T18:08:40+05:30",
+      "source": "Business Today",
+      "what_happened": "On Monday, July 20, Minister of State for Finance Pankaj Chaudhary told the Lok Sabha (Parliament's lower house) that there is 'no proposal under consideration' to abolish LTCG tax on listed equities for retail and domestic investors. He added that capital-gains rates are reviewed only periodically, during the annual Budget, in light of the wider economy.",
+      "key_points": [
+        "Minister Pankaj Chaudhary: 'no proposal under consideration' to abolish it",
+        "LTCG on listed shares held over a year is taxed at 12.5%",
+        "Gains up to ₹1.25 lakh a year stay tax-free",
+        "Any change would come only in the annual Budget"
+      ],
+      "depth": {
+        "background": "'Long-term capital gains' (LTCG) tax is the tax you pay on the profit when you sell an investment you've held for a while. For listed Indian shares and equity mutual funds held more than a year, profits above ₹1.25 lakh in a year are taxed at 12.5%. Investors have long lobbied to scrap it, arguing it discourages long-term investing — and speculation had grown louder after the government recently gave foreign investors a tax break on government bonds, fuelling talk that domestic equity taxes might be eased too.",
+        "sources": [
+          {
+            "name": "Business Today",
+            "url": "https://www.businesstoday.in/india/story/no-proposal-to-abolish-ltcg-on-listed-equities-govt-in-lok-sabha-543991-2026-07-20"
+          },
+          {
+            "name": "Livemint",
+            "url": "https://www.livemint.com/market/no-proposal-under-consideration-to-scrap-ltcg-tax-on-equities-government-clarifies-11784539640469.html"
+          }
+        ]
       }
     },
     {
