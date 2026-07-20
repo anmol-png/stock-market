@@ -1,11 +1,117 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T15:16:35+05:30",
+  "generated_at": "2026-07-20T15:54:44+05:30",
   "headline": "US and Iran reignite their war over the Strait of Hormuz: Trump drops a 20% shipping fee but presses a naval blockade as strikes fly, pushing oil to a one-month high.",
   "the_big_picture": "The single thread running through today is the re-escalation of the US-Iran conflict at the Strait of Hormuz, the chokepoint that carries roughly a fifth of the world's oil. Trump backed off a threatened 20% transit fee but is pushing ahead with a naval blockade while both sides trade strikes and tankers come under attack, sending crude to a one-month high. That oil spike is the hinge for everything downstream: US inflation cooled to 3.5% but officials flagged fresh upside risk, India's inflation just breached its central bank's target, the rupee slid past 96 and the Sensex fell. Running underneath, an AI storyline cuts both ways: IBM shed roughly $70bn in a day after stumbling on AI deals, even as China's AI-driven exports jumped 27% and Nvidia began shipping powerful H200 chips into China.",
   "stories": [
     {
       "rank": 1,
+      "category": "climate",
+      "region": "global",
+      "published_iso": "2026-07-19T16:00:00+00:00",
+      "regions": [
+        "Europe"
+      ],
+      "title": "A wildfire north of Madrid burns 13,000 hectares and empties 16 villages as Spain braces for another heatwave",
+      "key_points": [
+        "The La Mierla fire has scorched about 13,000 hectares",
+        "16 villages evacuated; more than 700 people affected",
+        "Spain has already burned roughly 70,000 hectares in 2026",
+        "A third heatwave, with 40\u00b0C+ temperatures, starts Tuesday"
+      ],
+      "background": "Spain, like much of southern Europe, faces longer, hotter and drier summers as the climate warms, turning forests into tinder. Wildfires have become a near-annual crisis, and 2026 has been especially punishing. A 'hectare' is a unit of area equal to about one-and-a-half football pitches \u2014 so 13,000 hectares is a vast stretch of countryside.",
+      "what_happened": "A major wildfire that broke out on Thursday near the village of La Mierla in Guadalajara province \u2014 roughly 100 km north of Madrid \u2014 has burned about 13,000 hectares and forced the evacuation of 16 villages, affecting more than 700 residents. It is one of several large blazes: another around 15,400 hectares has burned near Or\u00e9s in the northeast, pushing Spain's total burned area this year to about 70,000 hectares. Forecasters warn a third heatwave, with temperatures above 40\u00b0C, begins Tuesday.",
+      "why_it_matters": "Beyond the immediate danger to lives, homes and firefighters, these fires show how extreme heat and drought are reshaping life across the Mediterranean \u2014 destroying farmland and forests, fouling the air, and stretching emergency services thinner each year.",
+      "ripple_effects": "Repeated mega-fires damage agriculture and tourism (both huge for Spain's economy), release large amounts of carbon that worsen warming, and can strain public budgets for firefighting and rebuilding. The incoming heatwave raises the risk of new ignitions and makes existing fires harder to contain.",
+      "why_now": "Peak summer heat, bone-dry vegetation and strong winds have combined to fuel simultaneous blazes \u2014 and a fresh heatwave arriving Tuesday threatens to make conditions worse.",
+      "watch_next": "Whether the La Mierla fire is contained before the heatwave peaks midweek, and how high Spain's total burned area climbs this season.",
+      "key_terms": [
+        {
+          "term": "Hectare",
+          "definition": "A unit of land area equal to 10,000 square metres \u2014 roughly the size of one-and-a-half football pitches."
+        },
+        {
+          "term": "Heatwave",
+          "definition": "A prolonged spell of unusually hot weather; in Spain this summer it means several days above 40\u00b0C, which dries out vegetation and raises fire risk."
+        }
+      ],
+      "the_lesson": "As the climate warms, wildfire stops being a rare disaster and becomes a recurring season \u2014 the danger isn't one big fire, it's many, year after year.",
+      "concepts": [
+        "el_nino"
+      ],
+      "market_link": null,
+      "importance": "notable",
+      "sources": [
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/07/19/two-major-wildfires-rage-in-spain-as-burned-area-nears-50000-hectares"
+        },
+        {
+          "name": "Channels Television",
+          "url": "https://www.channelstv.com/2026/07/19/hundreds-evacuated-as-wildfire-scorches-13000-hectares-in-spain/"
+        }
+      ],
+      "added_at": "2026-07-20T15:48:21+05:30"
+    },
+    {
+      "rank": 2,
+      "category": "economy",
+      "region": "global",
+      "published_iso": "2026-07-20T06:00:00+00:00",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "title": "Ryanair's profit falls by a third \u2014 the first big company to show what the Iran war is doing to real businesses",
+      "key_points": [
+        "Quarterly profit drops 34% to \u20ac538 million",
+        "Jet-fuel prices doubled as the Iran war sent oil soaring",
+        "Ryanair cut fares 6% as nervous travellers booked less",
+        "It can't give full-year guidance \u2014 'zero visibility' for winter"
+      ],
+      "background": "Ryanair is Europe's biggest low-cost airline, known for cheap fares and packed planes. Airlines are hugely exposed to the price of jet fuel, which is refined from crude oil \u2014 so when oil prices jump, an airline's costs jump with them unless it has 'hedged' (locked in prices in advance). The ongoing US\u2013Iran war has pushed oil back above $90 a barrel and rattled travel demand.",
+      "what_happened": "On Monday, July 20, Ryanair reported that profit for its April\u2013June quarter fell 34% to \u20ac538 million (about $615 million), down from \u20ac820 million a year earlier \u2014 missing forecasts. Operating costs rose 11% as the price of the roughly 20% of its fuel that was not hedged more than doubled to around \u00a3111 a barrel. At the same time, average fares fell 6% because the Middle East conflict, worries about EU jet-fuel shortages and general uncertainty made travellers hesitant and slower to book. Ryanair's shares fell about 6%, and CEO Michael O'Leary said the airline has 'zero visibility' for the second half of its year.",
+      "why_it_matters": "This is one of the first concrete readouts of how a distant war shows up in an ordinary company's accounts \u2014 and, through fares, in what families pay for a summer holiday. It's a warning that pricier oil squeezes profits and travel budgets far beyond the conflict zone.",
+      "ripple_effects": "If a giant, cost-disciplined airline like Ryanair is hurting, weaker rivals are in worse shape \u2014 O'Leary warned that 'unprofitable airlines face a difficult winter,' hinting some routes or carriers could shrink. Higher fuel costs ripple across aviation, shipping and logistics, and the fare cuts show how quickly nervous consumers pull back on discretionary spending when headlines turn scary.",
+      "why_now": "The results cover the exact quarter in which the US\u2013Iran war erupted and oil spiked, so this is the first full earnings period to capture the damage.",
+      "watch_next": "Whether other airlines (and travel and logistics firms) report similar fuel-driven profit hits in the coming weeks, and whether the war keeps oil elevated into winter.",
+      "key_terms": [
+        {
+          "term": "Hedging",
+          "definition": "Locking in a price in advance (here, for fuel) so a company is protected if prices later spike \u2014 the unhedged portion is fully exposed to market swings."
+        },
+        {
+          "term": "Guidance",
+          "definition": "A company's own forecast of its future profits; withdrawing guidance signals management can't predict how the year will go."
+        },
+        {
+          "term": "Operating costs",
+          "definition": "The day-to-day expenses of running a business \u2014 for an airline, mostly fuel, staff and airport fees."
+        }
+      ],
+      "the_lesson": "A war can dent a company thousands of miles away through a single channel \u2014 the price of oil; whoever hasn't locked in their costs feels it first and hardest.",
+      "concepts": [
+        "crude_geopolitics",
+        "crude_asset",
+        "strait_chokepoint",
+        "inflation"
+      ],
+      "market_link": "Airline and travel stocks fall on fuel-cost fears; energy-heavy sectors gain, and the read-across hits shipping and logistics names tied to oil.",
+      "importance": "notable",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/20/ryanair-q1-earnings-iran-war-summer-fares.html"
+        },
+        {
+          "name": "The Irish Times",
+          "url": "https://www.irishtimes.com/business/2026/07/20/ryanair-profits-fall-by-a-third-to-538m/"
+        }
+      ],
+      "added_at": "2026-07-20T15:48:21+05:30"
+    },
+    {
+      "rank": 3,
       "category": "economy",
       "region": "global",
       "published_iso": "2026-07-20T06:04:00+00:00",
@@ -59,7 +165,7 @@
       "added_at": "2026-07-20T15:11:58+05:30"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-20T00:48:05+00:00",
@@ -110,7 +216,7 @@
       "added_at": "2026-07-20T15:11:58+05:30"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "category": "technology",
       "region": "global",
       "published_iso": "2026-07-19T11:06:03+00:00",
@@ -153,7 +259,7 @@
       "added_at": "2026-07-20T14:31:33+05:30"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-20T06:11:00+00:00",
@@ -207,7 +313,7 @@
       "added_at": "2026-07-20T14:31:33+05:30"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "category": "climate",
       "region": "global",
       "published_iso": "2026-07-20T02:22:28+00:00",
@@ -245,7 +351,7 @@
       "added_at": "2026-07-20T13:55:34+05:30"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-20T07:48:58+00:00",
@@ -291,7 +397,7 @@
       "added_at": "2026-07-20T13:55:34+05:30"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "category": "economy",
       "region": "global",
       "published_iso": "2026-07-20T06:15:00+00:00",
@@ -348,7 +454,7 @@
       "added_at": "2026-07-20T13:19:18+05:30"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-20T02:00:00+00:00",
@@ -409,7 +515,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 11,
       "category": "economy",
       "region": "global",
       "published_iso": "2026-07-20T03:29:43+00:00",
@@ -465,7 +571,7 @@
       "added_at": "2026-07-20T12:38:24+05:30"
     },
     {
-      "rank": 10,
+      "rank": 12,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-20T03:20:48+00:00",
@@ -519,7 +625,7 @@
       "added_at": "2026-07-20T12:38:24+05:30"
     },
     {
-      "rank": 11,
+      "rank": 13,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-19T18:27:58+00:00",
@@ -571,7 +677,7 @@
       "added_at": "2026-07-20T00:15:11+05:30"
     },
     {
-      "rank": 12,
+      "rank": 14,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-19T17:22:23+00:00",
@@ -638,7 +744,7 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 15,
       "category": "health",
       "region": "global",
       "published_iso": "2026-07-19T16:08:00+00:00",
@@ -684,7 +790,7 @@
       "added_at": "2026-07-19T23:37:05+05:30"
     },
     {
-      "rank": 14,
+      "rank": 16,
       "category": "technology",
       "region": "global",
       "published_iso": "2026-07-19T16:29:08+00:00",
@@ -747,7 +853,7 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 17,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-19T12:30:00+00:00",
@@ -801,7 +907,7 @@
       "added_at": "2026-07-19T22:46:32+05:30"
     },
     {
-      "rank": 16,
+      "rank": 18,
       "category": "geopolitics",
       "region": "global",
       "published_iso": "2026-07-19T11:00:00+00:00",
@@ -856,7 +962,7 @@
       "added_at": "2026-07-19T22:46:32+05:30"
     },
     {
-      "rank": 17,
+      "rank": 19,
       "category": "science",
       "region": "global",
       "published_iso": "2026-07-19T02:24:00+00:00",
@@ -906,7 +1012,7 @@
       "added_at": "2026-07-19T22:03:41+05:30"
     },
     {
-      "rank": 18,
+      "rank": 20,
       "category": "climate",
       "region": "global",
       "published_iso": "2026-07-19T11:33:43+00:00",
@@ -956,122 +1062,116 @@
       "added_at": "2026-07-19T22:03:41+05:30"
     },
     {
-      "rank": 19,
-      "category": "climate",
-      "region": "global",
-      "published_iso": "2026-07-18T17:18:47+00:00",
+      "rank": 21,
+      "category": "india",
+      "region": "india",
+      "published_iso": "2026-07-20T02:31:06+00:00",
       "regions": [
-        "US",
-        "Canada"
+        "India"
       ],
-      "title": "Canada's record wildfires push New York and Washington to 'most polluted' \u2014 as air turns hazardous across the US Northeast and Midwest",
+      "title": "A cash-theft scandal at the Ram temple reaches the Supreme Court \u2014 investigators report 8 arrests and 70 CCTV catches",
       "key_points": [
-        "800+ wildfires burning across Canada this summer",
-        "Smoke pushed NYC and Washington DC into world's most-polluted cities",
-        "Washington hit 'Code Purple' \u2014 very unhealthy for everyone",
-        "Officials say Ontario fires are easing; air should improve"
+        "A special team files its sealed status report in the Supreme Court",
+        "8 people arrested; 70 suspicious cash-hiding incidents caught on CCTV",
+        "Counting staff allegedly pocketed donation money at the Ayodhya temple",
+        "Petitioners want a CBI probe and a forensic audit of the trust"
       ],
-      "background": "Canada is having another catastrophic fire season \u2014 about 3,500 fires have burned more than 6 million acres this summer, driven by hot, dry conditions that scientists link to a warming climate. Smoke from these fires doesn't stay put: high-altitude winds carry it hundreds of miles south, blanketing US cities. This has become a near-yearly pattern, and it flared into a political row a day earlier when President Trump threatened new tariffs on Canada over the 'filthy' air.",
-      "what_happened": "Thick haze from more than 800 active Canadian wildfires \u2014 including a dozen recent flare-ups in Ontario \u2014 pushed New York City and Washington, DC into the ranks of the world's most polluted major cities on Saturday. Washington was placed under a 'Code Purple' alert, meaning the air was 'very unhealthy' for everyone, and parts of northeast Minnesota reached 'hazardous' levels. Air-quality alerts stretched from Minnesota to the East Coast. Canadian officials said fire activity in Ontario is beginning to ease and expect air to improve.",
-      "why_it_matters": "This is a public-health event, not just a hazy sky: fine wildfire particles (PM2.5) lodge deep in the lungs and bloodstream, worsening asthma, heart and lung disease \u2014 and 'very unhealthy' air tells even healthy people to stay indoors. It shows how a fire in one country becomes a health emergency for tens of millions in another, with no border to stop it.",
-      "ripple_effects": "Schools cancel outdoor activities, flights and outdoor events face disruption, and hospitals see more breathing and cardiac cases. Repeated smoke seasons raise costs for insurers and healthcare systems and push demand for air purifiers and filtration. It also keeps straining US\u2013Canada relations, already frayed by Trump's tariff threat over the smoke.",
-      "why_now": "Peak North American fire season collides with weather patterns that funnel Ontario's smoke straight into densely populated US corridors \u2014 and this weekend's plume happened to settle over the biggest East Coast cities.",
-      "watch_next": "Whether the promised improvement holds as winds shift, and if any US cities issue fresh Code Purple/hazardous alerts into next week.",
+      "background": "The Ram Mandir (Ram temple) in Ayodhya, Uttar Pradesh, is one of India's most prominent religious sites, run by a government-linked trust (the Shri Ram Janmabhoomi Teerth Kshetra Trust) that handles enormous public donations. Allegations surfaced that some of the cash pilgrims donated was being stolen during counting. Petitions were filed asking courts to order an independent investigation and audit of the temple's money.",
+      "what_happened": "On Monday, July 20, a Special Investigation Team (SIT) set up by the Uttar Pradesh government filed a status report in a sealed cover before a three-judge Supreme Court bench headed by Chief Justice Surya Kant. Investigators said eight people have been arrested so far, and that CCTV cameras captured around 70 suspicious incidents between April 27 and June 5, 2026, showing counting staff allegedly concealing wads of cash. The court has also issued notice to the temple trust seeking its response.",
+      "why_it_matters": "This is about trust in an institution millions of ordinary Indians donate to in good faith. When money given for a sacred cause is allegedly siphoned off, it raises hard questions about how public and religious funds are guarded \u2014 and whether the oversight is strong enough given the sheer amounts involved.",
+      "ripple_effects": "The case could force tighter financial controls, audits, and transparency rules on large temple trusts across India, which collectively handle thousands of crores. Politically, it is sensitive: the Ram temple is a flagship project associated with the ruling party, and opposition MPs have already raised the alleged embezzlement in Parliament, pressing for accountability.",
+      "why_now": "The Supreme Court had earlier asked the SIT to report back, and Monday was the scheduled hearing \u2014 landing on the same day Parliament's monsoon session opened, where the opposition is also raising the issue.",
+      "watch_next": "Whether the court orders a wider probe (such as a CBI investigation) or a forensic audit of the trust's finances after reviewing the sealed report.",
       "key_terms": [
         {
-          "term": "Air Quality Index (AQI)",
-          "definition": "A 0\u2013500+ scale that rates how polluted the air is; higher is worse. 'Code Purple' (roughly 201\u2013300) means 'very unhealthy' for everyone."
+          "term": "SIT (Special Investigation Team)",
+          "definition": "A dedicated group of police officers formed to investigate one specific, often high-profile, case."
         },
         {
-          "term": "PM2.5",
-          "definition": "Tiny airborne particles under 2.5 micrometres wide \u2014 the main danger in wildfire smoke, small enough to reach deep into the lungs and enter the blood."
+          "term": "Sealed cover",
+          "definition": "A confidential document handed to a court in a sealed envelope so its contents stay private until the judges decide to review or reveal them."
+        },
+        {
+          "term": "CBI",
+          "definition": "The Central Bureau of Investigation, India's premier federal investigating agency, often brought in for sensitive or nationwide cases."
         }
       ],
-      "the_lesson": "Pollution ignores borders: a fire season in one country can become a health emergency for tens of millions in another. As the climate warms, 'someone else's wildfire' increasingly becomes everyone's air.",
-      "market_link": "Repeated record fire seasons pressure Canadian and US property insurers and lift demand for air-quality and filtration products, while airlines and outdoor-event operators face weather-style disruption.",
+      "the_lesson": "The bigger the pool of money an institution handles, the more it needs independent audits and cameras \u2014 trust alone doesn't guard cash; systems do.",
+      "concepts": [
+        "supreme_court_india",
+        "cbi"
+      ],
+      "market_link": null,
       "importance": "notable",
-      "thread": {
-        "previously": "Yesterday we covered the political angle: Trump calling Canada's drifting wildfire smoke 'Willful Negligence' and threatening tariffs, with Canada's PM Carney saying both nations share responsibility for the climate change driving the fires.",
-        "changed": "Today the story is the health emergency itself \u2014 smoke pushed New York and Washington into the world's most-polluted cities, Washington hit 'Code Purple,' and parts of Minnesota reached hazardous air, though officials now say Ontario's fires are easing."
-      },
       "sources": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5ywdl9ne3yo"
+          "name": "ANI",
+          "url": "https://aninews.in/news/national/general-news/up-govts-sit-files-status-report-in-ram-mandir-donation-theft-case-in-sc20260720023106/"
         },
         {
-          "name": "CNN",
-          "url": "https://www.cnn.com/2026/07/17/weather/smoke-forecast-northeast-midwest"
-        },
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/wildfires-smoke-millions-exposed-midwest-northeast-us/"
+          "name": "The Tribune",
+          "url": "https://www.tribuneindia.com/news/india/ram-temple-donation-theft-sit-to-file-status-report-in-supreme-court-on-monday/"
         }
       ],
-      "added_at": "2026-07-19T21:26:12+05:30",
-      "development": true,
-      "prev_ref": {
-        "title": "Trump threatens to make Canada pay for its wildfire smoke \u2014 through tariffs \u2014 as 'filthy' haze from record fires chokes US cities",
-        "date": null
-      }
+      "added_at": "2026-07-20T15:48:21+05:30"
     },
     {
-      "rank": 20,
-      "category": "geopolitics",
-      "region": "global",
-      "published_iso": "2026-07-18T18:00:00+00:00",
+      "rank": 22,
+      "category": "india",
+      "region": "india",
+      "published_iso": "2026-07-20T03:45:00+00:00",
       "regions": [
-        "Ukraine",
-        "Europe"
+        "India"
       ],
-      "title": "Ukraine's leadership is in turmoil mid-war: Zelensky sacked his star defence minister, crowds are protesting for a third day, and his top general may be next",
+      "title": "The rupee is inching toward a record low as costlier oil eats into India's finances",
       "key_points": [
-        "Zelensky fired 35-year-old defence minister Mykhailo Fedorov",
-        "Thousands protested in Kyiv for a third straight day",
-        "Protesters want Fedorov back \u2014 and army chief Syrskyi gone",
-        "A rare public rift over how to fight the war"
+        "Rupee slips to about 96.42 per dollar, near its all-time low of 96.96",
+        "The Iran war has pushed oil back above $90 a barrel",
+        "India imports most of its oil, so a weak rupee makes it pricier still",
+        "A cheaper rupee feeds inflation and raises the import bill"
       ],
-      "background": "Ukraine has been fighting Russia's full-scale invasion for nearly four and a half years. For most of that time the country projected unity, but a quiet fight has been building at the top over HOW to fight: Fedorov, a young tech-first minister, is credited with the cheap drones and unmanned systems that have let Ukraine punch above its weight, while 60-year-old Commander-in-Chief Oleksandr Syrskyi \u2014 a general trained in the Soviet era \u2014 favours classic, centralised command: more infantry, hold ground. The two clashed, and Zelensky sided with his general.",
-      "what_happened": "On July 15 Zelensky removed Fedorov, the popular defence minister, as part of a wider government reshuffle that also replaced the prime minister. That triggered protests: crowds gathered in Kyiv and other cities for a third consecutive day on July 18, with two demands \u2014 reinstate Fedorov and sack Syrskyi. Reporting (FT, Bloomberg) says Zelensky is now considering replacing Syrskyi too, with interviews for candidates expected over the July 18\u201319 weekend. Ukraine is currently fighting under an interim defence chief.",
-      "why_it_matters": "This is the first serious crack in Ukraine's wartime unity, and it's spilling into the streets while the war still rages. It is a live test of Zelensky's political authority: firing a popular reformer to protect an old-guard general risks looking like he's choosing loyalty over the innovation that has kept Ukraine competitive against a far larger army.",
-      "ripple_effects": "Turmoil at the top can slow weapons decisions and unsettle Western allies who fund and arm Ukraine \u2014 they want a stable, predictable partner. A leadership fight over drones-vs-troops could shape whether Ukraine keeps its technological edge or reverts to attrition warfare it can't win on numbers. It also hands Moscow a propaganda gift at a moment when Russia is escalating missile strikes on Ukrainian cities.",
-      "why_now": "The reshuffle landed just as Russia intensified its bombardment (a major ballistic-missile attack hit Kyiv this week), sharpening the debate over which strategy is working \u2014 and street anger has built with each day Fedorov stays out and Syrskyi stays in.",
-      "watch_next": "Whether Zelensky actually removes Syrskyi after this weekend's candidate interviews \u2014 or holds firm and rides out the protests.",
+      "background": "The rupee is India's currency, and its value is usually measured against the US dollar. India buys more than 80% of the oil it uses from abroad, and that oil is priced in dollars \u2014 so when oil gets expensive OR the rupee gets weaker, India's fuel bill jumps on both counts. The rupee has been sliding for weeks and touched an all-time low of 96.96 per dollar back in May.",
+      "what_happened": "In early trade on Monday, July 20, the rupee fell about 12 paise to roughly 96.42 against the US dollar, leaving it within striking distance of its record low. Traders blame a fresh surge in oil prices \u2014 Brent crude is back above $90 a barrel \u2014 driven by the escalating US\u2013Iran war that has choked the Strait of Hormuz, the narrow sea lane through which much of the world's oil moves. The currency has now dropped about 1.7% this month.",
+      "why_it_matters": "A weaker rupee is not an abstract number \u2014 it quietly raises the cost of almost everything India buys from abroad: crude oil, electronics, medicines, edible oils, and foreign travel or education. That feeds into inflation (the general rise in prices), squeezing household budgets, and it makes India's import bill balloon just as oil is already expensive.",
+      "ripple_effects": "If Brent crude pushes past $95, analysts warn the rupee could break to a fresh all-time low. The Reserve Bank of India (RBI), the country's central bank, may spend some of its foreign-currency reserves selling dollars to slow the fall \u2014 a costly defence. A weaker rupee also nudges up the price of imported goods for companies and can dent foreign investors' returns, sometimes prompting them to pull money out of Indian stocks, which pressures the market further.",
+      "why_now": "The trigger is the intensifying US\u2013Iran conflict, which has disrupted traffic through the Strait of Hormuz and sent oil prices climbing again \u2014 a direct hit to big energy importers like India.",
+      "watch_next": "Whether Brent crude crosses $95 a barrel and whether the rupee breaches its 96.96 record low in the coming sessions.",
       "key_terms": [
         {
-          "term": "Commander-in-Chief of the Armed Forces",
-          "definition": "The top uniformed military officer who runs battlefield operations \u2014 distinct from the defence minister, who is a civilian official handling policy, budgets and procurement."
+          "term": "Strait of Hormuz",
+          "definition": "A narrow sea passage between Iran and Oman through which roughly a fifth of the world's oil is shipped; disruptions there quickly push oil prices up."
         },
         {
-          "term": "Government reshuffle",
-          "definition": "When a leader reassigns or removes senior ministers, changing the makeup of the cabinet without a new election."
+          "term": "Paise",
+          "definition": "The smaller unit of the rupee \u2014 100 paise make one rupee; a '12 paise' fall means the rupee lost 0.12 of a rupee against the dollar."
+        },
+        {
+          "term": "Foreign-exchange reserves",
+          "definition": "A country's stockpile of foreign money (mostly dollars) and gold, which a central bank can sell to steady its own currency."
         }
       ],
-      "the_lesson": "Even a country united by an outside enemy can fracture over strategy \u2014 and in modern war, the fight between 'more technology' and 'more troops' is itself a decisive front. How an army chooses to fight can matter as much as how much it spends.",
-      "market_link": "Deepening political turmoil in a country at war can add risk premium to European defence stocks and to wheat and oil, both sensitive to the Russia-Ukraine conflict.",
+      "the_lesson": "For a country that imports most of its energy, its currency and the oil price are tied together \u2014 when oil rises, the currency often falls, and the pain lands twice on the import bill.",
+      "concepts": [
+        "usdinr",
+        "currency_strength",
+        "crude_geopolitics"
+      ],
+      "market_link": "A weaker rupee and pricey oil pressure oil-marketing companies, importers, and rate-sensitive stocks; it can also trigger foreign selling in the Sensex and Nifty.",
       "importance": "high",
       "sources": [
         {
-          "name": "Kyiv Independent",
-          "url": "https://kyivindependent.com/draft-ukrainians-take-to-streets-for-3rd-consecutive-day-of-protests-over-military-leadership-crisis/"
+          "name": "The Hindu (BusinessLine)",
+          "url": "https://www.thehindu.com/business/markets/rupee-falls-12-paise-to-9642-against-us-dollar-in-early-trade/article71244044.ece"
         },
         {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-18/zelenskyy-may-fire-commander-syrskyi-after-protests-ft-reports"
-        },
-        {
-          "name": "PBS / AP News",
-          "url": "https://www.pbs.org/newshour/amp/world/ukrainians-protest-zelenskyys-ouster-of-his-popular-defense-minister"
-        },
-        {
-          "name": "NPR",
-          "url": "https://www.npr.org/2026/07/16/g-s1-133920/ukraine-defense-minister-fired"
+          "name": "Business Recorder",
+          "url": "https://www.brecorder.com/news/40430877/oil-rally-rolls-on-casting-a-fresh-shadow-on-the-indian-rupee"
         }
       ],
-      "added_at": "2026-07-19T21:26:12+05:30"
+      "added_at": "2026-07-20T15:48:21+05:30"
     },
     {
-      "rank": 21,
+      "rank": 23,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T08:13:14+00:00",
@@ -1126,7 +1226,7 @@
       "added_at": "2026-07-20T15:11:58+05:30"
     },
     {
-      "rank": 22,
+      "rank": 24,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T07:59:57+00:00",
@@ -1181,7 +1281,7 @@
       "added_at": "2026-07-20T15:11:58+05:30"
     },
     {
-      "rank": 23,
+      "rank": 25,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T03:54:27+00:00",
@@ -1227,7 +1327,7 @@
       "added_at": "2026-07-20T14:31:33+05:30"
     },
     {
-      "rank": 24,
+      "rank": 26,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T08:30:18+00:00",
@@ -1277,7 +1377,7 @@
       "added_at": "2026-07-20T14:31:33+05:30"
     },
     {
-      "rank": 25,
+      "rank": 27,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T06:21:24+00:00",
@@ -1323,7 +1423,7 @@
       "added_at": "2026-07-20T13:55:34+05:30"
     },
     {
-      "rank": 26,
+      "rank": 28,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T04:30:00+00:00",
@@ -1375,7 +1475,7 @@
       "added_at": "2026-07-20T13:19:18+05:30"
     },
     {
-      "rank": 27,
+      "rank": 29,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T07:00:00+00:00",
@@ -1435,7 +1535,7 @@
       }
     },
     {
-      "rank": 28,
+      "rank": 30,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T02:01:57+00:00",
@@ -1489,7 +1589,7 @@
       "added_at": "2026-07-20T12:38:24+05:30"
     },
     {
-      "rank": 29,
+      "rank": 31,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-20T07:03:05+00:00",
@@ -1553,7 +1653,7 @@
       }
     },
     {
-      "rank": 30,
+      "rank": 32,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-19T07:13:41+00:00",
@@ -1603,7 +1703,7 @@
       "added_at": "2026-07-20T00:15:11+05:30"
     },
     {
-      "rank": 31,
+      "rank": 33,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-19T18:27:37+00:00",
@@ -1652,7 +1752,7 @@
       "added_at": "2026-07-20T00:15:11+05:30"
     },
     {
-      "rank": 32,
+      "rank": 34,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-19T07:12:19+00:00",
@@ -1698,7 +1798,7 @@
       "added_at": "2026-07-19T23:37:05+05:30"
     },
     {
-      "rank": 33,
+      "rank": 35,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-18T16:38:32+00:00",
@@ -1748,7 +1848,7 @@
       "added_at": "2026-07-19T23:37:05+05:30"
     },
     {
-      "rank": 34,
+      "rank": 36,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-19T06:30:00+00:00",
@@ -1803,7 +1903,7 @@
       "added_at": "2026-07-19T22:46:32+05:30"
     },
     {
-      "rank": 35,
+      "rank": 37,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-19T17:06:42+00:00",
@@ -1857,7 +1957,7 @@
       "added_at": "2026-07-19T22:46:32+05:30"
     },
     {
-      "rank": 36,
+      "rank": 38,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-19T15:32:14+00:00",
@@ -1911,7 +2011,7 @@
       "added_at": "2026-07-19T22:03:41+05:30"
     },
     {
-      "rank": 37,
+      "rank": 39,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-19T15:53:44+00:00",
@@ -1964,7 +2064,7 @@
       "added_at": "2026-07-19T22:03:41+05:30"
     },
     {
-      "rank": 38,
+      "rank": 40,
       "category": "india",
       "region": "india",
       "published_iso": "2026-07-18T18:00:00+05:30",
@@ -2004,106 +2104,6 @@
         }
       ],
       "added_at": "2026-07-19T21:26:12+05:30"
-    },
-    {
-      "rank": 39,
-      "category": "india",
-      "region": "india",
-      "published_iso": "2026-07-19T13:19:04+05:30",
-      "regions": [
-        "India"
-      ],
-      "title": "Exam-leak anger reaches Parliament: opposition will demand Education Minister Dharmendra Pradhan quit as the monsoon session opens tomorrow",
-      "key_points": [
-        "Opposition to target Education Minister over exam paper leaks",
-        "Congress cites '152 paper leaks' between 2014 and 2026",
-        "Even BJD's Naveen Patnaik urges talks with protesting students",
-        "Monsoon session runs July 20 to August 13"
-      ],
-      "background": "For weeks, a youth-led movement has been building over repeated leaks of exam question papers \u2014 including for high-stakes tests like NEET, the national medical-entrance exam that decides who becomes a doctor. Leaks let some cheat while honest students lose seats, and the anger has spilled into street protests (the 'cockroach' march) and demands for accountability. That anger now moves from the streets into Parliament as the monsoon session begins.",
-      "what_happened": "Ahead of the monsoon session opening July 20, opposition parties signalled they will demand the resignation of Union Education Minister Dharmendra Pradhan over the exam-leak scandal. Congress's B.K. Hariprasad, echoing Rahul Gandhi's 'Chhatron ki Goonj' campaign, alleged 152 paper leaks occurred between 2014 and 2026. Notably, Odisha's Naveen Patnaik (BJD) \u2014 often seen as non-aligned \u2014 urged the government to talk to protesting students, warning that 'a nation that compromises the integrity of its examination system compromises its future.' The government will lay out its legislative agenda at an all-party meeting. The session runs to August 13.",
-      "why_it_matters": "It turns a street movement into a parliamentary showdown, and the breadth of criticism \u2014 reaching beyond Congress to regional players like the BJD \u2014 signals the exam-leak issue has real political heat. How the government responds touches the credibility of India's entire merit-based exam system, which millions of students stake their futures on.",
-      "ripple_effects": "Expect disruptions and adjournments in Parliament, pressure on the government to promise tougher anti-leak laws or an exam-security overhaul, and continued student mobilisation. If the opposition can stay united on this, it becomes a template for pressing the government across the session's other contentious bills.",
-      "why_now": "The monsoon session \u2014 Parliament's mid-year sitting \u2014 opens July 20, giving the opposition its first big floor platform to force the exam-leak issue into the national spotlight while student protests are still fresh.",
-      "watch_next": "Whether the opposition forces a formal debate or adjournment motion on the exam leaks in the session's opening days \u2014 and how Pradhan and the government respond.",
-      "key_terms": [
-        {
-          "term": "Monsoon session",
-          "definition": "One of Parliament's three regular sittings each year (held around the July\u2013August monsoon), when new laws are debated and the government faces questions."
-        },
-        {
-          "term": "NEET",
-          "definition": "The National Eligibility cum Entrance Test \u2014 India's single nationwide entrance exam for admission to medical (MBBS) and dental colleges."
-        }
-      ],
-      "the_lesson": "Public anger becomes political power when it finds an institutional channel: a street protest can be ignored, but the same grievance raised on the floor of Parliament forces a government to respond on the record.",
-      "concepts": [
-        "parliament_india",
-        "lok_sabha"
-      ],
-      "market_link": null,
-      "importance": "high",
-      "sources": [
-        {
-          "name": "Republic World",
-          "url": "https://www.republicworld.com/india/government-to-unveil-legislative-agenda-at-monsoon-session-all-party-meet-opposition-prepares-to-raise-key-issues-2026-07-19-132774"
-        },
-        {
-          "name": "ANI",
-          "url": "https://aninews.in/news/national/politics/nation-that-compromises-integrity-of-examination-system-compromises-its-future-naveen-patnaik-urges-government-to-talk-to-protesting-students20260719131904/"
-        },
-        {
-          "name": "ANI",
-          "url": "https://www.aninews.in/news/national/general-news/assam-congress-steps-up-campaign-seeks-dharmendra-pradhans-resignation-over-exam-paper-leaks20260629201444/"
-        }
-      ],
-      "added_at": "2026-07-19T21:26:12+05:30"
-    },
-    {
-      "rank": 40,
-      "category": "india",
-      "region": "india",
-      "published_iso": "2026-07-19T06:30:00+00:00",
-      "regions": [
-        "India"
-      ],
-      "title": "A Kanpur engineering topper dies by suicide after nearly 50 failed tries at a government job \u2014 a note that reads 'Sorry, Papa'",
-      "key_points": [
-        "Anand, 23, a B.Tech gold medallist, found dead at his Kanpur home",
-        "Suicide note said he made ~50 attempts to land a government job",
-        "Topped Electrical Engineering; ranked 3rd in UP; honoured by the Governor",
-        "A stark window into India's youth unemployment and exam pressure"
-      ],
-      "background": "In much of India a stable government ('sarkari') job is prized above almost all else \u2014 for its security, pension and social status \u2014 so millions of graduates spend years cramming for fiercely competitive recruitment exams, where a handful of posts can draw lakhs of applicants. India's official unemployment is highest among the educated young, and repeated exam-paper leaks and delays (a grievance now fuelling the 'Cockroach' youth movement) have deepened the frustration.",
-      "what_happened": "Police in Kanpur, Uttar Pradesh, said Anand, a 23-year-old who had topped his B.Tech in Electrical Engineering (ranking third in the state and receiving a gold medal honoured by the Governor in 2024), was found hanging at his family home in the Gujaini area on Sunday. He left a note apologising to his father \u2014 'Sorry, Papa' \u2014 and saying he had made nearly 50 attempts to secure a government job without success. His father said he had sat many recruitment exams and had been under severe stress for months.",
-      "why_it_matters": "A decorated topper dying over job failure crystallises a systemic problem: a chase for scarce government posts so intense that failure feels total. It puts a human face on youth unemployment, exam-system dysfunction and mental-health strain among India's students \u2014 the same anger driving current protests.",
-      "ripple_effects": "Cases like this feed public pressure on governments over jobs, exam integrity and student mental-health support, and are likely to be cited by the youth movements and opposition during the Parliament session. They also spotlight the thin counselling safety net around India's exam-driven youth.",
-      "why_now": "The death was reported today and lands amid a wave of youth anger over exam leaks and joblessness, giving a private tragedy immediate national resonance.",
-      "watch_next": "Whether it sharpens the political debate on recruitment exams and jobs as Parliament opens, and any moves on student mental-health support.",
-      "key_terms": [
-        {
-          "term": "Government ('sarkari') job",
-          "definition": "A public-sector post prized in India for its job security, pension and social status, filled through highly competitive recruitment exams."
-        },
-        {
-          "term": "B.Tech",
-          "definition": "Bachelor of Technology \u2014 a four-year undergraduate engineering degree in India."
-        }
-      ],
-      "the_lesson": "When one narrow path \u2014 here, a government job \u2014 is treated as the only measure of success, its scarcity turns ordinary setbacks into crushing personal failure; broadening what counts as success is itself a safeguard.",
-      "market_link": null,
-      "importance": "notable",
-      "sources": [
-        {
-          "name": "Free Press Journal",
-          "url": "https://www.freepressjournal.in/education/sorry-papa-please-forgive-me-kanpur-btech-gold-medallist-dies-by-suicide-after-struggling-to-secure-govt-job"
-        },
-        {
-          "name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/city/kanpur/sorry-papa-i-tried-kanpur-btech-gold-medallist-dies-by-suicide-after-50-failed-govt-job-attempts/articleshow/132485563.cms"
-        }
-      ],
-      "added_at": "2026-07-19T20:48:45+05:30"
     },
     {
       "rank": 41,

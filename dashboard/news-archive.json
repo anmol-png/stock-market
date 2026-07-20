@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T15:16:35+05:30",
-  "count": 207,
+  "generated_at": "2026-07-20T15:54:44+05:30",
+  "count": 211,
   "stories": [
     {
       "type": "story",
@@ -331,6 +331,34 @@
     },
     {
       "type": "story",
+      "title": "Ryanair's profit falls by a third — the first big company to show what the Iran war is doing to real businesses",
+      "category": "economy",
+      "published_iso": "2026-07-20T06:00:00+00:00",
+      "added_at": "2026-07-20T15:48:21+05:30",
+      "source": "CNBC",
+      "what_happened": "On Monday, July 20, Ryanair reported that profit for its April–June quarter fell 34% to €538 million (about $615 million), down from €820 million a year earlier — missing forecasts. Operating costs rose 11% as the price of the roughly 20% of its fuel that was not hedged more than doubled to around £111 a barrel. At the same time, average fares fell 6% because the Middle East conflict, worries about EU jet-fuel shortages and general uncertainty made travellers hesitant and slower to book. Ryanair's shares fell about 6%, and CEO Michael O'Leary said the airline has 'zero visibility' for the second half of its year.",
+      "key_points": [
+        "Quarterly profit drops 34% to €538 million",
+        "Jet-fuel prices doubled as the Iran war sent oil soaring",
+        "Ryanair cut fares 6% as nervous travellers booked less",
+        "It can't give full-year guidance — 'zero visibility' for winter"
+      ],
+      "depth": {
+        "background": "Ryanair is Europe's biggest low-cost airline, known for cheap fares and packed planes. Airlines are hugely exposed to the price of jet fuel, which is refined from crude oil — so when oil prices jump, an airline's costs jump with them unless it has 'hedged' (locked in prices in advance). The ongoing US–Iran war has pushed oil back above $90 a barrel and rattled travel demand.",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/20/ryanair-q1-earnings-iran-war-summer-fares.html"
+          },
+          {
+            "name": "The Irish Times",
+            "url": "https://www.irishtimes.com/business/2026/07/20/ryanair-profits-fall-by-a-third-to-538m/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
       "title": "Sensex sinks 700 points as HDFC Bank's shrinking margins and pricey oil hit Dalal Street",
       "category": "india",
       "published_iso": "2026-07-20T04:30:00+00:00",
@@ -381,6 +409,34 @@
           {
             "name": "Al Jazeera",
             "url": "https://www.aljazeera.com/news/2026/7/15/indias-ethanol-rush-prompts-anger-among-vehicle-owners-questions-for-govt"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "The rupee is inching toward a record low as costlier oil eats into India's finances",
+      "category": "india",
+      "published_iso": "2026-07-20T03:45:00+00:00",
+      "added_at": "2026-07-20T15:48:21+05:30",
+      "source": "The Hindu (BusinessLine)",
+      "what_happened": "In early trade on Monday, July 20, the rupee fell about 12 paise to roughly 96.42 against the US dollar, leaving it within striking distance of its record low. Traders blame a fresh surge in oil prices — Brent crude is back above $90 a barrel — driven by the escalating US–Iran war that has choked the Strait of Hormuz, the narrow sea lane through which much of the world's oil moves. The currency has now dropped about 1.7% this month.",
+      "key_points": [
+        "Rupee slips to about 96.42 per dollar, near its all-time low of 96.96",
+        "The Iran war has pushed oil back above $90 a barrel",
+        "India imports most of its oil, so a weak rupee makes it pricier still",
+        "A cheaper rupee feeds inflation and raises the import bill"
+      ],
+      "depth": {
+        "background": "The rupee is India's currency, and its value is usually measured against the US dollar. India buys more than 80% of the oil it uses from abroad, and that oil is priced in dollars — so when oil gets expensive OR the rupee gets weaker, India's fuel bill jumps on both counts. The rupee has been sliding for weeks and touched an all-time low of 96.96 per dollar back in May.",
+        "sources": [
+          {
+            "name": "The Hindu (BusinessLine)",
+            "url": "https://www.thehindu.com/business/markets/rupee-falls-12-paise-to-9642-against-us-dollar-in-early-trade/article71244044.ece"
+          },
+          {
+            "name": "Business Recorder",
+            "url": "https://www.brecorder.com/news/40430877/oil-rally-rolls-on-casting-a-fresh-shadow-on-the-indian-rupee"
           }
         ]
       }
@@ -445,6 +501,34 @@
           {
             "name": "The Guardian",
             "url": "https://www.theguardian.com/politics/2026/jul/19/no-10-north-utilities-north-sea-drilling-andy-burnham-plans-government"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "A cash-theft scandal at the Ram temple reaches the Supreme Court — investigators report 8 arrests and 70 CCTV catches",
+      "category": "india",
+      "published_iso": "2026-07-20T02:31:06+00:00",
+      "added_at": "2026-07-20T15:48:21+05:30",
+      "source": "ANI",
+      "what_happened": "On Monday, July 20, a Special Investigation Team (SIT) set up by the Uttar Pradesh government filed a status report in a sealed cover before a three-judge Supreme Court bench headed by Chief Justice Surya Kant. Investigators said eight people have been arrested so far, and that CCTV cameras captured around 70 suspicious incidents between April 27 and June 5, 2026, showing counting staff allegedly concealing wads of cash. The court has also issued notice to the temple trust seeking its response.",
+      "key_points": [
+        "A special team files its sealed status report in the Supreme Court",
+        "8 people arrested; 70 suspicious cash-hiding incidents caught on CCTV",
+        "Counting staff allegedly pocketed donation money at the Ayodhya temple",
+        "Petitioners want a CBI probe and a forensic audit of the trust"
+      ],
+      "depth": {
+        "background": "The Ram Mandir (Ram temple) in Ayodhya, Uttar Pradesh, is one of India's most prominent religious sites, run by a government-linked trust (the Shri Ram Janmabhoomi Teerth Kshetra Trust) that handles enormous public donations. Allegations surfaced that some of the cash pilgrims donated was being stolen during counting. Petitions were filed asking courts to order an independent investigation and audit of the temple's money.",
+        "sources": [
+          {
+            "name": "ANI",
+            "url": "https://aninews.in/news/national/general-news/up-govts-sit-files-status-report-in-ram-mandir-donation-theft-case-in-sc20260720023106/"
+          },
+          {
+            "name": "The Tribune",
+            "url": "https://www.tribuneindia.com/news/india/ram-temple-donation-theft-sit-to-file-status-report-in-supreme-court-on-monday/"
           }
         ]
       }
@@ -863,6 +947,34 @@
           {
             "name": "AP News",
             "url": "https://abc7chicago.com/story/second-death-reported-legionnaires-disease-outbreak-new-york-city/19537559/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "A wildfire north of Madrid burns 13,000 hectares and empties 16 villages as Spain braces for another heatwave",
+      "category": "climate",
+      "published_iso": "2026-07-19T16:00:00+00:00",
+      "added_at": "2026-07-20T15:48:21+05:30",
+      "source": "Euronews",
+      "what_happened": "A major wildfire that broke out on Thursday near the village of La Mierla in Guadalajara province — roughly 100 km north of Madrid — has burned about 13,000 hectares and forced the evacuation of 16 villages, affecting more than 700 residents. It is one of several large blazes: another around 15,400 hectares has burned near Orés in the northeast, pushing Spain's total burned area this year to about 70,000 hectares. Forecasters warn a third heatwave, with temperatures above 40°C, begins Tuesday.",
+      "key_points": [
+        "The La Mierla fire has scorched about 13,000 hectares",
+        "16 villages evacuated; more than 700 people affected",
+        "Spain has already burned roughly 70,000 hectares in 2026",
+        "A third heatwave, with 40°C+ temperatures, starts Tuesday"
+      ],
+      "depth": {
+        "background": "Spain, like much of southern Europe, faces longer, hotter and drier summers as the climate warms, turning forests into tinder. Wildfires have become a near-annual crisis, and 2026 has been especially punishing. A 'hectare' is a unit of area equal to about one-and-a-half football pitches — so 13,000 hectares is a vast stretch of countryside.",
+        "sources": [
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/my-europe/2026/07/19/two-major-wildfires-rage-in-spain-as-burned-area-nears-50000-hectares"
+          },
+          {
+            "name": "Channels Television",
+            "url": "https://www.channelstv.com/2026/07/19/hundreds-evacuated-as-wildfire-scorches-13000-hectares-in-spain/"
           }
         ]
       }

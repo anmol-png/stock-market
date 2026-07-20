@@ -1,6 +1,6 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T15:16:35+05:30",
+  "generated_at": "2026-07-20T15:54:44+05:30",
   "day_label": "Monday · 20 July 2026",
   "dashboard_url": "../",
   "cards": [
@@ -8,6 +8,124 @@
       "type": "story",
       "id": "story-1",
       "rank": 1,
+      "category": "climate",
+      "is_new": true,
+      "published_iso": "2026-07-19T16:00:00+00:00",
+      "added_at": "2026-07-20T15:48:21+05:30",
+      "source": "Euronews",
+      "importance": "notable",
+      "regions": [
+        "Europe"
+      ],
+      "title": "A wildfire north of Madrid burns 13,000 hectares and empties 16 villages as Spain braces for another heatwave",
+      "what_happened": "A major wildfire that broke out on Thursday near the village of La Mierla in Guadalajara province — roughly 100 km north of Madrid — has burned about 13,000 hectares and forced the evacuation of 16 villages, affecting more than 700 residents. It is one of several large blazes: another around 15,400 hectares has burned near Orés in the northeast, pushing Spain's total burned area this year to about 70,000 hectares. Forecasters warn a third heatwave, with temperatures above 40°C, begins Tuesday.",
+      "key_points": [
+        "The La Mierla fire has scorched about 13,000 hectares",
+        "16 villages evacuated; more than 700 people affected",
+        "Spain has already burned roughly 70,000 hectares in 2026",
+        "A third heatwave, with 40°C+ temperatures, starts Tuesday"
+      ],
+      "moot": "As the climate warms, wildfire stops being a rare disaster and becomes a recurring season — the danger isn't one big fire, it's many, year after year.",
+      "concepts": [
+        "el_nino"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "Spain, like much of southern Europe, faces longer, hotter and drier summers as the climate warms, turning forests into tinder. Wildfires have become a near-annual crisis, and 2026 has been especially punishing. A 'hectare' is a unit of area equal to about one-and-a-half football pitches — so 13,000 hectares is a vast stretch of countryside.",
+        "why_it_matters": "Beyond the immediate danger to lives, homes and firefighters, these fires show how extreme heat and drought are reshaping life across the Mediterranean — destroying farmland and forests, fouling the air, and stretching emergency services thinner each year.",
+        "ripple_effects": "Repeated mega-fires damage agriculture and tourism (both huge for Spain's economy), release large amounts of carbon that worsen warming, and can strain public budgets for firefighting and rebuilding. The incoming heatwave raises the risk of new ignitions and makes existing fires harder to contain.",
+        "why_now": "Peak summer heat, bone-dry vegetation and strong winds have combined to fuel simultaneous blazes — and a fresh heatwave arriving Tuesday threatens to make conditions worse.",
+        "watch_next": "Whether the La Mierla fire is contained before the heatwave peaks midweek, and how high Spain's total burned area climbs this season.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "Hectare",
+            "definition": "A unit of land area equal to 10,000 square metres — roughly the size of one-and-a-half football pitches."
+          },
+          {
+            "term": "Heatwave",
+            "definition": "A prolonged spell of unusually hot weather; in Spain this summer it means several days above 40°C, which dries out vegetation and raises fire risk."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/my-europe/2026/07/19/two-major-wildfires-rage-in-spain-as-burned-area-nears-50000-hectares"
+          },
+          {
+            "name": "Channels Television",
+            "url": "https://www.channelstv.com/2026/07/19/hundreds-evacuated-as-wildfire-scorches-13000-hectares-in-spain/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-2",
+      "rank": 2,
+      "category": "economy",
+      "is_new": true,
+      "published_iso": "2026-07-20T06:00:00+00:00",
+      "added_at": "2026-07-20T15:48:21+05:30",
+      "source": "CNBC",
+      "importance": "notable",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "title": "Ryanair's profit falls by a third — the first big company to show what the Iran war is doing to real businesses",
+      "what_happened": "On Monday, July 20, Ryanair reported that profit for its April–June quarter fell 34% to €538 million (about $615 million), down from €820 million a year earlier — missing forecasts. Operating costs rose 11% as the price of the roughly 20% of its fuel that was not hedged more than doubled to around £111 a barrel. At the same time, average fares fell 6% because the Middle East conflict, worries about EU jet-fuel shortages and general uncertainty made travellers hesitant and slower to book. Ryanair's shares fell about 6%, and CEO Michael O'Leary said the airline has 'zero visibility' for the second half of its year.",
+      "key_points": [
+        "Quarterly profit drops 34% to €538 million",
+        "Jet-fuel prices doubled as the Iran war sent oil soaring",
+        "Ryanair cut fares 6% as nervous travellers booked less",
+        "It can't give full-year guidance — 'zero visibility' for winter"
+      ],
+      "moot": "A war can dent a company thousands of miles away through a single channel — the price of oil; whoever hasn't locked in their costs feels it first and hardest.",
+      "concepts": [
+        "crude_geopolitics",
+        "crude_asset",
+        "strait_chokepoint",
+        "inflation"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "Ryanair is Europe's biggest low-cost airline, known for cheap fares and packed planes. Airlines are hugely exposed to the price of jet fuel, which is refined from crude oil — so when oil prices jump, an airline's costs jump with them unless it has 'hedged' (locked in prices in advance). The ongoing US–Iran war has pushed oil back above $90 a barrel and rattled travel demand.",
+        "why_it_matters": "This is one of the first concrete readouts of how a distant war shows up in an ordinary company's accounts — and, through fares, in what families pay for a summer holiday. It's a warning that pricier oil squeezes profits and travel budgets far beyond the conflict zone.",
+        "ripple_effects": "If a giant, cost-disciplined airline like Ryanair is hurting, weaker rivals are in worse shape — O'Leary warned that 'unprofitable airlines face a difficult winter,' hinting some routes or carriers could shrink. Higher fuel costs ripple across aviation, shipping and logistics, and the fare cuts show how quickly nervous consumers pull back on discretionary spending when headlines turn scary.",
+        "why_now": "The results cover the exact quarter in which the US–Iran war erupted and oil spiked, so this is the first full earnings period to capture the damage.",
+        "watch_next": "Whether other airlines (and travel and logistics firms) report similar fuel-driven profit hits in the coming weeks, and whether the war keeps oil elevated into winter.",
+        "market_link": "Airline and travel stocks fall on fuel-cost fears; energy-heavy sectors gain, and the read-across hits shipping and logistics names tied to oil.",
+        "key_terms": [
+          {
+            "term": "Hedging",
+            "definition": "Locking in a price in advance (here, for fuel) so a company is protected if prices later spike — the unhedged portion is fully exposed to market swings."
+          },
+          {
+            "term": "Guidance",
+            "definition": "A company's own forecast of its future profits; withdrawing guidance signals management can't predict how the year will go."
+          },
+          {
+            "term": "Operating costs",
+            "definition": "The day-to-day expenses of running a business — for an airline, mostly fuel, staff and airport fees."
+          }
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/07/20/ryanair-q1-earnings-iran-war-summer-fares.html"
+          },
+          {
+            "name": "The Irish Times",
+            "url": "https://www.irishtimes.com/business/2026/07/20/ryanair-profits-fall-by-a-third-to-538m/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-3",
+      "rank": 3,
       "category": "economy",
       "is_new": true,
       "published_iso": "2026-07-20T06:04:00+00:00",
@@ -66,8 +184,8 @@
     },
     {
       "type": "story",
-      "id": "story-2",
-      "rank": 2,
+      "id": "story-4",
+      "rank": 4,
       "category": "geopolitics",
       "is_new": true,
       "published_iso": "2026-07-20T00:48:05+00:00",
@@ -123,8 +241,8 @@
     },
     {
       "type": "story",
-      "id": "story-3",
-      "rank": 3,
+      "id": "story-5",
+      "rank": 5,
       "category": "technology",
       "is_new": true,
       "published_iso": "2026-07-19T11:06:03+00:00",
@@ -173,8 +291,8 @@
     },
     {
       "type": "story",
-      "id": "story-4",
-      "rank": 4,
+      "id": "story-6",
+      "rank": 6,
       "category": "geopolitics",
       "is_new": true,
       "published_iso": "2026-07-20T06:11:00+00:00",
@@ -233,10 +351,9 @@
     },
     {
       "type": "story",
-      "id": "story-5",
-      "rank": 5,
+      "id": "story-7",
+      "rank": 7,
       "category": "climate",
-      "is_new": true,
       "published_iso": "2026-07-20T02:22:28+00:00",
       "added_at": "2026-07-20T13:55:34+05:30",
       "source": "The New York Times (via Google News)",
@@ -278,10 +395,9 @@
     },
     {
       "type": "story",
-      "id": "story-6",
-      "rank": 6,
+      "id": "story-8",
+      "rank": 8,
       "category": "geopolitics",
-      "is_new": true,
       "published_iso": "2026-07-20T07:48:58+00:00",
       "added_at": "2026-07-20T13:55:34+05:30",
       "source": "The Verge",
@@ -331,8 +447,8 @@
     },
     {
       "type": "story",
-      "id": "story-7",
-      "rank": 7,
+      "id": "story-9",
+      "rank": 9,
       "category": "economy",
       "published_iso": "2026-07-20T06:15:00+00:00",
       "added_at": "2026-07-20T13:19:18+05:30",
@@ -393,8 +509,8 @@
     },
     {
       "type": "story",
-      "id": "story-8",
-      "rank": 8,
+      "id": "story-10",
+      "rank": 10,
       "category": "geopolitics",
       "development": true,
       "prev_ref": {
@@ -459,8 +575,8 @@
     },
     {
       "type": "story",
-      "id": "story-9",
-      "rank": 9,
+      "id": "story-11",
+      "rank": 11,
       "category": "economy",
       "published_iso": "2026-07-20T03:29:43+00:00",
       "added_at": "2026-07-20T12:38:24+05:30",
@@ -520,8 +636,8 @@
     },
     {
       "type": "story",
-      "id": "story-10",
-      "rank": 10,
+      "id": "story-12",
+      "rank": 12,
       "category": "geopolitics",
       "published_iso": "2026-07-20T03:20:48+00:00",
       "added_at": "2026-07-20T12:38:24+05:30",
@@ -579,8 +695,8 @@
     },
     {
       "type": "story",
-      "id": "story-11",
-      "rank": 11,
+      "id": "story-13",
+      "rank": 13,
       "category": "geopolitics",
       "published_iso": "2026-07-19T18:27:58+00:00",
       "added_at": "2026-07-20T00:15:11+05:30",
@@ -636,8 +752,8 @@
     },
     {
       "type": "story",
-      "id": "story-12",
-      "rank": 12,
+      "id": "story-14",
+      "rank": 14,
       "category": "geopolitics",
       "development": true,
       "prev_ref": {
@@ -708,8 +824,8 @@
     },
     {
       "type": "story",
-      "id": "story-13",
-      "rank": 13,
+      "id": "story-15",
+      "rank": 15,
       "category": "health",
       "published_iso": "2026-07-19T16:08:00+00:00",
       "added_at": "2026-07-19T23:37:05+05:30",
@@ -760,8 +876,8 @@
     },
     {
       "type": "story",
-      "id": "story-14",
-      "rank": 14,
+      "id": "story-16",
+      "rank": 16,
       "category": "technology",
       "development": true,
       "prev_ref": {
@@ -829,8 +945,8 @@
     },
     {
       "type": "story",
-      "id": "story-15",
-      "rank": 15,
+      "id": "story-17",
+      "rank": 17,
       "category": "geopolitics",
       "published_iso": "2026-07-19T12:30:00+00:00",
       "added_at": "2026-07-19T22:46:32+05:30",
@@ -888,8 +1004,8 @@
     },
     {
       "type": "story",
-      "id": "story-16",
-      "rank": 16,
+      "id": "story-18",
+      "rank": 18,
       "category": "geopolitics",
       "published_iso": "2026-07-19T11:00:00+00:00",
       "added_at": "2026-07-19T22:46:32+05:30",
@@ -948,8 +1064,8 @@
     },
     {
       "type": "story",
-      "id": "story-18",
-      "rank": 18,
+      "id": "story-20",
+      "rank": 20,
       "category": "climate",
       "published_iso": "2026-07-19T11:33:43+00:00",
       "added_at": "2026-07-19T22:03:41+05:30",
@@ -1006,6 +1122,127 @@
       "type": "story",
       "id": "story-21",
       "rank": 21,
+      "category": "india",
+      "is_new": true,
+      "published_iso": "2026-07-20T02:31:06+00:00",
+      "added_at": "2026-07-20T15:48:21+05:30",
+      "source": "ANI",
+      "importance": "notable",
+      "regions": [
+        "India"
+      ],
+      "title": "A cash-theft scandal at the Ram temple reaches the Supreme Court — investigators report 8 arrests and 70 CCTV catches",
+      "what_happened": "On Monday, July 20, a Special Investigation Team (SIT) set up by the Uttar Pradesh government filed a status report in a sealed cover before a three-judge Supreme Court bench headed by Chief Justice Surya Kant. Investigators said eight people have been arrested so far, and that CCTV cameras captured around 70 suspicious incidents between April 27 and June 5, 2026, showing counting staff allegedly concealing wads of cash. The court has also issued notice to the temple trust seeking its response.",
+      "key_points": [
+        "A special team files its sealed status report in the Supreme Court",
+        "8 people arrested; 70 suspicious cash-hiding incidents caught on CCTV",
+        "Counting staff allegedly pocketed donation money at the Ayodhya temple",
+        "Petitioners want a CBI probe and a forensic audit of the trust"
+      ],
+      "moot": "The bigger the pool of money an institution handles, the more it needs independent audits and cameras — trust alone doesn't guard cash; systems do.",
+      "concepts": [
+        "supreme_court_india",
+        "cbi"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "The Ram Mandir (Ram temple) in Ayodhya, Uttar Pradesh, is one of India's most prominent religious sites, run by a government-linked trust (the Shri Ram Janmabhoomi Teerth Kshetra Trust) that handles enormous public donations. Allegations surfaced that some of the cash pilgrims donated was being stolen during counting. Petitions were filed asking courts to order an independent investigation and audit of the temple's money.",
+        "why_it_matters": "This is about trust in an institution millions of ordinary Indians donate to in good faith. When money given for a sacred cause is allegedly siphoned off, it raises hard questions about how public and religious funds are guarded — and whether the oversight is strong enough given the sheer amounts involved.",
+        "ripple_effects": "The case could force tighter financial controls, audits, and transparency rules on large temple trusts across India, which collectively handle thousands of crores. Politically, it is sensitive: the Ram temple is a flagship project associated with the ruling party, and opposition MPs have already raised the alleged embezzlement in Parliament, pressing for accountability.",
+        "why_now": "The Supreme Court had earlier asked the SIT to report back, and Monday was the scheduled hearing — landing on the same day Parliament's monsoon session opened, where the opposition is also raising the issue.",
+        "watch_next": "Whether the court orders a wider probe (such as a CBI investigation) or a forensic audit of the trust's finances after reviewing the sealed report.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "SIT (Special Investigation Team)",
+            "definition": "A dedicated group of police officers formed to investigate one specific, often high-profile, case."
+          },
+          {
+            "term": "Sealed cover",
+            "definition": "A confidential document handed to a court in a sealed envelope so its contents stay private until the judges decide to review or reveal them."
+          },
+          {
+            "term": "CBI",
+            "definition": "The Central Bureau of Investigation, India's premier federal investigating agency, often brought in for sensitive or nationwide cases."
+          }
+        ],
+        "sources": [
+          {
+            "name": "ANI",
+            "url": "https://aninews.in/news/national/general-news/up-govts-sit-files-status-report-in-ram-mandir-donation-theft-case-in-sc20260720023106/"
+          },
+          {
+            "name": "The Tribune",
+            "url": "https://www.tribuneindia.com/news/india/ram-temple-donation-theft-sit-to-file-status-report-in-supreme-court-on-monday/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-22",
+      "rank": 22,
+      "category": "india",
+      "is_new": true,
+      "published_iso": "2026-07-20T03:45:00+00:00",
+      "added_at": "2026-07-20T15:48:21+05:30",
+      "source": "The Hindu (BusinessLine)",
+      "importance": "high",
+      "regions": [
+        "India"
+      ],
+      "title": "The rupee is inching toward a record low as costlier oil eats into India's finances",
+      "what_happened": "In early trade on Monday, July 20, the rupee fell about 12 paise to roughly 96.42 against the US dollar, leaving it within striking distance of its record low. Traders blame a fresh surge in oil prices — Brent crude is back above $90 a barrel — driven by the escalating US–Iran war that has choked the Strait of Hormuz, the narrow sea lane through which much of the world's oil moves. The currency has now dropped about 1.7% this month.",
+      "key_points": [
+        "Rupee slips to about 96.42 per dollar, near its all-time low of 96.96",
+        "The Iran war has pushed oil back above $90 a barrel",
+        "India imports most of its oil, so a weak rupee makes it pricier still",
+        "A cheaper rupee feeds inflation and raises the import bill"
+      ],
+      "moot": "For a country that imports most of its energy, its currency and the oil price are tied together — when oil rises, the currency often falls, and the pain lands twice on the import bill.",
+      "concepts": [
+        "usdinr",
+        "currency_strength",
+        "crude_geopolitics"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "The rupee is India's currency, and its value is usually measured against the US dollar. India buys more than 80% of the oil it uses from abroad, and that oil is priced in dollars — so when oil gets expensive OR the rupee gets weaker, India's fuel bill jumps on both counts. The rupee has been sliding for weeks and touched an all-time low of 96.96 per dollar back in May.",
+        "why_it_matters": "A weaker rupee is not an abstract number — it quietly raises the cost of almost everything India buys from abroad: crude oil, electronics, medicines, edible oils, and foreign travel or education. That feeds into inflation (the general rise in prices), squeezing household budgets, and it makes India's import bill balloon just as oil is already expensive.",
+        "ripple_effects": "If Brent crude pushes past $95, analysts warn the rupee could break to a fresh all-time low. The Reserve Bank of India (RBI), the country's central bank, may spend some of its foreign-currency reserves selling dollars to slow the fall — a costly defence. A weaker rupee also nudges up the price of imported goods for companies and can dent foreign investors' returns, sometimes prompting them to pull money out of Indian stocks, which pressures the market further.",
+        "why_now": "The trigger is the intensifying US–Iran conflict, which has disrupted traffic through the Strait of Hormuz and sent oil prices climbing again — a direct hit to big energy importers like India.",
+        "watch_next": "Whether Brent crude crosses $95 a barrel and whether the rupee breaches its 96.96 record low in the coming sessions.",
+        "market_link": "A weaker rupee and pricey oil pressure oil-marketing companies, importers, and rate-sensitive stocks; it can also trigger foreign selling in the Sensex and Nifty.",
+        "key_terms": [
+          {
+            "term": "Strait of Hormuz",
+            "definition": "A narrow sea passage between Iran and Oman through which roughly a fifth of the world's oil is shipped; disruptions there quickly push oil prices up."
+          },
+          {
+            "term": "Paise",
+            "definition": "The smaller unit of the rupee — 100 paise make one rupee; a '12 paise' fall means the rupee lost 0.12 of a rupee against the dollar."
+          },
+          {
+            "term": "Foreign-exchange reserves",
+            "definition": "A country's stockpile of foreign money (mostly dollars) and gold, which a central bank can sell to steady its own currency."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The Hindu (BusinessLine)",
+            "url": "https://www.thehindu.com/business/markets/rupee-falls-12-paise-to-9642-against-us-dollar-in-early-trade/article71244044.ece"
+          },
+          {
+            "name": "Business Recorder",
+            "url": "https://www.brecorder.com/news/40430877/oil-rally-rolls-on-casting-a-fresh-shadow-on-the-indian-rupee"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-23",
+      "rank": 23,
       "category": "india",
       "is_new": true,
       "published_iso": "2026-07-20T08:13:14+00:00",
@@ -1065,8 +1302,8 @@
     },
     {
       "type": "story",
-      "id": "story-22",
-      "rank": 22,
+      "id": "story-24",
+      "rank": 24,
       "category": "india",
       "is_new": true,
       "published_iso": "2026-07-20T07:59:57+00:00",
@@ -1126,8 +1363,8 @@
     },
     {
       "type": "story",
-      "id": "story-23",
-      "rank": 23,
+      "id": "story-25",
+      "rank": 25,
       "category": "india",
       "is_new": true,
       "published_iso": "2026-07-20T03:54:27+00:00",
@@ -1179,8 +1416,8 @@
     },
     {
       "type": "story",
-      "id": "story-24",
-      "rank": 24,
+      "id": "story-26",
+      "rank": 26,
       "category": "india",
       "is_new": true,
       "published_iso": "2026-07-20T08:30:18+00:00",
@@ -1236,10 +1473,9 @@
     },
     {
       "type": "story",
-      "id": "story-25",
-      "rank": 25,
+      "id": "story-27",
+      "rank": 27,
       "category": "india",
-      "is_new": true,
       "published_iso": "2026-07-20T06:21:24+00:00",
       "added_at": "2026-07-20T13:55:34+05:30",
       "source": "Times of India",
@@ -1289,8 +1525,8 @@
     },
     {
       "type": "story",
-      "id": "story-26",
-      "rank": 26,
+      "id": "story-28",
+      "rank": 28,
       "category": "india",
       "published_iso": "2026-07-20T04:30:00+00:00",
       "added_at": "2026-07-20T13:19:18+05:30",
@@ -1346,8 +1582,8 @@
     },
     {
       "type": "story",
-      "id": "story-27",
-      "rank": 27,
+      "id": "story-29",
+      "rank": 29,
       "category": "india",
       "development": true,
       "prev_ref": {
@@ -1411,8 +1647,8 @@
     },
     {
       "type": "story",
-      "id": "story-28",
-      "rank": 28,
+      "id": "story-30",
+      "rank": 30,
       "category": "india",
       "published_iso": "2026-07-20T02:01:57+00:00",
       "added_at": "2026-07-20T12:38:24+05:30",
@@ -1476,8 +1712,8 @@
     },
     {
       "type": "story",
-      "id": "story-29",
-      "rank": 29,
+      "id": "story-31",
+      "rank": 31,
       "category": "india",
       "development": true,
       "prev_ref": {
@@ -1545,8 +1781,8 @@
     },
     {
       "type": "story",
-      "id": "story-30",
-      "rank": 30,
+      "id": "story-32",
+      "rank": 32,
       "category": "india",
       "published_iso": "2026-07-19T07:13:41+00:00",
       "added_at": "2026-07-20T00:15:11+05:30",
@@ -1616,8 +1852,8 @@
     },
     {
       "type": "story",
-      "id": "story-31",
-      "rank": 31,
+      "id": "story-33",
+      "rank": 33,
       "category": "india",
       "published_iso": "2026-07-19T18:27:37+00:00",
       "added_at": "2026-07-20T00:15:11+05:30",
@@ -1670,8 +1906,8 @@
     },
     {
       "type": "story",
-      "id": "story-32",
-      "rank": 32,
+      "id": "story-34",
+      "rank": 34,
       "category": "india",
       "published_iso": "2026-07-19T07:12:19+00:00",
       "added_at": "2026-07-19T23:37:05+05:30",
@@ -1743,8 +1979,8 @@
     },
     {
       "type": "story",
-      "id": "story-34",
-      "rank": 34,
+      "id": "story-36",
+      "rank": 36,
       "category": "india",
       "published_iso": "2026-07-19T06:30:00+00:00",
       "added_at": "2026-07-19T22:46:32+05:30",
@@ -1803,8 +2039,8 @@
     },
     {
       "type": "story",
-      "id": "story-35",
-      "rank": 35,
+      "id": "story-37",
+      "rank": 37,
       "category": "india",
       "published_iso": "2026-07-19T17:06:42+00:00",
       "added_at": "2026-07-19T22:46:32+05:30",
@@ -1862,8 +2098,8 @@
     },
     {
       "type": "story",
-      "id": "story-36",
-      "rank": 36,
+      "id": "story-38",
+      "rank": 38,
       "category": "india",
       "published_iso": "2026-07-19T15:32:14+00:00",
       "added_at": "2026-07-19T22:03:41+05:30",
@@ -1921,8 +2157,8 @@
     },
     {
       "type": "story",
-      "id": "story-37",
-      "rank": 37,
+      "id": "story-39",
+      "rank": 39,
       "category": "india",
       "published_iso": "2026-07-19T15:53:44+00:00",
       "added_at": "2026-07-19T22:03:41+05:30",
@@ -1973,117 +2209,6 @@
           {
             "name": "Siasat",
             "url": "https://www.siasat.com/madhya-pradesh-cabinet-approves-draft-uniform-civil-code-bill-3509370/"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
-      "id": "story-39",
-      "rank": 39,
-      "category": "india",
-      "published_iso": "2026-07-19T13:19:04+05:30",
-      "added_at": "2026-07-19T21:26:12+05:30",
-      "source": "Republic World",
-      "importance": "high",
-      "regions": [
-        "India"
-      ],
-      "title": "Exam-leak anger reaches Parliament: opposition will demand Education Minister Dharmendra Pradhan quit as the monsoon session opens tomorrow",
-      "what_happened": "Ahead of the monsoon session opening July 20, opposition parties signalled they will demand the resignation of Union Education Minister Dharmendra Pradhan over the exam-leak scandal. Congress's B.K. Hariprasad, echoing Rahul Gandhi's 'Chhatron ki Goonj' campaign, alleged 152 paper leaks occurred between 2014 and 2026. Notably, Odisha's Naveen Patnaik (BJD) — often seen as non-aligned — urged the government to talk to protesting students, warning that 'a nation that compromises the integrity of its examination system compromises its future.' The government will lay out its legislative agenda at an all-party meeting. The session runs to August 13.",
-      "key_points": [
-        "Opposition to target Education Minister over exam paper leaks",
-        "Congress cites '152 paper leaks' between 2014 and 2026",
-        "Even BJD's Naveen Patnaik urges talks with protesting students",
-        "Monsoon session runs July 20 to August 13"
-      ],
-      "moot": "Public anger becomes political power when it finds an institutional channel: a street protest can be ignored, but the same grievance raised on the floor of Parliament forces a government to respond on the record.",
-      "concepts": [
-        "parliament_india",
-        "lok_sabha"
-      ],
-      "figures": [],
-      "depth": {
-        "background": "For weeks, a youth-led movement has been building over repeated leaks of exam question papers — including for high-stakes tests like NEET, the national medical-entrance exam that decides who becomes a doctor. Leaks let some cheat while honest students lose seats, and the anger has spilled into street protests (the 'cockroach' march) and demands for accountability. That anger now moves from the streets into Parliament as the monsoon session begins.",
-        "why_it_matters": "It turns a street movement into a parliamentary showdown, and the breadth of criticism — reaching beyond Congress to regional players like the BJD — signals the exam-leak issue has real political heat. How the government responds touches the credibility of India's entire merit-based exam system, which millions of students stake their futures on.",
-        "ripple_effects": "Expect disruptions and adjournments in Parliament, pressure on the government to promise tougher anti-leak laws or an exam-security overhaul, and continued student mobilisation. If the opposition can stay united on this, it becomes a template for pressing the government across the session's other contentious bills.",
-        "why_now": "The monsoon session — Parliament's mid-year sitting — opens July 20, giving the opposition its first big floor platform to force the exam-leak issue into the national spotlight while student protests are still fresh.",
-        "watch_next": "Whether the opposition forces a formal debate or adjournment motion on the exam leaks in the session's opening days — and how Pradhan and the government respond.",
-        "market_link": null,
-        "key_terms": [
-          {
-            "term": "Monsoon session",
-            "definition": "One of Parliament's three regular sittings each year (held around the July–August monsoon), when new laws are debated and the government faces questions."
-          },
-          {
-            "term": "NEET",
-            "definition": "The National Eligibility cum Entrance Test — India's single nationwide entrance exam for admission to medical (MBBS) and dental colleges."
-          }
-        ],
-        "sources": [
-          {
-            "name": "Republic World",
-            "url": "https://www.republicworld.com/india/government-to-unveil-legislative-agenda-at-monsoon-session-all-party-meet-opposition-prepares-to-raise-key-issues-2026-07-19-132774"
-          },
-          {
-            "name": "ANI",
-            "url": "https://aninews.in/news/national/politics/nation-that-compromises-integrity-of-examination-system-compromises-its-future-naveen-patnaik-urges-government-to-talk-to-protesting-students20260719131904/"
-          },
-          {
-            "name": "ANI",
-            "url": "https://www.aninews.in/news/national/general-news/assam-congress-steps-up-campaign-seeks-dharmendra-pradhans-resignation-over-exam-paper-leaks20260629201444/"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
-      "id": "story-40",
-      "rank": 40,
-      "category": "india",
-      "published_iso": "2026-07-19T06:30:00+00:00",
-      "added_at": "2026-07-19T20:48:45+05:30",
-      "source": "Free Press Journal",
-      "importance": "notable",
-      "regions": [
-        "India"
-      ],
-      "title": "A Kanpur engineering topper dies by suicide after nearly 50 failed tries at a government job — a note that reads 'Sorry, Papa'",
-      "what_happened": "Police in Kanpur, Uttar Pradesh, said Anand, a 23-year-old who had topped his B.Tech in Electrical Engineering (ranking third in the state and receiving a gold medal honoured by the Governor in 2024), was found hanging at his family home in the Gujaini area on Sunday. He left a note apologising to his father — 'Sorry, Papa' — and saying he had made nearly 50 attempts to secure a government job without success. His father said he had sat many recruitment exams and had been under severe stress for months.",
-      "key_points": [
-        "Anand, 23, a B.Tech gold medallist, found dead at his Kanpur home",
-        "Suicide note said he made ~50 attempts to land a government job",
-        "Topped Electrical Engineering; ranked 3rd in UP; honoured by the Governor",
-        "A stark window into India's youth unemployment and exam pressure"
-      ],
-      "moot": "When one narrow path — here, a government job — is treated as the only measure of success, its scarcity turns ordinary setbacks into crushing personal failure; broadening what counts as success is itself a safeguard.",
-      "concepts": [],
-      "figures": [],
-      "depth": {
-        "background": "In much of India a stable government ('sarkari') job is prized above almost all else — for its security, pension and social status — so millions of graduates spend years cramming for fiercely competitive recruitment exams, where a handful of posts can draw lakhs of applicants. India's official unemployment is highest among the educated young, and repeated exam-paper leaks and delays (a grievance now fuelling the 'Cockroach' youth movement) have deepened the frustration.",
-        "why_it_matters": "A decorated topper dying over job failure crystallises a systemic problem: a chase for scarce government posts so intense that failure feels total. It puts a human face on youth unemployment, exam-system dysfunction and mental-health strain among India's students — the same anger driving current protests.",
-        "ripple_effects": "Cases like this feed public pressure on governments over jobs, exam integrity and student mental-health support, and are likely to be cited by the youth movements and opposition during the Parliament session. They also spotlight the thin counselling safety net around India's exam-driven youth.",
-        "why_now": "The death was reported today and lands amid a wave of youth anger over exam leaks and joblessness, giving a private tragedy immediate national resonance.",
-        "watch_next": "Whether it sharpens the political debate on recruitment exams and jobs as Parliament opens, and any moves on student mental-health support.",
-        "market_link": null,
-        "key_terms": [
-          {
-            "term": "Government ('sarkari') job",
-            "definition": "A public-sector post prized in India for its job security, pension and social status, filled through highly competitive recruitment exams."
-          },
-          {
-            "term": "B.Tech",
-            "definition": "Bachelor of Technology — a four-year undergraduate engineering degree in India."
-          }
-        ],
-        "sources": [
-          {
-            "name": "Free Press Journal",
-            "url": "https://www.freepressjournal.in/education/sorry-papa-please-forgive-me-kanpur-btech-gold-medallist-dies-by-suicide-after-struggling-to-secure-govt-job"
-          },
-          {
-            "name": "Times of India",
-            "url": "https://timesofindia.indiatimes.com/city/kanpur/sorry-papa-i-tried-kanpur-btech-gold-medallist-dies-by-suicide-after-50-failed-govt-job-attempts/articleshow/132485563.cms"
           }
         ]
       }
@@ -2737,7 +2862,7 @@
       "id": "archive-india",
       "category": "india",
       "region": "india",
-      "older_count": 77
+      "older_count": 79
     },
     {
       "type": "archive",
