@@ -1,7 +1,67 @@
 {
   "month": "2026-07",
-  "count": 134,
+  "count": 138,
   "stories": [
+    {
+      "type": "story",
+      "title": "India signals the Indus Waters Treaty 'won't survive in its present form' — hardening its freeze on the water pact with Pakistan",
+      "category": "india",
+      "published_iso": "2026-07-20T18:41:12+00:00",
+      "added_at": "2026-07-21T00:20:35+05:30",
+      "source": "The Hindu",
+      "what_happened": "A senior Indian official said the treaty 'will not remain operational in its present form' — the clearest signal yet that Delhi wants to renegotiate or replace it rather than simply return to the old arrangement. India argues Pakistan has not stopped sponsoring cross-border terrorism, so the pause stays. Government sources separately dismissed Pakistan's appeals to international forums as a 'victim card' that 'cannot change India's decision.' Pakistan insists the treaty remains binding and has said any move to cut its water share is a national-security red line.",
+      "key_points": [
+        "Indian official: the 60-year-old treaty won't remain operational as-is",
+        "India put the pact 'in abeyance' after the 2025 Pahalgam terror attack",
+        "Delhi ties any revival to Pakistan ending cross-border terrorism",
+        "Pakistan calls its water share a red line and warns it could mean war"
+      ],
+      "depth": {
+        "background": "The Indus Waters Treaty, signed in 1960 and brokered by the World Bank, splits the six rivers of the Indus basin between India and Pakistan and has survived every war between them for six decades — it is often called the world's most successful water-sharing deal. The waters of the three western rivers flow on to downstream Pakistan, where they irrigate the country's farm heartland. After a terror attack in Pahalgam, Kashmir, in April 2025, India put the treaty 'in abeyance' (paused, but not formally cancelled) and has kept it suspended since.",
+        "sources": [
+          {
+            "name": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/indus-waters-treaty-will-not-remain-operational-in-its-present-form-says-official/article71246737.ece"
+          },
+          {
+            "name": "NDTV",
+            "url": "https://www.ndtv.com/world-news/pakistan-victim-card-on-indus-waters-treaty-cannot-change-india-decision-say-sources-11797420"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "The US and Iran are now trading direct strikes — three American troops killed, and Washington bombs Iran to reopen the Strait of Hormuz",
+      "category": "geopolitics",
+      "published_iso": "2026-07-20T18:21:39+00:00",
+      "added_at": "2026-07-21T00:20:35+05:30",
+      "source": "Al Jazeera",
+      "what_happened": "The Pentagon says three US service members have been killed since Friday — two of them in an Iranian missile-and-drone attack on a base in Jordan. In response, President Trump ordered a new wave of airstrikes starting late Saturday, hitting Iranian military command centres, air-defence and coastal-surveillance sites, and missile and drone launch positions, saying the goal was to 'degrade Iran's ability to threaten commercial shipping' in the Strait of Hormuz. Iran struck back with attacks in Syria and Jordan, two oil tankers reportedly exploded in the strait, and Trump warned Tehran would 'pay many times over.' Iran says it will keep fighting until it has restored deterrence.",
+      "key_points": [
+        "3 US service members killed since Friday in Iran-linked attacks",
+        "US launches fresh airstrikes on Iranian military and coastal-radar sites",
+        "Two oil tankers reportedly exploded in the Strait of Hormuz",
+        "Trump vows Iran will 'pay many times over'; Tehran vows to fight on"
+      ],
+      "depth": {
+        "background": "For weeks the US and Iran have been locked in an escalating standoff centred on the Strait of Hormuz — the narrow sea gate at the mouth of the Persian Gulf that carries roughly a fifth of the world's oil. Peace talks aimed at a 'memorandum of understanding' over the strait collapsed, and the two sides slid into near-daily tit-for-tat strikes. This weekend the confrontation crossed a dangerous line: US troops were killed in action, turning a mostly indirect conflict into direct combat between the two militaries.",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/20/trump-vows-iran-will-pay-for-killing-us-soldiers"
+          },
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org/2026/07/20/nx-s1-5900601/us-iran-updates"
+          },
+          {
+            "name": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/cly52xzjd3qo"
+          }
+        ]
+      }
+    },
     {
       "type": "story",
       "title": "IndiGo orders over 1,000 jet engines from CFM — a giant bet on India's booming air travel",
@@ -78,6 +138,34 @@
           {
             "name": "The Economic Times",
             "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/paytm-q1-results-profit-soars-79-yoy-to-rs-220-crore-board-decides-not-to-go-with-bonus-proposal/articleshow/132519429.cms"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "India's oil import bill jumps ~60% to nearly $50 billion in three months — even as it buys less crude",
+      "category": "india",
+      "published_iso": "2026-07-20T16:48:37+00:00",
+      "added_at": "2026-07-21T00:20:35+05:30",
+      "source": "Livemint",
+      "what_happened": "Official data show India's crude oil import bill surged about 61% from a year earlier to $49.8 billion in the first quarter of FY27 (April-June 2026) — roughly 40% of what the country spent on crude in the entire previous year. Strikingly, the bill ballooned even though the volume of oil imported actually fell. The reasons: global prices have climbed on the US-Iran conflict and Strait of Hormuz risk, the discounts on Russian crude have shrunk, and the rupee has weakened toward record lows, making every dollar of oil more expensive in local terms.",
+      "key_points": [
+        "April-June crude import bill up ~61% to $49.8 billion",
+        "That is already 40% of last year's entire crude bill",
+        "The bill rose even though import volumes actually fell",
+        "Fading war-era discounts and a weak rupee are the culprits"
+      ],
+      "depth": {
+        "background": "India imports more than 85% of the crude oil it uses, so the global oil price and the rupee's exchange rate flow straight into its economy. For the past couple of years India cushioned itself by buying heavily discounted Russian crude, after Western sanctions on Moscow left Russia hunting for buyers. Those discounts, plus a relatively steady rupee, kept the import bill manageable.",
+        "sources": [
+          {
+            "name": "Livemint",
+            "url": "https://www.livemint.com/news/india/india-imports-crude-oil-worth-nearly-50-bn-in-q1fy27-40-of-fy26-total-crude-import-bill-11784553410619.html"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/industry/news/india-s-crude-oil-import-bill-soars-48-in-june-amid-supply-shock-126072001222_1.html"
           }
         ]
       }
@@ -287,6 +375,38 @@
           {
             "name": "Business Standard",
             "url": "https://www.business-standard.com/companies/people/hdfc-bank-board-seized-of-md-ceo-reappointment-decision-soon-126071900428_1.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Dozens feared dead after an overloaded ferry sinks off Guyana — 67 rescued, but no survivors found since",
+      "category": "geopolitics",
+      "published_iso": "2026-07-20T11:37:32+00:00",
+      "added_at": "2026-07-21T00:20:35+05:30",
+      "source": "CNN",
+      "what_happened": "The ferry capsized about seven miles from shore late on Saturday, after a distress call around 11 p.m. Authorities believe roughly 133 people were on board — well above what the official passenger list showed. Sixty-seven people were rescued, including 15 children, but no new survivors have been found since Sunday afternoon, and dozens remain missing and feared dead. Officials say the manifest was inaccurate and are investigating possible crew drug use as a factor; the captain and other crew members have been detained.",
+      "key_points": [
+        "MV Barima capsized about 7 miles offshore late Saturday",
+        "Roughly 133 people aboard; 67 rescued, including 15 children",
+        "The passenger manifest was inaccurate, hampering the search",
+        "Captain and crew detained; possible crew drug use under probe"
+      ],
+      "depth": {
+        "background": "Guyana, a small country on the northern coast of South America, relies heavily on river and coastal ferries to connect remote communities that roads do not reach. The MV Barima was making a routine run from the capital, Georgetown, to the mining village of Port Kaituma when it went down — a lifeline route where boats are often crowded.",
+        "sources": [
+          {
+            "name": "CNN",
+            "url": "https://www.cnn.com/2026/07/20/americas/guyana-shipwreck-intl"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/7/19/guyana-ferry-with-116-people-aboard-capsizes"
+          },
+          {
+            "name": "Demerara Waves",
+            "url": "https://demerarawaves.com/2026/07/19/53-now-rescued-after-ferry-mv-barima-capsized-off-essequibo-coast/"
           }
         ]
       }

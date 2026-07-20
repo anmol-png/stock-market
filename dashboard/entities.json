@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-07-20T23:49:08+05:30",
+  "generated_at": "2026-07-21T00:31:50+05:30",
   "count": 29,
   "entities": {
     "united-states": {
       "slug": "united-states",
       "name": "United States",
-      "primer": "The US and Iran have been in an escalating shooting war for over a week — the US bombing near Tehran, Iranian missiles killing US troops in Jordan. Kuwait is a small, oil-rich US ally on the Persian Gulf that hosts American forces, so Iran has been firing at US bases there and now at infrastructure. Crucially, Kuwait has almost no natural fresh water: it turns seawater into drinking water at big coastal desalination plants that also generate much of its electricity.",
+      "primer": "For weeks the US and Iran have been locked in an escalating standoff centred on the Strait of Hormuz — the narrow sea gate at the mouth of the Persian Gulf that carries roughly a fifth of the world's oil. Peace talks aimed at a 'memorandum of understanding' over the strait collapsed, and the two sides slid into near-daily tit-for-tat strikes. This weekend the confrontation crossed a dangerous line: US troops were killed in action, turning a mostly indirect conflict into direct combat between the two militaries.",
       "stories": [
+        {
+          "date": "2026-07-21",
+          "title": "The US and Iran are now trading direct strikes — three American troops killed, and Washington bombs Iran to reopen the Strait of Hormuz",
+          "category": "geopolitics",
+          "url": "https://www.aljazeera.com/news/2026/7/20/trump-vows-iran-will-pay-for-killing-us-soldiers",
+          "rank": 2,
+          "moot": "A single strategic chokepoint can turn a distant war into a worldwide price shock: when about 20% of the planet's seaborne oil squeezes through one narrow strait, a conflict there becomes everyone's problem."
+        },
         {
           "date": "2026-07-20",
           "title": "A US judge freezes the $81 billion Paramount–Warner Bros merger — 12 states win a two-week pause on antitrust grounds",
@@ -318,14 +326,6 @@
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVDlhV1Zhbi1ieWRUeEJIa3ZIbTh3SF9HanFHeWEwYU05aU9hbUlDTUlCVDlPTjY2TnNtWE0zRGZWX2l6NGhQZnpOZTdGY2dlaWFyN1NFWVJfbTZ1QXdhcUp5ajhEaTZ6SlFwZVlFY2VlS25lb011dHpUQkVHd2lITGg4NlNxMTZNY3NfbVJkYzVrY1puTlRBSkNuNlREYldEVjFQMEUwZjRVSHNsRFRNZ0ozRklGdzZRQ2VnQmtDQi1KNTdzc1NWWWlR?oc=5",
           "rank": 4,
           "moot": "Cutting off a rival's tools slows them down, but it also forces them to build their own — restrictions can accelerate the very self-reliance they were meant to prevent."
-        },
-        {
-          "date": "2026-07-15",
-          "title": "JPMorgan is on the cusp of becoming the world's first $1 trillion bank — after the most profitable quarter in US banking history",
-          "category": "economy",
-          "url": "https://qz.com/jpmorgan-record-profit-1-trillion-market-cap-071526",
-          "rank": 5,
-          "moot": "A single blockbuster quarter can be flattered by one-off gains — here a $4.6bn windfall on a Visa stake — so it pays to separate a company's repeatable, everyday earnings from one-time boosts before cheering a record."
         }
       ]
     },
@@ -634,8 +634,16 @@
     "middle-east": {
       "slug": "middle-east",
       "name": "Middle East",
-      "primer": "The Strait of Hormuz is a narrow sea passage between Iran and Oman through which roughly a fifth of the world's oil ships every day — the single most important oil chokepoint on Earth. For nine days the US and Iran have been trading direct military blows, and Iran has repeatedly warned it could disrupt shipping there. 'Brent crude' is the global benchmark price for a barrel of oil; when it rises, fuel and shipping costs rise worldwide.",
+      "primer": "For weeks the US and Iran have been locked in an escalating standoff centred on the Strait of Hormuz — the narrow sea gate at the mouth of the Persian Gulf that carries roughly a fifth of the world's oil. Peace talks aimed at a 'memorandum of understanding' over the strait collapsed, and the two sides slid into near-daily tit-for-tat strikes. This weekend the confrontation crossed a dangerous line: US troops were killed in action, turning a mostly indirect conflict into direct combat between the two militaries.",
       "stories": [
+        {
+          "date": "2026-07-21",
+          "title": "The US and Iran are now trading direct strikes — three American troops killed, and Washington bombs Iran to reopen the Strait of Hormuz",
+          "category": "geopolitics",
+          "url": "https://www.aljazeera.com/news/2026/7/20/trump-vows-iran-will-pay-for-killing-us-soldiers",
+          "rank": 2,
+          "moot": "A single strategic chokepoint can turn a distant war into a worldwide price shock: when about 20% of the planet's seaborne oil squeezes through one narrow strait, a conflict there becomes everyone's problem."
+        },
         {
           "date": "2026-07-20",
           "title": "Yemen's Houthis declare a naval blockade of Saudi Arabia — a new front opens in the widening Gulf war",
@@ -937,8 +945,16 @@
     "iran": {
       "slug": "iran",
       "name": "Iran",
-      "primer": "The US and Iran have been in an escalating shooting war for over a week — the US bombing near Tehran, Iranian missiles killing US troops in Jordan. Kuwait is a small, oil-rich US ally on the Persian Gulf that hosts American forces, so Iran has been firing at US bases there and now at infrastructure. Crucially, Kuwait has almost no natural fresh water: it turns seawater into drinking water at big coastal desalination plants that also generate much of its electricity.",
+      "primer": "For weeks the US and Iran have been locked in an escalating standoff centred on the Strait of Hormuz — the narrow sea gate at the mouth of the Persian Gulf that carries roughly a fifth of the world's oil. Peace talks aimed at a 'memorandum of understanding' over the strait collapsed, and the two sides slid into near-daily tit-for-tat strikes. This weekend the confrontation crossed a dangerous line: US troops were killed in action, turning a mostly indirect conflict into direct combat between the two militaries.",
       "stories": [
+        {
+          "date": "2026-07-21",
+          "title": "The US and Iran are now trading direct strikes — three American troops killed, and Washington bombs Iran to reopen the Strait of Hormuz",
+          "category": "geopolitics",
+          "url": "https://www.aljazeera.com/news/2026/7/20/trump-vows-iran-will-pay-for-killing-us-soldiers",
+          "rank": 2,
+          "moot": "A single strategic chokepoint can turn a distant war into a worldwide price shock: when about 20% of the planet's seaborne oil squeezes through one narrow strait, a conflict there becomes everyone's problem."
+        },
         {
           "date": "2026-07-19",
           "title": "Iran hits Kuwait's water-and-power plants, forcing rationing — the Gulf war spreads to civilian lifelines",
@@ -1114,6 +1130,22 @@
       "name": "India",
       "primer": "India's monsoon (June–September) delivers most of the year's rain — vital for farming, but capable of deadly flooding and landslides, especially in the Himalayan north and the low-lying northeast. 'Cloudbursts' — sudden, extremely intense downpours — can turn hill streams into torrents within minutes.",
       "stories": [
+        {
+          "date": "2026-07-21",
+          "title": "India's oil import bill jumps ~60% to nearly $50 billion in three months — even as it buys less crude",
+          "category": "india",
+          "url": "https://www.livemint.com/news/india/india-imports-crude-oil-worth-nearly-50-bn-in-q1fy27-40-of-fy26-total-crude-import-bill-11784553410619.html",
+          "rank": 21,
+          "moot": "An import bill is price times volume, not just volume — so a country can buy less of something and still pay far more, because the price and the currency it pays in matter as much as the quantity."
+        },
+        {
+          "date": "2026-07-21",
+          "title": "India signals the Indus Waters Treaty 'won't survive in its present form' — hardening its freeze on the water pact with Pakistan",
+          "category": "india",
+          "url": "https://www.thehindu.com/news/national/indus-waters-treaty-will-not-remain-operational-in-its-present-form-says-official/article71246737.ece",
+          "rank": 22,
+          "moot": "Geography is leverage: the country upstream on a shared river holds a quiet but powerful lever over the country downstream, which is why water can become a tool of statecraft, not just an environmental issue."
+        },
         {
           "date": "2026-07-20",
           "title": "A Russian missile hits a merchant ship leaving Odesa — four Indian sailors are killed as the war spreads onto civilian cargo vessels",
@@ -1417,22 +1449,6 @@
           "url": "https://www.aljazeera.com/features/2026/7/19/why-have-indias-gen-z-protesters-called-for-a-march-to-parliament",
           "rank": 34,
           "moot": "Movements gain their loudest moment by timing — a protest staged on the exact day power reconvenes forces the issue onto the official agenda in a way a march on any ordinary day could not."
-        },
-        {
-          "date": "2026-07-19",
-          "title": "NEET score-mismatch row: NTA says some 'proof' sheets from aspirants are AI-generated fakes, warns of legal action",
-          "category": "india",
-          "url": "https://news.careers360.com/neet-result-2026-nta-dismisses-omr-mismatch-allegation-finds-ai-generated-omr-sheets-warns-legal-action",
-          "rank": 35,
-          "moot": "As AI makes convincing fake documents cheap to produce, 'proof' can no longer be taken at face value — institutions increasingly need tamper-evident, verifiable records for anyone to trust the process."
-        },
-        {
-          "date": "2026-07-19",
-          "title": "Monsoon fury batters India's north and northeast — a deadly cloudburst landslide in Nagaland, flash floods in Kashmir",
-          "category": "india",
-          "url": "https://www.newsx.com/regionals/nagaland-landslide-8-feared-dead-4-bodies-recovered-rescue-operations-underway-250215/",
-          "rank": 36,
-          "moot": "Natural hazards turn into human disasters mostly where people are exposed and unprepared — the same rainfall is far deadlier on deforested, over-built hillsides than on protected slopes with good drainage and warning systems."
         }
       ]
     },
@@ -2861,6 +2877,14 @@
       "name": "South America",
       "primer": "Guyana is a small country on the northern coast of South America. Large parts of its interior have no roads, so government-run river-and-coastal ferries are a lifeline that ordinary people rely on to reach remote towns like Port Kaituma in the northwest. When one of those boats fails, there is often no quick backup, and help can be hours away by water.",
       "stories": [
+        {
+          "date": "2026-07-21",
+          "title": "Dozens feared dead after an overloaded ferry sinks off Guyana — 67 rescued, but no survivors found since",
+          "category": "geopolitics",
+          "url": "https://www.cnn.com/2026/07/20/americas/guyana-shipwreck-intl",
+          "rank": 1,
+          "moot": "In a disaster, an accurate list of who is aboard is a life-or-death tool — rescuers cannot save people they don't know are missing, so record-keeping is a safety measure, not just paperwork."
+        },
         {
           "date": "2026-07-20",
           "title": "Spain win the 2026 World Cup — a single extra-time goal ends Messi's last dance",
