@@ -1,4 +1,5 @@
 {
   "budget_usd": 10.0,
-  "window_hours": 5
+  "window_hours": 5,
+  "model": "claude-sonnet-5"
 }

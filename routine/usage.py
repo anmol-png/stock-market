@@ -26,6 +26,10 @@ IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 
 DEFAULT_BUDGET_USD = 10.0      # tunable proxy for the 5-hour Max limit (see module docstring)
 WINDOW_H = 5                   # the Max limit resets on a rolling 5-hour window
+DEFAULT_MODEL = "claude-sonnet-5"   # the pipeline runs on Sonnet to conserve the Max limit; the daily
+                                    # decode/lesson/hourly top-up don't need Opus. Override in config/usage.json
+                                    # ("model": "claude-opus-4-8") to switch back. Interactive Claude Code is
+                                    # unaffected — it uses whatever model you pick in the app.
 
 
 def _now(now: dt.datetime | None = None) -> dt.datetime:
@@ -51,6 +55,11 @@ def _window_h() -> float:
         return float(_cfg().get("window_hours") or WINDOW_H)
     except (TypeError, ValueError):
         return WINDOW_H
+
+
+def _model() -> str:
+    m = _cfg().get("model")
+    return str(m) if m else DEFAULT_MODEL
 
 
 def record(label: str, usage: dict | None, cost_usd: float, *, ts: str | None = None,
@@ -132,7 +141,8 @@ def run_claude(prompt: str, *, claude_bin: str, allowed: list[str], cwd: pathlib
     for attempt in range(1, retries + 1):
         try:
             r = subprocess.run(
-                [claude_bin, "-p", prompt, "--permission-mode", "acceptEdits",
+                [claude_bin, "-p", prompt, "--model", _model(),
+                 "--permission-mode", "acceptEdits",
                  "--allowedTools", *allowed, "--disallowedTools", *disallow,
                  "--output-format", "json"],
                 cwd=str(cwd), capture_output=True, text=True, timeout=timeout,

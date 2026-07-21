@@ -74,6 +74,28 @@ def _load(p: pathlib.Path):
         return None
 
 
+CANDIDATES_CAP = 25       # how many freshest raw headlines per region to hand the analyst each call
+
+
+def _region_candidates(region: str, cap: int = CANDIDATES_CAP) -> list[dict]:
+    """The freshest raw headlines for ONE region, trimmed to the fields the analyst needs.
+
+    Pre-slicing here (free, in Python) is the whole cost story: without it, every region call made Claude
+    read the full ~1.1 MB `world-raw-latest.json` (~285k tokens) just to find a couple of leads. Handing it
+    a ~25-item, ~15 KB shortlist instead cuts the per-call token cost — which is dominated by that read —
+    several-fold. The analyst still uses WebSearch/WebFetch to VET and flesh out the picks it chooses."""
+    raw = _load(OUT / "world-raw-latest.json") or {}
+    items = [it for it in (raw.get("all_headlines") or []) if (it.get("region") or "global") == region]
+    items.sort(key=lambda it: it.get("published_iso") or "", reverse=True)   # freshest first; undated sink
+    return [{
+        "source": it.get("source"),
+        "headline": it.get("headline"),
+        "url": it.get("url"),
+        "published_iso": it.get("published_iso"),
+        "summary": (it.get("summary") or "")[:300],
+    } for it in items[:cap]]
+
+
 def _insert_top_of_region(stories: list[dict], story: dict, region: str) -> list[dict]:
     for i, s in enumerate(stories):
         if _region(s) == region:
@@ -137,6 +159,7 @@ def _decode_region(region: str, count: int, already: set, prior: list[dict], tod
         "regions": [{"key": region, "count": count}],
         "already_today": sorted(already),
         "prior_stories": prior if region in ("global", "india") else [],   # dev-linking is for news
+        "candidates": _region_candidates(region),   # pre-sliced leads — DON'T read the full raw feed
     }, indent=2, ensure_ascii=False))
     hf = OUT / "world-hourly.json"
     if hf.exists():
