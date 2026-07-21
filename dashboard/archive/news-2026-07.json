@@ -1,7 +1,178 @@
 {
   "month": "2026-07",
-  "count": 176,
+  "count": 184,
   "stories": [
+    {
+      "type": "story",
+      "title": "Houthis' Red Sea 'embargo' turns real — Saudi oil tankers start U-turning as the threat to enter the US-Iran war grows",
+      "category": "geopolitics",
+      "published_iso": "2026-07-21T18:16:45+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "The National",
+      "what_happened": "By Tuesday, July 21, the threat stopped being just words: at least five tankers carrying Saudi crude reversed course in the southern Red Sea rather than risk the Bab al-Mandeb strait, the narrow chokepoint Houthi fighters would need to control to make good on the embargo. Two named examples — the Xin Long Yang, loaded with 2 million barrels for China, and the Rodos, carrying about 700,000 barrels for India — both abandoned the strait for the far longer Suez Canal route. Saudi Arabia rejected the Houthi embargo claim as 'disinformation,' saying it has supported Yemen with aid and fuel, and the UN called for immediate de-escalation.",
+      "key_points": [
+        "At least 5 Saudi-linked oil tankers have now reversed course in the Red Sea",
+        "Two big examples: a China-bound ship carrying 2 million barrels, an India-bound one with 700,000",
+        "Ships are taking the long way round via the Suez Canal instead of the Bab al-Mandeb strait",
+        "Analysts warn oil could push above $100 a barrel if the rerouting continues"
+      ],
+      "depth": {
+        "background": "Yemen's Houthis are an Iran-backed armed group that controls most of northern Yemen after a decade-long civil war against a Saudi-led coalition. Since the Gaza war began in 2023, they've repeatedly attacked Red Sea shipping they tie to Israel, forcing many shipping firms to avoid the route already. On Monday, July 20, Houthi spokesman Yahya Saree declared an immediate 'maritime embargo' on Saudi Arabia, saying it was retaliation for a Saudi blockade of Yemen and a strike on Sanaa's airport — an announcement made with no real detail on how it would be enforced.",
+        "sources": [
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/news/gulf/2026/07/21/saudi-arabia-rejects-houthi-maritime-embargo-threat-and-warns-of-red-sea-escalation/"
+          },
+          {
+            "name": "The New York Times",
+            "url": "https://www.nytimes.com/2026/07/21/world/middleeast/houthis-yemen-iran-war.html"
+          }
+        ]
+      },
+      "thread": {
+        "status": "escalating",
+        "day": 2,
+        "previously": "Yesterday, Houthi spokesman Yahya Saree declared an immediate naval blockade of Saudi Arabia, framing it as retaliation for a Saudi blockade of Yemen and a strike on Sanaa's airport.",
+        "changed": "The blockade turned real: at least five Saudi-linked oil tankers have now actually reversed course away from the Bab al-Mandeb strait, and analysts warn oil could break above $100 a barrel if the rerouting continues."
+      },
+      "development": true,
+      "prev_ref": {
+        "title": "Yemen's Houthis declare a naval blockade of Saudi Arabia — a new front opens in the widening Gulf war",
+        "date": "2026-07-20"
+      }
+    },
+    {
+      "type": "story",
+      "title": "Hashmatullah Shahidi resigns as Afghanistan's ODI captain",
+      "category": "cricket",
+      "published_iso": "2026-07-21T18:13:32+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "ESPNcricinfo",
+      "what_happened": "ESPNcricinfo reported on 21 July that Shahidi has resigned as Afghanistan's ODI captain, ending a tenure in which he led the side in 55 ODIs. The report did not detail his reasoning, and the Afghanistan Cricket Board has not yet named who will replace him.",
+      "key_points": [
+        "Steps down after leading Afghanistan in 55 One Day Internationals (ODIs)",
+        "His reign included famous 2023 World Cup wins over England, Pakistan and Sri Lanka",
+        "Comes weeks after Ibrahim Zadran replaced Rashid Khan as Afghanistan's T20I captain",
+        "Afghanistan Cricket Board has not yet named a successor"
+      ],
+      "depth": {
+        "background": "Hashmatullah Shahidi, a steady middle-order batter, took over as Afghanistan's ODI and Test captain in 2021 after the board removed Asghar Afghan. Under him, Afghanistan grew from a plucky underdog into a genuine 50-over threat, peaking at the 2023 World Cup in India where they beat three former champions — England, Pakistan and Sri Lanka — a run that put the cricket world on notice. That rise has come alongside broader turbulence in Afghan cricket leadership: after the team crashed out in the group stage of the 2026 T20 World Cup, the board already replaced Rashid Khan with Ibrahim Zadran as T20I captain.",
+        "sources": [
+          {
+            "name": "ESPNcricinfo",
+            "url": "https://www.cricinfo.com/ci/content/story/1546946.html?ex_cid=OTC-RSS"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Punjab Police say they've foiled a UK-directed plot to bomb a train — 17 arrested over the Moga police-station blast",
+      "category": "india",
+      "published_iso": "2026-07-21T18:10:36+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "Daily Excelsior",
+      "what_happened": "On July 21, 2026, Punjab's Director General of Police Gaurav Yadav announced that police had 'busted' the conspiracy behind the July 8 Moga blast, arresting 17 people and recovering an IED, an electronic detonator, explosive material, and a 9mm Glock pistol with a magazine. Police say the plot's alleged mastermind, Iqbal Singh (alias Ravi Dhaliwal), directed the group from the UK, and that the accused were also planning to plant an explosive device on a train running between Ferozepur and Jammu. An FIR was registered under the Bharatiya Nyaya Sanhita (India's new criminal code), the Explosive Substances Act, the anti-terror UAPA law, and property-damage statutes.",
+      "key_points": [
+        "17 people arrested; an IED, detonator and a 9mm pistol recovered",
+        "Alleged mastermind: Iqbal Singh, alias Ravi Dhaliwal, based in the UK",
+        "Group allegedly planned to plant an IED on a Ferozepur–Jammu train",
+        "Case traces back to a grenade attack on Moga's Sadar police station on July 8"
+      ],
+      "depth": {
+        "background": "On July 8, 2026, an explosion — suspected to be a hand grenade — went off outside the Sadar police station in Moga, Punjab, causing no injuries. It fits a pattern of recent attacks on Punjab police stations and rail infrastructure that investigators have increasingly linked to Pakistan-backed, diaspora-directed militant networks, run by handlers abroad rather than fighters based locally.",
+        "sources": [
+          {
+            "name": "Daily Excelsior",
+            "url": "https://www.dailyexcelsior.com/punjab-police-busts-terror-conspiracy-arrests-17-ied-pistol-seized/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Supreme Court orders a fresh trial in the 1996 Rajasthan bus bombing — 29 years after 14 people were killed",
+      "category": "india",
+      "published_iso": "2026-07-21T17:51:41+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "LiveLaw",
+      "what_happened": "On July 21, 2026, a three-judge Supreme Court bench (Justices Vikram Nath, Sanjay Karol and Sandeep Mehta) set aside both Hameed's conviction and the High Court's 2019 order upholding it, ruling that he had been denied effective legal representation during the original trial. The Court ordered a genuinely fresh trial — not merely a review of the existing evidence — at a new fast-track special court in Jaipur, to be completed within a year, with Hameed guaranteed a lead lawyer of at least 10 years' experience. It also upheld the acquittals of three co-accused, including Pappu alias Salim, who remains on parole.",
+      "key_points": [
+        "SC set aside Abdul Hameed's death sentence and ordered a complete retrial",
+        "Reason: he was denied effective, competent legal representation at trial",
+        "Co-accused Pappu alias Salim stays acquitted; two other acquittals also upheld",
+        "A new fast-track special court in Jaipur must finish the retrial within a year"
+      ],
+      "depth": {
+        "background": "On May 22, 1996, an RDX bomb tore through a Rajasthan Roadways bus near Samleti village on the Agra–Bikaner route, killing 14 people and injuring 37 — a day after a similar bombing in Delhi's Lajpat Nagar market killed 13. Investigators blamed a terror conspiracy tied to the Jammu & Kashmir Islamic Front and Harkat-ul-Ansar militant groups, allegedly timed to disrupt Jammu & Kashmir's 1996 state elections. Abdul Hameed was convicted only in 2014 — 18 years after the blast — and sentenced to death; Rajasthan's High Court upheld that conviction in 2019.",
+        "sources": [
+          {
+            "name": "LiveLaw",
+            "url": "https://www.livelaw.in/top-stories/supreme-court-sets-aside-convicts-death-penalty-1996-samleti-bus-bomb-blast-542142"
+          },
+          {
+            "name": "Lawbeat",
+            "url": "https://lawbeat.in/top-stories/1996-rajasthan-bus-bomb-blast-supreme-court-sets-aside-death-sentence-orders-fresh-trial-after-29-years-1614362"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Trump readies fresh tariffs on dozens of countries as his 10% global tariff truce expires this Friday",
+      "category": "economy",
+      "published_iso": "2026-07-21T17:45:09+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "Reuters",
+      "what_happened": "On July 21, the Financial Times reported — per Reuters, which said it could not independently verify the FT's account — that Trump is preparing to announce fresh tariffs on dozens of countries, potentially as soon as this week. The trigger is that his existing 10% global tariff is due to expire this Friday, July 24. The FT says the most likely new duties would start at around that same 10% rate, but the administration is also pursuing separate trade investigations that could give it legal grounds to impose higher tariffs on specific countries later.",
+      "key_points": [
+        "FT reports Trump could unveil new tariffs on dozens of countries as soon as this week",
+        "His current across-the-board 10% global tariff expires Friday, July 24",
+        "New duties are expected to start around that same 10% level",
+        "Separate trade investigations could let the administration push some rates higher later"
+      ],
+      "depth": {
+        "background": "Since returning to office, Trump has used a temporary, blanket tariff — a flat import tax applied to goods from almost every country — as a baseline trade tool, alongside country-specific deals and higher 'reciprocal' tariffs matched to what other nations charge US exporters (like the 50% tariff just placed on Canada over autos, alcohol and cheese). These blanket tariffs have been repeatedly set to expire and then renewed or replaced, becoming a recurring deadline that markets and trading partners now watch closely.",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.thestar.com.my/news/world/2026/07/21/trump-prepares-fresh-tariffs-on-dozens-of-countries-ft-reports"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/economy/policy/articles/trump-prepares-fresh-tariffs-dozens-101724793.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "Ben Stokes marks his return from Test retirement with a stunning comeback century for Durham",
+      "category": "cricket",
+      "published_iso": "2026-07-21T17:38:41+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "BBC Sport",
+      "what_happened": "Playing for Durham against Derbyshire in the One-Day Cup at Derby on 21 July, Stokes made his first appearance in competitive cricket since retiring from Tests. Despite carrying a leg injury, he produced a matchwinning century that carried Durham to victory, drawing a crowd of around 1,300 to a domestic fixture that would normally attract far less attention.",
+      "key_points": [
+        "First competitive innings since retiring from Test cricket",
+        "Battled a leg injury to score a matchwinning hundred",
+        "Powered Durham to victory over Derbyshire in the One-Day Cup",
+        "His innings overshadowed The Hundred's opening night the same evening"
+      ],
+      "depth": {
+        "background": "Ben Stokes, England's Test captain and one of the sport's biggest names since his match-winning heroics in the 2019 World Cup final, recently stepped away from Test cricket. Durham is his boyhood county, and rather than featuring in this year's Hundred (English cricket's flagship T20 franchise league), he chose to return to the game through the more traditional 50-over County format — a lower-key stage for such a high-profile comeback.",
+        "sources": [
+          {
+            "name": "BBC Sport",
+            "url": "https://www.bbc.co.uk/sport/cricket/articles/cd0xedekm7no?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "name": "ESPNcricinfo",
+            "url": "https://www.cricinfo.com/ci/content/story/1546490.html?ex_cid=OTC-RSS"
+          }
+        ]
+      }
+    },
     {
       "type": "story",
       "title": "MERGE-TEST global cloud story",
@@ -300,6 +471,62 @@
           {
             "name": "Sky Sports",
             "url": "https://www.skysports.com/f1/news/12433/13563569/mclaren-confirm-significant-upgrades-before-f1-summer-break-heading-into-belgian-hungarian-grands-prix-double-header"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "F1's rookie rule kicks in at the Hungarian GP — Piastri, Bearman and Colapinto all sit out first practice",
+      "category": "f1",
+      "published_iso": "2026-07-21T15:41:43+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "Motorsport.com",
+      "what_happened": "At this weekend's Hungarian Grand Prix, three regular race drivers are stepping aside for Friday's first practice session to satisfy this rule. Leonardo Fornaroli, the reigning Formula 2 champion and McLaren's protégé, again takes over from Oscar Piastri. Toyota-backed Ryo Hirakawa replaces Oliver Bearman at Haas, and Paul Aron — on his third outing this year — takes Franco Colapinto's Alpine seat.",
+      "key_points": [
+        "McLaren's Oscar Piastri, Haas's Oliver Bearman and Alpine's Franco Colapinto all miss FP1 at the Hungaroring",
+        "Their seats go to juniors: Leonardo Fornaroli (McLaren), Ryo Hirakawa (Haas) and Paul Aron (Alpine)",
+        "F1 rules force every team to hand two FP1 sessions per car per year to a rookie",
+        "It's Fornaroli's second FP1 outing of 2026, Aron's third — both are proving themselves for a future seat"
+      ],
+      "depth": {
+        "background": "F1 cars are so expensive and complex that teams almost never let an unproven driver near one in an actual race. So the sport's rulebook forces the issue: every team must give a 'rookie' — someone who has driven in two or fewer F1 races — a run in first practice (FP1) at least twice per car, every season. It's how young drivers from a team's junior academy get real seat time in a current F1 car instead of just simulators.",
+        "sources": [
+          {
+            "name": "Motorsport.com",
+            "url": "https://www.motorsport.com/f1/news/piastri-colapinto-bearman-to-skip-fp1-as-rookie-drivers-join-f1-hungary-weekend/10840763/"
+          },
+          {
+            "name": "Yahoo Sports",
+            "url": "https://sports.yahoo.com/articles/piastri-colapinto-bearman-skip-fp1-154143643.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "title": "F1's next generation duels it out: Tsolov stretches his F2 points lead as the junior title fight tightens at Spa",
+      "category": "f1",
+      "published_iso": "2026-07-21T14:34:38+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "Motorsport.com",
+      "what_happened": "After the Spa-Francorchamps round of the 2026 F2 season, Red Bull's Nikola Tsolov leads the drivers' standings with 161 points, built on six wins this year including a run of three in a row — a record for the series, previously only matched in its GP2-era predecessor. Alpine Academy's Gabriele Mini sits second on 134, with Ferrari Driver Academy's Rafael Camara third (125) and Alpine's Alex Dunne fourth (108).",
+      "key_points": [
+        "Red Bull junior Nikola Tsolov leads Formula 2 on 161 points, 27 clear of second place",
+        "He's won six races this season, including three in a row — a Formula 2 record",
+        "Alpine's Gabriele Mini (134), Ferrari junior Rafael Camara (125) and Alpine's Alex Dunne (108) chase him",
+        "Eight of 14 rounds are done — the standings were set after this weekend's Spa-Francorchamps round"
+      ],
+      "depth": {
+        "background": "Formula 2 is the main feeder championship directly below F1 — nearly every current F1 driver raced here first. Most F2 drivers are funded by an F1 team's junior 'academy' program (Red Bull, Ferrari, Alpine and others all run one), which pays for their seat and grooms them as a future F1 prospect. A dominant F2 season is usually the strongest evidence a young driver can present when lobbying for a real F1 seat.",
+        "sources": [
+          {
+            "name": "Motorsport.com",
+            "url": "https://www.motorsport.com/fia-f2/news/f2-title-race-takes-shape-as-f1-juniors-shine-at-spa/10840739/"
+          },
+          {
+            "name": "F1ingenerale",
+            "url": "https://f1ingenerale.com/en/f1/f2-2026-standings-after-miami-tsolov-leads-drivers-campos-tops-teams-with-minis-strong-rise/"
           }
         ]
       }

@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T23:25:50+05:30",
+  "generated_at": "2026-07-22T00:10:55+05:30",
   "day_label": "Tuesday · 21 July 2026",
   "dashboard_url": "../",
   "cards": [
@@ -8,6 +8,129 @@
       "type": "story",
       "id": "story-1",
       "rank": 1,
+      "category": "economy",
+      "is_new": true,
+      "published_iso": "2026-07-21T17:45:09+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "Reuters",
+      "importance": "high",
+      "regions": [
+        "US",
+        "Global"
+      ],
+      "title": "Trump readies fresh tariffs on dozens of countries as his 10% global tariff truce expires this Friday",
+      "what_happened": "On July 21, the Financial Times reported — per Reuters, which said it could not independently verify the FT's account — that Trump is preparing to announce fresh tariffs on dozens of countries, potentially as soon as this week. The trigger is that his existing 10% global tariff is due to expire this Friday, July 24. The FT says the most likely new duties would start at around that same 10% rate, but the administration is also pursuing separate trade investigations that could give it legal grounds to impose higher tariffs on specific countries later.",
+      "key_points": [
+        "FT reports Trump could unveil new tariffs on dozens of countries as soon as this week",
+        "His current across-the-board 10% global tariff expires Friday, July 24",
+        "New duties are expected to start around that same 10% level",
+        "Separate trade investigations could let the administration push some rates higher later"
+      ],
+      "moot": "Emergency or 'temporary' trade measures rarely stay temporary — once a tariff becomes the default baseline, expiration dates tend to turn into renewal dates, so businesses increasingly have to plan for tariffs as a permanent cost of trading with the US rather than a short-term shock.",
+      "concepts": [
+        "tariffs",
+        "supply_chain"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "Since returning to office, Trump has used a temporary, blanket tariff — a flat import tax applied to goods from almost every country — as a baseline trade tool, alongside country-specific deals and higher 'reciprocal' tariffs matched to what other nations charge US exporters (like the 50% tariff just placed on Canada over autos, alcohol and cheese). These blanket tariffs have been repeatedly set to expire and then renewed or replaced, becoming a recurring deadline that markets and trading partners now watch closely.",
+        "why_it_matters": "A simultaneous tariff decision covering dozens of countries — rather than one country at a time — raises import costs broadly and signals the administration intends to keep a high tariff floor as a permanent feature of US trade policy, not a temporary negotiating chip that quietly disappears once talks are done.",
+        "ripple_effects": "Countries facing the Friday deadline may rush last-minute trade talks to avoid or soften new duties. Exporters selling into the US, and their stock prices, could see volatility this week. US consumers may see import costs — and eventually retail prices — tick up on goods still under tariff. Some governments could retaliate, as Canada has already vowed to over its 50% tariff.",
+        "why_now": "The current 10% global tariff has a hard legal expiration date of Friday, July 24, forcing the White House to decide this week whether to let it lapse, extend it, or replace it — right as it's already in a tariff fight with Canada and dealing with the economic fallout of the Iran war.",
+        "watch_next": "What the White House actually announces before or on Friday, July 24, and which countries are named in the new tariff list.",
+        "market_link": "A broad tariff renewal raises risk for export-heavy sectors and emerging-market currencies, adds to inflation pressure, and could complicate the Fed's rate-cut plans — worth watching shipping, retail, and auto-parts stocks this week.",
+        "key_terms": [
+          {
+            "term": "Reciprocal tariff",
+            "definition": "A tariff pitched as matching what another country charges on similar US goods — though in practice it has often been applied as a broad, blanket import tax rather than a precise match."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.thestar.com.my/news/world/2026/07/21/trump-prepares-fresh-tariffs-on-dozens-of-countries-ft-reports"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/economy/policy/articles/trump-prepares-fresh-tariffs-dozens-101724793.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-2",
+      "rank": 2,
+      "category": "geopolitics",
+      "is_new": true,
+      "development": true,
+      "prev_ref": {
+        "title": "Yemen's Houthis declare a naval blockade of Saudi Arabia — a new front opens in the widening Gulf war",
+        "date": "2026-07-20"
+      },
+      "published_iso": "2026-07-21T18:16:45+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "The National",
+      "importance": "critical",
+      "regions": [
+        "Middle East",
+        "Red Sea / Gulf",
+        "Asia"
+      ],
+      "title": "Houthis' Red Sea 'embargo' turns real — Saudi oil tankers start U-turning as the threat to enter the US-Iran war grows",
+      "what_happened": "By Tuesday, July 21, the threat stopped being just words: at least five tankers carrying Saudi crude reversed course in the southern Red Sea rather than risk the Bab al-Mandeb strait, the narrow chokepoint Houthi fighters would need to control to make good on the embargo. Two named examples — the Xin Long Yang, loaded with 2 million barrels for China, and the Rodos, carrying about 700,000 barrels for India — both abandoned the strait for the far longer Suez Canal route. Saudi Arabia rejected the Houthi embargo claim as 'disinformation,' saying it has supported Yemen with aid and fuel, and the UN called for immediate de-escalation.",
+      "key_points": [
+        "At least 5 Saudi-linked oil tankers have now reversed course in the Red Sea",
+        "Two big examples: a China-bound ship carrying 2 million barrels, an India-bound one with 700,000",
+        "Ships are taking the long way round via the Suez Canal instead of the Bab al-Mandeb strait",
+        "Analysts warn oil could push above $100 a barrel if the rerouting continues"
+      ],
+      "moot": "Markets and shippers react to behavior, not announcements — a threat only moves prices once someone actually turns a ship around. Watching what people DO in response to a threat tells you more about how real it is than the threat itself.",
+      "thread": {
+        "status": "escalating",
+        "day": 2,
+        "previously": "Yesterday, Houthi spokesman Yahya Saree declared an immediate naval blockade of Saudi Arabia, framing it as retaliation for a Saudi blockade of Yemen and a strike on Sanaa's airport.",
+        "changed": "The blockade turned real: at least five Saudi-linked oil tankers have now actually reversed course away from the Bab al-Mandeb strait, and analysts warn oil could break above $100 a barrel if the rerouting continues."
+      },
+      "concepts": [
+        "strait_chokepoint",
+        "crude_geopolitics",
+        "opec"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "Yemen's Houthis are an Iran-backed armed group that controls most of northern Yemen after a decade-long civil war against a Saudi-led coalition. Since the Gaza war began in 2023, they've repeatedly attacked Red Sea shipping they tie to Israel, forcing many shipping firms to avoid the route already. On Monday, July 20, Houthi spokesman Yahya Saree declared an immediate 'maritime embargo' on Saudi Arabia, saying it was retaliation for a Saudi blockade of Yemen and a strike on Sanaa's airport — an announcement made with no real detail on how it would be enforced.",
+        "why_it_matters": "This is the moment a rhetorical threat became an economic fact: real ships changing real routes. It matters because it's unfolding while the US and Iran are already trading strikes over the Strait of Hormuz — so a second chokepoint, the Bab al-Mandeb, is now also at risk, widening the war's reach over global oil and shipping rather than keeping it contained to one strait.",
+        "ripple_effects": "Rerouting via the Suez Canal roughly doubles the sailing distance to Asia, and shipping analysts expect global freight rates to rise 5–10% if more vessels follow. One analyst flagged oil could break above $100 a barrel — a level not seen in this cycle — which would raise fuel and import costs hardest for big buyers like India and China, the two destinations of the tankers that just turned back. Insurers may also start charging more to cover ships transiting the Red Sea.",
+        "why_now": "The embargo declaration came right after the Houthis accused Saudi Arabia of blockading Yemen and striking Sanaa's airport, and it's landing on top of an already-live US-Iran war reshaping oil and shipping routes around the Gulf — so shippers are erring on the side of caution rather than testing whether the threat is real.",
+        "watch_next": "Whether more tankers and shipping insurers start avoiding the Bab al-Mandeb strait altogether, and whether Saudi Arabia responds diplomatically or moves toward military action against the Houthis.",
+        "market_link": "Brent crude could push toward or past $100/barrel if the rerouting persists; tanker and freight rates likely rise; oil-importing economies like India face a costlier import bill and added pressure on the rupee.",
+        "key_terms": [
+          {
+            "term": "Bab al-Mandeb strait",
+            "definition": "A narrow sea passage between Yemen and Djibouti that ships must cross to reach the Red Sea and Suez Canal — a classic 'chokepoint' where a small disruption can ripple through global trade."
+          },
+          {
+            "term": "Maritime embargo",
+            "definition": "A declared ban on ships travelling to or from a country or region, here used by an armed group rather than a government to threaten shipping."
+          }
+        ],
+        "sources": [
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/news/gulf/2026/07/21/saudi-arabia-rejects-houthi-maritime-embargo-threat-and-warns-of-red-sea-escalation/"
+          },
+          {
+            "name": "The New York Times",
+            "url": "https://www.nytimes.com/2026/07/21/world/middleeast/houthis-yemen-iran-war.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-3",
+      "rank": 3,
       "category": "technology",
       "is_new": true,
       "published_iso": "2026-07-21T16:53:37+00:00",
@@ -67,8 +190,8 @@
     },
     {
       "type": "story",
-      "id": "story-2",
-      "rank": 2,
+      "id": "story-4",
+      "rank": 4,
       "category": "geopolitics",
       "is_new": true,
       "published_iso": "2026-07-21T12:33:15+00:00",
@@ -125,10 +248,9 @@
     },
     {
       "type": "story",
-      "id": "story-3",
-      "rank": 3,
+      "id": "story-5",
+      "rank": 5,
       "category": "climate",
-      "is_new": true,
       "published_iso": "2026-07-21T09:38:14+00:00",
       "added_at": "2026-07-21T22:34:41+05:30",
       "source": "The New York Times",
@@ -185,10 +307,9 @@
     },
     {
       "type": "story",
-      "id": "story-4",
-      "rank": 4,
+      "id": "story-6",
+      "rank": 6,
       "category": "technology",
-      "is_new": true,
       "published_iso": "2026-07-21T12:33:44+00:00",
       "added_at": "2026-07-21T22:34:41+05:30",
       "source": "Microsoft Source (official announcement)",
@@ -247,8 +368,8 @@
     },
     {
       "type": "story",
-      "id": "story-5",
-      "rank": 5,
+      "id": "story-7",
+      "rank": 7,
       "category": "technology",
       "published_iso": "2026-07-21T10:13:43+00:00",
       "added_at": "2026-07-21T18:09:17+05:30",
@@ -308,8 +429,8 @@
     },
     {
       "type": "story",
-      "id": "story-6",
-      "rank": 6,
+      "id": "story-8",
+      "rank": 8,
       "category": "geopolitics",
       "published_iso": "2026-07-20T19:05:50+00:00",
       "added_at": "2026-07-21T18:09:17+05:30",
@@ -372,8 +493,8 @@
     },
     {
       "type": "story",
-      "id": "story-7",
-      "rank": 7,
+      "id": "story-9",
+      "rank": 9,
       "category": "economy",
       "published_iso": "2026-07-21T11:35:46+00:00",
       "added_at": "2026-07-21T17:40:11+05:30",
@@ -425,8 +546,8 @@
     },
     {
       "type": "story",
-      "id": "story-8",
-      "rank": 8,
+      "id": "story-10",
+      "rank": 10,
       "category": "geopolitics",
       "published_iso": "2026-07-21T10:43:48+00:00",
       "added_at": "2026-07-21T17:40:11+05:30",
@@ -480,8 +601,8 @@
     },
     {
       "type": "story",
-      "id": "story-9",
-      "rank": 9,
+      "id": "story-11",
+      "rank": 11,
       "category": "geopolitics",
       "published_iso": "2026-07-21T00:49:04+00:00",
       "added_at": "2026-07-21T14:00:26+05:30",
@@ -535,8 +656,8 @@
     },
     {
       "type": "story",
-      "id": "story-10",
-      "rank": 10,
+      "id": "story-12",
+      "rank": 12,
       "category": "geopolitics",
       "development": true,
       "prev_ref": {
@@ -606,8 +727,8 @@
     },
     {
       "type": "story",
-      "id": "story-11",
-      "rank": 11,
+      "id": "story-13",
+      "rank": 13,
       "category": "geopolitics",
       "published_iso": "2026-07-21T03:49:57+00:00",
       "added_at": "2026-07-21T12:19:50+05:30",
@@ -668,8 +789,8 @@
     },
     {
       "type": "story",
-      "id": "story-12",
-      "rank": 12,
+      "id": "story-14",
+      "rank": 14,
       "category": "economy",
       "published_iso": "2026-07-21T00:34:47+00:00",
       "added_at": "2026-07-21T12:19:50+05:30",
@@ -733,8 +854,8 @@
     },
     {
       "type": "story",
-      "id": "story-14",
-      "rank": 14,
+      "id": "story-16",
+      "rank": 16,
       "category": "geopolitics",
       "published_iso": "2026-07-20T18:21:39+00:00",
       "added_at": "2026-07-21T00:20:35+05:30",
@@ -799,8 +920,8 @@
     },
     {
       "type": "story",
-      "id": "story-16",
-      "rank": 16,
+      "id": "story-18",
+      "rank": 18,
       "category": "economy",
       "published_iso": "2026-07-20T17:32:42+00:00",
       "added_at": "2026-07-20T23:31:55+05:30",
@@ -855,8 +976,8 @@
     },
     {
       "type": "story",
-      "id": "story-17",
-      "rank": 17,
+      "id": "story-19",
+      "rank": 19,
       "category": "geopolitics",
       "published_iso": "2026-07-20T16:31:48+00:00",
       "added_at": "2026-07-20T22:52:56+05:30",
@@ -912,8 +1033,8 @@
     },
     {
       "type": "story",
-      "id": "story-18",
-      "rank": 18,
+      "id": "story-20",
+      "rank": 20,
       "category": "geopolitics",
       "published_iso": "2026-07-20T16:10:38+00:00",
       "added_at": "2026-07-20T22:52:56+05:30",
@@ -968,64 +1089,100 @@
     },
     {
       "type": "story",
-      "id": "story-19",
-      "rank": 19,
-      "category": "geopolitics",
-      "published_iso": "2026-07-20T12:15:49+00:00",
-      "added_at": "2026-07-20T18:08:40+05:30",
-      "source": "The National",
+      "id": "story-21",
+      "rank": 21,
+      "category": "india",
+      "is_new": true,
+      "published_iso": "2026-07-21T18:10:36+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "Daily Excelsior",
       "importance": "high",
-      "regions": [
-        "Middle East"
-      ],
-      "title": "Yemen's Houthis declare a naval blockade of Saudi Arabia — a new front opens in the widening Gulf war",
-      "what_happened": "On Monday, July 20, Houthi military spokesman Yahya Saree declared an immediate naval blockade of Saudi Arabia, saying it was a response to what the group calls Saudi Arabia's long-running 'siege' of Yemen. The announcement — reported by Reuters, AFP and Gulf outlets — is so far a declaration; the Houthis have not yet shown they can actually halt Saudi-bound shipping, and it lands amid the ongoing US-Iran conflict.",
+      "regions": [],
+      "title": "Punjab Police say they've foiled a UK-directed plot to bomb a train — 17 arrested over the Moga police-station blast",
+      "what_happened": "On July 21, 2026, Punjab's Director General of Police Gaurav Yadav announced that police had 'busted' the conspiracy behind the July 8 Moga blast, arresting 17 people and recovering an IED, an electronic detonator, explosive material, and a 9mm Glock pistol with a magazine. Police say the plot's alleged mastermind, Iqbal Singh (alias Ravi Dhaliwal), directed the group from the UK, and that the accused were also planning to plant an explosive device on a train running between Ferozepur and Jammu. An FIR was registered under the Bharatiya Nyaya Sanhita (India's new criminal code), the Explosive Substances Act, the anti-terror UAPA law, and property-damage statutes.",
       "key_points": [
-        "Houthi spokesman Yahya Saree announced an 'immediate' maritime blockade",
-        "The group says it answers a Saudi 'siege' of Yemen",
-        "Follows the first Houthi-Saudi fire exchange in years",
-        "Saudi Arabia is weighing a military response"
+        "17 people arrested; an IED, detonator and a 9mm pistol recovered",
+        "Alleged mastermind: Iqbal Singh, alias Ravi Dhaliwal, based in the UK",
+        "Group allegedly planned to plant an IED on a Ferozepur–Jammu train",
+        "Case traces back to a grenade attack on Moga's Sadar police station on July 8"
       ],
-      "moot": "A blockade doesn't have to sink a single ship to bite: the mere threat pushes up insurance and freight costs and reroutes traffic, so markets price the disruption long before any shots are fired.",
-      "concepts": [
-        "crude_geopolitics",
-        "strait_chokepoint",
-        "proxy_war"
-      ],
+      "moot": "Modern terror plots are increasingly run like remotely managed franchises — a handler abroad recruits and directs local operatives who may never meet them, which is why counter-terror work now leans as much on tracking money and communications as on watching known militants.",
+      "concepts": [],
       "figures": [],
       "depth": {
-        "background": "The Houthis are an Iran-aligned armed movement that controls northern Yemen, including the capital Sanaa, after years of civil war against a Saudi-led coalition. Since 2023 they have attacked ships in the Red Sea, one of the world's busiest trade routes. Tensions with Saudi Arabia flared again this month: the Houthis accuse Riyadh of striking Sanaa's airport to block a plane carrying their officials, and last week the two sides traded direct fire for the first time in years, with Houthi missiles aimed at the Saudi city of Abha.",
-        "why_it_matters": "Saudi Arabia is one of the world's largest oil exporters, and its trade moves by sea. Even a threat to blockade its shipping raises the 'risk premium' baked into oil prices — the extra cost markets add for the chance that supply gets disrupted. It also widens a regional war that already spans Iran, the US, Israel and the Gulf states.",
-        "ripple_effects": "Expect upward pressure on crude oil and on shipping-insurance and freight costs, as vessels may reroute or demand danger pay to sail near Saudi ports. Gulf stock markets and airlines are exposed. Riyadh is reportedly weighing military escalation, which would deepen the conflict rather than contain it.",
-        "why_now": "It is direct retaliation for the alleged Saudi strike on Sanaa airport and last week's missile exchanges, and it fits a broader escalation as the US-Iran war drags in more of the region.",
-        "watch_next": "Whether the Houthis actually attack Saudi-bound ships — turning the declaration into a real blockade — and how Saudi Arabia responds militarily.",
-        "market_link": "Bullish for crude oil (Brent/WTI) and tanker/shipping rates; a fresh worry for Gulf equities, airlines and any economy that imports Middle East oil, including India.",
+        "background": "On July 8, 2026, an explosion — suspected to be a hand grenade — went off outside the Sadar police station in Moga, Punjab, causing no injuries. It fits a pattern of recent attacks on Punjab police stations and rail infrastructure that investigators have increasingly linked to Pakistan-backed, diaspora-directed militant networks, run by handlers abroad rather than fighters based locally.",
+        "why_it_matters": "A foiled train bombing is a mass-casualty plot stopped before it happened — trains are hard to secure and can carry hundreds of people. The case also shows Punjab remains a live front for cross-border-linked terrorism, with plots allegedly directed by handlers who never set foot in India.",
+        "ripple_effects": "Expect tighter security around railway lines and stations in Punjab, particularly the Ferozepur–Jammu corridor, and continued Indian pressure on foreign governments — the UK in this case — to act against India-designated handlers operating from their soil. It also feeds into India's broader diplomatic pushback on cross-border terror financing and planning.",
+        "why_now": "The arrests are the result of an investigation running since the July 8 blast; police announced the breakthrough today once all 17 arrests were made and the explosives recovered.",
+        "watch_next": "Whether the National Investigation Agency (NIA) takes over the case given its UAPA and cross-border dimensions, and whether the UK responds to any Indian request regarding the alleged UK-based handler.",
+        "market_link": null,
         "key_terms": [
           {
-            "term": "Naval blockade",
-            "definition": "An attempt to cut off a country's sea traffic — stopping ships from reaching or leaving its ports — to pressure it."
-          },
-          {
-            "term": "Risk premium",
-            "definition": "The extra amount added to a price (here, oil) to compensate for the danger that supply could be disrupted."
+            "term": "UAPA",
+            "definition": "The Unlawful Activities (Prevention) Act — India's main anti-terrorism law, used to prosecute conspiracies and organizations, not just individual violent acts."
           }
         ],
         "sources": [
           {
-            "name": "The National",
-            "url": "https://www.thenationalnews.com/news/2026/07/20/houthis-announce-maritime-ban-on-saudi-arabia-citing-blockade-of-yemen/"
-          },
-          {
-            "name": "The Korea Times (AFP)",
-            "url": "https://www.koreatimes.co.kr/world/20260720/yemens-houthis-declare-naval-blockade-against-saudi-arabia-statement"
+            "name": "Daily Excelsior",
+            "url": "https://www.dailyexcelsior.com/punjab-police-busts-terror-conspiracy-arrests-17-ied-pistol-seized/"
           }
         ]
       }
     },
     {
       "type": "story",
-      "id": "story-21",
-      "rank": 21,
+      "id": "story-22",
+      "rank": 22,
+      "category": "india",
+      "is_new": true,
+      "published_iso": "2026-07-21T17:51:41+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "LiveLaw",
+      "importance": "notable",
+      "regions": [],
+      "title": "Supreme Court orders a fresh trial in the 1996 Rajasthan bus bombing — 29 years after 14 people were killed",
+      "what_happened": "On July 21, 2026, a three-judge Supreme Court bench (Justices Vikram Nath, Sanjay Karol and Sandeep Mehta) set aside both Hameed's conviction and the High Court's 2019 order upholding it, ruling that he had been denied effective legal representation during the original trial. The Court ordered a genuinely fresh trial — not merely a review of the existing evidence — at a new fast-track special court in Jaipur, to be completed within a year, with Hameed guaranteed a lead lawyer of at least 10 years' experience. It also upheld the acquittals of three co-accused, including Pappu alias Salim, who remains on parole.",
+      "key_points": [
+        "SC set aside Abdul Hameed's death sentence and ordered a complete retrial",
+        "Reason: he was denied effective, competent legal representation at trial",
+        "Co-accused Pappu alias Salim stays acquitted; two other acquittals also upheld",
+        "A new fast-track special court in Jaipur must finish the retrial within a year"
+      ],
+      "moot": "A conviction — even a death sentence — isn't final if the process that produced it was unfair; courts can and do unwind decades-old verdicts when a basic right, like competent legal defense, was denied at the time.",
+      "concepts": [
+        "supreme_court_india"
+      ],
+      "figures": [],
+      "depth": {
+        "background": "On May 22, 1996, an RDX bomb tore through a Rajasthan Roadways bus near Samleti village on the Agra–Bikaner route, killing 14 people and injuring 37 — a day after a similar bombing in Delhi's Lajpat Nagar market killed 13. Investigators blamed a terror conspiracy tied to the Jammu & Kashmir Islamic Front and Harkat-ul-Ansar militant groups, allegedly timed to disrupt Jammu & Kashmir's 1996 state elections. Abdul Hameed was convicted only in 2014 — 18 years after the blast — and sentenced to death; Rajasthan's High Court upheld that conviction in 2019.",
+        "why_it_matters": "This isn't a technicality — the Court is saying a man spent over a decade on death row after a trial that failed a basic constitutional guarantee: a real, competent defense. That's a serious statement about how fragile even a major terrorism conviction can be if the legal process gets the fundamentals wrong.",
+        "ripple_effects": "Hameed goes back into judicial custody awaiting a new trial rather than walking free or facing execution, though he can now seek bail on the retrial's own merits. The ruling may also prompt other convicts from that era to challenge old verdicts on the same 'ineffective counsel' ground, and puts renewed scrutiny on how death-penalty trials were conducted in the 1990s and 2000s.",
+        "why_now": "The ruling caps three decades of appeals since the original bombing, reflecting how slowly India's higher courts can move through capital cases — the Supreme Court had the matter pending for years before finally deciding it today.",
+        "watch_next": "Whether Rajasthan's High Court sets up the ordered fast-track special court in Jaipur, and whether Hameed applies for bail during the one-year retrial window.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "ineffective assistance of counsel",
+            "definition": "A legal doctrine holding that a conviction can be overturned if the defendant's lawyer performed so poorly it undermined the fairness of the trial."
+          }
+        ],
+        "sources": [
+          {
+            "name": "LiveLaw",
+            "url": "https://www.livelaw.in/top-stories/supreme-court-sets-aside-convicts-death-penalty-1996-samleti-bus-bomb-blast-542142"
+          },
+          {
+            "name": "Lawbeat",
+            "url": "https://lawbeat.in/top-stories/1996-rajasthan-bus-bomb-blast-supreme-court-sets-aside-death-sentence-orders-fresh-trial-after-29-years-1614362"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-23",
+      "rank": 23,
       "category": "india",
       "published_iso": "2026-07-21T10:57:52+00:00",
       "added_at": "2026-07-21T18:09:17+05:30",
@@ -1084,8 +1241,8 @@
     },
     {
       "type": "story",
-      "id": "story-22",
-      "rank": 22,
+      "id": "story-24",
+      "rank": 24,
       "category": "india",
       "published_iso": "2026-07-20T17:16:39+00:00",
       "added_at": "2026-07-21T18:09:17+05:30",
@@ -1144,8 +1301,8 @@
     },
     {
       "type": "story",
-      "id": "story-23",
-      "rank": 23,
+      "id": "story-25",
+      "rank": 25,
       "category": "india",
       "published_iso": "2026-07-21T11:47:16+00:00",
       "added_at": "2026-07-21T17:40:11+05:30",
@@ -1196,8 +1353,8 @@
     },
     {
       "type": "story",
-      "id": "story-24",
-      "rank": 24,
+      "id": "story-26",
+      "rank": 26,
       "category": "india",
       "development": true,
       "prev_ref": {
@@ -1272,8 +1429,8 @@
     },
     {
       "type": "story",
-      "id": "story-25",
-      "rank": 25,
+      "id": "story-27",
+      "rank": 27,
       "category": "india",
       "published_iso": "2026-07-20T06:01:00+00:00",
       "added_at": "2026-07-21T14:00:26+05:30",
@@ -1330,8 +1487,8 @@
     },
     {
       "type": "story",
-      "id": "story-26",
-      "rank": 26,
+      "id": "story-28",
+      "rank": 28,
       "category": "india",
       "published_iso": "2026-07-21T04:20:00+00:00",
       "added_at": "2026-07-21T14:00:26+05:30",
@@ -1400,8 +1557,8 @@
     },
     {
       "type": "story",
-      "id": "story-27",
-      "rank": 27,
+      "id": "story-29",
+      "rank": 29,
       "category": "india",
       "published_iso": "2026-07-21T06:40:03+00:00",
       "added_at": "2026-07-21T12:19:50+05:30",
@@ -1463,8 +1620,8 @@
     },
     {
       "type": "story",
-      "id": "story-28",
-      "rank": 28,
+      "id": "story-30",
+      "rank": 30,
       "category": "india",
       "published_iso": "2026-07-21T06:37:15+00:00",
       "added_at": "2026-07-21T12:19:50+05:30",
@@ -1521,8 +1678,8 @@
     },
     {
       "type": "story",
-      "id": "story-29",
-      "rank": 29,
+      "id": "story-31",
+      "rank": 31,
       "category": "india",
       "published_iso": "2026-07-20T16:48:37+00:00",
       "added_at": "2026-07-21T00:20:35+05:30",
@@ -1582,8 +1739,8 @@
     },
     {
       "type": "story",
-      "id": "story-30",
-      "rank": 30,
+      "id": "story-32",
+      "rank": 32,
       "category": "india",
       "published_iso": "2026-07-20T18:41:12+00:00",
       "added_at": "2026-07-21T00:20:35+05:30",
@@ -1641,8 +1798,8 @@
     },
     {
       "type": "story",
-      "id": "story-31",
-      "rank": 31,
+      "id": "story-33",
+      "rank": 33,
       "category": "india",
       "published_iso": "2026-07-20T17:06:19+00:00",
       "added_at": "2026-07-20T23:31:55+05:30",
@@ -1710,8 +1867,8 @@
     },
     {
       "type": "story",
-      "id": "story-32",
-      "rank": 32,
+      "id": "story-34",
+      "rank": 34,
       "category": "india",
       "published_iso": "2026-07-20T17:33:40+00:00",
       "added_at": "2026-07-20T23:31:55+05:30",
@@ -1762,8 +1919,8 @@
     },
     {
       "type": "story",
-      "id": "story-33",
-      "rank": 33,
+      "id": "story-35",
+      "rank": 35,
       "category": "india",
       "published_iso": "2026-07-20T15:28:14+00:00",
       "added_at": "2026-07-20T22:52:56+05:30",
@@ -1817,87 +1974,115 @@
     },
     {
       "type": "story",
-      "id": "story-36",
-      "rank": 36,
-      "category": "india",
-      "published_iso": "2026-07-20T11:56:45+00:00",
-      "added_at": "2026-07-20T18:08:40+05:30",
-      "source": "ANI",
+      "id": "story-53",
+      "rank": 53,
+      "category": "f1",
+      "is_new": true,
+      "published_iso": "2026-07-21T14:34:38+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "Motorsport.com",
       "importance": "notable",
       "regions": [
-        "India"
+        "Europe"
       ],
-      "title": "India says its capital spending has jumped five-fold to ₹90.87 lakh crore over 2014-26 — the engine behind its growth story",
-      "what_happened": "On Monday, July 20, the Finance Ministry told Parliament that the Centre's 'effective' capital expenditure reached ₹90.87 lakh crore during 2014-26 — more than five times the ₹17.04 lakh crore spent in the previous decade (2004-14). Of that, ₹64.70 lakh crore was the Centre's own direct spending and ₹26.17 lakh crore was grants to states to build assets. Capex as a share of GDP rose from 1.6% in 2014-15 to 3.2% in 2023-24. ('Effective capex' bundles the Centre's own spending with the grants it gives states to build.)",
+      "title": "F1's next generation duels it out: Tsolov stretches his F2 points lead as the junior title fight tightens at Spa",
+      "what_happened": "After the Spa-Francorchamps round of the 2026 F2 season, Red Bull's Nikola Tsolov leads the drivers' standings with 161 points, built on six wins this year including a run of three in a row — a record for the series, previously only matched in its GP2-era predecessor. Alpine Academy's Gabriele Mini sits second on 134, with Ferrari Driver Academy's Rafael Camara third (125) and Alpine's Alex Dunne fourth (108).",
       "key_points": [
-        "Effective capex ₹90.87 lakh crore in 2014-26 vs ₹17.04 lakh crore in 2004-14",
-        "The Centre's own direct capex rose to ₹64.70 lakh crore",
-        "₹26.17 lakh crore of that went as grants to states",
-        "Capex as a share of GDP doubled from 1.6% to 3.2%"
+        "Red Bull junior Nikola Tsolov leads Formula 2 on 161 points, 27 clear of second place",
+        "He's won six races this season, including three in a row — a Formula 2 record",
+        "Alpine's Gabriele Mini (134), Ferrari junior Rafael Camara (125) and Alpine's Alex Dunne (108) chase him",
+        "Eight of 14 rounds are done — the standings were set after this weekend's Spa-Francorchamps round"
       ],
-      "moot": "A government can power growth by spending on assets rather than handouts — building a road employs people today and lifts the economy's productivity for decades — but it works only as long as the borrowing behind it stays affordable.",
-      "concepts": [
-        "gdp",
-        "fiscal_deficit",
-        "crore_lakh"
-      ],
-      "figures": [
-        {
-          "raw": "₹90.87 lakh crore",
-          "words": "₹90.87 trillion",
-          "usd_approx": "≈ $945bn"
-        },
-        {
-          "raw": "₹17.04 lakh crore",
-          "words": "₹17.04 trillion",
-          "usd_approx": "≈ $177bn"
-        },
-        {
-          "raw": "₹64.70 lakh crore",
-          "words": "₹64.7 trillion",
-          "usd_approx": "≈ $673bn"
-        },
-        {
-          "raw": "₹26.17 lakh crore",
-          "words": "₹26.17 trillion",
-          "usd_approx": "≈ $272bn"
-        }
-      ],
+      "moot": "In development systems — sports, corporate talent pipelines, anything with a farm-league structure — sustained, repeated dominance is what actually builds a promotion case, not a single standout result; it's the difference between 'talented' and 'ready'.",
+      "concepts": [],
+      "figures": [],
       "depth": {
-        "background": "'Capital expenditure' (capex) is money a government spends building things that last — roads, railways, ports, power lines — as opposed to day-to-day running costs or welfare handouts. Since around 2020, New Delhi has leaned hard on public capex as its main tool to drive growth, betting that building infrastructure creates jobs now and makes the whole economy more productive later. These figures were tabled in Parliament as the monsoon session got under way.",
-        "why_it_matters": "This is the government's core answer to how India kept growing near 7-8% even through global shocks and an oil spike: instead of relying on consumers or exports, the state itself became the big spender, pouring money into infrastructure. Understanding this explains a lot of India's recent economic resilience.",
-        "ripple_effects": "Heavy public building directly feeds construction, cement, steel and capital-goods companies, and the jobs they create. But there's a trade-off: every rupee of capex adds to the fiscal deficit (government borrowing), which is harder to sustain when oil is dear and the rupee is weak. The open question is whether private companies will now invest enough to take over from the government.",
-        "why_now": "The data was placed before Parliament on the opening days of the monsoon session, with the government showcasing a record it wants credit for.",
-        "watch_next": "Whether private-sector investment finally picks up the baton, and whether the government can keep capex this high given fiscal pressure from costly oil.",
-        "market_link": "Supportive for infrastructure, cement, steel and capital-goods stocks (the likes of L&T, UltraTech and Larsen peers) and for the broader 'India growth' narrative that foreign investors watch.",
+        "background": "Formula 2 is the main feeder championship directly below F1 — nearly every current F1 driver raced here first. Most F2 drivers are funded by an F1 team's junior 'academy' program (Red Bull, Ferrari, Alpine and others all run one), which pays for their seat and grooms them as a future F1 prospect. A dominant F2 season is usually the strongest evidence a young driver can present when lobbying for a real F1 seat.",
+        "why_it_matters": "F2 is effectively the audition tape for F1. A commanding, record-setting points lead like Tsolov's doesn't just win him the F2 title race — it builds his case to be the next junior promoted into a Red Bull-affiliated F1 seat, at a time when Red Bull's driver lineup and junior pipeline are already under scrutiny.",
+        "ripple_effects": "Strong academy prospects create pressure and options for their parent F1 teams: a stacked pipeline gives a team leverage in F1 driver-market negotiations (a team can credibly threaten to promote from within), while a title fight this tight among four different academies (Red Bull, Alpine x2, Ferrari) keeps rival F1 teams watching for signings they might poach.",
+        "why_now": "The Spa-Francorchamps round of F2 — run alongside this month's Belgian Grand Prix support schedule — just concluded, producing an updated mid-season points table with the title race now roughly at its midpoint (8 of 14 rounds complete).",
+        "watch_next": "Whether Tsolov can convert his points cushion into the F2 title outright before the season ends, and whether any of the four contenders gets linked to an F1 seat for 2027 as a result.",
+        "market_link": null,
         "key_terms": [
           {
-            "term": "Capital expenditure (capex)",
-            "definition": "Government spending on long-lasting assets like roads, railways and power grids, rather than on salaries, subsidies or interest."
+            "term": "Formula 2 (F2)",
+            "definition": "The top feeder motorsport series just below F1 — its champion and top finishers are the drivers F1 teams most often promote."
           },
           {
-            "term": "Lakh crore",
-            "definition": "An Indian unit for large numbers: 1 lakh crore = 1 trillion (₹90.87 lakh crore is about ₹90.87 trillion, or roughly $1.05 trillion)."
+            "term": "junior/driver academy",
+            "definition": "A program run and funded by an F1 team (e.g. Red Bull, Ferrari, Alpine) to develop young drivers it hopes to eventually promote to its F1 race seat."
           }
         ],
         "sources": [
           {
-            "name": "ANI",
-            "url": "https://aninews.in/news/business/centres-effective-capital-expenditure-rises-over-five-fold-to-rs-9087-lakh-crore-during-2014-26-govt20260720161823/"
+            "name": "Motorsport.com",
+            "url": "https://www.motorsport.com/fia-f2/news/f2-title-race-takes-shape-as-f1-juniors-shine-at-spa/10840739/"
           },
           {
-            "name": "Livemint",
-            "url": "https://www.livemint.com/news/india/centres-effective-capital-outlay-tops-rs-90-trillion-since-2014-capex-nearly-five-times-previous-decade-11784544402940.html"
+            "name": "F1ingenerale",
+            "url": "https://f1ingenerale.com/en/f1/f2-2026-standings-after-miami-tsolov-leads-drivers-campos-tops-teams-with-minis-strong-rise/"
           }
         ]
       }
     },
     {
       "type": "story",
-      "id": "story-51",
-      "rank": 51,
+      "id": "story-54",
+      "rank": 54,
       "category": "f1",
       "is_new": true,
+      "published_iso": "2026-07-21T15:41:43+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "Motorsport.com",
+      "importance": "notable",
+      "regions": [
+        "Europe"
+      ],
+      "title": "F1's rookie rule kicks in at the Hungarian GP — Piastri, Bearman and Colapinto all sit out first practice",
+      "what_happened": "At this weekend's Hungarian Grand Prix, three regular race drivers are stepping aside for Friday's first practice session to satisfy this rule. Leonardo Fornaroli, the reigning Formula 2 champion and McLaren's protégé, again takes over from Oscar Piastri. Toyota-backed Ryo Hirakawa replaces Oliver Bearman at Haas, and Paul Aron — on his third outing this year — takes Franco Colapinto's Alpine seat.",
+      "key_points": [
+        "McLaren's Oscar Piastri, Haas's Oliver Bearman and Alpine's Franco Colapinto all miss FP1 at the Hungaroring",
+        "Their seats go to juniors: Leonardo Fornaroli (McLaren), Ryo Hirakawa (Haas) and Paul Aron (Alpine)",
+        "F1 rules force every team to hand two FP1 sessions per car per year to a rookie",
+        "It's Fornaroli's second FP1 outing of 2026, Aron's third — both are proving themselves for a future seat"
+      ],
+      "moot": "Development pipelines work best when they're mandatory, not optional — left to their own incentives, teams would rarely risk seat time on unproven talent, so the rulebook forces a minimum dose of real-world testing for the next generation.",
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "F1 cars are so expensive and complex that teams almost never let an unproven driver near one in an actual race. So the sport's rulebook forces the issue: every team must give a 'rookie' — someone who has driven in two or fewer F1 races — a run in first practice (FP1) at least twice per car, every season. It's how young drivers from a team's junior academy get real seat time in a current F1 car instead of just simulators.",
+        "why_it_matters": "This is how F1 teams quietly audition their next generation of drivers without risking a race result — FP1 is a low-stakes hour where a junior can show a team (and rival teams) real pace in real conditions. A strong showing here becomes a data point in future contract negotiations.",
+        "ripple_effects": "None of this changes Sunday's race — the regular drivers return for qualifying and the grand prix itself. But it matters for the driver market: teams and rivals both watch these sessions closely, and a junior who impresses can accelerate their case for a race seat as team lineups get reshuffled for 2027.",
+        "why_now": "It's simply this weekend's turn on the rotation — teams schedule these mandatory rookie runs across the season, and the Hungarian GP weekend is when McLaren, Haas and Alpine chose to fulfil this batch of their quota.",
+        "watch_next": "Whether Fornaroli, Hirakawa or Aron post a lap time close enough to their regular teammate's pace to strengthen their case for a 2027 race seat.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "FP1",
+            "definition": "Free Practice 1 — the first, lowest-stakes practice session of a race weekend, often used to test parts or blood new drivers rather than push for outright speed."
+          },
+          {
+            "term": "F2 champion",
+            "definition": "The winner of Formula 2, the main feeder series just below F1 — most future F1 drivers prove themselves here first."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Motorsport.com",
+            "url": "https://www.motorsport.com/f1/news/piastri-colapinto-bearman-to-skip-fp1-as-rookie-drivers-join-f1-hungary-weekend/10840763/"
+          },
+          {
+            "name": "Yahoo Sports",
+            "url": "https://sports.yahoo.com/articles/piastri-colapinto-bearman-skip-fp1-154143643.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-55",
+      "rank": 55,
+      "category": "f1",
       "published_iso": "2026-07-21T11:58:44+00:00",
       "added_at": "2026-07-21T22:34:41+05:30",
       "source": "Autosport",
@@ -1955,10 +2140,9 @@
     },
     {
       "type": "story",
-      "id": "story-52",
-      "rank": 52,
+      "id": "story-56",
+      "rank": 56,
       "category": "f1",
-      "is_new": true,
       "published_iso": "2026-07-21T16:26:06+00:00",
       "added_at": "2026-07-21T22:34:41+05:30",
       "source": "Autosport",
@@ -2016,8 +2200,8 @@
     },
     {
       "type": "story",
-      "id": "story-53",
-      "rank": 53,
+      "id": "story-57",
+      "rank": 57,
       "category": "f1",
       "published_iso": "2026-07-20T11:57:27+00:00",
       "added_at": "2026-07-21T16:55:27+05:30",
@@ -2073,8 +2257,8 @@
     },
     {
       "type": "story",
-      "id": "story-54",
-      "rank": 54,
+      "id": "story-58",
+      "rank": 58,
       "category": "f1",
       "published_iso": "2026-07-21T08:25:25+00:00",
       "added_at": "2026-07-21T16:55:27+05:30",
@@ -2125,8 +2309,8 @@
     },
     {
       "type": "story",
-      "id": "story-55",
-      "rank": 55,
+      "id": "story-59",
+      "rank": 59,
       "category": "f1",
       "published_iso": "2026-07-20T18:51:52+00:00",
       "added_at": "2026-07-21T12:19:50+05:30",
@@ -2184,8 +2368,8 @@
     },
     {
       "type": "story",
-      "id": "story-56",
-      "rank": 56,
+      "id": "story-60",
+      "rank": 60,
       "category": "f1",
       "published_iso": "2026-07-19T19:03:30+00:00",
       "added_at": "2026-07-20T22:52:56+05:30",
@@ -2236,118 +2420,103 @@
     },
     {
       "type": "story",
-      "id": "story-57",
-      "rank": 57,
-      "category": "f1",
-      "published_iso": "2026-07-20T10:29:57+00:00",
-      "added_at": "2026-07-20T16:26:12+05:30",
-      "source": "GPFans",
-      "importance": "notable",
-      "regions": [
-        "Global"
-      ],
-      "title": "Mercedes has F1's fastest engine — and keeps beating itself: Wolff admits reliability is now a title threat as Verstappen rumours swirl",
-      "what_happened": "Speaking after Sunday's Belgian Grand Prix at Spa — where Russell retired from second place — Wolff conceded, 'We have the most powerful power unit, a strong car that is capable of winning,' but admitted 'we lost a lot of points to reliability.' Electrical gremlins had already knocked Antonelli out at Barcelona and Russell out of the lead in Canada. Even so, Mercedes has won seven of nine races, and its constructors'-championship lead over Ferrari has shrunk to 73 points.",
-      "key_points": [
-        "Wolff: 'We have the most powerful power unit'",
-        "But electrical failures cost wins at Barcelona, Canada and now Spa",
-        "Russell led in Canada and ran 2nd at Spa before breakdowns",
-        "Reliability doubts fuel talk of Verstappen joining Mercedes"
-      ],
-      "moot": "Over a long season, consistency beats peak performance — the fastest car that keeps failing loses to a slightly slower one that always finishes.",
-      "concepts": [],
-      "figures": [],
-      "depth": {
-        "background": "Formula 1 introduced all-new engine rules for 2026, and Mercedes appears to have built the strongest 'power unit' (the hybrid engine). But raw speed counts for nothing if the car doesn't finish — and Mercedes has repeatedly broken down while leading. Team principal Toto Wolff runs the operation; George Russell and rookie Kimi Antonelli are its drivers, with Antonelli now leading the drivers' championship.",
-        "why_it_matters": "A team can have the best car and still lose a title to its own unreliability — and that is the risk Mercedes now faces. Russell has watched near-certain wins evaporate, and the pattern is reshaping the driver market, feeding speculation that four-time champion Max Verstappen could switch to Mercedes.",
-        "ripple_effects": "Repeated failures could swing both championships as Ferrari closes in, unsettle Russell's future, and hand rivals fresh hope. Wolff says he would rather 'dial back a little bit' on performance to fix reliability than be 'slow and reliable' — a gamble on the rest of the season.",
-        "why_now": "Three high-profile breakdowns in a handful of races — capped by Russell's Spa retirement — have turned a nagging worry into F1's dominant talking point during the last week before the summer break.",
-        "watch_next": "The Hungarian Grand Prix, the final race before F1's summer shutdown, and whether Mercedes' reliability fixes finally hold.",
-        "market_link": null,
-        "key_terms": [
-          {
-            "term": "Power unit",
-            "definition": "F1's term for the complex hybrid engine — a petrol engine combined with electrical energy-recovery systems."
-          },
-          {
-            "term": "DNF",
-            "definition": "'Did not finish' — when a car retires from a race and scores no points."
-          }
-        ],
-        "sources": [
-          {
-            "name": "GPFans",
-            "url": "https://www.gpfans.com/en/f1-news/1087985/toto-wolff-admits-mercedes-best-f1-engine-fia-aduo-red-bull-uproar/"
-          },
-          {
-            "name": "Motorsport.com",
-            "url": "https://www.motorsport.com/f1/news/toto-wolff-i-stand-by-mercedes-performance-focus-but-now-we-must-sort-reliability-out/10838643/"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
-      "id": "story-58",
-      "rank": 58,
-      "category": "f1",
-      "published_iso": "2026-07-19T14:02:07+00:00",
-      "added_at": "2026-07-20T14:31:33+05:30",
-      "source": "Motorsport.com",
-      "importance": "notable",
-      "regions": [
-        "Global"
-      ],
-      "title": "Red Bull picks Tom Hart as Max Verstappen's next race engineer as long-time voice Lambiase heads for McLaren",
-      "what_happened": "Red Bull has identified Tom Hart as Verstappen's next race engineer, a name Verstappen already favoured within the team. Hart had been Verstappen's performance engineer before taking a wider role covering both Verstappen and rookie team-mate Isack Hadjar. He had been lined up to become Alex Albon's race engineer at Williams, but Red Bull persuaded Williams to reverse that transfer and keep him. Hart is expected to step up at the start of 2027, while Lambiase will move on — reportedly joining McLaren as chief racing officer in 2028, likely after a period of 'gardening leave'.",
-      "key_points": [
-        "Red Bull names Tom Hart to become Verstappen's race engineer, likely from 2027",
-        "He replaces Gianpiero 'GP' Lambiase, Verstappen's engineer since 2016",
-        "Lambiase is set to join McLaren in 2028 as chief racing officer",
-        "Red Bull blocked Hart's planned move to Williams to keep him"
-      ],
-      "moot": "In elite team sport, the people you don't see — engineers, strategists — can matter as much as the stars, which is why teams fight to keep and poach them just like they do drivers.",
-      "concepts": [],
-      "figures": [],
-      "depth": {
-        "background": "In Formula 1, the 'race engineer' is the single voice a driver hears on the radio during a race — the person who manages strategy, tyres, car settings and calm under pressure. For a decade, that voice for four-time champion Max Verstappen has been Gianpiero Lambiase ('GP'), one of the sport's most famous driver-engineer partnerships. When such a long-standing pairing changes, it's genuinely significant behind the scenes.",
-        "why_it_matters": "The bond between a driver and their race engineer can be worth tenths of a second and, in tense moments, whole results — so changing Verstappen's engineer is a delicate, high-stakes handover for the sport's benchmark driver. It also underlines the off-track talent war between teams, where engineers and strategists are poached like star players.",
-        "ripple_effects": "A smooth transition is crucial for Verstappen's title hopes; any early friction on strategy calls could cost points. Lambiase's future move to McLaren strengthens a rival, and the reshuffle reshapes Red Bull's engineering room around Verstappen and Hadjar.",
-        "why_now": "The plan surfaced over the Belgian Grand Prix weekend as teams finalise their 2027 line-ups; Hart has already had a trial run in the role during a recent filming day.",
-        "watch_next": "When Hart officially takes over on the pit wall and how quickly he and Verstappen click on race-day strategy calls.",
-        "market_link": null,
-        "key_terms": [
-          {
-            "term": "Race engineer",
-            "definition": "The team member who talks to an F1 driver by radio during a race, managing strategy, car settings and tyres."
-          },
-          {
-            "term": "Gardening leave",
-            "definition": "A paid break a departing employee serves before joining a rival, to keep fresh secrets from crossing over."
-          }
-        ],
-        "sources": [
-          {
-            "name": "Motorsport.com",
-            "url": "https://www.motorsport.com/f1/news/red-bull-names-successor-to-max-verstappens-race-engineer-lambiase/10840174/"
-          },
-          {
-            "name": "Crash.net",
-            "url": "https://www.crash.net/f1/news/1101393/1/red-bull-chooses-max-verstappens-new-f1-race-engineer-after-gianpiero-lambiase"
-          },
-          {
-            "name": "RacingNews365",
-            "url": "https://racingnews365.com/red-bull-appoint-new-max-verstappen-race-engineer-after-gianpiero-lambiase-exit"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
       "id": "story-41",
       "rank": 41,
       "category": "cricket",
       "is_new": true,
+      "published_iso": "2026-07-21T17:38:41+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "BBC Sport",
+      "importance": "high",
+      "regions": [
+        "England"
+      ],
+      "title": "Ben Stokes marks his return from Test retirement with a stunning comeback century for Durham",
+      "what_happened": "Playing for Durham against Derbyshire in the One-Day Cup at Derby on 21 July, Stokes made his first appearance in competitive cricket since retiring from Tests. Despite carrying a leg injury, he produced a matchwinning century that carried Durham to victory, drawing a crowd of around 1,300 to a domestic fixture that would normally attract far less attention.",
+      "key_points": [
+        "First competitive innings since retiring from Test cricket",
+        "Battled a leg injury to score a matchwinning hundred",
+        "Powered Durham to victory over Derbyshire in the One-Day Cup",
+        "His innings overshadowed The Hundred's opening night the same evening"
+      ],
+      "moot": "Even elite athletes manage career transitions gradually — stepping back from the highest-pressure format doesn't mean stepping away from the sport, and a 'small' domestic match can carry outsized weight when a big name is involved.",
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "Ben Stokes, England's Test captain and one of the sport's biggest names since his match-winning heroics in the 2019 World Cup final, recently stepped away from Test cricket. Durham is his boyhood county, and rather than featuring in this year's Hundred (English cricket's flagship T20 franchise league), he chose to return to the game through the more traditional 50-over County format — a lower-key stage for such a high-profile comeback.",
+        "why_it_matters": "Stokes stepping back from Tests reshapes England's leadership and batting order in the format he has anchored for years, so how and where he chooses to keep playing signals what the next phase of his career looks like — and whether a white-ball or franchise-focused future is next.",
+        "ripple_effects": "England's selectors now have to plan their Test captaincy and all-rounder balance without him. For Durham, having a fit, in-form Stokes available for white-ball cricket is a major boost. And the innings pulled attention away from The Hundred's launch night, a reminder of how much pull Stokes still has even in a low-profile competition.",
+        "why_now": "The comeback fell on the same night The Hundred kicked off its 2026 season, so a domestic One-Day Cup match ended up stealing the spotlight from English cricket's biggest showpiece launch.",
+        "watch_next": "Whether Stokes plays further One-Day Cup fixtures for Durham, and any signal on a white-ball recall for England.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "One-Day Cup",
+            "definition": "England's domestic 50-over county competition — a lower-profile format than the Hundred or international cricket, often used by players to build match fitness."
+          }
+        ],
+        "sources": [
+          {
+            "name": "BBC Sport",
+            "url": "https://www.bbc.co.uk/sport/cricket/articles/cd0xedekm7no?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "name": "ESPNcricinfo",
+            "url": "https://www.cricinfo.com/ci/content/story/1546490.html?ex_cid=OTC-RSS"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-42",
+      "rank": 42,
+      "category": "cricket",
+      "is_new": true,
+      "published_iso": "2026-07-21T18:13:32+00:00",
+      "added_at": "2026-07-21T23:57:00+05:30",
+      "source": "ESPNcricinfo",
+      "importance": "notable",
+      "regions": [
+        "Afghanistan"
+      ],
+      "title": "Hashmatullah Shahidi resigns as Afghanistan's ODI captain",
+      "what_happened": "ESPNcricinfo reported on 21 July that Shahidi has resigned as Afghanistan's ODI captain, ending a tenure in which he led the side in 55 ODIs. The report did not detail his reasoning, and the Afghanistan Cricket Board has not yet named who will replace him.",
+      "key_points": [
+        "Steps down after leading Afghanistan in 55 One Day Internationals (ODIs)",
+        "His reign included famous 2023 World Cup wins over England, Pakistan and Sri Lanka",
+        "Comes weeks after Ibrahim Zadran replaced Rashid Khan as Afghanistan's T20I captain",
+        "Afghanistan Cricket Board has not yet named a successor"
+      ],
+      "moot": "Even a captain who delivers historic results can step aside — team leadership isn't just about win-loss record, and abrupt changes at the top ripple through team culture and short-term form regardless of past success.",
+      "concepts": [],
+      "figures": [],
+      "depth": {
+        "background": "Hashmatullah Shahidi, a steady middle-order batter, took over as Afghanistan's ODI and Test captain in 2021 after the board removed Asghar Afghan. Under him, Afghanistan grew from a plucky underdog into a genuine 50-over threat, peaking at the 2023 World Cup in India where they beat three former champions — England, Pakistan and Sri Lanka — a run that put the cricket world on notice. That rise has come alongside broader turbulence in Afghan cricket leadership: after the team crashed out in the group stage of the 2026 T20 World Cup, the board already replaced Rashid Khan with Ibrahim Zadran as T20I captain.",
+        "why_it_matters": "Shahidi wasn't just a figurehead — he was the settled leader behind Afghanistan's biggest 50-over upsets, and losing that continuity right after a T20I captaincy change means the team now faces a leadership reset across two formats at once.",
+        "ripple_effects": "The board must now pick a new ODI captain from a thin pool of experienced options — vice-captain Rahmat Shah and star all-rounder Rashid Khan are the obvious names in the frame. A leadership vacuum this close to Afghanistan's next ODI assignments could unsettle a squad that had built real momentum since 2023.",
+        "why_now": "The resignation lands weeks after Afghanistan's early 2026 T20 World Cup exit already forced a T20I captaincy change, suggesting the board and senior players are reassessing leadership across the board rather than treating it as one isolated call.",
+        "watch_next": "Who the Afghanistan Cricket Board names as the next ODI captain, and whether Shahidi stays on purely as a batter.",
+        "market_link": null,
+        "key_terms": [
+          {
+            "term": "ODI (One Day International)",
+            "definition": "A form of international cricket where each team bats for a maximum of 50 overs — cricket's flagship 'one-day' format, distinct from multi-day Tests or short T20s."
+          }
+        ],
+        "sources": [
+          {
+            "name": "ESPNcricinfo",
+            "url": "https://www.cricinfo.com/ci/content/story/1546946.html?ex_cid=OTC-RSS"
+          }
+        ]
+      }
+    },
+    {
+      "type": "story",
+      "id": "story-43",
+      "rank": 43,
+      "category": "cricket",
       "published_iso": "2026-07-21T14:24:12+00:00",
       "added_at": "2026-07-21T22:34:41+05:30",
       "source": "ESPNcricinfo",
@@ -2397,10 +2566,9 @@
     },
     {
       "type": "story",
-      "id": "story-42",
-      "rank": 42,
+      "id": "story-44",
+      "rank": 44,
       "category": "cricket",
-      "is_new": true,
       "published_iso": "2026-07-21T16:27:09+00:00",
       "added_at": "2026-07-21T22:34:41+05:30",
       "source": "BBC Sport",
@@ -2451,8 +2619,8 @@
     },
     {
       "type": "story",
-      "id": "story-43",
-      "rank": 43,
+      "id": "story-45",
+      "rank": 45,
       "category": "cricket",
       "published_iso": "2026-07-21T02:12:02+00:00",
       "added_at": "2026-07-21T12:19:50+05:30",
@@ -2508,8 +2676,8 @@
     },
     {
       "type": "story",
-      "id": "story-44",
-      "rank": 44,
+      "id": "story-46",
+      "rank": 46,
       "category": "cricket",
       "development": true,
       "prev_ref": {
@@ -2570,8 +2738,8 @@
     },
     {
       "type": "story",
-      "id": "story-45",
-      "rank": 45,
+      "id": "story-47",
+      "rank": 47,
       "category": "cricket",
       "published_iso": "2026-07-20T10:42:15+00:00",
       "added_at": "2026-07-20T16:26:12+05:30",
@@ -2623,8 +2791,8 @@
     },
     {
       "type": "story",
-      "id": "story-46",
-      "rank": 46,
+      "id": "story-48",
+      "rank": 48,
       "category": "cricket",
       "published_iso": "2026-07-19T23:21:12+00:00",
       "added_at": "2026-07-20T14:31:33+05:30",
@@ -2675,151 +2843,32 @@
       }
     },
     {
-      "type": "story",
-      "id": "story-47",
-      "rank": 47,
-      "category": "cricket",
-      "development": true,
-      "prev_ref": {
-        "title": "England pile up 387/3 in the Lord's ODI decider — India face a huge chase, and Rohit Sharma's future is on the line",
-        "date": null
-      },
-      "published_iso": "2026-07-19T19:17:01+00:00",
-      "added_at": "2026-07-20T12:38:24+05:30",
-      "source": "BBC Sport",
-      "importance": "notable",
-      "regions": [
-        "England",
-        "India"
-      ],
-      "title": "England beat India by 27 runs at Lord's to take the ODI series 2-1 — Duckett's record 141 trumps Rohit's 138",
-      "what_happened": "Batting first, England piled up 387 for 3 — the highest ODI total ever made at Lord's — powered by opener Ben Duckett's record-breaking 141. Chasing 388 to win, India came up 27 runs short, finishing on 360, despite a superb 138 from Rohit Sharma. England's bowlers 'refused to blink' to close out the 27-run win and take the series 2-1 — their first ODI series victory over India since 2018. Afterwards, a defiant Rohit dismissed speculation about retirement: 'Let the noise be there... No noise, no fun.'",
-      "key_points": [
-        "England posted 387/3 — the highest-ever ODI total at Lord's",
-        "Ben Duckett hit a record 141; India fell 27 short despite Rohit's 138",
-        "England's first ODI series win over India since 2018",
-        "Rohit Sharma brushes off retirement talk: 'Let the noise be there'"
-      ],
-      "moot": "A standout individual performance doesn't guarantee a team result — Rohit's century and Duckett's record both happened, but the match turned on the 27 runs India's chase fell short by.",
-      "thread": {
-        "previously": "Yesterday we reported England had piled up a mammoth 387/3 in the Lord's decider, leaving India a huge chase with Rohit Sharma's future in the spotlight.",
-        "changed": "The chase fell 27 runs short (India 360): England won the match and the series 2-1 — their first over India since 2018 — while Rohit made 138 and afterward brushed off retirement talk."
-      },
-      "concepts": [],
-      "figures": [],
-      "depth": {
-        "background": "This was the decider of a three-match one-day international (ODI) series between England and India, level at 1-1: India had won the opener at Edgbaston, England hit back at Cardiff. It was played at Lord's in London — cricket's most famous ground. Extra spotlight fell on India captain Rohit Sharma, 38, whose place in the side and long-term future had been openly questioned going into the match.",
-        "why_it_matters": "It ends India's recent dominance in this fixture and hands England bragging rights and momentum in the 50-over format. For India, losing a decider they might have won — with the captain scoring a century in a losing cause — sharpens the debate about the team's direction and Rohit's role ahead of major tournaments. Rohit's pointed response signals he intends to keep playing.",
-        "ripple_effects": "England's batting record (387 at Lord's) and Duckett's form boost their confidence heading into future ODI contests. India's selectors face fresh questions about balance, fitness and succession planning. And the 'will Rohit retire?' storyline — now publicly rejected by the player — will keep running through India's build-up to the next big ICC event.",
-        "why_now": "The series decider was played on Sunday, July 19; the result and Rohit's post-match comments came through Sunday evening into Monday, which is why it's the top cricket story right now.",
-        "watch_next": "India's team announcement and captaincy signals for their next assignment — and whether Rohit is retained and in what role.",
-        "market_link": null,
-        "key_terms": [
-          {
-            "term": "ODI",
-            "definition": "One-Day International — a limited-overs cricket match of 50 overs per side, completed in a single day."
-          },
-          {
-            "term": "Decider",
-            "definition": "The final, series-deciding match when the teams are level; the winner takes the series."
-          }
-        ],
-        "sources": [
-          {
-            "name": "BBC Sport",
-            "url": "https://www.bbc.co.uk/sport/cricket/articles/cglj4n91744o"
-          },
-          {
-            "name": "ESPNcricinfo",
-            "url": "https://www.cricinfo.com/ci/content/story/1546247.html"
-          },
-          {
-            "name": "Indian Express",
-            "url": "https://indianexpress.com/article/sports/cricket/no-noise-fun-rohit-sharma-dismisses-retirement-rumour-lords-ton-10794688/"
-          }
-        ]
-      }
-    },
-    {
-      "type": "story",
-      "id": "story-48",
-      "rank": 48,
-      "category": "cricket",
-      "published_iso": "2026-07-19T15:28:05+00:00",
-      "added_at": "2026-07-19T22:46:32+05:30",
-      "source": "ESPNcricinfo (match report)",
-      "importance": "notable",
-      "regions": [
-        "Zimbabwe",
-        "Bangladesh"
-      ],
-      "title": "Bangladesh come from behind to clinch the T20 series in Zimbabwe — Tanzid Hasan's unbeaten 66 seals a nervy chase",
-      "what_happened": "Chasing Zimbabwe's 143 for 7, Bangladesh reached 144 for 6 with two balls to spare to win by four wickets and take the series 2-1 — their first T20I series win of 2026. Opener Tanzid Hasan held the innings together with an unbeaten 66 off 58 balls, his 13th T20I fifty. The finish was dramatic: an umpire's 'dead ball' call (ruling a delivery void because a fielder was moving illegally) denied Zimbabwe's Brad Evans a hat-trick, and Mahedi Hasan struck the winning boundary.",
-      "key_points": [
-        "Bangladesh won the decider by 4 wickets to take the series 2-1",
-        "They fought back after losing the opening match",
-        "Tanzid Hasan anchored the chase with an unbeaten 66",
-        "A controversial 'dead ball' denied Zimbabwe's Evans a hat-trick"
-      ],
-      "moot": "Short-format cricket rewards nerve at the death: a single steady innings (Tanzid's unbeaten 66) and one contentious umpiring call can be the difference between winning and losing a whole series.",
-      "concepts": [],
-      "figures": [],
-      "depth": {
-        "background": "Bangladesh and Zimbabwe were playing a three-match Twenty20 International (T20I) series in Bulawayo, Zimbabwe. T20 is cricket's shortest, fastest format — 20 overs a side — and a three-match series is decided by whoever wins two. Bangladesh had lost the first game, meaning the third and final match was a winner-takes-all decider.",
-        "why_it_matters": "For a Bangladesh side that has been inconsistent, bouncing back from 1-0 down to win a series away from home is a confidence boost and a sign of composure under pressure. Series wins abroad are exactly the results teams point to when building toward bigger tournaments.",
-        "ripple_effects": "Momentum and rankings points from an overseas series win help Bangladesh's standing in the T20I pecking order and give selectors reasons to back their in-form batters. For Zimbabwe, losing a series they led stings and raises questions about closing out tight games.",
-        "why_now": "The result came Sunday, July 19, in the series-deciding third T20I in Bulawayo.",
-        "watch_next": "Whether Bangladesh can carry this away-series momentum into their next assignments — and how Zimbabwe respond after letting a lead slip.",
-        "market_link": null,
-        "key_terms": [
-          {
-            "term": "T20I (Twenty20 International)",
-            "definition": "A short form of cricket where each team faces just 20 overs (120 balls), designed to be fast and high-scoring."
-          },
-          {
-            "term": "Dead ball",
-            "definition": "A delivery the umpire rules void — it doesn't count, and no runs or wickets from it stand — often because something illegal or disruptive happened as it was bowled."
-          }
-        ],
-        "sources": [
-          {
-            "name": "ESPNcricinfo (match report)",
-            "url": "https://www.espncricinfo.com/series/bangladesh-in-zimbabwe-2026-1538288/zimbabwe-vs-bangladesh-3rd-t20i-1538303/match-report"
-          },
-          {
-            "name": "ESPNcricinfo (scorecard)",
-            "url": "https://www.espncricinfo.com/series/bangladesh-in-zimbabwe-2026-1538288/zimbabwe-vs-bangladesh-3rd-t20i-1538303/full-scorecard"
-          }
-        ]
-      }
-    },
-    {
       "type": "archive",
       "id": "archive-global",
       "category": "geopolitics",
       "region": "global",
-      "older_count": 107
+      "older_count": 108
     },
     {
       "type": "archive",
       "id": "archive-india",
       "category": "india",
       "region": "india",
-      "older_count": 103
+      "older_count": 104
     },
     {
       "type": "archive",
       "id": "archive-f1",
       "category": "f1",
       "region": "f1",
-      "older_count": 9
+      "older_count": 11
     },
     {
       "type": "archive",
       "id": "archive-cricket",
       "category": "cricket",
       "region": "cricket",
-      "older_count": 7
+      "older_count": 9
     },
     {
       "type": "outro",
